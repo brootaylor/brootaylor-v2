@@ -10,6 +10,7 @@ It's kind of an evolutionary piece of work that'll hopefully turn out to be some
    * [Eleventy](https://www.11ty.io/)
    * [Sergey](https://sergey.cool/)
 2. Don't use a task builder abstraction like Grunt or Gulp. Just use NPM.
+   * There may be a more up-to-date article but this [using npm as a build system](https://medium.com/@drublic/using-npm-as-a-build-system-for-your-next-project-2c741e9381eb) article is a good starting point
 3. Use *newer* CSS methods like...
    * [Custom CSS Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*)
    * [Variable fonts](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide)
