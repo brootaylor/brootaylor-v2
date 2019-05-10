@@ -1,6 +1,8 @@
 # Bruce Taylor's website (v2)
 
-This is *version 2* of my personal website. It's kind of an evolutionary piece of work that'll hopefully turn out to be something decent in the end. I intend to bump my head and learn a few things along the way.
+This is *version 2* of my personal website.
+
+It's kind of an evolutionary piece of work that'll hopefully turn out to be something decent in the end. I intend to bump my head and learn a few things along the way.
 
 ## Things I'd like to do
 
