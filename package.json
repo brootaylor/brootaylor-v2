@@ -1,0 +1,23 @@
+{
+  "name": "brootaylor-v2",
+  "version": "1.0.0",
+  "description": "Version 2 of my personal website, brootaylor.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brootaylor/brootaylor-v2.git"
+  },
+  "keywords": [
+    "personal",
+    "blog"
+  ],
+  "author": "Bruce Taylor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brootaylor/brootaylor-v2/issues"
+  },
+  "homepage": "https://github.com/brootaylor/brootaylor-v2#readme"
+}
