@@ -14,6 +14,7 @@ It's kind of an evolutionary piece of work that'll hopefully turn out to be some
    * [Custom CSS Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*)
    * [Variable fonts](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide)
    * [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
+        - [Inspiration example](https://andy-bell.design/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/)
 4. Use a [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API).
    - *I use a service worker on my current site but may try to enhance this implemenation*
 5. Maybe try integrating [Fractal](https://fractal.build/) into the component build process
