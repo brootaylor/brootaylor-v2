@@ -7,7 +7,7 @@ It's kind of an evolutionary piece of work that'll hopefully turn out to be some
 ## Things I'd like to do
 
 1. Build it using a Static Site Generator (SSG) of sorts. Considering...
-   * [Eleventy](https://www.11ty.io/) => ()
+   * [Eleventy](https://www.11ty.io/) ✔️
    * ~~[Sergey](https://sergey.cool/)~~
 2. I don't want to use a task builder abstraction like Grunt or Gulp (if I can!). I just want to use NPM scripts as much as I can.
    * There may be a more up-to-date article but this [using npm as a build system](https://medium.com/@drublic/using-npm-as-a-build-system-for-your-next-project-2c741e9381eb) article is a good starting point
