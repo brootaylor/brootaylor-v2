@@ -1,5 +1,7 @@
 # Bruce Taylor's website (v2)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/712367e5-7510-4813-9a24-5805f092cfa1/deploy-status)](https://app.netlify.com/sites/brootaylorv2/deploys)
+
 This is *version 2* of my personal website.
 
 It's kind of an evolutionary piece of work that'll hopefully turn out to be something decent in the end. I intend to bump my head and learn a few things along the way. I going to try my best to enjoy the process rather than just the finished product.
