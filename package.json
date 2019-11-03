@@ -14,7 +14,10 @@
     "personal-website",
     "blog"
   ],
-  "author": "Bruce Taylor",
+  "author": {
+    "name": "Bruce Taylor",
+    "url": "https://brootaylor.com/"
+  },
   "license": "SEE LICENSE IN LICENSE",
   "scripts": {
     "clean": "rimraf www && mkdir www",
