@@ -1,0 +1,42 @@
+/* ==========================================================================
+   Video (Global).
+   ========================================================================== */
+
+
+////////////////////////
+// VIDEO
+////////////////////////
+
+.video {
+    margin: pxToEm(15px 0, $font-size-base);
+}
+.video__inner {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+}
+
+.aspect-ratio__4-3 {
+  .video__inner {
+    // Refined this value but it may still need some work
+    padding-bottom: 75%; /* 4:3 */
+  }
+}
+
+.aspect-ratio__21-9 {
+  .video__inner {
+    // Refined this value but it may still need some work
+    padding-bottom: 42.86%; /* 21:9 */
+  }
+}
+
+////////////////////////////////////////////////////////////////

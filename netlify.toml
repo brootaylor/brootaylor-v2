@@ -1,0 +1,61 @@
+# Build commands
+[build]
+  command = "npm run build"
+  publish = "www"
+#   functions = "src/functions"
+#   NODE_ENV = "10.15.3"
+
+# Default site wide settings
+# https://docs.netlify.com/configure-builds/file-based-configuration/#post-processing
+# If skip_processing = true, all other settings are ignored
+[build.processing]
+  skip_processing = false
+[build.processing.html]
+  pretty_urls = true
+[build.processing.css]
+  bundle = false
+  minify = false
+[build.processing.js]
+  bundle = false
+  minify = false
+[build.processing.images]
+  compress = false
+
+# dev commands
+[dev]
+  command = "npm run watch"
+
+# Headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Referrer-Policy = "no-referrer, strict-origin-when-cross-origin"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    X-XSS-Protection = "1; mode=block"
+
+[[headers]]
+  for = "/*.ico"
+  [headers.values]
+    Content-Type = "image/x-icon"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Content-Type = "text/javascript; charset=utf-8"
+
+[[headers]]
+  for = "/*.json"
+  [headers.values]
+    Content-Type = "application/json; charset=utf-8"
+
+# Redirect rules
+# [[redirects]]
+#     from = "http://wedgwooddesign.netlify.com/*"
+#     to = "http://wedgwooddesign.com/:splat"
+
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404

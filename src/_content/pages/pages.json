@@ -1,0 +1,8 @@
+{
+    "layout" : "layouts/default.njk",
+    "language" : "en-gb",
+    "permalink": "{{ page.fileSlug }}.html",
+    "changefreq": "yearly",
+    "priority": "0.2",
+    "hidden": "false"
+}

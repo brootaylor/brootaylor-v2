@@ -1,0 +1,151 @@
+/* ==========================================================================
+   Links (Global).
+   ========================================================================== */
+
+
+/* LINK VARIABLES
+============================================= */
+
+// NOTE: Primary links render the default link mixin values
+
+// Secondary links
+$link-secondary-color: $link-secondary;
+$link-secondary-color-hover: lighten($link-secondary, 10%);
+$link-secondary-decoration: underline;
+$link-secondary-decoration-hover: none;
+
+// Tertiary links
+$link-tertiary-color: $link-tertiary;
+$link-tertiary-color-hover: lighten($link-tertiary, 10%);
+$link-tertiary-decoration: none;
+$link-tertiary-decoration-hover: underline;
+
+
+/* LINK MIXIN
+============================================= */
+
+@mixin links($color: $link-primary, $color-hover: lighten($link-primary, 5%), $text-decoration: underline, $text-decoration-hover: underline) {
+    color: $color;
+    
+    text-decoration: $text-decoration;
+
+    // Link states
+    &:hover,
+    &:active,
+    &:focus {
+        color: $color-hover;
+        text-decoration: $text-decoration-hover;
+    }
+}
+
+/* LINK PLACEHOLDER FOR STANDALONE TYPE LINKS
+============================================== */
+
+%link-standalone {
+    position: relative;
+    padding-left: pxToEm(10px, $font-size-base);
+
+        &:after {
+            left: 0;
+            top: 50%;
+            border: solid transparent;
+            content: " ";
+            height: 0;
+            width: 0;
+            position: absolute;
+            pointer-events: none;
+            border-left-color: $link-primary;
+            border-width: 4px;
+            margin-top: pxToEm(-4px, $font-size-base);
+        }
+}
+
+///////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////
+
+ 
+/* LINKS
+============================================= */
+
+a {
+    // Primary links (default values)
+    @include links;
+    transition: color .25s ease-in-out;
+}
+
+// Secondary links
+.link__secondary,
+.link__standalone--secondary,
+.link__list--secondary a {
+    @include links($link-secondary-color, $link-secondary-color-hover, $link-secondary-decoration, $link-secondary-decoration-hover);
+}
+
+// Tertiary links
+.link__tertiary,
+.link__standalone--tertiary,
+.link__list--tertiary a {
+    @include links($link-tertiary-color, $link-tertiary-color-hover, $link-tertiary-decoration, $link-tertiary-decoration-hover);
+}
+
+////////////////////////////////////////////////
+
+// Standalone type links
+/////////////////////////
+
+a {
+    // Links with the class beginning with...
+    &[class^="link__standalone"] {
+        @extend %link-standalone;
+    }
+
+    // Links with class containing...
+    &[class*="standalone--secondary"] {
+        &:after {
+            border-left-color: $link-secondary-color;
+        }
+    }
+
+    // Links with class containing...
+    &[class*="standalone--tertiary"] {
+        &:after {
+            border-left-color: $link-tertiary-color;
+        }
+    }
+
+}
+
+
+// Links in a list
+///////////////////
+
+// Primary links (default values)
+.link__list {
+    list-style-type: none;
+    padding: 0;
+
+        li {
+            margin-bottom: pxToEm(5px, $font-size-base);
+        }
+
+        a {
+            @extend %link-standalone;
+        }
+
+}
+
+// Secondary links
+.link__list--secondary {
+    a:after {
+        border-left-color: $link-secondary-color;
+    }
+}
+
+// Tertiary links
+.link__list--tertiary {
+    a:after {
+        border-left-color: $link-tertiary-color;
+    }
+}
+
+////////////////////////////////////////////////
+
