@@ -1,0 +1,28 @@
+/* ==========================================================================
+   Masthead styles (eg. Logo, strapline & main navigation / menu).
+   ========================================================================== */
+
+
+#masthead {
+	position: relative;
+	margin-top: pxToEm(15px, $font-size-base);
+	margin-bottom: pxToEm(30px, $font-size-base);
+}
+
+.logo {
+	img {
+		display: inherit;
+		max-width: 100px;
+		margin: pxToEm(0 10px 10px 0, $font-size-base);
+		vertical-align: middle;
+	}
+
+	h1 {
+		display: inherit;
+		margin: pxToEm(0, $font-size-base);
+		vertical-align: middle;
+		@include fontSize(24px);
+	}
+}
+
+///////////////////////////////////////////////////////////////////////////////////////

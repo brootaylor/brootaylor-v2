@@ -1,0 +1,48 @@
+
+/* ==========================================================================
+   Various Placeholders (Global).
+   ========================================================================== */
+
+
+// Unlike mixins, placeholders can be used multiple times without adding any duplicate code. This makes them a much friendlier option for outputting DRY CSS:
+
+
+/////////////////
+// An example...
+/////////////////
+
+
+
+%bg-image {
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ 
+// Implementation Example:
+// =======================
+// .image-one {
+//     @extend %bg-image;
+//     background-image:url(/img/image-one.jpg);
+// }
+ 
+// .image-two {
+//     @extend %bg-image;
+//     background-image:url(/img/image-two.jpg);
+// }
+
+
+/*
+
+The repeated code in the placeholder is outputted only once with only the unique styles being applied to the individual selectors. If unused, the placeholder styles are not output at all.
+
+Tying in with mixins, placeholders can be used alongside mixins to reduce duplicate code and still keep the flexibility of a mixin.
+
+*/
+
+
+ 
+
+//////////////////////////////////////////////////////////////////////////////////////
+

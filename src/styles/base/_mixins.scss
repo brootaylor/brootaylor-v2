@@ -1,0 +1,280 @@
+/* ==========================================================================
+   Various Mixins (Global).
+   ========================================================================== */
+
+
+
+/////////////////////
+// 'Hamburger' icons
+/////////////////////
+
+/**
+ * Burger parts
+ *
+ * (---) top    -> &:before
+ * [---] middle -> &
+ * (---) bottom -> &:after
+
+// =====================================================================================
+// Huge thank you to Joren Van Hee, http://joren.co, for creating and sharing this code
+// =====================================================================================
+
+ */
+
+
+/**
+ * Burger
+ */
+
+@mixin burger($width: 30px, $height: 5px, $gutter: 3px, $color: #000, $border-radius: 0, $transition-duration: .3s) {
+    $burger-height: $height !global;
+    $burger-gutter: $gutter !global;
+
+    position: relative;
+    margin-top: $height + $gutter;
+    margin-bottom: $height + $gutter;
+
+    &, &:before, &:after {
+        display: block;
+        width: $width;
+        height: $height;
+        background-color: $color;
+        @if $border-radius != 0 {
+            border-radius: $border-radius;
+        }
+        
+        -webkit-transition-property: background-color, -webkit-transform;
+        -moz-transition-property: background-color, -moz-transform;
+        -o-transition-property: background-color, -o-transform;
+        transition-property: background-color, transform;
+
+        -webkit-transition-duration: $transition-duration;
+        -moz-transition-duration: $transition-duration;
+        -o-transition-duration: $transition-duration;
+        transition-duration: $transition-duration;
+    }
+
+    &:before, &:after {
+        position: absolute;
+        content: "";
+    }
+
+    &:before {
+        top: -($height + $gutter);
+    }
+
+    &:after {
+        top: $height + $gutter;
+    }
+}
+
+
+/**
+ * Select parts of the burger
+ */
+
+@mixin burger-parts {
+    &, &:before, &:after {
+        @content;
+    }
+}
+
+@mixin burger-top {
+    &:before {
+        @content;
+    }
+}
+
+@mixin burger-middle {
+    & {
+        @content;
+    }
+}
+
+@mixin burger-bottom {
+    &:after {
+        @content;
+    }
+}
+
+
+/**
+ * Burger animations
+ */
+
+@mixin burger-to-cross {
+    & {
+        background-color: transparent;
+    }
+    &:before {
+        -webkit-transform: translateY($burger-gutter + $burger-height) rotate(45deg);
+        -moz-transform: translateY($burger-gutter + $burger-height) rotate(45deg);
+        -ms-transform: translateY($burger-gutter + $burger-height) rotate(45deg);
+        -o-transform: translateY($burger-gutter + $burger-height) rotate(45deg);
+        transform: translateY($burger-gutter + $burger-height) rotate(45deg);
+    }
+    &:after {
+        -webkit-transform: translateY(-($burger-gutter + $burger-height)) rotate(-45deg);
+        -moz-transform: translateY(-($burger-gutter + $burger-height)) rotate(-45deg);
+        -ms-transform: translateY(-($burger-gutter + $burger-height)) rotate(-45deg);
+        -o-transform: translateY(-($burger-gutter + $burger-height)) rotate(-45deg);
+        transform: translateY(-($burger-gutter + $burger-height)) rotate(-45deg);
+    }
+}
+
+// Generic values. Site-specific values are in the _navigation partial
+.menu-button--icon {
+  @include burger(35px, 3px, 5px, #444);
+}
+
+.menu-button.is-active .menu-button--icon {
+  @include burger-to-cross;
+}
+
+// ===================================================================================================
+
+
+//////////////////////////
+// Media queries (Global)
+//////////////////////////
+
+// Resource => http://sassbreak.com/flexible-media-query-mixins/
+// >> The reason for going with ems, (slight edge on rems cause of Safari support issues), rather than pixels for media queries => http://zellwk.com/blog/media-query-units/
+
+
+// Global breakpoint variables (customisable)
+// ==========================================
+$bp-xl: 1200px;
+$bp-l: 960px;
+$bp-m: 840px;
+$bp-s: 640px;
+$bp-xs: 480px;
+
+// Min-width breakpoint
+@mixin break-point-min($bp, $min-max: min-width) {
+  $em: $bp/$font-size-base;
+  @media(#{$min-max}: #{$em}em) { @content; }
+}
+// Max-width breakkpoint
+@mixin break-point-max($bp, $min-max: max-width) {
+  $em: $bp/$font-size-base;
+  @media(#{$min-max}: #{$em}em) { @content; }
+}
+
+// Implementation Examples - (converts to em value):
+// ================================================
+
+// Using a min-width global breakpoint variable
+// .element {
+//   @include break-point-min($bp-xl) {
+//     /* Blah blah... */
+//   }
+// }
+
+// // Using a max-width global breakpoint variable
+// .elementB {
+//   @include break-point-max($bp-l) {
+//     /* Blah blah... */
+//   }
+// }
+
+// // Using a specific value
+// .elementC {
+//   @include break-point-min(560px) {
+//     /* Blah blah... */
+//   }
+// }
+
+// ===================================================================================================
+
+//////////////
+// Box Shadow
+//////////////
+
+@mixin box-shadow ($angle:0px, $distance:5px, $blur:0px, $spread:-1px, $red:0, $green:0, $blue:0, $opacity:1) {
+	-webkit-box-shadow: $angle $distance $blur $spread rgba($red, $green, $blue, $opacity);
+	-moz-box-shadow:    $angle $distance $blur $spread rgba($red, $green, $blue, $opacity);
+	box-shadow:         $angle $distance $blur $spread rgba($red, $green, $blue, $opacity);
+}
+
+// ===================================================================================================
+
+
+///////////////
+// Transitions
+///////////////
+
+// ===================================================================================================
+// >>>>> Use this effect when resizing browser ie. Fonts and images transition to the next size. <<<<<
+// ===================================================================================================
+
+@mixin transition($args...) {
+ -webkit-transition: $args;
+ -moz-transition: $args;
+ -ms-transition: $args;
+ -o-transition: $args;
+ transition: $args;
+}
+
+// Implementation Example:
+// =======================
+// a {
+//  color: #333;
+//  @include transition(color .25s ease-in-out);
+//  &:hover {color: #000;}
+//  &:active {color: #555;}
+// }
+
+// ===================================================================================================
+
+///////////////
+// Opacity
+///////////////
+
+@mixin opacity($opacity) {
+ opacity: $opacity;
+ filter: alpha(opacity=$opacity*100);
+}
+
+// Implementation Example:
+// =======================
+// .thumbnail {
+//  width: 48px;
+//  height: 48px;
+//  @include opacity(.5);
+// }
+
+// ===================================================================================================
+
+/////////////////
+// Retina images
+/////////////////
+
+@mixin background-image-retina($file, $type, $width, $height) {
+ background-image: url($file + '.' + $type);
+ @media only screen and (-webkit-min-device-pixel-ratio: 2),
+ only screen and (-moz-min-device-pixel-ratio: 2),
+ only screen and (-o-min-device-pixel-ratio: 2/1),
+ only screen and (min-device-pixel-ratio: 2),
+ only screen and (min-resolution: 192dpi),
+ only screen and (min-resolution: 2dppx){
+  & {
+   background-image: url($file + '@2x.' + $type);
+   -webkit-background-size: $width $height;
+   -moz-background-size: $width $height;
+   -o-background-size: $width $height;
+   background-size: $width $height;
+  }
+ }
+}
+
+// Implementation Example:
+// =======================
+// .img {
+//  width: 760px;
+//  height: 400px;
+//  @include background-image-retina(monkey, png, 760px, 400px);
+// }
+
+// ===================================================================================================
+

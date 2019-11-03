@@ -1,0 +1,40 @@
+/* ==========================================================================
+   Image assets (Global).
+   ========================================================================== */
+
+////////////////////////
+// IMAGERY
+////////////////////////
+
+// Standard image positioning - if class begins with "img-"
+[class^="img-"] {
+  display: block;
+}
+
+.img-lft {
+  float: left;
+  margin: pxToEm(0 20px 20px 0, $font-size-base);
+}
+
+.img-rt {
+  float: right;
+  margin: pxToEm(0 0 20px 20px, $font-size-base);
+}
+
+// Figure and figcaption
+figure {
+  margin: pxToEm(0 0 20px 0, $font-size-base);
+
+    img {
+      margin-bottom: pxToEm(15px, $font-size-base);
+    }
+}
+
+/////////////////////
+// Billboard images
+/////////////////////
+
+// Awaiting styles
+
+
+////////////////////////////////////////////////////////////////

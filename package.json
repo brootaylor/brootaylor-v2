@@ -2,22 +2,78 @@
   "name": "brootaylor-v2",
   "version": "1.0.0",
   "description": "Version 2 of my personal website, brootaylor.com",
-  "main": "index.js",
-  "scripts": {
-    "start": "npm install"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brootaylor/brootaylor-v2.git"
   },
-  "keywords": [
-    "personal",
-    "blog"
-  ],
-  "author": "Bruce Taylor",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/brootaylor/brootaylor-v2/issues"
   },
-  "homepage": "https://github.com/brootaylor/brootaylor-v2#readme"
+  "homepage": "https://github.com/brootaylor/brootaylor-v2#readme",
+  "keywords": [
+    "personal-website",
+    "blog"
+  ],
+  "author": "Bruce Taylor",
+  "license": "SEE LICENSE IN LICENSE",
+  "scripts": {
+    "clean": "rimraf www && mkdir www",
+    "prebuild": "npm run clean && echo 'Getting rid of old stuff first 🔥'",
+    "scss:dev": "node-sass --output-style uncompressed --source-map true -o www/styles src/styles && npm run lint:scss",
+    "scss:prod": "node-sass --output-style compressed --source-map true -o www/styles src/styles",
+    "autoprefixer": "postcss -u autoprefixer --map --no-map -r www/styles/*.css",
+    "lint:markdown": "markdownlint src/**/*.md",
+    "lint:scss": "sass-lint -c config/.sass-lint.yml 'src/**/*.scss' -v -q",
+    "watch:files": "eleventy --quiet --serve",
+    "watch:styles": "onchange 'src/styles/**/*.scss' -- npm run build:styles-dev",
+    "watch:scripts": "npx rollup -c config/rollup.config.js --watch",
+    "watch": "npm-run-all --parallel watch:*",
+    "build:files": "eleventy --quiet",
+    "build:styles-dev": "npm run scss:dev && npm run autoprefixer",
+    "build:styles-prod": "npm run scss:prod && npm run autoprefixer",
+    "build:scripts": "cross-env NODE_ENV=production npx rollup -c config/rollup.config.js",
+    "build": "npm run build:styles-prod && npm run build:scripts && npm run build:files",
+    "postbuild": "echo 'All the assets have built successfully... hopefully 😬'",
+    "netlify-dev:local": "netlify dev",
+    "netlify-dev:live": "netlify dev --live",
+    "netlify-status": "netlify status",
+    "deploy-draft": "npm run build && netlify deploy",
+    "deploy-production": "netlify deploy --prod",
+    "audit:accessibility": "npx pa11y --standard WCAG2AA http://brootaylor.com",
+    "audit:performance": "lighthouse https://brootaylor.com --budget-path=config/budget.json --output-path=./wedgwood-performance-results.html --view",
+    "audit:npm-local": "ncu",
+    "audit:npm-global": "ncu -g",
+    "debug": "DEBUG=* npx eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.9.0",
+    "@11ty/eleventy-plugin-rss": "^1.0.7",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "autoprefixer": "^9.7.1",
+    "cross-env": "^6.0.3",
+    "eslint": "^6.6.0",
+    "html-minifier": "^4.0.0",
+    "luxon": "^1.21.0",
+    "markdownlint-cli": "^0.19.0",
+    "node-sass": "^4.13.0",
+    "npm-run-all": "^4.1.5",
+    "onchange": "^6.1.0",
+    "postcss-cli": "^6.1.3",
+    "rimraf": "^3.0.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-terser": "^5.1.2",
+    "sass-lint": "^1.13.1"
+  },
+  "browserslist": [
+    "last 4 version",
+    "> 1%",
+    "IE 10"
+  ]
 }
