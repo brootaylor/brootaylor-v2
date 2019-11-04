@@ -12,7 +12,7 @@ const cacheList = [
 	imageCacheName,
 	pagesCacheName
 ];
-const offlinePageGlobal = 'offline.html';
+const offlinePageGlobal = '/offline.html';
 const offlinePages = [
 	'/'
 ];
@@ -21,13 +21,11 @@ function updateStaticCache() {
 	return caches.open(staticCacheName).then(staticCache => {
 		// These files don't block installation
 		staticCache.addAll([
-			'./assets/images/common/logo.png'
+			'/assets/images/common/logo.png'
 		].concat(offlinePages));
 		// These files must be cached for installation
 		return staticCache.addAll([
-			// Static assets to use offline...
-			'./styles/main.css',
-			// Offline page document...
+			'/styles/main.css',
 			offlinePageGlobal
 		]);
 	});
@@ -46,7 +44,9 @@ function trimCache(cacheName, maxItems) {
 	caches.open(cacheName).then(cache => {
 		cache.keys().then(keys => {
 			if (keys.length > maxItems) {
-				cache.delete(keys[0]).then(trimCache(cacheName, maxItems));
+				cache.delete(keys[0]).then(() => {
+					trimCache(cacheName, maxItems)
+				});
 			}
 		});
 	});
