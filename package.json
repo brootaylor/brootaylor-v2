@@ -44,8 +44,8 @@
     "netlify-status": "netlify status",
     "deploy-draft": "npm run build && netlify deploy",
     "deploy-production": "netlify deploy --prod",
-    "audit:accessibility": "npx pa11y --standard WCAG2AA http://brootaylor.com",
-    "audit:performance": "lighthouse https://brootaylor.com --budget-path=config/budget.json --output-path=./brootaylor-performance-results.html --view",
+    "audit:accessibility": "npx pa11y --standard WCAG2AA http://brootaylorv2.netlify.com",
+    "audit:performance": "lighthouse https://brootaylorv2.netlify.com --budget-path=config/budget.json --output-path=./brootaylor-performance-results.html --view",
     "audit:npm-local": "ncu",
     "audit:npm-global": "ncu -g",
     "debug": "DEBUG=* npx eleventy"
