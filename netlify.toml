@@ -52,8 +52,8 @@
 
 # Redirect rules
 # [[redirects]]
-#     from = "http://wedgwooddesign.netlify.com/*"
-#     to = "http://wedgwooddesign.com/:splat"
+#     from = "http://brootaylorv2.netlify.com/*"
+#     to = "http://brootaylor.com/:splat"
 
 [[redirects]]
   from = "/*"
