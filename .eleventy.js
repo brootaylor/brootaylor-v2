@@ -7,8 +7,9 @@ module.exports = function(eleventy) {
 	eleventy.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
 
 	// Add some utility filters
-	eleventy.addFilter('dateLocal', require("./src/utils/filters/date-local.js"));
-	eleventy.addFilter('dateLocalFriendly', require("./src/utils/filters/date-friendly.js"));
+	eleventy.addFilter('pretty', require('./src/utils/filters/pretty-url.js'));
+	eleventy.addFilter('dateLocal', require('./src/utils/filters/date-local.js'));
+	eleventy.addFilter('dateLocalFriendly', require('./src/utils/filters/date-friendly.js'));
 
 	// Transforms
 	eleventy.addTransform('minify-html', require('./src/utils/minify-html.js'));
@@ -37,7 +38,7 @@ module.exports = function(eleventy) {
 
 		dir: {
 			input: 'src',
-			includes: '_includes',
+			includes: '_templates',
 			data: '_data',
 			output: 'www',
 		}

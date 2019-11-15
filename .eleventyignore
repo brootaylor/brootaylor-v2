@@ -1,0 +1,2 @@
+# Files for eleventy to ignore
+src/**/README.md

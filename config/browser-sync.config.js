@@ -8,7 +8,7 @@ module.exports = {
     open: "local",
     callbacks: {
         ready: function(err, browserSync) {
-          const content_404 = fs.readFileSync('www/404.html');
+          const content_404 = fs.readFileSync('www/404/index.html');
 
           browserSync.addMiddleware("*", (req, res) => {
             // Provides the 404 content without redirect.
