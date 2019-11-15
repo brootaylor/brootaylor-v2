@@ -55,19 +55,20 @@
 		<!-- "Skip-to" links. Helps assistive technologies -->
 		<a class="visuallyhidden" href="#main">Skip to the main content.</a>
 
-		{% include "header.njk" %}
+		{% include "includes/header.njk" %}
 		<!-- / Masthead -->
 
 		{% block content %}
 			{{ content | safe }}
 		{% endblock %}
 
-		{% include "footer.njk" %}
+		{% include "includes/footer.njk" %}
 		<!-- / Footer content -->
 
+		{# JS calls #}
 		<script src="{{ '/scripts/main.js' | url }}"></script>
 
-		<!-- Helps offline content experience... -->
+		{# Service worker #}
 		<script>
 			if (navigator.serviceWorker) {
 				navigator.serviceWorker.register('/serviceworker.js');

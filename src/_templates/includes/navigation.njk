@@ -1,0 +1,27 @@
+{% for navitem in navigation.mainnav %}
+  {% if loop.first %}<ul>{% endif %}
+    <li><a href="{{ navitem.url }}" {% if (page.url | pretty) == item.url %}class="current"{% endif %}>{{ navitem.label }}</a></li>
+  {% if loop.last %}</ul>{% endif %}
+{% endfor %}
+
+{# <nav class="menu">
+	<!-- To help assistive technologies -->
+	<h2 class="visuallyhidden">Website's primary navigation</h2>
+	<ul class="menu-list">
+		<li class="menu-item">
+			<a href="/about">About</a>
+		</li>
+		<li class="menu-item">
+			<a href="/writing/">Writing</a>
+		</li>
+		<li class="menu-item">
+			<a href="/notes/">Notes</a>
+		</li>
+		<li class="menu-item">
+			<a href="/links/">Links</a>
+		</li>
+		<li>
+			<span id="email01"></span>
+		</li>
+	</ul>
+</nav> #}
