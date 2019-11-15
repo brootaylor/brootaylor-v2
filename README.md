@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/712367e5-7510-4813-9a24-5805f092cfa1/deploy-status)](https://app.netlify.com/sites/brootaylorv2/deploys)
 
-This is where *version 2* of my personal website is being built. The current version is at [brootaylor.com](https://brootaylor.com)
+This is where *version 2* of my personal website is being built. Here's where to see how it's progressing, [brootaylorv2.netlify.com](https://brootaylorv2.netlify.com/). The current version is at [brootaylor.com](https://brootaylor.com)
 
 My hope is this'll be a evolutionary piece of work rather than the usual "WHALA!" moment. I intend to bump my head (a lot!) and learn a fair few things along the way - and am going to try my best to enjoy the whole process rather than just looking forward to it being '*finished*'.
 
