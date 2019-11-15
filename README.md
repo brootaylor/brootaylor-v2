@@ -2,24 +2,30 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/712367e5-7510-4813-9a24-5805f092cfa1/deploy-status)](https://app.netlify.com/sites/brootaylorv2/deploys)
 
-This is *version 2* of my personal website.
+This is where *version 2* of my personal website is being built. The current version is at [brootaylor.com](https://brootaylor.com)
 
-It's kind of an evolutionary piece of work that'll hopefully turn out to be something decent in the end. I intend to bump my head and learn a few things along the way. I going to try my best to enjoy the process rather than just the finished product.
+My hope is this'll be a evolutionary piece of work rather than the usual "WHALA!" moment. I intend to bump my head (a lot!) and learn a fair few things along the way - and am going to try my best to enjoy the whole process rather than just looking forward to it being '*finished*'.
 
-## Things I'd like to do
+You're more than welcome to follow along if you're ok with witnessing the inevitable head-scratching and "WT...*" moments 🤪.
 
-1. Build it using a Static Site Generator (SSG) of sorts. Considering...
+I say this gingerly but I'd be honoured if anyone wanted to contribute any thoughts and pearls of wisdom. All I ask is you be kind.
+
+## Roadmap *(at the moment!)*
+
+1. Get as [JAMstack](https://jamstack.org/)-y as possible
+2. Build it using a Static Site Generator (SSG) of sorts. Considering...
    * [Eleventy](https://www.11ty.io/) ✔️
    * ~~[Sergey](https://sergey.cool/)~~
-2. I don't want to use a task builder abstraction like Grunt or Gulp (if I can!). I just want to use NPM scripts as much as I can.
-   * There may be a more up-to-date article but this [using npm as a build system](https://medium.com/@drublic/using-npm-as-a-build-system-for-your-next-project-2c741e9381eb) article is a good starting point
-3. Use *newer* CSS methods like...
+3. I don't want to use a task builder like Grunt or Gulp (if I can help it!). Task builders are fab but I'd like to see how far I can go with only using NPM packages and running them from `scripts` in `package.json`.
+   * *Maaan that was a long winded way to say something or other* 📜
+4. Use *newer* CSS methods like...
    * [Custom CSS Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*)
    * [Variable fonts](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide)
    * [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
         - [Inspiration example](https://andy-bell.design/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/)
-4. I'll try to use less SCSS. Not that I don't like SCSS (*SASS*). I'm keen to make this site work with as little abstractions as I can.
 5. Use a [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API).
-   - *I use a service worker on my current site but may try to enhance this implemenation*
+   - *I use a service worker on my current site but may try to enhance this implementation and maybe introduce dynamic versioning*
 6. Maybe try integrating [Fractal](https://fractal.build/) into the component build process.
+   * *I dig Fractal by the way and have used it on a few projects. It could be a bit overkill for my personal website though...?*
 7. Add a RSS feed.
+8. Deploy (CI & CD) using [Netlify](https://www.netlify.com/)
