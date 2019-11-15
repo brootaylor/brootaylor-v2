@@ -1,0 +1,90 @@
+<!doctype html>
+
+<!--
+	"The original, shimmering self gets buried so deep that most of us end up hardly living out of it at all.
+	Instead we live out all the other selves, which we are constantly putting on and taking off like coats and hats against the world’s weather."
+
+	- Frederick Buechner, Telling Secrets
+-->
+
+<html lang="{{ language }}" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{% if bodyClass != 'homepage' %}{{ title }} | {% endif %}{{ metaTitle }}</title>
+		<meta name="description" content="{% if summary %}{{ summary }}{% else %}{{ metaDescription }}{% endif %}">
+		<meta name="robots" content="{% if hidden == true %}noindex{% else %}index{% endif %}, follow">
+
+		{% if hidden !== true %}<link rel="canonical" href="{{ site.rootUrl }}{{ page.url | pretty }}">{% endif %}
+		<link rel="stylesheet" href="{{ '/styles/main.css' | url }}" media="print" onload="this.media='all'">
+
+		<!-- open graph -->
+		<meta property="og:type" content="article">
+		<meta property="og:title" content="{{ metaTitle }}">
+		<meta property="og:image" content="{{ metaImage }}">
+		<meta property="og:site_name" content="{{ site.name }}">
+		<meta property="og:description" content="{{ metaDescription }}">
+
+		<!-- twitter -->
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="{{ site.twitter }}">
+		<meta name="twitter:title" content="{{ metaTitle }}">
+		<meta name="twitter:description" content="{{ metaDescription }}">
+		<meta name="twitter:image" content="{{ metaImage }}">
+
+		<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/ico/apple-touch-icon.png' | url }}">
+		<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/ico/favicon-32x32.png' | url }}">
+		<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/ico/favicon-16x16.png' | url }}">
+		<link rel="manifest" href="{{ '/assets/ico/manifest.json' | url }}">
+		<link rel="mask-icon" href="{{ '/assets/ico/safari-pinned-tab.svg' | url }}" color="{{ site.theme_color }}">
+		<link rel="shortcut icon" href="{{ '/assets/ico/favicon.ico' | url }}">
+		<meta name="msapplication-TileColor" content="{{ site.theme_color }}">
+		<meta name="msapplication-config" content="{{ '/assets/ico/browserconfig.xml' | url }}">
+		<meta name="theme-color" content="{{ site.theme_color }}">
+
+<!--
+	Hello there! Seems you're a bit like me - having a good ol' snoop around the source code.
+	Fingers-crossed it's not too scary in here. 😬
+	I've learnt a lot over the years doing what you're doing. Isn't the web fab like that!
+	Hopefully there's something in here that helps you out.
+-->
+
+	</head>
+	<body {% if bodyClass %}class="{{ bodyClass }}"{% endif %}>
+
+		<!-- "Skip-to" links. Helps assistive technologies -->
+		<a class="visuallyhidden" href="#main">Skip to the main content.</a>
+
+		{% include "header.njk" %}
+		<!-- / Masthead -->
+
+		{% block content %}
+			{{ content | safe }}
+		{% endblock %}
+
+		{% include "footer.njk" %}
+		<!-- / Footer content -->
+
+		<script src="{{ '/scripts/main.js' | url }}"></script>
+
+		<!-- Helps offline content experience... -->
+		<script>
+			if (navigator.serviceWorker) {
+				navigator.serviceWorker.register('/serviceworker.js');
+				if (navigator.serviceWorker.controller) {
+					window.addEventListener('load', () => {
+						navigator.serviceWorker.controller.postMessage({
+							command: 'trimCaches'
+						});
+					});
+				}
+			}
+		</script>
+
+<!--
+Current page: {{ page.url | url }}
+Last deployed: {{ date | dateLocalFriendly("LLLL d, y") }}
+-->
+
+	</body>
+</html>

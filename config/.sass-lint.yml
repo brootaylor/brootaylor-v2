@@ -23,12 +23,12 @@ rules:
   no-color-literals: 1
   no-combinators: 0
   no-css-comments: 0
-  no-debug: 1
+  no-debug: 0
   no-disallowed-properties: 0
   no-duplicate-properties: 1
   no-empty-rulesets: 1
   no-extends: 0
-  no-ids: 1
+  no-ids: 0
   no-important: 0
   no-invalid-hex: 1
   no-mergeable-selectors: 1
@@ -41,7 +41,7 @@ rules:
   no-url-domains: 1
   no-url-protocols: 1
   no-vendor-prefixes: 1
-  no-warn: 1
+  no-warn: 0
   property-units: 0
 
   # Nesting

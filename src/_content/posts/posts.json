@@ -1,0 +1,10 @@
+{
+	"layout" : "layouts/post.njk",
+	"language" : "en-gb",
+    "bodyClass" : "post",
+    "tags" : ["post"],
+    "permalink": "/posts/{{ page.fileSlug }}.html",
+    "changefreq": "monthly",
+    "priority": "0.8",
+    "hidden": "false"
+}

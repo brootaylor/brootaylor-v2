@@ -5,7 +5,7 @@ bodyClass: homepage
 date: 2019-11-03
 changefreq: weekly
 priority: 1
-permalink: /
+permalink: /index.html
 ---
 
 # Hi, I'm Bruce.

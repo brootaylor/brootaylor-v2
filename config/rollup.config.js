@@ -40,7 +40,9 @@ const pluginsMain = [
         ]
     }),
     eslint({
-        configFile: 'config/.eslintrc'
+        configFile: 'config/.eslintrc',
+        fix: true,
+        throwOnError: true
     }),
     commonjs()
 ];
@@ -51,7 +53,7 @@ const pluginsVendor = [
 ];
 
 // If the environment variable equals "production", then the "terser" plugin is added to the plugins array
-if(process.env.NODE_ENV == "production") {
+if(process.env.ELEVENTY_ENV == "production") {
     console.log("Production environment config - minifying JS");
     pluginsMain.push(terser({
         output: { preamble }
@@ -60,14 +62,14 @@ if(process.env.NODE_ENV == "production") {
 
 export default [
 
-    // Primary scripts
+    // Main scripts
     // ================
     {
         input: `${src}scripts/main.js`,
         output: [
             // "iife" format for use in the browser
             {
-                name: 'PrimaryScripts', // 'IIFE' bundles require an "output.name"
+                name: 'MainScripts', // 'IIFE' bundles require an "output.name"
                 file: `${dist}scripts/main.js`,
                 format: 'iife',
                 sourcemap: true,
@@ -80,7 +82,7 @@ export default [
             },
             // "umd" format (for use by Node applications and bundlers like Webpack)
             {
-                name: 'PrimaryScripts', // 'UMD' bundles require an "output.name"
+                name: 'MainScripts', // 'UMD' bundles require an "output.name"
                 dir: `${dist}scripts/main.umd`,
                 format: 'umd',
                 sourcemap: true,
