@@ -20,7 +20,6 @@ I say this gingerly but I'd be honoured if anyone wanted to contribute any thoug
    * *Maaan that was a long winded way to say something or other* 📜
 4. Try using [Design Tokens](https://css-tricks.com/what-are-design-tokens/)
    * *Rather than global and theme-based variable values being hardcoded in my SASS*
-     * Here's a handy [[Design Tokens Generator](https://quinalha.me/design-tokens-generator/)]
      * It's been around for a few years but here's a fab video on [using design tokens](https://www.youtube.com/watch?v=wDBEc3dJJV8) (Jina Bolton)
 5. Use *newer* CSS methods like...
    * [Custom CSS Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*)
@@ -36,3 +35,10 @@ I say this gingerly but I'd be honoured if anyone wanted to contribute any thoug
 9.  Add a RSS feed.
 10. Performance optimisation: Browser/client does HTTP 'roundtrip' to get bundles of code. Typically this is up to 14KB per roundtrip => (**TRY KEEP ROUNDTRIPS TO A MINIMUM**)
 11. Deploy (CI & CD) using [Netlify](https://www.netlify.com/)
+12. Consider [Going Buildless](https://css-tricks.com/going-buildless/)
+
+## Helpful tools
+
+1. [PWA icon build tool](https://maskable.app/)
+2. [Design Tokens Generator](https://quinalha.me/design-tokens-generator/)
+3. [polyfill.io](https://polyfill.io/v3/)
