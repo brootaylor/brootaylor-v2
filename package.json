@@ -81,5 +81,8 @@
     "last 4 version",
     "> 1%",
     "IE 10"
-  ]
+  ],
+  "dependencies": {
+    "serialize-javascript": "^2.1.2"
+  }
 }
