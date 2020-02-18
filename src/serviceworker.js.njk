@@ -1,10 +1,15 @@
 ---
-permalink: /serviceworker.js
+permalink: /serviceworker-en.js
 eleventyExcludeFromCollections: true
 ---
-const version = '{{ pkg.version }}';
+
+{#- Service worker for the 'english' version of the site -#}
+
+'use strict';
+
+const version = 'v{{ pkg.version }}';
 const name = '{{ pkg.name }}';
-const staticCacheName = 'static' + '@' + name + '_' + version;
+const staticCacheName = 'static' + '@en.' + name + '_' + version;
 const imageCacheName = 'images';
 const pagesCacheName = 'pages';
 const cacheList = [
@@ -12,7 +17,7 @@ const cacheList = [
 	imageCacheName,
 	pagesCacheName
 ];
-const offlinePageGlobal = '/offline.html';
+const offlinePage = '/offline.html';
 const offlinePages = [
 	'/'
 ];
@@ -21,12 +26,13 @@ function updateStaticCache() {
 	return caches.open(staticCacheName).then(staticCache => {
 		// These files don't block installation
 		staticCache.addAll([
-			'/assets/images/common/logo.png'
+			'./assets/images/common/logo.png'
 		].concat(offlinePages));
 		// These files must be cached for installation
 		return staticCache.addAll([
-			'/styles/main.css',
-			offlinePageGlobal
+			'./styles/main.css',
+			'./scripts/main.module/main.mjs',
+			offlinePage
 		]);
 	});
 }
@@ -125,7 +131,7 @@ addEventListener('fetch', event => {
 
 				// If file is cached serve that, else show cached offline page
 				return caches.match(request).then(cacheResponse => {
-					return cacheResponse || caches.match(offlinePageGlobal);
+					return cacheResponse || caches.match(offlinePage);
 				});
 			})
 		);

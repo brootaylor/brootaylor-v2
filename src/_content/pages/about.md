@@ -1,10 +1,10 @@
 ---
-title: About Us
+title: About
 summary: This is a summary of the page.
 bodyClass: about
-date: 2019-11-01
+date: 2020-02-18
 ---
 
-## About Us
+## About me
 
 Placeholder about us page.

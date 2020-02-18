@@ -1,16 +1,16 @@
 {
-    "mainnav": [
-        {
-            "label": "Home",
-            "url": "/"
-        },
-        {
-            "label": "About",
-            "url": "/about/"
-        },
-        {
-            "label": "Contact",
-            "url": "/contact/"
-        }
-    ]
+  "mainnav": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "About",
+      "url": "/about"
+    },
+    {
+      "label": "Contact",
+      "url": "/contact"
+    }
+  ]
 }

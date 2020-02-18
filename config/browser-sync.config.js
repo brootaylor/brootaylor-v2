@@ -5,11 +5,11 @@ module.exports = {
   watch: true,
   browser: ['google chrome'],
   open: 'local',
-  startPath: '/en/',
+  startPath: '/',
   logPrefix: 'Bruce Taylor\'s website',
   callbacks: {
     ready(err, browserSync) {
-      const content404 = fs.readFileSync('www/en/404.html');
+      const content404 = fs.readFileSync('www/error/404.html');
 
       browserSync.addMiddleware('*', (req, res) => {
         // Provides the 404 content without redirect.
