@@ -3,23 +3,13 @@
 {% block content %}
 	<article class="wrapper flow">
 
-		{# Feature / hero section #}
-
 		{# Intro section #}
+
+		{# Feature / hero section #}
+		{% include "collections/featured.njk" %}
 
 		{# Carousel section #}
 		{% include "components/carousel/carousel.njk" %}
-
-		{# Services section #}
-		{% include "collections/services.njk" %}
-
-		{# Products section #}
-		{% include "collections/products.njk" %}
-
-		{# Partner tile / grid section #}
-
-		{# Contact section #}
-		{% include "components/forms/contact/contact.njk" %}
 
 	</article>
 {% endblock %}

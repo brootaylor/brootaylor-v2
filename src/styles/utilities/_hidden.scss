@@ -1,0 +1,19 @@
+/// "Hidden" utility class placeholder.
+///
+/// Use the `.hidden` class on any element to hide it from everything (that includes assistive technologies)
+///
+/// @group Utility Classes
+///
+/// @example scss - Sass Usage
+///   .hidden {
+///     @extend %hidden;
+///   }
+%hidden {
+  display: none;
+}
+
+// Hidden utility class
+// Using the `%hidden` placeholder
+.hidden {
+  @extend %hidden;
+}

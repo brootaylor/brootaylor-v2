@@ -1,4 +1,5 @@
 ---
+layout: layouts/homepage.njk
 title: Front End Web Designer & Developer
 summary: ''
 bodyClass: homepage

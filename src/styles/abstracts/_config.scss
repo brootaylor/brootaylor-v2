@@ -1,0 +1,125 @@
+/**********************************************************
+ * This file contains all application-wide Sass variables.
+ **********************************************************/
+
+/// Design Tokens.
+///
+/// 1. These "design token" values are generated dynamically from a JSON (data) file [`token.json`] into a Sass map [`tokens.scss`].
+/// 2. These Sass map values are then called in this [`config.scss`] file as variables
+/// @group Fonts
+@import 'tokens';
+
+/// Importing `fucntions.scss` early on in case used at this level
+@import 'functions';
+
+
+
+/// Base font family
+/// @group Fonts
+/// @type List
+$font-family-base: map-get(map-get($tokens, fonts), base) !default;
+
+/// Code (monospace) font family
+/// @group Fonts
+/// @type List
+$font-family-code: map-get(map-get($tokens, fonts), code) !default;
+
+/// Base font size
+/// @group Fonts
+/// @type Length
+$font-size-base: map-get(map-get($tokens, size-scale), base) !default;
+
+/// Base line height
+/// @group Fonts
+/// @type Length
+$line-height-base: map-get(map-get($tokens, size-scale), line-height) !default;
+
+
+
+/// Site width (Max)
+/// @group Base Layout
+/// @type Length
+$site-width: map-get(map-get($tokens, size-scale), site-width) !default;
+
+
+
+/// Copy text color
+/// @group Colours
+/// @type Color
+$font-colour-base: map-get(map-get($tokens, colors), slate) !default;
+
+/// Main brand color
+/// @group Colours
+/// @type Color
+$brand-color-primary: map-get(map-get($tokens, colors), primary) !default;
+
+/// Secondary brand color
+/// @group Colours
+/// @type Color
+$brand-color-secondary: map-get(map-get($tokens, colors), secondary) !default;
+
+/// Tertiary brand color
+/// @group Colours
+/// @type Color
+$brand-color-tertiary: map-get(map-get($tokens, colors), tertiary) !default;
+
+/// White
+/// @group Colours
+/// @type Color
+$white: #ffffff !default;
+
+/// Light grey
+/// @group Colours
+/// @type Color
+$grey-light: map-get(map-get($tokens, colors), light) !default;
+
+/// Medium grey
+/// @group Colours
+/// @type Color
+$grey-mid: map-get(map-get($tokens, colors), mid) !default;
+
+/// Dark grey
+/// @group Colours
+/// @type Color
+$grey-dark: map-get(map-get($tokens, colors), dark) !default;
+
+/// Black
+/// @group Colours
+/// @type Color
+$black: #000000 !default;
+
+
+
+/// Media query x-small (viewport) width
+/// @group Media Queries
+/// @type Length
+$breakpoint-x-small: map-get(map-get($tokens, breakpoints), x-small) !default;
+
+/// Media query small (viewport) width
+/// @group Media Queries
+/// @type Length
+$breakpoint-small: map-get(map-get($tokens, breakpoints), small) !default;
+
+/// Media query medium (viewport) width
+/// @group Media Queries
+/// @type Length
+$breakpoint-medium: map-get(map-get($tokens, breakpoints), medium) !default;
+
+/// Media query large (viewport) width
+/// @group Media Queries
+/// @type Length
+$breakpoint-large: map-get(map-get($tokens, breakpoints), large) !default;
+
+/// Media query x-large (viewport) width
+/// @group Media Queries
+/// @type Length
+$breakpoint-x-large: map-get(map-get($tokens, breakpoints), x-large) !default;
+
+
+
+/// Relative or absolute URL where all assets are served from
+/// @group Paths
+/// @type String
+/// @example scss - When using a CDN
+/// $base-url: 'http://cdn.example.com/assets/';
+$base-url: '/assets/' !default;

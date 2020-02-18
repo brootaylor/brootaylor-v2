@@ -1,0 +1,91 @@
+/**********************************************************
+ * Card block (Global).
+ **********************************************************/
+
+
+/// Standard card object.
+///
+/// Typically horizontal layout with image to the left or right. It will 'stack' at smaller screen (viewport) and/or (container) sizes.
+/// @group Card Component
+.card {
+	display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+		@include min-width($breakpoint-medium) {
+			flex-direction: row;
+		}
+
+	// Image / Video element
+	> .card__visual {
+		position: relative;
+
+			@include min-width($breakpoint-medium) {
+				flex: 1 0 50%;
+				max-width: 50%;
+				text-align: left;
+			}
+
+			figure,
+			figure img {
+				margin: 0;
+			}
+	}
+
+	// Content element
+	> .card__content {
+
+			@include min-width($breakpoint-medium) {
+				flex: 1 1 50%;
+				max-width: 50%;
+			}
+	}
+}
+
+/// Reverse visual (image or video) and text order.
+/// @group Card Component
+.card--reversed {
+  > .card__visual {
+    @include min-width($breakpoint-medium) {
+      order: 2;
+      text-align: right;
+    }
+  }
+
+  > .card__content {
+    @include min-width($breakpoint-medium) {
+      order: 1;
+    }
+  }
+}
+
+/// Stacked card object.
+///
+/// This object / component is always vertically stacked.
+/// @group Card Component
+.card--stacked {
+	> .card__visual {
+    flex-basis: 100%;
+    max-width: 100%;
+
+		img {
+			display: block;
+		}
+  }
+
+  > .card__content {
+    flex-basis: 100%;
+    max-width: 100%;
+	}
+
+	> a.card__visual {
+		overflow: hidden;
+		-webkit-mask-image: -webkit-radial-gradient(circle, #fff 100%, #000 100%); // Safari fix to stop img (child) growing beyond the parent container
+
+		&:hover {
+			img {
+				transform: scale(1.1);
+			}
+		}
+	}
+}

@@ -1,0 +1,32 @@
+/*********************************************
+ * Base styles that affect the entire website
+ *********************************************/
+
+// This is using CSS Grid to define grid template areas
+// =====================================================
+// NOTE: Section and component-level grid layouts will be done in those Sass files
+// Progressive enhancement method
+// If the browser supports `grid`, it'll also support the `@supports` feature.
+@supports (display: grid) {
+  body {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 'banner' 'main' 'footer'; // Helps 'visualise' the grid template areas
+  }
+
+  // "Masthead" contains the logo and nav
+  #masthead {
+    grid-area: banner;
+  }
+
+  // "Main" is where are the primary content will render
+  #main {
+    grid-area: main;
+  }
+
+  // "Footer" is for the typical site info stuff
+  #footer {
+    grid-area: footer;
+  }
+}

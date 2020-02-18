@@ -1,0 +1,24 @@
+/******************************************
+ * "Root" custom CSS properties / variables
+ ******************************************/
+
+/// Custom CSS Properties set on the `:root`
+///
+/// They are global placeholder values that can then be overridden in local CSS declaration scopes.
+///
+/// @group Custom CSS Properties
+/// @link https://developer.mozilla.org/en-US/docs/Web/CSS/--*
+:root {
+  /* Fonts */
+  --font-family-base: #{unquote(#{$font-family-base})};
+  --font-size-base-percent: 100%;
+  --font-colour-base: #{rgb-format($font-colour-base)};
+  --line-height-base: #{$line-height-base};
+
+  /* Colours (base) */
+  --black: #{rgb-format($black)};
+  --white: #{rgb-format($white)};
+  --grey-mid: #{rgb-format($grey-mid)};
+  --grey-light: #{rgb-format($grey-light)};
+  --grey-dark: #{rgb-format($grey-dark)};
+}

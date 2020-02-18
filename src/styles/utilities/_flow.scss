@@ -1,0 +1,13 @@
+/// Influenced by Andy Bell.
+///
+/// Add the `.flow` utility class to an element / component to benefit from the 'flow-space'.
+///
+/// @link https://24ways.org/2018/managing-flow-and-rhythm-with-css-custom-properties/ Managing Flow and Rhythm with CSS Custom Properties
+/// @group Utility Classes
+.flow {
+  --flow-space: 1em;
+
+  > * + * {
+    margin-top: var(--flow-space) !important; // `!important` added because this utility class needs to be listened to => (particularly to override the `reset.scss` rules for `ul[class]` and `ol[class]`.)
+  }
+}

@@ -1,46 +1,73 @@
-@charset "UTF-8";
+@charset 'UTF-8';
+
+/***************************************
+ * Let's set /reset a few things first
+ */
+@import
+  'global/reset';
 
 
-/* VENDORS (1st) - Default fall-backs and external files.
-====================================================================================================== */
-
-@import 'vendors/_normalize.scss';
-
-
-/* BASE - Base Variable file along with starting point Functions, Mixins, Placeholders & Typography.
-====================================================================================================== */
-
-@import 'base/_variables.scss';
-@import 'base/_placeholders.scss';
-@import 'base/_functions.scss';
-@import 'base/_mixins.scss';
-@import 'base/_clearfix-me.scss';
-@import 'base/_typography.scss';
+/***************************************
+ * Configuration and SASS helpers
+ * eg. variables, functions, placeholders and :root custom CSS properties
+ */
+@import
+  'abstracts/config',
+  'abstracts/functions',
+  'abstracts/mixins',
+  'abstracts/custom-properties';
 
 
-/* FRAMEWORK - Structure and layout files.
-========================================================================== */
-
-@import 'framework/_base-template.scss';
-@import 'framework/_masthead.scss'; // Masthead wrapper, logo, strapline 
-@import 'framework/_footer.scss';
-@import 'framework/_print.scss';
-
-
-/* COMPONENTS - Re-usable site elements.
-========================================================================== */
-
-@import 'components/_links.scss';
-@import 'components/_lists.scss';
-@import 'components/_images.scss';
-@import 'components/_video.scss';
+/***************************************
+ * Global / base
+ */
+@import
+  'global/base',
+  'global/grid',
+  'global/typography';
 
 
-/* LAST OF THE LAST - styles that need to come last for some reason
-====================================================================================================== */
+/***************************************
+ * Components
+ */
 
-@import 'helpers/_helper-classes.scss';
+// Core
+@import
+  '../_templates/components/lists/lists',
+  '../_templates/components/links/links',
+  '../_templates/components/buttons/buttons',
+  '../_templates/components/icons/icons',
+  '../_templates/components/images/images',
+  '../_templates/components/videos/videos',
+  '../_templates/components/forms/forms';
+
+// Layout
+@import
+  '../_templates/components/navigation/navigation',
+  '../_templates/components/header/header',
+  '../_templates/components/footer/footer';
+
+// Custom
+@import
+  '../_templates/components/card/card';
 
 
-///////////////////////////////////////////////////////////////
+/***************************************
+ * Page-specific
+ */
+// @import
+//   'pages/home';
+
+
+/***************************************
+ * Stuff to help out the rest
+ */
+
+// Utility classes
+@import
+  'utilities/wrapper',
+  'utilities/flow',
+  'utilities/observers',
+  'utilities/visually-hidden',
+  'utilities/hidden';
 
