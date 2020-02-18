@@ -1,0 +1,86 @@
+/**********************************************************
+ * This file contains all application-wide Sass functions.
+ **********************************************************/
+
+/// Native `url(..)` function wrapper.
+///
+/// @group Helpers
+///
+/// @param {String} $base - base URL for the asset
+/// @param {String} $type - asset type folder (e.g. `fonts/`)
+/// @param {String} $path - asset path
+/// @return {Url}
+@function asset($base, $type, $path) {
+  @return url($base + $type + $path);
+}
+
+/// Returns URL to an image based on its path.
+///
+/// @group Helpers
+///
+/// @param {String} $path - image path
+/// @param {String} $base [$base-url] - base URL
+/// @return {Url}
+/// @require $base-url
+@function image($path, $base: $base-url) {
+  @return asset($base, 'images/', $path);
+}
+
+/// Returns URL to a font based on its path.
+///
+/// @group Helpers
+///
+/// @param {String} $path - font path
+/// @param {String} $base [$base-url] - base URL
+/// @return {Url}
+/// @require $base-url
+@function font($path, $base: $base-url) {
+  @return asset($base, 'fonts/', $path);
+}
+
+/// Returns RGB colour format.
+///
+///
+/// @group Helpers
+///
+/// To honour the regular "rgb" format output, this custom "rgb-format" function is needed.
+/// Otherwise will output as a HEX value.
+/// @param {String} $color - RGB color value
+/// @return {String}
+/// @require $color
+/// @example scss - Usage
+///   $primary-color: #173854;
+///
+///   .foo {
+///     color: rgb-format($primary-color);
+///   }
+///
+/// @example css - CSS output
+///   .foo {
+///     color: rgb(23, 56, 84);
+///   }
+@function rgb-format($color) {
+  @return unquote('rgb(#{red($color)}, #{green($color)}, #{blue($color)})');
+}
+
+/// Returns number value without a unit (strips the unit).
+///
+/// @group Helpers
+///
+/// @param {Number} $num - Any value with unit (eg. 90px)
+/// @return {Number}
+/// @require $num
+@function strip-unit ($num) {
+  @return $num / ($num * 0 + 1);
+}
+
+/// Returns REM value.
+///
+/// @group Helpers
+///
+/// @param {Number} $pixels - Any value with unit (eg. 90px)
+/// @return {Number}
+/// @require $pixels
+@function convert-to-rem ($pixels) {
+  @return strip-unit($pixels) / strip-unit($font-size-base) * 1rem;
+}

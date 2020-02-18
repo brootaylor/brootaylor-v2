@@ -1,0 +1,227 @@
+/**********************************************************
+ * Various Mixins (Global).
+ **********************************************************/
+
+
+/// Font size coversion to REM
+///
+/// @author Avios Web Squad, (AGL)
+///
+/// @access public
+///
+/// @group Fonts
+///
+/// @param {Value} $pixels - Element’s font size in `pixels`
+@mixin font-size($pixels) {
+  // We're calling another function (convert-to-rem) to convert pixels to rem units.
+  font-size: convert-to-rem($pixels);
+}
+
+
+/// Silent class generator
+///
+/// Generates a selector/s and/or solid class (for use in markup) and a silent class (for use with `@extend`) in one go.
+///
+/// @group Helpers
+///
+/// @param {Selector} $class-name - The class name you'd like to generate
+/// @param {Selector} $selector - The name of the element (eg. `h1`)
+@mixin silent-class($class-name, $selector: false) {
+	// Checks first to see if a standard selector/s is being used
+	@if $selector {
+		#{$selector},
+		.#{$class-name},
+		%#{$class-name} {
+			@content;
+		}
+	} @else {
+		.#{$class-name},
+		%#{$class-name} {
+			@content;
+		}
+	}
+}
+
+
+/// Centre content (not using Flex)
+///
+/// A centering solution when not using `flexbox`.
+///
+/// It needs the parent to be `position: relative`
+///
+/// @group Helpers
+///
+/// @param {Value} $y-pos [top] - To change the y-axis position
+/// @param {Value} $y-pos-val [50%] - To change the y-axis position value
+@mixin centre-content($y-pos: top, $y-pos-val: 50%) {
+	position: absolute;
+	left: 50%;
+	margin-right: -50%; // The 'margin-right: -50%' is needed to compensate the 'left: 50%'. The 'left' rule reduces the available width for the element by 50%.
+
+	@if ($y-pos != bottom and $y-pos-val == 50%) {
+		top: 50%;
+		transform: translate(-50%, -50%); // X and Y axis
+	} @else {
+		#{$y-pos}: $y-pos-val;
+		transform: translateX(-50%);
+	}
+}
+
+
+/// Psuedo element
+///
+/// @group Helpers
+///
+/// Add a ':before' and / or ':after' psuedo element.
+///
+/// @param {Value} $display [block]
+/// @param {Value} $pos [absolute]
+/// @param {Value} $content ['']
+@mixin pseudo($display: block, $pos: absolute, $content: '') {
+	content: $content;
+	display: $display;
+	position: $pos;
+}
+
+
+/// Responsive ratio
+///
+/// Use this for creating scalable elements (ie. images / video / background images) that maintain a ratio.
+///
+/// @group Helpers
+///
+/// @param {Value} $x [16]
+/// @param {Value} $y [9]
+/// @param {Boolean} $pseudo [false]
+@mixin responsive-ratio($x: 16, $y: 9, $pseudo: false) {
+	$padding: unquote(( $y / $x ) * 100 + '%'); // Works out percentage after entering say '(16,9)'
+
+	// Checks to see if 'psuedo' argument is 'true'
+	@if $pseudo {
+		&::before {
+			@include pseudo($pos: relative);
+			width: 100%;
+			padding-top: $padding;
+		}
+	} @else {
+		padding-top: $padding;
+	}
+}
+
+
+/// Background-image (Custom values)
+///
+/// @group Helpers
+///
+/// @param {Value} $width [100%]
+/// @param {Value} $height [auto]
+/// @param {Value} $bg-position [center center]
+/// @param {Value} $bg-size [cover]
+/// Use this for creating custom background image values
+@mixin background-image($width: 100%, $height: auto, $bg-position: center center, $bg-size: cover) {
+	width: $width;
+	height: $height;
+	background-position: $bg-position;
+	background-size: $bg-size;
+	background-repeat: no-repeat;
+}
+
+
+/// Truncate
+///
+/// @group Helpers
+///
+/// You only have to specify your boundary with a 'max-width' value eg. '350px'
+@mixin truncate($truncation-boundary) {
+	max-width: $truncation-boundary;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+
+/// Content margins
+///
+/// Handles the first and last child's margin values (eg. a 'ul' component).
+///
+/// @group Helpers
+///
+/// @param {Selector} $selector [> *]
+/// @param {Boolean} $last-child [false]
+/// Can pass in a specific selector (eg. 'li').
+@mixin content-margins($selector: '> *', $last-child: false) {
+	@if not $selector {
+		$selector: '&';
+	}
+
+	#{unquote($selector)} {
+		&:first-child { margin-top: 0; }
+
+		// Checks to see if 'last-child' argument is 'true'
+		@if $last-child {
+			&:last-child { margin-bottom: 0; }
+		}
+	}
+}
+
+
+//////////////////////////
+/// Media queries (Global)
+//////////////////////////
+
+// Resource => https://css-tricks.com/sass-techniques-from-the-trenches/
+// >> May need to consider going with ems, (slight edge on rems cause of Safari support issues), rather than pixels for media queries => http://zellwk.com/blog/media-query-units/
+
+/// Min-width media query.
+/// Uses the `convert-to-rem` function to convert value into `rem`.
+///
+/// @link https://css-tricks.com/sass-techniques-from-the-trenches/
+///
+/// @group Media Queries
+/// @param {Length} $viewport - Browser's `viewport` in pixels
+/// @example scss - Usage
+///   .foo {
+///     @include min-width($breakpoint-medium) {
+///       align-items: center;
+///     }
+///   }
+///
+/// @example css - CSS output
+///   @media screen and (min-width: 48rem) {
+///     .foo {
+///       align-items: center;
+///     }
+///   }
+@mixin min-width($viewport) {
+  // We're calling another function (convert-to-rem) to convert pixels to rem units.
+  @media screen and (min-width: convert-to-rem($viewport)) {
+    @content;
+  }
+}
+
+/// Max-width media query.
+/// Uses the `convert-to-rem` function to convert value into `rem`.
+///
+/// @link https://css-tricks.com/sass-techniques-from-the-trenches/
+///
+/// @group Media Queries
+/// @param {Length} $viewport - Browser's `viewport` in pixels
+/// @example scss - Usage
+///   .foo {
+///     @include max-width($breakpoint-medium) {
+///       align-items: center;
+///     }
+///   }
+///
+/// @example css - CSS output
+///   @media screen and (max-width: 48rem) {
+///     .foo {
+///       align-items: center;
+///     }
+///   }
+@mixin max-width($viewport) {
+  // We're calling another function (convert-to-rem) to convert pixels to rem units.
+  @media screen and (max-width: convert-to-rem($viewport)) {
+    @content;
+  }
+}

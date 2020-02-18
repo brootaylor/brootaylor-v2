@@ -1,0 +1,27 @@
+/// "Visually hidden" utility class placeholder.
+///
+/// Use the `.visually-hidden` class on any element to hide it visually but not from an assistive technology (eg. screenreader)
+///
+/// @group Utility Classes
+///
+/// @example scss - Sass Usage
+///   .visually-hidden {
+///     @extend %visually-hidden;
+///   }
+%visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
+// Visually hidden utility class
+// Using the `%visually-hidden` placeholder
+.visually-hidden {
+  @extend %visually-hidden;
+}

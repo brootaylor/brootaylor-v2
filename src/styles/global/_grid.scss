@@ -1,0 +1,64 @@
+/******************************************
+ * Grid styles / rules
+ * Thank you, https://hankchizljaw.com/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/
+ ******************************************/
+
+
+/// 1. The `.auto-grid` class is for fluid non-specific grid layout scenarios. No media queries are used.
+///
+/// 2. A progressive enhancement implementation (for modern browsers) is used as follows.
+/// If the browser supports `grid`, it'll also support the `@supports` feature.
+///
+/// @link https://hankchizljaw.com/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/ 1. A responsive `grid` layout without using media queries.
+/// @link https://hankchizljaw.com/wrote/keeping-it-simple-with-css-that-scales/ 2. Keeping it simple with CSS that scales.
+///
+/// @todo May need to write `display: flex` rules for older browser grid layout (if necessary)
+///
+/// @group Grid
+/// @example scss - Usage
+///   @supports (display: grid) {
+///     .auto-grid {
+///       display: grid;
+///       grid-template-columns: repeat(auto-fit, minmax(var(--auto-grid-min-size), 1fr));
+///       grid-gap: 1rem;
+///
+///       > * {
+///         max-width: unset;
+///       }
+///
+///       > * + * {
+///         margin-top: unset;
+///       }
+///     }
+///   }
+///
+.auto-grid {
+  --auto-grid-min-size: 16rem;
+
+  > * {
+    max-width: 400px;
+  }
+
+  > * + * {
+    margin-top: 1rem;
+  }
+}
+
+/// Progressive enhancement method
+/// If the browser supports `grid`, it'll also support the `@supports` feature.
+/// @group Grid
+@supports (display: grid) {
+  .auto-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(var(--auto-grid-min-size), 1fr)); // Using `auto-fit` so the columns use all available space
+    grid-gap: 1rem;
+
+    > * {
+      max-width: unset;
+    }
+
+    > * + * {
+      margin-top: unset;
+    }
+  }
+}

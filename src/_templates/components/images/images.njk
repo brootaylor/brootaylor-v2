@@ -1,0 +1,28 @@
+{% if component.data.hasMultiFormat %}
+<picture>
+  <source srcset="{{ component.data.imageWebP }}" type="image/webp">
+	{% if component.data.hasMultiSize %}
+		<img src="{{ component.data.imageJpg }}"
+		srcset="{{ component.data.imageJpg }} 256w,
+			{{ component.data.imageJpg }} 512w,
+			{{ component.data.imageJpg }} 1024w"
+		sizes="(min-width: 30em) 30em, 100vw"
+		loading="lazy"
+		alt="{{ component.data.imageAlt }}.">
+	{% else %}
+	<img src="{{ component.data.imageJpg }}" alt="{{ component.data.imageAlt }}.">
+	{% endif %}
+</picture>
+{% else %}
+	{% if component.data.hasMultiSize %}
+		<img src="{{ component.data.imageJpg }}"
+		srcset="{{ component.data.imageJpg }} 256w,
+			{{ component.data.imageJpg }} 512w,
+			{{ component.data.imageJpg }} 1024w"
+		sizes="(min-width: 30em) 30em, 100vw"
+		loading="lazy"
+		alt="{{ component.data.imageAlt }}.">
+	{% else %}
+	<img src="{{ component.data.imageJpg }}" alt="{{ component.data.imageAlt }}.">
+	{% endif %}
+{% endif %}

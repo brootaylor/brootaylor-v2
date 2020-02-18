@@ -1,0 +1,14 @@
+/// Observer utility classes.
+///
+/// Add these utility classes to an element / component to run some sort of animation.
+///
+/// @group Utility Classes
+
+.js-fadein {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+
+  &.fadein-active {
+    opacity: 1;
+  }
+}
