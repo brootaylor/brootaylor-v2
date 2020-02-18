@@ -19,13 +19,13 @@
   bundle = false
   minify = false
 [build.processing.images]
-  compress = false
+  compress = true
 
 # dev commands
 [dev]
   command = "npm run watch"
 
-# Headers
+# Headers (Global)
 [[headers]]
   for = "/*"
   [headers.values]
@@ -35,22 +35,33 @@
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "1; mode=block"
 
+# Header for .ico files
 [[headers]]
   for = "/*.ico"
   [headers.values]
     Content-Type = "image/x-icon"
 
+# Header for 'normal' JS
 [[headers]]
   for = "/*.js"
   [headers.values]
     Content-Type = "text/javascript; charset=utf-8"
 
+# Header for ES6 Modules
+[[headers]]
+  for = "/*.mjs"
+  [headers.values]
+    Content-Type = "text/javascript; charset=utf-8"
+
+# Header for JSON
 [[headers]]
   for = "/*.json"
   [headers.values]
     Content-Type = "application/json; charset=utf-8"
 
-# Redirect rules
+
+# Redirect rule to point temporary Netlify URL to preferred domain name
+# NOTE: This will require the DNS records to be updated to point to Netlify
 # [[redirects]]
 #     from = "http://brootaylorv2.netlify.com/*"
 #     to = "http://brootaylor.com/:splat"

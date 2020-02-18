@@ -1,0 +1,7 @@
+# Browsers that we support
+# (Config helps => https://github.com/browserslist/browserslist)
+
+last 2 versions
+> 1%
+Edge > 15
+IE > 10

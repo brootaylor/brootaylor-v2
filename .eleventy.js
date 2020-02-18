@@ -1,46 +1,48 @@
 module.exports = function(eleventy) {
 
-	// BrowserSync
-	eleventy.setBrowserSyncConfig(require('./config/browser-sync.config.js'));
+  // BrowserSync
+  eleventy.setBrowserSyncConfig(require('./config/browser-sync.config.js'));
 
-	// Plugins
-	eleventy.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
+  // Plugins
+  eleventy.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
 
-	// Add some utility filters
-	eleventy.addFilter('pretty', require('./src/utils/filters/pretty-url.js'));
-	eleventy.addFilter('dateLocal', require('./src/utils/filters/date-local.js'));
-	eleventy.addFilter('dateLocalFriendly', require('./src/utils/filters/date-friendly.js'));
+  // Add some utility filters
+  eleventy.addFilter('pretty', require('./src/utils/filters/pretty-url.js'));
+  eleventy.addFilter('dateLocal', require('./src/utils/filters/date-local.js'));
+  eleventy.addFilter('dateLocalFriendly', require('./src/utils/filters/date-friendly.js'));
 
-	// Transforms
-	eleventy.addTransform('minify-html', require('./src/utils/minify-html.js'));
+  // Transforms
+  eleventy.addTransform('minify-html', require('./src/utils/minify-html.js'));
 
-	// Passthrough
-	eleventy.addPassthroughCopy('./src/assets/ico');
-	eleventy.addPassthroughCopy('./src/assets/images');
+  // Passthrough
+  eleventy.addPassthroughCopy('./src/assets/fonts');
+  eleventy.addPassthroughCopy('./src/assets/ico');
+  eleventy.addPassthroughCopy('./src/assets/images');
+  eleventy.addPassthroughCopy('./src/assets/video');
 
-	// Enable data deep merge
-	eleventy.setDataDeepMerge(true);
+  // Enable data deep merge
+  eleventy.setDataDeepMerge(true);
 
-	// Config
-	return {
-		templateFormats: [
-			'md',
-			'njk',
-			'html'
-		],
+  // Config
+  return {
+    templateFormats: [
+      'md',
+      'njk',
+      'html'
+    ],
 
-		pathPrefix: '',
+    pathPrefix: '',
 
-		markdownTemplateEngine: 'njk',
-		htmlTemplateEngine: 'njk',
-		dataTemplateEngine: 'njk',
-		passthroughFileCopy: true,
+    markdownTemplateEngine: 'njk',
+    htmlTemplateEngine: 'njk',
+    dataTemplateEngine: 'njk',
+    passthroughFileCopy: true,
 
-		dir: {
-			input: 'src',
-			includes: '_templates',
-			data: '_data',
-			output: 'www',
-		}
-	};
+    dir: {
+      input: 'src',
+      includes: '_templates',
+      data: '_data',
+      output: 'www',
+    }
+  };
 }
