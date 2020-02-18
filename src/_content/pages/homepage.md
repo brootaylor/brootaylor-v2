@@ -8,7 +8,7 @@ priority: 1
 permalink: /index.html
 ---
 
-# Hi, I'm Bruceeeee.
+# Hi, I'm Bruce.
 
 A Front End Web Designer &amp; Developer living in Crawley, West Sussex, UK. Here's a bit more <a href="{{ '/about' | url }}">about me</a>.
 

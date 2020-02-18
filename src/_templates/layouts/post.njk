@@ -1,10 +1,7 @@
 {% extends "layouts/base.njk" %}
 
-{% block content -%}
-	<main role="main" id="main">
-		<article class="post">
-			{{ content | safe }}
-		</article>
-	</main>
-	<!-- / Main content -->
+{% block content %}
+	<article class="[ wrapper flow ] post">
+		{{ content | safe }}
+	</article>
 {% endblock %}

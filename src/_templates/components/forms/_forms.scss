@@ -1,0 +1,97 @@
+/**********************************************************
+ * Form elements (Global).
+ **********************************************************/
+
+
+/// Form wrapper and fields (children).
+///
+/// @group Forms
+/// @link https://polypane.app/blog/4-css-layouts-without-using-media-queries/ Method to steer clear from media queries as much as possible.
+.form {
+  max-width: convert-to-rem(700px);
+
+  fieldset {
+    border: 0;
+    margin: 0;
+    min-width: 0;
+    padding: 0;
+  }
+
+  input,
+  select,
+  textarea {
+    &:focus {
+			background-color: var(--grey-light);
+			border-color: var(--grey-mid);
+			outline: 0;
+		}
+  }
+
+  .form__fields {
+    list-style-position: inside;
+  }
+
+  .form__field {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-bottom: 1em;
+  }
+
+  .form__label {
+    flex: 1 0 100%;
+    font-weight: 500;
+    min-width: 8em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+
+  .form__input {
+    background-color: var(--white);
+    border: 1px solid var(--grey-light);
+    flex: 1 0 100%;
+    padding: 0.5em;
+    width: 100%;
+
+    // Select dropdown
+    &--select {
+      position: relative;
+
+      &::after {
+        top: 50%;
+        right: convert-to-rem(15px);
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+        border-color: rgba(0, 0, 0, 0);
+        border-top-color: var(--black);
+        border-width: convert-to-rem(5px);
+        margin-right: -(#{(convert-to-rem(5px))});
+      }
+
+      select {
+        color: var(--grey-dark);
+        background: none;
+        width: 100%;
+        height: inherit;
+        border: 0;
+        appearance: none;
+
+        // IE11 ms-expand rule to remove things like arrows - IE equivalent to "appearance:none;"
+        &::-ms-expand {
+          display: none;
+        }
+      }
+    }
+  }
+
+  textarea {
+    &.form__input {
+      height: 12em;
+    }
+  }
+
+}

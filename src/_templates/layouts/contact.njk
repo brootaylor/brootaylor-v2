@@ -3,5 +3,8 @@
 {% block content %}
 	<article class="wrapper flow">
 		{{ content | safe }}
+
+		{# Contact section #}
+		{% include "components/forms/contact/contact.njk" %}
 	</article>
 {% endblock %}

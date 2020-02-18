@@ -7,12 +7,12 @@
 	- Frederick Buechner, Telling Secrets
 -->
 
-<html lang="{{ language }}" dir="ltr">
+<html lang="{{ locale }}" dir="ltr">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>{% if bodyClass != 'homepage' %}{{ title }} | {% endif %}{{ metaTitle }}</title>
-		<meta name="description" content="{% if summary %}{{ summary }}{% else %}{{ metaDescription }}{% endif %}">
+		<title>{% if bodyClass != 'homepage' %}{{ title }} | {% endif %}{{ site.metaTitle }}</title>
+		<meta name="description" content="{% if summary %}{{ summary }}{% else %}{{ site.metaDescription }}{% endif %}">
 		<meta name="robots" content="{% if hidden == true %}noindex{% else %}index{% endif %}, follow">
 
 		{% if hidden !== true %}<link rel="canonical" href="{{ site.rootUrl }}{{ page.url | pretty }}">{% endif %}
@@ -20,27 +20,39 @@
 
 		<!-- open graph -->
 		<meta property="og:type" content="article">
-		<meta property="og:title" content="{{ metaTitle }}">
-		<meta property="og:image" content="{{ metaImage }}">
+		<meta property="og:title" content="{{ site.metaTitle }}">
+		<meta property="og:image" content="{{ site.metaImage }}">
 		<meta property="og:site_name" content="{{ site.name }}">
-		<meta property="og:description" content="{{ metaDescription }}">
+		<meta property="og:description" content="{{ site.metaDescription }}">
 
 		<!-- twitter -->
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="{{ site.twitter }}">
-		<meta name="twitter:title" content="{{ metaTitle }}">
-		<meta name="twitter:description" content="{{ metaDescription }}">
-		<meta name="twitter:image" content="{{ metaImage }}">
+		<meta name="twitter:title" content="{{ site.metaTitle }}">
+		<meta name="twitter:description" content="{{ site.metaDescription }}">
+		<meta name="twitter:image" content="{{ site.metaImage }}">
 
-		<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/ico/apple-touch-icon.png' | url }}">
+		<link rel="apple-touch-icon" sizes="180x180" href="{{ site.icon | url }}">
 		<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/ico/favicon-32x32.png' | url }}">
 		<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/ico/favicon-16x16.png' | url }}">
-		<link rel="manifest" href="{{ '/assets/ico/manifest.json' | url }}">
+		<link rel="manifest" href="{{ './manifest.json' | url }}">
 		<link rel="mask-icon" href="{{ '/assets/ico/safari-pinned-tab.svg' | url }}" color="{{ site.theme_color }}">
-		<link rel="shortcut icon" href="{{ '/assets/ico/favicon.ico' | url }}">
-		<meta name="msapplication-TileColor" content="{{ site.theme_color }}">
-		<meta name="msapplication-config" content="{{ '/assets/ico/browserconfig.xml' | url }}">
+		<link rel="shortcut icon" href="{{ site.favicon | url }}">
+		<meta name="msapplication-config" content="{{ './browserconfig.xml' | url }}">
+		<meta name="msapplication-TileColor" content="{{ site.background_color }}">
 		<meta name="theme-color" content="{{ site.theme_color }}">
+
+		{# Google Analytics #}
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-XXXXXX-X', 'auto');
+			ga('set', 'anonymizeIp', true); // May want to explore use of this object
+			ga('send', 'pageview');
+		</script>
 
 <!--
 	Hello there! Seems you're a bit like me - having a good ol' snoop around the source code.
@@ -55,20 +67,36 @@
 		<!-- "Skip-to" links. Helps assistive technologies -->
 		<a class="visuallyhidden" href="#main">Skip to the main content.</a>
 
-		{% include "includes/header.njk" %}
+		{% include "components/header/header.njk" %}
 		<!-- / Masthead -->
 
+		<main role="main" id="main">
 		{% block content %}
 			{{ content | safe }}
 		{% endblock %}
+		</main>
+		<!-- / Main content -->
 
-		{% include "includes/footer.njk" %}
+		{% include "components/footer/footer.njk" %}
 		<!-- / Footer content -->
 
-		{# JS calls #}
-		<script src="{{ '/scripts/main.js' | url }}"></script>
+		{# Vendor / 3rd Party JS #}
+		<script src="{{ '/scripts/vendor/vendor.js' | url }}"></script>
 
-		{# Service worker #}
+		{#
+			METHOD: native JS modules with legacy browser fallback
+			REF: https://philipwalton.com/articles/using-native-javascript-modules-in-production-today/
+		#}
+		{# Main JS #}
+		{# 1. modern browsers => Using native ES6 modules (ESM). Not transpiled with Babel #}
+		<script type="module" src="{{ '/scripts/main.module/main.mjs' | url }}"></script>
+		{% if site.environment == "production" %}
+			{# 2. older browsers => Using 'normal' JS output (IIFE). Transpiled with Babel #}
+			{# ES6 modules 'defer' by default so adding 'defer' attribute to enable classic JS to load in deferred fashion. #}
+			<script nomodule defer src="{{ '/scripts/main.nomodule/nomodule.js' | url }}"></script>
+		{% endif %}
+
+		{# Service workers #}
 		<script>
 			if (navigator.serviceWorker) {
 				navigator.serviceWorker.register('/serviceworker.js');
