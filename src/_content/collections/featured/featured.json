@@ -1,5 +1,4 @@
 {
-  "layout": "layouts/homepage.njk",
   "tags": "featured",
   "permalink": false,
   "hidden": true

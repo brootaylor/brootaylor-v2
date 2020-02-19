@@ -16,14 +16,14 @@ const versionPrintOut = `${name}.${version}`;
 console.info(versionPrintOut);
 
 // Methods called from ./modules/bar.mjs
-bar();
+// bar();
 
 // Methods called from ./modules/foo.mjs
 // helloFooA();
 // helloFooB();
 
 // Methods called from ./modules/observers.mjs
-observers();
+// observers();
 
 // Method called from _templates/components/carousel/carousel.mjs
-carousel();
+// carousel();
