@@ -13,6 +13,12 @@ I say this gingerly but I'd be honoured if anyone wanted to contribute any thoug
 
 The website is comprised of static files built using [Eleventy](https://www.11ty.io/), [NPM](https://docs.npmjs.com/cli/npm) `scripts` defined in `package.json` as well as [rollup.js](https://rollupjs.org/) to bundle JavaScript modules. It is deployed by and hosted with [Netlify](https://www.netlify.com/).
 
+---
+
+❗️**NOTE:** Even though I've made this code public, this code is for my personal website so please can I ask you not to copy the code wholesale. By all means learn from it (as I'm doing). Thank you.
+
+---
+
 ## Getting setup
 
 Instructions for installing all the necessary dependencies and outputting the first build.
@@ -36,7 +42,7 @@ npm run watch
 
 ## Netlify CI & CD setup
 
-Instructions for installing, creating a [new Netlify instance], or linking a local dev instance to an existing remote Netlify site instance.
+Instructions for installing, creating a [*new Netlify instance*], or linking a local dev instance to an existing remote Netlify site instance.
 
 ```bash
 # Install the Netlify CLI globally
@@ -61,7 +67,7 @@ npm run deploy-production
 
 The changes will deploy to the live Netlify instance.
 
-## Auto build & deployment *(prefered method)*
+## Auto build & deployment
 
 * My preferred method is to host on [Netlify](http://www.netlify.com)
 * This build process runs in a CI environment and then deploys the build automatically to a global CDN.
@@ -269,17 +275,17 @@ brootaylor.com
    * [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
      * [Inspiration example](https://andy-bell.design/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/)
 6. Use CSS Grid to handle entire page layout (column & row) rules. eg. assign `display: grid` to the `<body>` element => (**NOTE:** Don't use a typical type grid set up. Use CSS Grid and Flexbox rules [in `@support` feature queries where necessary] to handle section-by-section and component-by-component layout
-6. [Load CSS asynchronously](https://www.filamentgroup.com/lab/load-css-simpler/)
+7. [Load CSS asynchronously](https://www.filamentgroup.com/lab/load-css-simpler/)
    * *Trying to minimise the critical path calls that affect the first paint*
-7. Use a [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API).
-   - *I use a service worker on my current site but may try to enhance this implementation and maybe introduce dynamic versioning*
-8.  Add a RSS feed.
-9.  Deploy (CI & CD) using [Netlify](https://www.netlify.com/)
-10. Add a [Netlify form](https://docs.netlify.com/forms/setup/) for contact form.
-11. Environment & language/locale config to determine applicable data
-12. Dynamically populate the `manifest.json` file => (Pull from `site.json`)
-13. Create a config to generate a styleguide (list of the components)
-14. Consider [Going Buildless](https://css-tricks.com/going-buildless/)
+8. Use a [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API).
+   * *I use a service worker on my current site but may try to enhance this implementation and maybe introduce dynamic versioning*
+9.  Add a RSS feed.
+10.  Deploy (CI & CD) using [Netlify](https://www.netlify.com/)
+11. Add a [Netlify form](https://docs.netlify.com/forms/setup/) for contact form.
+12. Environment & language/locale config to determine applicable data
+13. Dynamically populate the `manifest.json` file => (Pull from `site.json`)
+14. Create a config to generate a styleguide (list of the components)
+15. Consider [Going Buildless](https://css-tricks.com/going-buildless/)
 
 ❗️Performance: Browser/client does HTTP 'roundtrip' to get bundles of code. Typically this is up to **14KB** per roundtrip => (**TRY KEEP ROUNDTRIPS TO A MINIMUM**)
 
