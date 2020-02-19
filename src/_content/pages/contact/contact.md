@@ -1,11 +1,9 @@
 ---
 layout: layouts/contact.njk
-title: Contact
-summary: This is a summary of the page.
+title: Get in touch
+summary: Please get in touch if you need to.
 bodyClass: contact
 date: 2020-02-18
 ---
 
-## Get in touch
-
-Interested in working with me on your next project? Want me to speak at your next event? Maybe you have a question you think I might be able to anwer. Either way, get in touch using the form below.
+If there's some reason or other that you think you need to get in touch with me, please complete the form below.
