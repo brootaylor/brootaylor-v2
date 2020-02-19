@@ -15,7 +15,7 @@ The website is comprised of static files built using [Eleventy](https://www.11ty
 
 ---
 
-❗️**NOTE:** Even though I've made this code public, this code is for my personal website so please can I ask you not to copy the code wholesale. By all means learn from it (as I'm doing). Thank you.
+❗️**NOTE:** Even though I've made this code public, it's for my personal website. Please can I ask you not to copy the code wholesale. By all means learn from it (as I'm doing). Thank you.
 
 ---
 
