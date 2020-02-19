@@ -14,9 +14,9 @@ console.info(versionPrintOut);
  */
 
 // Methods called from ./modules/bar.mjs
-import('./modules/bar.mjs').then(({ default: bar }) => {
-  bar();
-});
+// import('./modules/bar.mjs').then(({ default: bar }) => {
+//   bar();
+// });
 
 // Methods called from ./modules/foo.mjs
 // import('./modules/foo.mjs').then(({ helloFooA, helloFooB }) => {
@@ -25,11 +25,11 @@ import('./modules/bar.mjs').then(({ default: bar }) => {
 // });
 
 // Methods called from ./modules/observers.mjs
-import('./modules/observers.mjs').then(({ default: observers }) => {
-  observers();
-});
+// import('./modules/observers.mjs').then(({ default: observers }) => {
+//   observers();
+// });
 
 // Methods called from _templates/components/carousel/carousel.mjs
-import('../_templates/components/carousel/carousel.mjs').then(({ carousel }) => {
-  carousel();
-});
+// import('../_templates/components/carousel/carousel.mjs').then(({ carousel }) => {
+//   carousel();
+// });
