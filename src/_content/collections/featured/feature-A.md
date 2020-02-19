@@ -1,7 +1,7 @@
 ---
 title: "Featured A"
 body: "Some content that will appear in the body text area."
-modifier: ""
+modifier: "feature--a"
 
 hasImage: true
 hasMultiFormat: false

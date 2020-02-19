@@ -2,9 +2,13 @@
 
 {% block content %}
 	<article class="wrapper flow">
+
+		<h1>{{ title }}</h1>
+
 		{{ content | safe }}
 
 		{# Contact form #}
 		{% include "components/forms/contact/contact.njk" %}
+
 	</article>
 {% endblock %}

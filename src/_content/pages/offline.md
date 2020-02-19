@@ -1,12 +1,10 @@
 ---
 title: You're offline
-summary: This is a summary of the page.
+summary: It looks like you're offline.
 bodyClass: offline
 date: 2019-11-01
 hidden: true
 ---
-
-## You are offline
 
 It looks like you're offline. Fingers-crossed your connection to the internet will be sorted out soon.
 

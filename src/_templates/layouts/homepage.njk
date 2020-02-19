@@ -3,7 +3,9 @@
 {% block content %}
 	<article class="wrapper flow">
 
-		{# Intro section #}
+		<h1>{{ title }}</h1>
+
+		{{ content | safe }}
 
 		{# Feature / hero section #}
 		{% include "collections/featured.njk" %}
