@@ -1,5 +1,6 @@
 ---
 title: A post page
+summary: There's not much here in the sample post page. Better get to work.
 date: 2019-11-01T12:25:00
 ---
 

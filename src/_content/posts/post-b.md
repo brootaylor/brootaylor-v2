@@ -1,5 +1,6 @@
 ---
 title: Another post page
+summary: The common front-matter data for all of the files in the posts section.
 date: 2019-11-01
 ---
 

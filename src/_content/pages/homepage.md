@@ -1,7 +1,7 @@
 ---
 layout: layouts/homepage.njk
-title: Hi, I'm Bruce
-summary: A Front End Web Designer &amp; Developer living in Crawley, West Sussex, UK
+title: Hi, I'm Bruce.
+summary: A Front End Web Designer &amp; Developer living in Crawley, West Sussex, UK.
 bodyClass: homepage
 date: 2020-02-19
 changefreq: weekly

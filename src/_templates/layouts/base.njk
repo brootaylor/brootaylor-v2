@@ -7,7 +7,7 @@
 	- Frederick Buechner, Telling Secrets
 -->
 
-<html lang="{{ locale }}" dir="ltr">
+<html lang="{{ site.lang }}" dir="ltr">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,22 +16,25 @@
 		<meta name="robots" content="{% if hidden == true %}noindex{% else %}index{% endif %}, follow">
 
 		{% if hidden !== true %}<link rel="canonical" href="{{ site.rootUrl }}{{ page.url | pretty }}">{% endif %}
+
+		{# A simple way to Load CSS asynchronously --> ref: https://www.filamentgroup.com/lab/load-css-simpler/ #}
 		<link rel="stylesheet" href="{{ '/styles/main.css' | url }}" media="print" onload="this.media='all'">
 
-		<!-- open graph -->
+		{# open graph #}
 		<meta property="og:type" content="article">
 		<meta property="og:title" content="{{ site.metaTitle }}">
 		<meta property="og:image" content="{{ site.metaImage }}">
 		<meta property="og:site_name" content="{{ site.name }}">
 		<meta property="og:description" content="{{ site.metaDescription }}">
 
-		<!-- twitter -->
+		{# twitter #}
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="{{ site.twitter }}">
 		<meta name="twitter:title" content="{{ site.metaTitle }}">
 		<meta name="twitter:description" content="{{ site.metaDescription }}">
 		<meta name="twitter:image" content="{{ site.metaImage }}">
 
+		{# Favicons & manifest config #}
 		<link rel="apple-touch-icon" sizes="180x180" href="{{ site.icon | url }}">
 		<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/ico/favicon-32x32.png' | url }}">
 		<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/ico/favicon-16x16.png' | url }}">
@@ -50,7 +53,7 @@
 			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 			ga('create', 'UA-XXXXXX-X', 'auto');
-			ga('set', 'anonymizeIp', true); // May want to explore use of this object
+			ga('set', 'anonymizeIp', true); // Need to explore use of this object
 			ga('send', 'pageview');
 		</script>
 
