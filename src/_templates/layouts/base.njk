@@ -67,21 +67,21 @@
 	</head>
 	<body {% if bodyClass %}class="{{ bodyClass }}"{% endif %}>
 
-		<!-- "Skip-to" links. Helps assistive technologies -->
+		{# "Skip-to" links. Helps assistive technologies #}
 		<a class="visuallyhidden" href="#main">Skip to the main content.</a>
 
+		{# Masthead #}
 		{% include "components/header/header.njk" %}
-		<!-- / Masthead -->
 
+		{# Main content #}
 		<main role="main" id="main">
 			{% block content %}
 				{{ content | safe }}
 			{% endblock %}
 		</main>
-		<!-- / Main content -->
 
+		{# Footer content #}
 		{% include "components/footer/footer.njk" %}
-		<!-- / Footer content -->
 
 		{# Vendor / 3rd Party JS #}
 		<script src="{{ '/scripts/vendor/vendor.js' | url }}"></script>
@@ -99,19 +99,21 @@
 			<script nomodule defer src="{{ '/scripts/main.nomodule/nomodule.js' | url }}"></script>
 		{% endif %}
 
-		{# Service workers #}
-		<script>
-			if (navigator.serviceWorker) {
-				navigator.serviceWorker.register('/serviceworker.js');
-				if (navigator.serviceWorker.controller) {
-					window.addEventListener('load', () => {
-						navigator.serviceWorker.controller.postMessage({
-							command: 'trimCaches'
+		{# Service worker #}
+		{% if site.environment == "production" %}
+			<script>
+				if (navigator.serviceWorker) {
+					navigator.serviceWorker.register('/serviceworker.js');
+					if (navigator.serviceWorker.controller) {
+						window.addEventListener('load', () => {
+							navigator.serviceWorker.controller.postMessage({
+								command: 'trimCaches'
+							});
 						});
-					});
+					}
 				}
-			}
-		</script>
+			</script>
+		{% endif %}
 
 <!--
 Current page: {{ page.url | url }}
