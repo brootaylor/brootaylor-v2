@@ -22,17 +22,18 @@
 
 		{# open graph #}
 		<meta property="og:type" content="article">
-		<meta property="og:title" content="{{ site.metaTitle }}">
-		<meta property="og:image" content="{{ site.metaImage }}">
 		<meta property="og:site_name" content="{{ site.name }}">
-		<meta property="og:description" content="{{ site.metaDescription }}">
+		<meta property="og:title" content="{{ title }}">
+		<meta property="og:image" content="{{ site.metaImage }}">
+		<meta property="og:description" content="{% if summary %}{{ summary }}{% else %}{{ site.metaDescription }}{% endif %}">
 
 		{# twitter #}
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="{{ site.twitter }}">
-		<meta name="twitter:title" content="{{ site.metaTitle }}">
-		<meta name="twitter:description" content="{{ site.metaDescription }}">
+		<meta name="twitter:title" content="{{ title }}">
+		<meta name="twitter:description" content="{% if summary %}{{ summary }}{% else %}{{ site.metaDescription }}{% endif %}">
 		<meta name="twitter:image" content="{{ site.metaImage }}">
+		<meta name="twitter:url" property="og:url" content="{{ site.rootUrl }}{{ page.url | pretty }}">
 
 		{# Favicons & manifest config #}
 		<link rel="apple-touch-icon" sizes="180x180" href="{{ site.icon | url }}">
