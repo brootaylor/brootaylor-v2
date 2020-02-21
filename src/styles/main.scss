@@ -39,7 +39,8 @@
   '../_templates/components/icons/icons',
   '../_templates/components/images/images',
   '../_templates/components/videos/videos',
-  '../_templates/components/forms/forms';
+  '../_templates/components/forms/forms',
+  '../_templates/components/messages/messages';
 
 // Layout
 @import
@@ -66,6 +67,7 @@
 // Utility classes
 @import
   'utilities/wrapper',
+  'utilities/no-list',
   'utilities/flow',
   'utilities/observers',
   'utilities/visually-hidden',

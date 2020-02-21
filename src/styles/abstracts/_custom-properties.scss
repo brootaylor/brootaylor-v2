@@ -21,4 +21,12 @@
   --grey-mid: #{rgb-format($grey-mid)};
   --grey-light: #{rgb-format($grey-light)};
   --grey-dark: #{rgb-format($grey-dark)};
+  --green-custom: #{rgb-format($green-custom)};
+  --green-custom-light: #{rgb-format($green-custom-light)};
+  --green-custom-dark: #{rgb-format($green-custom-dark)};
+
+  /* Links */
+  --link-initial: var(--green-custom);
+  --link-text-hover: var(--green-custom-dark);
+  --link-border-hover: var(--green-custom-light);
 }

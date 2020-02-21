@@ -13,22 +13,18 @@
       "url": "/writing"
     },
     {
-      "label": "Contact",
-      "url": "/contact"
+      "label": "Notes",
+      "url": "/notes"
+    },
+    {
+      "label": "Links",
+      "url": "/links"
     }
   ],
   "footernav": [
     {
       "label": "Home",
       "url": "/"
-    },
-    {
-      "label": "About",
-      "url": "/about"
-    },
-    {
-      "label": "Writing",
-      "url": "/writing"
     },
     {
       "label": "Contact",

@@ -1,7 +1,12 @@
 {# Pulls content from navigation.json data file #}
-<nav aria-label="Primary navigation">
+<nav aria-label="Primary navigation" class="navigation__primary">
+	<a class="logo" href="/">
+		<span>Bruce Taylor</span>
+		<!-- To help assistive technologies -->
+		<span class="visually-hidden">Return to the homepage</span>
+	</a>
 	{% for navitem in navigation.mainnav %}
-		{% if loop.first %}<ul aria-label="List of pages you can visit">{% endif %}
+		{% if loop.first %}<ul aria-label="List of pages you can visit" class="navigation__primary-list">{% endif %}
 			<li>
 				<a href="{{ navitem.url }}" {% if (page.url | pretty) == item.url %}class="current"{% endif %}>{{ navitem.label }}</a>
 			</li>

@@ -76,6 +76,9 @@
 
 		{# Main content #}
 		<main role="main" id="main">
+			{# Message #}
+			{% include "components/messages/messages.njk" %}
+
 			{% block content %}
 				{{ content | safe }}
 			{% endblock %}

@@ -1,0 +1,12 @@
+.message {
+  text-align: center;
+  position: sticky;
+  top: 0;
+  padding: 1rem;
+
+  // 'Info' type message
+  &--info {
+    color: var(--black);
+    background-color: var(--grey-light);
+  }
+}
