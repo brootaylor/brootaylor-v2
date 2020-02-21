@@ -1,7 +1,7 @@
 {% extends "layouts/base.njk" %}
 
 {% block content %}
-	<article class="[ wrapper flow ] article">
+	<article class="[ wrapper flow ] writing">
 
 		<h1>{{ title }}</h1>
 		<time datetime="{{ date | dateLocal }}">{{ date | dateLocalFriendly("d LLLL y, ") }}{{ date | dateLocalFriendly("t") | lower }}</time>
