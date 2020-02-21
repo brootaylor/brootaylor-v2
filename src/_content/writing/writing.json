@@ -1,0 +1,13 @@
+{
+  "layout": "layouts/writing.njk",
+  "bodyClass": "writing",
+  "tags": [
+    "post",
+    "writing"
+  ],
+  "permalink": "/writing/{{ date | dateLocal }}/{{ page.fileSlug }}.html",
+  "url": "/writing/{{ date | dateLocal }}/{{ page.fileSlug }}",
+  "changefreq": "monthly",
+  "priority": "0.9",
+  "hidden": "false"
+}
