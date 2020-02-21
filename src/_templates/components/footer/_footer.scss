@@ -3,6 +3,8 @@
  **********************************************************/
 
 #footer {
+  margin-bottom: 1rem;
+
   .wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -16,6 +18,7 @@
       display: flex;
 
       li {
+        font-size: smaller;
         padding-right: 1rem;
       }
     }
