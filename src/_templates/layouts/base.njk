@@ -1,4 +1,5 @@
 <!doctype html>
+<html lang="{{ site.lang }}" dir="ltr">
 
 <!--
 	"The original, shimmering self gets buried so deep that most of us end up hardly living out of it at all.
@@ -7,7 +8,6 @@
 	- Frederick Buechner, Telling Secrets
 -->
 
-<html lang="{{ site.lang }}" dir="ltr">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,10 +39,10 @@
 		<link rel="apple-touch-icon" sizes="180x180" href="{{ site.icon | url }}">
 		<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/ico/favicon-32x32.png' | url }}">
 		<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/ico/favicon-16x16.png' | url }}">
-		<link rel="manifest" href="{{ './manifest.json' | url }}">
+		<link rel="manifest" href="{{ '/manifest.json' | url }}">
 		<link rel="mask-icon" href="{{ '/assets/ico/safari-pinned-tab.svg' | url }}" color="{{ site.theme_color }}">
 		<link rel="shortcut icon" href="{{ site.favicon | url }}">
-		<meta name="msapplication-config" content="{{ './browserconfig.xml' | url }}">
+		<meta name="msapplication-config" content="{{ '/browserconfig.xml' | url }}">
 		<meta name="msapplication-TileColor" content="{{ site.background_color }}">
 		<meta name="theme-color" content="{{ site.theme_color }}">
 
@@ -69,7 +69,7 @@
 	<body {% if bodyClass %}class="{{ bodyClass }}"{% endif %}>
 
 		{# "Skip-to" links. Helps assistive technologies #}
-		<a class="visuallyhidden" href="#main">Skip to the main content.</a>
+		<a class="visually-hidden" href="#main">Skip to the main content.</a>
 
 		{# Masthead #}
 		{% include "components/header/header.njk" %}

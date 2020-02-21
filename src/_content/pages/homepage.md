@@ -13,7 +13,7 @@ A Front End Web Designer &amp; Developer living in Crawley, West Sussex, UK. Her
 
 Over the years I've worked on a wide variety of projects with companies like **AirMiles**, **Macmillan Cancer Support**, **Time Inc.**, **MerchantCantos**, **Euromoney** and more recently with <a href="https://aviosgroup.com/" rel="external">Avios</a>.
 
-<h2 class="visuallyhidden">What I'm up to</h2>
+<h2 class="visually-hidden">What I'm up to</h2>
 
 <ul class="bio-extra">
 	<li>I sometimes <a href="/writing/">write</a>, jot down <a href="/notes/">notes</a> or share <a href="/links/">links</a> to things that interest me.</li>

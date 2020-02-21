@@ -6,6 +6,7 @@
     "article"
   ],
   "permalink": "/articles/{{ date | dateLocal }}/{{ page.fileSlug }}.html",
+  "url": "/articles/{{ date | dateLocal }}/{{ page.fileSlug }}",
   "changefreq": "monthly",
   "priority": "0.9",
   "hidden": "false"
