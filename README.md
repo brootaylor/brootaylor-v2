@@ -280,12 +280,13 @@ brootaylor.com
 8. Use a [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API).
    * *I use a service worker on my current site but may try to enhance this implementation and maybe introduce dynamic versioning*
 9.  Add a RSS feed.
-10.  Deploy (CI & CD) using [Netlify](https://www.netlify.com/)
-11. Add a [Netlify form](https://docs.netlify.com/forms/setup/) for contact form.
-12. Environment & language/locale config to determine applicable data
-13. Dynamically populate the `manifest.json` file => (Pull from `site.json`)
-14. Create a config to generate a styleguide (list of the components)
-15. Consider [Going Buildless](https://css-tricks.com/going-buildless/)
+10. Try moving away from heavy usage of BEM type class naming. Try rely on semantic selectors eg. `body>header nav { }`.
+11.  Deploy (CI & CD) using [Netlify](https://www.netlify.com/)
+12. Add a [Netlify form](https://docs.netlify.com/forms/setup/) for contact form.
+13. Environment & language/locale config to determine applicable data
+14. Dynamically populate the `manifest.json` file => (Pull from `site.json`)
+15. Create a config to generate a styleguide (list of the components)
+16. Consider [Going Buildless](https://css-tricks.com/going-buildless/)
 
 ❗️Performance: Browser/client does HTTP 'roundtrip' to get bundles of code. Typically this is up to **14KB** per roundtrip => (**TRY KEEP ROUNDTRIPS TO A MINIMUM**)
 

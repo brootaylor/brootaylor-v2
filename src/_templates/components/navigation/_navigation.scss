@@ -1,3 +1,36 @@
 /**********************************************************
  * Main navigation styles
  **********************************************************/
+
+ .navigation__primary {
+  @extend %flow;
+
+  a {
+    color: var(--font-colour-base);
+    text-decoration: none;
+
+    &:active,
+    &:focus,
+    &:hover {
+      color: var(--font-colour-base);
+      text-decoration: none;
+    }
+  }
+
+  .logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  &-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+    & > li {
+      padding-right: 1rem;
+    }
+  }
+
+ }

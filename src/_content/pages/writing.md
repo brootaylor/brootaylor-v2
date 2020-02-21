@@ -13,7 +13,7 @@ Here you'll find a few of my thoughts on a variety of things. Some web tech rela
 {%- for writing in collections.writing -%}
   <li class="writing__list-item">
     <article class="[ wrapper flow ] writing__summary">
-      <h3><a href="{{ writing.url }}">{{ writing.data.title }}</a></h3>
+      <h2><a href="{{ writing.url }}">{{ writing.data.title }}</a></h2>
       <time datetime="{{ writing.date | dateLocal }}">{{ writing.date | dateLocalFriendly("d LLLL y, ") }}{{ writing.date | dateLocalFriendly("t") | lower }}</time>
       <p>{{ writing.data.summary }}</p>
     </article>

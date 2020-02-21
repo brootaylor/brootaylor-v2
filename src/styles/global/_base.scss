@@ -2,6 +2,13 @@
  * Base styles that affect the entire website
  *********************************************/
 
+
+body,
+#main,
+#footer {
+  @extend %flow;
+}
+
 // This is using CSS Grid to define grid template areas
 // =====================================================
 // NOTE: Section and component-level grid layouts will be done in those Sass files
