@@ -3,5 +3,10 @@
   position: sticky;
   top: 0;
   padding: 1rem;
-  background-color: var(--grey-light);
+
+  // 'Info' type message
+  &--info {
+    color: var(--black);
+    background-color: var(--grey-light);
+  }
 }

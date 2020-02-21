@@ -2,8 +2,22 @@
  * Footer styles
  **********************************************************/
 
-.footer {
-  @include min-width($breakpoint-large) {
+#footer {
+  .wrapper {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav {
+    ul {
+      @extend %no-list;
+      display: flex;
+
+      li {
+        padding-right: 1rem;
+      }
+    }
   }
 }

@@ -6,7 +6,7 @@
 		<small>&copy; <time>{{ site.year }}</time> {{ site.name }}.</small>
 
 		{# Pulls content from navigation.json data file #}
-		{# <nav aria-label="Tertiary navigation">
+		<nav aria-label="Tertiary navigation">
 			{% for navitem in navigation.footernav %}
 				{% if loop.first %}<ul aria-label="List of pages you can visit">{% endif %}
 					<li>
@@ -14,7 +14,7 @@
 					</li>
 				{% if loop.last %}</ul>{% endif %}
 			{% endfor %}
-		</nav> #}
+		</nav>
 
 		{# <ul>
 			<li class="share">

@@ -6,9 +6,7 @@
   @extend %flow;
 
   a {
-    color: var(--font-colour-base);
-    text-decoration: none;
-
+    &,
     &:active,
     &:focus,
     &:hover {
@@ -20,12 +18,17 @@
   .logo {
     font-size: 1.2rem;
     font-weight: bold;
+
+    &,
+    &:active,
+    &:focus,
+    &:hover {
+      border: 0;
+    }
   }
 
   &-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    @extend %no-list;
     display: flex;
 
     & > li {

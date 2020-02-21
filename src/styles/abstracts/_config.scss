@@ -88,6 +88,21 @@ $grey-dark: map-get(map-get($tokens, colors), dark) !default;
 /// @type Color
 $black: #000000 !default;
 
+/// Green custom
+/// @group Colours
+/// @type Color
+$green-custom: map-get(map-get($tokens, colors), green-custom) !default;
+
+/// Green custom light
+/// @group Colours
+/// @type Color
+$green-custom-light: map-get(map-get($tokens, colors), green-custom-light) !default;
+
+/// Green custom dark
+/// @group Colours
+/// @type Color
+$green-custom-dark: map-get(map-get($tokens, colors), green-custom-dark) !default;
+
 
 
 /// Media query x-small (viewport) width
