@@ -1,4 +1,5 @@
 <!doctype html>
+<html lang="{{ site.lang }}" dir="ltr">
 
 <!--
 	"The original, shimmering self gets buried so deep that most of us end up hardly living out of it at all.
@@ -7,7 +8,6 @@
 	- Frederick Buechner, Telling Secrets
 -->
 
-<html lang="{{ locale }}" dir="ltr">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,29 +16,33 @@
 		<meta name="robots" content="{% if hidden == true %}noindex{% else %}index{% endif %}, follow">
 
 		{% if hidden !== true %}<link rel="canonical" href="{{ site.rootUrl }}{{ page.url | pretty }}">{% endif %}
+
+		{# A simple way to Load CSS asynchronously --> ref: https://www.filamentgroup.com/lab/load-css-simpler/ #}
 		<link rel="stylesheet" href="{{ '/styles/main.css' | url }}" media="print" onload="this.media='all'">
 
-		<!-- open graph -->
+		{# open graph #}
 		<meta property="og:type" content="article">
-		<meta property="og:title" content="{{ site.metaTitle }}">
-		<meta property="og:image" content="{{ site.metaImage }}">
 		<meta property="og:site_name" content="{{ site.name }}">
-		<meta property="og:description" content="{{ site.metaDescription }}">
+		<meta property="og:title" content="{{ title }}">
+		<meta property="og:image" content="{{ site.metaImage }}">
+		<meta property="og:description" content="{% if summary %}{{ summary }}{% else %}{{ site.metaDescription }}{% endif %}">
 
-		<!-- twitter -->
+		{# twitter #}
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="{{ site.twitter }}">
-		<meta name="twitter:title" content="{{ site.metaTitle }}">
-		<meta name="twitter:description" content="{{ site.metaDescription }}">
+		<meta name="twitter:title" content="{{ title }}">
+		<meta name="twitter:description" content="{% if summary %}{{ summary }}{% else %}{{ site.metaDescription }}{% endif %}">
 		<meta name="twitter:image" content="{{ site.metaImage }}">
+		<meta name="twitter:url" property="og:url" content="{{ site.rootUrl }}{{ page.url | pretty }}">
 
+		{# Favicons & manifest config #}
 		<link rel="apple-touch-icon" sizes="180x180" href="{{ site.icon | url }}">
 		<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/ico/favicon-32x32.png' | url }}">
 		<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/ico/favicon-16x16.png' | url }}">
-		<link rel="manifest" href="{{ './manifest.json' | url }}">
+		<link rel="manifest" href="{{ '/manifest.json' | url }}">
 		<link rel="mask-icon" href="{{ '/assets/ico/safari-pinned-tab.svg' | url }}" color="{{ site.theme_color }}">
 		<link rel="shortcut icon" href="{{ site.favicon | url }}">
-		<meta name="msapplication-config" content="{{ './browserconfig.xml' | url }}">
+		<meta name="msapplication-config" content="{{ '/browserconfig.xml' | url }}">
 		<meta name="msapplication-TileColor" content="{{ site.background_color }}">
 		<meta name="theme-color" content="{{ site.theme_color }}">
 
@@ -50,7 +54,7 @@
 			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 			ga('create', 'UA-XXXXXX-X', 'auto');
-			ga('set', 'anonymizeIp', true); // May want to explore use of this object
+			ga('set', 'anonymizeIp', true); // Need to explore use of this object
 			ga('send', 'pageview');
 		</script>
 
@@ -64,21 +68,21 @@
 	</head>
 	<body {% if bodyClass %}class="{{ bodyClass }}"{% endif %}>
 
-		<!-- "Skip-to" links. Helps assistive technologies -->
-		<a class="visuallyhidden" href="#main">Skip to the main content.</a>
+		{# "Skip-to" links. Helps assistive technologies #}
+		<a class="visually-hidden" href="#main">Skip to the main content.</a>
 
+		{# Masthead #}
 		{% include "components/header/header.njk" %}
-		<!-- / Masthead -->
 
+		{# Main content #}
 		<main role="main" id="main">
 			{% block content %}
 				{{ content | safe }}
 			{% endblock %}
 		</main>
-		<!-- / Main content -->
 
+		{# Footer content #}
 		{% include "components/footer/footer.njk" %}
-		<!-- / Footer content -->
 
 		{# Vendor / 3rd Party JS #}
 		<script src="{{ '/scripts/vendor/vendor.js' | url }}"></script>
@@ -96,19 +100,21 @@
 			<script nomodule defer src="{{ '/scripts/main.nomodule/nomodule.js' | url }}"></script>
 		{% endif %}
 
-		{# Service workers #}
-		<script>
-			if (navigator.serviceWorker) {
-				navigator.serviceWorker.register('/serviceworker.js');
-				if (navigator.serviceWorker.controller) {
-					window.addEventListener('load', () => {
-						navigator.serviceWorker.controller.postMessage({
-							command: 'trimCaches'
+		{# Service worker #}
+		{% if site.environment == "production" %}
+			<script>
+				if (navigator.serviceWorker) {
+					navigator.serviceWorker.register('/serviceworker.js');
+					if (navigator.serviceWorker.controller) {
+						window.addEventListener('load', () => {
+							navigator.serviceWorker.controller.postMessage({
+								command: 'trimCaches'
+							});
 						});
-					});
+					}
 				}
-			}
-		</script>
+			</script>
+		{% endif %}
 
 <!--
 Current page: {{ page.url | url }}

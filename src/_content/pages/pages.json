@@ -1,6 +1,5 @@
 {
   "layout": "layouts/default.njk",
-  "locale": "en-gb",
   "permalink": "{{ page.fileSlug }}.html",
   "changefreq": "yearly",
   "priority": "0.2",
