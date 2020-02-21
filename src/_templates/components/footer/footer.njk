@@ -1,8 +1,21 @@
 <footer role="contentinfo" id="footer">
 	<div class="footer-inner">
-		<!-- To help assistive technologies -->
+
+		{# To help assistive technologies #}
 		<h2 class="visually-hidden">Other places online to find Bruce.</h2>
-		<small>&copy; <time>{{ site.year }}</time> {{ site.name }}. <a href="/">Home</a>, <a href="/about">About</a>, <a href="/writing/">Writing</a>, <a href="/notes/">Notes</a>, <a href="/links/">Links</a></small>
+		<small>&copy; <time>{{ site.year }}</time> {{ site.name }}.</small>
+
+		{# Pulls content from navigation.json data file #}
+		<nav aria-label="Tertiary navigation">
+			{% for navitem in navigation.footernav %}
+				{% if loop.first %}<ul aria-label="List of pages you can visit">{% endif %}
+					<li>
+						<a href="{{ navitem.url }}">{{ navitem.label }}</a>
+					</li>
+				{% if loop.last %}</ul>{% endif %}
+			{% endfor %}
+		</nav>
+
 		<ul class="hidden">
 			<li class="share">
 				<a href="http://www.linkedin.com/in/brootaylor" rel="external">
