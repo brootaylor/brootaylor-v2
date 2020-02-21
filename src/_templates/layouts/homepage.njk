@@ -3,6 +3,9 @@
 {% block content %}
 	<article class="wrapper flow">
 
+		{# Message #}
+		{% include "components/messages/messages.njk" %}
+
 		<h1>{{ title }}</h1>
 
 		{{ content | safe }}
