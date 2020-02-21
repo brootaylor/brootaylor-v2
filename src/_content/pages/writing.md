@@ -1,7 +1,7 @@
 ---
-title: Articles
+title: Writing
 summary: Here you'll find a few of my thoughts on a variety of things. Some web tech related, some philosophical, some of a religious nature and some just me trying to process something as honestly as I can.
-bodyClass: articles-home
+bodyClass: writing-home
 date: 2020-02-20
 changefreq: daily
 priority: 1
@@ -10,11 +10,12 @@ priority: 1
 Here you'll find a few of my thoughts on a variety of things. Some web tech related, some philosophical, some of a religious nature and some just me trying to process something as honestly as I can.
 
 <ul>
-{%- for article in collections.article -%}
+{%- for writing in collections.writing -%}
   <li>
-    <h3>{{ article.data.title }}</h3>
-    <p>{{ article.data.summary }}</p>
-    <a href="{{ article.url }}">{{ article.url }}</a>
+    <h3><a href="{{ writing.url }}">{{ writing.data.title }}</a></h3>
+    <time datetime="{{ writing.date | dateLocal }}">{{ writing.date | dateLocalFriendly("d LLLL y, ") }}{{ writing.date | dateLocalFriendly("t") | lower }}</time>
+    <p>{{ writing.data.summary }}</p>
+    <a href="{{ writing.url }}">Read this article</a>
   </li>
 {%- endfor -%}
 </ul>
