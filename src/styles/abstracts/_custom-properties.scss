@@ -11,6 +11,7 @@
 :root {
   /* Fonts */
   --font-family-base: #{unquote(#{$font-family-base})};
+  --font-family-secondary: #{unquote(#{$font-family-secondary})};
   --font-size-base-percent: 100%;
   --font-colour-base: #{rgb-format($font-colour-base)};
   --line-height-base: #{$line-height-base};
