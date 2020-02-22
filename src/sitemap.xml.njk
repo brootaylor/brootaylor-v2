@@ -10,7 +10,7 @@ hidden: true
 {%- if page.data.hidden !== true -%}
 <url>
   <loc>{{ site.rootUrl }}{{ page.url | pretty }}</loc>
-  <lastmod>{{ page.date | dateLocal() }}</lastmod>
+  <lastmod>{{ page.date | dateTimeLocal }}</lastmod>
   <changefreq>{{ page.data.changefreq }}</changefreq>
   <priority>{{ page.data.priority }}</priority>
 </url>
