@@ -10,7 +10,7 @@ permalink: /notes.html
 eleventyExcludeFromCollections: true
 ---
 
-Quick notes, thoughts and ramblings.
+{{ summary }}
 
 ---
 

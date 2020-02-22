@@ -10,7 +10,7 @@ permalink: /writing.html
 eleventyExcludeFromCollections: true
 ---
 
-Here you'll find a few of my thoughts on a variety of things. Some web tech related, some philosophical, some of a religious nature and some just me trying to process something as honestly as I can.
+{{ summary }}
 
 ---
 
