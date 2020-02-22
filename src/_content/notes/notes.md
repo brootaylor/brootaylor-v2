@@ -7,7 +7,6 @@ date: 2020-02-20
 changefreq: daily
 priority: 1
 permalink: /notes.html
-eleventyExcludeFromCollections: true
 ---
 
 {{ summary }}

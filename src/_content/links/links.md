@@ -6,7 +6,6 @@ date: 2020-02-20
 changefreq: daily
 priority: 1
 permalink: /links.html
-eleventyExcludeFromCollections: true
 ---
 
 {{ summary }}
