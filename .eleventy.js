@@ -8,9 +8,9 @@ module.exports = function(eleventy) {
 
   // Add some utility filters
   eleventy.addFilter('pretty', require('./src/utils/filters/pretty-url.js'));
-  eleventy.addFilter('dateLocal', require('./src/utils/filters/date-local.js'));
-  eleventy.addFilter('dateTimeLocal', require('./src/utils/filters/datetime-local.js'));
-  eleventy.addFilter('dateTimeLocalFriendly', require('./src/utils/filters/datetime-local-friendly.js'));
+  eleventy.addFilter('dateLocal', require('./src/utils/filters/date-local.js')); // Generates numerial date (eg. 2020-02-22)
+  eleventy.addFilter('dateTimeLocal', require('./src/utils/filters/datetime-local.js')); // Generates numerical date and time (eg. 2020-02-22T09:50:00.000Z)
+  eleventy.addFilter('dateTimeLocalFriendly', require('./src/utils/filters/datetime-local-friendly.js')); // Generates readable date and time (eg. 22 February 2020, 9:50 am)
 
   // Transforms
   eleventy.addTransform('minify-html', require('./src/utils/minify-html.js'));
