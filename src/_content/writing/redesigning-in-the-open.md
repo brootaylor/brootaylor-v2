@@ -12,15 +12,11 @@ category:
 - redesign
 ---
 
-I've decided to take the scary route of redesigning and developing my website in the open. I've been inspired by others that have done this and thought it may be an interesting process. Not least because I'm a bit of a perfectionist and doing it this way may be good of weaning me off the need to have things polished before showing them. 😱
+I've decided to take the scary route of redesigning and developing my website in the open. I've been inspired by others that have done this and thought it may be an interesting process. Not least because I'm a bit of a perfectionist and doing this may be a good way of weaning me off the need to have things completely polished before showing them. 😱
 
 My hope is this'll be a evolutionary piece of work rather than the usual "WHALA!" moment. I intend to bump my head (a lot!) and learn a fair few things along the way - and am going to try my best to enjoy the whole process rather than just looking forward to it being 'finished'.
 
 You're more than welcome to follow along if you're ok with witnessing the inevitable head-scratching and "WT...*" moments 🤪.
-
-***
-
-I'm using this process to learn all sorts of things so forgive me if some of this seems verbose. It's just me.
 
 ***
 
