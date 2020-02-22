@@ -1,7 +1,6 @@
 {
   "layout": "layouts/default.njk",
   "permalink": "{{ page.fileSlug }}.html",
-  "date": "Last Modified",
   "changefreq": "weekly",
   "priority": "1",
   "hidden": "false"

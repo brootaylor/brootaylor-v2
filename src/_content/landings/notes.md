@@ -2,6 +2,7 @@
 title: Notes
 summary: Quick notes, thoughts and ramblings.
 bodyClass: notes-home
+date: 2020-02-22T22:10:00
 ---
 
 {{ summary }}
@@ -13,7 +14,7 @@ bodyClass: notes-home
   <li class="note__list-item">
     <article class="[ wrapper flow ] note__summary">
       <a href="{{ note.url }}">
-        <time datetime="{{ note.date | dateLocal }}">{{ note.date | dateLocalFriendly("d LLLL y, ") }}{{ note.date | dateLocalFriendly("t") | lower }}</time>
+        <time datetime="{{ note.date | dateTimeLocal }}">{{ note.date | dateTimeLocalFriendly("d LLLL y, ") }}{{ note.date | dateTimeLocalFriendly("t") | lower }}</time>
       </a>
       <p>{{ note.data.summary }}</p>
     </article>

@@ -4,7 +4,7 @@
 	<article class="[ wrapper flow ] writing">
 
 		<h1>{{ title }}</h1>
-		<time datetime="{{ date | dateLocal }}">{{ date | dateLocalFriendly("d LLLL y, ") }}{{ date | dateLocalFriendly("t") | lower }}</time>
+		<time datetime="{{ date | dateTimeLocal }}">{{ date | dateTimeLocalFriendly("d LLLL y, ") }}{{ date | dateTimeLocalFriendly("t") | lower }}</time>
 
 		{{ content | safe }}
 
