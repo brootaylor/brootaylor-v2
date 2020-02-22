@@ -1,4 +1,5 @@
 ---
+layout: layouts/default.njk
 title: Notes
 summary: Quick notes, thoughts and ramblings.
 bodyClass: notes-home

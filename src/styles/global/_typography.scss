@@ -38,3 +38,16 @@ h3 {
 p {
   @include font-size(18px);
 }
+
+hr {
+  border: 1px solid var(--grey-light);
+  border-width: 0 0 1px;
+}
+
+article {
+  time {
+    font-family: var(--font-family-secondary);
+    font-size: 0.95rem;
+    color: var(--grey-dark);
+  }
+}

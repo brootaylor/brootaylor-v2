@@ -22,5 +22,24 @@
         padding-right: 1rem;
       }
     }
+
+    a {
+      &,
+      &:active,
+      &:focus,
+      &:hover {
+        color: var(--font-colour-base);
+        text-decoration: none;
+      }
+    }
+  }
+
+  .social {
+    @extend %no-list;
+    flex: 1 1 75%;
+
+    & > li {
+      width: 2.5rem;
+    }
   }
 }

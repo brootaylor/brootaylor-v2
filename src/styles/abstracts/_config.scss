@@ -19,6 +19,11 @@
 /// @type List
 $font-family-base: map-get(map-get($tokens, fonts), base) !default;
 
+/// Secondary font family
+/// @group Fonts
+/// @type List
+$font-family-secondary: map-get(map-get($tokens, fonts), secondary) !default;
+
 /// Code (monospace) font family
 /// @group Fonts
 /// @type List
