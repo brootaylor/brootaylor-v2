@@ -1,12 +1,7 @@
 ---
-layout: layouts/default.njk
 title: Notes
 summary: Quick notes, thoughts and ramblings.
 bodyClass: notes-home
-date: 2020-02-20
-changefreq: daily
-priority: 1
-permalink: /notes.html
 ---
 
 {{ summary }}
