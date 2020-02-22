@@ -15,11 +15,12 @@ Quick notes, thoughts and ramblings.
 ---
 
 <ul class="[ wrapper flow ] note__list">
-{%- for note in collections.notes -%}
+{%- for note in collections.notes | reverse -%}
   <li class="note__list-item">
     <article class="[ wrapper flow ] note__summary">
-      <h2><a href="{{ note.url }}">{{ note.data.title }}</a></h2>
-      <time datetime="{{ note.date | dateLocal }}">{{ note.date | dateLocalFriendly("d LLLL y, ") }}{{ note.date | dateLocalFriendly("t") | lower }}</time>
+      <a href="{{ note.url }}">
+        <time datetime="{{ note.date | dateLocal }}">{{ note.date | dateLocalFriendly("d LLLL y, ") }}{{ note.date | dateLocalFriendly("t") | lower }}</time>
+      </a>
       <p>{{ note.data.summary }}</p>
     </article>
   </li>

@@ -15,7 +15,7 @@ Here you'll find a few of my thoughts on a variety of things. Some web tech rela
 ---
 
 <ul class="[ wrapper flow ] writing__list">
-{%- for writing in collections.writing -%}
+{%- for writing in collections.writing | reverse -%}
   <li class="writing__list-item">
     <article class="[ wrapper flow ] writing__summary">
       <h2><a href="{{ writing.url }}">{{ writing.data.title }}</a></h2>
