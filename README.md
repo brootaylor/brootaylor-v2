@@ -258,7 +258,24 @@ brootaylor.com
 
 ---
 
-## Roadmap *(at the moment!)*
+## Features
+
+What this site is built on / utilises:
+
+* [Eleventy](https://www.11ty.io/)
+* [Netlify](https://www.netlify.com/)
+* [Netlify form (contact)](https://docs.netlify.com/forms/setup/)
+* [Design Tokens](https://css-tricks.com/what-are-design-tokens/)
+* [Loads CSS asynchronously](https://www.filamentgroup.com/lab/load-css-simpler/)
+* [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)
+* Customisable global data and navigation
+* Progressively enhanced, semantic and accessible
+
+---
+
+## Roadmap
+
+Things for the future:
 
 1. Get as [JAMstack](https://jamstack.org/)-y as possible
 2. Build it using a Static Site Generator (SSG) of sorts. Considering...
@@ -281,12 +298,11 @@ brootaylor.com
    * *I use a service worker on my current site but may try to enhance this implementation and maybe introduce dynamic versioning*
 9.  Add a RSS feed.
 10. Try moving away from heavy usage of BEM type class naming. Try rely on semantic selectors eg. `body>header nav { }`.
-11.  Deploy (CI & CD) using [Netlify](https://www.netlify.com/)
+11. Deploy (CI & CD) using [Netlify](https://www.netlify.com/)
 12. Add a [Netlify form](https://docs.netlify.com/forms/setup/) for contact form.
-13. Environment & language/locale config to determine applicable data
-14. Dynamically populate the `manifest.json` file => (Pull from `site.json`)
-15. Create a config to generate a styleguide (list of the components)
-16. Consider [Going Buildless](https://css-tricks.com/going-buildless/)
+13. Dynamically populate the `manifest.json` file => (Pull from `site.json`)
+14. Create a config to generate a styleguide (list of the components)
+15. Consider [Going Buildless](https://css-tricks.com/going-buildless/)
 
 ❗️Performance: Browser/client does HTTP 'roundtrip' to get bundles of code. Typically this is up to **14KB** per roundtrip => (**TRY KEEP ROUNDTRIPS TO A MINIMUM**)
 
