@@ -7,7 +7,7 @@ eleventyExcludeFromCollections: true
 
 const version = 'v{{ pkg.version }}';
 const name = '{{ pkg.name }}';
-const staticCacheName = 'static' + '@en.' + name + '_' + version;
+const staticCacheName = 'static' + '@' + name + '_' + version;
 const imageCacheName = 'images';
 const pagesCacheName = 'pages';
 const cacheList = [
@@ -17,6 +17,10 @@ const cacheList = [
 ];
 const offlinePage = '/offline.html';
 const offlinePages = [
+	'/writing/2020-02-22/redesigning-in-the-open',
+	'/notes',
+	'/links',
+	'/about',
 	'/'
 ];
 
@@ -29,7 +33,6 @@ function updateStaticCache() {
 		// These files must be cached for installation
 		return staticCache.addAll([
 			'./styles/main.css',
-			'./scripts/main.module/main.mjs',
 			offlinePage
 		]);
 	});

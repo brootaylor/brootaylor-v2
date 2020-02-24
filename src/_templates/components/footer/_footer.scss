@@ -12,13 +12,19 @@
     align-items: center;
   }
 
+  small {
+    font-size: 0.90rem;
+    margin-right: 1rem;
+  }
+
   nav {
+    font-size: 0.90rem;
+
     ul {
       @extend %no-list;
       display: flex;
 
       li {
-        font-size: smaller;
         padding-right: 1rem;
       }
     }

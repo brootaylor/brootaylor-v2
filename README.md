@@ -258,35 +258,37 @@ brootaylor.com
 
 ---
 
-## Roadmap *(at the moment!)*
+## Features
 
-1. Get as [JAMstack](https://jamstack.org/)-y as possible
-2. Build it using a Static Site Generator (SSG) of sorts. Considering...
-   * [Eleventy](https://www.11ty.io/) ✔️
-   * ~~[Sergey](https://sergey.cool/)~~
-3. I don't want to use a task builder like Grunt or Gulp (if I can help it!). Task builders are fab but I'd like to see how far I can go with only using NPM packages and running them from `scripts` in `package.json`.
-   * *Maaan that was a long winded way to say something or other* 📜
-4. Try using [Design Tokens](https://css-tricks.com/what-are-design-tokens/)
-   * *Rather than global and theme-based variable values being hardcoded in my SASS*
-     * It's been around for a few years but here's a fab video on [using design tokens](https://www.youtube.com/watch?v=wDBEc3dJJV8) (Jina Bolton)
-5. Use *newer* CSS methods like...
-   * [Custom CSS Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*)
-   * [Variable fonts](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide)
-   * [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
-     * [Inspiration example](https://andy-bell.design/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/)
-6. Use CSS Grid to handle entire page layout (column & row) rules. eg. assign `display: grid` to the `<body>` element => (**NOTE:** Don't use a typical type grid set up. Use CSS Grid and Flexbox rules [in `@support` feature queries where necessary] to handle section-by-section and component-by-component layout
-7. [Load CSS asynchronously](https://www.filamentgroup.com/lab/load-css-simpler/)
-   * *Trying to minimise the critical path calls that affect the first paint*
-8. Use a [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API).
-   * *I use a service worker on my current site but may try to enhance this implementation and maybe introduce dynamic versioning*
-9.  Add a RSS feed.
-10. Try moving away from heavy usage of BEM type class naming. Try rely on semantic selectors eg. `body>header nav { }`.
-11.  Deploy (CI & CD) using [Netlify](https://www.netlify.com/)
-12. Add a [Netlify form](https://docs.netlify.com/forms/setup/) for contact form.
-13. Environment & language/locale config to determine applicable data
-14. Dynamically populate the `manifest.json` file => (Pull from `site.json`)
-15. Create a config to generate a styleguide (list of the components)
-16. Consider [Going Buildless](https://css-tricks.com/going-buildless/)
+What this site is built on / utilises:
+
+* [JAMstack](https://jamstack.org/) methodology
+* [Eleventy](https://www.11ty.io/)
+* [Netlify](https://www.netlify.com/)
+* [Netlify form (contact)](https://docs.netlify.com/forms/setup/)
+* [Design Tokens](https://css-tricks.com/what-are-design-tokens/)
+* [Loads CSS asynchronously](https://www.filamentgroup.com/lab/load-css-simpler/)
+* [JS config to handle code-splitting](https://philipwalton.com/articles/using-native-javascript-modules-in-production-today/) (ie. splitting code into smaller chunks to be loaded on demand)
+* Sass powered CSS system
+* Service worker that caches pages so people can read your articles offline
+* Progressively enhanced, semantic and accessible
+* Customisable global data and navigation
+* Dynamically populates the `manifest.json` file from `site.json`
+
+---
+
+## Roadmap
+
+Things for the future:
+
+1.  Add a RSS feed
+2.  Add Light / Dark Theme option
+3.  Pagination
+4.  [Webmention](https://indieweb.org/Webmention)
+5.  [IFTTT & Netlify config](https://hankchizljaw.com/wrote/jamstack-ifttt-and-netlify:-a-power-trio/)
+6.  Integrate Netlify CMS
+7.  Create a config to generate a styleguide (list of the components)
+8.  Consider [Going Buildless](https://css-tricks.com/going-buildless/)
 
 ❗️Performance: Browser/client does HTTP 'roundtrip' to get bundles of code. Typically this is up to **14KB** per roundtrip => (**TRY KEEP ROUNDTRIPS TO A MINIMUM**)
 
@@ -297,17 +299,19 @@ brootaylor.com
 1. [PWA icon build tool](https://maskable.app/)
 2. [Design System Checklist](https://designsystemchecklist.com/)
 3. [Design Tokens Generator](https://quinalha.me/design-tokens-generator/)
-4. [polyfill.io](https://polyfill.io/v3/)
-5. [Colour blindness emulator](http://colororacle.org/)
-6. [Fit on a Floppy](https://fitonafloppy.website/)
-7. [Devhints.io](https://devhints.io/rollup)
-8. [SASS guidelines](https://sass-guidelin.es/)
-9. [Set up CSS scoping using custom CSS properties](https://css-tricks.com/the-power-and-fun-of-scope-with-css-custom-properties/)
-10. [Using the `article` element correctly](https://www.smashingmagazine.com/2020/01/html5-article-section/)
-11. [Generate SassDocs](http://sassdoc.com/)
-12. [Generate JSDocs](https://jsdoc.app/)
-13. [Request with Intent: Caching Strategies in the Age of PWAs](https://alistapart.com/article/request-with-intent-caching-strategies-in-the-age-of-pwas/) => (Use of service worker rules and modern HTML to render the right media at the right time - **Perfect for heavy media like Images & Video**)
-14. [JS config to handle code-splitting](https://philipwalton.com/articles/using-native-javascript-modules-in-production-today/) (ie. splitting code into smaller chunks to be loaded on demand)
+4. [Using design tokens](https://www.youtube.com/watch?v=wDBEc3dJJV8) (Jina Bolton)
+5. [polyfill.io](https://polyfill.io/v3/)
+6. [Colour blindness emulator](http://colororacle.org/)
+7. [Fit on a Floppy](https://fitonafloppy.website/)
+8. [Devhints.io](https://devhints.io/rollup)
+9. [SASS guidelines](https://sass-guidelin.es/)
+10. [Set up CSS scoping using custom CSS properties](https://css-tricks.com/the-power-and-fun-of-scope-with-css-custom-properties/)
+11. [Create a responsive grid layout with no media queries, using CSS Grid](https://andy-bell.design/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/)
+12. [Using the `article` element correctly](https://www.smashingmagazine.com/2020/01/html5-article-section/)
+13. [Generate SassDocs](http://sassdoc.com/)
+14. [Generate JSDocs](https://jsdoc.app/)
+15. [Request with Intent: Caching Strategies in the Age of PWAs](https://alistapart.com/article/request-with-intent-caching-strategies-in-the-age-of-pwas/) => (Use of service worker rules and modern HTML to render the right media at the right time - **Perfect for heavy media like Images & Video**)
+16. [JS config to handle code-splitting](https://philipwalton.com/articles/using-native-javascript-modules-in-production-today/) (ie. splitting code into smaller chunks to be loaded on demand)
 
 ---
 
