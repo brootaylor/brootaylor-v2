@@ -1,5 +1,9 @@
-{# @TODO: Make this message more dynamic in terms of the type of message and the related content. #}
-<div class="[ message {{ modifier }} ]">
-	{{ message }}
-	<a href="{{ ctaUrl }}">{{ ctaLabel }}</a>
+{# Pulls data from a global `messages.json` data file #}
+<div class="[ message {{ messageType.modifier }} ]">
+	{{ messageType.message }}
+
+	{# Check if `ctaUrl` value has been set for the particular `messageType` data object #}
+	{% if messageType.ctaUrl %}
+		<a href="{{ messageType.ctaUrl }}">{{ messageType.ctaLabel }}</a>
+	{% endif %}
 </div>

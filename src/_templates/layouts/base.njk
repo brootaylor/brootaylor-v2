@@ -78,14 +78,9 @@
 		<main role="main" id="main">
 
 			{# Message content #}
-			{# @TODO: Try set one value that then points to the rest of the data. Rather than 4 sets! #}
 			{% block messages %}
-				{# Setting the values... #}
-				{% set modifier = messages.info.modifier %}
-				{% set message = messages.info.message %}
-				{% set ctaUrl = messages.info.ctaUrl %}
-				{% set ctaLabel = messages.info.ctaLabel %}
-
+				{# Setting the message type (eg. "info") #}
+				{% set messageType = messages.info %}
 				{# Calling the message component #}
 				{% include "components/messages/messages.njk" %}
 			{% endblock %}
