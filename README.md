@@ -284,10 +284,11 @@ Things for the future:
 1.  Add a RSS feed
 2.  Add Light / Dark Theme option
 3.  Pagination
-4.  [IFTTT & Netlify config](https://hankchizljaw.com/wrote/jamstack-ifttt-and-netlify:-a-power-trio/)
-5.  Integrate Netlify CMS
-6.  Create a config to generate a styleguide (list of the components)
-7.  Consider [Going Buildless](https://css-tricks.com/going-buildless/)
+4.  [Webmention](https://indieweb.org/Webmention)
+5.  [IFTTT & Netlify config](https://hankchizljaw.com/wrote/jamstack-ifttt-and-netlify:-a-power-trio/)
+6.  Integrate Netlify CMS
+7.  Create a config to generate a styleguide (list of the components)
+8.  Consider [Going Buildless](https://css-tricks.com/going-buildless/)
 
 ❗️Performance: Browser/client does HTTP 'roundtrip' to get bundles of code. Typically this is up to **14KB** per roundtrip => (**TRY KEEP ROUNDTRIPS TO A MINIMUM**)
 
