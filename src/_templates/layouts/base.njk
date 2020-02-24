@@ -76,12 +76,22 @@
 
 		{# Main content #}
 		<main role="main" id="main">
-			{# Message #}
-			{% include "components/messages/messages.njk" %}
 
+			{# Message content #}
+			{# @TODO: Try set one value that then points to the rest of the data. Rather than 4 sets! #}
+			{% block messages %}
+				{% set modifier = messages.info.modifier %}
+				{% set message = messages.info.message %}
+				{% set ctaUrl = messages.info.ctaUrl %}
+				{% set ctaLabel = messages.info.ctaLabel %}
+				{% include "components/messages/messages.njk" %}
+			{% endblock %}
+
+			{# Main page content is generated here #}
 			{% block content %}
 				{{ content | safe }}
 			{% endblock %}
+
 		</main>
 
 		{# Footer content #}

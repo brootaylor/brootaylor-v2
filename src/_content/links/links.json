@@ -2,7 +2,6 @@
   "layout": "layouts/links.njk",
   "bodyClass": "links",
   "tags": [
-    "post",
     "links"
   ],
   "permalink": "/links/{{ date | dateLocal }}/{{ page.fileSlug }}.html",
