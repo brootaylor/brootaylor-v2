@@ -3,7 +3,7 @@
 {% block content %}
 	<article class="[ wrapper flow ] note">
 
-		<h1>{{ title }}</h1>
+		{% if title %}<h1>{{ title }}</h1>{% endif %}
 		<time datetime="{{ date | dateTimeLocal }}">{{ date | dateTimeLocalFriendly("d LLLL y, ") }}{{ date | dateTimeLocalFriendly("t") | lower }}</time>
 
 		{{ content | safe }}

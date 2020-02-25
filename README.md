@@ -283,14 +283,15 @@ Things for the future:
 
 1.  RSS feed
 2.  Light / Dark Theme option
-3.  Categorys
-4.  Post read time
-5.  Pagination
-6.  [Webmention](https://indieweb.org/Webmention)
-7.  [IFTTT & Netlify config](https://hankchizljaw.com/wrote/jamstack-ifttt-and-netlify:-a-power-trio/)
-8.  Netlify CMS
-9.  Styleguide (list of the components)
-10. Consider [Going Buildless](https://css-tricks.com/going-buildless/)
+3.  Make better use of utility classes
+4.  Tags / categorys
+5.  Post read time
+6.  Pagination
+7.  [Webmention](https://indieweb.org/Webmention)
+8.  [IFTTT & Netlify config](https://hankchizljaw.com/wrote/jamstack-ifttt-and-netlify:-a-power-trio/)
+9.  Netlify CMS
+10. Styleguide (list of the components)
+11. Consider [Going Buildless](https://css-tricks.com/going-buildless/)
 
 ---
 
