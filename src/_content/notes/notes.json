@@ -2,7 +2,6 @@
   "layout": "layouts/notes.njk",
   "bodyClass": "notes",
   "tags": [
-    "post",
     "notes"
   ],
   "permalink": "/notes/{{ date | dateLocal }}/{{ page.fileSlug }}.html",

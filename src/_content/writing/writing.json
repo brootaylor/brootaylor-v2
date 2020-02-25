@@ -2,7 +2,6 @@
   "layout": "layouts/writing.njk",
   "bodyClass": "writing",
   "tags": [
-    "post",
     "writing"
   ],
   "permalink": "/writing/{{ date | dateLocal }}/{{ page.fileSlug }}.html",

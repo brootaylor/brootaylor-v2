@@ -93,6 +93,11 @@ $grey-dark: map-get(map-get($tokens, colors), dark) !default;
 /// @type Color
 $black: #000000 !default;
 
+/// Orange custom
+/// @group Colours
+/// @type Color
+$orange-custom: map-get(map-get($tokens, colors), orange-custom) !default;
+
 /// Green custom
 /// @group Colours
 /// @type Color

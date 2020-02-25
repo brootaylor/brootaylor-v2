@@ -25,14 +25,17 @@
 		<meta property="og:site_name" content="{{ site.name }}">
 		<meta property="og:title" content="{{ title }}">
 		<meta property="og:image" content="{{ site.metaImage }}">
+		<meta property="og:image:alt" content="{{ site.metaImageAlt }}">
 		<meta property="og:description" content="{% if summary %}{{ summary }}{% else %}{{ site.metaDescription }}{% endif %}">
+		<meta property="og:url" content="{{ site.rootUrl }}{{ page.url | pretty }}">
 
 		{# twitter #}
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="{{ site.twitter }}">
 		<meta name="twitter:title" content="{{ title }}">
-		<meta name="twitter:description" content="{% if summary %}{{ summary }}{% else %}{{ site.metaDescription }}{% endif %}">
 		<meta name="twitter:image" content="{{ site.metaImage }}">
+		<meta name="twitter:image:alt"  content="{{ site.metaImageAlt }}">
+		<meta name="twitter:description" content="{% if summary %}{{ summary }}{% else %}{{ site.metaDescription }}{% endif %}">
 		<meta name="twitter:url" property="og:url" content="{{ site.rootUrl }}{{ page.url | pretty }}">
 
 		{# Favicons & manifest config #}
@@ -76,12 +79,20 @@
 
 		{# Main content #}
 		<main role="main" id="main">
-			{# Message #}
-			{% include "components/messages/messages.njk" %}
 
+			{# Message content #}
+			{% block messages %}
+				{# Setting the message type (eg. "info") #}
+				{% set messageType = messages.info %}
+				{# Calling the message component #}
+				{% include "components/messages/messages.njk" %}
+			{% endblock %}
+
+			{# Main page content is generated here #}
 			{% block content %}
 				{{ content | safe }}
 			{% endblock %}
+
 		</main>
 
 		{# Footer content #}

@@ -281,14 +281,19 @@ What this site is built on / utilises:
 
 Things for the future:
 
-1.  Add a RSS feed
-2.  Add Light / Dark Theme option
-3.  Pagination
-4.  [Webmention](https://indieweb.org/Webmention)
-5.  [IFTTT & Netlify config](https://hankchizljaw.com/wrote/jamstack-ifttt-and-netlify:-a-power-trio/)
-6.  Integrate Netlify CMS
-7.  Create a config to generate a styleguide (list of the components)
-8.  Consider [Going Buildless](https://css-tricks.com/going-buildless/)
+1.  RSS feed
+2.  Light / Dark Theme option
+3.  Make better use of utility classes
+4.  Tags / categorys
+5.  Post read time
+6.  Pagination
+7.  [Webmention](https://indieweb.org/Webmention)
+8.  [IFTTT & Netlify config](https://hankchizljaw.com/wrote/jamstack-ifttt-and-netlify:-a-power-trio/)
+9.  Netlify CMS
+10. Styleguide (list of the components)
+11. Consider [Going Buildless](https://css-tricks.com/going-buildless/)
+
+---
 
 ❗️Performance: Browser/client does HTTP 'roundtrip' to get bundles of code. Typically this is up to **14KB** per roundtrip => (**TRY KEEP ROUNDTRIPS TO A MINIMUM**)
 
