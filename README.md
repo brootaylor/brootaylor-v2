@@ -19,6 +19,93 @@ The website is comprised of static files built using [Eleventy](https://www.11ty
 
 ---
 
+## Features
+
+* Progressively enhanced, semantic and accessible
+* Sass powered CSS system - (utilising modern custom CSS properties and methods)
+* Service worker that caches pages so people can read content offline
+* Customisable global data and navigation
+  * (*Content and code separated as much as possible*)
+* Dynamically generated `manifest.json` file => (Pulls from global `site.json` data file)
+* Dynamically generated `sitemap.xml`
+* Dynamically generated `robots.txt`
+* [JAMstack](https://jamstack.org/)
+* [Eleventy](https://www.11ty.io/)
+* [Netlify](https://www.netlify.com/)
+* [Netlify form (contact)](https://docs.netlify.com/forms/setup/)
+* [Design Tokens](https://css-tricks.com/what-are-design-tokens/)  
+  > Design tokens are an agnostic way to store variables such as typography, color, and spacing so that your design system can be shared across platforms like iOS, Android, and regular ol’ websites.
+* [Loads CSS asynchronously](https://www.filamentgroup.com/lab/load-css-simpler/)
+* [JS config to handle code-splitting](https://philipwalton.com/articles/using-native-javascript-modules-in-production-today/) (ie. splitting code into smaller chunks to be loaded on demand)
+* [Generates SassDocs](http://sassdoc.com/)
+* [Generates JSDocs](https://jsdoc.app/)
+
+---
+
+## Roadmap
+
+Possible features / enhancements for the future:
+
+1.  RSS feed
+2.  Light / Dark Theme option
+3.  Make better use of utility classes
+4.  Tags / categories
+5.  Post read time
+6.  Pagination
+7.  [Webmention](https://indieweb.org/Webmention)
+8.  [IFTTT & Netlify config](https://hankchizljaw.com/wrote/jamstack-ifttt-and-netlify:-a-power-trio/)
+9.  Netlify CMS
+10. Styleguide (list of the components)
+11. Consider [Going Buildless](https://css-tricks.com/going-buildless/)
+
+---
+
+❗️**Performance note**: Browser/client does HTTP 'roundtrip' to get bundles of code. Typically this is up to **14KB** per roundtrip => (**TRY KEEP ROUNDTRIPS TO A MINIMUM**)
+
+---
+
+## Repo structure
+
+```bash
+brootaylor.com
+├── config
+│   ├── browser-sync.config.js   # BrowserSync configuration
+│   ├── budget.json              # Lighthouse performance budget
+│   ├── postcss.config.js        # PostCSS converts modern CSS into something most browsers can understand
+│   ├── rollup.config.js         # Rollup JS bundling configuration
+│
+├── src
+│   ├── _content                 # Content (Front Matter & Markdown)
+│   ├── _data                    # Global website data (eg. site, navigation & design tokens)
+│   ├── _templates               # Layout templates, collections, partials & components (Nunjucks, JS & SCSS)
+│   ├── assets                   # Assets (Fonts, Images, Video, Favicons, Web App Manifest template)
+│   ├── scripts                  # JavaScript (Global)
+│   ├── styles                   # SCSS (Global)
+│   ├── utils                    # Eleventy utility templates (ie. filters, transforms etc.)
+│   ├── browserconfig.xml.njk    # browserconfig.xml template (For Microsoft application usage)
+│   ├── manifest.json.njk        # manifest.json template
+│   ├── robots.txt.njk           # robots.txt template
+│   ├── serviceworker.js.njk     # serviceworker.js template
+│   └── sitemap.xml.njk          # sitemap.xml template
+│
+├── .browserlistrc               # Browser support config list
+├── .editorconfig                # Text editor configuration
+├── .eleventy.js                 # Eleventy configuration
+├── .eleventyignore              # Files eleventy needs to ignore
+├── .eslintignore                # JS folders/files eslint needs to ignore
+├── .eslintrc                    # JS linting configuration
+├── .gitignore                   # Files not tracked by Git
+├── .markdownlint.json           # Markdownlint configuration
+├── .sass-lint.yml               # SCSS linting configuration
+├── LICENCE                      # Repo licence
+├── netlify.toml                 # Netlify configuration
+├── package.json                 # Node.js package manifest
+├── package-lock.json            # Node.js package lock
+└── README.md                    # This file (Instructions and repo information)
+```
+
+---
+
 ## Getting setup
 
 Instructions for installing all the necessary dependencies and outputting the first build.
@@ -215,87 +302,6 @@ npm run audit:accessibility
 # Runs a "lighthouse" performance report
 npm run audit:performance
 ```
-
-## Repo structure
-
-```bash
-brootaylor.com
-├── config
-│   ├── browser-sync.config.js   # BrowserSync configuration
-│   ├── budget.json              # Lighthouse performance budget
-│   ├── postcss.config.js        # PostCSS converts modern CSS into something most browsers can understand
-│   ├── rollup.config.js         # Rollup JS bundling configuration
-│
-├── src
-│   ├── _content                 # Content (Front Matter & Markdown)
-│   ├── _data                    # Global website data (eg. site, navigation & design tokens)
-│   ├── _templates               # Layout templates, collections, partials & components (Nunjucks, JS & SCSS)
-│   ├── assets                   # Assets (Fonts, Images, Video, Favicons, Web App Manifest template)
-│   ├── scripts                  # JavaScript (Global)
-│   ├── styles                   # SCSS (Global)
-│   ├── utils                    # Eleventy utility templates (ie. filters, transforms etc.)
-│   ├── browserconfig.xml.njk    # browserconfig.xml template (For Microsoft application usage)
-│   ├── manifest.json.njk        # manifest.json template
-│   ├── robots.txt.njk           # robots.txt template
-│   ├── serviceworker.js.njk     # serviceworker.js template
-│   └── sitemap.xml.njk          # sitemap.xml template
-│
-├── .browserlistrc               # Browser support config list
-├── .editorconfig                # Text editor configuration
-├── .eleventy.js                 # Eleventy configuration
-├── .eleventyignore              # Files eleventy needs to ignore
-├── .eslintignore                # JS folders/files eslint needs to ignore
-├── .eslintrc                    # JS linting configuration
-├── .gitignore                   # Files not tracked by Git
-├── .markdownlint.json           # Markdownlint configuration
-├── .sass-lint.yml               # SCSS linting configuration
-├── LICENCE                      # Repo licence
-├── netlify.toml                 # Netlify configuration
-├── package.json                 # Node.js package manifest
-├── package-lock.json            # Node.js package lock
-└── README.md                    # This file (Instructions and repo information)
-```
-
----
-
-## Features
-
-What this site is built on / utilises:
-
-* [JAMstack](https://jamstack.org/) methodology
-* [Eleventy](https://www.11ty.io/)
-* [Netlify](https://www.netlify.com/)
-* [Netlify form (contact)](https://docs.netlify.com/forms/setup/)
-* [Design Tokens](https://css-tricks.com/what-are-design-tokens/)
-* [Loads CSS asynchronously](https://www.filamentgroup.com/lab/load-css-simpler/)
-* [JS config to handle code-splitting](https://philipwalton.com/articles/using-native-javascript-modules-in-production-today/) (ie. splitting code into smaller chunks to be loaded on demand)
-* Sass powered CSS system
-* Service worker that caches pages so people can read your articles offline
-* Progressively enhanced, semantic and accessible
-* Customisable global data and navigation
-* Dynamically populates the `manifest.json` file from `site.json`
-
----
-
-## Roadmap
-
-Possible features / enhancements for the future:
-
-1.  RSS feed
-2.  Light / Dark Theme option
-3.  Make better use of utility classes
-4.  Tags / categorys
-5.  Post read time
-6.  Pagination
-7.  [Webmention](https://indieweb.org/Webmention)
-8.  [IFTTT & Netlify config](https://hankchizljaw.com/wrote/jamstack-ifttt-and-netlify:-a-power-trio/)
-9.  Netlify CMS
-10. Styleguide (list of the components)
-11. Consider [Going Buildless](https://css-tricks.com/going-buildless/)
-
----
-
-❗️Performance: Browser/client does HTTP 'roundtrip' to get bundles of code. Typically this is up to **14KB** per roundtrip => (**TRY KEEP ROUNDTRIPS TO A MINIMUM**)
 
 ---
 
