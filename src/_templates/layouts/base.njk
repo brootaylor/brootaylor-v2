@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ site.lang }}" dir="ltr">
+<html lang="{{ site.lang }}" dir="ltr" class="no-js">
 
 <!--
 	"The original, shimmering self gets buried so deep that most of us end up hardly living out of it at all.
@@ -54,6 +54,11 @@
 		<meta name="msapplication-TileColor" content="{{ site.background_color }}">
 		<meta name="theme-color" content="{{ site.theme_color }}">
 
+		{# Checking browser can handle fairly modern JS #}
+		<script>
+			document.documentElement.classList.remove('no-js');
+		</script>
+
 		{# Google Analytics #}
 		{# Check that GA Urchin exists first... #}
 		{% if site.AnalyticsUrchin %}
@@ -82,7 +87,7 @@
 		{# "Skip-to" links. Helps assistive technologies #}
 		<a class="visually-hidden" href="#main">Skip to the main content.</a>
 
-		{# Masthead #}
+		{# Main header & navigation #}
 		{% include "components/header/header.njk" %}
 
 		{# Main content #}
@@ -103,16 +108,12 @@
 
 		</main>
 
-		{# Footer content #}
+		{# Main footer content #}
 		{% include "components/footer/footer.njk" %}
 
 		{# Vendor / 3rd Party JS #}
 		<script src="/scripts/vendor/vendor.js"></script>
 
-		{#
-			METHOD: native JS modules with legacy browser fallback
-			REF: https://philipwalton.com/articles/using-native-javascript-modules-in-production-today/
-		#}
 		{# Main JS #}
 		{# 1. modern browsers => Using native ES6 modules (ESM). Not transpiled with Babel #}
 		<script type="module" src="/scripts/main.module/main.mjs"></script>
