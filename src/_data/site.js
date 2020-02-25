@@ -22,7 +22,7 @@ module.exports = {
   ms_tile: '/assets/ico/mstile-150x150.png',
   twitter: '@brootaylor',
   AnalyticsUrchin: 'XXXXXX-X',
-  year: '2020',
+  yearCurrent: new Date().getFullYear(),
   author: {
     name: 'Bruce Taylor',
     url: 'https://brootaylor.com'
