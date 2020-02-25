@@ -4,6 +4,7 @@ module.exports = {
   metaTitle: 'Bruce Taylor',
   metaDescription: 'I\'m Bruce Taylor, a Front End Web Designer & Developer living in Crawley, West Sussex, UK.',
   metaImage: '/assets/images/common/logo.png',
+  metaImageAlt: 'Site logo for Bruce Taylor',
   lang: 'en-gb',
   start_url: '/',
   display: 'standalone',
