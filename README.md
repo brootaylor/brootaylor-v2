@@ -279,7 +279,7 @@ What this site is built on / utilises:
 
 ## Roadmap
 
-Things for the future:
+Possible features / enhancements for the future:
 
 1.  RSS feed
 2.  Light / Dark Theme option

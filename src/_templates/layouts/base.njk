@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ site.lang }}" dir="ltr">
+<html lang="{{ site.lang }}" dir="ltr" class="no-js">
 
 <!--
 	"The original, shimmering self gets buried so deep that most of us end up hardly living out of it at all.
@@ -15,51 +15,64 @@
 		<meta name="description" content="{% if summary %}{{ summary }}{% else %}{{ site.metaDescription }}{% endif %}">
 		<meta name="robots" content="{% if hidden == true %}noindex{% else %}index{% endif %}, follow">
 
-		{% if hidden !== true %}<link rel="canonical" href="{{ site.rootUrl }}{{ page.url | pretty }}">{% endif %}
+		{% if hidden !== true %}
+			<link rel="canonical" href="{{ site.rootUrl }}{{ page.url | pretty }}">
+		{% endif %}
 
 		{# A simple way to Load CSS asynchronously --> ref: https://www.filamentgroup.com/lab/load-css-simpler/ #}
-		<link rel="stylesheet" href="{{ '/styles/main.css' | url }}" media="print" onload="this.media='all'">
+		<link rel="stylesheet" href="/styles/main.css" media="print" onload="this.media='all'">
 
 		{# open graph #}
-		<meta property="og:type" content="article">
+		<meta property="og:type" content="website">
 		<meta property="og:site_name" content="{{ site.name }}">
-		<meta property="og:title" content="{{ title }}">
-		<meta property="og:image" content="{{ site.metaImage }}">
+		<meta property="og:title" content="{% if title %}{{ title }}{% else %}{{ site.metaTitle }}{% endif %}">
+		<meta property="og:image" content="{{ site.rootUrl }}{{ site.metaImage }}">
 		<meta property="og:image:alt" content="{{ site.metaImageAlt }}">
 		<meta property="og:description" content="{% if summary %}{{ summary }}{% else %}{{ site.metaDescription }}{% endif %}">
 		<meta property="og:url" content="{{ site.rootUrl }}{{ page.url | pretty }}">
 
 		{# twitter #}
-		<meta name="twitter:card" content="summary">
-		<meta name="twitter:site" content="{{ site.twitter }}">
-		<meta name="twitter:title" content="{{ title }}">
-		<meta name="twitter:image" content="{{ site.metaImage }}">
-		<meta name="twitter:image:alt"  content="{{ site.metaImageAlt }}">
-		<meta name="twitter:description" content="{% if summary %}{{ summary }}{% else %}{{ site.metaDescription }}{% endif %}">
-		<meta name="twitter:url" property="og:url" content="{{ site.rootUrl }}{{ page.url | pretty }}">
+		{# Checking that `twitter` handler exists first... #}
+		{% if site.twitter %}
+			<meta name="twitter:card" content="summary">
+			<meta name="twitter:site" content="{{ site.twitter }}">
+			<meta name="twitter:title" content="{% if title %}{{ title }}{% else %}{{ site.metaTitle }}{% endif %}">
+			<meta name="twitter:image" content="{{ site.rootUrl }}{{ site.metaImage }}">
+			<meta name="twitter:image:alt"  content="{{ site.metaImageAlt }}">
+			<meta name="twitter:description" content="{% if summary %}{{ summary }}{% else %}{{ site.metaDescription }}{% endif %}">
+			<meta name="twitter:url" property="og:url" content="{{ site.rootUrl }}{{ page.url | pretty }}">
+		{% endif %}
 
 		{# Favicons & manifest config #}
 		<link rel="apple-touch-icon" sizes="180x180" href="{{ site.icon | url }}">
-		<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/ico/favicon-32x32.png' | url }}">
-		<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/ico/favicon-16x16.png' | url }}">
-		<link rel="manifest" href="{{ '/manifest.json' | url }}">
-		<link rel="mask-icon" href="{{ '/assets/ico/safari-pinned-tab.svg' | url }}" color="{{ site.theme_color }}">
+		<link rel="icon" type="image/png" sizes="32x32" href="/assets/ico/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/assets/ico/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+		<link rel="mask-icon" href="/assets/ico/safari-pinned-tab.svg" color="{{ site.theme_color }}">
 		<link rel="shortcut icon" href="{{ site.favicon | url }}">
-		<meta name="msapplication-config" content="{{ '/browserconfig.xml' | url }}">
+		<meta name="msapplication-config" content="/browserconfig.xml">
 		<meta name="msapplication-TileColor" content="{{ site.background_color }}">
 		<meta name="theme-color" content="{{ site.theme_color }}">
 
-		{# Google Analytics #}
+		{# Checking browser can handle fairly modern JS #}
 		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-			ga('create', 'UA-XXXXXX-X', 'auto');
-			ga('set', 'anonymizeIp', true); // Need to explore use of this object
-			ga('send', 'pageview');
+			document.documentElement.classList.remove('no-js');
 		</script>
+
+		{# Google Analytics #}
+		{# Check that GA Urchin exists first... #}
+		{% if site.AnalyticsUrchin %}
+			<script>
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+				ga('create', 'UA-{{ site.AnalyticsUrchin }}', 'auto');
+				ga('set', 'anonymizeIp', true); // Need to explore use of this object
+				ga('send', 'pageview');
+			</script>
+		{% endif %}
 
 <!--
 	Hello there! Seems you're a bit like me - having a good ol' snoop around the source code.
@@ -74,7 +87,7 @@
 		{# "Skip-to" links. Helps assistive technologies #}
 		<a class="visually-hidden" href="#main">Skip to the main content.</a>
 
-		{# Masthead #}
+		{# Main header & navigation #}
 		{% include "components/header/header.njk" %}
 
 		{# Main content #}
@@ -95,23 +108,19 @@
 
 		</main>
 
-		{# Footer content #}
+		{# Main footer content #}
 		{% include "components/footer/footer.njk" %}
 
 		{# Vendor / 3rd Party JS #}
-		<script src="{{ '/scripts/vendor/vendor.js' | url }}"></script>
+		<script src="/scripts/vendor/vendor.js"></script>
 
-		{#
-			METHOD: native JS modules with legacy browser fallback
-			REF: https://philipwalton.com/articles/using-native-javascript-modules-in-production-today/
-		#}
 		{# Main JS #}
 		{# 1. modern browsers => Using native ES6 modules (ESM). Not transpiled with Babel #}
-		<script type="module" src="{{ '/scripts/main.module/main.mjs' | url }}"></script>
+		<script type="module" src="/scripts/main.module/main.mjs"></script>
 		{% if site.environment == "production" %}
 			{# 2. older browsers => Using 'normal' JS output (IIFE). Transpiled with Babel #}
 			{# ES6 modules 'defer' by default so adding 'defer' attribute to enable classic JS to load in deferred fashion. #}
-			<script nomodule defer src="{{ '/scripts/main.nomodule/nomodule.js' | url }}"></script>
+			<script nomodule defer src="/scripts/main.nomodule/nomodule.js"></script>
 		{% endif %}
 
 		{# Service worker #}
@@ -131,8 +140,8 @@
 		{% endif %}
 
 <!--
-Current page: {{ page.url | url }}
-Last deployed: {{ date | dateTimeLocalFriendly("LLLL d, y @ t") }}
+	Current page: {{ page.url | url }}
+	Last updated: {{ date | dateTimeLocalFriendly("LLLL d, y @ t") }}
 -->
 
 	</body>

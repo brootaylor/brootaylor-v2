@@ -1,10 +1,12 @@
-{# Pulls content from navigation.json data file #}
 <nav aria-label="Primary navigation" class="navigation__primary">
+
 	<a class="logo" href="/">
 		<span>Bruce Taylor</span>
 		<!-- To help assistive technologies -->
 		<span class="visually-hidden">Return to the homepage</span>
 	</a>
+
+	{# Pulls content from navigation.json data file #}
 	{% for navitem in navigation.mainnav %}
 		{% if loop.first %}<ul aria-label="List of pages you can visit" class="navigation__primary-list">{% endif %}
 			<li>
@@ -12,5 +14,5 @@
 			</li>
 		{% if loop.last %}</ul>{% endif %}
 	{% endfor %}
-</nav>
 
+</nav>
