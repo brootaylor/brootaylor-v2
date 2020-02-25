@@ -21,6 +21,7 @@ module.exports = {
   icon_512: '/assets/ico/android-chrome-512x512.png',
   ms_tile: '/assets/ico/mstile-150x150.png',
   twitter: '@brootaylor',
+  AnalyticsUrchin: 'XXXXXX-X',
   year: '2020',
   author: {
     name: 'Bruce Taylor',
