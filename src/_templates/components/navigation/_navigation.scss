@@ -2,7 +2,7 @@
  * Main navigation styles
  **********************************************************/
 
- .navigation__primary {
+ .navigation {
   @extend %flow;
 
   a {
@@ -27,7 +27,7 @@
     }
   }
 
-  &-list {
+  &__list {
     @extend %no-list;
     display: flex;
 
