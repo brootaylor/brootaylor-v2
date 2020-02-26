@@ -22,8 +22,8 @@ body,
     grid-template-areas: 'banner' 'main' 'footer'; // Helps 'visualise' the grid template areas
   }
 
-  // "Masthead" contains the logo and nav
-  #masthead {
+  // "Header" contains the logo and nav
+  #header {
     grid-area: banner;
   }
 
