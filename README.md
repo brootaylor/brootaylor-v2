@@ -10,12 +10,11 @@ You're more than welcome to follow along if you're ok with witnessing the inevit
 
 I say this gingerly but I'd be honoured if anyone wanted to contribute any thoughts and pearls of wisdom. All I ask is you be kind.
 
-
 The website is comprised of static files built using [Eleventy](https://www.11ty.io/), [NPM](https://docs.npmjs.com/cli/npm) `scripts` defined in `package.json` as well as [rollup.js](https://rollupjs.org/) to bundle JavaScript modules. It is deployed by and hosted with [Netlify](https://www.netlify.com/).
 
 ---
 
-❗️**NOTE:** Even though I've made this code public, it's for my personal website. Please can I ask you not to copy the code wholesale. By all means learn from it (as I'm doing). Thank you.
+❗️**NOTE:** I've made the code public but it is for my personal website, so please can I ask you not to copy everything wholesale. By all means learn from it (as I'm doing). Thank you.
 
 ---
 

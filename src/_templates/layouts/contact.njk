@@ -1,13 +1,27 @@
+{#
+	Contact layout template
+#}
+
+{# Uses `base.njk` as base document (ie. extends on it) #}
 {% extends "layouts/base.njk" %}
 
+{# These variables are set here to pull from global `site.json` #}
+{% set metaTitle = site.metaTitle %}
+{% set metaDescription = site.metaDescription %}
+{% set metaImage = site.metaImage %}
+{% set metaImageAlt = site.metaImageAlt %}
+
+{# This block `content` relates to the same block on the `base.njk` layout file #}
 {% block content %}
 	<article class="[ wrapper flow ]">
 
+		{# This `title` comes from the `contact.md` front matter #}
 		<h1>{{ title }}</h1>
 
+		{# This content will come from the `contact.md` markdown #}
 		{{ content | safe }}
 
-		{# Contact form #}
+		{# Contact form component #}
 		{% include "components/forms/contact/contact.njk" %}
 
 	</article>
