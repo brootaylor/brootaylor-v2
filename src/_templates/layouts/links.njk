@@ -1,12 +1,26 @@
+{#
+	Links layout template
+#}
+
+{# Uses `base.njk` as base document (ie. extends on it) #}
 {% extends "layouts/base.njk" %}
 
+{# These variables are set here to pull from global `site.json` #}
+{% set metaTitle = site.metaTitle %}
+{% set metaDescription = site.metaDescription %}
+{% set metaImage = site.metaImage %}
+{% set metaImageAlt = site.metaImageAlt %}
+
+{# This block `content` relates to the same block on the `base.njk` layout file #}
 {% block content %}
 	<article class="[ wrapper flow ] link">
 
+		{# This `title` (and other specific variables below it) comes from the front matter in the relevant `.md` file - within the `links` directory #}
 		<h1>{{ title }}</h1>
 		<a href="{{ linkExternal }}">{{ linkLabel }}</a>
 		<time datetime="{{ date | dateTimeLocal }}">{{ date | dateTimeLocalFriendly("d LLLL y, ") }}{{ date | dateTimeLocalFriendly("t") | lower }}</time>
 
+		{# This content comes from the markdown in the relevant `.md` file - within the `links` directory #}
 		{{ content | safe }}
 
 	</article>
