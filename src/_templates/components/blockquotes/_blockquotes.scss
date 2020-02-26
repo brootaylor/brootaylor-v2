@@ -2,26 +2,6 @@
  * Blockquotes
  **********************************************************/
 
- a {
-  &,
-  &:active,
-  &:visited {
-      color: var(--link-initial); // Custom property
-      text-decoration: none;
-      border-bottom: 1px dotted var(--link-initial); // Custom property
-      background-color: transparent;
-      transition: border-bottom 0.25s,
-                  background-color 0.25s;
-  }
-
-  &:hover,
-  &:active {
-      outline: none;
-  }
-
-  &:hover {
-      color: var(--link-text-hover); // Custom property
-      text-decoration: none;
-      border-bottom: 1px solid var(--link-border-hover); // Custom property
-  }
- }
+blockquotes {
+  // Something to go in here.
+}
