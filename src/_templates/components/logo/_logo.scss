@@ -1,27 +1,19 @@
 /**********************************************************
- * Main navigation styles
+ * Site logo styles
  **********************************************************/
 
- .navigation {
-  @extend %flow;
-
+.site-logo {
   a {
+    font-size: 1.2rem;
+    font-weight: bold;
+
     &,
     &:active,
     &:focus,
     &:hover {
       color: var(--font-colour-base);
       text-decoration: none;
+      border: 0;
     }
   }
-
-  &__list {
-    @extend %no-list;
-    display: flex;
-
-    & > li {
-      padding-right: 1rem;
-    }
-  }
-
- }
+}
