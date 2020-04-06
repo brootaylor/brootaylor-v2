@@ -19,12 +19,12 @@ body,
     display: grid;
     grid-gap: 1rem;
     grid-template-rows: auto 1fr auto;
-    grid-template-areas: 'banner' 'main' 'footer'; // Helps 'visualise' the grid template areas
+    grid-template-areas: 'header' 'main' 'footer'; // Helps 'visualise' the grid template areas
   }
 
   // "Header" contains the logo and nav
   #header {
-    grid-area: banner;
+    grid-area: header;
   }
 
   // "Main" is where are the primary content will render

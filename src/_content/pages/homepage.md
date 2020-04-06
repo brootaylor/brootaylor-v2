@@ -13,8 +13,6 @@ A Front End Web Designer &amp; Developer living in Crawley, West Sussex, UK. Her
 
 Over the years I've worked on a wide variety of projects with companies like **AirMiles**, **Macmillan Cancer Support**, **Time Inc.**, **MerchantCantos**, **Euromoney** and more recently with [Avios][2].
 
-<h2 class="visually-hidden">What I'm up to</h2>
-
 I sometimes [write][3], jot down [notes][4] or share [links][5] to things that interest me.
 
 At the moment, I'm reading "[Future Ethics][6]" by Cennydd Bowles, "[Shape Up][7]" by Ryan Singer and "[The Universal Christ][8]" by Richard Rohr.

@@ -139,6 +139,11 @@
 			</script>
 		{% endif %}
 
+		<!-- States referenced by `aria-describedby` -->
+		<div class="visually-hidden">
+				<span id="current-page">Current page</span>
+		</div>
+
 <!--
 	Current page: {{ page.url | url }}
 	Last updated: {{ date | dateTimeLocalFriendly("LLLL d, y @ t") }}
