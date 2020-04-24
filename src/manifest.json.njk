@@ -1,6 +1,7 @@
 ---
 permalink: /manifest.json
 hidden: true
+eleventyExcludeFromCollections: true
 ---
 {
 		"lang": "{{ site.lang }}",
@@ -13,11 +14,6 @@ hidden: true
             "type": "image/png"
         },
         {
-            "src": "{{ site.icon_384 }}",
-            "sizes": "384x384",
-            "type": "image/png"
-        },
-        {
 					"src": "{{ site.icon_512 }}",
 					"sizes": "512x512",
 					"type": "image/png"
@@ -25,6 +21,6 @@ hidden: true
     ],
     "start_url": "{{ site.start_url }}",
 		"display": "{{ site.display }}",
-    "theme_color": "{{ site.theme_color }}",
-    "background_color": "{{ site.background_color }}"
+    "theme_color": "{{ site.theme_color_android }}",
+    "background_color": "{{ site.background_color_android }}"
 }

@@ -1,0 +1,15 @@
+<nav aria-label="Primary navigation" class="[ navigation ]">
+
+	{# To help assistive technologies #}
+	<h2 class="[ visually-hidden ]">Primary navigation</h2>
+
+	{# Pulls content from navigation.json data file #}
+	{% for navitem in navigation.mainnav %}
+		{% if loop.first %}<ul aria-label="List of pages you can visit" class="[ navigation__list ]">{% endif %}
+			<li class="[ navigation__item ]">
+				<a href="{{ navitem.url }}" {% if (page.url | pretty) == navitem.url %}aria-describedby="current-page" class="[ current ]"{% endif %}>{{ navitem.label }}</a>
+			</li>
+		{% if loop.last %}</ul>{% endif %}
+	{% endfor %}
+
+</nav>

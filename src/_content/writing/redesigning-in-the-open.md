@@ -1,18 +1,17 @@
 ---
-title: Redesigning in the open
-summary: I've decided to take the scary route of redesigning and developing my website in the open.
+title: "Redesigning in the open"
+summary: "I've decided to take the scary route of redesigning and developing my website in the open."
+lead: "I've decided to take the scary route (for me anyway) of redesigning and developing my website in the open. I've been inspired by others that have done this and thought it may be an interesting process. Not least because I'm a bit of a perfectionist and doing this may be a good way of weaning me off the need to have things completely polished before showing them. 😱"
 date: 2020-02-22T09:50:00
 location:
-  locality: Crawley
-  country-name: United Kingdom
+  locality: "Crawley"
+  country-name: "United Kingdom"
 category:
-- web_development
-- technology
-- design
-- redesign
+- "web_development"
+- "technology"
+- "design"
+- "redesign"
 ---
-
-I've decided to take the scary route (for me anyway) of redesigning and developing my website in the open. I've been inspired by others that have done this and thought it may be an interesting process. Not least because I'm a bit of a perfectionist and doing this may be a good way of weaning me off the need to have things completely polished before showing them. 😱
 
 My hope is this'll be a evolutionary piece of work rather than the usual "WHALA!" moment. I intend to bump my head (a lot!) and learn a fair few things along the way - and am going to try my best to enjoy the whole process rather than just looking forward to it being 'finished'.
 

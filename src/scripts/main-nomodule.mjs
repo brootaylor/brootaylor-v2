@@ -4,10 +4,11 @@
  */
 
 // These are the imports...
-// import { helloFooA, helloFooB } from './modules/foo.mjs'; // Named imports
+import { helloFooA, helloFooB } from './modules/foo.mjs'; // Named imports
 import bar from './modules/bar.mjs'; // Default import
 import observers from './modules/observers.mjs'; // Default import
-import { carousel } from '../_templates/components/carousel/carousel.mjs'; // Named import
+import objectFitPolyfill from './modules/objectFitPolyfill.mjs'; // Default import
+import { carousel } from '../_includes/components/units/carousel/carousel.mjs'; // Named import
 
 const version = '{{version}}';
 const name = '{{name}}';
@@ -25,5 +26,8 @@ console.info(versionPrintOut);
 // Methods called from ./modules/observers.mjs
 // observers();
 
-// Method called from _templates/components/carousel/carousel.mjs
+// Methods called from ./modules/objectFitPolyfill.mjs
+objectFitPolyfill();
+
+// Method called from _includes/components/units/carousel/carousel.mjs
 // carousel();

@@ -1,16 +1,20 @@
 ---
 permalink: /sitemap.xml
 hidden: true
+eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <urlset
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+{# Loop over everything that hasn't been excluded from `collections` #}
 {%- for page in collections.all -%}
+{# And only if they're not `hidden: true` #}
 {%- if page.data.hidden !== true -%}
 <url>
   <loc>{{ site.rootUrl }}{{ page.url | pretty }}</loc>
-  <lastmod>{{ page.date | dateTimeLocal }}</lastmod>
+  <lastmod>{{ page.date | dateTime }}</lastmod>
   <changefreq>{{ page.data.changefreq }}</changefreq>
   <priority>{{ page.data.priority }}</priority>
 </url>

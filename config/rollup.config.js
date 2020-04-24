@@ -43,7 +43,7 @@ function basePlugins({ nomodule = false } = {}) {
         'last 2 Chrome versions',
         'last 2 Safari versions',
         'last 2 iOS versions',
-        'last 2 Edge versions',
+        'not Edge < 16',
         'Firefox ESR',
       ];
 
@@ -61,7 +61,7 @@ function basePlugins({ nomodule = false } = {}) {
         [
           '@babel/preset-env',
           {
-            modules: 'false',
+            modules: false,
             targets: { browsers },
           },
         ],
@@ -135,7 +135,7 @@ const moduleConfig = {
  */
 const nomoduleConfig = {
   input: {
-    'nomodule': `${src}scripts/main-nomodule.mjs`,
+    'main-nomodule': `${src}scripts/main-nomodule.mjs`,
   },
   output: {
     dir: `${dist}scripts/main.nomodule`,
@@ -170,14 +170,25 @@ const configVendor = {
   },
 };
 
-const configs = [moduleConfig, configVendor];
+/**
+ * This is the primary `main-module.mjs` JS
+ */
+const configs = [moduleConfig];
 
 /**
  * 'Production' environment check
  * "environment" declared in _data/site.js
+ * Therefore, only generate `nomodule.js` when building for production
  */
 if (site.environment === 'production') {
   configs.push(nomoduleConfig);
+}
+
+/**
+ * Push `configVendor` to array if `scriptsVendor` is `true` in _data/site.js
+ */
+if (site.scriptsVendor) {
+  configs.push(configVendor);
 }
 
 // 'Spits' out the necessary config stuff...

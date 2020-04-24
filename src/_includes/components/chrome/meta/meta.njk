@@ -1,0 +1,79 @@
+{# These variables are set here to pull from the global `site.json` file #}
+{% set metaTitle = site.metaTitle %}
+{% set metaDescription = site.metaDescription %}
+{% set metaImage = site.metaImage %}
+{% set metaImageAlt = site.metaImageAlt %}
+
+{# Setting page level content variables #}
+{% set pageTitle = title + ' | ' + metaTitle %}
+
+{# Check whether `summary` value first... #}
+{% if summary %}
+  {% set metaDescription = summary %}
+{% endif %}
+
+{# Check whether `title` value first... #}
+{% if title %}
+  {% set metaTitle = title %}
+{% endif %}
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ pageTitle }}</title>
+<meta name="description" content="{{ metaDescription }}">
+
+{# Checking whether page is to be indexed or not --> ie. whether `hidden` variable equals `true` or `false` #}
+<meta name="robots" content="{% if hidden == true %}noindex{% else %}index{% endif %}, follow">
+
+{# Canonical #}
+{% if hidden !== true %}
+	<link rel="canonical" href="{{ site.rootUrl }}{{ page.url | pretty }}">
+{% endif %}
+
+{#
+	Preload / preconnect / dns-prefect stuff...
+	@NOTE: `preload` for styles, fonts etc. are declared in the netlify.toml `[[headers]]`
+	@NOTE: Only render this code snippet if `analyticsUrchin` has a value in `_data/site.js`
+#}
+{% if site.analyticsUrchin %}
+	<link rel="preconnect" href="https://www.googletagmanager.com/" crossorigin>
+	<link rel="dns-prefetch" href="https://www.googletagmanager.com/">
+{% endif %}
+
+{# Styles (load) #}
+<link rel="stylesheet" href="/styles/main.css?version={{ pkg.version }}">
+
+{# Open graph #}
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:title" content="{{ metaTitle }}">
+<meta property="og:image" content="{{ site.rootUrl }}{{ metaImage }}">
+<meta property="og:image:alt" content="{{ metaImageAlt }}">
+<meta property="og:description" content="{{ metaDescription }}">
+<meta property="og:url" content="{{ site.rootUrl }}{{ page.url | pretty }}">
+
+{#
+	Twitter...
+	Only render this code snippet if `twitter` has a handler value in `_data/site.js`
+#}
+{% if site.twitter %}
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="{{ site.twitter }}">
+	<meta name="twitter:title" content="{{ metaTitle }}">
+	<meta name="twitter:image" content="{{ site.rootUrl }}{{ metaImage }}">
+	<meta name="twitter:image:alt"  content="{{ metaImageAlt }}">
+	<meta name="twitter:description" content="{{ metaDescription }}">
+	<meta name="twitter:url" property="og:url" content="{{ site.rootUrl }}{{ page.url | pretty }}">
+{% endif %}
+
+{# Favicons, icons and manifests #}
+<link rel="apple-touch-icon" sizes="180x180" href="{{ site.icon | url }}">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/ico/favicon-16x16.png">
+<link rel="mask-icon" href="/assets/ico/safari-pinned-tab.svg" color="{{ site.theme_color_ios }}">
+<link rel="shortcut icon" href="{{ site.favicon | url }}">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="msapplication-TileColor" content="{{ site.background_color_mstile }}">
+<meta name="theme-color" content="{{ site.theme_color_android }}">

@@ -7,6 +7,7 @@ module.exports = {
   open: 'local',
   startPath: '/',
   logPrefix: 'Bruce Taylor\'s website',
+  logLevel: 'debug',
   callbacks: {
     ready(err, browserSync) {
       const content404 = fs.readFileSync('www/error/404.html');
@@ -18,4 +19,8 @@ module.exports = {
       });
     },
   },
+  ui: {
+    port: 8080
+  },
+  ghostMode: false
 };

@@ -1,19 +1,32 @@
+const browserSync = require('./config/browser-sync.config.js');
+const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
+const pluginNavigation = require('@11ty/eleventy-navigation');
+const prettyUrl = require('./lib/utils/filters/pretty-url.js');
+const dateOnly = require('./lib/utils/filters/dateOnly.js');
+const dateTime = require('./lib/utils/filters/dateTime.js');
+const dateTimeReadable = require('./lib/utils/filters/dateTimeReadable.js');
+const htmlMinify = require('./lib/utils/transforms/minify-html.js');
+
 module.exports = function(eleventy) {
 
   // BrowserSync
-  eleventy.setBrowserSyncConfig(require('./config/browser-sync.config.js'));
+  eleventy.setBrowserSyncConfig(browserSync);
+
+  // Collections
+  // ...could go here.
 
   // Plugins
-  eleventy.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
+  eleventy.addPlugin(pluginSyntaxHighlight);
+  eleventy.addPlugin(pluginNavigation);
 
   // Add some utility filters
-  eleventy.addFilter('pretty', require('./src/utils/filters/pretty-url.js'));
-  eleventy.addFilter('dateLocal', require('./src/utils/filters/date-local.js')); // Generates numerial date (eg. 2020-02-22)
-  eleventy.addFilter('dateTimeLocal', require('./src/utils/filters/datetime-local.js')); // Generates numerical date and time (eg. 2020-02-22T09:50:00.000Z)
-  eleventy.addFilter('dateTimeLocalFriendly', require('./src/utils/filters/datetime-local-friendly.js')); // Generates readable date and time (eg. 22 February 2020, 9:50 am)
+  eleventy.addFilter('pretty', prettyUrl);
+  eleventy.addFilter('dateOnly', dateOnly); // Generates numerial date (eg. 2020-02-22)
+  eleventy.addFilter('dateTime', dateTime); // Generates numerical date and time (eg. 2020-02-22T09:50:00.000Z)
+  eleventy.addFilter('dateTimeReadable', dateTimeReadable); // Generates readable date and time (eg. 22 February 2020, 9:50 am)
 
   // Transforms
-  eleventy.addTransform('minify-html', require('./src/utils/minify-html.js'));
+  eleventy.addTransform('minify-html', htmlMinify);
 
   // Passthrough
   eleventy.addPassthroughCopy('./src/assets/fonts');
@@ -29,6 +42,7 @@ module.exports = function(eleventy) {
     templateFormats: [
       'md',
       'njk',
+      'liquid',
       'html'
     ],
 
@@ -41,7 +55,7 @@ module.exports = function(eleventy) {
 
     dir: {
       input: 'src',
-      includes: '_templates',
+      includes: '_includes',
       data: '_data',
       output: 'www',
     }

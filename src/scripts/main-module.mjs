@@ -29,7 +29,12 @@ console.info(versionPrintOut);
 //   observers();
 // });
 
-// Methods called from _templates/components/carousel/carousel.mjs
-// import('../_templates/components/carousel/carousel.mjs').then(({ carousel }) => {
+// Methods called from ./modules/objectFit.mjs
+import('./modules/objectFitPolyfill.mjs').then(({ default: objectFitPolyfill }) => {
+  objectFitPolyfill();
+});
+
+// Methods called from _includes/components/unitscarousel/carousel.mjs
+// import('../__includes/components/units/carousel/carousel.mjs').then(({ carousel }) => {
 //   carousel();
 // });
