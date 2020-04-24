@@ -5,16 +5,17 @@
 {% set metaImageAlt = site.metaImageAlt %}
 
 {# Setting page level content variables #}
-{% set pageTitle = title + ' | ' + metaTitle %}
-
-{# Check whether `summary` value first... #}
-{% if summary %}
-  {% set metaDescription = summary %}
+{# Check whether `title` value exists first... #}
+{% if title %}
+	{% set pageTitle = title + ' | ' + metaTitle %}
+	{% set metaTitle = title %}
+{% else %}
+	{% set pageTitle = metaTitle %}
 {% endif %}
 
-{# Check whether `title` value first... #}
-{% if title %}
-  {% set metaTitle = title %}
+{# Check whether `summary` value exists first... #}
+{% if summary %}
+  {% set metaDescription = summary %}
 {% endif %}
 
 
