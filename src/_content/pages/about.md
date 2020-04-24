@@ -6,9 +6,9 @@ bodyClass: "about"
 date: 2020-04-24T19:33:00
 ---
 
-My interest in all things webby began in late 1999 while working at the original [Boo.com][1]. After a brief stint of freelancing, I started at [Airmiles][2] in 2004 – which later became [Avios][3]. I worked as their Senior Front End Designer & Developer for 9 of the 11 years I was there.
+My interest in all things webby began in late 1999 while working at the original [Boo.com][1]. After a brief stint of freelancing, I started at [Airmiles][2] in 2004 – which later became [Avios][3] - and ended up working their for 11 years.
 
-Over the years I've worked on a wide variety of projects with companies like AirMiles, Macmillan Cancer Support, Time Inc., MerchantCantos, Euromoney and more recently with [Avios][3].
+Over the years I've worked on a wide variety of projects with companies like AirMiles, Macmillan Cancer Support, Time Inc., MerchantCantos, Euromoney and more recently with [Avios][3] again.
 
 I enjoy a team environment and am told I communicate and work well with technical and non-technical people alike. I've worked on all sorts of projects in small, medium and large multi-functional development teams – and have considerable experience in creating front-end code that's modular, responsive, performant, extensible, accessible and future friendly.
 
@@ -18,11 +18,11 @@ I frequently dabble with new technologies and try my best to find neat solutions
 
 ## Personal stuff
 
-I'm originally from South Africa and grew up on a dairy farm in a very [beautiful part of the country][10]. Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking in the mountains, canoeing, fishing and sport. Funny how things turn out!
+I'm originally from South Africa and grew up on a dairy farm in a very [beautiful part of the country][10]. Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking in the mountains, canoeing, fishing and sport. Funny how things turn out sometimes eh!
 
 I enjoy landscape photography and am a [fairly decent drummer][11]. I absolutely [adore aircraft][12] and still plan to pull my finger out and get my PPL one day.
 
-My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 children. 2 teenage sons and a 10 year old daughter.
+My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 children. 2 teenage sons and an 11 year old daughter.
 
 I try and write whenever I get the chance and have [written a few posts][13] on various things. Here's hoping you'll like some of them or be able to relate to one or two of them in some way.
 
