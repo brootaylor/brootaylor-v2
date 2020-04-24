@@ -34,9 +34,9 @@
 {#
 	Preload / preconnect / dns-prefect stuff...
 	@NOTE: `preload` for styles, fonts etc. are declared in the netlify.toml `[[headers]]`
-	@NOTE: Only render this code snippet if `AnalyticsUrchin` has a value in `_data/site.js`
+	@NOTE: Only render this code snippet if `analyticsUrchin` has a value in `_data/site.js`
 #}
-{% if site.AnalyticsUrchin %}
+{% if site.analyticsUrchin %}
 	<link rel="preconnect" href="https://www.googletagmanager.com/" crossorigin>
 	<link rel="dns-prefetch" href="https://www.googletagmanager.com/">
 {% endif %}
