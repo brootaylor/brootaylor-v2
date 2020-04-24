@@ -14,19 +14,6 @@
 {% block content %}
 	<article class="[ wrapper ] [ flow ]">
 
-		{# This `title` comes from the front matter in the relevant `.md` file - within the `pages` directory #}
-		{% if title %}
-			<h1>{{ title }}</h1>
-		{% else %}
-			{# Pages need a `title` hence the reason for this fallback #}
-			<h1>{{ titleMissingText }}</h1>
-		{% endif %}
-
-		{% if lead %}
-			{# This content comes from the `front matter` in the relevant `.md` file - within the `pages` directory #}
-			<p class="[ lead ]">{{ lead }}</p>
-		{% endif %}
-
 		{# This content comes from the markdown in the relevant `.md` file - within the `pages` directory #}
 		{{ content | safe }}
 
