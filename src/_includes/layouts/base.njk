@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="{{ site.lang }}" dir="ltr" class="no-js">
+
+<!--
+	"The original, shimmering self gets buried so deep that most of us end up hardly living out of it at all.
+	Instead we live out all the other selves, which we are constantly putting on and taking off like coats and hats against the world’s weather."
+
+	- Frederick Buechner, Telling Secrets
+-->
+
+	<head>
+		{# Meta content, stylesheet call, manifest, open graph, favicon / icons etc. #}
+		{% include "components/chrome/meta/meta.njk" %}
+
+		{# Checking browser can handle fairly modern JS #}
+		<script>
+			document.documentElement.classList.remove('no-js');
+		</script>
+
+		{#
+			Google Analytics...
+			Only render this code snippet if `AnalyticsUrchin` has a value in `_data/site.js`
+		#}
+		{% if site.AnalyticsUrchin %}
+			{% include "components/chrome/analytics/analytics.njk" %}
+		{% endif %}
+
+<!--
+	Hello there! Seems you're a bit like me - having a good ol' snoop around the source code.
+	Fingers-crossed it's not too scary in here. 😬
+	I've learnt a lot over the years doing what you're doing. Isn't the web fab like that!
+	Hopefully there's something in here that helps you out.
+-->
+
+	</head>
+	<body {% if bodyClass %}class="[ {{ bodyClass }} ]"{% endif %}>
+
+		{# "Skip-to" links. Helps assistive technologies #}
+		<a class="[ visually-hidden ]" href="#main">Skip to the main content.</a>
+
+		{# Main header & navigation #}
+		{% include "components/global/header/header.njk" %}
+
+		{# Main content #}
+		<main role="main" id="main">
+
+			{# Message content #}
+			{% block messages %}
+				{# Setting the message type (eg. "info") #}
+				{% set messageType = messages.info %}
+				{# Calling the message component #}
+				{% include "components/global/messages/messages.njk" %}
+			{% endblock %}
+
+			{# Main page content is generated here #}
+			{% block content %}
+				{{ content | safe }}
+			{% endblock %}
+
+		</main>
+
+		{# Main footer content #}
+		{% include "components/global/footer/footer.njk" %}
+
+		{# Script calls #}
+		{% include "components/chrome/scripts/scripts.njk" %}
+
+		{# Vendor / 3rd Party JS #}
+		<script src="/scripts/vendor/vendor.js"></script>
+
+		{# Main JS #}
+		{# 1. modern browsers => Using native ES6 modules (ESM). Not transpiled with Babel #}
+		<script type="module" src="/scripts/main.module/main.mjs"></script>
+		{% if site.environment == "production" %}
+			{# 2. older browsers => Using 'normal' JS output (IIFE). Transpiled with Babel #}
+			{# ES6 modules 'defer' by default so adding 'defer' attribute to enable classic JS to load in deferred fashion. #}
+			<script nomodule defer src="/scripts/main.nomodule/nomodule.js"></script>
+		{% endif %}
+
+		{# Service worker #}
+		{% if site.environment == "production" %}
+			<script>
+				if (navigator.serviceWorker) {
+					navigator.serviceWorker.register('/serviceworker.js');
+					if (navigator.serviceWorker.controller) {
+						window.addEventListener('load', () => {
+							navigator.serviceWorker.controller.postMessage({
+								command: 'trimCaches'
+							});
+						});
+					}
+				}
+			</script>
+		{% endif %}
+
+		<!-- States referenced by `aria-describedby` -->
+		<div class="visually-hidden">
+				<span id="current-page">Current page</span>
+		</div>
+
+<!--
+	Current page: {{ page.url | url }}
+	Last updated: {{ date | dateTimeLocalFriendly("LLLL d, y @ t") }}
+-->
+
+	</body>
+</html>

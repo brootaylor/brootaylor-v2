@@ -3,13 +3,14 @@ permalink: /serviceworker.js
 eleventyExcludeFromCollections: true
 ---
 
-'use strict';
+const siteName = '{{ pkg.name }}';
+const siteVersion = 'v{{ pkg.version }}';
+const cacheName = siteName + '_' + siteVersion;
 
-const version = 'v{{ pkg.version }}';
 const name = '{{ pkg.name }}';
-const staticCacheName = 'static' + '@' + name + '_' + version;
-const imageCacheName = 'images';
-const pagesCacheName = 'pages';
+const staticCacheName = 'static' + cacheName;
+const imageCacheName = 'images' + cacheName;
+const pagesCacheName = 'pages' + cacheName;
 const cacheList = [
 	staticCacheName,
 	imageCacheName,

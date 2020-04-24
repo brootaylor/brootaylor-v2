@@ -1,0 +1,39 @@
+{#
+	Vendor / 3rd Party JS
+	**********************
+	Only render this code snippet if `scriptsVendor` is `true` in `_data/site.js`
+#}
+{% if site.scriptsVendor %}
+	<script src="/scripts/vendor/vendor.js"></script>
+{% endif %}
+
+{# Main JS #}
+{# 1. modern browsers => Using native ES6 modules (ESM). Not transpiled with Babel #}
+<script type="module" src="/scripts/main.module/main.mjs?version={{ pkg.version }}"></script>
+{% if site.environment == "production" %}
+	{# 2. older browsers => Using 'normal' JS output (IIFE). Transpiled with Babel #}
+	{# ES6 modules (above) 'defer' by default so adding 'defer' attribute to enable classic JS to load in deferred fashion. #}
+	{# NOTE: Not using `nomodule` attribute for now cause Edge versions 16-18 seem to be buggy and struggle with this. #}
+	<script defer src="/scripts/main.nomodule/main-nomodule.js?version={{ pkg.version }}"></script>
+{% endif %}
+
+{#
+	Service workers
+	*******************
+	Only render this code snippet if `scriptsServiceworker` is `true` in `_data/site.js`
+	...and `environment` is `production`
+#}
+{% if site.scriptsServiceworker and site.environment == "production" %}
+	<script>
+		if (navigator.serviceWorker) {
+			navigator.serviceWorker.register('/serviceworker.js');
+			if (navigator.serviceWorker.controller) {
+				window.addEventListener('load', () => {
+					navigator.serviceWorker.controller.postMessage({
+						command: 'trimCaches'
+					});
+				});
+			}
+		}
+	</script>
+{% endif %}
