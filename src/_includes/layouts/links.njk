@@ -22,9 +22,9 @@
 			<h1>{{ titleMissingText }}</h1>
 		{% endif %}
 
-		{% if summary %}
+		{% if lead %}
 			{# This content comes from the `front matter` in the relevant `.md` file - within the `pages` directory #}
-			<p class="[ lead ]">{{ summary }}</p>
+			<p class="[ lead ]">{{ lead }}</p>
 		{% endif %}
 
 		{# This content comes from the markdown in the relevant `.md` file - within the `pages` directory #}

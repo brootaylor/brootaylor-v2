@@ -2,6 +2,7 @@
 layout: "layouts/homepage.njk"
 title: "Hi, I'm Bruce."
 summary: ""
+lead: ""
 bodyClass: "homepage"
 date: 2020-04-24T19:33:00
 changefreq: weekly

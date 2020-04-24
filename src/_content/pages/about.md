@@ -1,6 +1,7 @@
 ---
 title: "About me"
 summary: "I’m a Front End Web Designer & Developer living in Crawley, West Sussex, UK and have been helping people build & enhance their websites since 2003."
+lead: ""
 bodyClass: "about"
 date: 2020-04-24T19:33:00
 ---
