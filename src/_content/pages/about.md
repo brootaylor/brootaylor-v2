@@ -1,11 +1,9 @@
 ---
-title: About me
-summary: I’m a Front End Web Designer & Developer living in Crawley, West Sussex, UK.
-bodyClass: about
-date: 2020-02-25
+title: "About me"
+summary: "I’m a Front End Web Designer & Developer living in Crawley, West Sussex, UK and have been helping people build & enhance their websites since 2003."
+bodyClass: "about"
+date: 2020-04-24T19:33:00
 ---
-
-I’m a Front End Web Designer & Developer living in Crawley, West Sussex, UK and have been helping people build & enhance their websites since 2003.
 
 My interest in all things webby began in late 1999 while working at the original [Boo.com][1]. After a brief stint of freelancing, I started at [Airmiles][2] in 2004 – which later became [Avios][3]. I worked as their Senior Front End Designer & Developer for 9 of the 11 years I was there.
 

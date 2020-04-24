@@ -1,5 +1,5 @@
 ---
-title: A front-end muddle
+title: "A front-end muddle"
 summary: If you find yourself getting in a muddle about what front-end development entails anymore.
 date: 2019-04-11T11:33:00
 location:
