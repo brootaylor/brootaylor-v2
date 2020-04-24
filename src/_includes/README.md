@@ -1,4 +1,4 @@
-# `_templates` directory
+# `_includes` directory
 
 This directory holds the various `.njk` files that deal with specific layouts on a page, component and collection (group) level.
 

@@ -65,34 +65,6 @@
 		{# Script calls #}
 		{% include "components/chrome/scripts/scripts.njk" %}
 
-		{# Vendor / 3rd Party JS #}
-		<script src="/scripts/vendor/vendor.js"></script>
-
-		{# Main JS #}
-		{# 1. modern browsers => Using native ES6 modules (ESM). Not transpiled with Babel #}
-		<script type="module" src="/scripts/main.module/main.mjs"></script>
-		{% if site.environment == "production" %}
-			{# 2. older browsers => Using 'normal' JS output (IIFE). Transpiled with Babel #}
-			{# ES6 modules 'defer' by default so adding 'defer' attribute to enable classic JS to load in deferred fashion. #}
-			<script nomodule defer src="/scripts/main.nomodule/nomodule.js"></script>
-		{% endif %}
-
-		{# Service worker #}
-		{% if site.environment == "production" %}
-			<script>
-				if (navigator.serviceWorker) {
-					navigator.serviceWorker.register('/serviceworker.js');
-					if (navigator.serviceWorker.controller) {
-						window.addEventListener('load', () => {
-							navigator.serviceWorker.controller.postMessage({
-								command: 'trimCaches'
-							});
-						});
-					}
-				}
-			</script>
-		{% endif %}
-
 		<!-- States referenced by `aria-describedby` -->
 		<div class="visually-hidden">
 				<span id="current-page">Current page</span>
@@ -100,7 +72,7 @@
 
 <!--
 	Current page: {{ page.url | url }}
-	Last updated: {{ date | dateTimeLocalFriendly("LLLL d, y @ t") }}
+	Last updated: {{ date | dateTimeReadable("dd LLLL yyyy @ t") }}
 -->
 
 	</body>
