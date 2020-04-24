@@ -1,0 +1,10 @@
+# Redirect rules for developing locally
+# This isn't deployed / published to production
+
+# Pages (standard)
+/about /about.html
+/contact /contact.html
+/contact/thanks /contact/thanks.html
+
+# Error pages
+/error/404 /error/404.html

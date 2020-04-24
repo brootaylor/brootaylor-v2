@@ -1,34 +1,60 @@
-# Build commands
+# Build settings
 [build]
-  command = "npm run build"
+  # Functions ref: https://www.netlify.com/tags/functions/
+  # functions = "./netlify-functions"
   publish = "www"
-#   functions = "src/functions"
-#   NODE_ENV = "10.15.3"
+  [build.lifecycle]
+    onInit = "echo 'Ok, let us begin this build!'"
+    onBuild = "npm run build"
+    onEnd = "echo 'Build finished, site deployed 🚀'"
 
-# Default site wide settings
-# https://docs.netlify.com/configure-builds/file-based-configuration/#post-processing
-# If skip_processing = true, all other settings are ignored
-[build.processing]
-  skip_processing = false
-[build.processing.html]
-  pretty_urls = true
-[build.processing.css]
-  bundle = false
-  minify = false
-[build.processing.js]
-  bundle = false
-  minify = false
-[build.processing.images]
-  compress = true
+  # Default site wide settings
+  # https://docs.netlify.com/configure-builds/file-based-configuration/#post-processing
+  # If skip_processing = true, all other settings are ignored
+  [build.processing]
+    skip_processing = false
+  [build.processing.html]
+    pretty_urls = true
+  [build.processing.css]
+    bundle = false
+    minify = false
+  [build.processing.js]
+    bundle = false
+    minify = false
+  [build.processing.images]
+    compress = true
 
-# dev commands
+# @NOTE: Commented out for now until figured out how to implement this properly.
+# Seems to be breaking the Netlify '[build.lifecycle]'
+#
+# [context.production]
+#   command = "npm run build"
+#   [context.production.environment]
+#     GIT_LFS_ENABLED = "true"
+#     NODE_ENV = "production"
+#     NODE_VERSION = "12"
+#     TZ = "Europe/London"
+
+# Plugins ref: https://www.netlify.com/tags/plugins/
+[[plugins]]
+  package = "./netlify-plugins/first-plugin"
+
+# Dev settings: (Used when running local Netlify dev server)
 [dev]
+  # Declaring port for netlify dev server to use when running the `npm run watch` command
+  port = 8888
   command = "npm run watch"
+  # Points to directory where `_redirects` file lives
+  publish = "src"
 
 # Headers (Global)
 [[headers]]
   for = "/*"
   [headers.values]
+    # Set the `preload` headers here rather than declaring in the HTML
+    Link = '''
+      </styles/main.css>; rel=preload; as=style
+    '''
     Referrer-Policy = "no-referrer, strict-origin-when-cross-origin"
     Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
     X-Content-Type-Options = "nosniff"
@@ -60,12 +86,19 @@
     Content-Type = "application/json; charset=utf-8"
 
 
+## ########################################################################
 # Redirect rule to point temporary Netlify URL to preferred domain name
-# NOTE: This will require the DNS records to be updated to point to Netlify
+# ========================================================================
+# NOTE: This requires the DNS records to be updated to point to Netlify.
 # [[redirects]]
-#     from = "http://brootaylorv2.netlify.com/*"
+#     from = "http://brootaylorv2.netlify.app/*"
 #     to = "http://brootaylor.com/:splat"
+#     status = 301
 
+# ########################################################################
+# Site-specific page redirects
+# ========================================================================
+# 404 pages
 [[redirects]]
   from = "/*"
   to = "/error/404"
