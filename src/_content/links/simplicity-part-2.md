@@ -1,18 +1,17 @@
 ---
-title: Simplicity (II)
-summary: When everything works, it feels like magic. When something breaks, it’s hell.
-linkExternal: https://bastianallgeier.com/notes/simplicity-part-2
-linkLabel: bastianallgeier.com
+title: "Simplicity (II)"
+summary: "When everything works, it feels like magic. When something breaks, it’s hell."
+lead: "Bastian Allgeier wonderfully articulates what many – (more than likely most!) – of us are probably thinking anyway but unsure whether we should break cover or not."
+linkExternal: "https://bastianallgeier.com/notes/simplicity-part-2"
+linkLabel: "bastianallgeier.com"
 date: 2019-09-10T18:54:00
 location:
-  locality: Crawley
-  country-name: United Kingdom
+  locality: "Crawley"
+  country-name: "United Kingdom"
 category:
-- web_development
-- technology
+- "web_development"
+- "technology"
 ---
-
-Bastian Allgeier wonderfully articulates what many – (more than likely most!) – of us are probably thinking anyway but unsure whether we should break cover or not.
 
 Things like...
 

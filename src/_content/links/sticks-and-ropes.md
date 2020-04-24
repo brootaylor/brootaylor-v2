@@ -1,18 +1,17 @@
 ---
-title: Sticks and Ropes
-summary: Am I a stick or a rope? Am I one that binds people together or one that creates division and bruises?
-linkExternal: https://daverupert.com/2019/08/sticks-and-ropes/
-linkLabel: daverupert.com
+title: "Sticks and Ropes"
+summary: "Am I a stick or a rope? Am I one that binds people together or one that creates division and bruises?"
+lead: "How good an observation is this! Never thought about it this way."
+linkExternal: "https://daverupert.com/2019/08/sticks-and-ropes/"
+linkLabel: "daverupert.com"
 date: 2019-10-01T12:42:00
 location:
-  locality: Crawley
-  country-name: United Kingdom
+  locality: "Crawley"
+  country-name: "United Kingdom"
 category:
-- web_development
-- technology
+- "web_development"
+- "technology"
 ---
-
-How good an observation is this! Never thought about it this way.
 
 Dave Rupert quoting game director Hideo Kojima:
 

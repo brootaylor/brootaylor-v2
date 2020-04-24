@@ -1,13 +1,14 @@
 ---
 title: "A front-end muddle"
-summary: If you find yourself getting in a muddle about what front-end development entails anymore.
+summary: "If you find yourself getting in a muddle about what front-end development entails anymore."
+lead: ""
 date: 2019-04-11T11:33:00
 location:
-  locality: Crawley
-  country-name: United Kingdom
+  locality: "Crawley"
+  country-name: "United Kingdom"
 category:
-- web_development
-- technology
+- "web_development"
+- "technology"
 ---
 
 I need to share this list of links.
