@@ -150,6 +150,26 @@ const nomoduleConfig = {
 };
 
 /**
+ * `No JS` config
+ * ************************************
+ * NOTE: This is generated when there isn't any JS needed to be generated for the website
+ */
+const nojsConfig = {
+  input: {
+    'nojs': `${src}scripts/main-nojs.mjs`,
+  },
+  output: {
+    dir: `${dist}scripts/main.nojs`,
+    format: 'iife',
+    entryFileNames: '[name].js',
+    sourcemap: false,
+  },
+  watch: {
+    clearScreen: false,
+  },
+};
+
+/**
  * Vendor config for vendor / 3rd party scripts
  * *********************************************
  * This config literally spits out the vendor scripts supplied
@@ -170,25 +190,34 @@ const configVendor = {
   },
 };
 
-/**
- * This is the primary `main-module.mjs` JS
- */
-const configs = [moduleConfig];
+// Create base `configs` variable...
+let configs = [nojsConfig];
 
-/**
- * 'Production' environment check
- * "environment" declared in _data/site.js
- * Therefore, only generate `nomodule.js` when building for production
- */
-if (site.environment === 'production') {
-  configs.push(nomoduleConfig);
-}
+// If JS is being generated for this website then...
+if (site.scriptsMain) {
+  /**
+   * This is the primary `main-module.mjs` JS
+   */
+  // Update `configs` variable so `nojsConfig` isn't generated...
+  configs = [moduleConfig];
 
-/**
- * Push `configVendor` to array if `scriptsVendor` is `true` in _data/site.js
- */
-if (site.scriptsVendor) {
-  configs.push(configVendor);
+  /**
+   * 'Production' environment check
+   * "environment" declared in _data/site.js
+   * Therefore, only generate `nomodule.js` when building for production
+   */
+  if (site.environment === 'production') {
+    // Pushing `nomoduleConfig` to the `configs` array...
+    configs.push(nomoduleConfig);
+  }
+
+  /**
+   * Push `configVendor` to array if `scriptsVendor` is `true` in _data/site.js
+   */
+  if (site.scriptsVendor) {
+    // Pushing `configVendor` to the `configs` array...
+    configs.push(configVendor);
+  }
 }
 
 // 'Spits' out the necessary config stuff...
