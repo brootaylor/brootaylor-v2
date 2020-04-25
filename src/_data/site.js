@@ -2,7 +2,7 @@ module.exports = {
   name: 'Bruce Taylor',
   short_name: 'BWT',
   metaTitle: 'Bruce Taylor',
-  metaDescription: 'I\'m a Front End Web Designer & Developer living in Crawley, West Sussex, UK and have been helping people build & enhance their websites since 2003.',
+  metaDescription: 'A Front End Web Designer & Developer living in Crawley, West Sussex, UK.',
   metaImage: '/assets/images/common/logo.png',
   metaImageAlt: 'Site logo for Bruce Taylor.',
   logoAlt: 'Site logo for Bruce Taylor.',

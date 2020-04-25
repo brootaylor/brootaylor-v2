@@ -7,8 +7,12 @@
 {# Setting page level content variables #}
 {# Check whether `title` value exists first... #}
 {% if title %}
-	{% set pageTitle = title + ' | ' + metaTitle %}
-	{% set metaTitle = title %}
+	{% if bodyClass === 'homepage' %}
+		{% set pageTitle = metaTitle + ' | ' + metaDescription %}
+	{% else %}
+		{% set pageTitle = title + ' | ' + metaTitle %}
+		{% set metaTitle = title %}
+	{% endif %}
 {% else %}
 	{% set pageTitle = metaTitle %}
 {% endif %}
