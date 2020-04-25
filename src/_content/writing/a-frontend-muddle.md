@@ -1,7 +1,7 @@
 ---
 title: "A front-end muddle"
-summary: "If you find yourself getting in a muddle about what front-end development entails anymore."
-lead: ""
+summary: "If you find yourself getting in a muddle about what front-end development entails these days."
+lead: "I need to share this list of links."
 date: 2019-04-11T11:33:00
 location:
   locality: "Crawley"
@@ -11,9 +11,7 @@ category:
 - "technology"
 ---
 
-I need to share this list of links.
-
-If you're someone who builds websites on the front-end – (*trying to stay away from labels!*) – and you find yourself getting in a muddle about what that entails anymore, here are a few articles I think are important reads:
+If you're someone who builds websites on the front-end – (*trying to stay away from labels!*) – and you find yourself getting in a muddle about what that entails these days, here are a few articles I think are important reads:
 
 ---
 

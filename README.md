@@ -314,14 +314,15 @@ npm run audit:performance
 6. [Colour blindness emulator](http://colororacle.org/)
 7. [Fit on a Floppy](https://fitonafloppy.website/)
 8. [Devhints.io](https://devhints.io/rollup)
-9. [SASS guidelines](https://sass-guidelin.es/)
-10. [Set up CSS scoping using custom CSS properties](https://css-tricks.com/the-power-and-fun-of-scope-with-css-custom-properties/)
-11. [Create a responsive grid layout with no media queries, using CSS Grid](https://andy-bell.design/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/)
-12. [Using the `article` element correctly](https://www.smashingmagazine.com/2020/01/html5-article-section/)
-13. [Generate SassDocs](http://sassdoc.com/)
-14. [Generate JSDocs](https://jsdoc.app/)
-15. [Request with Intent: Caching Strategies in the Age of PWAs](https://alistapart.com/article/request-with-intent-caching-strategies-in-the-age-of-pwas/) => (Use of service worker rules and modern HTML to render the right media at the right time - **Perfect for heavy media like Images & Video**)
-16. [JS config to handle code-splitting](https://philipwalton.com/articles/using-native-javascript-modules-in-production-today/) (ie. splitting code into smaller chunks to be loaded on demand)
+9. [Eleventy Walk Through](https://rphunt.github.io/eleventy-walkthrough/)
+10. [SASS guidelines](https://sass-guidelin.es/)
+11. [Set up CSS scoping using custom CSS properties](https://css-tricks.com/the-power-and-fun-of-scope-with-css-custom-properties/)
+12. [Create a responsive grid layout with no media queries, using CSS Grid](https://andy-bell.design/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/)
+13. [Using the `article` element correctly](https://www.smashingmagazine.com/2020/01/html5-article-section/)
+14. [Generate SassDocs](http://sassdoc.com/)
+15. [Generate JSDocs](https://jsdoc.app/)
+16. [Request with Intent: Caching Strategies in the Age of PWAs](https://alistapart.com/article/request-with-intent-caching-strategies-in-the-age-of-pwas/) => (Use of service worker rules and modern HTML to render the right media at the right time - **Perfect for heavy media like Images & Video**)
+17. [JS config to handle code-splitting](https://philipwalton.com/articles/using-native-javascript-modules-in-production-today/) (ie. splitting code into smaller chunks to be loaded on demand)
 
 ---
 
