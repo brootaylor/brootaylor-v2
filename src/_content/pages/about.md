@@ -6,9 +6,9 @@ bodyClass: "about"
 date: 2020-04-24T19:33:00
 ---
 
-My interest in all things webby began in late 1999 while working at the original [Boo.com][1]. After a brief stint of freelancing, I started at [Airmiles][2] in 2004 – which later became [Avios][3] - and ended up working their for 11 years.
+My interest in all things webby began in late 1999 while working at the original [Boo.com][1]. After a brief stint of freelancing, I started at [Airmiles][2] in 2004 – which later became [Avios][3] – and ended up working their for 11 years.
 
-Over the years I've worked on a wide variety of projects with companies like AirMiles, Macmillan Cancer Support, Time Inc., MerchantCantos, Euromoney and more recently with [Avios][3] again.
+Since then I've worked on a wide variety of projects with companies like Macmillan Cancer Support, Pegasus, Time Inc., MerchantCantos, Euromoney and more recently with [Avios][3] again.
 
 I enjoy a team environment and am told I communicate and work well with technical and non-technical people alike. I've worked on all sorts of projects in small, medium and large multi-functional development teams – and have considerable experience in creating front-end code that's modular, responsive, performant, extensible, accessible and future friendly.
 

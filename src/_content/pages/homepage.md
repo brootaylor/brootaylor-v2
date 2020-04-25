@@ -12,7 +12,7 @@ permalink: "/index.html"
 
 A Front End Web Designer &amp; Developer living in Crawley, West Sussex, UK. Here's a bit more [about me][1].
 
-Over the years I've worked on a wide variety of projects with companies like **AirMiles**, **Macmillan Cancer Support**, **Time Inc.**, **MerchantCantos**, **Euromoney** and more recently with [Avios][2].
+Over the years I've worked on a wide variety of projects with companies like **AirMiles** / **Avios**, **Macmillan Cancer Support**, **Pegasus**, **Time Inc.**, **MerchantCantos**, **Euromoney** and more recently with [Avios][2] again.
 
 I sometimes [write][3], jot down [notes][4] or share [links][5] to things that interest me.
 
