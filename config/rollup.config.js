@@ -190,6 +190,10 @@ const configVendor = {
   },
 };
 
+/**
+ * The following has to do with what JS configs are generated (if any)
+ */
+
 // Create base `configs` variable...
 let configs = [nojsConfig];
 
