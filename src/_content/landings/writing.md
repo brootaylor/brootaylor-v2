@@ -9,10 +9,10 @@ date: 2020-02-22T22:10:00
 
 ---
 
-<ul class="[ wrapper flow ] writing__list">
-{%- for writing in collections.writing | reverse -%}
-  <li class="writing__list-item">
-    <article class="[ wrapper flow ] writing__summary">
+<ul class="[ wrapper flow ] [ writing__list ]">
+{%- for writing in collections.postWriting -%}
+  <li class="[ writing__list-item ]">
+    <article class="[ wrapper flow ] [ writing__summary ]">
       <h2><a href="{{ writing.url }}">{{ writing.data.title }}</a></h2>
       <time datetime="{{ writing.date | dateTime }}">{{ writing.date | dateTimeReadable("d LLLL y, ") }}{{ writing.date | dateTimeReadable("t") | lower }}</time>
       <p>{{ writing.data.summary }}</p>
