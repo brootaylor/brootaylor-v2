@@ -9,13 +9,14 @@ date: 2020-02-22T22:10:00
 
 ---
 
-<ul class="[ wrapper flow ] links__list">
-{%- for link in collections.links | reverse -%}
-  <li class="links__list-item">
-    <article class="[ wrapper flow ] links__summary">
+<ul class="[ wrapper flow ] [ links__list ]">
+{%- for link in collections.postLinks -%}
+  <li class="[ links__list-item ]">
+    <article class="[ wrapper flow ] [ links__summary ]">
       <h2><a href="{{ link.url }}">{{ link.data.title }}</a></h2>
       <time datetime="{{ link.date | dateTime }}">{{ link.date | dateTimeReadable("d LLLL y, ") }}{{ link.date | dateTimeReadable("t") | lower }}</time>
       <p><a href="{{ link.data.linkExternal }}">{{ link.data.linkLabel }}</a></p>
+      <p>{{ link.data.lead }}</p>
     </article>
   </li>
 {%- endfor -%}

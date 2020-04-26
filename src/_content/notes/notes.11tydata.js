@@ -2,6 +2,7 @@ module.exports = {
   layout: "layouts/notes.njk",
   bodyClass: "notes",
   tags: [
+    "post",
     "notes"
   ],
   permalink: "/notes/{{ date | dateOnly }}/{{ page.fileSlug }}.html",

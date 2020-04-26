@@ -1,19 +1,29 @@
 const browserSync = require('./config/browser-sync.config.js');
+
+// Import (plugins)
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const pluginNavigation = require('@11ty/eleventy-navigation');
+
+// Import (filters)
 const prettyUrl = require('./lib/utils/filters/pretty-url.js');
 const dateOnly = require('./lib/utils/filters/dateOnly.js');
 const dateTime = require('./lib/utils/filters/dateTime.js');
 const dateTimeReadable = require('./lib/utils/filters/dateTimeReadable.js');
+
+// Import (transforms)
 const htmlMinify = require('./lib/utils/transforms/minify-html.js');
+
+// Import (collections)
+const postNotes = require('./lib/collections/postNotes.js');
+const postLinks = require('./lib/collections/postLinks.js');
+const postWriting = require('./lib/collections/postWriting.js');
+
+
 
 module.exports = function(eleventy) {
 
   // BrowserSync
   eleventy.setBrowserSyncConfig(browserSync);
-
-  // Collections
-  // ...could go here.
 
   // Plugins
   eleventy.addPlugin(pluginSyntaxHighlight);
@@ -27,6 +37,11 @@ module.exports = function(eleventy) {
 
   // Transforms
   eleventy.addTransform('minify-html', htmlMinify);
+
+  // Collections
+  eleventy.addCollection('postNotes', postNotes);
+  eleventy.addCollection('postLinks', postLinks);
+  eleventy.addCollection('postWriting', postWriting);
 
   // Passthrough
   eleventy.addPassthroughCopy('./src/assets/fonts');

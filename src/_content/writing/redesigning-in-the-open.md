@@ -13,13 +13,15 @@ category:
 - "redesign"
 ---
 
-My hope is this'll be a evolutionary piece of work rather than the usual "WHALA!" moment. I intend to bump my head (a lot!) and learn a fair few things along the way - and am going to try my best to enjoy the whole process rather than just looking forward to it being 'finished'.
+My hope is this'll be a evolutionary piece of work rather than the usual "WHALA!" moment... so I apologise in advance for things that may look a bit dodgy. Bit by bit I'll be moving all my original content across to this new config. No doubt that means you'll end up on a page that's not there right now. Sorry about that.
+
+I intend to bump my head (a lot!) and learn a fair few things along the way - and am going to try my best to enjoy the *whole* process rather than just looking forward to it being 'finished'.
 
 You're more than welcome to follow along if you're ok with witnessing the inevitable head-scratching and "WT...*" moments 🤪.
 
 ***
 
-I say this gingerly but I'd be honoured if anyone wanted to contribute any thoughts and pearls of wisdom. All I ask is you be kind.
+Now, I say this gingerly - but I'd be honoured if anyone wanted to contribute any thoughts and pearls of wisdom. All I ask is you be kind.
 
 I've [made the code public][5] but it is for my personal website, so please can I ask you not to copy everything wholesale. By all means learn from it (as I'm doing). Thank you.
 
