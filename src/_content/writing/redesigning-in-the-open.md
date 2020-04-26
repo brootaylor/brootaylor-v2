@@ -13,7 +13,7 @@ category:
 - "redesign"
 ---
 
-My hope is this'll be a evolutionary piece of work rather than the usual "WHALA!" moment... so I apologise in advance for things that may look a bit dodgy. Bit by bit I'll be moving all my original content across to this new config bit. No doubt that means you'll end up on a page that's not there right now. Sorry about that.
+My hope is this'll be a evolutionary piece of work rather than the usual "WHALA!" moment... so I apologise in advance for things that may look a bit dodgy. Bit by bit I'll be moving all my original content across to this new config. No doubt that means you'll end up on a page that's not there right now. Sorry about that.
 
 I intend to bump my head (a lot!) and learn a fair few things along the way - and am going to try my best to enjoy the *whole* process rather than just looking forward to it being 'finished'.
 
