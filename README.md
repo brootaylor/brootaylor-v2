@@ -37,7 +37,7 @@ It's deployed by and hosted with [Netlify](https://www.netlify.com/).
 * 🛄 [Selective build outputs](https://github.com/brootaylor/brootaylor-v2/blob/master/.eleventyignore) using `.eleventyignore`
 * ↩️ [Redirects](https://github.com/brootaylor/brootaylor-v2/blob/master/src/_redirects) for local `netlify dev`
 * 🌍 [Customisable global data](https://github.com/brootaylor/brootaylor-v2/blob/master/src/_data/site.js)
-* [Dynamically generated `serviceworker.js`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/manifest.json.njk)
+* [Dynamically generated `serviceworker.js`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/serviceworker.js.njk)
 * [Dynamically generated `manifest.json`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/manifest.json.njk)
 * [Dynamically generated `sitemap.xml`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/sitemap.xml.njk)
 * [Dynamically generated `robots.txt`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/robots.txt.njk)
