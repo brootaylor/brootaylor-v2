@@ -90,8 +90,8 @@
 # ========================================================================
 # NOTE: This requires the DNS records to be updated to point to Netlify.
 [[redirects]]
-  from = "http://brootaylorv2.netlify.app/*"
-  to = "http://brootaylor.com/:splat"
+  from = "https://brootaylorv2.netlify.app/*"
+  to = "https://brootaylor.com/:splat"
   status = 301
 
 # ########################################################################
