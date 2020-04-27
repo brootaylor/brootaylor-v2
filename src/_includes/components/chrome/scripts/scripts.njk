@@ -1,10 +1,10 @@
 {#
 	Vendor / 3rd Party JS
 	**********************
-	Only render this code snippet if `scriptsVendor` is `true` in `_data/site.js`
+	Only render this code snippet if `scriptsMain` and `scriptsVendor` are `true` in `_data/site.js`
 #}
-{% if site.scriptsVendor %}
-	<script src="/scripts/vendor/vendor.js"></script>
+{% if site.scriptsMain and site.scriptsVendor %}
+	<script src="/scripts/vendor/vendor.js?version={{ pkg.version }}"></script>
 {% endif %}
 
 {#
