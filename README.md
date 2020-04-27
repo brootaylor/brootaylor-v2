@@ -73,31 +73,36 @@ brootaylor.com
 │   ├── postcss.config.js        # PostCSS converts modern CSS into something most browsers can understand
 │   ├── rollup.config.js         # Rollup JS bundling configuration
 │
+├── lib
+│   ├── collections              # Eleventy collections
+│   ├── utils                    # Eleventy utility templates (ie. filters, transforms etc.)
+│
 ├── src
-│   ├── _content                 # Content (Front Matter & Markdown)
-│   ├── _data                    # Global website data (eg. site, navigation & design tokens)
-│   ├── _templates               # Layout templates, collections, partials & components (Nunjucks, JS & SCSS)
+│   ├── _content                 # Content (Markdown)
+│   ├── _data                    # Global website data (eg. site, mainnav & design tokens)
+│   ├── _includes                # Layout templates, partials & components (Nunjucks, JS & SCSS)
 │   ├── assets                   # Assets (Fonts, Images, Video, Favicons, Web App Manifest template)
 │   ├── scripts                  # JavaScript (Global)
 │   ├── styles                   # SCSS (Global)
-│   ├── utils                    # Eleventy utility templates (ie. filters, transforms etc.)
 │   ├── browserconfig.xml.njk    # browserconfig.xml template (For Microsoft application usage)
-│   ├── manifest.json.njk        # manifest.json template
+│   ├── manifest-en.json.njk     # manifest-en.json template (EN)
+│   ├── manifest-es.json.njk     # manifest-es.json template (ES)
 │   ├── robots.txt.njk           # robots.txt template
-│   ├── serviceworker.js.njk     # serviceworker.js template
+│   ├── serviceworker-en.js.njk  # serviceworker-en.js template (EN)
+│   ├── serviceworker-es.js.njk  # serviceworker-es.js template (ES)
 │   └── sitemap.xml.njk          # sitemap.xml template
 │
 ├── .browserlistrc               # Browser support config list
 ├── .editorconfig                # Text editor configuration
 ├── .eleventy.js                 # Eleventy configuration
-├── .eleventyignore              # Files eleventy needs to ignore
-├── .eslintignore                # JS folders/files eslint needs to ignore
+├── .eleventyignore              # Directories / files eleventy needs to ignore when building
+├── .eslintignore                # JS folders / files eslint needs to ignore
 ├── .eslintrc                    # JS linting configuration
 ├── .gitignore                   # Files not tracked by Git
 ├── .markdownlint.json           # Markdownlint configuration
 ├── .sass-lint.yml               # SCSS linting configuration
 ├── LICENCE                      # Repo licence
-├── netlify.toml                 # Netlify configuration
+├── netlify.toml                 # Netlify configuration (server)
 ├── package.json                 # Node.js package manifest
 ├── package-lock.json            # Node.js package lock
 └── README.md                    # This file (Instructions and repo information)
