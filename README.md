@@ -33,12 +33,11 @@ It's deployed by and hosted with [Netlify](https://www.netlify.com/).
 * 🌈 [Sass](https://sass-lang.com/) powered CSS system - (utilising modern [custom CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*) and methods)
 * 🎨 [Design Tokens](https://github.com/brootaylor/brootaylor-v2/blob/master/src/_data/tokens.json)
 * 🎳 [JS config to handle code-splitting](https://github.com/brootaylor/brootaylor-v2/blob/master/config/rollup.config.js) (ie. splitting code into smaller chunks to be loaded on demand)
-* ⚙️ [Service workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) for multilingual sites that cache pages so people can read content offline: `serviceworker-en.js` and `serviceworker-ens.js` respectively
-* 💬 Environment & language/locale config to determine applicable data
+* 🎛 [Site & build config](https://github.com/brootaylor/brootaylor-v2/blob/master/netlify.toml)
 * 🛄 [Selective build outputs](https://github.com/brootaylor/brootaylor-v2/blob/master/.eleventyignore) using `.eleventyignore`
-* 🎛 [Site & build config](https://github.com/brootaylor/brootaylor-v2/blob/master/netlify.toml) for local `netlify dev`
 * ↩️ [Redirects](https://github.com/brootaylor/brootaylor-v2/blob/master/src/_redirects) for local `netlify dev`
 * 🌍 [Customisable global data](https://github.com/brootaylor/brootaylor-v2/blob/master/src/_data/site.js)
+* [Dynamically generated `serviceworker.js`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/manifest.json.njk)
 * [Dynamically generated `manifest.json`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/manifest.json.njk)
 * [Dynamically generated `sitemap.xml`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/sitemap.xml.njk)
 * [Dynamically generated `robots.txt`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/robots.txt.njk)
@@ -86,15 +85,13 @@ brootaylor.com
 │   ├── _content                 # Content (Markdown)
 │   ├── _data                    # Global website data (eg. site, mainnav & design tokens)
 │   ├── _includes                # Layout templates, partials & components (Nunjucks, JS & SCSS)
-│   ├── assets                   # Assets (Fonts, Images, Video, Favicons, Web App Manifest template)
+│   ├── assets                   # Assets (ie. Static files like Fonts, Images, Video, Favicons)
 │   ├── scripts                  # JavaScript (Global)
 │   ├── styles                   # SCSS (Global)
 │   ├── browserconfig.xml.njk    # browserconfig.xml template (For Microsoft application usage)
-│   ├── manifest-en.json.njk     # manifest-en.json template (EN)
-│   ├── manifest-es.json.njk     # manifest-es.json template (ES)
+│   ├── manifest.json.njk        # manifest.json template
 │   ├── robots.txt.njk           # robots.txt template
-│   ├── serviceworker-en.js.njk  # serviceworker-en.js template (EN)
-│   ├── serviceworker-es.js.njk  # serviceworker-es.js template (ES)
+│   ├── serviceworkerjs.njk      # serviceworker.js template
 │   └── sitemap.xml.njk          # sitemap.xml template
 │
 ├── .browserlistrc               # Browser support config list
