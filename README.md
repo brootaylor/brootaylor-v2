@@ -2,15 +2,21 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/712367e5-7510-4813-9a24-5805f092cfa1/deploy-status)](https://app.netlify.com/sites/brootaylorv2/deploys)
 
-This is where *version 2* of my personal website is being built. Here's where to see how it's progressing, [brootaylorv2.netlify.com](https://brootaylorv2.netlify.com/). The current version is at [brootaylor.com](https://brootaylor.com)
+This is *version 2* of my personal website. it's live at [brootaylor.com](https://brootaylor.com/)
 
-My hope is this'll be a evolutionary piece of work rather than the usual "WHALA!" moment. I intend to bump my head (a lot!) and learn a fair few things along the way - and am going to try my best to enjoy the whole process rather than just looking forward to it being '*finished*'.
+I've decided to take the scary route (for me anyway) of redesigning and developing my website in the open. I've been inspired by others that have done this and thought it may be an interesting process. Not least because I'm a bit of a perfectionist and doing this may be a good way of weaning me off the need to have things completely polished before showing them. 😱
+
+My hope is this'll be a evolutionary piece of work rather than the usual "WHALA!" moment... so I apologise in advance for things that may look a bit dodgy. Bit by bit I'll be moving all my original content across to this new config. No doubt that means you'll end up on a page that's not there right now. Sorry about that.
+
+I intend to bump my head (a lot!) and learn a fair few things along the way - and am going to try my best to enjoy the *whole* process rather than just looking forward to it being 'finished'.
 
 You're more than welcome to follow along if you're ok with witnessing the inevitable head-scratching and "WT...*" moments 🤪.
 
-I say this gingerly but I'd be honoured if anyone wanted to contribute any thoughts and pearls of wisdom. All I ask is you be kind.
+Now, I say this gingerly - but I'd be honoured if anyone wanted to contribute any thoughts and pearls of wisdom. All I ask is you be kind.
 
-The website is comprised of static files built using [Eleventy](https://www.11ty.io/), [NPM](https://docs.npmjs.com/cli/npm) `scripts` defined in `package.json` as well as [rollup.js](https://rollupjs.org/) to bundle JavaScript modules. It is deployed by and hosted with [Netlify](https://www.netlify.com/).
+The website is comprised of static files built using [Eleventy](https://www.11ty.io/) (SSG), configurable [NPM](https://docs.npmjs.com/cli/npm) build scripts, global data configuration and [rollup.js](https://rollupjs.org/) to bundle JavaScript modules.
+
+It's deployed by and hosted with [Netlify](https://www.netlify.com/).
 
 ---
 
@@ -20,24 +26,28 @@ The website is comprised of static files built using [Eleventy](https://www.11ty
 
 ## Features
 
-* Progressively enhanced, semantic and accessible
-* Sass powered CSS system - (utilising modern custom CSS properties and methods)
-* Service worker that caches pages so people can read content offline
-* Customisable global data and navigation
-  * (*Content and code separated as much as possible*)
-* Dynamically generated `manifest.json` file => (Pulls from global `site.json` data file)
-* Dynamically generated `sitemap.xml`
-* Dynamically generated `robots.txt`
-* [JAMstack](https://jamstack.org/)
-* [Eleventy](https://www.11ty.io/)
+* 🌶 [Progressively enhanced](https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement), semantic and accessible
+* 🚀 [Performance budgeting](https://github.com/brootaylor/brootaylor-v2/blob/master/config/budget.json)
+* 🌐 [Browser support config](https://github.com/brootaylor/brootaylor-v2/blob/master/.browserslistrc)
+* ✅ [Accessibility test runner](https://github.com/pa11y/pa11y-ci)
+* 🌈 [Sass](https://sass-lang.com/) powered CSS system - (utilising modern [custom CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*) and methods)
+* 🎨 [Design Tokens](https://github.com/brootaylor/brootaylor-v2/blob/master/src/_data/tokens.json)
+* 🎳 [JS config to handle code-splitting](https://github.com/brootaylor/brootaylor-v2/blob/master/config/rollup.config.js) (ie. splitting code into smaller chunks to be loaded on demand)
+* ⚙️ [Service workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) for multilingual sites that cache pages so people can read content offline: `serviceworker-en.js` and `serviceworker-ens.js` respectively
+* 💬 Environment & language/locale config to determine applicable data
+* 🛄 [Selective build outputs](https://github.com/brootaylor/brootaylor-v2/blob/master/.eleventyignore) using `.eleventyignore`
+* 🎛 [Site & build config](https://github.com/brootaylor/brootaylor-v2/blob/master/netlify.toml) for local `netlify dev`
+* ↩️ [Redirects](https://github.com/brootaylor/brootaylor-v2/blob/master/src/_redirects) for local `netlify dev`
+* 🌍 [Customisable global data](https://github.com/brootaylor/brootaylor-v2/blob/master/src/_data/site.js)
+* [Dynamically generated `manifest.json`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/manifest.json.njk)
+* [Dynamically generated `sitemap.xml`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/sitemap.xml.njk)
+* [Dynamically generated `robots.txt`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/robots.txt.njk)
+* [JAMstack](https://jamstack.org/) methodology
+* [Eleventy](https://www.11ty.io/) (SSG)
 * [Netlify](https://www.netlify.com/)
-* [Netlify form (contact)](https://docs.netlify.com/forms/setup/)
-* [Design Tokens](https://css-tricks.com/what-are-design-tokens/)  
-  > Design tokens are an agnostic way to store variables such as typography, color, and spacing so that your design system can be shared across platforms like iOS, Android, and regular ol’ websites.
-* [Loads CSS asynchronously](https://www.filamentgroup.com/lab/load-css-simpler/)
-* [JS config to handle code-splitting](https://philipwalton.com/articles/using-native-javascript-modules-in-production-today/) (ie. splitting code into smaller chunks to be loaded on demand)
-* [Generates SassDocs](http://sassdoc.com/)
-* [Generates JSDocs](https://jsdoc.app/)
+* [Netlify forms](https://docs.netlify.com/forms/setup/)
+* [SassDocs](http://sassdoc.com/)
+* [JSDocs](https://jsdoc.app/)
 
 ---
 
@@ -45,21 +55,16 @@ The website is comprised of static files built using [Eleventy](https://www.11ty
 
 Possible features / enhancements for the future:
 
-1.  RSS feed
+1.  Netlify CMS
 2.  Light / Dark Theme option
 3.  Make better use of utility classes
 4.  Tags / categories
 5.  Post read time
 6.  Pagination
-7.  [Webmention](https://indieweb.org/Webmention)
-8.  [IFTTT & Netlify config](https://hankchizljaw.com/wrote/jamstack-ifttt-and-netlify:-a-power-trio/)
-9.  Netlify CMS
+7.  RSS feed
+8.  [Webmention](https://indieweb.org/Webmention)
+9.  [IFTTT & Netlify config](https://hankchizljaw.com/wrote/jamstack-ifttt-and-netlify:-a-power-trio/)
 10. Styleguide (list of the components)
-11. Consider [Going Buildless](https://css-tricks.com/going-buildless/)
-
----
-
-❗️**Performance note**: Browser/client does HTTP 'roundtrip' to get bundles of code. Typically this is up to **14KB** per roundtrip => (**TRY KEEP ROUNDTRIPS TO A MINIMUM**)
 
 ---
 
@@ -164,21 +169,81 @@ The changes will deploy to the live Netlify instance.
 * This build process runs in a CI environment and then deploys the build automatically to a global CDN.
 * Such deployments are [triggered automatically](https://www.netlify.com/docs/continuous-deployment/) by every git push to the `master` branch of the origin repository.
 
+---
+
+## Useful Netlify commands
+
+Here are some other useful Netlify commands that you can run.
+
+```bash
+# Opens current site admin UI in Netlify
+netlify open:admin
+
+# Opens current site url in default browser
+netlify open:site
+
+# Handle various site operations
+netlify sites
+
+# Prints status info about the current Netlify user and site
+netlify status
+
+# Create a new deploy from the `www` folder (creates a draft URL)
+netlify deploy
+
+# Manage netlify functions
+# Ref: https://www.netlify.com/tags/functions/
+netlify functions
+
+# list installed plugins
+# Ref: https://www.netlify.com/tags/plugins/
+netlify plugins
+
+# Link local repo or project folder (ie. `www`) to an existing site on Netlify
+netlify link
+
+# Unlink local folder (ie. `www`) from a Netlify site
+netlify unlink
+```
+
+---
 
 ## While developing
 
-How to *watch* the code changes (while developing) and getting the browser to automatically refresh.
+Here are a few ways to *watch* your code changes (while developing) and getting the browser to automatically refresh - (*locally* or '*live*').
+
+### 1. Watch "local" environment
+
+* Uses browserSync to open a local server
+* Various NPM commands run on the `watch` command and output any changes
 
 ```bash
-# Watch "local" environment
 npm run watch
-
-# Watch "local" environment => (using local Netlify rules in netlify.toml)
-npm run netlify-dev:local
-
-# Watch "live" environment => (links to Netlify remote instance)
-npm run netlify-dev:live
 ```
+
+### 2. Spawn a full "local Netlify" environment
+
+* Detects and runs your site generator - ie. `eleventy`
+* Uses rules in local `netlify.toml`
+* Makes environment variables available
+* Performs edge logic and routing rules
+* Compiles and runs cloud functions
+
+```bash
+netlify dev
+```
+
+### 3. Stream your dev server to a live URL
+
+* Great for collaborative development
+* Share your work as you work
+* Get instant feedback.
+
+```bash
+netlify dev --live
+```
+
+---
 
 ## Versioning *(before deployment)*
 
@@ -312,22 +377,26 @@ npm run audit:performance
 ## Helpful tools & references
 
 1. [PWA icon build tool](https://maskable.app/)
-2. [Design System Checklist](https://designsystemchecklist.com/)
-3. [Design Tokens Generator](https://quinalha.me/design-tokens-generator/)
-4. [Using design tokens](https://www.youtube.com/watch?v=wDBEc3dJJV8) (Jina Bolton)
-5. [polyfill.io](https://polyfill.io/v3/)
-6. [Colour blindness emulator](http://colororacle.org/)
-7. [Fit on a Floppy](https://fitonafloppy.website/)
-8. [Devhints.io](https://devhints.io/rollup)
-9. [Eleventy Walk Through](https://rphunt.github.io/eleventy-walkthrough/)
-10. [SASS guidelines](https://sass-guidelin.es/)
-11. [Set up CSS scoping using custom CSS properties](https://css-tricks.com/the-power-and-fun-of-scope-with-css-custom-properties/)
-12. [Create a responsive grid layout with no media queries, using CSS Grid](https://andy-bell.design/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/)
-13. [Using the `article` element correctly](https://www.smashingmagazine.com/2020/01/html5-article-section/)
-14. [Generate SassDocs](http://sassdoc.com/)
-15. [Generate JSDocs](https://jsdoc.app/)
-16. [Request with Intent: Caching Strategies in the Age of PWAs](https://alistapart.com/article/request-with-intent-caching-strategies-in-the-age-of-pwas/) => (Use of service worker rules and modern HTML to render the right media at the right time - **Perfect for heavy media like Images & Video**)
-17. [JS config to handle code-splitting](https://philipwalton.com/articles/using-native-javascript-modules-in-production-today/) (ie. splitting code into smaller chunks to be loaded on demand)
+2. [Google fonts](https://fonts.google.com/) and [google-webfonts-helper](https://google-webfonts-helper.herokuapp.com/fonts)
+3. [Design System Checklist](https://designsystemchecklist.com/)
+4. [Design Tokens Generator](https://quinalha.me/design-tokens-generator/)
+5. [Using design tokens](https://www.youtube.com/watch?v=wDBEc3dJJV8) (Jina Bolton)
+6. [polyfill.io](https://polyfill.io/v3/)
+7. [Colour blindness emulator](http://colororacle.org/)
+8. [Fit on a Floppy](https://fitonafloppy.website/)
+9. [Devhints.io](https://devhints.io/rollup)
+10. [Eleventy Walk Through](https://rphunt.github.io/eleventy-walkthrough/)
+11. [SASS guidelines](https://sass-guidelin.es/)
+12. [Set up CSS scoping using custom CSS properties](https://css-tricks.com/the-power-and-fun-of-scope-with-css-custom-properties/)
+13. [Create a responsive grid layout with no media queries, using CSS Grid](https://andy-bell.design/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/)
+14. [Using the `article` element correctly](https://www.smashingmagazine.com/2020/01/html5-article-section/)
+15. [Selectors & Specificity Explained](https://hugogiraudel.github.io/selectors-explained/)
+16. [Generate SassDocs](http://sassdoc.com/)
+17. [Generate JSDocs](https://jsdoc.app/)
+18. [Request with Intent: Caching Strategies in the Age of PWAs](https://alistapart.com/article/request-with-intent-caching-strategies-in-the-age-of-pwas/) => (Use of service worker rules and modern HTML to render the right media at the right time - **Perfect for heavy media like Images & Video**)
+19. [JS config to handle code-splitting](https://philipwalton.com/articles/using-native-javascript-modules-in-production-today/) (ie. splitting code into smaller chunks to be loaded on demand)
+20. [Chrome DevTools synced with local file system & local overrides](https://www.youtube.com/watch?v=D_M7LvDvlSg)
+21. [Preload, Prefetch And Priorities in Chrome](https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf)
 
 ---
 
