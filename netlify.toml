@@ -89,10 +89,10 @@
 # Redirect rule to point temporary Netlify URL to preferred domain name
 # ========================================================================
 # NOTE: This requires the DNS records to be updated to point to Netlify.
-# [[redirects]]
-#     from = "http://brootaylorv2.netlify.app/*"
-#     to = "http://brootaylor.com/:splat"
-#     status = 301
+[[redirects]]
+  from = "https://brootaylorv2.netlify.app/*"
+  to = "https://brootaylor.com/:splat"
+  status = 301
 
 # ########################################################################
 # Site-specific page redirects
