@@ -9,13 +9,13 @@ eleventyExcludeFromCollections: true
 
 # Disallow crawling of all content
 # == Handy during beta testing ==
-User-agent: *
-Disallow: /
-
-# Allow crawling of all content except for certain directories / pages etc. and their contents eg. `/es`
-# == Open the doors in Production ==
 # User-agent: *
-# Disallow:
+# Disallow: /
+
+# Allow crawling of all content except for certain directories / pages etc. and their contents eg. `/foo`
+# == Open the doors in Production ==
+User-agent: *
+Disallow:
 
 # Sitemap location
 Sitemap: {{ site.rootUrl }}/sitemap.xml
