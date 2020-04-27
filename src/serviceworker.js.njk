@@ -8,9 +8,9 @@ const siteVersion = 'v{{ pkg.version }}';
 const cacheName = siteName + '_' + siteVersion;
 
 const name = '{{ pkg.name }}';
-const staticCacheName = 'static' + cacheName;
-const imageCacheName = 'images' + cacheName;
-const pagesCacheName = 'pages' + cacheName;
+const staticCacheName = 'static@' + cacheName;
+const imageCacheName = 'images@' + cacheName;
+const pagesCacheName = 'pages@' + cacheName;
 const cacheList = [
 	staticCacheName,
 	imageCacheName,
