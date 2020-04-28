@@ -11,7 +11,7 @@ module.exports = {
   display: 'standalone',
   rootUrl: process.env.URL || '',
   environment: process.env.ELEVENTY_ENV,
-  logo: '/assets/images/common/avios-logo.png',
+  logo: '/assets/images/common/logo.png',
   theme_color_android: '#212227',
   theme_color_ios: '#212227',
   background_color_android: '#ffffff',
