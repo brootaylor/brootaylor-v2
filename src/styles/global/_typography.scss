@@ -32,10 +32,13 @@ h2 {
 }
 
 h3 {
-  @include font-size(20px);
+  @include font-size(24px);
 }
 
-p {
+p,
+ul,
+ol,
+blockquote {
   @include font-size(18px);
 }
 

@@ -1,6 +1,6 @@
 {
   "name": "brootaylor-v2",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "description": "Version 2 of my personal website, brootaylor.com",
   "repository": {
     "type": "git",
@@ -33,7 +33,7 @@
     "lint:markdown": "markdownlint src/**/*.md",
     "lint:sass": "sass-lint 'src/**/*.scss' -v -q",
     "watch:files": "eleventy --serve",
-    "watch:styles": "onchange 'src/styles/**/*.scss' -- npm run build:styles-dev",
+    "watch:styles": "onchange 'src/**/*.scss' -- npm run build:styles-dev",
     "watch:scripts": "cross-env rollup -c config/rollup.config.js --watch",
     "watch": "npm-run-all --parallel watch:*",
     "build:files": "ELEVENTY_ENV=production eleventy --quiet",
@@ -44,13 +44,11 @@
     "build:docs": "npm run sass:docs && npm run js:docs",
     "build": "npm run build:styles-prod && npm run build:scripts-prod && npm run build:files",
     "postbuild": "echo 'Everything has been built successfully... 🚀'",
-    "netlify-dev:local": "netlify dev",
-    "netlify-dev:live": "netlify dev --live",
     "deploy-draft": "npm run build && netlify deploy",
     "deploy-production": "netlify deploy --prod",
     "audit:browser-support": "npx browserslist && echo '🔆 Modify .browserslistrc if and when browser support changes. 🔆'",
     "audit:accessibility": "npx pa11y --standard WCAG2AA http://brootaylorv2.netlify.com",
-    "audit:performance": "lighthouse https://brootaylorv2.netlify.com --budget-path=config/budget.json --output-path=./brootaylor-performance-results.html --view",
+    "audit:performance": "lighthouse https://brootaylor.com --budget-path=config/budget.json --output-path=./brootaylor-performance-results.html --view",
     "audit:npm-local": "ncu",
     "audit:npm-global": "ncu -g",
     "debug": "DEBUG=* npx eleventy"
