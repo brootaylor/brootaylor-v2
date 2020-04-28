@@ -27,28 +27,16 @@ module.exports = {
   ],
   footernav: [
     {
-      label: "Home",
-      url: "/"
+      label: "Enable dark mode",
+      url: ""
     },
     {
-      label: "About",
-      url: "/about"
+      label: "Accessibility",
+      url: "/accessibility"
     },
     {
-      label: "Writing",
-      url: "/writing"
-    },
-    {
-      label: "Notes",
-      url: "/notes"
-    },
-    {
-      label: "Links",
-      url: "/links"
-    },
-    {
-      label: "Contact",
-      url: "/contact"
+      label: "Go back to the top",
+      url: "#main"
     }
   ]
 }

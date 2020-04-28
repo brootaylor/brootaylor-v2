@@ -3,6 +3,13 @@ permalink: /serviceworker.js
 eleventyExcludeFromCollections: true
 ---
 
+/*
+ * {{ pkg.name }}
+ * v{{ pkg.version }}
+ * {{ pkg.homepage }}
+ * Copyright (c) {{ site.yearCurrent }} {{ pkg.author.name }}. Licensed {{ pkg.license }}
+ */
+
 const siteName = '{{ pkg.name }}';
 const siteVersion = 'v{{ pkg.version }}';
 const cacheName = siteName + '_' + siteVersion;
