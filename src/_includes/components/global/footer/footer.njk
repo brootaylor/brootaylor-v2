@@ -3,7 +3,7 @@
 
 		{# To help assistive technologies #}
 		<h2 class="[ visually-hidden ]">Other places online to find Bruce.</h2>
-		<small>&copy; <time>{{ site.yearCurrent }}</time> {{ site.name }}. &mdash; <a href="#main">Go back to the top</a></small>
+		<small>Copyright &copy; <time>{{ site.yearCurrent }}</time> {{ site.name }}. All rights reserved.</small>
 
 		{# Pulls content from navigation.json data file #}
 		<nav aria-label="Tertiary navigation">
@@ -12,9 +12,9 @@
 			<h2 class="[ visually-hidden ]">Footer navigation</h2>
 
 			{% for navitem in navigation.footernav %}
-				{% if loop.first %}<ul aria-label="List of pages you can visit">{% endif %}
+				{% if loop.first %}<ul aria-label="List of tertiary pages">{% endif %}
 					<li>
-						<a href="{{ navitem.url }}"{% if external %} rel="external"{% endif %}>{{ navitem.label }}</a>
+						<a href="{{ navitem.url }}"{% if external %} rel="external"{% endif %}{% if (page.url | pretty) == navitem.url %} aria-describedby="current-page" class="[ current ]"{% endif %}>{{ navitem.label }}</a>
 					</li>
 				{% if loop.last %}</ul>{% endif %}
 			{% endfor %}

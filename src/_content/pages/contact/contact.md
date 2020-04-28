@@ -2,7 +2,7 @@
 layout: "layouts/contact.njk"
 title: "Get in touch"
 summary: "Please get in touch if you need to."
-lead: "You're more than welcome to get in touch. Just complete the form below."
+lead: "If you’d like to hire me, or if you’re just hoping to get in touch, feel free to complete the form below."
 bodyClass: "contact"
 date: 2020-04-24T19:33:00
 ---
