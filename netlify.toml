@@ -94,6 +94,19 @@
   to = "https://brootaylor.com/:splat"
   status = 301
 
+# Alias URLs pointing at primary domain & redirected as well
+# ========================================================================
+# NOTE: These require the DNS records to be updated to point to Netlify.
+[[redirects]]
+  from = "https://brootaylor.co.uk/*"
+  to = "https://brootaylor.com/:splat"
+  status = 301
+
+[[redirects]]
+  from = "https://www.brootaylor.co.uk/*"
+  to = "https://brootaylor.com/:splat"
+  status = 301
+
 # ########################################################################
 # Site-specific page redirects
 # ========================================================================
