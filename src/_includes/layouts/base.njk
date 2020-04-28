@@ -44,13 +44,16 @@
 		{# Main content #}
 		<main role="main" id="main">
 
-			{# Message content #}
-			{% block messages %}
-				{# Setting the message type (eg. "info") #}
-				{% set messageType = messages.info %}
-				{# Calling the message component #}
-				{% include "components/global/messages/messages.njk" %}
-			{% endblock %}
+			{# Check if `siteMessage` is true in `_data/site.js`... #}
+			{% if site.siteMessage %}
+				{# Message content #}
+				{% block messages %}
+					{# Setting the message type (eg. "info") #}
+					{% set messageType = messages.info %}
+					{# Calling the message component #}
+					{% include "components/global/messages/messages.njk" %}
+				{% endblock %}
+			{% endif %}
 
 			{# Main page content is generated here #}
 			{% block content %}

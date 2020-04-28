@@ -28,6 +28,7 @@ module.exports = {
   scriptsMain: false, // If using any `main` scripts on the site (eg. carousel, objectfit polyfill etc.)
   scriptsServiceworker: true, // If using a service worker
   yearCurrent: new Date().getFullYear(),
+  siteMessage: true,
   author: {
     name: 'Bruce Taylor',
     url: 'https://brootaylor.com'
