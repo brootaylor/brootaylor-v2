@@ -14,7 +14,9 @@
 			{% for navitem in navigation.footernav %}
 				{% if loop.first %}<ul aria-label="List of tertiary pages">{% endif %}
 					<li>
-						<a href="{{ navitem.url }}"{% if external %} rel="external"{% endif %}{% if (page.url | pretty) == navitem.url %} aria-describedby="current-page" class="[ current ]"{% endif %}>{{ navitem.label }}</a>
+						<a href="{{ navitem.url }}"
+							{% if external %} rel="external"{% endif %}
+							{% if (page.url | pretty) == navitem.url %} aria-describedby="current-page" class="[ current ]"{% endif %}>{{ navitem.label }}</a>
 					</li>
 				{% if loop.last %}</ul>{% endif %}
 			{% endfor %}
