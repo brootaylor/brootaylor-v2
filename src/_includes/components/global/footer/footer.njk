@@ -1,18 +1,18 @@
-<footer role="contentinfo" id="footer" class="[ site-footer ]">
+<footer role="contentinfo" id="footer" aria-labelledby="site-footer--label" class="[ site-footer ]">
 	<div class="[ wrapper ] [ flow ]">
 
 		{# To help assistive technologies #}
-		<h2 class="[ visually-hidden ]">Other places online to find Bruce.</h2>
+		<h2 id="site-footer--label" class="[ visually-hidden ]">Other content on Bruce's site. eg. accessibility statement.</h2>
 		<small>Copyright &copy; <time>{{ site.yearCurrent }}</time> {{ site.name }}. All rights reserved.</small>
 
 		{# Pulls content from navigation.json data file #}
-		<nav aria-label="Tertiary navigation">
+		<nav aria-labelledby="nav-footer--label">
 
 			{# To help assistive technologies #}
-			<h2 class="[ visually-hidden ]">Footer navigation</h2>
+			<h2 id="nav-footer--label" class="[ visually-hidden ]">Footer navigation</h2>
 
 			{% for navitem in navigation.footernav %}
-				{% if loop.first %}<ul aria-label="List of tertiary pages">{% endif %}
+				{% if loop.first %}<ul aria-label="List of tertiary content pages">{% endif %}
 					<li>
 						<a href="{{ navitem.url }}"
 							{% if external %} rel="external"{% endif %}

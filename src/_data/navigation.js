@@ -1,10 +1,6 @@
 module.exports = {
   mainnav: [
     {
-      label: "Home",
-      url: "/"
-    },
-    {
       label: "About",
       url: "/about"
     },
@@ -26,10 +22,10 @@ module.exports = {
     }
   ],
   footernav: [
-    {
-      label: "Enable dark mode",
-      url: ""
-    },
+    // {
+    //   label: "Enable dark mode",
+    //   url: ""
+    // },
     {
       label: "Accessibility",
       url: "/accessibility"
