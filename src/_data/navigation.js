@@ -36,7 +36,7 @@ module.exports = {
     },
     {
       label: "Go back to the top",
-      url: "#main"
+      url: "#start"
     }
   ]
 }
