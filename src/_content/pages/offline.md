@@ -14,7 +14,8 @@ Why not visit one of these other articles that are available while you're offlin
 
 <ul class="[ wrapper flow ]">
   {%- set allPosts = collections.post | reverse -%}
-  {%- for item in allPosts.slice(0, 6) -%}
+  {# Shows the latest 5 `post` entries... #}
+  {%- for item in allPosts.slice(0, 5) -%}
   <li>
     <article>
       <h2><a href="{{ item.url | pretty }}">{{ item.data.title }}</a></h2>
