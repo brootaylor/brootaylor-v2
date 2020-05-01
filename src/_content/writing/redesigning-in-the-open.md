@@ -21,16 +21,24 @@ You're more than welcome to follow along if you're ok with witnessing the inevit
 
 ***
 
-Now, I say this gingerly - but I'd be honoured if anyone wanted to contribute any thoughts and pearls of wisdom. All I ask is you be kind.
+## Feel like contributing?
+
+Now, I say this gingerly - but I'd be honoured if anyone wanted to contribute any thoughts and pearls of wisdom. All I ask is you be kind. If there's anything you spot that seems dodgy or if you'd like to recommend an enhancement, (and you have the time), you're more than welcome to [summit a GitHub issue][6].
 
 I've [made the code public][5] but it is for my personal website, so please can I ask you not to copy everything wholesale. By all means learn from it (as I'm doing). Thank you.
 
 ***
 
-The website is comprised of static files built using the wonderful [Eleventy][1], [NPM][2] build scripts, [rollup.js][3] to bundle JavaScript modules and is deployed by and hosted with [Netlify][4].
+## What it's made of
+
+The website is comprised of static files built using the fabulous [Eleventy][1] (<abbr title="Static Site Generator">SSG</abbr>), configurable [NPM][2] build scripts, global data configuration, [Sass][7] powered CSS system and [rollup.js][3] to bundle JavaScript modules.
+
+It's deployed by and hosted with [Netlify][4].
 
 [1]: https://www.11ty.dev/
 [2]: https://docs.npmjs.com/cli/npm
 [3]: https://rollupjs.org/
 [4]: https://www.netlify.com/
 [5]: https://github.com/brootaylor/brootaylor-v2
+[6]: https://github.com/brootaylor/brootaylor-v2/issues
+[7]: https://sass-lang.com/
