@@ -23,13 +23,19 @@ const cacheList = [
 	imageCacheName,
 	pagesCacheName
 ];
-const offlinePage = '/offline.html';
+const offlinePage = '/offline';
 const offlinePages = [
-	'/writing/2020-02-22/redesigning-in-the-open',
-	'/notes',
-	'/links',
-	'/about',
-	'/'
+{%- set allPosts = collections.post | reverse -%}
+{% for item in allPosts.slice(0, 6) %}
+  '{{ item.url | pretty }}',
+{%- endfor -%}
+{% for item in navigation.mainnav %}
+  '{{ item.url }}',
+{%- endfor -%}
+{% for item in navigation.footernav %}
+  '{{ item.url }}',
+{%- endfor %}
+  '{{ site.start_url }}'
 ];
 
 function updateStaticCache() {
