@@ -90,11 +90,12 @@ brootaylor.com
 │   ├── assets                   # Assets (ie. Static files like Fonts, Images, Video, Favicons)
 │   ├── scripts                  # JavaScript (Global)
 │   ├── styles                   # SCSS (Global)
-│   ├── browserconfig.xml.njk    # browserconfig.xml template (For Microsoft application usage)
-│   ├── manifest.json.njk        # manifest.json template
-│   ├── robots.txt.njk           # robots.txt template
-│   ├── serviceworkerjs.njk      # serviceworker.js template
-│   └── sitemap.xml.njk          # sitemap.xml template
+│   ├── browserconfig.njk        # browserconfig.xml template (For Microsoft application usage)
+│   ├── feed.njk                 # feed.xml template
+│   ├── manifest.njk             # manifest.json template
+│   ├── robots.njk               # robots.txt template
+│   ├── serviceworker.njk        # serviceworker.js template
+│   └── sitemap.njk              # sitemap.xml template
 │
 ├── .browserlistrc               # Browser support config list
 ├── .editorconfig                # Text editor configuration
