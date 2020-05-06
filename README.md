@@ -38,11 +38,11 @@ It's deployed by and hosted with [Netlify](https://www.netlify.com/).
 * ↩️ [Redirects](https://github.com/brootaylor/brootaylor-v2/blob/master/src/_redirects) for local `netlify dev`
 * 🌍 [Customisable global data](https://github.com/brootaylor/brootaylor-v2/blob/master/src/_data/site.js)
 * Dynamically generated...
-  * [`serviceworker.js`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/serviceworker.js.njk)
-  * [`manifest.json`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/manifest.json.njk)
-  * [`sitemap.xml`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/sitemap.xml.njk)
-  * [`robots.txt`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/robots.txt.njk)
-  * [`feed.xml`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/sitemap.xml.njk)
+  * [`serviceworker.js`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/serviceworker.njk)
+  * [`manifest.json`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/manifest.njk)
+  * [`sitemap.xml`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/sitemap.njk)
+  * [`robots.txt`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/robots.njk)
+  * [`feed.xml`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/feed.njk)
 * [JAMstack](https://jamstack.org/) methodology
 * [Eleventy](https://www.11ty.io/) (SSG)
 * [Netlify](https://www.netlify.com/)
