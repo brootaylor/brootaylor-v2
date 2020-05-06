@@ -3,6 +3,7 @@
 {% set metaDescription = site.metaDescription %}
 {% set metaImage = site.metaImage %}
 {% set metaImageAlt = site.metaImageAlt %}
+{% set rootUrl = site.rootUrl %}
 
 {#
 	-> Setting page level content variables
@@ -35,7 +36,7 @@
 
 {# Canonical #}
 {% if hidden !== true %}
-	<link rel="canonical" href="{{ site.rootUrl }}{{ page.url | pretty }}">
+	<link rel="canonical" href="{{ rootUrl }}{{ page.url | pretty }}">
 {% endif %}
 
 {#
@@ -51,14 +52,17 @@
 {# Styles (load) #}
 <link rel="stylesheet" href="/styles/main.css?version={{ pkg.version }}">
 
+{# RSS feed #}
+<link rel="alternate" type="application/rss+xml" title="{{ metaTitle }}" href="{{ rootUrl }}/feed.xml">
+
 {# Open graph #}
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="{{ site.name }}">
 <meta property="og:title" content="{{ metaTitle }}">
-<meta property="og:image" content="{{ site.rootUrl }}{{ metaImage }}">
+<meta property="og:image" content="{{ rootUrl }}{{ metaImage }}">
 <meta property="og:image:alt" content="{{ metaImageAlt }}">
 <meta property="og:description" content="{{ metaDescription }}">
-<meta property="og:url" content="{{ site.rootUrl }}{{ page.url | pretty }}">
+<meta property="og:url" content="{{ rootUrl }}{{ page.url | pretty }}">
 
 {#
 	Twitter...
@@ -68,10 +72,10 @@
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="{{ site.twitter }}">
 	<meta name="twitter:title" content="{{ metaTitle }}">
-	<meta name="twitter:image" content="{{ site.rootUrl }}{{ metaImage }}">
+	<meta name="twitter:image" content="{{ rootUrl }}{{ metaImage }}">
 	<meta name="twitter:image:alt"  content="{{ metaImageAlt }}">
 	<meta name="twitter:description" content="{{ metaDescription }}">
-	<meta name="twitter:url" property="og:url" content="{{ site.rootUrl }}{{ page.url | pretty }}">
+	<meta name="twitter:url" property="og:url" content="{{ rootUrl }}{{ page.url | pretty }}">
 {% endif %}
 
 {# Favicons, icons and manifests #}

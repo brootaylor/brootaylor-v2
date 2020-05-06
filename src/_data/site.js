@@ -31,7 +31,8 @@ module.exports = {
   siteMessage: true,
   author: {
     name: 'Bruce Taylor',
-    url: 'https://brootaylor.com'
+    url: 'https://brootaylor.com',
+    email: 'brootaylor@gmail.com'
   },
 };
 
