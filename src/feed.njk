@@ -19,10 +19,11 @@ eleventyExcludeFromCollections: true
 	</author>
 	{% for post in collections.post %}
 		{% set absolutePostUrl %}{{ site.rootUrl }}{{ post.url | pretty }}{% endset %}
+		{% set lastUpdated %}{{ post.data.updated | rssDate }}{% endset %}
 		<entry>
 			<title>{{ post.data.title }}</title>
 			<link href="{{ absolutePostUrl }}"/>
-			<updated>{{ post.date | rssDate }}</updated>
+			<updated>{{ lastUpdated }}</updated>
 			<id>{{ absolutePostUrl }}</id>
 			<content type="html"><![CDATA[
 				{{ post.templateContent | safe }}

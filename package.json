@@ -1,6 +1,6 @@
 {
   "name": "brootaylor-v2",
-  "version": "1.0.34",
+  "version": "1.0.35",
   "description": "Version 2 of my personal website, brootaylor.com",
   "repository": {
     "type": "git",
@@ -60,7 +60,7 @@
     "@11ty/eleventy-plugin-rss": "^1.0.7",
     "autoprefixer": "^9.7.6",
     "concurrently": "^5.2.0",
-    "date-fns": "^2.12.0",
+    "date-fns": "^2.13.0",
     "faker": "^4.1.0",
     "html-minifier": "^4.0.0",
     "json-to-scss": "^1.5.0",
@@ -96,7 +96,7 @@
     "minami": "^1.2.3",
     "postcss-preset-env": "^6.7.0",
     "prettier": "^2.0.5",
-    "rollup": "^2.8.0",
+    "rollup": "^2.8.2",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-terser": "^5.3.0",
     "sass-lint": "^1.13.1",

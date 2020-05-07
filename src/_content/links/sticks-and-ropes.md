@@ -4,7 +4,10 @@ summary: "Am I a stick or a rope? Am I one that binds people together or one tha
 lead: "How good an observation is this! Never thought about it this way."
 linkExternal: "https://daverupert.com/2019/08/sticks-and-ropes/"
 linkLabel: "daverupert.com"
+
 date: 2019-10-01T12:42:00
+updated: 2020-05-07T13:36:00
+
 location:
   locality: "Crawley"
   country-name: "United Kingdom"

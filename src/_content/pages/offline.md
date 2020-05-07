@@ -3,7 +3,10 @@ title: "You're offline"
 summary: "It looks like you're offline."
 lead: "It looks like you're offline. Fingers-crossed your connection to the internet will be sorted out soon."
 bodyClass: "offline"
+
 date: 2020-05-01T14:43:00
+updated: 2020-05-07T13:36:00
+
 hidden: true
 eleventyExcludeFromCollections: true
 ---
