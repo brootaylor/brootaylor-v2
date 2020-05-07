@@ -22,6 +22,7 @@ Why not visit one of these other articles that are available while you're offlin
   <li>
     <article>
       <h2><a href="{{ item.url | pretty }}">{{ item.data.title }}</a></h2>
+      <time datetime="{{ item.date | dateTime }}">{{ item.date | dateTimeReadable("d LLLL y, ") }}{{ item.date | dateTimeReadable("t") | lower }}</time>
       <p>{{ item.data.summary }}</p>
     </article>
   </li>
