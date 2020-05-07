@@ -1,6 +1,6 @@
 ---
 title: "About me"
-summary: "I’m a Front End Web Designer & Developer living in West Sussex, England and have been helping people build & enhance their websites since 2003."
+summary: "I’m a Web Developer living in West Sussex, England and have been helping people build & enhance their websites for a number of years."
 lead: ""
 bodyClass: "about"
 
