@@ -21,19 +21,6 @@
   [build.processing.images]
     compress = true
 
-# @NOTE: Commented out for now until figured out how to implement this properly.
-# Seems to be breaking the Netlify '[build.lifecycle]'
-#
-# [build.environment]
-#
-# [context.production]
-#   command = "npm run build"
-#   [context.production.environment]
-#     GIT_LFS_ENABLED = "true"
-#     NODE_ENV = "production"
-#     NODE_VERSION = "12"
-#     TZ = "Europe/London"
-
 # Plugins ref: https://www.netlify.com/tags/plugins/
 [[plugins]]
   package = "./netlify-plugins/first-plugin"
@@ -93,6 +80,7 @@
   from = "https://brootaylorv2.netlify.app/*"
   to = "https://brootaylor.com/:splat"
   status = 301
+  force = true
 
 # Alias URLs pointing at primary domain & redirected as well
 # ========================================================================
@@ -101,11 +89,13 @@
   from = "https://brootaylor.co.uk/*"
   to = "https://brootaylor.com/:splat"
   status = 301
+  force = true
 
 [[redirects]]
   from = "https://www.brootaylor.co.uk/*"
   to = "https://brootaylor.com/:splat"
   status = 301
+  force = true
 
 # ########################################################################
 # Site-specific page redirects

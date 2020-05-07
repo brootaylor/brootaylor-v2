@@ -2,17 +2,17 @@
 # This isn't deployed / published to production
 
 # Pages (standard)
-/about /about.html
-/accessibility /accessibility.html
+/about /about.html 200!
+/accessibility /accessibility.html 200!
 
-/contact /contact.html
-/contact/thanks /contact/thanks.html
+/contact /contact.html 200!
+/contact/thanks /contact/thanks.html 200!
 
-/writing /writing.html
-/writing/2020-02-22/redesigning-in-the-open /writing/2020-02-22/redesigning-in-the-open.html
+/writing /writing.html 200!
+/writing/2020-02-22/redesigning-in-the-open /writing/2020-02-22/redesigning-in-the-open.html 200!
 
-/notes /notes.html
-/links /links.html
+/notes /notes.html 200!
+/links /links.html 200!
 
 # Error pages
-/error/404 /error/404.html
+/error/404 /error/404.html 200!

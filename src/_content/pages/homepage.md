@@ -1,7 +1,7 @@
 ---
 layout: "layouts/homepage.njk"
 title: "Hi, I'm Bruce."
-summary: "I’m a Front End Web Designer & Developer living in West Sussex, England and have been helping people build & enhance their websites since 2003."
+summary: "I’m a Web Developer living in West Sussex, England and have been helping people build & enhance their websites for a number of years."
 lead: ""
 bodyClass: "homepage"
 
@@ -16,7 +16,7 @@ priority: 1
 
 Originally from South Africa but now living in West Sussex, England. Here's a bit more [about me][1].
 
-I'm a Front End Web Designer &amp; Developer and have worked on a wide variety of projects with companies like **AirMiles**, **Avios**, **Macmillan Cancer Support**, **Pegasus**, **Time Inc.**, **MerchantCantos**, **Euromoney** and more recently with [IAG Loyalty][2].
+I'm a Web Developer and have worked on a wide variety of projects with companies like **AirMiles**, **Avios**, **Macmillan Cancer Support**, **Pegasus**, **Time Inc.**, **MerchantCantos**, **Euromoney** and more recently with [IAG Loyalty][2].
 
 I sometimes [write][3], jot down [notes][4] or share [links][5] to things that interest me.
 
