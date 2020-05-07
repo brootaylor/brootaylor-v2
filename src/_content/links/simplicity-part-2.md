@@ -4,7 +4,10 @@ summary: "When everything works, it feels like magic. When something breaks, it�
 lead: "Bastian Allgeier wonderfully articulates what many – (more than likely most!) – of us are probably thinking anyway but unsure whether we should break cover or not."
 linkExternal: "https://bastianallgeier.com/notes/simplicity-part-2"
 linkLabel: "bastianallgeier.com"
+
 date: 2019-09-10T18:54:00
+updated: 2020-05-07T13:36:00
+
 location:
   locality: "Crawley"
   country-name: "United Kingdom"

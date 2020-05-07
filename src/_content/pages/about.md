@@ -3,12 +3,14 @@ title: "About me"
 summary: "I’m a Front End Web Designer & Developer living in Crawley, West Sussex, UK and have been helping people build & enhance their websites since 2003."
 lead: ""
 bodyClass: "about"
+
 date: 2020-04-24T19:33:00
+updated: 2020-05-07T13:31:00
 ---
 
 My interest in all things webby began in late 1999 while working at the original [Boo.com][1]. After a brief stint of freelancing, I started at [Airmiles][2] in 2004 – which later became [Avios][3] – and ended up working their for 11 years.
 
-Since then I've worked on a wide variety of projects with companies like Macmillan Cancer Support, Pegasus, Time Inc., MerchantCantos, Euromoney and more recently with [Avios][3] again.
+Since then I've worked on a wide variety of projects with companies like Macmillan Cancer Support, Pegasus, Time Inc., MerchantCantos, Euromoney and more recently with [IAG Loyalty][3].
 
 I enjoy a team environment and am told I communicate and work well with technical and non-technical people alike. I've worked on all sorts of projects in small, medium and large multi-functional development teams – and have considerable experience in creating front-end code that's modular, responsive, performant, extensible, accessible and future friendly.
 
@@ -38,7 +40,7 @@ Thank you for dropping by.
 
 [1]: https://en.wikipedia.org/wiki/Boo.com
 [2]: https://en.wikipedia.org/wiki/Air_Miles
-[3]: https://aviosgroup.com/
+[3]: https://iagloyalty.com/
 [4]: https://trentwalton.com/2014/03/10/device-agnostic/
 [5]: https://alistapart.com/article/responsive-web-design
 [6]: https://www.gov.uk/service-manual/technology/using-progressive-enhancement

@@ -2,7 +2,9 @@
 title: "Notes"
 summary: "Quick notes, thoughts and ramblings."
 bodyClass: "notes-home"
+
 date: 2020-02-22T22:10:00
+updated: 2020-05-07T13:36:00
 ---
 
 {{ summary }}

@@ -2,7 +2,9 @@
 title: "Links"
 summary: "Links to articles and various things I've enjoyed and found interesting. Technical and non-technical. Quite a few of them offer perspectives / advice I appreciate."
 bodyClass: "links-home"
+
 date: 2020-02-22T22:10:00
+updated: 2020-05-07T13:36:00
 ---
 
 {{ summary }}

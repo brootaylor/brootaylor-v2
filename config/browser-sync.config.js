@@ -3,7 +3,7 @@ const fs = require('fs');
 module.exports = {
   notify: true,
   watch: true,
-  browser: ['google chrome'],
+  browser: ['firefox'],
   open: 'local',
   startPath: '/',
   logPrefix: 'Bruce Taylor\'s website',
