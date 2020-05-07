@@ -13,6 +13,8 @@
   }
 
   small {
+    flex: 1 1 75%;
+    max-width: 75%;
     font-size: 0.90rem;
     margin-right: 1rem;
   }
@@ -38,15 +40,6 @@
         color: var(--font-colour-base);
         text-decoration: none;
       }
-    }
-  }
-
-  .social {
-    @extend %no-list;
-    flex: 1 1 75%;
-
-    & > li {
-      width: 2.5rem;
     }
   }
 }

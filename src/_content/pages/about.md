@@ -1,6 +1,6 @@
 ---
 title: "About me"
-summary: "I’m a Front End Web Designer & Developer living in Crawley, West Sussex, UK and have been helping people build & enhance their websites since 2003."
+summary: "I’m a Front End Web Designer & Developer living in West Sussex, England and have been helping people build & enhance their websites since 2003."
 lead: ""
 bodyClass: "about"
 
@@ -22,7 +22,7 @@ I frequently dabble with new technologies and try my best to find neat solutions
 
 I'm originally from South Africa and grew up on a dairy farm in a very [beautiful part of the country][10]. Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking in the mountains, canoeing, fishing and sport. Funny how things turn out sometimes eh!
 
-I enjoy landscape photography and am a [fairly decent drummer][11]. I absolutely [adore aircraft][12] and still plan to pull my finger out and get my PPL one day.
+I enjoy landscape photography and am a [fairly decent drummer][11]. I absolutely [adore aircraft][12] and still plan to pull my finger out and get my <abbr title="Private Pilots Licence">PPL</abbr> one day.
 
 My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 children. 2 teenage sons and an 11 year old daughter.
 
@@ -34,7 +34,7 @@ I try and write whenever I get the chance and have [written a few posts][13] on 
 
 This website has been the home of my personal blog for a fair few years. Everything written here represents my opinions and perspectives on various things. It doesn't reflect or represent the views of anyone I work for or with.
 
-I also use it as a platform for experimenting with newer front-end web technologies – so there's every chance it may look a little 'wonky' now and then. Please forgive me if something doesn't look quite right on your screen at the moment.
+I also use it as a platform for experimenting with newer front-end web technologies – so there's every chance it may look a little 'wonky' now and then. Please forgive me if something doesn't look quite right or work properly on your screen at the moment. By all means let me know by submitting a [GitHub issue][14], or by [emailing me directly][15].
 
 Thank you for dropping by.
 
@@ -51,3 +51,5 @@ Thank you for dropping by.
 [11]: https://www.flickr.com/photos/60226997@N06/40548596663/
 [12]: https://www.flickr.com/photos/60226997@N06/47530443441/
 [13]: /writing
+[14]: https://github.com/brootaylor/brootaylor-v2/issues
+[15]: /contact

@@ -11,10 +11,10 @@ updated: 2020-05-07T13:36:00
 
 ---
 
-<ul class="[ wrapper flow ] [ links__list ]">
+<ul class="[ flow ] [ links__list ]">
 {%- for link in collections.postLinks -%}
   <li class="[ links__list-item ]">
-    <article class="[ wrapper flow ] [ links__summary ]">
+    <article class="[ flow ] [ links__summary ]">
       <h2><a href="{{ link.url }}">{{ link.data.title }}</a></h2>
       <time datetime="{{ link.date | dateTime }}">{{ link.date | dateTimeReadable("d LLLL y, ") }}{{ link.date | dateTimeReadable("t") | lower }}</time>
       <p><a href="{{ link.data.linkExternal }}">{{ link.data.linkLabel }}</a></p>
