@@ -65,6 +65,7 @@ Possible features / enhancements for the future:
 7.  ~~RSS feed~~ ✔️
 8.  [Webmention](https://indieweb.org/Webmention)
 9.  [IFTTT & Netlify config](https://hankchizljaw.com/wrote/jamstack-ifttt-and-netlify:-a-power-trio/)
+    * (This is half done-ish. Currently an IFTTT applet is set up to run a [Netlify build hook URL](https://docs.netlify.com/configure-builds/build-hooks/) on a daily basis.)
 10. Styleguide (list of the components)
 
 ---
