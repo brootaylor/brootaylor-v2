@@ -18,6 +18,7 @@
   &__list {
     @extend %no-list;
     display: flex;
+    flex-wrap: wrap;
 
     & > li {
       padding-right: 1rem;

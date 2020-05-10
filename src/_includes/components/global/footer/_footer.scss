@@ -3,7 +3,8 @@
  **********************************************************/
 
 #footer {
-  margin-bottom: 1rem;
+  background-color: var(--grey-light);
+  padding: 1rem 0 2rem;
 
   .wrapper {
     display: flex;
@@ -13,10 +14,13 @@
   }
 
   small {
-    flex: 1 1 55%;
-    max-width: 55%;
     font-size: 0.90rem;
-    margin-right: 1rem;
+
+      @include min-width($breakpoint-small) {
+        flex: 1 1 55%;
+        max-width: 55%;
+        margin-right: 1rem;
+      }
   }
 
   nav {
@@ -26,6 +30,7 @@
       @extend %no-list;
       @include font-size(16px);
       display: flex;
+      flex-wrap: wrap;
 
       li {
         padding-right: 1rem;
