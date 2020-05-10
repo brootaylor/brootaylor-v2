@@ -24,6 +24,7 @@
 			{% endif %}
 
 			<time datetime="{{ date | dateTime }}">{{ date | dateTimeReadable("d LLLL y, ") }}{{ date | dateTimeReadable("t") | lower }}</time>
+			<span> &rarr; <a href="{{ linkExternal }}" rel="external">{{ linkLabel }}</a></span>
 		</header>
 
 		{% if lead %}

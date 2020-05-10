@@ -17,7 +17,7 @@ updated: 2020-05-07T13:36:00
     <article class="[ flow ] [ links__summary ]">
       <h2><a href="{{ link.url }}">{{ link.data.title }}</a></h2>
       <time datetime="{{ link.date | dateTime }}">{{ link.date | dateTimeReadable("d LLLL y, ") }}{{ link.date | dateTimeReadable("t") | lower }}</time>
-      <p><a href="{{ link.data.linkExternal }}">{{ link.data.linkLabel }}</a></p>
+      <span> &rarr; <a href="{{ link.data.linkExternal }}" rel="external">{{ link.data.linkLabel }}</a></span>
       <p>{{ link.data.lead }}</p>
     </article>
   </li>

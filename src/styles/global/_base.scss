@@ -9,6 +9,11 @@ body,
   @extend %flow;
 }
 
+// Nice having a border around the entire viewport...
+body {
+  border: 1rem solid var(--grey-dark);
+}
+
 // This is using CSS Grid to define grid template areas
 // =====================================================
 // NOTE: Section and component-level grid layouts will be done in those Sass files
