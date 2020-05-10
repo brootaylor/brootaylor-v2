@@ -6,7 +6,7 @@ linkExternal: "https://daverupert.com/2019/08/sticks-and-ropes/"
 linkLabel: "daverupert.com"
 
 date: 2019-10-01T12:42:00
-updated: 2020-05-07T13:36:00
+updated: 2020-05-10T16:53:00
 
 location:
   locality: "Crawley"

@@ -26,6 +26,9 @@ eleventyExcludeFromCollections: true
 			<updated>{{ lastUpdated }}</updated>
 			<id>{{ absolutePostUrl }}</id>
 			<content type="html"><![CDATA[
+				{% if post.data.lead %}
+					<p>{{ post.data.lead | safe }}</p>
+				{% endif %}
 				{{ post.templateContent | safe }}
 			]]></content>
 		</entry>
