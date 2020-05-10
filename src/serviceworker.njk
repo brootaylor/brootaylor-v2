@@ -26,15 +26,19 @@ const offlinePage = '/offline';
 const offlinePages = [
 {%- set allPosts = collections.post | reverse -%}
 {% for item in allPosts.slice(0, 5) %}
-  '{{ item.url | pretty }}',
-{%- endfor -%}
-{% for item in navigation.mainnav %}
-  '{{ item.url }}',
-{%- endfor -%}
-{% for item in navigation.footernav %}
-  '{{ item.url }}',
+	'{{ item.url | pretty }}',
 {%- endfor %}
-  '{{ site.start_url }}'
+{%- for item in navigation.mainnav %}
+	{%- if item.external !== true %}
+	'{{ item.url }}',
+	{%- endif -%}
+{%- endfor %}
+{%- for item in navigation.footernav %}
+	{%- if item.external !== true %}
+	'{{ item.url }}',
+	{%- endif -%}
+{%- endfor %}
+	'{{ site.start_url }}'
 ];
 
 function updateStaticCache() {
