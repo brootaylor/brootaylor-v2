@@ -25,6 +25,30 @@ module.exports = {
     {
       label: "Accessibility",
       url: "/accessibility"
+    },
+    {
+      label: "GitHub",
+      url: "https://github.com/brootaylor",
+      external: true
+    },
+    {
+      label: "Twitter",
+      url: "https://twitter.com/brootaylor",
+      external: true
+    },
+    {
+      label: "Flickr",
+      url: "https://www.flickr.com/photos/60226997@N06/",
+      external: true
+    },
+    {
+      label: "LinkedIn",
+      url: "https://www.linkedin.com/in/brootaylor",
+      external: true
+    },
+    {
+      label: "RSS",
+      url: "/feed.xml"
     }
   ]
 }
