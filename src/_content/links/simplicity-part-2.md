@@ -6,7 +6,7 @@ linkExternal: "https://bastianallgeier.com/notes/simplicity-part-2"
 linkLabel: "bastianallgeier.com"
 
 date: 2019-09-10T18:54:00
-updated: 2020-05-07T13:36:00
+updated: 2020-05-10T16:53:00
 
 location:
   locality: "Crawley"

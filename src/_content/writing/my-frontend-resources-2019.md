@@ -4,7 +4,7 @@ summary: "A list of resources that help me while doing front-end design and deve
 lead: "I thought it may be nice to list out some of the people, blogs, resources and tools I find myself referring to a fair amount these days while doing the front-end design and developer thing. I'm indebted to many of the people here and am grateful that they've given so generously of their skills, experience and time."
 
 date: 2019-03-15T09:33:00
-updated: 2020-05-07T13:36:00
+updated: 2020-05-10T16:53:00
 
 location:
   locality: "Crawley"

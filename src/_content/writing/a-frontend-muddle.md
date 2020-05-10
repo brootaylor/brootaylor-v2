@@ -4,7 +4,7 @@ summary: "If you find yourself getting in a muddle about what front-end developm
 lead: "I need to share this list of links."
 
 date: 2019-04-11T11:33:00
-updated: 2020-05-07T13:36:00
+updated: 2020-05-10T16:53:00
 
 location:
   locality: "Crawley"
