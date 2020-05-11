@@ -4,7 +4,7 @@ summary: "Here you'll find a few of my thoughts on a variety of things. Some web
 bodyClass: "writing-home"
 
 date: 2020-02-22T22:10:00
-updated: 2020-05-07T13:36:00
+updated: 2020-05-11T10:17:00
 ---
 
 {{ summary }}
@@ -17,7 +17,11 @@ updated: 2020-05-07T13:36:00
     <article class="[ flow ] [ writing__summary ]">
       <h2><a href="{{ writing.url }}">{{ writing.data.title }}</a></h2>
       <time datetime="{{ writing.date | dateTime }}">{{ writing.date | dateTimeReadable("d LLLL y, ") }}{{ writing.date | dateTimeReadable("t") | lower }}</time>
-      <p>{{ writing.data.summary }}</p>
+      {%- if writing.data.lead -%}
+        <p>{{ writing.data.lead }}</p>
+      {% else %}
+        <p>{{ writing.data.summary }}</p>
+      {%- endif -%}
     </article>
   </li>
 {%- endfor -%}
