@@ -14,13 +14,13 @@
 {% block content %}
 	<article class="[ wrapper ] [ flow ]">
 
-		{# This content comes from the markdown in the relevant `.md` file - within the `pages` directory #}
-		{{ content | safe }}
-
 		{# Notes date & time entry #}
 		<footer>
 			<time datetime="{{ date | dateTime }}">{{ date | dateTimeReadable("d LLLL y, ") }}{{ date | dateTimeReadable("t") | lower }}</time>
 		</footer>
+
+		{# This content comes from the markdown in the relevant `.md` file - within the `pages` directory #}
+		{{ content | safe }}
 
 	</article>
 {% endblock %}

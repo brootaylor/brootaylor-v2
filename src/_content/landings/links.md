@@ -1,14 +1,11 @@
 ---
 title: "Links"
 summary: "Links to articles and various things I've enjoyed and found interesting. Technical and non-technical. Quite a few of them offer perspectives / advice I appreciate."
+lead: "Links to articles and various things I've enjoyed and found interesting. Technical and non-technical. Quite a few of them offer perspectives / advice I appreciate."
 bodyClass: "links-home"
 
 date: 2020-02-22T22:10:00
-updated: 2020-05-11T10:17:00
----
-
-{{ summary }}
-
+updated: 2020-05-11T17:29:00
 ---
 
 <ul class="[ flow ] [ links__list ]">
