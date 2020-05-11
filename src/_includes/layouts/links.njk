@@ -15,6 +15,8 @@
 	<article class="[ wrapper ] [ flow ]">
 
 		<header>
+			<time datetime="{{ date | dateTime }}">{{ date | dateTimeReadable("d LLLL y, ") }}{{ date | dateTimeReadable("t") | lower }}</time>
+			<span> &rarr; <a href="{{ linkExternal }}" rel="external">{{ linkLabel }}</a></span>
 			{# This `title` comes from the front matter in the relevant `.md` file - within the `pages` directory #}
 			{% if title %}
 				<h1>{{ title }}</h1>
@@ -22,9 +24,6 @@
 				{# Pages need a `title` hence the reason for this fallback #}
 				<h1>{{ titleMissingText }}</h1>
 			{% endif %}
-
-			<time datetime="{{ date | dateTime }}">{{ date | dateTimeReadable("d LLLL y, ") }}{{ date | dateTimeReadable("t") | lower }}</time>
-			<span> &rarr; <a href="{{ linkExternal }}" rel="external">{{ linkLabel }}</a></span>
 		</header>
 
 		{% if lead %}

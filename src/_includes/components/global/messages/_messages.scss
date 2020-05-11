@@ -7,18 +7,19 @@
   position: sticky;
   top: 0;
   padding: 1rem;
-  margin: 0;
+  margin-bottom: 2rem;
   /* offset-x | offset-y | blur-radius | spread-radius | color */
   box-shadow: 0 2px 0 1px rgba($grey-dark, 0.2);
-  transition: margin 0.25s;
 
     // Creates an offset type look using these negative margins...
     @include min-width($breakpoint-medium) {
-      margin: 0 -0.50rem;
+      margin-left: -0.50rem;
+      margin-right: -0.50rem;
     }
 
     @include min-width($breakpoint-large) {
-      margin: 0 -0.75rem;
+      margin-left: -0.75rem;
+      margin-right: -0.75rem;
     }
 
   a {

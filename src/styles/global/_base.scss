@@ -5,7 +5,6 @@
 html {
   background-color: var(--grey-dark);
   padding: 0;
-  transition: padding 0.25s;
 
     @include min-width($breakpoint-medium) {
       padding: 1rem;
@@ -24,6 +23,10 @@ body,
 
 body {
   background-color: var(--white);
+}
+
+#main {
+  padding-bottom: 2rem;
 }
 
 // This is using CSS Grid to define grid template areas
