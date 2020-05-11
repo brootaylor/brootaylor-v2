@@ -4,7 +4,7 @@ summary: "Links to articles and various things I've enjoyed and found interestin
 bodyClass: "links-home"
 
 date: 2020-02-22T22:10:00
-updated: 2020-05-07T13:36:00
+updated: 2020-05-11T10:17:00
 ---
 
 {{ summary }}
@@ -18,7 +18,11 @@ updated: 2020-05-07T13:36:00
       <h2><a href="{{ link.url }}">{{ link.data.title }}</a></h2>
       <time datetime="{{ link.date | dateTime }}">{{ link.date | dateTimeReadable("d LLLL y, ") }}{{ link.date | dateTimeReadable("t") | lower }}</time>
       <span> &rarr; <a href="{{ link.data.linkExternal }}" rel="external">{{ link.data.linkLabel }}</a></span>
-      <p>{{ link.data.lead }}</p>
+      {%- if link.data.lead -%}
+        <p>{{ link.data.lead }}</p>
+      {% else %}
+        <p>{{ link.data.summary }}</p>
+      {%- endif -%}
     </article>
   </li>
 {%- endfor -%}

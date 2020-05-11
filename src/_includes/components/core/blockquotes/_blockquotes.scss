@@ -2,6 +2,12 @@
  * Blockquotes
  **********************************************************/
 
-blockquotes {
-  // Something to go in here.
+blockquote {
+  padding: 1rem 0 1rem 1rem;
+  margin-left: 2rem;
+  border-left: 0.5rem solid var(--grey-mid);
+
+  > * {
+    font-style: italic;
+  }
 }

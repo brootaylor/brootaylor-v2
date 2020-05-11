@@ -13,7 +13,7 @@
   --flow-space: 1em; // `em` value used cause wanting this value to be relative to it's context.
 
   > * + * {
-    margin-top: var(--flow-space) !important; // `!important` added because this utility class needs to be listened to => (particularly to override the `reset.scss` rules for `ul[class]` and `ol[class]`.)
+    margin-top: var(--flow-space);
   }
 }
 

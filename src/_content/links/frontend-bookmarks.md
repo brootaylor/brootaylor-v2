@@ -1,7 +1,7 @@
 ---
 title: "Front-end Bookmarks"
 summary: "A collection of articles and talks about HTML, CSS, and JS, grouped by elements, attributes, properties, selectors, methods, and expressions."
-lead: "A collection of articles and talks about HTML, CSS, and JS, grouped by elements, attributes, properties, selectors, methods, and expressions."
+lead: ""
 linkExternal: "https://www.frontendbookmarks.com/"
 linkLabel: "frontendbookmarks.com"
 
@@ -19,3 +19,5 @@ category:
 - "javascript"
 - "bookmarks"
 ---
+
+> A collection of articles and talks about HTML, CSS, and JS, grouped by elements, attributes, properties, selectors, methods, and expressions.
