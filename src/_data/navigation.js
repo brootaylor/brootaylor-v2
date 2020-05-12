@@ -32,6 +32,11 @@ module.exports = {
       external: true
     },
     {
+      label: "CodePen",
+      url: "https://codepen.io/brootaylor",
+      external: true
+    },
+    {
       label: "Twitter",
       url: "https://twitter.com/brootaylor",
       external: true

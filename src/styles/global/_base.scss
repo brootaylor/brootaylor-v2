@@ -27,6 +27,14 @@ body {
 
 #main {
   padding-bottom: 2rem;
+
+    @include min-width($breakpoint-medium) {
+      padding-bottom: 3rem;
+    }
+
+    @include min-width($breakpoint-large) {
+      padding-bottom: 4rem;
+    }
 }
 
 // This is using CSS Grid to define grid template areas
