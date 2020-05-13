@@ -13,6 +13,8 @@
 	{# And then whether it's the `homepage`... #}
 	{% if bodyClass === 'homepage' %}
 		{% set pageTitle = metaTitle + ' | ' + metaDescription %}
+	{% elif bodyClass === 'notes' %}
+		{% set pageTitle = 'Note: ' + date | dateTimeReadable("dd LLLL yyyy @ t") + ' | ' + metaTitle %}
 	{% else %}
 		{% set pageTitle = title + ' | ' + metaTitle %}
 	{% endif %}
