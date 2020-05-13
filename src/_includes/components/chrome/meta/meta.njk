@@ -13,6 +13,8 @@
 	{# And then whether it's the `homepage`... #}
 	{% if bodyClass === 'homepage' %}
 		{% set pageTitle = metaTitle + ' | ' + metaDescription %}
+	{% elif bodyClass === 'notes' %}
+		{% set pageTitle = 'Note: ' + date | dateTimeReadable("dd LLLL yyyy @ t") + ' | ' + metaTitle %}
 	{% else %}
 		{% set pageTitle = title + ' | ' + metaTitle %}
 	{% endif %}
@@ -58,7 +60,7 @@
 {# Open graph #}
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="{{ site.name }}">
-<meta property="og:title" content="{{ metaTitle }}">
+<meta property="og:title" content="{{ pageTitle }}">
 <meta property="og:image" content="{{ rootUrl }}{{ metaImage }}">
 <meta property="og:image:alt" content="{{ metaImageAlt }}">
 <meta property="og:description" content="{{ metaDescription }}">
@@ -71,7 +73,7 @@
 {% if site.twitter %}
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="{{ site.twitter }}">
-	<meta name="twitter:title" content="{{ metaTitle }}">
+	<meta name="twitter:title" content="{{ pageTitle }}">
 	<meta name="twitter:image" content="{{ rootUrl }}{{ metaImage }}">
 	<meta name="twitter:image:alt"  content="{{ metaImageAlt }}">
 	<meta name="twitter:description" content="{{ metaDescription }}">
