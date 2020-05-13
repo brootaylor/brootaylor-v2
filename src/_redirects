@@ -1,4 +1,5 @@
 # Redirect rules for developing locally
+# netlify.toml `[dev] publish` rule uses this file - eg. when using `netlify dev` command
 # This isn't deployed / published to production
 
 # Pages (standard)

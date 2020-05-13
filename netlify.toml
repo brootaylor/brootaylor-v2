@@ -76,11 +76,11 @@
 # Redirect rule to point temporary Netlify URL to preferred domain name
 # ========================================================================
 # NOTE: This requires the DNS records to be updated to point to Netlify.
-# [[redirects]]
-#   from = "https://brootaylorv2.netlify.app/*"
-#   to = "https://brootaylor.com/:splat"
-#   status = 301
-#   force = true
+[[redirects]]
+  from = "https://brootaylorv2.netlify.app/*"
+  to = "https://brootaylor.com/:splat"
+  status = 301
+  force = true
 
 # Alias URLs pointing at primary domain & redirected as well
 # ========================================================================
@@ -106,8 +106,6 @@
   to = "/error/404"
   status = 404
 
-# Redirect notes URLs
-[[redirects]]
-  from = "/notes/2019-06-06/note_1"
-  to = "/notes/2019-06-06/note_201906061556"
-  force = true
+# ========================================================================
+# NOTE: Using `_redirects-production.njk` file - (compiles to `_redirects`) - to handle page level redirects cause doesn't seem to work properly in this .toml config file for some reason.
+# ========================================================================
