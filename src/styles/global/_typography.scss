@@ -68,8 +68,7 @@ h3 {
 
 p,
 ul,
-ol,
-blockquote {
+ol {
   @include font-size(18px);
 
     @include min-width($breakpoint-medium) {
