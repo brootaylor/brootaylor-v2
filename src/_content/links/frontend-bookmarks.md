@@ -1,5 +1,5 @@
 ---
-title: "Front-end Bookmarks - Manuel Matuzović"
+title: "Front-end Bookmarks"
 summary: "A collection of articles and talks about HTML, CSS, and JS, grouped by elements, attributes, properties, selectors, methods, and expressions."
 lead: ""
 linkExternal: "https://www.frontendbookmarks.com/"
@@ -21,5 +21,6 @@ category:
 ---
 
 > A collection of articles and talks about HTML, CSS, and JS, grouped by elements, attributes, properties, selectors, methods, and expressions.
+> <footer>&mdash; Manuel Matuzović</footer>
 
 Thanks so much for this Manuel. Brilliant.

@@ -3,19 +3,51 @@
  **********************************************************/
 
 blockquote {
-  padding: 1rem 0 1rem 1rem;
-  margin-left: 1rem;
-  border-left: 0.5rem solid var(--grey-mid);
+  @include font-size(20px);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.5em 0;
+  max-width: 90%;
+  quotes: "\201C" "\201D";
 
     @include min-width($breakpoint-small) {
-      margin-left: 1.5rem;
+      @include font-size(22px);
     }
 
     @include min-width($breakpoint-medium) {
-      margin-left: 2rem;
+      @include font-size(24px);
+      max-width: 80%;
+      margin-left: 1.5rem;
+    }
+
+    @include min-width($breakpoint-large) {
+      max-width: 70%;
     }
 
   > * {
     font-style: italic;
+  }
+
+  p {
+    font-family: var(--font-family-secondary);
+    flex: 1;
+  }
+
+  &::before {
+    font-family: var(--font-family-secondary);
+    content: open-quote;
+    color: var(--grey-mid);
+    font-size: 4em;
+    margin-right: 0.1em;
+    line-height: 0.1em;
+  }
+
+  footer {
+    font-style: normal;
+    font-size: 0.95rem;
+    margin-top: 1em;
+    padding-left: 3em;
+    flex: 1 1 100%;
+    max-width: 100%;
   }
 }
