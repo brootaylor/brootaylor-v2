@@ -2,6 +2,15 @@
  * Images placeholder
  **********************************************************/
 
+// Normal inline images
+.img-normal {
+  margin: 0 auto;
+
+    @include min-width($breakpoint-medium) {
+      margin: unset;
+    }
+}
+
 // Figure elements
 figure {
   > * {
@@ -9,10 +18,9 @@ figure {
     margin: 0 auto;
     text-align: center;
 
-    @include min-width($breakpoint-medium) {
-      margin: unset;
-      text-align: left;
-    }
+      @include min-width($breakpoint-medium) {
+        margin: unset;
+      }
   }
 
   figcaption {
@@ -20,11 +28,40 @@ figure {
   }
 }
 
-// Alignment rules...
-.img-right {
+// Alignment rules for figure and image elements...
+.img-left,
+.fig-left {
+  @include min-width($breakpoint-medium) {
+    float: left;
+    width: 33%;
+    margin-right: 1em;
+  }
+}
+
+.img-right,
+.fig-right {
   @include min-width($breakpoint-medium) {
     float: right;
     width: 33%;
     margin-left: 1em;
+  }
+}
+
+// Alignment rules for `figure` elements...
+.fig-left {
+  > * {
+    @include min-width($breakpoint-medium) {
+      text-align: left;
+      margin-right: auto;
+    }
+  }
+}
+
+.fig-right {
+  > * {
+    @include min-width($breakpoint-medium) {
+      text-align: right;
+      margin-left: auto;
+    }
   }
 }

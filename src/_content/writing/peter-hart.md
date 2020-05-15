@@ -3,6 +3,8 @@ title: "Peter Hart."
 summary: "Today I lost a very dear friend."
 lead: "Today I lost a very dear friend and I'm still reeling in disbelief. Pete's his name. Peter Hart."
 
+hasMultiSize: true
+
 date: 2020-05-12T21:16:00
 updated: 2020-05-15T15:53:00
 
@@ -19,8 +21,13 @@ category:
   - "friend"
 ---
 
-{%- from "components/core/images/images.njk" import image -%}
-{{ image("/assets/images/posts/writing/peter-hart.jpg", "Peter Hart", "Peter Hart. How I'll miss that smile", "img-right") }}
+{%- from "components/core/images/images.njk" import imageFigure -%}
+{{ imageFigure(
+  "/assets/images/posts/writing/peter-hart.jpg",
+  "Peter Hart",
+  "Peter Hart. How I'll miss that smile",
+  "fig-right")
+}}
 
 A hero to me. An unsung hero to many. A selfless frontline NHS Emergency Practitioner who's kind and caring fingerprints can be seen everywhere. Hart by name, H(e)art by nature as many others have so wonderfully described this gem of a man.
 
