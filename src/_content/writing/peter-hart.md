@@ -21,11 +21,11 @@ category:
   - "friend"
 ---
 
-{%- from "components/core/images/images.njk" import imageFigure -%}
+{% from "components/core/images/images.njk" import imageFigure %}
 {{ imageFigure(
   "/assets/images/posts/writing/peter-hart.jpg",
   "Peter Hart",
-  "Peter Hart. How I'll miss that smile",
+  "Peter Hart. My dear friend",
   "fig-right")
 }}
 

@@ -34,7 +34,8 @@
 		</ol>
 
 		{# Submit button #}
-		<button class="[ button button--primary ]" type="submit">{{ labelButton }}</button>
+		{% from "components/core/buttons/buttons.njk" import button %}
+		{{ button('button--primary', labelButton) }}
 
 	</fieldset>
 

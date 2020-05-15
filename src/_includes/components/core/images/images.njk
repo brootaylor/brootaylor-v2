@@ -34,6 +34,18 @@
 <img src="{{ src }}" alt="{{ alt }}." class="[ img-normal ]{% if modifier %} [ {{ modifier }} ]{% endif %}">
 {% endmacro %}
 
+{# `imageMulti`: for multi responsive images #}
+{% macro imageMulti(src, alt, modifier) %}
+<img src="{{ src }}"
+			srcset="{{ src }} 256w,
+							{{ src }} 512w,
+							{{ src }} 1024w"
+			sizes="(min-width: 30em) 30em, 100vw"
+			loading="lazy"
+			alt="{{ alt }}."
+			class="[ img-normal ]{% if modifier %} [ {{ modifier }} ]{% endif %}">
+{% endmacro %}
+
 {# `imageFigure`: Normal inline images wrapped in a `figure` element #}
 {% macro imageFigure(src, alt, caption, modifier) %}
 <figure{% if modifier %} class="[ {{ modifier }} ]"{% endif %}>
