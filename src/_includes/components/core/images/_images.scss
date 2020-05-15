@@ -1,3 +1,30 @@
 /**********************************************************
  * Images placeholder
  **********************************************************/
+
+// Figure elements
+figure {
+  > * {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+    @include min-width($breakpoint-medium) {
+      margin: unset;
+      text-align: left;
+    }
+  }
+
+  figcaption {
+    margin-top: 0.5em;
+  }
+}
+
+// Alignment rules...
+.img-right {
+  @include min-width($breakpoint-medium) {
+    float: right;
+    width: 33%;
+    margin-left: 1em;
+  }
+}

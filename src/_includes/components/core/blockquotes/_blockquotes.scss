@@ -51,3 +51,22 @@ blockquote {
     max-width: 100%;
   }
 }
+
+// `Notes home` page overrides...
+.notes-home {
+  blockquote {
+    display: block;
+    quotes: unset;
+    margin-left: 0;
+    padding: 0 0 0 1em;
+    border-left: 0.3em solid var(--grey-mid);
+
+    &::before {
+      content: unset;
+    }
+
+    footer {
+      padding: 0;
+    }
+  }
+}
