@@ -3,8 +3,6 @@ title: "Peter Hart."
 summary: "Today I lost a very dear friend."
 lead: "Today I lost a very dear friend and I'm still reeling in disbelief. Pete's his name. Peter Hart."
 
-hasMultiSize: true
-
 date: 2020-05-12T21:16:00
 updated: 2020-05-15T15:53:00
 
