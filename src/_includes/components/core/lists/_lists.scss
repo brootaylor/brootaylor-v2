@@ -7,3 +7,14 @@ ul[class],
 ol[class] {
   margin-top: 1em;
 }
+
+// Notes, Links & Writing landing pages list item rules...
+.notes,
+.links,
+.writing {
+  &__list-item {
+    border-bottom: 2px solid var(--grey-light);
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+  }
+}

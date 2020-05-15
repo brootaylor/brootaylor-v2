@@ -1,4 +1,4 @@
-{% if component.data.hasMultiFormat %}
+{# {% if component.data.hasMultiFormat %}
 <picture>
   <source srcset="{{ component.data.imageWebP }}" type="image/webp">
 	{% if component.data.hasMultiSize %}
@@ -26,3 +26,12 @@
 	<img src="{{ component.data.imageJpg }}" alt="{{ component.data.imageAlt }}.">
 	{% endif %}
 {% endif %}
+ #}
+
+
+{% macro image(src, alt, caption, modifier) %}
+<figure class="{{ modifier }}">
+	<img src="{{ src }}" alt="{{ alt }}.">
+	<figcaption>{{ caption }}.</figcaption>
+</figure>
+{% endmacro %}

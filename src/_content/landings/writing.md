@@ -11,7 +11,7 @@ updated: 2020-05-11T17:29:00
 <ul class="[ flow ] [ writing__list ]">
 {%- for writing in collections.postWriting -%}
   <li class="[ writing__list-item ]">
-    <article class="[ flow ] [ writing__summary ]">
+    <article class="[ writing__summary ]">
       <h2><a href="{{ writing.url }}">{{ writing.data.title }}</a></h2>
       <time datetime="{{ writing.date | dateTime }}">{{ writing.date | dateTimeReadable("d LLLL y, ") }}{{ writing.date | dateTimeReadable("t") | lower }}</time>
       {%- if writing.data.lead -%}
