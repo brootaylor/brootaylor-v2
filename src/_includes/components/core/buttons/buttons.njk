@@ -1,1 +1,4 @@
-<a href="{{ component.data.ctaUrl }}" class="[ button  {{ component.data.ctaModifier }} ]">{{ component.data.ctaLabel }}</a>
+{# Standard `button` component #}
+{% macro button(modifier, label) %}
+	<button class="[ button{% if modifier %} {{ modifier }}{% endif %} ]" type="submit">{{ label }}</button>
+{% endmacro %}
