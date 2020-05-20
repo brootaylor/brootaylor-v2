@@ -30,15 +30,13 @@ h3 {
 }
 
 h1 {
-  @include font-size(40px);
+  // Fallback for older browsers
+  font-size: convert-to-rem(40px);
 
-    @include min-width($breakpoint-small) {
-      @include font-size(44px);
-    }
-
-    @include min-width($breakpoint-medium) {
-      @include font-size(50px);
-    }
+  // Browsers supporting `clamp()`
+  @supports (font-size: clamp(36px, 5vw, 50px)) {
+    font-size: clamp(convert-to-rem(36px), 5vw, convert-to-rem(50px));
+  }
 
   &::after {
     content: '';
@@ -51,19 +49,23 @@ h1 {
 }
 
 h2 {
-  @include font-size(30px);
+  // Fallback for older browsers
+  font-size: convert-to-rem(30px);
 
-    @include min-width($breakpoint-medium) {
-      @include font-size(34px);
-    }
+  // Browsers supporting `clamp()`
+  @supports (font-size: clamp(30px, 5vw, 34px)) {
+    font-size: clamp(convert-to-rem(30px), 5vw, convert-to-rem(34px));
+  }
 }
 
 h3 {
-  @include font-size(24px);
+  // Fallback for older browsers
+  font-size: convert-to-rem(24px);
 
-    @include min-width($breakpoint-medium) {
-      @include font-size(28px);
-    }
+  // Browsers supporting `clamp()`
+  @supports (font-size: clamp(24px, 5vw, 28px)) {
+    font-size: clamp(convert-to-rem(24px), 5vw, convert-to-rem(28px));
+  }
 }
 
 p,
@@ -78,6 +80,11 @@ ol {
     @include min-width($breakpoint-large) {
       @include font-size(22px);
     }
+}
+
+pre {
+  white-space: pre-wrap;
+  word-break: break-all;
 }
 
 hr {
