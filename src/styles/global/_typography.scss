@@ -41,10 +41,23 @@ h1 {
   &::after {
     content: '';
     display: block;
+
+    // Fallback for older browsers
+    min-width: convert-to-rem(200px) ;
     max-width: 30%;
+
     height: 0.4rem;
     background-color: var(--grey-mid);
     margin: 0.5em 0 1em;
+  }
+
+  // Browsers supporting `clamp()`
+  @supports (width: clamp(200px, 50vw, 30%)) {
+    &::after {
+      min-width: unset;
+      max-width: unset;
+      width: clamp(convert-to-rem(200px), 50vw, 30%);
+    }
   }
 }
 
