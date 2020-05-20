@@ -92,6 +92,12 @@ article {
     display: inline-block;
     padding-bottom: 1em;
   }
+
+  time + span {
+    font-size: 1rem;
+    display: inline-block;
+    padding-bottom: 1em;
+  }
 }
 
 // `Lead` / intro text...
