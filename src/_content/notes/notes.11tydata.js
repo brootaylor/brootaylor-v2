@@ -1,5 +1,8 @@
 module.exports = {
   layout: "layouts/notes.njk",
+  eleventyComputed: {
+    title: "Note: {{ date | dateTimeReadable('dd LLLL yyyy @ t') }}",
+  },
   bodyClass: "notes",
   tags: [
     "post",
