@@ -1,8 +1,8 @@
 {# Standard `button` component #}
-{% macro button(type, modifier, url, label) %}
-	{% if type == 'button' %}
+{% macro button(type, modifier, url, label) -%}
+	{%- if type == 'button' -%}
 		<button class="[ button{% if modifier %} {{ modifier }}{% endif %} ]" type="submit">{{ label }}</button>
-	{% else %}
+	{%- else -%}
 		<a href="{{ url }}" class="[ button{% if modifier %} {{ modifier }}{% endif %} ]">{{ label }}</a>
-	{% endif %}
-{% endmacro %}
+	{%- endif -%}
+{%- endmacro %}

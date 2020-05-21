@@ -56,7 +56,7 @@ It's deployed by and hosted with [Netlify](https://www.netlify.com/).
 
 Possible features / enhancements for the future:
 
-1.  Netlify CMS
+1.  [Netlify CMS](https://www.netlifycms.org/)
 2.  Light / Dark Theme option
 3.  Make better use of utility classes
 4.  Tags / categories

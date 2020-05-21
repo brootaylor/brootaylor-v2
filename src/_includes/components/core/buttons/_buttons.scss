@@ -4,26 +4,31 @@
 
 /// Button class.
 /// @group Buttons
-.button {
-  display: inline-block;
-  padding: 1rem 1.25rem;
-  color: #fff;
-  font-size: 1.25rem;
-  text-decoration: unset;
-  background: var(--green-custom);
-  outline: none;
-  border: 0;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background 0.1s ease;
 
-    // Button `:hover` state
-    &:hover {
-      background: var(--green-custom-dark);
-    }
+a,
+button,
+input {
+  &.button {
+    display: inline-block;
+    padding: 1rem 1.25rem;
+    color: #fff;
+    font-size: 1.25rem;
+    text-decoration: unset;
+    background: var(--green-custom);
+    outline: none;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.1s ease;
 
-    // Button `:active` state
-    &:active {
-      background: var(--green-custom-dark);
-    }
+      // Button `:hover` state
+      &:hover {
+        background: var(--green-custom-dark);
+      }
+
+      // Button `:active` state
+      &:active {
+        background: var(--green-custom-dark);
+      }
+  }
 }

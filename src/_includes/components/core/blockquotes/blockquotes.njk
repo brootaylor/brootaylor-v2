@@ -4,9 +4,9 @@
 	NOTE: A call makes it easier to pass a lot of markup to your macros. A macro can access the passed content as `caller`.
 	REF: https://adonisjs.com/docs/3.2/templating#_callcaller
 #}
-{% macro blockquote(author) %}
-<blockquote>
-	<p>{{ caller() }}</p>
-	<footer>&mdash; {{ author }}</footer>
-</blockquote>
-{% endmacro %}
+{% macro blockquote(author) -%}
+	<blockquote>
+		<p>{{ caller() }}</p>
+		<footer>&mdash; {{ author }}</footer>
+	</blockquote>
+{%- endmacro %}
