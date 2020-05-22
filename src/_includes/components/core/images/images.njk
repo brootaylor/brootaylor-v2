@@ -30,12 +30,12 @@
 
 
 {# `imageNormal`: Normal inline image #}
-{% macro imageNormal(src, alt, modifier) %}
-<img src="{{ src }}" alt="{{ alt }}." class="[ img-normal ]{% if modifier %} [ {{ modifier }} ]{% endif %}">
+{% macro imageNormal(src, alt, position) %}
+<img src="{{ src }}" alt="{{ alt }}." class="[ img-normal ]{% if position %} [ {{ position }} ]{% endif %}">
 {% endmacro %}
 
 {# `imageMulti`: for multi responsive images #}
-{% macro imageMulti(src, alt, modifier) %}
+{% macro imageMulti(src, alt, position) %}
 <img src="{{ src }}"
 			srcset="{{ src }} 256w,
 							{{ src }} 512w,
@@ -43,20 +43,20 @@
 			sizes="(min-width: 30em) 30em, 100vw"
 			loading="lazy"
 			alt="{{ alt }}."
-			class="[ img-normal ]{% if modifier %} [ {{ modifier }} ]{% endif %}">
+			class="[ img-normal ]{% if position %} [ {{ position }} ]{% endif %}">
 {% endmacro %}
 
 {# `imageFigure`: Normal inline images wrapped in a `figure` element #}
-{% macro imageFigure(src, alt, caption, modifier) %}
-<figure{% if modifier %} class="[ {{ modifier }} ]"{% endif %}>
+{% macro imageFigure(src, alt, caption, position) %}
+<figure{% if position %} class="[ {{ position }} ]"{% endif %}>
 	<img src="{{ src }}" alt="{{ alt }}.">
 	<figcaption>{{ caption }}.</figcaption>
 </figure>
 {% endmacro %}
 
 {# `imageMultiFigure`: for multi responsive images wrapped in a `figure` element #}
-{% macro imageMultiFigure(src, alt, caption, modifier) %}
-<figure{% if modifier %} class="[ {{ modifier }} ]"{% endif %}>
+{% macro imageMultiFigure(src, alt, caption, position) %}
+<figure{% if position %} class="[ {{ position }} ]"{% endif %}>
 	<img src="{{ src }}"
 			srcset="{{ src }} 256w,
 							{{ src }} 512w,

@@ -21,6 +21,14 @@
   [build.processing.images]
     compress = true
 
+[context.production]
+  command = "npm run build"
+  [context.production.environment]
+    GIT_LFS_ENABLED = "true"
+    NODE_ENV = "production"
+    NODE_VERSION = "12"
+    TZ = "Europe/London"
+
 # Plugins ref: https://www.netlify.com/tags/plugins/
 [[plugins]]
   package = "./netlify-plugins/first-plugin"
