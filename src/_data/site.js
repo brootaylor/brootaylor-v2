@@ -10,7 +10,7 @@ module.exports = {
   start_url: '/',
   display: 'standalone',
   rootUrl: process.env.URL || '',
-  environment: process.env.ELEVENTY_ENV,
+  environment: process.env.NODE_ENV,
   logo: '/assets/images/common/logo.png',
   theme_color_android: '#212227',
   theme_color_ios: '#212227',
@@ -24,8 +24,8 @@ module.exports = {
   icon_mstile: '/assets/ico/mstile-150x150.png',
   twitter: '@brootaylor', // Twitter handle
   analyticsUrchin: '', // Analytics urchin uses this value
-  scriptsVendor: false, // If using vendor (ie. 3rd party) scripts
-  scriptsMain: false, // If using any `main` scripts on the site (eg. carousel, objectfit polyfill etc.)
+  scriptsVendor: true, // If using vendor (ie. 3rd party) scripts
+  scriptsMain: true, // If using any `main` scripts on the site (eg. carousel, objectfit polyfill etc.)
   scriptsServiceworker: true, // If using a service worker
   yearCurrent: new Date().getFullYear(),
   siteMessage: true,

@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const browserSync = require('./config/browser-sync.config.js');
 
 // Import (plugins)
