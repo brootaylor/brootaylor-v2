@@ -10,7 +10,7 @@ module.exports = {
   start_url: '/',
   display: 'standalone',
   rootUrl: process.env.URL || '',
-  environment: process.env.ELEVENTY_ENV,
+  environment: process.env.NODE_ENV,
   logo: '/assets/images/common/logo.png',
   theme_color_android: '#212227',
   theme_color_ios: '#212227',
