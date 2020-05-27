@@ -1,3 +1,5 @@
+const { DateTime } = require("luxon");
+
 module.exports = {
   name: 'Bruce Taylor',
   short_name: 'BWT',
@@ -28,6 +30,7 @@ module.exports = {
   scriptsMain: false, // If using any `main` scripts on the site (eg. carousel, objectfit polyfill etc.)
   scriptsServiceworker: true, // If using a service worker
   yearCurrent: new Date().getFullYear(),
+  currentTime: DateTime.local().diff(DateTime.local(1982, 5, 25)).milliseconds,
   siteMessage: true,
   author: {
     name: 'Bruce Taylor',
