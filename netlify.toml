@@ -1,7 +1,5 @@
 # Build settings
 [build]
-  # Functions ref: https://www.netlify.com/tags/functions/
-  # functions = "./netlify-functions"
   command = "echo 'Ok, let us begin this build!' && npm run build && echo 'Build finished, site deployed 🚀'"
   publish = "www"
 
@@ -29,10 +27,6 @@
     NODE_ENV = "production"
     NODE_VERSION = "12"
     TZ = "Europe/London"
-
-# Plugins ref: https://www.netlify.com/tags/plugins/
-[[plugins]]
-  package = "./netlify-plugins/first-plugin"
 
 # Dev settings: (Used when running local Netlify dev server)
 [dev]
