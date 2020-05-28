@@ -6,7 +6,7 @@ linkExternal: "https://daverupert.com/2019/08/sticks-and-ropes/"
 linkLabel: "daverupert.com"
 
 date: 2019-10-01T12:42:00
-updated: 2020-05-10T16:53:00
+updated: 2020-05-28T14:29:00
 
 location:
   locality: "Crawley"
@@ -28,5 +28,5 @@ And...
 
 > Am I a "stick" or a "rope"? Am I one that binds people together or one that creates division and bruises?
 
-Gosh. Reading this caught be totally offguard and has got me looking at myself. Am I a "stick"... or a "rope"?
+Gosh. Reading this caught me totally offguard and has got me looking at myself. Am I a "stick"... or a "rope"?
 

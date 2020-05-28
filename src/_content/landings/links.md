@@ -11,15 +11,10 @@ updated: 2020-05-11T17:29:00
 <ul class="[ flow ] [ links__list ]">
 {%- for link in collections.postLinks -%}
   <li class="[ links__list-item ]">
-    <article class="[ links__summary ]">
+    <article class="[ links__summary ] [ flow ]">
       <h2><a href="{{ link.url }}">{{ link.data.title }}</a></h2>
       <time datetime="{{ link.date | dateTime }}">{{ link.date | dateTimeReadable("d LLLL y, ") }}{{ link.date | dateTimeReadable("t") | lower }}</time>
       <span> &rarr; <a href="{{ link.data.linkExternal }}" rel="external">{{ link.data.linkLabel }}</a></span>
-      {%- if link.data.lead -%}
-        <p>{{ link.data.lead }}</p>
-      {% else %}
-        <p>{{ link.data.summary }}</p>
-      {%- endif -%}
     </article>
   </li>
 {%- endfor -%}
