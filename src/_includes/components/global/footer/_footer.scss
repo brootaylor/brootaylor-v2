@@ -33,9 +33,10 @@
       @include font-size(16px);
       display: flex;
       flex-wrap: wrap;
+      align-items: center;
 
       li {
-        padding-right: 1rem;
+        padding: 0.2em 1rem 0.2em 0;
       }
     }
 

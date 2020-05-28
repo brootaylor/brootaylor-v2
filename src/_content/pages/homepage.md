@@ -8,7 +8,7 @@ bodyClass: "homepage"
 permalink: "/index.html"
 
 date: 2020-04-24T12:54:00
-updated: 2020-05-07T13:36:00
+updated: 2020-05-28T14:34:00
 
 changefreq: "weekly"
 priority: 1
@@ -16,13 +16,13 @@ priority: 1
 
 Originally from South Africa but now living in West Sussex, England. Here's a bit more [about me][1].
 
-I'm a Web Developer and have worked on a wide variety of projects with companies like **AirMiles**, **Avios**, **Macmillan Cancer Support**, **Pegasus**, **Time Inc.**, **MerchantCantos**, **Euromoney** and more recently with [IAG Loyalty][2].
+I'm a Web Developer and have worked on various web projects with companies like **AirMiles**, **Avios**, **Macmillan Cancer Support**, **Pegasus**, **Time Inc.**, **MerchantCantos**, **Euromoney** and more recently with [IAG Loyalty][2].
 
 I sometimes [write][3], jot down [notes][4] or share [links][5] to things that interest me.
 
-At the moment, I'm reading "[Future Ethics][6]" by Cennydd Bowles and "[The Universal Christ][7]" by Richard Rohr.
+At the moment, I'm reading "[The Universal Christ][7]" by Richard Rohr.
 
-I'm also busy dabbling with the fabulous [Eleventy][8], [Netlify][9] and [Fractal][10].
+I'm also busy dabbling with the fabulous [Eleventy][8], [Netlify][9], [Fractal][10] and [Vue.js][11].
 
 [1]: /about
 [2]: https://iagloyalty.com/
@@ -34,3 +34,4 @@ I'm also busy dabbling with the fabulous [Eleventy][8], [Netlify][9] and [Fracta
 [8]: https://www.11ty.io/
 [9]: https://www.netlify.com/
 [10]: https://fractal.build/
+[11]: https://vuejs.org/
