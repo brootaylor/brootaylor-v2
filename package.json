@@ -78,7 +78,7 @@
     "postcss-cli": "^7.1.1",
     "postcss-preset-env": "^6.7.0",
     "rimraf": "^3.0.2",
-    "rollup": "^2.12.0",
+    "rollup": "^2.13.1",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-terser": "^6.1.0",
     "slugify": "^1.4.0"
@@ -98,6 +98,6 @@
     "onchange": "^7.0.2",
     "prettier": "^2.0.5",
     "sass-lint": "^1.13.1",
-    "sassdoc": "^2.7.1"
+    "sassdoc": "^2.7.2"
   }
 }
