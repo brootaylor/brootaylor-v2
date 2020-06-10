@@ -36,6 +36,12 @@
   # Points to directory where `_redirects` file lives
   publish = "src"
 
+
+##################
+# Plugins
+##################
+
+# 1. Run critical pages through pa11y and fail build if accessibility failures are found.
 [[plugins]]
 package = "netlify-plugin-a11y"
 
@@ -52,6 +58,11 @@ package = "netlify-plugin-a11y"
 
   # # Developer only
   # debugMode = true # extra logging for plugin developers
+
+# 2. Optimize images as part of the Netlify build process. Optimizes PNG, JPEG, GIF and SVG file formats.
+[[plugins]]
+package = "netlify-plugin-image-optim"
+
 
 # Headers (Global)
 [[headers]]
