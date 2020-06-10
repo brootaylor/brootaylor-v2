@@ -8,7 +8,7 @@ date: 2020-02-22T22:10:00
 updated: 2020-05-11T17:29:00
 ---
 
-<ul class="[ flow ] [ links__list ]">
+<ul class="[ links__list ] [ flow ]">
 {%- for link in collections.postLinks -%}
   <li class="[ links__list-item ]">
     <article class="[ links__summary ] [ flow ]">
