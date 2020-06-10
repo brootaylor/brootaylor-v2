@@ -1,6 +1,9 @@
 {# Setting contact form component content. (Pulls from global `contactform.js` data file) #}
 {% set botMessage = contactform.botMessage %}
 
+{# Form Legend #}
+{% set legend = contactform.legend %}
+
 {# Form labels etc. #}
 {% set labelName = contactform.labelName %}
 {% set labelEmail = contactform.labelEmail %}
@@ -18,7 +21,7 @@
 
 	{# Fields that need filling out #}
 	<fieldset class="[ form__group ]">
-		<legend>Fill out your contact details and write a message</legend>
+		<legend class="[ visually-hidden ]">{{ legend }}</legend>
 		<ol class="[ form__list ]">
 			<li class="[ form__item ]">
 				<label class="[ form__label ]" for="name">{{ labelName }}</label>
