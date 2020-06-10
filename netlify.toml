@@ -63,6 +63,10 @@ package = "netlify-plugin-a11y"
 [[plugins]]
 package = "netlify-plugin-image-optim"
 
+# 3. Is Site Vulnerable Netlify Plugin
+[[plugins]]
+package = "netlify-plugin-is-website-vulnerable"
+
 
 # Headers (Global)
 [[headers]]
