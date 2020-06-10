@@ -6,7 +6,7 @@ linkExternal: "https://bastianallgeier.com/notes/simplicity-part-2"
 linkLabel: "bastianallgeier.com"
 
 date: 2019-09-10T18:54:00
-updated: 2020-05-10T16:53:00
+updated: 2020-06-10T15:35:00
 
 location:
   locality: "Crawley"
@@ -24,7 +24,7 @@ And...
 
 > When everything works, it feels like magic. When something breaks, it’s hell.
 
-One more cau... well, just cause.
+One more cause... well, just cause.
 
 > This dependency hell is also the reason why old projects are almost like sealed capsules. You can hardly let a project lie around for more than a year, because afterwards it’s probably broken.
 

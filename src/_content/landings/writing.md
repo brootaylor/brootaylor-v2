@@ -8,7 +8,7 @@ date: 2020-02-22T22:10:00
 updated: 2020-05-11T17:29:00
 ---
 
-<ul class="[ flow ] [ writing__list ]">
+<ul class="[ writing__list ] [ flow ]">
 {%- for writing in collections.postWriting -%}
   <li class="[ writing__list-item ]">
     <article class="[ writing__summary ]">
