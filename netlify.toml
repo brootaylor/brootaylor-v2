@@ -24,7 +24,7 @@
 
 # Build and deployment config for `production` environment
 [context.production]
-  command = "npm run deploy"
+  command = "npm run deploy:build"
   [context.production.environment]
     GIT_LFS_ENABLED = "true"
     NODE_ENV = "production"
