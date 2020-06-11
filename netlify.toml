@@ -3,7 +3,7 @@
 ##############################
 
 [build]
-  command = "echo 'Ok, let us begin this build!' && npm run build && echo 'Build finished, site deployed 🚀'"
+  command = "echo 'Ok, let us begin this build!' && npm run deploy:build && echo 'Build finished, site deployed 🚀'"
   publish = "www"
 
   # Default site wide settings

@@ -47,8 +47,9 @@
     "deploy:draft": "npm run build && netlify deploy",
     "deploy:production": "netlify deploy --prod",
     "audit:browser-support": "npx browserslist && echo '🔆 Modify .browserslistrc if and when browser support changes. 🔆'",
-    "audit:accessibility": "npx pa11y --standard WCAG2AA http://brootaylorv2.netlify.com",
+    "audit:accessibility": "npx pa11y --standard WCAG2AA https://brootaylor.com",
     "audit:performance": "lighthouse https://brootaylor.com --budget-path=config/budget.json --output-path=./brootaylor-performance-results.html --view",
+    "audit:vulnerabilities": "npx is-website-vulnerable https://brootaylor.com",
     "audit:npm-local": "ncu",
     "audit:npm-global": "ncu -g",
     "debug": "DEBUG=* npx eleventy"
