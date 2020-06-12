@@ -101,8 +101,17 @@ pre {
 }
 
 hr {
-  border: 1px solid var(--grey-light);
-  border-width: 0 0 1px;
+  border: 0;
+  margin-top: 2rem !important;
+
+  &::after {
+    font-family: var(--font-family-secondary);
+    content: '* * *';
+    font-size: 2rem;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 // Global article styles...
