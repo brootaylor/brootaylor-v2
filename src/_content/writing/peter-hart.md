@@ -33,6 +33,8 @@ I'm finding it really hard to come to terms with the fact that I won't see Pete 
 
 I just can't believe it.
 
+***
+
 There is so much that I could (and want to) write about Pete but my emotions are far too raw for that right now. I'll need to save it for another time I think.
 
 But, for now. In this moment. I remember this beautiful man.
