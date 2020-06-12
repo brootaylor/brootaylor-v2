@@ -22,6 +22,8 @@ I have no doubt the ‘background noise’ isn’t helping my sanity levels eith
 
 The noise of&hellip;
 
+***
+
 &hellip;**the news**.
 
 &hellip;**social media** channels like Twitter - (I’ve deleted the app again!).
@@ -34,7 +36,7 @@ The noise of&hellip;
 
 &hellip;**feeling disconnected**. Even though we have all this technology that helps us ‘connect’, I feel more disconnected that ever. I’m Zoom-ed out. Gosh I miss being able to hug a friend.
 
----
+***
 
 This all contributes to a din that just seems to be getting louder and louder. One that I’m finding increasingly difficult to tune out of. I end up flirting with hopelessness and wondering how this world, (that seems to have lost the plot), will ever find its balance again.
 
