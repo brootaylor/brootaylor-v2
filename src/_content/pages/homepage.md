@@ -8,7 +8,7 @@ bodyClass: "homepage"
 permalink: "/index.html"
 
 date: 2020-04-24T12:54:00
-updated: 2020-06-25T12:16:00
+updated: 2020-06-25T12:36:00
 
 changefreq: "weekly"
 priority: 1
@@ -17,6 +17,8 @@ priority: 1
 Originally from South Africa but now living in West Sussex, England. Here's a bit more [about me][1].
 
 I make websites and have worked on various projects with companies like **AirMiles**, **Avios**, **Macmillan Cancer Support**, **Pegasus**, **Time Inc.**, **MerchantCantos**, **Euromoney** and more recently with [IAG Loyalty][2].
+
+***
 
 I sometimes [write][3], jot down [notes][4] or share [links][5] to things that interest me.
 
