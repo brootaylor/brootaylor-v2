@@ -32,3 +32,10 @@
   --link-text-hover: var(--green-custom-dark);
   --link-border-hover: var(--green-custom-light);
 }
+
+// Dark mode rules will go here
+// @media (prefers-color-scheme: dark) {
+//   :root {
+//     --font-colour-base: #{rgb-format($white)};
+//   }
+// }
