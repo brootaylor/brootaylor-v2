@@ -8,7 +8,7 @@ bodyClass: "homepage"
 permalink: "/index.html"
 
 date: 2020-04-24T12:54:00
-updated: 2020-06-25T12:36:00
+updated: 2020-07-07T13:27:00
 
 changefreq: "weekly"
 priority: 1
@@ -22,18 +22,14 @@ I make websites and have worked on various projects with companies like **AirMil
 
 I sometimes [write][3], jot down [notes][4] or share [links][5] to things that interest me.
 
-At the moment, I'm reading "[The Universal Christ][7]" by Richard Rohr. There's so much good stuff in this book that I think I'll need to read it again.
-
-I'm also busy dabbling with the fabulous [Eleventy][8], [Netlify][9], [Fractal][10] and [Vue.js][11].
+I'm also busy dabbling with the fabulous [Eleventy][6], [Netlify][7], [Fractal][8] and [Vue.js][9].
 
 [1]: /about
 [2]: https://iagloyalty.com/
 [3]: /writing
 [4]: /notes
 [5]: /links
-[6]: https://www.future-ethics.com/
-[7]: https://universalchrist.cac.org/
-[8]: https://www.11ty.io/
-[9]: https://www.netlify.com/
-[10]: https://fractal.build/
-[11]: https://vuejs.org/
+[6]: https://www.11ty.io/
+[7]: https://www.netlify.com/
+[8]: https://fractal.build/
+[9]: https://vuejs.org/
