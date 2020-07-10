@@ -85,6 +85,7 @@ p,
 ul,
 ol {
   @include font-size(18px);
+  max-width: 65ch;
 
     @include min-width($breakpoint-medium) {
       @include font-size(20px);
@@ -102,16 +103,12 @@ pre {
 
 hr {
   border: 0;
+  background-color: var(--grey-light);
   margin-top: 2rem !important;
-
-  &::after {
-    font-family: var(--font-family-secondary);
-    content: '* * *';
-    font-size: 2rem;
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-  }
+  margin-left: 0;
+  margin-right: auto;
+  height: 0.1rem;
+  max-width: 50rem;
 }
 
 // Global article styles...
