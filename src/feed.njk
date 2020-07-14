@@ -30,6 +30,7 @@ eleventyExcludeFromCollections: true
 					<p>{{ post.data.lead | safe }}</p>
 				{% endif %}
 				{{ post.templateContent | safe }}
+				<p><a href="mailto:brootaylor@gmail.com?subject=Replying to: “{{ post.data.title }}“">Reply via email</a></p>
 			]]></content>
 		</entry>
 	{% endfor %}
