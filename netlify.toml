@@ -89,7 +89,7 @@
     accessibility = 0.9
     best-practices = 0.9
     seo = 0.9
-    pwa = 0.8 # NEED TO REVIEW THESE TESTS AGAIN
+    pwa = 0.9
 
 
 ##############################
