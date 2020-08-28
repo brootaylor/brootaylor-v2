@@ -23,6 +23,7 @@ module.exports = {
   icon: '/assets/ico/apple-touch-icon.png',
   icon_192: '/assets/ico/android-chrome-192x192.png',
   icon_512: '/assets/ico/android-chrome-512x512.png',
+  icon_maskable_196: '/assets/ico/android-chrome-maskable-196x196.png', // Maskable icon for Android devices (https://web.dev/maskable-icon-audit/)
   icon_mstile: '/assets/ico/mstile-150x150.png',
   twitter: '@brootaylor', // Twitter handle
   analyticsUrchin: '', // Analytics urchin uses this value
