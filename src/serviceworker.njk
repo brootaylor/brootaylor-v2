@@ -49,7 +49,7 @@ function updateStaticCache() {
 		].concat(offlinePages));
 		// These files must be cached for installation
 		return staticCache.addAll([
-			'./styles/main.css?version={{ pkg.version }}.{{ site.timeCurrent }}',
+			'./styles/main.css',
 			offlinePage
 		]);
 	});
