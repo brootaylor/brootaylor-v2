@@ -2,11 +2,11 @@
 node_modules
 docs
 www
+src/styles/tokens/
 
 # Files to ignore
 .DS_Store
 *performance-results.html
-src/styles/tokens/
 .env
 *.zip
 

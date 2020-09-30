@@ -4,7 +4,7 @@
 	Only render this code snippet if `scriptsMain` and `scriptsVendor` are `true` in `_data/site.js`
 #}
 {% if site.scriptsMain and site.scriptsVendor %}
-	<script src="/scripts/vendor/vendor.js"></script>
+	<script src="/scripts/vendor/vendor.js?version={{ pkg.version }}.{{ site.timeCurrent }}"></script>
 {% endif %}
 
 {#
@@ -14,12 +14,12 @@
 #}
 {% if site.scriptsMain %}
 	{# 1. modern browsers => Using native ES6 modules (ESM). Not transpiled with Babel #}
-	<script type="module" src="/scripts/main.module/main.mjs"></script>
+	<script type="module" src="/scripts/main.module/main.mjs?version={{ pkg.version }}.{{ site.timeCurrent }}"></script>
 	{% if site.environment == "production" %}
 		{# 2. older browsers => Using 'normal' JS output (IIFE). Transpiled with Babel #}
 		{# ES6 modules (above) 'defer' by default so adding 'defer' attribute to enable classic JS to load in deferred fashion. #}
 		{# NOTE: Not using `nomodule` attribute for now cause Edge versions 16-18 seem to be buggy and struggle with this. #}
-		<script defer src="/scripts/main.nomodule/main-nomodule.js"></script>
+		<script defer src="/scripts/main.nomodule/main-nomodule.js?version={{ pkg.version }}.{{ site.timeCurrent }}"></script>
 	{% endif %}
 {% endif %}
 
