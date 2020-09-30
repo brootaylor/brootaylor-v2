@@ -39,4 +39,3 @@ module.exports = {
     email: 'brootaylor@gmail.com'
   },
 };
-

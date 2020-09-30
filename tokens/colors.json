@@ -1,0 +1,15 @@
+{
+  "primary": "#173854",
+  "secondary": "#173854",
+  "tertiary": "#173854",
+  "primary-highlight": "#fedb8b",
+  "secondary-highlight": "#fedb8b",
+  "light": "#eeeeee",
+  "mid": "#cccccc",
+  "dark": "#333333",
+  "slate": "#404040",
+  "orange-custom": "#f3bb69",
+  "green-custom": "#335601",
+  "green-custom-dark": "#2e4c01",
+  "green-custom-light": "#6ab201"
+}
