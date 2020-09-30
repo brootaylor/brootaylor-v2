@@ -97,7 +97,7 @@ brootaylor.com
 │   ├── serviceworker.njk        # serviceworker.js template
 │   └── sitemap.njk              # sitemap.xml template
 │
-├── tokens                       # Design tokens directory that holds individual toke JSON files (eg. colors.json)
+├── tokens                       # Design tokens directory that holds individual design token JSON files (eg. colors.json)
 │
 ├── .browserlistrc               # Browser support config list
 ├── .editorconfig                # Text editor configuration
