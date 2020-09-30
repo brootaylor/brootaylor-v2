@@ -4,7 +4,7 @@ summary: "I've decided to take the scary route of redesigning and developing my 
 lead: "I've decided to take the scary route (for me anyway) of redesigning and developing my website in the open. I've been inspired by others that have done this and thought it may be an interesting process. Not least because I'm a bit of a perfectionist and doing this may be a good way of weaning me off the need to have things completely polished before showing them. 😱"
 
 date: 2020-02-22T09:50:00
-updated: 2020-05-10T16:53:00
+updated: 2020-09-30T15:45:00
 
 location:
   locality: "Crawley"
@@ -28,7 +28,7 @@ You're more than welcome to follow along if you're ok with witnessing the inevit
 
 Now, I say this gingerly - but I'd be honoured if anyone wanted to contribute any thoughts and pearls of wisdom. All I ask is you be kind. If there's anything you spot that seems dodgy or if you'd like to recommend an enhancement, (and you have the time), you're more than welcome to [summit a GitHub issue][6].
 
-I've [made the code public][5] but it is for my personal website, so please can I ask you not to copy everything wholesale. By all means learn from it (as I'm doing). Thank you.
+I've [made the code public][5] but it is for my personal website, so please can I ask you not to copy everything wholesale. By all means learn from it (as I'm trying to do). Thank you.
 
 ***
 
