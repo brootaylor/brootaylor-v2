@@ -5,7 +5,7 @@ lead: "Here you'll find a few of my thoughts on a variety of things. Some web te
 bodyClass: "writing-home"
 
 date: 2020-02-22T22:10:00
-updated: 2020-05-11T17:29:00
+updated: 2020-09-30T15:45:00
 ---
 
 <ul class="[ writing__list ] [ flow ]">

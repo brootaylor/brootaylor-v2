@@ -20,7 +20,7 @@ It's deployed by and hosted with [Netlify](https://www.netlify.com/).
 
 ---
 
-❗️**NOTE:** I've made the code public but it is for my personal website, so please can I ask you not to copy everything wholesale. By all means learn from it (as I'm doing). Thank you.
+❗️**NOTE:** I've made the code public but it is for my personal website, so please can I ask you not to copy everything wholesale. By all means learn from it (as I'm trying to do). Thank you.
 
 ---
 
@@ -31,7 +31,7 @@ It's deployed by and hosted with [Netlify](https://www.netlify.com/).
 * 🌐 [Browser support config](https://github.com/brootaylor/brootaylor-v2/blob/master/.browserslistrc)
 * ✅ [Accessibility test runner](https://github.com/pa11y/pa11y-ci)
 * 🌈 [Sass](https://sass-lang.com/) powered CSS system - (utilising modern [custom CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*) and methods)
-* 🎨 [Design Tokens](https://github.com/brootaylor/brootaylor-v2/blob/master/src/_data/tokens.json)
+* 🎨 [Design Tokens](https://github.com/brootaylor/brootaylor-v2/tree/master/tokens)
 * 🎳 [JS config to handle code-splitting](https://github.com/brootaylor/brootaylor-v2/blob/master/config/rollup.config.js) (ie. splitting code into smaller chunks to be loaded on demand)
 * 🎛 [Site & build config](https://github.com/brootaylor/brootaylor-v2/blob/master/netlify.toml)
 * 🛄 [Selective build outputs](https://github.com/brootaylor/brootaylor-v2/blob/master/.eleventyignore) using `.eleventyignore`
@@ -57,15 +57,14 @@ It's deployed by and hosted with [Netlify](https://www.netlify.com/).
 Possible features / enhancements for the future:
 
 1.  [Netlify CMS](https://www.netlifycms.org/)
-2.  Light / Dark Theme option
-3.  Make better use of utility classes
-4.  Tags / categories
-5.  Post read time
-6.  Pagination
-7.  ~~RSS feed~~ ✔️
-8.  [Webmention](https://indieweb.org/Webmention)
-9.  [IFTTT & Netlify config](https://hankchizljaw.com/wrote/jamstack-ifttt-and-netlify:-a-power-trio/)
-    * (This is half done-ish. Currently an IFTTT applet is set up to run a [Netlify build hook URL](https://docs.netlify.com/configure-builds/build-hooks/) on a daily basis.)
+2.  May implement Gulp build config as an option
+3.  Light / Dark Theme option
+4.  Make better use of utility classes
+5.  Tags / categories
+6.  Post read time
+7.  Pagination
+8.  ~~RSS feed~~ ✔️
+9.  [Webmention](https://indieweb.org/Webmention)
 10. Styleguide (list of the components)
 
 ---
@@ -86,7 +85,7 @@ brootaylor.com
 │
 ├── src
 │   ├── _content                 # Content (Markdown)
-│   ├── _data                    # Global website data (eg. site, mainnav & design tokens)
+│   ├── _data                    # Global website data (eg. site, messages, navigation & contactform)
 │   ├── _includes                # Layout templates, partials & components (Nunjucks, JS & SCSS)
 │   ├── assets                   # Assets (ie. Static files like Fonts, Images, Video, Favicons)
 │   ├── scripts                  # JavaScript (Global)
@@ -98,6 +97,8 @@ brootaylor.com
 │   ├── serviceworker.njk        # serviceworker.js template
 │   └── sitemap.njk              # sitemap.xml template
 │
+├── tokens                       # Design tokens directory that holds individual toke JSON files (eg. colors.json)
+│
 ├── .browserlistrc               # Browser support config list
 ├── .editorconfig                # Text editor configuration
 ├── .eleventy.js                 # Eleventy configuration
@@ -107,7 +108,7 @@ brootaylor.com
 ├── .gitignore                   # Files not tracked by Git
 ├── .markdownlint.json           # Markdownlint configuration
 ├── .sass-lint.yml               # SCSS linting configuration
-├── LICENCE                      # Repo licence
+├── LICENCE                      # Repo licence (MIT)
 ├── netlify.toml                 # Netlify configuration (server)
 ├── package.json                 # Node.js package manifest
 ├── package-lock.json            # Node.js package lock
