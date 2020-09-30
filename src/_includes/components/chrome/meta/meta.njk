@@ -32,7 +32,7 @@
 <meta name="description" content="{{ metaDescription }}">
 
 {# Checking whether page is to be indexed or not --> ie. whether `hidden` variable equals `true` or `false` #}
-<meta name="robots" content="{% if hidden == true %}noindex{% else %}index{% endif %}, follow">
+<meta name="robots" content="{% if hidden == true %}noindex, nosnippet{% else %}index{% endif %}, follow">
 
 {# Canonical #}
 {% if hidden !== true %}
@@ -40,13 +40,14 @@
 {% endif %}
 
 {#
-	Preload / preconnect / dns-prefect stuff...
-	@NOTE: `preload` for styles, fonts etc. are declared in the netlify.toml `[[headers]]`
+	Preconnect / dns-prefect stuff...
 	@NOTE: Only render this code snippet if `analyticsUrchin` has a value in `_data/site.js`
 #}
 {% if site.analyticsUrchin %}
 	<link rel="preconnect" href="https://www.googletagmanager.com/" crossorigin>
 	<link rel="dns-prefetch" href="https://www.googletagmanager.com/">
+	<link rel="preconnect" href="https://www.google-analytics.com/" crossorigin>
+	<link rel="dns-prefetch" href="https://www.google-analytics.com/">
 {% endif %}
 
 {#
