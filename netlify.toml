@@ -49,33 +49,11 @@
 # Plugins
 ##############################
 
-# 1. Run critical pages through pa11y and fail build if accessibility failures are found.
-[[plugins]]
-  package = "netlify-plugin-a11y"
-
-    # all inputs are optional, we just show you the defaults below
-    [plugins.inputs]
-
-    # required config
-    checkPaths = ['/'] # you can give an array of directories or paths to html files, that you want to run a11y checks on
-
-    # # optional config
-    # ignoreDirectories = ['/admin']  # explicitly ignore these directories
-
-    # resultMode = "warn" # is "error" by default
-
-    # # Developer only
-    # debugMode = true # extra logging for plugin developers
-
-# 2. Optimize images as part of the Netlify build process. Optimizes PNG, JPEG, GIF and SVG file formats.
+# 1. Optimize images as part of the Netlify build process. Optimizes PNG, JPEG, GIF and SVG file formats.
 [[plugins]]
   package = "netlify-plugin-image-optim"
 
-# 3. Is Site Vulnerable Netlify Plugin
-[[plugins]]
-  package = "netlify-plugin-is-website-vulnerable"
-
-# 4. A Netlify plugin to generate a lighthouse report for every deploy
+# 2. Generate a lighthouse report for every deploy
 [[plugins]]
   package = "@netlify/plugin-lighthouse"
 
@@ -90,6 +68,25 @@
     best-practices = 0.9
     seo = 0.9
     pwa = 0.9
+
+# 3. Submit sitemap (automatically)
+[[plugins]]
+    package = "netlify-plugin-submit-sitemap"
+
+    [plugins.inputs]
+
+    # The base url of your site (optional, default = main URL set in Netlify)
+    # baseUrl = "https://example.com"
+
+    # Path to the sitemap URL (optional, default = /sitemap.xml)
+    sitemapPath = "/sitemap.xml"
+
+    # Enabled providers to submit sitemap to (optional, default = 'google', 'bing', 'yandex'). Possible providers are currently only 'google', 'bing', 'yandex'.
+    providers = [
+      "google",
+      "bing",
+      "yandex"
+    ]
 
 
 ##############################
