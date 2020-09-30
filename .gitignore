@@ -6,7 +6,7 @@ www
 # Files to ignore
 .DS_Store
 *performance-results.html
-_tokens.scss
+src/styles/tokens/
 .env
 *.zip
 

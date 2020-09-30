@@ -49,6 +49,11 @@
 	<link rel="dns-prefetch" href="https://www.googletagmanager.com/">
 {% endif %}
 
+{#
+	Styles (pre-load)...
+	This is declared here (instead of netlify.toml [[ headers ]]) because of needing to add dynamic hash / cache-busting version number value
+#}
+<link rel="preload" as="style" href="/styles/main.css?version={{ pkg.version }}.{{ site.timeCurrent }}">
 {# Styles (load) #}
 <link rel="stylesheet" href="/styles/main.css?version={{ pkg.version }}.{{ site.timeCurrent }}">
 
