@@ -53,7 +53,8 @@ module.exports = {
     },
     {
       label: "RSS",
-      url: "/feed.xml"
+      url: "/feed.xml",
+      document: true
     }
   ]
 }

@@ -39,21 +39,7 @@
 	<link rel="canonical" href="{{ rootUrl }}{{ page.url | pretty }}">
 {% endif %}
 
-{#
-	Preconnect / dns-prefect stuff...
-	@NOTE: Only render this code snippet if `analyticsUrchin` has a value in `_data/site.js`
-#}
-{% if site.analyticsUrchin %}
-	<link rel="preconnect" href="https://www.googletagmanager.com/" crossorigin>
-	<link rel="dns-prefetch" href="https://www.googletagmanager.com/">
-	<link rel="preconnect" href="https://www.google-analytics.com/" crossorigin>
-	<link rel="dns-prefetch" href="https://www.google-analytics.com/">
-{% endif %}
-
-{#
-	Styles (pre-load)...
-	This is declared here (instead of netlify.toml [[ headers ]]) because of needing to add dynamic hash / cache-busting version number value
-#}
+{# Styles (pre-load)... #}
 <link rel="preload" as="style" href="/styles/main.css?version={{ pkg.version }}.{{ site.timeCurrent }}">
 {# Styles (load) #}
 <link rel="stylesheet" href="/styles/main.css?version={{ pkg.version }}.{{ site.timeCurrent }}">
@@ -62,19 +48,21 @@
 <link rel="alternate" type="application/rss+xml" title="{{ metaTitle }}" href="{{ rootUrl }}/feed.xml">
 
 {# Open graph #}
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="{{ site.name }}">
-<meta property="og:title" content="{{ pageTitle }}">
-<meta property="og:image" content="{{ rootUrl }}{{ metaImage }}">
-<meta property="og:image:alt" content="{{ metaImageAlt }}">
-<meta property="og:description" content="{{ metaDescription }}">
-<meta property="og:url" content="{{ rootUrl }}{{ page.url | pretty }}">
+{% if hidden !== true %}
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="{{ site.name }}">
+	<meta property="og:title" content="{{ pageTitle }}">
+	<meta property="og:image" content="{{ rootUrl }}{{ metaImage }}">
+	<meta property="og:image:alt" content="{{ metaImageAlt }}">
+	<meta property="og:description" content="{{ metaDescription }}">
+	<meta property="og:url" content="{{ rootUrl }}{{ page.url | pretty }}">
+{% endif %}
 
 {#
 	Twitter...
 	Only render this code snippet if `twitter` has a handler value in `_data/site.js`
 #}
-{% if site.twitter %}
+{% if site.twitter and hidden !== true %}
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="{{ site.twitter }}">
 	<meta name="twitter:title" content="{{ pageTitle }}">
@@ -94,3 +82,14 @@
 <meta name="msapplication-config" content="/browserconfig.xml">
 <meta name="msapplication-TileColor" content="{{ site.background_color_mstile }}">
 <meta name="theme-color" content="{{ site.theme_color_android }}">
+
+{#
+	Preconnect / dns-prefect stuff...
+	@NOTE: Only render this code snippet if `analyticsUrchin` has a value in `_data/site.js`
+#}
+{% if site.analyticsUrchin %}
+	<link rel="preconnect" href="https://www.googletagmanager.com/" crossorigin>
+	<link rel="dns-prefetch" href="https://www.googletagmanager.com/">
+	<link rel="preconnect" href="https://www.google-analytics.com/" crossorigin>
+	<link rel="dns-prefetch" href="https://www.google-analytics.com/">
+{% endif %}
