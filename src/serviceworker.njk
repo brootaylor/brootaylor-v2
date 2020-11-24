@@ -46,7 +46,7 @@ const offlinePages = [
 {% for item in allPosts.slice(0, 5) %}
 	'{{ item.url | pretty }}',
 {%- endfor %}
-{#- Loops through the `mainNavMin` object in `_data/navigation.js` -#}
+{#- Loops through the `mainnav` object in `_data/navigation.js` -#}
 {%- for item in navigation.mainnav %}
 	{#- Doesn't show a URL if marked as `document` or `external` -#}
   {%- if (item.document !== true) and (item.external !== true) %}
