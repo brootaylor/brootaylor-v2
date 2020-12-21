@@ -7,7 +7,7 @@ import json from '@rollup/plugin-json';
 import replace from '@rollup/plugin-replace';
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
-import babel from 'rollup-plugin-babel';
+import babel from '@rollup/plugin-babel';
 import { terser } from 'rollup-plugin-terser';
 
 // Package.json values...
@@ -21,9 +21,7 @@ const preamble = `/*
 * ${name}
 * v${version}
 * ${homepage}
-* Copyright (c) ${new Date().getFullYear()} ${
-  author.name
-}. Licensed ${license} */`;
+* Copyright (c) ${new Date().getFullYear()} ${author.name}. Licensed ${license} */`;
 
 // Data...
 const site = require('../src/_data/site.js'); // Using CommonJS 'require' cause site.js using 'module.exports'
