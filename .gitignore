@@ -2,12 +2,12 @@
 node_modules
 docs
 www
-src/styles/tokens/
 
 # Files to ignore
 .DS_Store
 *performance-results.html
 .env
+_tokens.scss
 *.zip
 
 # Local Netlify folder
