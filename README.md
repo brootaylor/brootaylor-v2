@@ -47,8 +47,6 @@ It's deployed by and hosted with [Netlify](https://www.netlify.com/).
 * [Eleventy](https://www.11ty.io/) (SSG)
 * [Netlify](https://www.netlify.com/)
 * [Netlify forms](https://docs.netlify.com/forms/setup/)
-* [SassDocs](http://sassdoc.com/)
-* [JSDocs](https://jsdoc.app/)
 
 ---
 
