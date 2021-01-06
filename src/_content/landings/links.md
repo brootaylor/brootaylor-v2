@@ -5,7 +5,7 @@ lead: "Links to articles and various things I've enjoyed and found interesting. 
 bodyClass: "links-home"
 
 date: 2020-02-22T22:10:00
-updated: 2020-05-11T17:29:00
+updated: 2021-01-06T11:54:00
 ---
 
 <ul class="[ links__list ] [ flow ]">
