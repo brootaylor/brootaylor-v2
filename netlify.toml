@@ -3,7 +3,7 @@
 ##############################
 
 [build]
-  command = "echo 'Ok, let us begin this build!' && npm run deploy:build && echo 'Build finished, site deployed 🚀'"
+  command = "npm run deploy:build"
   publish = "www"
 
   # Default site wide settings
@@ -25,6 +25,7 @@
 # Build and deployment config for `production` environment
 [context.production]
   command = "npm run deploy:build"
+
   [context.production.environment]
     GIT_LFS_ENABLED = "true"
     NODE_ENV = "production"
