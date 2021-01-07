@@ -55,15 +55,14 @@ It's deployed by and hosted with [Netlify](https://www.netlify.com/).
 Possible features / enhancements for the future:
 
 1.  [Netlify CMS](https://www.netlifycms.org/)
-2.  May implement Gulp build config as an option
-3.  Light / Dark Theme option
-4.  Make better use of utility classes
-5.  Tags / categories
-6.  Post read time
-7.  Pagination
-8.  ~~RSS feed~~ ✔️
-9.  [Webmention](https://indieweb.org/Webmention)
-10. Styleguide (list of the components)
+2.  Light / Dark Theme option
+3.  Make better use of utility classes
+4.  Tags / categories
+5.  Post read time
+6.  Pagination
+7.  ~~RSS feed~~ ✔️
+8.  [Webmention](https://indieweb.org/Webmention)
+9.  Styleguide (list of the components)
 
 ---
 
