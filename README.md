@@ -105,6 +105,7 @@ brootaylor.com
 ├── .eslintrc                    # JS linting configuration
 ├── .gitignore                   # Files not tracked by Git
 ├── .markdownlint.json           # Markdownlint configuration
+├── .nvmrc                       # Sets (and installs if necessary) the version of Node needed for this project
 ├── .sass-lint.yml               # SCSS linting configuration
 ├── LICENCE                      # Repo licence (MIT)
 ├── netlify.toml                 # Netlify configuration (server)
