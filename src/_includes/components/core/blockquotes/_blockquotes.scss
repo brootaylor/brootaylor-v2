@@ -28,14 +28,11 @@ blockquote {
 
   p {
     font-family: var(--font-family-secondary);
-    flex: 1;
   }
 
   footer {
     font-style: normal;
     font-size: 0.95rem;
     margin-top: 1em;
-    flex: 1 1 100%;
-    max-width: 100%;
   }
 }
