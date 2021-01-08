@@ -24,7 +24,7 @@ I sometimes [write][3], jot down [notes][4] or share [links][5] to things that i
 
 [Eleventy][6], [Netlify][7] and [Fractal][8] are proving really enjoyable to work with and have restored some of the magic of building websites again.
 
-I'm reading a few books (actual paper!) at the moment - but the one I'm particularly enjoying is "[Everything is Spiritual](https://robbell.com/portfolio/everything-is-spiritual/)" by Rob Bell.
+I'm reading a few books (actual paper!) at the moment - but the one I'm particularly enjoying is "[Everything is Spiritual][9]" by Rob Bell.
 
 [1]: /about
 [2]: https://iagloyalty.com/
@@ -34,3 +34,4 @@ I'm reading a few books (actual paper!) at the moment - but the one I'm particul
 [6]: https://www.11ty.io/
 [7]: https://www.netlify.com/
 [8]: https://fractal.build/
+[9]: https://robbell.com/portfolio/everything-is-spiritual/
