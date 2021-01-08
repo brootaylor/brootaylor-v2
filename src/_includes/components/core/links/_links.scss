@@ -6,9 +6,9 @@
   &,
   &:active,
   &:visited {
-      color: var(--link-initial); // Custom property
+      color: var(--green-custom); // Custom property
       text-decoration: none;
-      border-bottom: 1px dotted var(--link-initial); // Custom property
+      border-bottom: 1px solid var(--green-custom); // Custom property
       background-color: transparent;
       transition: border-bottom 0.25s,
                   background-color 0.25s;
@@ -20,8 +20,8 @@
   }
 
   &:hover {
-      color: var(--link-text-hover); // Custom property
+      color: var(--green-custom-dark); // Custom property
       text-decoration: none;
-      border-bottom: 1px solid var(--link-border-hover); // Custom property
+      border-bottom: 2px solid var(--green-custom-light); // Custom property
   }
  }

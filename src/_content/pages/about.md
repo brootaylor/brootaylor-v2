@@ -24,7 +24,7 @@ I'm originally from South Africa and grew up on a dairy farm in a very [beautifu
 
 I enjoy landscape photography and am a [fairly decent drummer][12]. I absolutely [adore aircraft][13] and still plan to pull my finger out and get my <abbr title="Private Pilots Licence">PPL</abbr> one day.
 
-My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 children. 2 teenage sons and an 11 year old daughter.
+My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 children. 2 teenage sons and an 12 year old daughter.
 
 I try and write whenever I get the chance and have [written a few posts][14] on various things. Here's hoping you'll like some of them or be able to relate to one or two of them in some way.
 
