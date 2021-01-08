@@ -7,8 +7,8 @@ bodyClass: "homepage"
 
 permalink: "/index.html"
 
-date: 2020-04-24T12:54:00
-updated: 2020-07-07T13:27:00
+date: 2020-0-24T12:54:00
+updated: 2021-01-08T14:42:00
 
 changefreq: "weekly"
 priority: 1
@@ -22,7 +22,9 @@ I make websites and have worked on various projects with companies like **AirMil
 
 I sometimes [write][3], jot down [notes][4] or share [links][5] to things that interest me.
 
-I'm also busy dabbling with the fabulous [Eleventy][6], [Netlify][7], [Fractal][8] and [Vue.js][9].
+[Eleventy][6], [Netlify][7] and [Fractal][8] are proving really enjoyable to work with and have restored some of the magic of building websites again.
+
+I'm reading a few books (actual paper!) at the moment - but the one I'm particularly enjoying is "[Everything is Spiritual](https://robbell.com/portfolio/everything-is-spiritual/)" by Rob Bell.
 
 [1]: /about
 [2]: https://iagloyalty.com/
@@ -32,4 +34,3 @@ I'm also busy dabbling with the fabulous [Eleventy][6], [Netlify][7], [Fractal][
 [6]: https://www.11ty.io/
 [7]: https://www.netlify.com/
 [8]: https://fractal.build/
-[9]: https://vuejs.org/

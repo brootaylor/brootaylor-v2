@@ -4,11 +4,10 @@
 
 blockquote {
   @include font-size(20px);
-  display: flex;
-  flex-wrap: wrap;
-  padding: 1.5em 0;
-  max-width: 90%;
-  quotes: "\201C" "\201D";
+  display: block;
+  margin-left: 0;
+  padding: 0 0 0 1em;
+  border-left: 0.3em solid var(--grey-mid);
 
     @include min-width($breakpoint-small) {
       @include font-size(22px);
@@ -17,7 +16,6 @@ blockquote {
     @include min-width($breakpoint-medium) {
       @include font-size(24px);
       max-width: 80%;
-      margin-left: 1.5rem;
     }
 
     @include min-width($breakpoint-large) {
@@ -33,40 +31,11 @@ blockquote {
     flex: 1;
   }
 
-  &::before {
-    font-family: var(--font-family-secondary);
-    content: open-quote;
-    color: var(--grey-mid);
-    font-size: 4em;
-    margin-right: 0.1em;
-    line-height: 0.1em;
-  }
-
   footer {
     font-style: normal;
     font-size: 0.95rem;
     margin-top: 1em;
-    padding-left: 3em;
     flex: 1 1 100%;
     max-width: 100%;
-  }
-}
-
-// `Notes home` page overrides...
-.notes-home {
-  blockquote {
-    display: block;
-    quotes: unset;
-    margin-left: 0;
-    padding: 0 0 0 1em;
-    border-left: 0.3em solid var(--grey-mid);
-
-    &::before {
-      content: unset;
-    }
-
-    footer {
-      padding: 0;
-    }
   }
 }
