@@ -39,7 +39,7 @@
     "build": "npm run build:styles-prod && npm run build:scripts && npm run build:files",
     "postbuild": "echo 'Everything has been built successfully... 🚀'",
     "deploy:build": "cross-env NODE_ENV=production npm run build",
-    "deploy:draft": "npm run build && netlify deploy",
+    "deploy:draft": "netlify deploy",
     "deploy:production": "netlify deploy --prod",
     "audit:browser-support": "npx browserslist && echo '🔆 Modify .browserslistrc if and when browser support changes. 🔆'",
     "audit:accessibility": "npx pa11y --standard WCAG2AA https://brootaylor.com",

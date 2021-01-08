@@ -31,7 +31,7 @@
 
 {# `imageNormal`: Normal inline image #}
 {% macro imageNormal(src, alt, position) %}
-<img src="{{ src }}" alt="{{ alt }}." class="[ img-normal ]{% if position %} [ {{ position }} ]{% endif %}">
+<img src="{{ src }}" loading="lazy" alt="{{ alt }}." class="[ img-normal ]{% if position %} [ {{ position }} ]{% endif %}">
 {% endmacro %}
 
 {# `imageMulti`: for multi responsive images #}
@@ -49,7 +49,7 @@
 {# `imageFigure`: Normal inline images wrapped in a `figure` element #}
 {% macro imageFigure(src, alt, caption, position) %}
 <figure{% if position %} class="[ {{ position }} ]"{% endif %}>
-	<img src="{{ src }}" alt="{{ alt }}.">
+	<img src="{{ src }}" loading="lazy" alt="{{ alt }}.">
 	<figcaption>{{ caption }}.</figcaption>
 </figure>
 {% endmacro %}
