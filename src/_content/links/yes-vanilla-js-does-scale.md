@@ -1,6 +1,6 @@
 ---
 title: "Yes, vanilla JS does scale"
-summary: "Is the implication is that vanilla JS literally cannot handle the load of large applications the way frameworks can?"
+summary: "Is the implication that vanilla JS literally cannot handle the load of large applications the way frameworks can?"
 lead: ""
 linkExternal: "https://gomakethings.com/yes-vanilla-js-does-scale/"
 linkLabel: "gomakethings.com"
