@@ -127,8 +127,11 @@ article {
     }
   }
 
-  a {
+ > a {
+   display: inline-block;
+
     time {
+      display: inline;
       padding-bottom: 0;
     }
   }
