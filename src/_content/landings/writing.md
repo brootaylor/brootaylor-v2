@@ -5,7 +5,7 @@ lead: "Here you'll find a few of my thoughts on a variety of things. Some web te
 bodyClass: "writing-home"
 
 date: 2020-02-22T22:10:00
-updated: 2020-09-30T15:45:00
+updated: 2021-01-11T14:43:00
 ---
 
 <ul class="[ writing__list ] [ flow ]">
@@ -15,9 +15,9 @@ updated: 2020-09-30T15:45:00
       <h2><a href="{{ writing.url }}">{{ writing.data.title }}</a></h2>
       <time datetime="{{ writing.date | dateTime }}">{{ writing.date | dateTimeReadable("d LLLL y, ") }}{{ writing.date | dateTimeReadable("t") | lower }}</time>
       {%- if writing.data.lead -%}
-        <p>{{ writing.data.lead }}</p>
+        <p>{{ writing.data.lead | safe }}</p>
       {% else %}
-        <p>{{ writing.data.summary }}</p>
+        <p>{{ writing.data.summary | safe }}</p>
       {%- endif -%}
     </article>
   </li>

@@ -6,12 +6,25 @@
   @extend %flow;
 
   a {
-    &,
+    display: inline-block;
+    padding: 0.2em 0;
+    text-decoration-color: transparent;
+
+    &:active,
+    &:focus {
+      color: var(--font-colour-base);
+      text-decoration-color: transparent;
+    }
+
     &:active,
     &:focus,
     &:hover {
-      color: var(--font-colour-base);
-      text-decoration: none;
+      text-decoration-color: var(--green-custom-light);
+    }
+
+    &.current {
+      text-decoration-color: var(--green-custom-light);
+      text-decoration-thickness: 2px;
     }
   }
 

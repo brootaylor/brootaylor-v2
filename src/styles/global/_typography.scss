@@ -127,8 +127,11 @@ article {
     }
   }
 
-  a {
+ > a {
+   display: inline-block;
+
     time {
+      display: inline;
       padding-bottom: 0;
     }
   }
@@ -142,12 +145,11 @@ article {
       @include font-size(28px);
     }
 
-  &::after {
-    content: '';
-    display: block;
+  // An <hr> that's a sibling of the `lead` element
+  + hr {
     max-width: 90%;
     height: 0.2rem;
     background-color: var(--grey-light);
-    margin: 1.5em 0;
+    margin: 2.5em 0 !important;
   }
 }

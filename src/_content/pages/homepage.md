@@ -8,7 +8,7 @@ bodyClass: "homepage"
 permalink: "/index.html"
 
 date: 2020-04-24T12:54:00
-updated: 2021-01-08T14:42:00
+updated: 2021-01-11T14:58:00
 
 changefreq: "weekly"
 priority: 1
@@ -24,7 +24,7 @@ I sometimes [write][3], jot down [notes][4] or share [links][5] to things that i
 
 [Eleventy][6], [Netlify][7] and [Fractal][8] are proving really enjoyable to work with and have restored some of the magic of building websites again.
 
-I'm reading a few books (actual paper!) at the moment - but the one I'm particularly enjoying is "[Everything is Spiritual][9]" by Rob Bell.
+I'm reading a few books (actual paper!) at the moment and just finished "[Everything is Spiritual][9]" by Rob Bell. I wholeheartedly recommend it.
 
 [1]: /about
 [2]: https://iagloyalty.com/
