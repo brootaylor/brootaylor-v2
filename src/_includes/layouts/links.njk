@@ -28,7 +28,7 @@
 
 		{% if lead %}
 			{# This content comes from the `front matter` in the relevant `.md` file - within the `pages` directory #}
-			<p class="[ lead ]">{{ lead }}</p>
+			<p class="[ lead ]">{{ lead | safe }}</p>
 		{% endif %}
 
 		{# This content comes from the markdown in the relevant `.md` file - within the `pages` directory #}
