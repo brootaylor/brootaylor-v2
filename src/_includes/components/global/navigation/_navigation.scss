@@ -11,7 +11,13 @@
     &:focus,
     &:hover {
       color: var(--font-colour-base);
-      text-decoration: none;
+      text-decoration-color: transparent;
+    }
+
+    &:active,
+    &:focus,
+    &:hover {
+      text-decoration-color: var(--green-custom-light);
     }
   }
 

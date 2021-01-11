@@ -7,11 +7,9 @@
   &:active,
   &:visited {
       color: var(--green-custom); // Custom property
-      text-decoration: none;
-      border-bottom: 1px solid var(--green-custom); // Custom property
-      background-color: transparent;
-      transition: border-bottom 0.25s,
-                  background-color 0.25s;
+      text-decoration-color: var(--green-custom);
+      text-decoration-thickness: from-font;
+      text-underline-offset: 3px;
   }
 
   &:hover,
@@ -21,7 +19,8 @@
 
   &:hover {
       color: var(--green-custom-dark); // Custom property
-      text-decoration: none;
-      border-bottom: 2px solid var(--green-custom-light); // Custom property
+      text-decoration-color: var(--green-custom-light);
+      text-decoration-thickness: 2px;
+      // text-underline-offset: 2px
   }
  }
