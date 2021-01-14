@@ -6,7 +6,7 @@ linkExternal: "https://quantumtocosmos.ca/"
 linkLabel: "quantumtocosmos.ca"
 
 date: 2021-01-13T19:07:00
-updated: 2021-01-14T00:58:00
+updated: 2021-01-14T11:42:00
 
 location:
   locality: "Crawley"
