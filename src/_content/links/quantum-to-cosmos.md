@@ -6,7 +6,7 @@ linkExternal: "https://quantumtocosmos.ca/"
 linkLabel: "quantumtocosmos.ca"
 
 date: 2021-01-13T19:07:00
-updated: 2021-01-13T19:07:00
+updated: 2021-01-14T00:58:00
 
 location:
   locality: "Crawley"
@@ -23,7 +23,7 @@ eleventyExcludeFromCollections: false
 
 I've looked at this so many times now and never get sick of it. Brilliantly done. I've even subjected my wife and kids to it a few times 😬
 
-Here's hoping you get as much of a kick out of this I have.
+Here's hoping you get as much of a kick out of this as I have.
 
 
 
