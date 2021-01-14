@@ -23,6 +23,12 @@
 	{% endif %}
 {% endif %}
 
+{# Generates extra page-specific JS eg. 3rd party scripts like Greensocks or custom JS functions #}
+{% if foot %}
+	<!-- Extra page-specific JS eg. 3rd party scripts like Greensocks or custom JS functions -->
+	{{ foot | safe }}
+{% endif %}
+
 {#
 	Service workers
 	*******************
