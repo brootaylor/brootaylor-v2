@@ -44,6 +44,12 @@
 {# Styles (load) #}
 <link rel="stylesheet" href="/styles/main.css?version={{ pkg.version }}.{{ site.timeCurrent }}">
 
+{# Generates extra page-specific <head> metadata fields eg. styles, fonts & custom preload/prefetch #}
+{% if head %}
+	<!-- Extra page-specific metadata fields & rules eg. styles, fonts, SVGs & custom preload/prefetch -->
+	{{ head | safe }}
+{% endif %}
+
 {# RSS feed #}
 <link rel="alternate" type="application/rss+xml" title="{{ metaTitle }}" href="{{ rootUrl }}/feed.xml">
 
