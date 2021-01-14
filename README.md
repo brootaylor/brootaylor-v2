@@ -54,15 +54,14 @@ It's deployed by and hosted with [Netlify](https://www.netlify.com/).
 
 Possible features / enhancements for the future:
 
-1.  [Netlify CMS](https://www.netlifycms.org/)
-2.  Light / Dark Theme option
+1.  Light / Dark Theme option
+2.  [IndieWeb](https://indieweb.org/) & [Webmention](https://indieweb.org/Webmention)
 3.  Make better use of utility classes
-4.  Tags / categories
-5.  Post read time
+4.  Post read time
+5.  Tags / categories
 6.  Pagination
-7.  ~~RSS feed~~ ✔️
-8.  [Webmention](https://indieweb.org/Webmention)
-9.  Styleguide (list of the components)
+7.  Styleguide (list of the components)
+8.  [Netlify CMS](https://www.netlifycms.org/)
 
 ---
 
