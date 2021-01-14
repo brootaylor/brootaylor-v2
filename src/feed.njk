@@ -26,9 +26,12 @@ eleventyExcludeFromCollections: true
 			<updated>{{ lastUpdated }}</updated>
 			<id>{{ absolutePostUrl }}</id>
 			<content type="html"><![CDATA[
-				{% if post.data.lead %}
+				{%- if post.data.linkExternal -%}
+					<a href="{{ post.data.linkExternal }}" rel="external">{{ post.data.linkLabel }}</a>
+				{%- endif -%}
+				{%- if post.data.lead -%}
 					<p>{{ post.data.lead | safe }}</p>
-				{% endif %}
+				{%- endif -%}
 				{{ post.templateContent | safe }}
 				<p><a href="mailto:{{ site.author.email }}?subject=Replying%20to:%20“{{ post.data.title }}“">Reply via email</a></p>
 			]]></content>
