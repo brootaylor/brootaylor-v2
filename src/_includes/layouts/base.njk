@@ -1,5 +1,5 @@
 <!doctype html>
-<html id="start" lang="{{ site.lang }}" dir="ltr" class="no-js">
+<html id="start" lang="{{ site.lang }}" dir="ltr">
 
 <!--
 	"The original, shimmering self gets buried so deep that most of us end up hardly living out of it at all.
@@ -12,9 +12,9 @@
 		{# Meta content, stylesheet call, manifest, open graph, favicon / icons etc. #}
 		{% include "components/chrome/meta/meta.njk" %}
 
-		{# Checking browser can handle fairly modern JS #}
+		{# Checking whether browser can handle fairly modern JS #}
 		<script>
-			document.documentElement.classList.remove('no-js');
+			document.documentElement.classList.add('enhanced');
 		</script>
 
 		{#

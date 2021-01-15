@@ -27,7 +27,7 @@ bodyClass: "homepage"
 permalink: "/index.html"
 
 date: 2020-04-24T12:54:00
-updated: 2021-01-11T14:58:00
+updated: 2021-01-15T12:52:00
 
 changefreq: "weekly"
 priority: 1
@@ -41,9 +41,9 @@ I make websites and have worked on various projects with companies like **AirMil
 
 I sometimes [write][3], jot down [notes][4] or share [links][5] to things that interest me.
 
-[Eleventy][6], [Netlify][7] and [Fractal][8] are proving really enjoyable to work with and have restored some of the magic of building websites again.
+[Eleventy][6], [Netlify][7], [Fractal][8] and [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) animation using [GreenSock](https://greensock.com/) are proving really enjoyable to work with and have restored some of the magic of building websites again.
 
-I'm reading a few books (actual paper!) at the moment and just finished "[Everything is Spiritual][9]" by Rob Bell. I wholeheartedly recommend it.
+There are a few books (actual paper!) on the go at the moment and just finished "[Everything is Spiritual][9]" by Rob Bell. I wholeheartedly recommend it.
 
 [1]: /about
 [2]: https://iagloyalty.com/

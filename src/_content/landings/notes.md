@@ -5,7 +5,7 @@ lead: "Quick notes, thoughts and ramblings."
 bodyClass: "notes-home"
 
 date: 2020-02-22T22:10:00
-updated: 2021-01-05T19:04:00
+updated: 2021-01-15T12:52:00
 ---
 
 <ul class="[ notes__list ] [ flow ]">
