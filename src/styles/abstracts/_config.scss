@@ -19,6 +19,11 @@
 /// @type List
 $font-family-base: map-get($fonts, base) !default;
 
+/// Title font family
+/// @group Fonts
+/// @type List
+$font-family-title: map-get($fonts, title) !default;
+
 /// Secondary font family
 /// @group Fonts
 /// @type List
