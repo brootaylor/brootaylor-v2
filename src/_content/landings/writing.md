@@ -12,7 +12,7 @@ updated: 2021-01-11T14:43:00
 {%- for writing in collections.postWriting -%}
   <li class="[ writing__list-item ]">
     <article class="[ writing__summary ]">
-      <h2><a href="{{ writing.url }}">{{ writing.data.title }}</a></h2>
+      <h2><a href="{{ writing.url }}">{{ writing.data.title | safe }}</a></h2>
       <time datetime="{{ writing.date | dateTime }}">{{ writing.date | dateTimeReadable("d LLLL y, ") }}{{ writing.date | dateTimeReadable("t") | lower }}</time>
       {%- if writing.data.lead -%}
         <p>{{ writing.data.lead | safe }}</p>

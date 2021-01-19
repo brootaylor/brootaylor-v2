@@ -5,14 +5,14 @@ lead: "Links to articles and various things I've enjoyed and found interesting. 
 bodyClass: "links-home"
 
 date: 2020-02-22T22:10:00
-updated: 2021-01-14T15:33:00
+updated: 2021-01-19T15:28:00
 ---
 
 <ul class="[ links__list ] [ flow ]">
 {%- for link in collections.postLinks -%}
   <li class="[ links__list-item ]">
     <article class="[ links__summary ] [ flow ]">
-      <h2><a href="{{ link.url }}">{{ link.data.title }}</a></h2>
+      <h2><a href="{{ link.url }}">{{ link.data.title | safe }}</a></h2>
       <time datetime="{{ link.date | dateTime }}">{{ link.date | dateTimeReadable("d LLLL y, ") }}{{ link.date | dateTimeReadable("t") | lower }}</time>
       <span> &rarr; <a href="{{ link.data.linkExternal }}" rel="external">{{ link.data.linkLabel }}</a></span>
     </article>
