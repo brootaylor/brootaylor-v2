@@ -34,10 +34,17 @@
 {# Checking whether page is to be indexed or not --> ie. whether `hidden` variable equals `true` or `false` #}
 <meta name="robots" content="{% if hidden == true %}noindex, nosnippet{% else %}index{% endif %}, follow">
 
+{# Displaying the build number / version #}
+<meta name="build" content="{{ pkg.version }}.{{ site.timeCurrent }}">
+
 {# Canonical #}
 {% if hidden !== true %}
 	<link rel="canonical" href="{{ rootUrl }}{{ page.url | pretty }}">
 {% endif %}
+
+<!-- Preloading styles & fonts... -->
+{# Styles (pre-load)... #}
+<link rel="preload" as="style" href="/styles/main.css?version={{ pkg.version }}.{{ site.timeCurrent }}">
 
 {# Fonts (pre-load)... #}
 <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/open-sans/open-sans-v18-latin-300.woff2" crossorigin>
@@ -49,8 +56,6 @@
 <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/merriweather/merriweather-v22-latin-700.woff2" crossorigin>
 <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/merriweather/merriweather-v22-latin-700italic.woff2" crossorigin>
 
-{# Styles (pre-load)... #}
-<link rel="preload" as="style" href="/styles/main.css?version={{ pkg.version }}.{{ site.timeCurrent }}">
 {# Styles (load) #}
 <link rel="stylesheet" href="/styles/main.css?version={{ pkg.version }}.{{ site.timeCurrent }}">
 

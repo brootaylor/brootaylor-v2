@@ -36,6 +36,7 @@
 	...and `environment` is `production`
 #}
 {% if site.scriptsServiceworker and site.environment == "production" %}
+	<!-- Here be a service worker... -->
 	<script>
 		if (navigator.serviceWorker) {
 			navigator.serviceWorker.register('/serviceworker.js');
