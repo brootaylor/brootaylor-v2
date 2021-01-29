@@ -79,11 +79,7 @@
     "postcss-cli": "^8.3.1",
     "postcss-preset-env": "^6.7.0",
     "rimraf": "^3.0.2",
-<<<<<<< HEAD
     "rollup": "^2.38.1",
-=======
-    "rollup": "^2.38.0",
->>>>>>> e57a768413c671e6468112ada5637a958c634078
     "rollup-plugin-terser": "^7.0.2",
     "slugify": "^1.4.6"
   },
