@@ -67,7 +67,7 @@
     "cross-env": "^7.0.3",
     "date-fns": "^2.16.1",
     "dotenv": "^8.2.0",
-    "faker": "^5.1.0",
+    "faker": "^5.2.0",
     "html-minifier": "^4.0.0",
     "json-to-scss": "^1.6.2",
     "lodash": "^4.17.20",
@@ -79,7 +79,7 @@
     "postcss-cli": "^8.3.1",
     "postcss-preset-env": "^6.7.0",
     "rimraf": "^3.0.2",
-    "rollup": "^2.37.1",
+    "rollup": "^2.38.1",
     "rollup-plugin-terser": "^7.0.2",
     "slugify": "^1.4.6"
   },

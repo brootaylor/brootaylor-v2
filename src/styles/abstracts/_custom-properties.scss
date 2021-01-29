@@ -17,6 +17,11 @@
   --font-colour-base: #{rgb-format($font-colour-base)};
   --line-height-base: #{$line-height-base};
 
+  /* Colours (background) */
+  --background-colour: #{rgb-format($grey-dark)}; // `html` element
+  --background-colour-overlay: #{rgb-format($white)}; // `body` element
+
+
   /* Colours (base) */
   --black: #{rgb-format($black)};
   --white: #{rgb-format($white)};
@@ -37,6 +42,7 @@
 // Dark mode rules will go here
 // @media (prefers-color-scheme: dark) {
 //   :root {
+//     --background-colour-overlay: #{rgb-format($grey-dark)}; // `body` element
 //     --font-colour-base: #{rgb-format($white)};
 //   }
 // }
