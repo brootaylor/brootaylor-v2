@@ -3,7 +3,7 @@
  *********************************************/
 
 html {
-  background-color: var(--grey-dark);
+  background-color: var(--background-colour);
   padding: 0;
 
     @include min-width($breakpoint-medium) {
@@ -22,7 +22,7 @@ body,
 }
 
 body {
-  background-color: var(--white);
+  background-color: var(--background-colour-overlay);
 }
 
 #main {
