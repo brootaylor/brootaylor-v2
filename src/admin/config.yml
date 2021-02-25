@@ -10,8 +10,8 @@ collections:
   - name: "writing"
     label: "Writing"
     folder: "src/_content/writing"
-    slug: "/writing/{{ date | dateOnly }}/{{ page.fileSlug }}.html"
-    show_preview_links: true
+    slug: "{{ page.fileSlug }}"
+    preview_path: "/writing/{{ date | dateOnly }}/{{ page.fileSlug }}"
     create: true
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/writing.njk" }
