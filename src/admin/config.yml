@@ -9,7 +9,7 @@ public_folder: "/assets/images/uploads" # The src attribute for uploaded media w
 collections:
   - name: "writing"
     label: "Writing"
-    folder: "src/_content/writing/{{year}}-{{month}}-{{day}}"
+    folder: "src/_content/writing"
     slug: "{{slug}}"
     preview_path: "writing/{{year}}-{{month}}-{{day}}/{{slug}}"
     create: true
