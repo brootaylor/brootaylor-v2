@@ -10,7 +10,7 @@ collections:
   - name: "writing"
     label: "Writing"
     folder: "src/_content/writing"
-    slug: "{{date | dateOnly}}/{{page.fileSlug}}"
+    slug: "{{year}}-{{month}}-{{day}}/{{page.fileSlug}}"
     create: true
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/writing.njk" }
