@@ -1,10 +1,10 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: master # Branch to update (optional; defaults to master)
 
-publish_mode: editorial_workflow
-media_folder: "src/assets/images/uploads"
-public_folder: "/assets/images/uploads"
+publish_mode: editorial_workflow # Ensures content goes through workflow first before being published
+media_folder: "src/assets/images/uploads" # Media files will be stored in the repo under src/assets/images/uploads
+public_folder: "/assets/images/uploads" # The src attribute for uploaded media will begin with /assets/images/uploads
 
 collections:
   - name: "writing"
@@ -19,7 +19,7 @@ collections:
       - { label: "Lead", name: "lead", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Updated Date", name: "updated", widget: "datetime" }
-      - { label: "Locality", name: "location.locality", widget: "string", default: "Crawley", allow_add: true }
+      - { label: "Locality", name: ["location.locality"], widget: "string", default: "Crawley", allow_add: true }
       - { label: "Tags", name: "tags", widget: "list", allow_add: true }
       - { label: "Body", name: "body", widget: "markdown" }
 
