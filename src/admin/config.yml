@@ -10,7 +10,7 @@ collections:
   - name: "writing"
     label: "Writing"
     folder: "src/_content/writing"
-    slug: "{{ year }}-{{ month }}-{{ day }}/{{ slug }}"
+    slug: "{{year}}-{{month}}-{{day}}/{{slug}}"
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
