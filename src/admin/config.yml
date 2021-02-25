@@ -40,6 +40,7 @@ collections:
     create: true
     fields:
       - {label: "Meta Description", name: "summary", description: "This populates the page's meta decsription field", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Updated Date", name: "updated", widget: "datetime"}
       - label: "Location"
