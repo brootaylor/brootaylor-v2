@@ -15,6 +15,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Meta Description", name: "summary", widget: "string" }
+        comment: 'This string of text populates the page meta description'
       - { label: "Lead", name: "lead", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Updated Date", name: "updated", widget: "datetime" }
