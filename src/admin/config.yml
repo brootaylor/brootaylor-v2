@@ -10,8 +10,7 @@ collections:
   - name: "writing"
     label: "Writing"
     folder: "src/_content/writing"
-    slug: "{{ slug }}"
-    preview_path: "/writing/{{ slug }}"
+    slug: "/writing/{{ date }}/{{ slug }}.html"
     create: true
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/writing.njk" }
