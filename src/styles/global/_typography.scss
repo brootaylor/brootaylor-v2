@@ -181,7 +181,8 @@ h3 {
 
 p,
 ul,
-ol {
+ol,
+pre {
   @include font-size(18px);
   max-width: 65ch;
 
@@ -194,10 +195,49 @@ ol {
     }
 }
 
+
+// Code formatting
+// @TODO: Move this code into its own SCSS partail & component
+code,
+:not(pre)>code,
+pre {
+  &[class*=language-] {
+    color: var(--grey-mid);
+    background-color: var(--background-colour);
+    hyphens: none;
+  }
+
+  .token {
+    color: lighten(#f3bb69, 10%);
+  }
+
+  .comment {
+    color: var(--green-custom-light);
+  }
+
+  .punctuation {
+    color: #e6db74;
+  }
+
+  .function {
+    color: darken(#f3bb69, 20%);
+  }
+
+  .parameter {
+    color: var(--grey-mid);
+  }
+}
+
 pre {
   white-space: pre-wrap;
-  word-break: break-all;
+  word-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+  padding: 2em;
+  border-radius: 0.5rem;
+  line-height: 1.05;
 }
+
 
 hr {
   border: 0;
