@@ -35,11 +35,11 @@ collections:
   - name: "notes"
     label: "Notes"
     folder: "src/_content/notes"
+    identifier_field: "{{page.fileSlug}}"
     slug: "note_{{slug}}"
     preview_path: "notes/{{year}}-{{month}}-{{day}}/{{slug}}" # A deployment preview URL. Allows a preview of the URL that's not on the production domain
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string", hide: true}
       - {label: "Meta Description", name: "summary", description: "This populates the page's meta decsription field", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Updated Date", name: "updated", widget: "datetime"}
