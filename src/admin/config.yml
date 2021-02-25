@@ -10,13 +10,13 @@ collections:
   - name: "writing"
     label: "Writing"
     folder: "src/_content/writing"
-    slug: "/writing/{{ date }}/{{ slug }}.html"
+    slug: "/writing/{{ date }}/{{ slug }}"
     create: true
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/writing.njk" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Summary", name: "summary", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Tags", name: "tags", widget: "list", allow_add: true }
       - { label: "Body", name: "body", widget: "markdown" }
 
