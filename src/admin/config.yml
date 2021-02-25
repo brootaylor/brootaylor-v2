@@ -1,3 +1,6 @@
+# Config for how content is created, modified and previewed using the Netlify CMS GUI.
+# ====================================================================================
+
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
@@ -11,7 +14,7 @@ collections:
     label: "Writing"
     folder: "src/_content/writing"
     slug: "{{slug}}"
-    preview_path: "writing/{{year}}-{{month}}-{{day}}/{{slug}}"
+    preview_path: "writing/{{year}}-{{month}}-{{day}}/{{slug}}" # A deployment preview URL. Allows a preview of the URL that's not on the production domain
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
