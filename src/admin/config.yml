@@ -11,7 +11,7 @@ collections:
     label: "Writing"
     folder: "src/_content/writing"
     slug: "{{year}}-{{month}}-{{day}}/{{slug}}"
-    preview_path: "writing/{{year}}-{{month}}-{{day}}/{{slug}}"
+    preview_path: "writing/{{slug}}"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -23,6 +23,7 @@ collections:
       - label: "Location"
         name: "location"
         widget: "object"
+        collapsed: true
         fields:
           - {label: "locality", name: "locality", widget: "string", default: "Crawley"}
           - {label: "Country", name: "country-name", widget: "string", default: "United Kingdom"}
