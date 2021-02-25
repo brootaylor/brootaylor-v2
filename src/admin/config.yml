@@ -20,8 +20,8 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Updated Date", name: "updated", widget: "datetime"}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true}
+      - {label: "Locality", name: "location.locality", widget: "string", default: "Crawley"}
       - {label: "Body", name: "body", widget: "markdown"}
-        comment: 'This is a multiline\ncomment'
 
 
 
