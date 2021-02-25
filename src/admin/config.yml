@@ -29,7 +29,7 @@ collections:
         fields:
           - {label: "locality", name: "locality", widget: "string", default: "Crawley"}
           - {label: "Country", name: "country-name", widget: "string", default: "United Kingdom"}
-      - {label: "Category", name: "category", widget: "list", allow_add: true}
+      - {label: "Categories", name: "category", widget: "list", allow_add: true}
       - {label: "Body", name: "body", widget: "markdown"}
 
 
