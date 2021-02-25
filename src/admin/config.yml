@@ -20,7 +20,12 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Updated Date", name: "updated", widget: "datetime"}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true}
-      - {label: "Locality", name: "location.locality", widget: "string", default: "Crawley"}
+      - label: "Location"
+        name: "location"
+        widget: "object"
+        fields:
+          - {label: "locality", name: "locality", widget: "string", default: "Crawley"}
+          - {label: "Country", name: "country-name", widget: "string", default: "United Kingdom"}
       - {label: "Body", name: "body", widget: "markdown"}
 
 
