@@ -37,7 +37,7 @@ collections:
     folder: "src/_content/notes"
     identifier_field: "file_name"
     slug: "note_{{file_name}}"
-    preview_path: "notes/{{year}}-{{month}}-{{day}}/{{file_name}}" # A deployment preview URL. Allows a preview of the URL that's not on the production domain
+    preview_path: "notes/{{year}}-{{month}}-{{day}}/note_{{file_name}}" # A deployment preview URL. Allows a preview of the URL that's not on the production domain
     create: true
     fields:
       - {label: "File Name", name: "file_name", widget: "string"}
