@@ -4,13 +4,15 @@
 {# Form Legend #}
 {% set legend = contactform.legend %}
 
-{# Form labels etc. #}
+{# Form labels... #}
 {% set labelName = contactform.labelName %}
 {% set labelEmail = contactform.labelEmail %}
-
 {% set labelMessage = contactform.message.label %}
-{% set messagePlaceholder = contactform.message.placeholder %}
 {% set labelButton = contactform.labelButton %}
+
+{# Message form field... #}
+{% set messagePlaceholder = contactform.message.placeholder %}
+
 
 <form class="[ form ]" method="post" name="contact" action="/contact/thanks" netlify-honeypot="bot-field" data-netlify="true">
 
