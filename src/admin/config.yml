@@ -10,6 +10,7 @@ media_folder: "src/assets/images/uploads" # Media files will be stored in the re
 public_folder: "/assets/images/uploads" # The src attribute for uploaded media will begin with /assets/images/uploads
 
 collections:
+  # 'Writing'
   - name: "writing"
     label: "Writing"
     folder: "src/_content/writing"
@@ -32,6 +33,7 @@ collections:
       - {label: "Categories", name: "category", widget: "list", allow_add: true}
       - {label: "Body", name: "body", widget: "markdown"}
 
+  # 'Notes'
   - name: "notes"
     label: "Notes"
     folder: "src/_content/notes"
