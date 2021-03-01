@@ -35,12 +35,12 @@ collections:
   - name: "notes"
     label: "Notes"
     folder: "src/_content/notes"
-    identifier_field: "file_name"
-    slug: "{{file_name}}"
+    identifier_field: "file-name" # Changing `identifier_field` to `file-name` so that default `title` isn't used in this instance
+    slug: "{{file-name}}"
     preview_path: "notes/{{year}}-{{month}}-{{day}}/note_{{slug}}" # A deployment preview URL. Allows a preview of the URL that's not on the production domain
     create: true
     fields:
-      - {label: "File Name", name: "file_name", widget: "string"}
+      - {label: "File Name", name: "file-name", widget: "string"}
       - {label: "Meta Description", name: "summary", description: "This populates the page's meta decsription field", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Updated Date", name: "updated", widget: "datetime"}
