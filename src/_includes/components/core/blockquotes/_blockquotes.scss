@@ -2,6 +2,9 @@
  * Blockquotes
  **********************************************************/
 
+@use '../../../../styles/abstracts' as *;
+
+
 blockquote {
   @include font-size(20px);
   display: block;

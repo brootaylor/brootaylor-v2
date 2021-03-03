@@ -1,51 +1,13 @@
 @charset 'UTF-8'; // IS THIS NEEDED?
 
-
-@use 'global/reset';
-
-
-@use 'global/custom-properties';
-@use 'global/typography';
-@use 'global/grid';
-@use 'global/base';
-
-
-@use '../_includes/components/core/lists/lists';
-@use '../_includes/components/core/links/links';
-
-
-
-
 /***************************************
- * SASS helpers
- * eg. variables, functions, placeholders and :root custom CSS properties
+ * Global / base / resets and :root custom CSS properties
  */
-// @import
-//   'abstracts/functions',
-//   'abstracts/mixins',
-//   'abstracts/custom-properties';
+@use 'global' as *;
 
 
-/***************************************
- * Global / base
- */
-// @import
-//   'global/typography',
-//   'global/base',
-//   'global/grid';
-
-
-/***************************************
- * Stuff to help out the rest
- */
 // Utility classes
-// @import
-//   'utilities/wrapper',
-//   'utilities/flow',
-//   'utilities/no-list',
-//   'utilities/observers',
-//   'utilities/visually-hidden',
-//   'utilities/hidden';
+@use 'utilities' as *; // Pull in all utilities
 
 
 /***************************************
@@ -53,31 +15,16 @@
  */
 
 // Core
-// @import
-//   '../_includes/components/core/lists/lists',
-//   '../_includes/components/core/links/links',
-//   '../_includes/components/core/blockquotes/blockquotes',
-//   '../_includes/components/core/buttons/buttons',
-//   '../_includes/components/core/icons/icons',
-//   '../_includes/components/core/images/images',
-//   '../_includes/components/core/videos/videos',
-//   '../_includes/components/core/forms/forms';
+@use '../_includes/components/core' as *; // Pull in all core components
 
 // Global
-// @import
-//   '../_includes/components/global/logo/logo',
-//   '../_includes/components/global/navigation/navigation',
-//   '../_includes/components/global/header/header',
-//   '../_includes/components/global/footer/footer',
-//   '../_includes/components/global/messages/messages';
+@use '../_includes/components/global' as *; // Pull in all global components
 
 // Units
-// @import
-//   '../_includes/components/units/card/card';
+@use '../_includes/components/units' as *; // Pull in all unit components
 
 
 /***************************************
  * Page-specific
  */
-// @import
-//   'pages/home';
+// @use 'pages' as *;
