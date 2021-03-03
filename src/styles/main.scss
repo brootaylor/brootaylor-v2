@@ -1,20 +1,17 @@
-@charset 'UTF-8';
-
-/***************************************
- * Configuration (Pulls from design tokens `_tokens.scss` Sass map
- */
-//  @import
-//  'abstracts/config';
+@charset 'UTF-8'; // IS THIS NEEDED?
 
 
-/***************************************
- * Let's set /reset a few things first
- */
 @use 'global/reset';
 
-// @use 'abstracts' as *;
 
+@use 'global/custom-properties';
 @use 'global/typography';
+@use 'global/grid';
+@use 'global/base';
+
+
+@use '../_includes/components/core/lists/lists';
+@use '../_includes/components/core/links/links';
 
 
 

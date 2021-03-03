@@ -2,6 +2,8 @@
  * Lists placeholder
  **********************************************************/
 
+@use '../../../../styles/abstracts' as *;
+
 // Any lists that use a class attribute...
 ul[class],
 ol[class] {

@@ -1,13 +1,9 @@
 /// Wrapper utility class placeholder.
 ///
 /// Use the `.wrapper` class on any element to restrict its max-width
-///
-/// @group Utility Classes
-///
-/// @example scss - Sass Usage
-///   .wrapper {
-///     @extend %wrapper;
-///   }
+
+@use '../abstracts' as *;
+
 %wrapper {
   max-width: convert-to-rem($site-width);
   margin-left: auto;
