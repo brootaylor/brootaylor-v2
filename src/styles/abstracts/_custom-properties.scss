@@ -2,6 +2,9 @@
  * "Root" custom CSS properties / variables
  ******************************************/
 
+@use 'config' as *;
+
+
 /// Custom CSS Properties set on the `:root`
 ///
 /// They are global placeholder values that can then be overridden in local CSS declaration scopes.
