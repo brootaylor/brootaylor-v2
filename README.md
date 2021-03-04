@@ -30,7 +30,7 @@ It's deployed by and hosted with [Netlify](https://www.netlify.com/).
 * 🚀 [Performance budgeting](https://github.com/brootaylor/brootaylor-v2/blob/master/config/budget.json)
 * 🌐 [Browser support config](https://github.com/brootaylor/brootaylor-v2/blob/master/.browserslistrc)
 * ✅ [Accessibility test runner](https://github.com/pa11y/pa11y-ci)
-* 🌈 [Sass](https://sass-lang.com/) powered CSS system - (utilising modern [custom CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*) and methods)
+* 🌈 [Sass](https://sass-lang.com/) powered CSS system using the [Dart Sass implementation](https://sass-lang.com/dart-sass) - (utilising modern [custom CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*) and methods)
 * 🧩 [Design Tokens](https://github.com/brootaylor/brootaylor-v2/tree/master/tokens)
 * 🎳 [JS config to handle code-splitting](https://github.com/brootaylor/brootaylor-v2/blob/master/config/rollup.config.js) (ie. splitting code into smaller chunks to be loaded on demand)
 * 🎛 [Site & build config](https://github.com/brootaylor/brootaylor-v2/blob/master/netlify.toml)
@@ -47,8 +47,8 @@ It's deployed by and hosted with [Netlify](https://www.netlify.com/).
 * [JAMstack](https://jamstack.org/) methodology
 * [Eleventy](https://www.11ty.io/) (SSG)
 * [Netlify](https://www.netlify.com/)
-* [Netlify forms](https://docs.netlify.com/forms/setup/)
-* ✍️ [Netlify CMS](https://www.netlifycms.org/) setup
+* 📧 [Netlify contact form](https://docs.netlify.com/forms/setup/)
+* ✍️ [Netlify CMS setup](https://www.netlifycms.org/)
 
 ---
 

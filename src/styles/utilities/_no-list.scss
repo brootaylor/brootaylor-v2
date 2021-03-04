@@ -1,13 +1,7 @@
 /// "No list" utility class placeholder.
 ///
 /// Use the `.no-list` class on any list element to remove all default styling
-///
-/// @group Utility Classes
-///
-/// @example scss - Sass Usage
-///   .no-list {
-///     @extend %no-list;
-///   }
+
 %no-list {
   list-style: none;
   padding: 0;

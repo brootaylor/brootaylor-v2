@@ -7,149 +7,93 @@
 /// 1. These "design token" values are generated dynamically from a JSON (data) file [`token.json`] into a Sass map [`tokens.scss`].
 /// 2. These Sass map values are then called in this [`config.scss`] file as variables
 /// @group Fonts
-@import '../tokens/tokens';
-
-/// Importing `fucntions.scss` early on in case used at this level
-@import 'functions';
+@use '../tokens/tokens' as *;
 
 
 
 /// Base font family
-/// @group Fonts
-/// @type List
 $font-family-base: map-get($fonts, base) !default;
 
 /// Title font family
-/// @group Fonts
-/// @type List
 $font-family-title: map-get($fonts, title) !default;
 
 /// Secondary font family
-/// @group Fonts
-/// @type List
 $font-family-secondary: map-get($fonts, secondary) !default;
 
 /// Code (monospace) font family
-/// @group Fonts
-/// @type List
 $font-family-code: map-get($fonts, code) !default;
 
 /// Base font size
-/// @group Fonts
-/// @type Length
 $font-size-base: map-get($size-scale, base) !default;
 
 /// Base line height
-/// @group Fonts
-/// @type Length
 $line-height-base: map-get($size-scale, line-height) !default;
 
 
 
 /// Site width (Max)
-/// @group Base Layout
-/// @type Length
 $site-width: map-get($size-scale, site-width) !default;
 
 
 
 /// Copy text color
-/// @group Colours
-/// @type Color
 $font-colour-base: map-get($colors, slate) !default;
 
 /// Main brand color
-/// @group Colours
-/// @type Color
 $brand-color-primary: map-get($colors, primary) !default;
 
 /// Secondary brand color
-/// @group Colours
-/// @type Color
 $brand-color-secondary: map-get($colors, secondary) !default;
 
 /// Tertiary brand color
-/// @group Colours
-/// @type Color
 $brand-color-tertiary: map-get($colors, tertiary) !default;
 
 /// White
-/// @group Colours
-/// @type Color
 $white: #ffffff !default;
 
 /// Light grey
-/// @group Colours
-/// @type Color
 $grey-light: map-get($colors, light) !default;
 
 /// Medium grey
-/// @group Colours
-/// @type Color
 $grey-mid: map-get($colors, mid) !default;
 
 /// Dark grey
-/// @group Colours
-/// @type Color
 $grey-dark: map-get($colors, dark) !default;
 
 /// Black
-/// @group Colours
-/// @type Color
 $black: #000000 !default;
 
 /// Orange custom
-/// @group Colours
-/// @type Color
 $orange-custom: map-get($colors, orange-custom) !default;
 
 /// Green custom
-/// @group Colours
-/// @type Color
 $green-custom: map-get($colors, green-custom) !default;
 
 /// Green custom light
-/// @group Colours
-/// @type Color
 $green-custom-light: map-get($colors, green-custom-light) !default;
 
 /// Green custom dark
-/// @group Colours
-/// @type Color
 $green-custom-dark: map-get($colors, green-custom-dark) !default;
 
 
 
 /// Media query x-small (viewport) width
-/// @group Media Queries
-/// @type Length
 $breakpoint-x-small: map-get($breakpoints, x-small) !default;
 
 /// Media query small (viewport) width
-/// @group Media Queries
-/// @type Length
 $breakpoint-small: map-get($breakpoints, small) !default;
 
 /// Media query medium (viewport) width
-/// @group Media Queries
-/// @type Length
 $breakpoint-medium: map-get($breakpoints, medium) !default;
 
 /// Media query large (viewport) width
-/// @group Media Queries
-/// @type Length
 $breakpoint-large: map-get($breakpoints, large) !default;
 
 /// Media query x-large (viewport) width
-/// @group Media Queries
-/// @type Length
 $breakpoint-x-large: map-get($breakpoints, x-large) !default;
 
 
 
 /// Relative or absolute URL where all assets are served from
-/// @group Paths
-/// @type String
-/// @example scss - When using a CDN
 /// $base-url: 'http://cdn.example.com/assets/';
 $base-url: '/assets/' !default;

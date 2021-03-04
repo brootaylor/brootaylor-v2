@@ -2,6 +2,10 @@
  * Footer styles
  **********************************************************/
 
+@use '../../../../styles/abstracts' as *;
+@use '../../../../styles/utilities' as *;
+
+
 #footer {
   background-color: var(--grey-light);
   padding: 1rem 0 2rem;

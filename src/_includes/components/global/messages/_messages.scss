@@ -1,3 +1,6 @@
+@use '../../../../styles/abstracts' as *;
+
+
 .message {
   // Create `--message-background` and `--message-text` variables scoped to this class
   background: var(--message-background);

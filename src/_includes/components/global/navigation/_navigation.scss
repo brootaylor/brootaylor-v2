@@ -2,7 +2,10 @@
  * Main navigation styles
  **********************************************************/
 
- .navigation {
+@use '../../../../styles/abstracts' as *;
+@use '../../../../styles/utilities' as *;
+
+.navigation {
   @extend %flow;
 
   a {
@@ -38,4 +41,4 @@
     }
   }
 
- }
+}

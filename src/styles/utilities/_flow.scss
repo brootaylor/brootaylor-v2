@@ -3,12 +3,7 @@
 /// Add the `.flow` utility class to an element / component to benefit from the 'flow-space'.
 ///
 /// @link https://24ways.org/2018/managing-flow-and-rhythm-with-css-custom-properties/ Managing Flow and Rhythm with CSS Custom Properties
-/// @group Utility Classes
-///
-/// @example scss - Sass Usage
-///   .flow {
-///     @extend %flow;
-///   }
+
 %flow {
   --flow-space: 1em; // `em` value used cause wanting this value to be relative to it's context.
 

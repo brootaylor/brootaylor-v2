@@ -1,81 +1,30 @@
 @charset 'UTF-8';
 
 /***************************************
- * Configuration (Pulls from design tokens `_tokens.scss` Sass map
+ * Global reset, global & base rules, :root custom CSS properties
  */
- @import
- 'abstracts/config';
-
+@use 'global' as *;
 
 /***************************************
- * Let's set /reset a few things first
+ * Utility classes
  */
-@import
-  'global/reset';
-
-
-/***************************************
- * SASS helpers
- * eg. variables, functions, placeholders and :root custom CSS properties
- */
-@import
-  'abstracts/functions',
-  'abstracts/mixins',
-  'abstracts/custom-properties';
-
-
-/***************************************
- * Global / base
- */
-@import
-  'global/typography',
-  'global/base',
-  'global/grid';
-
-
-/***************************************
- * Stuff to help out the rest
- */
-// Utility classes
-@import
-  'utilities/wrapper',
-  'utilities/flow',
-  'utilities/no-list',
-  'utilities/observers',
-  'utilities/visually-hidden',
-  'utilities/hidden';
-
+@use 'utilities' as *;
 
 /***************************************
  * Components
  */
 
 // Core
-@import
-  '../_includes/components/core/lists/lists',
-  '../_includes/components/core/links/links',
-  '../_includes/components/core/blockquotes/blockquotes',
-  '../_includes/components/core/buttons/buttons',
-  '../_includes/components/core/icons/icons',
-  '../_includes/components/core/images/images',
-  '../_includes/components/core/videos/videos',
-  '../_includes/components/core/forms/forms';
+@use '../_includes/components/core' as *;
 
 // Global
-@import
-  '../_includes/components/global/logo/logo',
-  '../_includes/components/global/navigation/navigation',
-  '../_includes/components/global/header/header',
-  '../_includes/components/global/footer/footer',
-  '../_includes/components/global/messages/messages';
+@use '../_includes/components/global' as *;
 
 // Units
-@import
-  '../_includes/components/units/card/card';
+@use '../_includes/components/units' as *;
 
 
 /***************************************
  * Page-specific
  */
-// @import
-//   'pages/home';
+// @use 'pages' as *;

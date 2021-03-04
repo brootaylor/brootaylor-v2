@@ -2,12 +2,14 @@
  * "Root" custom CSS properties / variables
  ******************************************/
 
+@use '../abstracts/config' as *;
+@use '../abstracts/functions' as *;
+
+
 /// Custom CSS Properties set on the `:root`
 ///
 /// They are global placeholder values that can then be overridden in local CSS declaration scopes.
-///
-/// @group Custom CSS Properties
-/// @link https://developer.mozilla.org/en-US/docs/Web/CSS/--*
+
 :root {
   /* Fonts */
   --font-family-base: #{unquote(#{$font-family-base})};

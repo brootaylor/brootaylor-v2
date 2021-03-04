@@ -2,6 +2,9 @@
  * Various Mixins (Global).
  **********************************************************/
 
+@use 'config' as *;
+@use 'functions' as *;
+
 
 /// Font size coversion to REM
 ///

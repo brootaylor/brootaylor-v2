@@ -2,11 +2,13 @@
  * Card block (Global).
  **********************************************************/
 
+@use '../../../../styles/abstracts' as *;
+
 
 /// Standard card object.
 ///
 /// Typically horizontal layout with image to the left or right. It will 'stack' at smaller screen (viewport) and/or (container) sizes.
-/// @group Card Component
+
 .card {
 	display: flex;
   flex-direction: column;
