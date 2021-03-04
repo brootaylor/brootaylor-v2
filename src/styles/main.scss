@@ -1,27 +1,27 @@
-@charset 'UTF-8'; // IS THIS NEEDED?
+@charset 'UTF-8';
 
 /***************************************
- * Global / base / resets and :root custom CSS properties
+ * Global reset, global & base rules, :root custom CSS properties
  */
 @use 'global' as *;
 
-
-// Utility classes
-@use 'utilities' as *; // Pull in all utilities
-
+/***************************************
+ * Utility classes
+ */
+@use 'utilities' as *;
 
 /***************************************
  * Components
  */
 
 // Core
-@use '../_includes/components/core' as *; // Pull in all core components
+@use '../_includes/components/core' as *;
 
 // Global
-@use '../_includes/components/global' as *; // Pull in all global components
+@use '../_includes/components/global' as *;
 
 // Units
-@use '../_includes/components/units' as *; // Pull in all unit components
+@use '../_includes/components/units' as *;
 
 
 /***************************************
