@@ -56,5 +56,30 @@ collections:
       - {label: "Categories", name: "category", widget: "list", allow_add: true}
       - {label: "Body", name: "body", widget: "markdown"}
 
+  # 'Links'
+  - name: "links"
+    label: "Links"
+    folder: "src/_content/links"
+    slug: "{{slug}}"
+    preview_path: "writing/{{year}}-{{month}}-{{day}}/{{slug}}" # A deployment preview URL. Allows a preview of the URL that's not on the production domain
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Meta Description", name: "summary", description: "This populates the page's meta decsription field", widget: "string"}
+      - {label: "Lead", name: "lead", widget: "string"}
+      - {label: "Link URL", name: "linkExternal", widget: "string"}
+      - {label: "Link Label", name: "linkLabel", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime", picker_utc: false}
+      - {label: "Updated Date", name: "updated", widget: "datetime", picker_utc: false}
+      - label: "Location"
+        name: "location"
+        widget: "object"
+        collapsed: true
+        fields:
+          - {label: "locality", name: "locality", widget: "string", default: "Crawley"}
+          - {label: "Country", name: "country-name", widget: "string", default: "United Kingdom"}
+      - {label: "Categories", name: "category", widget: "list", allow_add: true}
+      - {label: "Body", name: "body", widget: "markdown"}
+
 
 
