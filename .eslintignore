@@ -1,2 +1,3 @@
 # Don't eslint any JS files in the "www" directory
 www/**/*.js
+www/**/*.mjs

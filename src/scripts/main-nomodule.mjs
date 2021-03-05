@@ -4,11 +4,11 @@
  */
 
 // These are the imports...
-// import { helloFooA, helloFooB } from './modules/foo.mjs'; // Named imports
-// import bar from './modules/bar.mjs'; // Default import
-// import observers from './modules/observers.mjs'; // Default import
-import objectFitPolyfill from './modules/objectFitPolyfill.mjs'; // Default import
-// import { carousel } from '../_includes/components/units/carousel/carousel.mjs'; // Named import
+// import { helloFooA, helloFooB } from './modules/foo'; // Named imports
+// import bar from './modules/bar'; // Default import
+// import observers from './modules/observers'; // Default import
+import objectFitPolyfill from './modules/objectFitPolyfill'; // Default import
+// import { carousel } from '../_includes/components/units/carousel/carousel'; // Named import
 
 const version = '{{version}}';
 const name = '{{name}}';
