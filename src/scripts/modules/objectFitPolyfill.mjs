@@ -7,7 +7,7 @@
 // Ref: https://github.com/fregante/object-fit-images
 import objectFitImages from 'object-fit-images';
 
-export default function() {
+export default function () {
   /**
    * Object fit function
    */
@@ -18,5 +18,4 @@ export default function() {
   };
 
   return objectFitPolyfill(); // Makes method available publicly
-
-};
+}
