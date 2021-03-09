@@ -4,7 +4,7 @@
 
 // These are the imports...
 import { compareAsc, compareDesc, format } from 'date-fns'; // Named imports
-import { person, contact, dates } from './utils.mjs'; // Named imports
+import { person, contact, dates } from './utils'; // Named imports
 
 const helloFooA = () => {
   // Grouping the console logging
@@ -62,7 +62,7 @@ const helloFooB = () => {
   // Select close button, add remove card element when clicked
   const buttonClose = document.querySelector('.close');
 
-  if(buttonClose) {
+  if (buttonClose) {
     console.log('Found the close button!');
     buttonClose.addEventListener('click', cardRemove);
   } else {

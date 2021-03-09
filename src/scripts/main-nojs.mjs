@@ -9,4 +9,4 @@ const versionPrintOut = `${name}.${version}`;
 
 console.info(versionPrintOut);
 
-console.info("No JS being generated for this website at the moment.")
+console.info('No JS being generated for this website at the moment.');

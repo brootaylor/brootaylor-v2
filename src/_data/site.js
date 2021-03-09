@@ -1,4 +1,4 @@
-const { DateTime } = require("luxon");
+const { DateTime } = require('luxon');
 
 module.exports = {
   name: 'Bruce Taylor',
@@ -36,6 +36,6 @@ module.exports = {
   author: {
     name: 'Bruce Taylor',
     url: 'https://brootaylor.com',
-    email: 'brootaylor@gmail.com'
+    email: 'brootaylor@gmail.com',
   },
 };

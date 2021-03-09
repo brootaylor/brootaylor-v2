@@ -6,7 +6,7 @@ module.exports = {
   browser: ['google chrome'],
   open: 'local',
   startPath: '/',
-  logPrefix: 'Bruce Taylor\'s website',
+  logPrefix: "Bruce Taylor's website",
   logLevel: 'debug',
   callbacks: {
     ready(err, browserSync) {
@@ -20,7 +20,7 @@ module.exports = {
     },
   },
   ui: {
-    port: 8080
+    port: 8080,
   },
-  ghostMode: false
+  ghostMode: false,
 };
