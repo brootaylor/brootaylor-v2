@@ -8,6 +8,9 @@ backend:
 publish_mode: editorial_workflow # Ensures content goes through workflow first, ("Drafts" --> "In Review" --> "Ready"), before being published
 media_folder: "src/assets/images/uploads" # Media files will be stored in the repo under src/assets/images/uploads
 public_folder: "/assets/images/uploads" # The src attribute for uploaded media will begin with /assets/images/uploads
+site_url: https://brootaylor.com
+display_url: https://brootaylor.com
+logo_url: https://brootaylor.com/assets/images/common/logo.png
 
 collections:
   # 'Writing'
@@ -16,10 +19,11 @@ collections:
     folder: "src/_content/writing"
     slug: "{{slug}}"
     preview_path: "writing/{{year}}-{{month}}-{{day}}/{{slug}}" # A deployment preview URL. Allows a preview of the URL that's not on the production domain
+    description: "Let's see where this description field appears"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Meta Description", name: "summary", description: "This populates the page's meta decsription field", widget: "string"}
+      - {label: "Meta Description", name: "summary", widget: "string"}
       - {label: "Lead", name: "lead", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime", picker_utc: false}
       - {label: "Updated Date", name: "updated", widget: "datetime", picker_utc: false}
@@ -43,7 +47,7 @@ collections:
     create: true
     fields:
       - {label: "File Name", name: "file-name", widget: "string"}
-      - {label: "Meta Description", name: "summary", description: "This populates the page's meta decsription field", widget: "string"}
+      - {label: "Meta Description", name: "summary", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime", picker_utc: false}
       - {label: "Updated Date", name: "updated", widget: "datetime", picker_utc: false}
       - label: "Location"
@@ -65,7 +69,7 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Meta Description", name: "summary", description: "This populates the page's meta decsription field", widget: "string"}
+      - {label: "Meta Description", name: "summary", widget: "string"}
       - {label: "Lead", name: "lead", widget: "string"}
       - {label: "Link URL", name: "linkExternal", widget: "string"}
       - {label: "Link Label", name: "linkLabel", widget: "string"}
