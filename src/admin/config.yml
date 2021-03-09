@@ -14,12 +14,12 @@ logo_url: https://brootaylor.com/assets/images/common/logo.png
 
 collections:
   # 'Writing'
-  - name: "writing"
-    label: "Writing"
+  - label: "Writing"
+    name: "writing"
+    description: "Here you'll find a few of my thoughts on a variety of things. Some web tech related, some philosophical, some of a religious nature and some just me trying to process something as honestly as I can."
     folder: "src/_content/writing"
     slug: "{{slug}}"
     preview_path: "writing/{{year}}-{{month}}-{{day}}/{{slug}}" # A deployment preview URL. Allows a preview of the URL that's not on the production domain
-    description: "Let's see where this description field appears"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -38,8 +38,9 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
 
   # 'Notes'
-  - name: "notes"
-    label: "Notes"
+  - label: "Notes"
+    name: "notes"
+    description: "Quick notes, thoughts and ramblings."
     folder: "src/_content/notes"
     identifier_field: "file-name" # Changing `identifier_field` to `file-name` so that default `title` isn't used in this instance
     slug: "{{file-name}}"
@@ -61,8 +62,9 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
 
   # 'Links'
-  - name: "links"
-    label: "Links"
+  - label: "Links"
+    name: "links"
+    description: "Links to articles and various things I've enjoyed and found interesting. Technical and non-technical. Quite a few of them offer perspectives / advice I appreciate."
     folder: "src/_content/links"
     slug: "{{slug}}"
     preview_path: "writing/{{year}}-{{month}}-{{day}}/{{slug}}" # A deployment preview URL. Allows a preview of the URL that's not on the production domain
