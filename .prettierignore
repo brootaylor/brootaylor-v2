@@ -1,3 +1,8 @@
-# Ignore all YAML / YML files:
+# Ignore these files:
 *.yaml
 *.yml
+package-lock.json
+
+# Ignore these directories
+node_modules
+www
