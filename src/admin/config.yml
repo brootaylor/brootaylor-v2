@@ -5,6 +5,15 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 
+# when using the default proxy server port
+# local_backend: true
+
+local_backend:
+  # when using a custom proxy server port
+  url: http://localhost:8082/api/v1
+  # when accessing the local site from a host other than 'localhost' or '127.0.0.1'
+  allowed_hosts: ['192.168.0.1']
+
 publish_mode: editorial_workflow # Ensures content goes through workflow first, ("Drafts" --> "In Review" --> "Ready"), before being published
 media_folder: "src/assets/images/uploads" # Media files will be stored in the repo under src/assets/images/uploads
 public_folder: "/assets/images/uploads" # The src attribute for uploaded media will begin with /assets/images/uploads
