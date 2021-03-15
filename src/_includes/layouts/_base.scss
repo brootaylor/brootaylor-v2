@@ -2,8 +2,8 @@
  * Base styles that affect the entire website
  *********************************************/
 
-@use '../abstracts' as *;
-@use '../utilities/flow' as *;
+@use '../../styles/abstracts' as *;
+@use '../../styles/utilities/flow' as *;
 
 
 html {

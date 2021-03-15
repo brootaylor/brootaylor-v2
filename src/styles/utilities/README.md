@@ -1,3 +1,3 @@
 # Utilities
 
-The `utilities/` folder...
+These are helper classes like `.wrapper`, `.flow`, `.visually-hidden` etc.
