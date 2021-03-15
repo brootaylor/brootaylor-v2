@@ -4,8 +4,8 @@
 
 /// Design Tokens.
 ///
-/// 1. These "design token" values are generated dynamically from a JSON (data) file [`token.json`] into a Sass map [`tokens.scss`].
-/// 2. These Sass map values are then called in this [`config.scss`] file as variables
+/// 1. These "design token" values are generated dynamically from a concatenation of the `.json` files (in the root `tokens/` directory) into a Sass map [`tokens/_tokens.scss`].
+/// 2. These Sass map values are then called in this [`config.scss`] file and declared as variables
 /// @group Fonts
 @use '../tokens/tokens' as *;
 
