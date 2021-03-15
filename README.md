@@ -57,12 +57,13 @@ It's deployed by and hosted with [Netlify](https://www.netlify.com/).
 Possible features / enhancements for the future:
 
 1.  Light / Dark Theme option
-2.  [IndieWeb](https://indieweb.org/) & [Webmention](https://indieweb.org/Webmention)
-3.  Make better use of utility classes
-4.  Post read time
-5.  Tags / categories
-6.  Pagination
-7.  Styleguide (list of the components)
+2.  Implement [Cloudinary](https://cloudinary.com/) for images
+3.  [IndieWeb](https://indieweb.org/) & [Webmention](https://indieweb.org/Webmention)
+4.  Make better use of utility classes
+5.  Post read time
+6.  Tags / categories
+7.  Pagination
+8.  Styleguide (list of the components)
 
 ---
 
