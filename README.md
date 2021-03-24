@@ -20,7 +20,7 @@ It's deployed by and hosted with [Netlify](https://www.netlify.com/).
 
 ---
 
-❗️**NOTE:** I've made the code public but it is for my personal website, so please can I ask you not to copy everything wholesale. By all means learn from it (as I'm trying to do). Thank you.
+❗️**NOTE:** I've made the code public but it is for my personal website, so please can I ask you not to copy everything wholesale. By all means learn from it (*as I'm trying to do*). Thank you.
 
 ---
 
