@@ -18,7 +18,8 @@ category:
 ---
 Jesse Frederik says this near the start of this article:
 
-> I’m sure I wasn’t the only one who thought: but what is it then, for God’s sake, this whole blockchain thing? And what’s so terribly revolutionary about it? What problem does it solve? 
+> I’m sure I wasn’t the only one who thought: but what is it then, for God’s sake, this whole blockchain thing? And what’s so terribly revolutionary about it? What problem does it solve?
+>
 >
 > That’s why I wrote this article. I can tell you upfront, it’s a bizarre journey to nowhere. I’ve never seen so much incomprehensible jargon to describe so little. I’ve never seen so much bloated bombast fall so flat on closer inspection. And I’ve never seen so many people searching so hard for a problem to go with their solution.
 
