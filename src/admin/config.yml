@@ -77,7 +77,7 @@ collections:
     description: "Links to articles and various things I've enjoyed and found interesting. Technical and non-technical. Quite a few of them offer perspectives / advice I appreciate."
     folder: "src/_content/links"
     slug: "{{slug}}"
-    preview_path: "writing/{{year}}-{{month}}-{{day}}/{{slug}}" # A deployment preview URL. Allows a preview of the URL that's not on the production domain
+    preview_path: "links/{{year}}-{{month}}-{{day}}/{{slug}}" # A deployment preview URL. Allows a preview of the URL that's not on the production domain
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
