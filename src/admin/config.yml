@@ -34,7 +34,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Meta Description", name: "summary", widget: "string"}
-      - {label: "Lead", name: "lead", widget: "string"}
+      - {label: "Lead", name: "lead", widget: "string", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime", picker_utc: false}
       - {label: "Updated Date", name: "updated", widget: "datetime", picker_utc: false}
       - label: "Location"
@@ -82,7 +82,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Meta Description", name: "summary", widget: "string"}
-      - {label: "Lead", name: "lead", widget: "string"}
+      - {label: "Lead", name: "lead", widget: "string" required: false}
       - {label: "Link URL", name: "linkExternal", widget: "string"}
       - {label: "Link Label", name: "linkLabel", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime", picker_utc: false}
