@@ -5,8 +5,8 @@ summary: This is the market for magic, and that market is big. Whether it’s
 lead: ""
 linkExternal: https://thecorrespondent.com/655/blockchain-the-amazing-solution-for-almost-nothing/86649455475-f933fe63
 linkLabel: thecorrespondent.com
-date: 2021-03-29T13:42:50.437Z
-updated: 2021-03-29T13:42:51.630Z
+date: 2021-03-29T13:47:07.941Z
+updated: 2021-03-29T13:47:08.975Z
 location:
   locality: Crawley
   country-name: United Kingdom
@@ -16,13 +16,13 @@ category:
   - cryptocurrency
   - hype
 ---
-Jesse Frederik says this near the start of this article:
+Jesse Frederik says this near the start of the article:
 
 > I’m sure I wasn’t the only one who thought: but what is it then, for God’s sake, this whole blockchain thing? And what’s so terribly revolutionary about it? What problem does it solve?
 >
 > That’s why I wrote this article. I can tell you upfront, it’s a bizarre journey to nowhere. I’ve never seen so much incomprehensible jargon to describe so little. I’ve never seen so much bloated bombast fall so flat on closer inspection. And I’ve never seen so many people searching so hard for a problem to go with their solution.
 
-And for those interested in the environmental effect:
+And a mention about the potential environmental effect:
 
 > Carrying out a payment with Visa requires about 0.002 kilowatt-hours; the same payment with bitcoin uses up 906 kilowatt-hours, more than half a million times as much, and enough to power a two-person household for about three months...
 >
