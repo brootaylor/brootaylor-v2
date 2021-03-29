@@ -3,9 +3,11 @@
  **********************************************************/
 
 @use '../../../../styles/abstracts' as *;
+@use '../../../../styles/utilities' as *;
 
 
 blockquote {
+  @extend %flow;
   @include font-size(20px);
   display: block;
   margin-left: 0;
@@ -36,6 +38,5 @@ blockquote {
   footer {
     font-style: normal;
     font-size: 0.95rem;
-    margin-top: 1em;
   }
 }

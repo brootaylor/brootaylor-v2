@@ -27,23 +27,23 @@ It's deployed by and hosted with [Netlify](https://www.netlify.com/).
 ## Features
 
 * 🌶 [Progressively enhanced](https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement), semantic and accessible
-* 🚀 [Performance budgeting](https://github.com/brootaylor/brootaylor-v2/blob/master/config/budget.json)
-* 🌐 [Browser support config](https://github.com/brootaylor/brootaylor-v2/blob/master/.browserslistrc)
+* 🚀 [Performance budgeting](https://github.com/brootaylor/brootaylor-v2/blob/main/config/budget.json)
+* 🌐 [Browser support config](https://github.com/brootaylor/brootaylor-v2/blob/main/.browserslistrc)
 * ✅ [Accessibility test runner](https://github.com/pa11y/pa11y-ci)
 * 🌈 [Sass](https://sass-lang.com/) powered CSS system using the [Dart Sass implementation](https://sass-lang.com/dart-sass) - (utilising modern [custom CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*) and methods)
-* 🧩 [Design Tokens](https://github.com/brootaylor/brootaylor-v2/tree/master/tokens)
-* 🎳 [JS config to handle code-splitting](https://github.com/brootaylor/brootaylor-v2/blob/master/config/rollup.config.js) (ie. splitting code into smaller chunks to be loaded on demand)
-* 🎛 [Site & build config](https://github.com/brootaylor/brootaylor-v2/blob/master/netlify.toml)
-* 🛄 [Selective build outputs](https://github.com/brootaylor/brootaylor-v2/blob/master/.eleventyignore) using `.eleventyignore`
-* ↩️ [Redirects](https://github.com/brootaylor/brootaylor-v2/blob/master/src/_redirects) for local `netlify dev`
-* 🌍 [Customisable global data](https://github.com/brootaylor/brootaylor-v2/blob/master/src/_data/site.js)
+* 🧩 [Design Tokens](https://github.com/brootaylor/brootaylor-v2/tree/main/tokens)
+* 🎳 [JS config to handle code-splitting](https://github.com/brootaylor/brootaylor-v2/blob/main/config/rollup.config.js) (ie. splitting code into smaller chunks to be loaded on demand)
+* 🎛 [Site & build config](https://github.com/brootaylor/brootaylor-v2/blob/main/netlify.toml)
+* 🛄 [Selective build outputs](https://github.com/brootaylor/brootaylor-v2/blob/main/.eleventyignore) using `.eleventyignore`
+* ↩️ [Redirects](https://github.com/brootaylor/brootaylor-v2/blob/main/src/_redirects) for local `netlify dev`
+* 🌍 [Customisable global data](https://github.com/brootaylor/brootaylor-v2/blob/main/src/_data/site.js)
 * 🎨 Page-specific art direction. `head` and `foot` metadata fields enable things like styles, fonts, SVGs & JS
 * Dynamically generated...
-  * [`serviceworker.js`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/serviceworker.njk)
-  * [`manifest.json`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/manifest.njk)
-  * [`sitemap.xml`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/sitemap.njk)
-  * [`robots.txt`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/robots.njk)
-  * [`feed.xml`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/feed.njk)
+  * [`serviceworker.js`](https://github.com/brootaylor/brootaylor-v2/blob/main/src/serviceworker.njk)
+  * [`manifest.json`](https://github.com/brootaylor/brootaylor-v2/blob/main/src/manifest.njk)
+  * [`sitemap.xml`](https://github.com/brootaylor/brootaylor-v2/blob/main/src/sitemap.njk)
+  * [`robots.txt`](https://github.com/brootaylor/brootaylor-v2/blob/main/src/robots.njk)
+  * [`feed.xml`](https://github.com/brootaylor/brootaylor-v2/blob/main/src/feed.njk)
 * [JAMstack](https://jamstack.org/) methodology
 * [Eleventy](https://www.11ty.io/) (SSG)
 * [Netlify](https://www.netlify.com/)
@@ -169,7 +169,7 @@ The changes will deploy to the live Netlify instance.
 
 * My preferred method is to host on [Netlify](http://www.netlify.com)
 * This build process runs in a CI environment and then deploys the build automatically to a global CDN.
-* Such deployments are [triggered automatically](https://www.netlify.com/docs/continuous-deployment/) by every git push to the `master` branch of the origin repository.
+* Such deployments are [triggered automatically](https://www.netlify.com/docs/continuous-deployment/) by every git push to the `main` branch of the origin repository.
 
 ---
 
@@ -278,7 +278,7 @@ npm version patch -m "Upgraded to version %s. Updated the service worker."
 
 This is the branching model I use when version controlling my code.
 
-**Production branch**: `master`
+**Production branch**: `main`
 
 ```md
 - This is the branch for deploying code ready for release.
@@ -297,7 +297,7 @@ This is the branching model I use when version controlling my code.
 ```md
 - The `feature/` branches use `develop` as their parent branch.
 - When a feature is complete, it gets merged back into develop.
-- Features should never interact directly with master.
+- Features should never interact directly with main.
 ```
 
 **Release branch**: `release/`
@@ -306,7 +306,7 @@ This is the branching model I use when version controlling my code.
 - Once develop has acquired enough features for a release, (or a predetermined release date is approaching),
   fork a `release/` branch off of `develop`.
 - At this point a new `major`, `minor` or `patch` version should be generated. (See "Versioning" section).
-- The `release/` branch is then merged into both the `master` (production) and `develop` branches.
+- The `release/` branch is then merged into both the `main` (production) and `develop` branches.
 - The release branch can then be deleted.
 ```
 
@@ -319,9 +319,9 @@ This is the branching model I use when version controlling my code.
 **Hotfix branch**: `hotfix/`
 
 ```md
-- The `hotfix/` branches are used to fix the production branch, `master`, without interrupting changes in the development branch.
+- The `hotfix/` branches are used to fix the production branch, `main`, without interrupting changes in the development branch.
 - Usually used to fix urgent bugs on production, that have a high impact.
-- The `hotfix/` branch is then merged into both the `master` (production) and `develop` branches.
+- The `hotfix/` branch is then merged into both the `main` (production) and `develop` branches.
 ```
 
 ## Split Test branching

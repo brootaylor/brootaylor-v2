@@ -3,7 +3,7 @@
 
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  branch: main
 
 # when using the default proxy server port
 # local_backend: true
@@ -34,7 +34,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Meta Description", name: "summary", widget: "string"}
-      - {label: "Lead", name: "lead", widget: "string"}
+      - {label: "Lead", name: "lead", widget: "string", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime", picker_utc: false}
       - {label: "Updated Date", name: "updated", widget: "datetime", picker_utc: false}
       - label: "Location"
@@ -77,12 +77,12 @@ collections:
     description: "Links to articles and various things I've enjoyed and found interesting. Technical and non-technical. Quite a few of them offer perspectives / advice I appreciate."
     folder: "src/_content/links"
     slug: "{{slug}}"
-    preview_path: "writing/{{year}}-{{month}}-{{day}}/{{slug}}" # A deployment preview URL. Allows a preview of the URL that's not on the production domain
+    preview_path: "links/{{year}}-{{month}}-{{day}}/{{slug}}" # A deployment preview URL. Allows a preview of the URL that's not on the production domain
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Meta Description", name: "summary", widget: "string"}
-      - {label: "Lead", name: "lead", widget: "string"}
+      - {label: "Lead", name: "lead", widget: "string", required: false}
       - {label: "Link URL", name: "linkExternal", widget: "string"}
       - {label: "Link Label", name: "linkLabel", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime", picker_utc: false}
