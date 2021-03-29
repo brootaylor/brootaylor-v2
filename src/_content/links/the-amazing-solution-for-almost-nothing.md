@@ -5,8 +5,8 @@ summary: This is the market for magic, and that market is big. Whether it’s
 lead: ""
 linkExternal: https://thecorrespondent.com/655/blockchain-the-amazing-solution-for-almost-nothing/86649455475-f933fe63
 linkLabel: thecorrespondent.com
-date: 2021-03-29T13:05:53.687Z
-updated: 2021-03-29T13:05:54.473Z
+date: 2021-03-29T13:17:57.823Z
+updated: 2021-03-29T13:17:58.859Z
 location:
   locality: Crawley
   country-name: United Kingdom
