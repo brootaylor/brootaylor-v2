@@ -1,7 +1,7 @@
 ---
 title: "Quantum to Cosmos"
+# Populates the `meta description` for a page
 summary: "Travel from the subatomic scale to the farthest reaches of the cosmos."
-lead: ""
 linkExternal: "https://quantumtocosmos.ca/"
 linkLabel: "quantumtocosmos.ca"
 

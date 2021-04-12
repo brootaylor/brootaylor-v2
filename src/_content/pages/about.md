@@ -8,7 +8,7 @@ lead:
 bodyClass: "about"
 
 date: 2020-04-24T19:33:00
-updated: 2021-04-12T12:34:00
+updated: 2021-04-12T14:29:00
 ---
 
 I'm originally from South Africa and grew up on a dairy farm in a very [beautiful part of the country](https://youtu.be/bGQbM3QfA5w). Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking in the mountains, canoeing, fishing and sport. Funny how things turn out sometimes eh!

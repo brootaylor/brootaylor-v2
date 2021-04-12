@@ -1,7 +1,7 @@
 ---
 title: "Mark Price Photography"
+# Populates the `meta description` for a page
 summary: "This is a shameless plug of Mark Price's photography."
-lead: ""
 linkExternal: "https://www.mark-price.photography/"
 linkLabel: "mark-price.photography"
 

@@ -1,7 +1,7 @@
 ---
 title: "The web didn't change; you did"
+# Populates the `meta description` for a page
 summary: "Web development did not change. Web development grew. There are more options now, not different options."
-lead: ""
 linkExternal: "https://remysharp.com/2021/02/11/the-web-didnt-change-you-did"
 linkLabel: "remysharp.com"
 

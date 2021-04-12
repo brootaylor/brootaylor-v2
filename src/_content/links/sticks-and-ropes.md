@@ -1,7 +1,10 @@
 ---
 title: "Sticks and Ropes"
+# Populates the `meta description` for a page
 summary: "Am I a stick or a rope? Am I one that binds people together or one that creates division and bruises?"
-lead: "How good an observation is this! Never thought about it this way."
+# Populates the opening / `lead` text on a page
+lead:
+  - "How good an observation is this! Never thought about it this way."
 linkExternal: "https://daverupert.com/2019/08/sticks-and-ropes/"
 linkLabel: "daverupert.com"
 

@@ -1,7 +1,7 @@
 ---
 title: "Is Progressive Enhancement Dead Yet?"
+# Populates the `meta description` for a page
 summary: "Heydon Pickering has started doing some fab videos again."
-lead: ""
 linkExternal: "https://briefs.video/videos/is-progressive-enhancement-dead-yet/"
 linkLabel: "briefs.video"
 

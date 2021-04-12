@@ -1,7 +1,10 @@
 ---
 title: "Simplicity (II)"
+# Populates the `meta description` for a page
 summary: "When everything works, it feels like magic. When something breaks, it’s hell."
-lead: "Bastian Allgeier wonderfully articulates what many – (more than likely most!) – of us are probably thinking anyway but unsure whether we should break cover or not."
+# Populates the opening / `lead` text on a page
+lead:
+  - "Bastian Allgeier wonderfully articulates what many – (more than likely most!) – of us are probably thinking anyway but unsure whether we should break cover or not."
 linkExternal: "https://bastianallgeier.com/notes/simplicity-part-2"
 linkLabel: "bastianallgeier.com"
 

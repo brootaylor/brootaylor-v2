@@ -1,7 +1,7 @@
 ---
 title: "Today’s Javascript, from an outsider’s perspective"
+# Populates the `meta description` for a page
 summary: "Today’s Javascript, from an outsider’s perspective. - Lea Verou"
-lead: ""
 linkExternal: "http://lea.verou.me/2020/05/todays-javascript-from-an-outsiders-perspective/"
 linkLabel: "lea.verou.me"
 

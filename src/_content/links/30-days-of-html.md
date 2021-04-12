@@ -1,7 +1,7 @@
 ---
 title: "30 Days of HTML"
+# Populates the `meta description` for a page
 summary: Receive one email a day for 30 days, each featuring at least one HTML element.
-lead: ""
 linkExternal: https://jen4web.substack.com/
 linkLabel: jen4web.substack.com
 date: 2021-04-06T18:09:19.823Z

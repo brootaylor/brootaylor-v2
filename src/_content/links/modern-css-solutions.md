@@ -1,7 +1,7 @@
 ---
 title: "Modern CSS Solutions"
+# Populates the `meta description` for a page
 summary: "Modern CSS solutions for old CSS problems."
-lead: ""
 linkExternal: "https://moderncss.dev/"
 linkLabel: "moderncss.dev"
 

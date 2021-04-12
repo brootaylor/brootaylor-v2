@@ -1,7 +1,7 @@
 ---
 title: "Art Direction for Static Sites"
+# Populates the `meta description` for a page
 summary: "Your personal site is your playground."
-lead: ""
 linkExternal: "https://daverupert.com/2021/01/art-direction-for-static-sites/"
 linkLabel: "daverupert.com"
 

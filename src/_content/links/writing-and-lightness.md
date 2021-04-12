@@ -1,7 +1,7 @@
 ---
 title: "Writing and lightness"
+# Populates the `meta description` for a page
 summary: "I think you should write just like you talk."
-lead: ""
 linkExternal: "https://www.robinrendle.com/notes/writing-and-lightness"
 linkLabel: "www.robinrendle.com"
 
