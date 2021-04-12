@@ -1,0 +1,37 @@
+/// Alignment utility class placeholders.
+///
+/// @group Utility Classes
+///
+/// @example scss - Sass Usage
+///   .text_align--left {
+///     @extend %text_align--left;
+///   }
+%text_align--left {
+  text-align: left;
+}
+
+%text_align--center {
+  text-align: center;
+}
+
+%text_align--right {
+  text-align: center;
+}
+
+// `Text align left` utility class
+// Using the `%text_align--left` placeholder
+.text_align--left {
+  @extend %text_align--left;
+}
+
+// `Text align center` utility class
+// Using the `%text_align--center` placeholder
+.text_align--center {
+  @extend %text_align--center;
+}
+
+// `Text align right` utility class
+// Using the `%text_align--right` placeholder
+.text_align--right {
+  @extend %text_align--right;
+}

@@ -1,7 +1,10 @@
 ---
 title: "Links"
+# Populates the `meta description` for a page
 summary: "Links to articles and various things I've enjoyed and found interesting. Technical and non-technical. Quite a few of them offer perspectives / advice I appreciate."
-lead: "Links to articles and various things I've enjoyed and found interesting. Technical and non-technical. Quite a few of them offer perspectives / advice I appreciate."
+# Populates the opening / `lead` text on a page
+lead:
+  - "Links to articles and various things I've enjoyed and found interesting. Technical and non-technical. Quite a few of them offer perspectives / advice I appreciate."
 bodyClass: "links-home"
 
 date: 2020-02-22T22:10:00

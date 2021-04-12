@@ -1,7 +1,10 @@
 ---
 title: "\"The Guy in the Glass\""
+# Populates the `meta description` for a page
 summary: "Dale Wimbrow's poem \"The Guy in the Glass\" moved me deeply so I thought I'd share it here."
-lead: "I attended a dear family friend's memorial recently. A person who really was the salt of the earth. One of his nephews read out the poem, \"<em>The Guy in the Glass</em>\". It moved me deeply so I thought I'd share it here."
+# Populates the opening / `lead` text on a page
+lead:
+  - "I attended a dear family friend's memorial recently. A person who really was the salt of the earth. One of his nephews read out the poem, \"<em>The Guy in the Glass</em>\". It moved me deeply so I thought I'd share it here."
 
 date: 2021-01-11T14:43:00
 updated: 2021-01-11T14:43:00

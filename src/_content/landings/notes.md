@@ -1,7 +1,10 @@
 ---
 title: "Notes"
+# Populates the `meta description` for a page
 summary: "Quick notes, thoughts and ramblings."
-lead: "Quick notes, thoughts and ramblings."
+# Populates the opening / `lead` text on a page
+lead:
+  - "Quick notes, thoughts and ramblings."
 bodyClass: "notes-home"
 
 date: 2020-02-22T22:10:00

@@ -1,7 +1,10 @@
 ---
 title: "A front-end muddle"
+# Populates the `meta description` for a page
 summary: "If you find yourself getting in a muddle about what front-end development entails these days."
-lead: "If you find yourself getting in a muddle about what front-end development entails these days."
+# Populates the opening / `lead` text on a page
+lead:
+  - "If you find yourself getting in a muddle about what front-end development entails these days."
 
 date: 2019-04-11T11:33:00
 updated: 2020-05-10T16:53:00

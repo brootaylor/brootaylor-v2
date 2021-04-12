@@ -1,0 +1,40 @@
+/// Crop utility class placeholders.
+///
+/// @group Utility Classes
+///
+/// @example scss - Sass Usage
+///   .crop--mid {
+///     @extend %crop--mid;
+///   }
+
+@use '../abstracts' as *;
+
+%crop--mid {
+  max-width: convert-to-rem($site-width / 1.5);
+}
+
+%crop--tight {
+  max-width: convert-to-rem($site-width / 2);
+}
+
+%crop--loose {
+  max-width: convert-to-rem($site-width / 1.2);
+}
+
+// Crop utility class
+// Using the `%crop--mid` placeholder
+.crop--mid {
+  @extend %crop--mid;
+}
+
+// Crop utility class
+// Using the `%crop--tight` placeholder
+.crop--tight {
+  @extend %crop--tight;
+}
+
+// Crop utility class
+// Using the `%crop--loose` placeholder
+.crop--loose {
+  @extend %crop--loose;
+}
