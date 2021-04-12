@@ -1,7 +1,10 @@
 ---
 title: "Where is the love?"
+# Populates the `meta description` for a page
 summary: "How did we get it so wrong to applaud attendance of church meetings and mans endeavours and then declare it to be a community that genuinely loves and lays down its life for its members and the world?"
-lead: "How did we get it so wrong to applaud attendance of church meetings and mans endeavours and then declare it to be a community that genuinely loves and lays down its life for its members and the world?"
+# Populates the opening / `lead` text on a page
+lead:
+  - "How did we get it so wrong to applaud attendance of church meetings and mans endeavours and then declare it to be a community that genuinely loves and lays down its life for its members and the world?"
 
 date: 2014-10-02T21:49:00
 updated: 2021-01-08T15:07:00

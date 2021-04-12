@@ -1,7 +1,10 @@
 ---
 title: "Blood, skin and tech wizardry"
+# Populates the `meta description` for a page
 summary: "I can't help thinking that there’s more at stake here if we merely get wrapped up in creating new technologies just because we can."
-lead: "I can't help thinking that there’s more at stake here if we merely get wrapped up in creating new technologies just because we can."
+# Populates the opening / `lead` text on a page
+lead:
+  - "I can't help thinking that there’s more at stake here if we merely get wrapped up in creating new technologies just because we can."
 
 date: 2018-05-01T20:54:00
 updated: 2021-01-09T00:44:00

@@ -1,7 +1,10 @@
 ---
 title: "Styleguide"
+# Populates the `meta description` for a page
 summary: "A styleguide / pattern library of the elements and components that make up my website."
-lead: "A styleguide / pattern library of the elements and components that make up my website."
+# Populates the opening / `lead` text on a page
+lead:
+  - "A styleguide / pattern library of the elements and components that make up my website."
 bodyClass: "styleguide"
 
 date: 2020-05-21T11:11:00

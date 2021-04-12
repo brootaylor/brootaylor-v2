@@ -1,7 +1,10 @@
 ---
 title: "Project-specifc Node version using .nvmrc"
+# Populates the `meta description` for a page
 summary: "Project-specifc Node version using .nvmrc"
-lead: "Project-specifc Node version using .nvmrc"
+# Populates the opening / `lead` text on a page
+lead:
+  - "Project-specifc Node version using .nvmrc"
 
 date: 2021-01-07T15:48:00
 updated: 2021-01-07T15:48:00

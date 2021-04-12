@@ -1,7 +1,10 @@
 ---
 title: "A little perspective at just the right time"
+# Populates the `meta description` for a page
 summary: "I was beginning to think my days in the web designery & developery industry were numbered."
-lead: "I was beginning to think my days in the web designery & developery industry were numbered."
+# Populates the opening / `lead` text on a page
+lead:
+  - "I was beginning to think my days in the web designery & developery industry were numbered."
 
 date: 2014-01-29T22:34:00
 updated: 2021-01-08T14:51:00

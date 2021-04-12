@@ -1,7 +1,7 @@
 ---
 title: "Dabbling with burnout"
+# Populates the `meta description` for a page
 summary: "Dabbling with burnout."
-lead: ""
 
 date: 2020-05-27T13:20:00
 updated: 2020-05-27T13:20:00

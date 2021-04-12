@@ -1,7 +1,7 @@
 ---
 title: "Escaping the pickling jar"
+# Populates the `meta description` for a page
 summary: "A poem I wrote."
-lead: ""
 
 date: 2014-10-16T10:12:00
 updated: 2021-01-08T15:56:00

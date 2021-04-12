@@ -1,7 +1,10 @@
 ---
 title: "Peter Hart."
-summary: "Today I lost a very dear friend."
-lead: "Today I lost a very dear friend and I'm still reeling in disbelief. Pete's his name. Peter Hart."
+# Populates the `meta description` for a page
+summary: "Today I lost a very dear friend. Pete's his name. Peter Hart."
+# Populates the opening / `lead` text on a page
+lead:
+  - "Today I lost a very dear friend and I'm still reeling in disbelief. Pete's his name. Peter Hart."
 
 date: 2020-05-12T21:16:00
 updated: 2020-05-15T15:53:00

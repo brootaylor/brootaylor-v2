@@ -1,7 +1,10 @@
 ---
 title: "Reset"
+# Populates the `meta description` for a page
 summary: "It feels like a reset. A reboot on every level. Things I thought I knew for certain, I now question."
-lead: "It feels like a reset. A reboot on every level. Things I thought I knew for certain, I now question."
+# Populates the opening / `lead` text on a page
+lead:
+  - "It feels like a reset. A reboot on every level. Things I thought I knew for certain, I now question."
 
 date: 2016-10-15T08:34:00
 updated: 2021-01-08T18:23:00

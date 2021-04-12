@@ -1,8 +1,8 @@
 ---
 layout: "layouts/homepage.njk"
 title: "Hi, I'm Bruce."
-summary: "I’m an independent Web Developer living in West Sussex, England and have been helping people build & enhance their websites for a number of years."
-lead: ""
+# Populates the `meta description` for a page
+summary: "I’m an independent Web Developer / Consultant living in West Sussex, England and have been helping people build & enhance their websites for a number of years."
 
 # Page-specific metadata content added to the `<head>`
 # head: "

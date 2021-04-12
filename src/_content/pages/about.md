@@ -1,7 +1,10 @@
 ---
 title: "About me"
-summary: "I’m an independent Web Developer & Consultant living in West Sussex, England and have been helping people build & enhance their websites for a number of years."
-lead: ""
+# Populates the `meta description` for a page
+summary: "I’m an independent Web Developer / Consultant living in West Sussex, England and have been helping people build & enhance their websites for a number of years."
+# Populates the opening / `lead` text on a page
+lead:
+  - "I’m an independent Web Developer / Consultant living in West Sussex, England and have been helping people build & enhance their websites for a number of years."
 bodyClass: "about"
 
 date: 2020-04-24T19:33:00
