@@ -255,7 +255,7 @@ hr {
 // Global article styles...
 article {
   time,
-  time + span {
+  time + div {
     display: inline-block;
     padding-bottom: 1em;
   }
@@ -263,7 +263,7 @@ article {
   time {
     font-size: 0.90rem;
 
-    + span {
+    + div {
       font-size: 1.2rem;
     }
   }
