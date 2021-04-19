@@ -1,12 +1,12 @@
 ---
-title: "My current HTML boilerplate"
+title: "My current HTML boilerplate &rarr; Manuel Matuzović"
 # Populates the `meta description` for a page
 summary: "Manuel Matuzović lists every element he uses for the basic structure of a HTML document, with explanations why."
 linkExternal: "https://www.matuzo.at/blog/html-boilerplate/"
 linkLabel: "matuzo.at"
 
 date: 2021-04-19T14:02:00
-updated: 2021-04-19T14:02:00
+updated: 2021-04-19T14:12:00
 
 location:
   locality: "Crawley"
