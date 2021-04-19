@@ -8,7 +8,7 @@ lead:
 bodyClass: "links-home"
 
 date: 2020-02-22T22:10:00
-updated: 2021-04-19T14:02:00
+updated: 2021-04-19T14:35:00
 ---
 
 <ul class="[ links__list ] [ flow ]">
@@ -17,7 +17,7 @@ updated: 2021-04-19T14:02:00
     <article class="[ links__summary ] [ flow ]">
       <h2><a href="{{ link.url }}">{{ link.data.title | safe }}</a></h2>
       <time datetime="{{ link.date | dateTime }}">{{ link.date | dateTimeReadable("d LLLL y, ") }}{{ link.date | dateTimeReadable("t") | lower }}</time>
-      <span> &rarr; <a href="{{ link.data.linkExternal }}" rel="external">{{ link.data.linkLabel }}</a></span>
+      <div><span class="[ visually-hidden ]">Original post can be viewed at</span> &rarr; <a href="{{ link.data.linkExternal }}" rel="external">{{ link.data.linkLabel }}</a></div>
     </article>
   </li>
 {%- endfor -%}

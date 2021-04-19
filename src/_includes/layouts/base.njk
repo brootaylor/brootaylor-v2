@@ -12,10 +12,16 @@
 		{# Meta content, stylesheet call, manifest, open graph, favicon / icons etc. #}
 		{% include "components/chrome/meta/meta.njk" %}
 
-		{# Checking whether browser can handle fairly modern JS #}
+		{# "Cutting the mustard" at reasonably 'modern' browsers that support methods like "classList". Roughly IE 10+ #}
 		<script>
 			document.documentElement.classList.add('enhanced');
 		</script>
+
+		{# NOTE: May change to this (below) instead at some stage... #}
+		{# "Cutting the mustard" at JS module support. If a browser supports JavaScript modules then the "documentElement" gets this class. Edge 16+ can support JS modules. #}
+		{# <script type="module">
+			document.documentElement.classList.add('enhanced');
+		</script> #}
 
 		{#
 			Google Analytics...
