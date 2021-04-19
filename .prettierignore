@@ -1,6 +1,7 @@
 # Ignore these files:
 *.yaml
 *.yml
+netlify.toml
 package-lock.json
 
 # Ignore these directories
