@@ -1,7 +1,9 @@
 # Browsers that we support
 # (Config helps => https://github.com/browserslist/browserslist)
 
+> 0.5%
 last 2 versions
-> 1%
+Firefox ESR
+not dead
 Edge > 15
-IE > 10
+IE 11
