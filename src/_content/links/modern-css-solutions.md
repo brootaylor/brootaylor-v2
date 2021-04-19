@@ -1,12 +1,12 @@
 ---
-title: "Modern CSS Solutions"
+title: "Modern CSS Solutions &rarr; Stephanie Eckles"
 # Populates the `meta description` for a page
 summary: "Modern CSS solutions for old CSS problems."
 linkExternal: "https://moderncss.dev/"
 linkLabel: "moderncss.dev"
 
 date: 2020-05-13T22:46:00
-updated: 2020-05-13T22:46:00
+updated: 2021-04-19T14:12:00
 
 location:
   locality: "Crawley"
@@ -14,6 +14,7 @@ location:
 category:
 - "web"
 - "frontend"
+- "development"
 - "css"
 ---
 
