@@ -27,7 +27,7 @@ eleventyExcludeFromCollections: true
 			<id>{{ absolutePostUrl }}</id>
 			<content type="html"><![CDATA[
 				{%- if post.data.linkExternal -%}
-					<a href="{{ post.data.linkExternal }}" rel="external">{{ post.data.linkLabel }}</a>
+					Original post can be viewed at: <a href="{{ post.data.linkExternal }}" rel="external">{{ post.data.linkLabel }}</a>
 				{%- endif -%}
 				{%- if post.data.lead -%}
 					<p>{{ post.data.lead | safe }}</p>
