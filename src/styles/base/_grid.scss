@@ -12,35 +12,112 @@
 /// @link https://hankchizljaw.com/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/ 1. A responsive `grid` layout without using media queries.
 /// @link https://hankchizljaw.com/wrote/keeping-it-simple-with-css-that-scales/ 2. Keeping it simple with CSS that scales.
 ///
-/// @todo May need to write `display: flex` rules for older browser grid layout (if necessary)
-
+/// @group Utility Classes
+///
+/// @example scss - Usage
+///   @supports (display: grid) {
+///     .auto-grid {
+///       display: grid;
+///       grid-template-columns: repeat(auto-fit, minmax(var(--auto-grid-min-size), 1fr));
+///       grid-gap: 1rem;
+///
+///       > * {
+///         max-width: unset;
+///       }
+///
+///       > * + * {
+///         margin-top: unset;
+///       }
+///     }
+///   }
+///
+// For browsers that don't support `grid`
 .auto-grid {
-  --auto-grid-min-size: 16rem;
+  display: flex;
+  flex-wrap: wrap;
 
   > * {
-    max-width: 400px;
+    flex: 1 1 100%;
+    max-width: 100%;
+
+      @include min-width($breakpoint-small) {
+        max-width: 50%;
+      }
+
+    &:nth-child(even) {
+      @include min-width($breakpoint-small) {
+        padding-left: 2rem;
+      }
+    }
   }
 
   > * + * {
     margin-top: 1rem;
+
+      @include min-width($breakpoint-small) {
+        margin-top: 0;
+      }
+
+    &:nth-child(n+3) {
+      @include min-width($breakpoint-small) {
+        margin-top: 1rem;
+      }
+    }
   }
+
 }
 
-/// Progressive enhancement method
+
+/// @Progressive enhancement method
+///
 /// If the browser supports `grid`, it'll also support the `@supports` feature.
-/// @group Grid
+/// @group Utility Classes
+///
 @supports (display: grid) {
   .auto-grid {
+    // Changing from `display: flex` to `display: grid`
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(var(--auto-grid-min-size), 1fr)); // Using `auto-fit` so the columns use all available space
+    // Some space between the items
     grid-gap: 1rem;
 
+      // @NOTE: Only introducing the `--auto-grid-min-size` variable once the viewport has a bit more space
+      @include min-width($breakpoint-small) {
+        // Use this where custom css properties are supported
+        --auto-grid-min-size: 16rem;
+        // Auto-fit as many items on a row as possible without going under the width set in the `--auto-grid-min-size` custom property
+        grid-template-columns: repeat(auto-fit, minmax(var(--auto-grid-min-size), 1fr));
+        // Some space between the items
+        grid-gap: 2rem;
+      }
+
     > * {
+      // Overrides older browser rules
       max-width: unset;
+
+        // Overrides older browser rules
+        @include min-width($breakpoint-small) {
+          max-width: unset;
+        }
+
+      // Overrides older browser rules
+      &:nth-child(even) {
+        @include min-width($breakpoint-small) {
+          padding-left: 0;
+        }
+      }
     }
 
     > * + * {
+      // Overrides older browser rules
       margin-top: unset;
+
+      // Overrides older browser rules
+      &:nth-child(n+3) {
+        @include min-width($breakpoint-small) {
+          margin-top: unset;
+        }
+      }
     }
+
   }
 }
