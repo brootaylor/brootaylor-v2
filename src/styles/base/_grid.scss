@@ -3,6 +3,8 @@
  * Thank you, https://hankchizljaw.com/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/
  ******************************************/
 
+@use '../abstracts' as *;
+
 
 /// 1. The `.auto-grid` class is for fluid non-specific grid layout scenarios. No media queries are used.
 ///
