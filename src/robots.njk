@@ -3,15 +3,10 @@ permalink: '/robots.txt'
 hidden: true
 eleventyExcludeFromCollections: true
 ---
-
 # www.robotstxt.org
 # Ref: https://yoast.com/ultimate-guide-robots-txt/
 
-# Disallow crawling of all content
-# == Handy during beta testing ==
-# User-agent: *
-# Disallow: /
-
+{% if site.robotsCrawl %}
 # Allow crawling of all content except for certain directories / pages etc. and their contents eg. `/foo`
 # == Open the doors in Production ==
 User-agent: *
@@ -19,3 +14,9 @@ Disallow:
 
 # Sitemap location
 Sitemap: {{ site.rootUrl }}/sitemap.xml
+{% else %}
+# Disallow crawling of all content
+# == Handy during beta testing ==
+User-agent: *
+Disallow: /
+{% endif -%}

@@ -26,6 +26,7 @@ module.exports = {
   icon_maskable_196: '/assets/ico/android-chrome-maskable-196x196.png', // Maskable icon for Android devices (https://web.dev/maskable-icon-audit/)
   icon_mstile: '/assets/ico/mstile-150x150.png',
   twitter: '@brootaylor', // Twitter handle
+  robotsCrawl: true, // Allow search engine robots to crawl site
   analyticsUrchin: '', // Analytics urchin uses this value
   scriptsVendor: false, // If using vendor (ie. 3rd party) scripts
   scriptsMain: false, // If using any `main` scripts on the site (eg. carousel, objectfit polyfill etc.)
