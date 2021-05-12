@@ -8,7 +8,7 @@ lead:
 bodyClass: "offline"
 
 date: 2020-05-01T14:43:00
-updated: 2020-05-07T13:36:00
+updated: 2021-05-12T18:29:00
 
 hidden: true
 eleventyExcludeFromCollections: true
@@ -24,9 +24,9 @@ Why not visit one of these other articles that are available while you're offlin
   {%- for item in allPosts.slice(0, 5) -%}
   <li>
     <article>
-      <h2><a href="{{ item.url | pretty }}">{{ item.data.title }}</a></h2>
+      <h2><a href="{{ item.url | pretty }}">{{ item.data.title | safe }}</a></h2>
       <time datetime="{{ item.date | dateTime }}">{{ item.date | dateTimeReadable("d LLLL y, ") }}{{ item.date | dateTimeReadable("t") | lower }}</time>
-      <p>{{ item.data.summary }}</p>
+      <p>{{ item.data.summary | safe }}</p>
     </article>
   </li>
   {%- endfor -%}
