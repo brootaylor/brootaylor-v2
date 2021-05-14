@@ -37,11 +37,6 @@
 {# Displaying the build number / version #}
 <meta name="build" content="{{ pkg.version }}.{{ site.timeCurrent }}">
 
-{# Canonical #}
-{% if hidden !== true %}
-	<link rel="canonical" href="{{ rootUrl }}{{ page.url | pretty }}">
-{% endif %}
-
 <!-- Preloading styles & fonts... -->
 {# Styles (pre-load)... #}
 <link rel="preload" as="style" href="/styles/main.css?version={{ pkg.version }}.{{ site.timeCurrent }}">
@@ -64,6 +59,14 @@
 	<!-- Extra page-specific metadata fields & rules eg. styles, fonts, SVGs & custom preload/prefetch -->
 	{{ head | safe }}
 {% endif %}
+
+{# Canonical #}
+{% if hidden !== true %}
+	<link rel="canonical" href="{{ rootUrl }}{{ page.url | pretty }}">
+{% endif %}
+
+{# Author 'humans' document #}
+<link rel="author" href="{{ rootUrl }}/humans.txt">
 
 {# RSS feed #}
 <link rel="alternate" type="application/rss+xml" title="{{ metaTitle }}" href="{{ rootUrl }}/feed.xml">
