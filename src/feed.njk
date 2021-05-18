@@ -7,8 +7,8 @@ eleventyExcludeFromCollections: true
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>{{ site.name }}</title>
 	<subtitle>{{ site.metaDescription }}</subtitle>
-	<link href="{{ site.rootUrl }}{{ permalink }}" rel="self"/>
-	<link href="{{ site.rootUrl }}/"/>
+	<link rel="self" href="{{ site.rootUrl }}{{ permalink }}" type="application/atom+xml"/>
+	<link rel="alternate" href="{{ site.rootUrl }}/" type="text/html"/>
 	{% if collections.post | length %}
 	<updated>{{ collections.post | rssLastUpdatedDate }}</updated>
 	{% endif %}
@@ -16,16 +16,17 @@ eleventyExcludeFromCollections: true
 	<author>
 		<name>{{ site.author.name }}</name>
 		<email>{{ site.author.email }}</email>
+		<uri>{{ site.author.url }}</uri>
 	</author>
 	{% for post in collections.post %}
 		{% set absolutePostUrl %}{{ site.rootUrl }}{{ post.url | pretty }}{% endset %}
 		{% set lastUpdated %}{{ post.data.updated | rssDate }}{% endset %}
 		<entry>
 			<title>{{ post.data.title }}</title>
-			<link href="{{ absolutePostUrl }}"/>
+			<link rel="alternate" href="{{ absolutePostUrl }}" type="text/html"/>
 			<updated>{{ lastUpdated }}</updated>
 			<id>{{ absolutePostUrl }}</id>
-			<content type="html"><![CDATA[
+			<content type="html" xml:base="{{ absolutePostUrl }}"><![CDATA[
 				{%- if post.data.linkExternal -%}
 					Original post can be viewed at: <a href="{{ post.data.linkExternal }}" rel="external">{{ post.data.linkLabel }}</a>
 				{%- endif -%}
