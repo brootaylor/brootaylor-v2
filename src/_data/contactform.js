@@ -5,7 +5,7 @@ module.exports = {
   labelEmail: 'Your email',
   message: {
     label: 'Message',
-    placeholder: 'Please write your message here...',
+    placeholder: 'Please write your message here...'
   },
-  labelButton: 'Send message',
-};
+  labelButton: 'Send message'
+}

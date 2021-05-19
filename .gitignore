@@ -1,5 +1,6 @@
 # Directories to ignore
 node_modules
+.vscode
 docs
 www
 

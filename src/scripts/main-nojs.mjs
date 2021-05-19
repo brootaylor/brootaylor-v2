@@ -3,10 +3,10 @@
  * Defined in rollup.config.js
  */
 
-const version = '{{version}}';
-const name = '{{name}}';
-const versionPrintOut = `${name}.${version}`;
+const version = '{{version}}'
+const name = '{{name}}'
+const versionPrintOut = `${name}.${version}`
 
-console.info(versionPrintOut);
+console.info(versionPrintOut)
 
-console.info('No JS being generated for this website at the moment.');
+console.info('No JS being generated for this website at the moment.')

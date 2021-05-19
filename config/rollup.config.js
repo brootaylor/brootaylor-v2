@@ -3,35 +3,37 @@
  */
 
 // Node modules...
-import json from '@rollup/plugin-json';
-import replace from '@rollup/plugin-replace';
-import resolve from '@rollup/plugin-node-resolve';
-import commonjs from '@rollup/plugin-commonjs';
-import babel from '@rollup/plugin-babel';
-import { terser } from 'rollup-plugin-terser';
+import json from '@rollup/plugin-json'
+import replace from '@rollup/plugin-replace'
+import resolve from '@rollup/plugin-node-resolve'
+import commonjs from '@rollup/plugin-commonjs'
+import babel from '@rollup/plugin-babel'
+import { terser } from 'rollup-plugin-terser'
 
 // Package.json values...
-import { name, version, homepage, author, license } from '../package.json';
+import { name, version, homepage, author, license } from '../package.json'
 
 // Setting some directory path variables...
 // Also some 'preamble' values for fun :-)
-const src = './src/';
-const dist = './www/';
+const src = './src/'
+const dist = './www/'
 const preamble = `/*
 * ${name}
 * v${version}
 * ${homepage}
-* Copyright (c) ${new Date().getFullYear()} ${author.name}. Licensed ${license} */`;
+* Copyright (c) ${new Date().getFullYear()} ${
+  author.name
+}. Licensed ${license} */`
 
 // Data...
-const site = require('../src/_data/site.js'); // Using CommonJS 'require' cause site.js using 'module.exports'
+const site = require('../src/_data/site.js') // Using CommonJS 'require' cause site.js using 'module.exports'
 
 /**
  * Main script plugin function (rules / logic)
  * @param {object} nomodule
  * @returns {{ nomodule = false } or {}}
  */
-function basePlugins({ nomodule = false } = {}) {
+function basePlugins ({ nomodule = false } = {}) {
   // Setting browser values for module and nomodule support
   const browsers = nomodule
     ? ['ie 11']
@@ -42,8 +44,8 @@ function basePlugins({ nomodule = false } = {}) {
         'last 2 Safari versions',
         'last 2 iOS versions',
         'not Edge < 16',
-        'Firefox ESR',
-      ];
+        'Firefox ESR'
+      ]
 
   // Setting the plugins...
   const plugins = [
@@ -51,7 +53,7 @@ function basePlugins({ nomodule = false } = {}) {
     replace({
       delimiters: ['{{', '}}'],
       name,
-      version,
+      version
     }),
     babel({
       exclude: 'node_modules/**', // only transpile our source code
@@ -60,21 +62,21 @@ function basePlugins({ nomodule = false } = {}) {
           '@babel/preset-env',
           {
             modules: false,
-            targets: { browsers },
-          },
-        ],
+            targets: { browsers }
+          }
+        ]
       ]
     }),
     resolve(),
-    commonjs(),
-  ];
+    commonjs()
+  ]
 
   /**
    * 'Production' environment check
    * "environment" declared in _data/site.js
    */
   if (site.environment === 'production') {
-    console.log('Production environment config - minifying JS');
+    console.log('Production environment config - minifying JS')
     plugins.push(
       // Remove 'console.*' messages from JS compiled output
       babel({
@@ -83,23 +85,20 @@ function basePlugins({ nomodule = false } = {}) {
       // JS minification
       terser({
         output: { preamble },
-        module: !nomodule,
+        module: !nomodule
       })
-    );
+    )
   }
-  return plugins;
+  return plugins
 }
 
 /**
  * Vendor script plugin function (rules / logic)
  */
-function vendorPlugins() {
+function vendorPlugins () {
   // Setting the plugins...
-  const plugins = [
-    json(),
-    resolve()
-  ];
-  return plugins;
+  const plugins = [json(), resolve()]
+  return plugins
 }
 
 /**
@@ -110,20 +109,20 @@ function vendorPlugins() {
  */
 const moduleConfig = {
   input: {
-    'main': `${src}scripts/main-module.mjs`,
+    main: `${src}scripts/main-module.mjs`
   },
   output: {
     dir: `${dist}scripts/main.module`,
     format: 'esm',
     entryFileNames: '[name].mjs',
     chunkFileNames: '[name]-[hash].mjs',
-    sourcemap: true,
+    sourcemap: true
   },
   plugins: basePlugins(),
   watch: {
-    clearScreen: false,
-  },
-};
+    clearScreen: false
+  }
+}
 
 /**
  * Legacy config for <script nomodule>
@@ -133,19 +132,19 @@ const moduleConfig = {
  */
 const nomoduleConfig = {
   input: {
-    'main-nomodule': `${src}scripts/main-nomodule.mjs`,
+    'main-nomodule': `${src}scripts/main-nomodule.mjs`
   },
   output: {
     dir: `${dist}scripts/main.nomodule`,
     format: 'iife',
     entryFileNames: '[name].js',
-    sourcemap: true,
+    sourcemap: true
   },
   plugins: basePlugins({ nomodule: true }),
   watch: {
-    clearScreen: false,
-  },
-};
+    clearScreen: false
+  }
+}
 
 /**
  * `No JS` config
@@ -154,18 +153,18 @@ const nomoduleConfig = {
  */
 const nojsConfig = {
   input: {
-    'nojs': `${src}scripts/main-nojs.mjs`,
+    nojs: `${src}scripts/main-nojs.mjs`
   },
   output: {
     dir: `${dist}scripts/main.nojs`,
     format: 'iife',
     entryFileNames: '[name].js',
-    sourcemap: false,
+    sourcemap: false
   },
   watch: {
-    clearScreen: false,
-  },
-};
+    clearScreen: false
+  }
+}
 
 /**
  * Vendor config for vendor / 3rd party scripts
@@ -174,26 +173,26 @@ const nojsConfig = {
  */
 const configVendor = {
   input: {
-    'vendor': `${src}scripts/vendor.js`,
+    vendor: `${src}scripts/vendor.js`
   },
   output: {
     dir: `${dist}scripts/vendor`,
     format: 'iife',
     entryFileNames: '[name].js',
-    sourcemap: true,
+    sourcemap: true
   },
   plugins: vendorPlugins(),
   watch: {
-    clearScreen: false,
-  },
-};
+    clearScreen: false
+  }
+}
 
 /**
  * The following has to do with what JS configs are generated (if any)
  */
 
 // Create base `configs` variable...
-let configs = [nojsConfig];
+let configs = [nojsConfig]
 
 // If JS is being generated for this website then...
 if (site.scriptsMain) {
@@ -201,7 +200,7 @@ if (site.scriptsMain) {
    * This is the primary `main-module.mjs` JS
    */
   // Update `configs` variable so `nojsConfig` isn't generated...
-  configs = [moduleConfig];
+  configs = [moduleConfig]
 
   /**
    * 'Production' environment check
@@ -210,7 +209,7 @@ if (site.scriptsMain) {
    */
   if (site.environment === 'production') {
     // Pushing `nomoduleConfig` to the `configs` array...
-    configs.push(nomoduleConfig);
+    configs.push(nomoduleConfig)
   }
 
   /**
@@ -218,9 +217,9 @@ if (site.scriptsMain) {
    */
   if (site.scriptsVendor) {
     // Pushing `configVendor` to the `configs` array...
-    configs.push(configVendor);
+    configs.push(configVendor)
   }
 }
 
 // 'Spits' out the necessary config stuff...
-export default configs;
+export default configs

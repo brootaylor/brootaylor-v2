@@ -6,4 +6,4 @@
  * @TODO: Call (import) jQuery into this file dynamically using NPM
  *
  */
-console.log('Placeholder vendor.js file');
+console.log('Placeholder vendor.js file')

@@ -7,14 +7,14 @@
 // import { helloFooA, helloFooB } from './modules/foo'; // Named imports
 // import bar from './modules/bar'; // Default import
 // import observers from './modules/observers'; // Default import
-import objectFitPolyfill from './modules/objectFitPolyfill'; // Default import
+import objectFitPolyfill from './modules/objectFitPolyfill' // Default import
 // import { carousel } from '../_includes/components/units/carousel/carousel'; // Named import
 
-const version = '{{version}}';
-const name = '{{name}}';
-const versionPrintOut = `${name}.${version}`;
+const version = '{{version}}'
+const name = '{{name}}'
+const versionPrintOut = `${name}.${version}`
 
-console.info(versionPrintOut);
+console.info(versionPrintOut)
 
 // Methods called from ./modules/bar.mjs
 // bar();
@@ -27,7 +27,7 @@ console.info(versionPrintOut);
 // observers();
 
 // Methods called from ./modules/objectFitPolyfill.mjs
-objectFitPolyfill();
+objectFitPolyfill()
 
 // Method called from _includes/components/units/carousel/carousel.mjs
 // carousel();
