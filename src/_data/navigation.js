@@ -2,59 +2,59 @@ module.exports = {
   mainnav: [
     {
       label: 'About',
-      url: '/about',
+      url: '/about'
     },
     {
       label: 'Writing',
-      url: '/writing',
+      url: '/writing'
     },
     {
       label: 'Notes',
-      url: '/notes',
+      url: '/notes'
     },
     {
       label: 'Links',
-      url: '/links',
+      url: '/links'
     },
     {
       label: 'Contact',
-      url: '/contact',
-    },
+      url: '/contact'
+    }
   ],
   footernav: [
     {
       label: 'Accessibility',
-      url: '/accessibility',
+      url: '/accessibility'
     },
     {
       label: 'GitHub',
       url: 'https://github.com/brootaylor',
-      external: true,
+      external: true
     },
     {
       label: 'CodePen',
       url: 'https://codepen.io/brootaylor',
-      external: true,
+      external: true
     },
     {
       label: 'Twitter',
       url: 'https://twitter.com/brootaylor',
-      external: true,
+      external: true
     },
     {
       label: 'Flickr',
       url: 'https://www.flickr.com/photos/60226997@N06/',
-      external: true,
+      external: true
     },
     {
       label: 'LinkedIn',
       url: 'https://www.linkedin.com/in/brootaylor',
-      external: true,
+      external: true
     },
     {
       label: 'RSS',
       url: '/feed.xml',
-      document: true,
-    },
-  ],
-};
+      document: true
+    }
+  ]
+}

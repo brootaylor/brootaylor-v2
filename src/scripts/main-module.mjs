@@ -3,11 +3,11 @@
  * Defined in rollup.config.js
  */
 
-const version = '{{version}}';
-const name = '{{name}}';
-const versionPrintOut = `${name}.${version}`;
+const version = '{{version}}'
+const name = '{{name}}'
+const versionPrintOut = `${name}.${version}`
 
-console.info(versionPrintOut);
+console.info(versionPrintOut)
 
 /**
  * Dynamic module loading
@@ -30,9 +30,11 @@ console.info(versionPrintOut);
 // });
 
 // Methods called from ./modules/objectFit.mjs
-import('./modules/objectFitPolyfill.mjs').then(({ default: objectFitPolyfill }) => {
-  objectFitPolyfill();
-});
+import('./modules/objectFitPolyfill.mjs').then(
+  ({ default: objectFitPolyfill }) => {
+    objectFitPolyfill()
+  }
+)
 
 // Methods called from _includes/components/unitscarousel/carousel.mjs
 // import('../__includes/components/units/carousel/carousel.mjs').then(({ carousel }) => {

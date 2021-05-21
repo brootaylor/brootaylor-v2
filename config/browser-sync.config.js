@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = require('fs')
 
 module.exports = {
   notify: true,
@@ -9,18 +9,18 @@ module.exports = {
   logPrefix: "Bruce Taylor's website",
   logLevel: 'debug',
   callbacks: {
-    ready(err, browserSync) {
-      const content404 = fs.readFileSync('www/error/404.html');
+    ready (err, browserSync) {
+      const content404 = fs.readFileSync('www/error/404.html')
 
       browserSync.addMiddleware('*', (req, res) => {
         // Provides the 404 content without redirect.
-        res.write(content404);
-        res.end();
-      });
-    },
+        res.write(content404)
+        res.end()
+      })
+    }
   },
   ui: {
-    port: 8080,
+    port: 8080
   },
-  ghostMode: false,
-};
+  ghostMode: false
+}

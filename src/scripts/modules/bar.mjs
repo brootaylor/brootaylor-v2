@@ -4,13 +4,13 @@
 
 export default function () {
   // Grouping the console logging
-  console.group('Bar Group');
+  console.group('Bar Group')
 
   const helloBar = () => {
-    console.log('Hello from Bar.');
-  };
+    console.log('Hello from Bar.')
+  }
 
-  console.groupEnd();
+  console.groupEnd()
 
-  return helloBar();
+  return helloBar()
 }
