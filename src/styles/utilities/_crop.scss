@@ -8,17 +8,18 @@
 ///   }
 
 @use '../abstracts' as *;
+@use 'sass:math';
 
 %crop--mid {
-  max-width: convert-to-rem($site-width / 1.5);
+  max-width: convert-to-rem(math.div($site-width, 1.5));
 }
 
 %crop--tight {
-  max-width: convert-to-rem($site-width / 2);
+  max-width: convert-to-rem(math.div($site-width, 2));
 }
 
 %crop--loose {
-  max-width: convert-to-rem($site-width / 1.2);
+  max-width: convert-to-rem(math.div($site-width, 1.2));
 }
 
 // Crop utility class

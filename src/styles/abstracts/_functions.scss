@@ -3,6 +3,7 @@
  **********************************************************/
 
 @use 'config' as *;
+@use 'sass:math';
 
 
 /// Native `url(..)` function wrapper.
@@ -73,8 +74,8 @@
 /// @param {Number} $num - Any value with unit (eg. 90px)
 /// @return {Number}
 /// @require $num
-@function strip-unit ($num) {
-  @return $num / ($num * 0 + 1);
+@function strip-unit($num) {
+  @return math.div($num, ($num * 0 + 1));
 }
 
 /// Returns REM value.
@@ -86,4 +87,8 @@
 /// @require $pixels
 @function convert-to-rem ($pixels) {
   @return strip-unit($pixels) / strip-unit($font-size-base) * 1rem;
+}
+
+@function convert-to-rem($pixels) {
+  @return math.div(strip-unit($pixels), strip-unit($font-size-base)) * 1rem;
 }
