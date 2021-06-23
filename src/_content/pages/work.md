@@ -6,7 +6,7 @@ summary: "I’m an independent Frontend Web Developer living in West Sussex, Eng
 lead:
 - 'My interest in all things webby began in late 1999 while working at the original <a href="https://en.wikipedia.org/wiki/Boo.com" rel="external">Boo.com</a>. After a brief stint of freelancing, I started at <a href="https://en.wikipedia.org/wiki/Air_Miles#Air_Miles_United_Kingdom" rel="external">Airmiles</a> in 2004 – which later became <a href="https://www.avios.com/" rel="external">Avios</a>.'
 
-bodyClass: "about"
+bodyClass: "work"
 
 date: 2021-06-23T16:16:00
 updated: 2021-06-23T16:16:00
