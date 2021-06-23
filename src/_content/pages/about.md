@@ -1,10 +1,10 @@
 ---
 title: "About me"
 # Populates the `meta description` for a page
-summary: "I’m an independent Web Developer / Consultant living in West Sussex, England and have been helping people build & enhance their websites for a number of years."
+summary: "I’m an independent front-end web developer living in West Sussex, England and really enjoy helping people build & enhance their websites."
 # Populates the opening / `lead` text on a page
 lead:
-  - "I’m an independent Web Developer / Consultant living in West Sussex, England and have been helping people build & enhance their websites for a number of years."
+  - "I’m an independent front-end web developer living in West Sussex, England and really enjoy helping people build & enhance their websites."
 bodyClass: "about"
 
 date: 2020-04-24T19:33:00
@@ -18,18 +18,6 @@ I enjoy landscape photography and am a [fairly decent drummer](https://www.flick
 My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 children. 2 teenage sons and a 12 year old daughter.
 
 I try and write whenever I get the chance and have [written a few posts](/writing) on various things. Here's hoping you'll like some of them or be able to relate to one or two of them in some way.
-
----
-
-## What I do
-
-My interest in all things webby began in late 1999 while working at the original [Boo.com](https://en.wikipedia.org/wiki/Boo.com). After a brief stint of freelancing, I started at [Airmiles](https://en.wikipedia.org/wiki/Air_Miles#Air_Miles_United_Kingdom) in 2004 – which later became [Avios](https://www.avios.com/) – and ended up working there for 11 years.
-
-Since then I've worked as an independent Web Developer / Consultant on various web projects with companies and businesses like **Macmillan Cancer Support**, **Pegasus**, **Charanga Music**, **Analog Implant Laboratory**, **Time Inc.**, **MerchantCantos**, **Boston T Party**, **Euromoney** and most recently with [IAG Loyalty](https://iagloyalty.com/).
-
-I enjoy a team environment and am told I communicate and work well with technical and non-technical people alike. I've worked on all sorts of projects in small, medium and large multi-functional development teams – and have considerable experience in creating front-end code that's modular, responsive, performant, extensible, accessible and future friendly.
-
-I frequently dabble with new technologies and try my best to find neat solutions to complex problems. I believe the websites we design and build should be as [usable as possible no matter the context](https://trentwalton.com/2014/03/10/device-agnostic/). I'm therefore particularly interested in [responsive web design](https://alistapart.com/article/responsive-web-design), [progressive enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement), [progressive web apps](https://julian.is/article/progressive-web-apps/), [web standards](https://www.w3.org/standards/) and [web accessibility](https://www.w3.org/TR/WCAG20/).
 
 ---
 
