@@ -2,7 +2,7 @@
 layout: "layouts/homepage.njk"
 title: "Hi, I'm Bruce."
 # Populates the `meta description` for a page
-summary: "I’m an independent Web Developer / Consultant living in West Sussex, England and have been helping people build & enhance their websites for a number of years."
+summary: "I’m an independent Frontend Web Developer living in West Sussex, England and have been helping companies and businesses build & enhance their websites for a number of years."
 
 # Page-specific metadata content added to the `<head>`
 # head: "
@@ -27,15 +27,15 @@ bodyClass: "homepage"
 permalink: "/index.html"
 
 date: 2020-04-24T12:54:00
-updated: 2021-04-12T14:29:00
+updated: 2021-06-23T18:38:00
 
 changefreq: "weekly"
 priority: 1
 ---
 
-Originally from South Africa but now living in West Sussex, England. Here's a bit more [about me](/about).
+Originally from South Africa but now living in West Sussex, England. Here's a bit more [about me](/about) and the [work that I do](/work).
 
-I make websites and have worked on various projects with companies like **AirMiles**, **Avios**, **Macmillan Cancer Support**, **Pegasus**, **Time Inc.**, **MerchantCantos**, **Euromoney** and more recently with [IAG Loyalty](https://iagloyalty.com/).
+I make websites and have worked on projects with companies and businesses like **AirMiles**, **Avios**, **Macmillan Cancer Support**, **Pegasus**, **Charanga Music**, **Analog Implant Laboratory**, **Time Inc.**, **MerchantCantos**, **Boston T Party**, **Euromoney** and most recently with [IAG Loyalty](https://iagloyalty.com/).
 
 ***
 
