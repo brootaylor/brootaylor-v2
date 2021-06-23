@@ -8,25 +8,25 @@ lead:
 
 bodyClass: "work"
 
-date: 2021-06-23T16:16:00
-updated: 2021-06-23T16:16:00
+date: 2021-06-23T18:38:00
+updated: 2021-06-23T18:38:00
 ---
 
 ## What I do
 
 Nowadays I work as an independent Frontend Web Developer.
 
-Titles for the work I do seem to go by many names these days &mdash; like Frontend Designer, UI Developer, UI Engineer and Design Engineer. It's hard to keep up and can be a little exhausting. So, in a nutshell (if that's possible!) I would say I primary work on the "[front-of-the-frontend](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)". This is my preference and certainly plays to my strengths but I do also occasionally get my hands into the "back-of-the-frontend" as well.
+Titles for the work I do seem to go by many names these days &mdash; like Frontend Designer, UI Developer, UI Engineer and Design Engineer. It's hard to keep up and can be a little exhausting. So, in a nutshell (if that's possible!), I would say I primarily work on the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)". This is my preference and certainly plays to my strengths but I do also occasionally get my hands into the "back-of-the-front-end" as well.
 
-I spend a lot of my time writing / creating the HTML, CSS, and presentational JavaScript code that makes up a user interface. This is tightly coupled with a focus on [responsive design](https://alistapart.com/article/responsive-web-design), [progressive enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement), [semantic markup](https://www.w3.org/TR/WCAG20-TECHS/G115.html), [accessibility](https://www.w3.org/TR/WCAG20/), [web standards](https://www.w3.org/standards/) and performance. My aim is always to build web solutions that are as [resilient](https://resilientwebdesign.com/), [usable](https://trentwalton.com/2014/03/10/device-agnostic/) and future friendly as possible.
+I spend a lot of my time writing / creating the HTML, CSS, and presentational JavaScript code that makes up a user interface. This is tightly coupled with a focus on [responsive design](https://alistapart.com/article/responsive-web-design), [progressive enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement), [semantic markup](https://www.w3.org/TR/WCAG20-TECHS/G115.html), [accessibility](https://www.w3.org/TR/WCAG20/), [web standards](https://www.w3.org/standards/) and [performance](https://developer.mozilla.org/en-US/docs/Learn/Performance). My aim is always to build web solutions that are as [resilient](https://resilientwebdesign.com/), [usable](https://trentwalton.com/2014/03/10/device-agnostic/) and future-friendly as possible.
 
 I'm not a designer per se, but I love the design side of things. My role often involves collaborating with designers to ensure that the design translates as well as it can into the browser &mdash; regardless of the user's context and how they choose to use it (eg. screen reader, mobile phone, browser of choice, etc.).
 
 ---
 
-## What I don't do
+## What I *don't* do
 
-I'd like to mention some of the things I'm not interested in and as such, it probably wouldn't be worth your while contacting me about them.
+I'd like to mention some of the things I'm not interested in, and as such it probably wouldn't be worth your while contacting me about them.
 
 Things like&hellip;
 
