@@ -21,3 +21,23 @@ Titles for the work I do seem to go by many names these days &mdash; like Fronte
 I spend a lot of my time writing / creating the HTML, CSS, and presentational JavaScript code that makes up a user interface. This is tightly coupled with a focus on [responsive design](https://alistapart.com/article/responsive-web-design), [progressive enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement), [semantic markup](https://www.w3.org/TR/WCAG20-TECHS/G115.html), [accessibility](https://www.w3.org/TR/WCAG20/), [web standards](https://www.w3.org/standards/) and performance. My aim is always to build web solutions that are as [resilient](https://resilientwebdesign.com/), [usable](https://trentwalton.com/2014/03/10/device-agnostic/) and future friendly as possible.
 
 I'm not a designer per se, but I love the design side of things. My role often involves collaborating with designers to ensure that the design translates as well as it can into the browser &mdash; regardless of the user's context and how they choose to use it (eg. screen reader, mobile phone, browser of choice, etc.).
+
+---
+
+## What I don't do
+
+I'd like to mention some of the things I'm not interested in and as such, it probably wouldn't be worth your while contacting me about them.
+
+Things like&hellip;
+
+* **You're looking for a “quick website”**. Sorry, I don't do rush work.
+* **You're looking around for the lowest price**. This is always an alarm bell for me I'm afraid. I don't really do '*cheap and cheerful*'.
+* **You need a designer to design your Website / App UI**. As mentioned earlier, I do love design. However, I am not a designer. I work with designers by bringing my strengths to the '*engineering*' side.
+
+---
+
+If you've read this far, good on you and thank you.
+
+Still think there's a web project that I could help you with? Then by all means [get in touch](/contact).
+
+I'd love to hear from you.
