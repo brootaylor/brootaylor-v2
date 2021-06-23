@@ -1,35 +1,23 @@
 ---
 title: "Work"
 # Populates the `meta description` for a page
-summary: "I’m an independent front-end web developer living in West Sussex, England and really enjoy helping people
-build & enhance their websites."
+summary: "I’m an independent Frontend Web Developer living in West Sussex, England and have been helping companies and businesses build & enhance their websites for a number of years."
 # Populates the opening / `lead` text on a page
 lead:
-- 'My interest in all things webby began in late 1999 while working at the original <a
-  href="https://en.wikipedia.org/wiki/Boo.com" rel="external">Boo.com</a>. After a brief stint of freelancing, I started
-at <a href="https://en.wikipedia.org/wiki/Air_Miles#Air_Miles_United_Kingdom" rel="external">Airmiles</a> in 2004 –
-which later became <a href="https://www.avios.com/" rel="external">Avios</a>.'
+- 'My interest in all things webby began in late 1999 while working at the original <a href="https://en.wikipedia.org/wiki/Boo.com" rel="external">Boo.com</a>. After a brief stint of freelancing, I started at <a href="https://en.wikipedia.org/wiki/Air_Miles#Air_Miles_United_Kingdom" rel="external">Airmiles</a> in 2004 – which later became <a href="https://www.avios.com/" rel="external">Avios</a>.'
 
 bodyClass: "about"
 
-date: 2020-04-24T19:33:00
-updated: 2021-04-12T14:29:00
+date: 2021-06-23T16:16:00
+updated: 2021-06-23T16:16:00
 ---
 
 ## What I do
 
-Nowadays I work as an independent front-end web developer. I've worked onvarious web projects with companies and businesses like **Macmillan Cancer Support**, **Pegasus**, **Charanga Music**, **Analog Implant Laboratory**, **Time Inc.**,
-**MerchantCantos**, **Boston T Party**, **Euromoney** and most recently with [IAG Loyalty](https://iagloyalty.com/).
+Nowadays I work as an independent Frontend Web Developer.
 
-I enjoy a team environment and am told I communicate and work well with technical and non-technical people alike. I've
-worked on all sorts of projects in small, medium and large multi-functional development teams – and have considerable
-experience in creating front-end code that's modular, responsive, performant, extensible, accessible and future
-friendly.
+Titles for the work I do have morphed over the years to names like Frontend Designer, UI Developer, UI Engineer and Design Engineer. It's hard to keep up and can be a little exhausting. So, in a nutshell (if that's possible!) I would say I work on the "[front-of-the-frontend](https://bradfrost.com/blog/post/frontend-design/)".
 
-I frequently dabble with new technologies and try my best to find neat solutions to complex problems. I believe the
-websites we design and build should be as [usable as possible no matter the
-context](https://trentwalton.com/2014/03/10/device-agnostic/). I'm therefore particularly interested in [responsive web
-design](https://alistapart.com/article/responsive-web-design), [progressive
-enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement), [progressive web
-apps](https://julian.is/article/progressive-web-apps/), [web standards](https://www.w3.org/standards/) and [web
-accessibility](https://www.w3.org/TR/WCAG20/).
+That is, I primarily spend my time writing / create the HTML, CSS, and presentational JavaScript code that makes up a user interface. With a focus on [responsive design](https://alistapart.com/article/responsive-web-design), [progressive enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement), semantic markup, [accessibility](https://www.w3.org/TR/WCAG20/), [web standards](https://www.w3.org/standards/), and performance; I aim to build web solutions that are as [resilient](https://resilientwebdesign.com/) and future friendly as possible.
+
+I'm not a designer per se, but I love the design side of things. My roles often involve collaborating with designers to ensure that the design translates as well as it can into the browser &mdash; regardless of the user's context and how they choose to use it (eg. screen reader, mobile phone, browser of choice, etc.).
