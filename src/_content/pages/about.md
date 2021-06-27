@@ -9,12 +9,10 @@ lead:
 bodyClass: "about"
 
 date: 2020-04-24T19:33:00
-updated: 2021-06-23T18:38:00
+updated: 2021-06-27T17:34:00
 ---
 
-I'm originally from South Africa and grew up on a dairy farm in a very [beautiful part of the country](https://youtu.be/bGQbM3QfA5w). Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking in the mountains, canoeing, fishing and sport. Funny how things turn out sometimes eh!
-
-I enjoy landscape photography and am a [fairly decent drummer](https://www.flickr.com/photos/60226997@N06/40548596663/). I absolutely [adore aircraft](https://www.flickr.com/photos/60226997@N06/47530443441/) and still plan to pull my finger out and get my <abbr title="Private Pilots Licence">PPL</abbr> one day.
+I'm originally from South Africa and grew up on a dairy farm in a very [beautiful part of the country](https://youtu.be/bGQbM3QfA5w). Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking and camping in the mountains, canoeing, fishing and sport. Funny how things turn out sometimes eh!
 
 My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 children. 2 teenage sons and a daughter.
 
@@ -22,10 +20,22 @@ I try and write whenever I get the chance and have [written a few posts](/writin
 
 ---
 
+## Some hobby stuff
+
+I enjoy landscape photography and am a [fairly decent drummer](https://www.flickr.com/photos/60226997@N06/40548596663/). I absolutely [adore aircraft](https://www.flickr.com/photos/60226997@N06/47530443441/) and still plan to pull my finger out and get my <abbr title="Private Pilots Licence">PPL</abbr> one day.
+
+I love to read whenever I get the chance and am a sucker for fantasy. The feeling of been transported to another world is intoxicating. Currently I'm making my way through the "[The Echoes Saga](https://www.philipcquaintrell.com/books)" by Philip C. Quaintrell. What a treat it's been.
+
+---
+
 ## About this website
 
-This website has been the home of my personal blog for a fair few years. Everything written here represents my opinions and perspectives on various things. It doesn't reflect or represent the views of anyone I work for or with.
+This website has been the home of my personal blog for a fair few years. Everything written here represents my opinions and perspectives on various things. It *doesn't* reflect or represent the views of anyone I work for or with.
 
-I also use it as a platform for experimenting with newer frontend web technologies – so there's every chance it may look a little 'wonky' now and then. Please forgive me if something doesn't look quite right or work properly on your screen at the moment. By all means let me know by submitting a [GitHub issue](https://github.com/brootaylor/brootaylor-v2/issues), or by [emailing me directly](/contact).
+I also use it as a platform for experimenting with newer frontend web technologies & techniques &mdash; so there's every chance it may look a little 'wonky' now and then. Please forgive me if something doesn't look quite right or work properly on your screen at the moment.
+
+If you have any issues, questions or spot any spelling mistakes(!), I'd appreciate it if you could let me know by submitting a [GitHub issue](https://github.com/brootaylor/brootaylor-v2/issues), or by [emailing me directly](/contact).
+
+I've also written about my decision to [redesign & develop my website in the open](/writing/2020-02-22/redesigning-in-the-open) which has both been fun and scary. Not least because I'm a bit of a perfectionist and doing it this was has helped wean me off the need to have things completely polished before showing them.
 
 Thank you for dropping by.
