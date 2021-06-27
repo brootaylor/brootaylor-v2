@@ -36,6 +36,6 @@ I also use it as a platform for experimenting with newer frontend web technologi
 
 If you have any issues, questions or spot any spelling mistakes(!), I'd appreciate it if you could let me know by submitting a [GitHub issue](https://github.com/brootaylor/brootaylor-v2/issues), or by [emailing me directly](/contact).
 
-I've also written about my decision to [redesign & develop my website in the open](/writing/2020-02-22/redesigning-in-the-open) which has both been fun and scary. Not least because I'm a bit of a perfectionist and doing it this was has helped wean me off the need to have things completely polished before showing them.
+I've also written about my decision to [redesign & develop my website in the open](/writing/2020-02-22/redesigning-in-the-open) which has both been fun and scary. Not least because I'm a bit of a perfectionist and doing it this way has helped wean me off the need to have things completely polished before showing them.
 
 Thank you for dropping by.
