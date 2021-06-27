@@ -9,7 +9,7 @@ lead:
 bodyClass: "work"
 
 date: 2021-06-23T18:38:00
-updated: 2021-06-27T17:34:00
+updated: 2021-06-27T17:44:00
 ---
 
 ## What I do
@@ -24,7 +24,7 @@ I'm not a designer per se, but I love the design side of things. My role often i
 
 ---
 
-### Wouldn't you call yourself a *Fullstack Developer* then?
+### Aren't you a *Fullstack Developer* then?
 
 I realise some *may* read what I wrote earlier and ask&hellip; "Wouldn't you call yourself a *Fullstack Developer* then?".
 
