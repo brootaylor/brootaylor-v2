@@ -9,7 +9,7 @@ lead:
 bodyClass: "about"
 
 date: 2020-04-24T19:33:00
-updated: 2021-06-27T17:44:00
+updated: 2021-06-28T15:13:00
 ---
 
 I'm originally from South Africa and grew up on a dairy farm in a very [beautiful part of the country](https://youtu.be/bGQbM3QfA5w). Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking and camping in the mountains, canoeing, fishing and sport. Funny how things turn out sometimes eh!
@@ -25,6 +25,14 @@ I try and write whenever I get the chance and have [written a few posts](/writin
 I enjoy landscape photography and am a [fairly decent drummer](https://www.flickr.com/photos/60226997@N06/40548596663/). I absolutely [adore aircraft](https://www.flickr.com/photos/60226997@N06/47530443441/) and still plan to pull my finger out and get my <abbr title="Private Pilots Licence">PPL</abbr> one day.
 
 I love to read whenever I get the chance and am a sucker for fantasy. The feeling of been transported to another world is intoxicating. Currently I'm making my way through the "[The Echoes Saga](https://www.philipcquaintrell.com/books)" by Philip C. Quaintrell. What a treat it's been.
+
+---
+
+## Webby stuff I'm enjoying
+
+[Eleventy](https://www.11ty.io/), [Netlify](https://www.netlify.com/), [Fractal](https://fractal.build/) and [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) animation using [GreenSock](https://greensock.com/) are proving really enjoyable to work with and have restored some of the magic of building websites again.
+
+Since the [announcement of Astro](https://astro.build/blog/introducing-astro), I've been really keen to get my teeth into it. The [CSS Tricks newsletter](https://css-tricks.com/newsletter/255-thoughts-on-astro/) and [Zell Liew](https://zellwk.com/blog/astro-thoughts/) have been singing its praises as well which has only further sparked my interest.
 
 ---
 
