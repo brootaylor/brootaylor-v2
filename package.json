@@ -81,24 +81,24 @@
     "postcss-cli": "^8.3.1",
     "postcss-preset-env": "^6.7.0",
     "rimraf": "^3.0.2",
-    "rollup": "^2.52.2",
+    "rollup": "^2.52.7",
     "rollup-plugin-terser": "^7.0.2",
     "sass": "^1.35.1",
     "slugify": "^1.5.3"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.29.0",
+    "eslint": "^7.30.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-html": "^6.1.2",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-prettier": "^3.4.0",
-    "jest": "^27.0.5",
+    "jest": "^27.0.6",
     "markdownlint-cli": "^0.27.1",
     "minami": "^1.2.3",
     "onchange": "^7.1.0",
-    "prettier": "^2.3.1",
+    "prettier": "^2.3.2",
     "sass-lint": "^1.13.1"
   }
 }
