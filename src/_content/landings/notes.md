@@ -8,7 +8,7 @@ lead:
 bodyClass: "notes-home"
 
 date: 2020-02-22T22:10:00
-updated: 2021-05-24T13:37:07
+updated: 2021-07-16T18:44:07
 ---
 
 <ul class="[ notes__list ] [ flow ]">
