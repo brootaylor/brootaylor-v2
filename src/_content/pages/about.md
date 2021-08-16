@@ -1,15 +1,15 @@
 ---
 title: "About me"
 # Populates the `meta description` for a page
-summary: "I’m an independent Frontend Web Developer living in West Sussex, England and have been helping companies and businesses build & enhance their websites for a number of years."
+summary: "I’m an independent Frontend Web Developer / UI Engineer living in West Sussex, England and have been helping companies and businesses build their websites for a number of years."
 # Populates the opening / `lead` text on a page
 lead:
-  - "I’m an independent Frontend Web Developer living in West Sussex, England and have been helping companies and businesses build & enhance their websites for a number of years."
+  - "I’m an independent Frontend Web Developer / UI Engineer living in West Sussex, England and have been helping companies and businesses build their websites for a number of years."
 
 bodyClass: "about"
 
 date: 2020-04-24T19:33:00
-updated: 2021-06-28T15:13:00
+updated: 2021-08-16T18:30:00
 ---
 
 I'm originally from South Africa and grew up on a dairy farm in a very [beautiful part of the country](https://youtu.be/bGQbM3QfA5w). Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking and camping in the mountains, canoeing, fishing and sport. Funny how things turn out sometimes eh!

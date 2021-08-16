@@ -2,7 +2,7 @@
 layout: "layouts/homepage.njk"
 title: "Hi, I'm Bruce."
 # Populates the `meta description` for a page
-summary: "I’m an independent Frontend Web Developer living in West Sussex, England and have been helping companies and businesses build & enhance their websites for a number of years."
+summary: "I’m an independent Frontend Web Developer / UI Engineer living in West Sussex, England and have been helping companies and businesses build their websites for a number of years."
 
 # Populates the opening / `lead` text on a page
 lead:
@@ -31,7 +31,7 @@ bodyClass: "homepage"
 permalink: "/index.html"
 
 date: 2020-04-24T12:54:00
-updated: 2021-06-27T17:34:00
+updated: 2021-08-16T18:30:00
 
 changefreq: "weekly"
 priority: 1
