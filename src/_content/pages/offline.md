@@ -8,13 +8,13 @@ lead:
 bodyClass: "offline"
 
 date: 2020-05-01T14:43:00
-updated: 2021-05-12T18:29:00
+updated: 2021-09-07T13:52:00
 
 hidden: true
 eleventyExcludeFromCollections: true
 ---
 
-Why not visit one of these other articles that are available while you're offline.
+Why not visit one of these other posts. They're available to read while you're offline.
 
 ---
 
