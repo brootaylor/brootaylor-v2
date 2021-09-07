@@ -7,7 +7,7 @@ lead:
   - "I've decided to take the scary route (for me anyway) of redesigning and developing my website in the open. I've been inspired by others that have done this and thought it may be an interesting process. Not least because I'm a bit of a perfectionist and doing this may be a good way of weaning me off the need to have things completely polished before showing them. 😱"
 
 date: 2020-02-22T09:50:00
-updated: 2020-09-30T15:45:00
+updated: 2021-09-07T13:57:00
 
 location:
   locality: "Crawley"
@@ -37,7 +37,7 @@ I've [made the code public][5] but it is for my personal website, so please can 
 
 ## What it's made of
 
-The website is comprised of static files built using the fabulous [Eleventy][1] (<abbr title="Static Site Generator">SSG</abbr>), configurable [NPM][2] build scripts, global data configuration, [Sass][7] powered CSS system and [rollup.js][3] to bundle JavaScript modules.
+The website is comprised of static files built using the fabulous [Eleventy][1] (<abbr title="Static Site Generator">SSG</abbr>), configurable [NPM][2] build scripts, global data configuration, [Sass][7] powered CSS system and [rollup.js][3] to bundle JavaScript modules. Much of the content is also available offline thanks to a [Service Worker][8].
 
 It's deployed by and hosted with [Netlify][4].
 
@@ -48,3 +48,4 @@ It's deployed by and hosted with [Netlify][4].
 [5]: https://github.com/brootaylor/brootaylor-v2
 [6]: https://github.com/brootaylor/brootaylor-v2/issues
 [7]: https://sass-lang.com/
+[8]: https://developers.google.com/web/fundamentals/primers/service-workers
