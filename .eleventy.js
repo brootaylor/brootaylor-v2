@@ -20,7 +20,7 @@ const htmlMinify = require('./lib/utils/transforms/minify-html.js')
 
 // Import (collections)
 const postNotes = require('./lib/collections/postNotes.js')
-const postLinks = require('./lib/collections/postLinks.js')
+const postBookmarks = require('./lib/collections/postBookmarks.js')
 const postWriting = require('./lib/collections/postWriting.js')
 
 module.exports = function (eleventy) {
@@ -46,7 +46,7 @@ module.exports = function (eleventy) {
 
   // Collections
   eleventy.addCollection('postNotes', postNotes)
-  eleventy.addCollection('postLinks', postLinks)
+  eleventy.addCollection('postBookmarks', postBookmarks)
   eleventy.addCollection('postWriting', postWriting)
 
   // Passthrough

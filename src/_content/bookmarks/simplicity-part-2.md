@@ -5,8 +5,8 @@ summary: "When everything works, it feels like magic. When something breaks, it�
 # Populates the opening / `lead` text on a page
 lead:
   - "Bastian Allgeier wonderfully articulates what many – (more than likely most!) – of us are probably thinking anyway but unsure whether we should break cover or not."
-linkExternal: "https://bastianallgeier.com/notes/simplicity-part-2"
-linkLabel: "bastianallgeier.com"
+bookmarkExternal: "https://bastianallgeier.com/notes/simplicity-part-2"
+bookmarkLabel: "bastianallgeier.com"
 
 date: 2019-09-10T18:54:00
 updated: 2020-06-10T15:35:00

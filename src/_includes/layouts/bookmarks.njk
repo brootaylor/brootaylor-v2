@@ -1,5 +1,5 @@
 {#
-	`Links` layout template
+	`Bookmarks` layout template
 #}
 
 {# Uses `base.njk` as base document (ie. extends on it) #}
@@ -16,7 +16,7 @@
 
 		<header>
 			<time datetime="{{ date | dateTime }}">{{ date | dateTimeReadable("d LLLL y, ") }}{{ date | dateTimeReadable("t") | lower }}</time>
-			<div><span class="[ visually-hidden ]">Original post can be viewed at</span> &rarr; <a href="{{ linkExternal }}" rel="external">{{ linkLabel }}</a></div>
+			<div><span class="[ visually-hidden ]">Original post can be viewed at</span> &rarr; <a href="{{ bookmarkExternal }}" rel="external">{{ bookmarkLabel }}</a></div>
 			{# This `title` comes from the front matter in the relevant `.md` file - within the `pages` directory #}
 			{% if title %}
 				<h1>{{ title | safe }}</h1>
@@ -43,8 +43,8 @@
 
 		<hr>
 
-		{# Takes back to links landing page #}
-		<a href="/links">Other links</a>
+		{# Takes back to bookmarks landing page #}
+		<a href="/bookmarks">Other bookmarks</a>
 
 	</article>
 {% endblock %}

@@ -27,8 +27,8 @@ eleventyExcludeFromCollections: true
 			<updated>{{ lastUpdated }}</updated>
 			<id>{{ absolutePostUrl }}</id>
 			<content type="html" xml:base="{{ absolutePostUrl }}"><![CDATA[
-				{%- if post.data.linkExternal -%}
-					Original post can be viewed at: <a href="{{ post.data.linkExternal }}" rel="external">{{ post.data.linkLabel }}</a>
+				{%- if post.data.bookmarkExternal -%}
+					Original post can be viewed at: <a href="{{ post.data.bookmarkExternal }}" rel="external">{{ post.data.bookmarkLabel }}</a>
 				{%- endif -%}
 				{%- if post.data.lead -%}
 					<p>{{ post.data.lead | safe }}</p>

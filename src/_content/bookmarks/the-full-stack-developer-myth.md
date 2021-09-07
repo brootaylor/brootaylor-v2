@@ -2,8 +2,8 @@
 title: "The full stack developer myth &rarr; Chris Ferdinandi"
 # Populates the `meta description` for a page
 summary: "I too have struggled with the idea of the full stack developer for years and years so found a fair bit of sanity in this article by Chris Ferdinandi."
-linkExternal: "https://gomakethings.com/the-full-stack-developer-myth/"
-linkLabel: "gomakethings.com"
+bookmarkExternal: "https://gomakethings.com/the-full-stack-developer-myth/"
+bookmarkLabel: "gomakethings.com"
 
 date: 2021-07-15T23:56:00
 updated: 2021-07-15T23:56:00

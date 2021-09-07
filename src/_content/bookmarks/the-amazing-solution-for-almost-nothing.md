@@ -1,8 +1,8 @@
 ---
 title: The Amazing Solution for Almost Nothing
 summary: This is the market for magic, and that market is big. Whether it’s about blockchain, big data, cloud computing, AI or other buzzwords.
-linkExternal: https://thecorrespondent.com/655/blockchain-the-amazing-solution-for-almost-nothing/86649455475-f933fe63
-linkLabel: thecorrespondent.com
+bookmarkExternal: https://thecorrespondent.com/655/blockchain-the-amazing-solution-for-almost-nothing/86649455475-f933fe63
+bookmarkLabel: thecorrespondent.com
 date: 2021-03-29T13:49:19.823Z
 updated: 2021-03-29T13:49:20.970Z
 location:
