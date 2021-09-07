@@ -2,11 +2,11 @@
 layout: "layouts/homepage.njk"
 title: "Hi, I'm Bruce."
 # Populates the `meta description` for a page
-summary: "I’m an independent Frontend Web Developer / UI Engineer living in West Sussex, England and have been helping companies and businesses build their websites for a number of years."
+summary: "I'm an independent Frontend Web Developer and UI Engineer living in West Sussex, England and have been helping small businesses, companies and organisations build their websites since 2004."
 
 # Populates the opening / `lead` text on a page
 lead:
-  - Originally from South Africa but now living in West Sussex, England. Here's a bit more <a href="/about">about me</a> and the <a href="/work">work that I do</a>.
+  - I'm an independent Frontend Web Developer and UI Engineer living in West Sussex, England and have been helping small businesses, companies and organisations build their websites since 2004.
 
 # Page-specific metadata content added to the `<head>`
 # head: "
@@ -31,16 +31,14 @@ bodyClass: "homepage"
 permalink: "/index.html"
 
 date: 2020-04-24T12:54:00
-updated: 2021-09-07T11:51:00
+updated: 2021-09-07T15:26:00
 
 changefreq: "weekly"
 priority: 1
 ---
 
-I make websites and have worked on projects with companies and businesses like **AirMiles**, **Avios**, **Macmillan Cancer Support**, **Pegasus**, **Charanga Music**, **Analog Implant Laboratory**, **Time Inc.**, **MerchantCantos**, **Boston T Party**, **Euromoney** and most recently with [IAG Loyalty](https://iagloyalty.com/).
+Most recently for [IAG Loyalty](https://iagloyalty.com/) but also **Euromoney**, **MerchantCantos**, **Time Inc.**, **Macmillan Cancer Support**, **Pegasus**, **Charanga Music**, **Analog Implant Laboratory**, **Boston T Party**, **AirMiles** and **Avios**.
 
 ***
 
-I sometimes [write](/writing), jot down [notes](/notes) or [bookmark](/bookmarks) things that interest me.
-
-I'm a sucker for fantasy so am currently making my way through the "[The Echoes Saga](https://www.philipcquaintrell.com/books)" by Philip C. Quaintrell. What a treat it's been.
+Do you think there's a web project that I could possibly help you with? Then I’d love to [hear from you](/contact) and find out a bit more about what you’re working on.

@@ -1,18 +1,17 @@
 ---
 title: "About me"
 # Populates the `meta description` for a page
-summary: "I’m an independent Frontend Web Developer / UI Engineer living in West Sussex, England and have been helping companies and businesses build their websites for a number of years."
+summary: "I'm originally from South Africa and grew up on a dairy farm in a very beautiful part of the country."
 # Populates the opening / `lead` text on a page
 lead:
-  - "I’m an independent Frontend Web Developer / UI Engineer living in West Sussex, England and have been helping companies and businesses build their websites for a number of years."
+  - I'm originally from South Africa and grew up on a dairy farm in a very <a href="https://youtu.be/bGQbM3QfA5w" rel="external">beautiful part of the country</a>.
+  - Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking and camping in the mountains, canoeing, fishing and sport. Funny how things turn out sometimes.
 
 bodyClass: "about"
 
 date: 2020-04-24T19:33:00
-updated: 2021-08-16T19:44:00
+updated: 2021-09-07T15:30:00
 ---
-
-I'm originally from South Africa and grew up on a dairy farm in a very [beautiful part of the country](https://youtu.be/bGQbM3QfA5w). Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking and camping in the mountains, canoeing, fishing and sport. Funny how things turn out sometimes eh!
 
 My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 children. 2 teenage sons and a daughter.
 
