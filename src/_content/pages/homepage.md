@@ -41,6 +41,6 @@ I make websites and have worked on projects with companies and businesses like *
 
 ***
 
-I sometimes [write](/writing), jot down [notes](/notes) or share [bookmarks](/bookmarks) to things that interest me.
+I sometimes [write](/writing), jot down [notes](/notes) or [bookmark](/bookmarks) things that interest me.
 
 I'm a sucker for fantasy so am currently making my way through the "[The Echoes Saga](https://www.philipcquaintrell.com/books)" by Philip C. Quaintrell. What a treat it's been.
