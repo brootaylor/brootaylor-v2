@@ -2,8 +2,8 @@
 title: "Modern CSS Solutions &rarr; Stephanie Eckles"
 # Populates the `meta description` for a page
 summary: "Modern CSS solutions for old CSS problems."
-linkExternal: "https://moderncss.dev/"
-linkLabel: "moderncss.dev"
+bookmarkExternal: "https://moderncss.dev/"
+bookmarkLabel: "moderncss.dev"
 
 date: 2020-05-13T22:46:00
 updated: 2021-04-19T14:12:00

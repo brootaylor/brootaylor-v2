@@ -31,7 +31,7 @@ bodyClass: "homepage"
 permalink: "/index.html"
 
 date: 2020-04-24T12:54:00
-updated: 2021-08-16T19:44:00
+updated: 2021-09-07T11:51:00
 
 changefreq: "weekly"
 priority: 1
@@ -41,6 +41,6 @@ I make websites and have worked on projects with companies and businesses like *
 
 ***
 
-I sometimes [write](/writing), jot down [notes](/notes) or share [links](/links) to things that interest me.
+I sometimes [write](/writing), jot down [notes](/notes) or [bookmark](/bookmarks) things that interest me.
 
 I'm a sucker for fantasy so am currently making my way through the "[The Echoes Saga](https://www.philipcquaintrell.com/books)" by Philip C. Quaintrell. What a treat it's been.

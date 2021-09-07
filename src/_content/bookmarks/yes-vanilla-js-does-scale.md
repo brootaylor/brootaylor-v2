@@ -2,8 +2,8 @@
 title: "Yes, vanilla JS does scale"
 # Populates the `meta description` for a page
 summary: "Is the implication that vanilla JS literally cannot handle the load of large applications the way frameworks can?"
-linkExternal: "https://gomakethings.com/yes-vanilla-js-does-scale/"
-linkLabel: "gomakethings.com"
+bookmarkExternal: "https://gomakethings.com/yes-vanilla-js-does-scale/"
+bookmarkLabel: "gomakethings.com"
 
 date: 2021-01-08T17:12:00
 updated: 2021-01-08T17:12:00

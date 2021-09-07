@@ -17,8 +17,8 @@ module.exports = {
       url: '/notes'
     },
     {
-      label: 'Links',
-      url: '/links'
+      label: 'Bookmarks',
+      url: '/bookmarks'
     },
     {
       label: 'Contact',

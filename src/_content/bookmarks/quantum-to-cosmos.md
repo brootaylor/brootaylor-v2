@@ -2,8 +2,8 @@
 title: "Quantum to Cosmos"
 # Populates the `meta description` for a page
 summary: "Travel from the subatomic scale to the farthest reaches of the cosmos."
-linkExternal: "https://quantumtocosmos.ca/"
-linkLabel: "quantumtocosmos.ca"
+bookmarkExternal: "https://quantumtocosmos.ca/"
+bookmarkLabel: "quantumtocosmos.ca"
 
 date: 2021-01-13T19:07:00
 updated: 2021-01-14T11:42:00

@@ -2,8 +2,8 @@
 title: GCSE Science brought down to Earth &rarr; Brian Cox
 # Populates the `meta description` for a page
 summary: "GCSE Science brought down to Earth. A lecture by Professor Brian Cox."
-linkExternal: "https://youtu.be/enSXh4YY9Ws?t=517"
-linkLabel: "youtube.com"
+bookmarkExternal: "https://youtu.be/enSXh4YY9Ws?t=517"
+bookmarkLabel: "youtube.com"
 
 date: 2021-01-19T15:28:00
 updated: 2021-01-19T15:28:00

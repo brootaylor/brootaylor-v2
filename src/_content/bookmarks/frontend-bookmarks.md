@@ -2,8 +2,8 @@
 title: "Front-end Bookmarks"
 # Populates the `meta description` for a page
 summary: "A collection of articles and talks about HTML, CSS, and JS, grouped by elements, attributes, properties, selectors, methods, and expressions."
-linkExternal: "https://www.frontendbookmarks.com/"
-linkLabel: "frontendbookmarks.com"
+bookmarkExternal: "https://www.frontendbookmarks.com/"
+bookmarkLabel: "frontendbookmarks.com"
 
 date: 2020-05-11T10:17:00
 updated: 2020-05-11T10:17:00

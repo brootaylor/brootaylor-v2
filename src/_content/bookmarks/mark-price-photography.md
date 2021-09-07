@@ -2,8 +2,8 @@
 title: "Mark Price Photography"
 # Populates the `meta description` for a page
 summary: "This is a shameless plug of Mark Price's photography."
-linkExternal: "https://www.mark-price.photography/"
-linkLabel: "mark-price.photography"
+bookmarkExternal: "https://www.mark-price.photography/"
+bookmarkLabel: "mark-price.photography"
 
 date: 2020-05-28T15:05:00
 updated: 2020-05-28T15:05:00
