@@ -14,13 +14,9 @@ You're more than welcome to follow along if you're ok with witnessing the inevit
 
 Now, I say this gingerly - but I'd be honoured if anyone wanted to contribute any thoughts and pearls of wisdom. All I ask is you be kind. If there's anything you spot that seems dodgy or if you'd like to recommend an enhancement, (and you have the time), you're more than welcome to [summit a GitHub issue](https://github.com/brootaylor/brootaylor-v2/issues).
 
-The website is comprised of static files built using the fabulous [Eleventy](https://www.11ty.io/) (SSG), configurable [NPM](https://docs.npmjs.com/cli/npm) build scripts, global data configuration, [Sass](https://sass-lang.com/) powered CSS system and [rollup.js](https://rollupjs.org/) to bundle JavaScript modules.
+The website is comprised of static files built using the fabulous [Eleventy](https://www.11ty.io/) (SSG), configurable [NPM](https://docs.npmjs.com/cli/npm) build scripts, global data configuration, [Sass](https://sass-lang.com/) powered CSS system and [rollup.js](https://rollupjs.org/) to bundle JavaScript modules. Much of the content is also available offline thanks to a [Service Worker](https://developers.google.com/web/fundamentals/primers/service-workers).
 
 It's deployed by and hosted with [Netlify](https://www.netlify.com/).
-
----
-
-❗️**NOTE:** I've made the code public but it is for my personal website, so please can I ask you not to copy everything wholesale. By all means learn from it (*as I'm trying to do*). Thank you.
 
 ---
 
