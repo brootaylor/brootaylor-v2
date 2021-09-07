@@ -28,7 +28,7 @@ Nope, I wouldn't call myself a *Fullstack* Developer.
 
 I've often struggled with that title anyway &mdash; and even more so these days. Not least because of the unrealistic expectations that often accompany it; but also because building websites has become increasingly complex and it's virtually impossible to be competent - (let alone an expert) - across an entire technology stack.
 
-Personally it doesn't interest me much either. I love working on the frontend (HTML, CSS & JS) and that's where I've spent the most time honing my skills. User-centricity is very important to me when developing a web solution.
+Personally it doesn't interest me much either. I love working on the frontend (HTML, CSS & JS) and that's where I've spent the most time honing my skills. User-centricity is also very important to me when developing a web solution.
 
 ### Am I a designer?
 
