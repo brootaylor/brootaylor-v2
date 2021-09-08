@@ -2,11 +2,11 @@
 layout: "layouts/homepage.njk"
 title: "Hi, I'm Bruce."
 # Populates the `meta description` for a page
-summary: "I'm an independent Frontend Web Developer and UI Engineer living in West Sussex, England and have been helping small businesses, companies and organisations build their websites since 2004."
+summary: "I'm an independent Frontend Web Developer and UI Engineer living in West Sussex, England and have been helping small businesses, companies and organisations build their websites for over 15 years."
 
 # Populates the opening / `lead` text on a page
 lead:
-  - I'm an independent Frontend Web Developer and UI Engineer living in West Sussex, England and have been helping small businesses, companies and organisations build their websites since 2004.
+  - I'm an independent Frontend Web Developer and UI Engineer living in West Sussex, England and have been helping small businesses, companies and organisations build their websites for over 15 years.
 
 # Page-specific metadata content added to the `<head>`
 # head: "
@@ -31,13 +31,13 @@ bodyClass: "homepage"
 permalink: "/index.html"
 
 date: 2020-04-24T12:54:00
-updated: 2021-09-07T15:26:00
+updated: 2021-09-08T18:59:00
 
 changefreq: "weekly"
 priority: 1
 ---
 
-Most recently for [IAG Loyalty](https://iagloyalty.com/) but also **Euromoney**, **MerchantCantos**, **Time Inc.**, **Macmillan Cancer Support**, **Pegasus**, **Charanga Music**, **Analog Implant Laboratory**, **Boston T Party**, **AirMiles** and **Avios**.
+Currently I’m a Senior Front End Web Developer at [IAG Loyalty](https://iagloyalty.com/) but have also worked with companies like **Airmiles UK**, **Avios**, **Macmillan Cancer Support**, **Pegasus**, **Charanga Music**, **Time Inc.**, **Analog Implant Laboratory**, **Boston T Party**, **MerchantCantos** and **Euromoney**.
 
 ***
 
