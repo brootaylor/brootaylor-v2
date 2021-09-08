@@ -4,7 +4,7 @@
 
 [build]
   command = "npm run deploy:build"
-  publish = "www"
+  publish = "dist"
 
   # Default site wide settings
   # https://docs.netlify.com/configure-builds/file-based-configuration/#post-processing
