@@ -16,7 +16,7 @@ import { name, version, homepage, author, license } from '../package.json'
 // Setting some directory path variables...
 // Also some 'preamble' values for fun :-)
 const src = './src/'
-const dist = './www/'
+const dist = './dist/'
 const preamble = `/*
 * ${name}
 * v${version}

@@ -1,6 +1,6 @@
 # Don't eslint any JS files in the "www" directory
-www/**/*.js
-www/**/*.mjs
+dist/**/*.js
+dist/**/*.mjs
 
 # Don't eslint any JS files in the "config" directory
 config/**/*.js

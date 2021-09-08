@@ -74,7 +74,7 @@ module.exports = function (eleventy) {
       input: 'src',
       includes: '_includes',
       data: '_data',
-      output: 'www'
+      output: 'dist'
     }
   }
 }
