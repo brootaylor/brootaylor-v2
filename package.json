@@ -94,7 +94,7 @@
     "eslint-plugin-html": "^6.1.2",
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-prettier": "^4.0.0",
-    "jest": "^27.1.0",
+    "jest": "^27.1.1",
     "markdownlint-cli": "^0.28.1",
     "minami": "^1.2.3",
     "onchange": "^7.1.0",
