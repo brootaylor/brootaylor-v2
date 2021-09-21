@@ -23,7 +23,6 @@
     "clean": "rimraf dist && mkdir dist",
     "prebuild": "npm run clean && echo 'Getting rid of old stuff first 🔥'",
     "lint:markdown": "markdownlint src/**/*.md",
-    "lint:sass": "sass-lint 'src/**/*.scss' -v -q",
     "postcss": "postcss --map --no-map -r dist/styles/*.css --config config/postcss.config.js",
     "sass:tokens": "rimraf src/styles/tokens/*.scss && json-to-scss 'tokens/*.json' 'src/styles/tokens/_tokens.scss'",
     "sass:dev": "npm run sass:tokens && npx sass --style=expanded --no-source-map --watch src:dist",
@@ -98,7 +97,6 @@
     "markdownlint-cli": "^0.28.1",
     "minami": "^1.2.3",
     "onchange": "^7.1.0",
-    "prettier": "^2.4.1",
-    "sass-lint": "^1.13.1"
+    "prettier": "^2.4.1"
   }
 }
