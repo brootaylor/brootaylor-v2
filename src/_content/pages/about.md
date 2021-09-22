@@ -10,7 +10,7 @@ lead:
 bodyClass: "about"
 
 date: 2020-04-24T19:33:00
-updated: 2021-09-07T15:30:00
+updated: 2021-09-11T13:29:00
 ---
 
 My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 children. 2 teenage sons and a daughter.
@@ -21,9 +21,15 @@ I try and write whenever I get the chance and have [written a few posts](/writin
 
 ## Some hobby stuff
 
-I enjoy landscape photography and am a [fairly decent drummer](https://www.flickr.com/photos/60226997@N06/40548596663/). I absolutely [adore aircraft](https://www.flickr.com/photos/60226997@N06/47530443441/) and still plan to pull my finger out and get my <abbr title="Private Pilots Licence">PPL</abbr> one day.
+I enjoy landscape photography and am a [fairly decent drummer](https://www.flickr.com/photos/60226997@N06/40548596663/). Fly fishing for trout is something I grew up doing and continue to do. I head to the beautiful [Lakedown Trout Fishery](https://www.lakedowntroutfishery.com/) as often as I can. A gorgeous and tranquil spot away from all the noise.
 
-I love to read whenever I get the chance and am a sucker for fantasy. The feeling of been transported to another world is intoxicating. Currently I'm making my way through the "[The Echoes Saga](https://www.philipcquaintrell.com/books)" by Philip C. Quaintrell. What a treat it's been.
+I absolutely [adore aircraft](https://www.flickr.com/photos/60226997@N06/47530443441/) and still plan to pull my finger out and get my <abbr title="Private Pilots Licence">PPL</abbr> one day.
+
+---
+
+## What I'm reading
+
+I'm a sucker for fantasy. The feeling of been transported to another world is intoxicating. Currently I'm making my way through the "[The Echoes Saga](https://www.philipcquaintrell.com/books)" by Philip C. Quaintrell. What a treat it's been.
 
 ---
 
