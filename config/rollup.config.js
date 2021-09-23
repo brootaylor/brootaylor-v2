@@ -51,6 +51,7 @@ function basePlugins ({ nomodule = false } = {}) {
   const plugins = [
     json(),
     replace({
+      preventAssignment: true,
       delimiters: ['{{', '}}'],
       name,
       version
