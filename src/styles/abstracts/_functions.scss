@@ -85,10 +85,6 @@
 /// @param {Number} $pixels - Any value with unit (eg. 90px)
 /// @return {Number}
 /// @require $pixels
-@function convert-to-rem ($pixels) {
-  @return strip-unit($pixels) / strip-unit($font-size-base) * 1rem;
-}
-
 @function convert-to-rem($pixels) {
   @return math.div(strip-unit($pixels), strip-unit($font-size-base)) * 1rem;
 }
