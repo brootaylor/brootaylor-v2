@@ -4,6 +4,7 @@
 
 @use 'config' as *;
 @use 'functions' as *;
+@use 'sass:math';
 
 
 /// Font size coversion to REM
@@ -97,7 +98,7 @@
 /// @param {Value} $y [9]
 /// @param {Boolean} $pseudo [false]
 @mixin responsive-ratio($x: 16, $y: 9, $pseudo: false) {
-	$padding: unquote(( $y / $x ) * 100 + '%'); // Works out percentage after entering say '(16,9)'
+	$padding: unquote((math.div($y, $x)) * 100 + '%'); // Works out percentage after entering say '(16,9)'
 
 	// Checks to see if 'psuedo' argument is 'true'
 	@if $pseudo {
