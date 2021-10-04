@@ -31,13 +31,13 @@ bodyClass: "homepage"
 permalink: "/index.html"
 
 date: 2020-04-24T12:54:00
-updated: 2021-09-14T19:10:00
+updated: 2021-10-04T15:44:00
 
 changefreq: "weekly"
 priority: 1
 ---
 
-Currently I’m a Senior Front End Web Developer at [IAG Loyalty](https://iagloyalty.com/) but have also worked with companies like **Airmiles UK**, **Avios**, **Macmillan Cancer Support**, **Pegasus**, **Charanga Music**, **Time Inc.**, **Analog Implant Laboratory**, **Boston T Party**, **MerchantCantos** and **Euromoney**.
+Most recently I worked with [IAG Loyalty](https://iagloyalty.com/) but have also worked with companies like **Airmiles UK**, **Avios**, **Macmillan Cancer Support**, **Pegasus**, **Charanga Music**, **Time Inc.**, **Analog Implant Laboratory**, **Boston T Party**, **MerchantCantos** and **Euromoney**.
 
 ***
 
