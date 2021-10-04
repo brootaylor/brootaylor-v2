@@ -1,7 +1,6 @@
 # Directories to ignore
 node_modules
 .vscode
-docs
 dist
 
 # Files to ignore
