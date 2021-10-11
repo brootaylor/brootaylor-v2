@@ -15,13 +15,14 @@
 
   position: sticky;
   top: 0;
-  padding: 1rem;
+  padding: 1rem 0;
   margin-top: 0;
   /* offset-x | offset-y | blur-radius | spread-radius | color */
   box-shadow: 0 2px 0 1px rgba($grey-dark, 0.2);
 
     // Creates an offset type look using these negative margins...
     @include min-width($breakpoint-medium) {
+      padding: 1rem 0.5rem;
       margin-left: -0.50rem;
       margin-right: -0.50rem;
     }

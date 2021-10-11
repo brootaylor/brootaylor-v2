@@ -31,15 +31,17 @@ body {
 }
 
 #main {
-  margin-top: 3em;
   padding-bottom: 2rem;
+  margin-top: 1em;
 
     @include min-width($breakpoint-medium) {
       padding-bottom: 3rem;
+      margin-top: 2em;
     }
 
     @include min-width($breakpoint-large) {
       padding-bottom: 4rem;
+      margin-top: 3em;
     }
 }
 
