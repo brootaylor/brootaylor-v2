@@ -27,9 +27,11 @@ body,
 
 body {
   background-color: var(--background-colour-overlay);
+  min-height: calc(100vh - 3rem);
 }
 
 #main {
+  margin-top: 2em;
   padding-bottom: 2rem;
 
     @include min-width($breakpoint-medium) {
