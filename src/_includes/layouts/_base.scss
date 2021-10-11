@@ -27,17 +27,21 @@ body,
 
 body {
   background-color: var(--background-colour-overlay);
+  min-height: calc(100vh - 3rem);
 }
 
 #main {
   padding-bottom: 2rem;
+  margin-top: 1em;
 
     @include min-width($breakpoint-medium) {
       padding-bottom: 3rem;
+      margin-top: 2em;
     }
 
     @include min-width($breakpoint-large) {
       padding-bottom: 4rem;
+      margin-top: 3em;
     }
 }
 
