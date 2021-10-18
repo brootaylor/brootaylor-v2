@@ -3,18 +3,17 @@
  **********************************************************/
 
 .site-logo {
-  a {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: var(--font-colour-base);
-    text-decoration-color: transparent;
+  font-family: var(--font-family-title);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--font-colour-base);
+  text-decoration-color: transparent;
 
-    &:active,
-    &:focus,
-    &:hover {
-      color: var(--green-custom);
-      text-decoration-color: var(--green-custom-light);
-      border: 0;
-    }
+  &:active,
+  &:focus,
+  &:hover {
+    color: var(--green-custom);
+    text-decoration-color: var(--green-custom-light);
+    border: 0;
   }
 }
