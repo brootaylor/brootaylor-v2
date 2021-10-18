@@ -6,8 +6,6 @@
 @use '../../../../styles/utilities' as *;
 
 .navigation {
-  @extend %flow;
-
   a {
     color: var(--font-colour-base);
     text-decoration-color: transparent;
@@ -29,7 +27,6 @@
   }
 
   &__list {
-    @extend %no-list;
     display: flex;
     flex-wrap: wrap;
 
@@ -37,5 +34,4 @@
       padding-right: 1rem;
     }
   }
-
 }

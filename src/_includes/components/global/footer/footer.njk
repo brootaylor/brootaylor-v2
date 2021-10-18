@@ -12,7 +12,7 @@
 			<h2 id="nav-footer--label" class="[ visually-hidden ]">Footer navigation</h2>
 
 			{% for navitem in navigation.footernav %}
-				{% if loop.first %}<ul aria-label="List of tertiary content pages">{% endif %}
+				{% if loop.first %}<ul role="list" aria-label="List of tertiary content pages" class="[ no-list ]">{% endif %}
 					<li>
 						<a href="{{ navitem.url }}"
 							{% if navitem.external %} rel="external"{% endif %}

@@ -164,11 +164,11 @@ h1 {
 
 h2 {
   // Fallback for older browsers
-  font-size: convert-to-rem(30px);
+  font-size: convert-to-rem(28px);
 
   // Browsers supporting `clamp()`
-  @supports (font-size: clamp(30px, 5vw, 34px)) {
-    font-size: clamp(#{convert-to-rem(30px)}, 5vw, #{convert-to-rem(34px)});
+  @supports (font-size: clamp(28px, 5vw, 34px)) {
+    font-size: clamp(#{convert-to-rem(28px)}, 5vw, #{convert-to-rem(34px)});
   }
 }
 

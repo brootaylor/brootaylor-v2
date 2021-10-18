@@ -11,7 +11,7 @@ date: 2020-02-22T22:10:00
 updated: 2021-09-07T11:42:00
 ---
 
-<ul class="[ bookmarks__list ] [ flow ]">
+<ul role="list" class="[ bookmarks__list ] [ no-list ] [ flow ]">
 {%- for bookmark in collections.postBookmarks -%}
   <li class="[ bookmarks__list-item ]">
     <article class="[ bookmarks__summary ] [ flow ]">

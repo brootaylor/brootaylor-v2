@@ -4,13 +4,6 @@
 
 @use '../../../../styles/abstracts' as *;
 
-
-// Any lists that use a class attribute...
-ul[class],
-ol[class] {
-  margin-top: 1em;
-}
-
 // Notes, Links & Writing landing pages list item rules...
 .notes,
 .links,
