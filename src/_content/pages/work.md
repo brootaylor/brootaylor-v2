@@ -1,15 +1,15 @@
 ---
 title: "Work"
 # Populates the `meta description` for a page
-summary: "I'm an independent Frontend Web Developer & UI Engineer living in West Sussex, England and have been helping small businesses, companies and organisations build their websites for over 15 years."
+summary: "I'm an independent Frontend Web Developer & UI Engineer living in West Sussex, England and have been helping small businesses, companies and organisations build their websites since 2004."
 # Populates the opening / `lead` text on a page
 lead:
-  - 'My interest in all things webby began in late 1999 while working at the original <a href="https://en.wikipedia.org/wiki/Boo.com" rel="external">Boo.com</a>. After a brief stint of freelancing, I started at <a href="https://en.wikipedia.org/wiki/Air_Miles#Air_Miles_United_Kingdom" rel="external">Airmiles</a> in 2004 – which later became <a href="https://www.avios.com/" rel="external">Avios</a>.'
+  - 'My interest in all things webby began in late 1999 while working at the original <a href="https://en.wikipedia.org/wiki/Boo.com" rel="external">Boo.com</a>. After a brief stint of freelancing, I started at <a href="https://en.wikipedia.org/wiki/Air_Miles#Air_Miles_United_Kingdom" rel="external">Airmiles</a> in 2004 – which later became <a href="https://www.avios.com/" rel="external">Avios</a>. I was there for 11 years before deciding to take the contract & freelancing route again.'
 
 bodyClass: "work"
 
 date: 2021-06-23T18:38:00
-updated: 2021-10-04T15:44:00
+updated: 2021-10-21T16:36:00
 ---
 
 ## What I do
@@ -20,7 +20,7 @@ Breaking my role down a bit further; I primarily work on the "[front-of-the-fron
 
 I spend a lot of my time writing / creating the HTML, CSS, and presentational JavaScript code that makes up a user interface. User-centricity is very important to me when developing a web solution which means I have a keen focus on [responsive design](https://alistapart.com/article/responsive-web-design), [progressive enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement), [semantic markup](https://www.w3.org/TR/WCAG20-TECHS/G115.html), [accessibility](https://www.w3.org/TR/WCAG20/), [web standards](https://www.w3.org/standards/) and [performance](https://developer.mozilla.org/en-US/docs/Learn/Performance).
 
-My aim is to build web solutions that are as [resilient](https://resilientwebdesign.com/), [usable](https://trentwalton.com/2014/03/10/device-agnostic/) and future-friendly as possible. For this reason I prefer a *vanilla* approach and tend to steer clear of using JavaScript frameworks in my work.
+My aim is to build web solutions that are as [resilient](https://resilientwebdesign.com/), [usable](https://trentwalton.com/2014/03/10/device-agnostic/) and future-friendly as possible. For this reason I prefer a *vanilla* approach and tend to steer clear of using JavaScript frameworks if at all possible.
 
 ### Am I a *Fullstack* Developer?
 
