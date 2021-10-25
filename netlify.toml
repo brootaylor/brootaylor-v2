@@ -168,12 +168,6 @@
   to = "/error/404"
   status = 404
 
-[[redirects]]
-  from = "/assets/docs/cv/BruceTaylorCV.pdf"
-  to = "/cv/BruceTaylorCV.pdf"
-  status = 200
-  force = true
-
 # ========================================================================
 # NOTE: Using `_redirects-production.njk` file - (compiles to `_redirects`) - to handle page level redirects cause doesn't seem to work properly in this .toml config file for some reason.
 # ========================================================================
