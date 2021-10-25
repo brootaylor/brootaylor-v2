@@ -169,8 +169,8 @@
   status = 404
 
 [[redirects]]
-  from = "/cv/BruceTaylorCV.pdf"
-  to = "/assets/docs/cv/BruceTaylorCV.pdf"
+  from = "/assets/docs/cv/BruceTaylorCV.pdf"
+  to = "/cv/BruceTaylorCV.pdf"
   status = 200
   force = true
 
