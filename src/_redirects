@@ -19,3 +19,6 @@
 
 # Error pages
 /error/404 /error/404.html 200!
+
+# CV
+/cv/BruceTaylorCV.pdf /assets/docs/cv/BruceTaylorCV.pdf 200!
