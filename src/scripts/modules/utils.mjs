@@ -13,7 +13,7 @@ const person = {
   title: `${faker.name.prefix()}`,
   first: `${faker.name.firstName()}`,
   last: `${faker.name.lastName()}`,
-  age: `${faker.random.number() - 1972}`
+  age: `${faker.datatype.number() - 1972}`,
 }
 
 /**
@@ -24,7 +24,7 @@ const contact = {
   city: `${faker.address.city()}`,
   county: `${faker.address.county()}`,
   zip: `${faker.address.zipCode()}`,
-  country: `${faker.address.country()}`
+  country: `${faker.address.country()}`,
 }
 
 /**
@@ -33,7 +33,7 @@ const contact = {
 const dates = [
   new Date(1995, 6, 2),
   new Date(1987, 1, 11),
-  new Date(1989, 6, 10)
+  new Date(1989, 6, 10),
 ]
 
 export { person, contact, dates }
