@@ -25,4 +25,27 @@
       text-decoration-color: var(--green-custom-light);
       text-decoration-thickness: 2px;
   }
+
+  // In the context of an article...
+  article & {
+    // External link
+    &[rel~="external"] {
+      &::after {
+        background: url(/assets/icons/icon_external.svg) no-repeat;
+        content: "";
+        display: inline-block;
+        width: 0.75em;
+        height: 0.75em;
+        margin-left: 0.125em;
+        margin-right: 0.125em;
+        vertical-align: baseline;
+        opacity: 0.4;
+      }
+
+      // On hover...
+      &:hover::after {
+          opacity: 1;
+      }
+    }
+  }
  }

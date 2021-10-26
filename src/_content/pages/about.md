@@ -4,7 +4,7 @@ title: "About me"
 summary: "I'm originally from South Africa and grew up on a dairy farm in a very beautiful part of the country."
 # Populates the opening / `lead` text on a page
 lead:
-  - I'm originally from South Africa and grew up on a dairy farm in a very <a href="https://youtu.be/bGQbM3QfA5w" rel="external">beautiful part of the country</a>.
+  - I'm originally from South Africa and grew up on a dairy farm in a very <a href="https://youtu.be/bGQbM3QfA5w">beautiful part of the country</a>.
   - Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking and camping in the mountains, canoeing, fishing and sport. Funny how things turn out sometimes.
 
 bodyClass: "about"
