@@ -28,7 +28,7 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{ pageTitle }}</title>
+<title>{{ pageTitle | safe }}</title>
 <meta name="description" content="{{ metaDescription }}">
 
 {# Checking whether page is to be indexed or not --> ie. whether `hidden` variable equals `true` or `false` #}
