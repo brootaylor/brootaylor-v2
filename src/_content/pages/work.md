@@ -4,12 +4,12 @@ title: "Work"
 summary: "I'm an independent Frontend Web Developer & UI Engineer living in West Sussex, England and have been helping small businesses, companies and organisations build their websites since 2004."
 # Populates the opening / `lead` text on a page
 lead:
-  - 'My interest in all things webby began in late 1999 while working at the original <a href="https://en.wikipedia.org/wiki/Boo.com" rel="external">Boo.com</a>. After a brief stint of freelancing, I started at <a href="https://en.wikipedia.org/wiki/Air_Miles#Air_Miles_United_Kingdom" rel="external">Airmiles</a> in 2004 – which later became <a href="https://www.avios.com/" rel="external">Avios</a>. I was there for 11 years before deciding to take the contract & freelancing route again.'
+  - 'My interest in all things webby began in late 1999 while working at the original <a href="https://en.wikipedia.org/wiki/Boo.com">Boo.com</a>. After a brief stint of freelancing, I started at <a href="https://en.wikipedia.org/wiki/Air_Miles#Air_Miles_United_Kingdom">Airmiles</a> in 2004 – which later became <a href="https://www.avios.com/">Avios</a>. I was there for 11 years before deciding to take the contract & freelancing route again.'
 
 bodyClass: "work"
 
 date: 2021-06-23T18:38:00
-updated: 2021-10-21T16:36:00
+updated: 2021-10-26T18:46:00
 ---
 
 ## What I do

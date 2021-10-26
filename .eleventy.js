@@ -52,6 +52,7 @@ module.exports = function (eleventy) {
   // Passthrough
   eleventy.addPassthroughCopy('./src/assets/fonts')
   eleventy.addPassthroughCopy('./src/assets/ico')
+  eleventy.addPassthroughCopy('./src/assets/icons')
   eleventy.addPassthroughCopy('./src/assets/images')
   eleventy.addPassthroughCopy('./src/assets/video')
   eleventy.addPassthroughCopy('./src/assets/docs')
