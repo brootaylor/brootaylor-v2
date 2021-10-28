@@ -3,7 +3,7 @@
 
 		{# To help assistive technologies #}
 		<h2 id="site-footer--label" class="[ visually-hidden ]">Other tertiary content and external links. eg. accessibility statement, twitter and github.</h2>
-		<small>Copyright &copy; 2004&ndash;<time datetime="{% year %}">{% year %}</time> {{ site.name }}. All rights reserved.</small>
+		<small>Copyright &copy; 2004&ndash;<time datetime="{% year %}">{% year %}</time> {{ site.name }}. All rights reserved. <a href="/accessibility">Accessibility</a>.</small>
 
 		{# Pulls content from navigation.json data file #}
 		<nav aria-labelledby="nav-footer--label">
@@ -16,14 +16,26 @@
 					<li>
 						<a href="{{ navitem.url }}"
 							{% if navitem.external %} rel="external"{% endif %}
-							{% if (page.url | pretty) == navitem.url %} aria-describedby="current-page" class="[ current ]"{% endif %}>{{ navitem.label }}</a>
+							{% if (page.url | pretty) == navitem.url %} aria-describedby="current-page" class="[ current ]"{% endif %}>
+							{% if navitem.icon %}
+								<span class="visually-hidden">{{ navitem.label }}</span>
+								{% else %}
+								{{ navitem.label }}
+							{% endif %}
+							{# This (below) could be optimised at some stage... #}
+							{% if navitem.icon == "github" %}{% include "components/core/icons/svg_inline/icon--github.njk" %}{% endif %}
+							{% if navitem.icon == "twitter" %}{% include "components/core/icons/svg_inline/icon--twitter.njk" %}{% endif %}
+							{% if navitem.icon == "flickr" %}{% include "components/core/icons/svg_inline/icon--flickr.njk" %}{% endif %}
+							{% if navitem.icon == "rss" %}{% include "components/core/icons/svg_inline/icon--rss.njk" %}{% endif %}
+							{% if navitem.icon == "linkedin" %}{% include "components/core/icons/svg_inline/icon--linkedin.njk" %}{% endif %}
+						</a>
 					</li>
 				{% if loop.last %}</ul>{% endif %}
 			{% endfor %}
 		</nav>
 
 		{# Back to the top link / anchor #}
-		<a href="#start">Go back to the top</a>
+		<a href="#start" class="visually-hidden">Go back to the top</a>
 
 	</div>
 
