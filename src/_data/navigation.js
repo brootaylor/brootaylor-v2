@@ -27,38 +27,40 @@ module.exports = {
   ],
   footernav: [
     {
-      label: 'Accessibility',
-      url: '/accessibility'
-    },
-    {
       label: 'GitHub',
       url: 'https://github.com/brootaylor',
+      icon: 'github',
       external: true
     },
-    {
-      label: 'CodePen',
-      url: 'https://codepen.io/brootaylor',
-      external: true
-    },
+    // {
+    //   label: 'CodePen',
+    //   url: 'https://codepen.io/brootaylor',
+    //   icon: 'codepen',
+    //   external: true
+    // },
     {
       label: 'Twitter',
       url: 'https://twitter.com/brootaylor',
+      icon: 'twitter',
       external: true
     },
     {
       label: 'Flickr',
       url: 'https://www.flickr.com/photos/60226997@N06/',
-      external: true
-    },
-    {
-      label: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/brootaylor',
+      icon: 'flickr',
       external: true
     },
     {
       label: 'RSS',
       url: '/feed.xml',
+      icon: 'rss',
       document: true
+    },
+    {
+      label: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/brootaylor',
+      icon: 'linkedin',
+      external: true
     }
   ]
 }

@@ -3,3 +3,10 @@
  **********************************************************/
 
 @use '../../../../styles/abstracts' as *;
+
+// SVG (inline) icons
+.icon {
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+}

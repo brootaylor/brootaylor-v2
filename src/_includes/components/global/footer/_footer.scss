@@ -42,5 +42,13 @@
         padding: 0.2em 1rem 0.2em 0;
       }
     }
+
+    a {
+      display: inline-flex;
+
+      &:hover {
+        color: var(--black);
+      }
+    }
   }
 }
