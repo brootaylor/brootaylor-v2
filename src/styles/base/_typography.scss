@@ -201,6 +201,12 @@ pre {
 
 // Code formatting
 // @TODO: Move this code into its own SCSS partail & component
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+  color: var(--green-custom);
+}
+
 code,
 :not(pre)>code,
 pre {
