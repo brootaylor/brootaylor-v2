@@ -37,9 +37,24 @@
       display: flex;
       flex-wrap: wrap;
       align-items: center;
+    }
 
-      li {
-        padding: 0.2em 1rem 0.2em 0;
+    li {
+      padding: 0.2em 1rem 0.2em 0;
+
+      // Last 2 list items in this list
+      &:nth-last-child(-n+2) {
+        font-size: 0.9rem;
+      }
+
+      &:nth-last-child(2) {
+        @include min-width($breakpoint-small) {
+          margin-left: 3em;
+        }
+      }
+
+      &:last-child {
+        padding-right: 0;
       }
     }
 
