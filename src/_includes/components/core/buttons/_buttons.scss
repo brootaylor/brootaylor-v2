@@ -26,9 +26,11 @@ input {
         background-color: var(--green-custom-dark);
       }
 
-      // Button `:active` state
-      &:active {
+      // Button `:active` and `:focus` states
+      &:active,
+      &:focus {
         background-color: var(--green-custom-dark);
+        border: 2px dotted var(--white)
       }
   }
 }
