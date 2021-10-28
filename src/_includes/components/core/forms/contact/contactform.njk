@@ -26,15 +26,15 @@
 		<legend class="[ visually-hidden ]">{{ legend }}</legend>
 		<ol role="list" class="[ form__list ] [ no-list ]">
 			<li class="[ form__item ]">
-				<label class="[ form__label ]" for="name">{{ labelName }}</label>
+				<label class="[ form__label ]" for="name">{{ labelName }} <span class="[ visually-hidden ]">(Required field)</span></label>
 				<input class="[ form__input ]" id="name" name="name" type="text" required>
 			</li>
 			<li class="[ form__item ]">
-				<label class="[ form__label ]" for="email">{{ labelEmail }}</label>
+				<label class="[ form__label ]" for="email">{{ labelEmail }} <span class="[ visually-hidden ]">(Required field)</span></label>
 				<input class="[ form__input ]" id="email" name="email" type="email" required>
 			</li>
 			<li class="[ form__item ]">
-				<label class="[ form__label ]" for="message">{{ labelMessage }}</label>
+				<label class="[ form__label ]" for="message">{{ labelMessage }} <span class="[ visually-hidden ]">(Required field)</span></label>
 				<textarea class="[ form__input ]" id="message" name="message" rows="10" cols="20" placeholder="{{ messagePlaceholder }}" required></textarea>
 			</li>
 		</ol>
