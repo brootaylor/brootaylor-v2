@@ -16,15 +16,15 @@ This website is committed to providing a usable experience for anyone visiting i
 
 The code powering this website is [standards-compliant HTML, CSS, and JavaScript](https://www.w3.org/standards/).
 
-The pages are structured with semantic elements like <code>header</code>, <code>nav</code>, <code>main</code> and <code>footer</code>. Hopefully this will help you move around more quickly. Heading <code>h1</code> elements mark the main content area of each page, and each page’s structure should follow a logical heading order from there.
+The pages are structured with semantic elements like `header`, `nav`, `main` and `footer`. Hopefully this will help you move around more quickly. Heading `h1` elements mark the main content area of each page, and each page’s structure should follow a logical heading order from there.
 
 Every page on this website has a “*skip to the main content*” link at the top and bottom, as well as a “*back to top*" link at the very bottom which will return you to the start of this page / document.
 
 Images and inline SVGs are described with text equivalents, to ensure everyone can access graphical content. You should be able to zoom each page up to at least 300% without any issues.
 
-All form <code>label</code> and associated <code>input</code> fields use a unique value for their respective <code>for</code> and <code>id</code> attributes.
+All form `label` and associated `input` fields use a unique value for their respective `for` and `id` attributes.
 
-There are no <code>javascript:</code> pseudo-links. All links can be followed in any browser, even if scripting is turned off. There are no links that open new windows without warning.
+There are no `javascript:` pseudo-links. All links can be followed in any browser, even if scripting is turned off. There are no links that open new windows without warning.
 
 ---
 
