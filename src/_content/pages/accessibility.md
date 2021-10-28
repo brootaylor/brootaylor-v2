@@ -22,7 +22,7 @@ Every page on this website has a “*skip to the main content*” link at the to
 
 Images and inline SVGs are described with text equivalents, to ensure everyone can access graphical content. You should be able to zoom each page up to at least 300% without any issues.
 
-All form <code>label</code> and associated <code>input</code> fields use a unique value for their respective <code>for</code> and id attributes.
+All form <code>label</code> and associated <code>input</code> fields use a unique value for their respective <code>for</code> and <code>id</code> attributes.
 
 There are no <code>javascript:</code> pseudo-links. All links can be followed in any browser, even if scripting is turned off. There are no links that open new windows without warning.
 
