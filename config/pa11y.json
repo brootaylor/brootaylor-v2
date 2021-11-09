@@ -1,0 +1,15 @@
+{
+  "defaults": {
+    "standard": "WCAG2AA"
+  },
+  "urls": [
+      "http://brootaylor.com/",
+      "http://brootaylor.com/about",
+      "http://brootaylor.com/work",
+      "http://brootaylor.com/writing",
+      "http://brootaylor.com/notes",
+      "http://brootaylor.com/bookmarks",
+      "http://brootaylor.com/contact",
+      "https://brootaylor.com/accessibility"
+  ]
+}

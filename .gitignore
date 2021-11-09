@@ -1,11 +1,12 @@
 # Directories to ignore
 node_modules
 .vscode
+audits
 dist
+docs
 
 # Files to ignore
 .DS_Store
-*performance-results.html
 .env
 _tokens.scss
 *.zip
