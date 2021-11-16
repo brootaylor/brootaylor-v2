@@ -28,17 +28,17 @@ updated: 2021-11-16T17:28:00
 <ul role="list" class="auto-grid no-list">
   <li>
     <img src="https://source.unsplash.com/1600x900/?nature,water">
-    <h2>IAG Loyalty</h2>
+    <h3>IAG Loyalty</h3>
     <p>Fugiat eiusmod ut laborum do laborum velit magna sint. Nostrud in laboris ea minim nostrud esse exercitation commodo sunt laboris nisi ea reprehenderit.</p>
   </li>
   <li>
     <img src="https://source.unsplash.com/1600x900/?nature,mountain">
-    <h2>Euromoney</h2>
+    <h3>Euromoney</h3>
     <p>Fugiat eiusmod ut laborum do laborum velit magna sint. Nostrud in laboris ea minim nostrud esse exercitation commodo sunt laboris nisi ea reprehenderit.</p>
   </li>
   <li>
     <img src="https://source.unsplash.com/1600x900/?nature,tree">
-    <h2>Analog Dental Laboratory</h2>
+    <h3>Analog Dental Laboratory</h3>
     <p>Fugiat eiusmod ut laborum do laborum velit magna sint. Nostrud in laboris ea minim nostrud esse exercitation commodo sunt laboris nisi ea reprehenderit.</p>
   </li>
 </ul>
