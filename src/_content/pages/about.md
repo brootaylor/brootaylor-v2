@@ -4,7 +4,8 @@ title: "About"
 summary: "Frontend Web Developer & UI Engineer living in West Sussex, England. Helping small businesses, companies and organisations build their websites since 2004."
 # Populates the opening / `lead` text on a page
 lead:
-  - I'm an independent Frontend Web Developer & UI Engineer living in West Sussex, England and have been helping small businesses, companies and organisations <a href="/work">build their websites</a> since 2004.
+  - I'm an independent Frontend Web Developer & UI Engineer living in West Sussex, England and have been helping small businesses, companies and organisations build their websites since 2004.
+  # - I'm an independent Frontend Web Developer & UI Engineer living in West Sussex, England and have been helping small businesses, companies and organisations <a href="/work">build their websites</a> since 2004.
   - If you're interested, you can find out more <a href="/about/me">about me</a>.
 
 bodyClass: "about"
@@ -15,7 +16,7 @@ updated: 2021-11-16T17:28:00
 
 ## What I do
 
-I primarily work on the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)". This is my preference and certainly plays to my strengths. However, I'm often found with my hands in the "back-of-the-front-end" and DevOps stuff as well - (eg. JavaScript bundlers, deployment tooling, <abbr title="Continuous Integration">CI</abbr>/<abbr title="Continuous Deployment">CD</abbr> etc.).
+I primarily work on the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)". This is my preference and certainly plays to my strengths. However, I'm often found with my hands in the "*back-of-the-front-end*" and DevOps stuff as well - (eg. JavaScript bundlers, deployment tooling, <abbr title="Continuous Integration">CI</abbr>/<abbr title="Continuous Deployment">CD</abbr> etc.).
 
 I spend a lot of my time writing / creating the HTML, CSS, and presentational JavaScript code that makes up a user interface. User-centricity is very important to me when developing a web solution which means I have a keen focus on [responsive design](https://alistapart.com/article/responsive-web-design) & [intrinsic design](https://talks.jensimmons.com/15TjNW), [progressive enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement), [semantic markup](https://www.w3.org/TR/WCAG20-TECHS/G115.html), [accessibility](https://www.w3.org/TR/WCAG20/), [web standards](https://www.w3.org/standards/) and [performance](https://developer.mozilla.org/en-US/docs/Learn/Performance).
 
@@ -43,7 +44,7 @@ My role often involves collaborating with designers to ensure that the design tr
 
 ## Interested in working with me?
 
-Here's a bit more about some of the [work I've done](/work).
+<!-- Here's a bit more about some of the [work I've done](/work). -->
 
 Do you think there's a web project that I could possibly help you with? Then by all means [get in touch](/contact).
 

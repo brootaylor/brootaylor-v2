@@ -4,10 +4,10 @@ module.exports = {
       label: 'About',
       url: '/about'
     },
-    {
-      label: 'Work',
-      url: '/work'
-    },
+    // {
+    //   label: 'Work',
+    //   url: '/work'
+    // },
     {
       label: 'Writing',
       url: '/writing'
@@ -32,12 +32,6 @@ module.exports = {
       icon: 'github',
       external: true
     },
-    // {
-    //   label: 'CodePen',
-    //   url: 'https://codepen.io/brootaylor',
-    //   icon: 'codepen',
-    //   external: true
-    // },
     {
       label: 'Twitter',
       url: 'https://twitter.com/brootaylor',
