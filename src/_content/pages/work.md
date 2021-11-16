@@ -1,57 +1,92 @@
 ---
 title: "Work"
 # Populates the `meta description` for a page
-summary: "I'm an independent Frontend Web Developer & UI Engineer living in West Sussex, England and have been helping small businesses, companies and organisations build their websites since 2004."
+summary: "User-centricity is important to me, which means I particularly enjoy building web interfaces that are usable, accessible, performant, resilient and as future-friendly as possible."
 # Populates the opening / `lead` text on a page
 lead:
-  - 'My interest in all things webby began in late 1999 while working at the original <a href="https://en.wikipedia.org/wiki/Boo.com">Boo.com</a>. After a brief stint of freelancing, I started at <a href="https://en.wikipedia.org/wiki/Air_Miles#Air_Miles_United_Kingdom">Airmiles</a> in 2004 – which later became <a href="https://www.avios.com/">Avios</a>. I was there for 11 years before deciding to take the contract & freelancing route again.'
+  - 'User-centricity is important to me, which means I particularly enjoy building web interfaces that are usable, accessible, performant, resilient and as future-friendly as possible.'
+  - 'Is this something I could possibly help you with? <a href="/contact">Get in touch</a>.'
 
 bodyClass: "work"
 
 date: 2021-06-23T18:38:00
-updated: 2021-10-26T18:46:00
+updated: 2021-11-16T17:28:00
+
+hidden: true
+eleventyExcludeFromCollections: true
 ---
 
-## What I do
+<section aria-labelledby="portfolio" class="[ portfolio ]">
 
-I'm a Frontend Web Developer & UI Engineer.
+  <h2 id="portfolio">A few projects</h2>
 
-Breaking my role down a bit further; I primarily work on the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)". This is my preference and certainly plays to my strengths. However, I'm often found with my hands in the "back-of-the-front-end" and DevOps stuff as well - (eg. JavaScript bundlers, deployment tooling, <abbr title="Continuous Integration">CI</abbr>/<abbr title="Continuous Deployment">CD</abbr> etc.).
-
-I spend a lot of my time writing / creating the HTML, CSS, and presentational JavaScript code that makes up a user interface. User-centricity is very important to me when developing a web solution which means I have a keen focus on [responsive design](https://alistapart.com/article/responsive-web-design), [progressive enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement), [semantic markup](https://www.w3.org/TR/WCAG20-TECHS/G115.html), [accessibility](https://www.w3.org/TR/WCAG20/), [web standards](https://www.w3.org/standards/) and [performance](https://developer.mozilla.org/en-US/docs/Learn/Performance).
-
-My aim is to build web solutions that are as [resilient](https://resilientwebdesign.com/), [usable](https://trentwalton.com/2014/03/10/device-agnostic/) and future-friendly as possible. For this reason I prefer a *vanilla* approach and tend to steer clear of using JavaScript frameworks if at all possible.
-
-### Am I a *Fullstack* Developer?
-
-Nope, I wouldn't call myself a *Fullstack* Developer.
-
-I've often struggled with that title anyway &mdash; and even more so these days. Not least because of the unrealistic expectations that often accompany it; but also because building websites has become increasingly complex and it's virtually impossible to be competent - (let alone an expert) - across an entire technology stack.
-
-Personally it doesn't interest me much either. I love working on the frontend (HTML, CSS & JS) and that's where I've spent the most time honing my skills.
-
-### Am I a designer?
-
-I'm not a designer per se, but I love the design side of things. My role often involves collaborating with designers to ensure that the design translates as well as it can into the browser &mdash; regardless of the user's context and how they choose to navigate the web interface (eg. screen reader, mobile phone, browser of choice, etc.).
+  <ul role="list" class="[ auto-grid ] [ no-list ]">
+    <li>
+      <article class="[ card card--stacked ] [ flow ]">
+        <div class="[ card__visual ]">
+          <img src="https://source.unsplash.com/1600x900/?nature,water" alt="">
+        </div>
+        <div class="[ card__content ] [ flow ]">
+          <header class="[ card__header ]">
+            <h3 class="[ card__title ]">IAG Loyalty</h3>
+          </header>
+          <div class="[ card__body ]">
+            <p>Fugiat eiusmod ut laborum do laborum velit magna sint. Nostrud in laboris ea minim nostrud esse exercitation commodo sunt laboris nisi ea reprehenderit.</p>
+          </div>
+        </div>
+      </article>
+    </li>
+    <li>
+      <article class="[ card card--stacked ] [ flow ]">
+        <div class="[ card__visual ]">
+          <img src="https://source.unsplash.com/1600x900/?nature,mountain" alt="">
+        </div>
+        <div class="[ card__content ] [ flow ]">
+          <header class="[ card__header ]">
+            <h3 class="[ card__title ]">Euromoney</h3>
+          </header>
+          <div class="[ card__body ]">
+            <p>Fugiat eiusmod ut laborum do laborum velit magna sint. Nostrud in laboris ea minim nostrud esse exercitation commodo sunt laboris nisi ea reprehenderit.</p>
+          </div>
+        </div>
+      </article>
+    </li>
+    <li>
+      <article class="[ card card--stacked ] [ flow ]">
+        <div class="[ card__visual ]">
+          <img src="https://source.unsplash.com/1600x900/?nature,tree" alt="">
+        </div>
+        <div class="[ card__content ] [ flow ]">
+          <header class="[ card__header ]">
+            <h3 class="[ card__title ]">Analog Implant Laboratory</h3>
+          </header>
+          <div class="[ card__body ]">
+            <p>Fugiat eiusmod ut laborum do laborum velit magna sint. Nostrud in laboris ea minim nostrud esse exercitation commodo sunt laboris nisi ea reprehenderit.</p>
+          </div>
+        </div>
+      </article>
+    </li>
+  </ul>
+</section>
 
 ---
 
-## A few things I *wouldn't* be interested in doing
+<section aria-labelledby="testimonials" class="[ testimonial ]">
 
-It's probably worth mentioning some of the things I'm not interested in working on. Hopefully this will help you better decide whether to contact me about a work opportunity or not.
+  <h2 id="testimonials">Nice things people have said</h2>
 
-Things like&hellip;
-
-* **You're looking for a “quick website”**. Sorry, I don't do rush work.
-* **You're looking around for the lowest price**. This is always an alarm bell for me I'm afraid. I don't really do '*cheap and cheerful*'.
-* **You need a designer to design your Website / App UI**. I do love design. However, I am not a designer. I work with designers by bringing my strengths to the '*engineering*' side of UI creation.
-
----
-
-## Interested in working with me?
-
-If you've read this far, good on you and thank you.
-
-Do you think there's a web project that I could possibly help you with? Then by all means [get in touch](/contact).
-
-I'd love to hear from you.
+  <ul role="list" class="[ auto-grid ] [ no-list ]">
+    <li>
+    {% from "components/core/blockquotes/blockquotes.njk" import blockquote %}
+    {%- call blockquote('Stephen Scott, Chief Digital Officer, IAG Loyalty') -%}
+      Bruce is a true digital native. Starting in the industry back as far as Boo.com and continually striving to push the boundaries of front end code design. He takes it upon himself to continually keep up to date with the latest trends and to apply that to his work to the benefit of whoever he is working for. I have no hesitation in recommending Bruce for any role in which pushing your digital boundaries is at the core of your agenda.
+    {%- endcall %}
+    </li>
+    <li>
+    {% from "components/core/blockquotes/blockquotes.njk" import blockquote %}
+    {%- call blockquote('Kat Thay, Studio Manager, Pegasus') -%}
+      Bruce was an excellent resource for us, taking on additional work when our internal resources were at capacity. He's easy to work with and always turned around work quickly and to a high standard. Bruce quickly became part of the family and overcoming challenges with ease due to his can-do attitude and tireless commitment to projects.
+    {%- endcall %}
+    </li>
+  </ul>
+</section>

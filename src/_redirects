@@ -4,6 +4,8 @@
 
 # Pages (standard)
 /about /about.html 200!
+/about/me /about/me.html 200!
+
 /work /work.html 200!
 /accessibility /accessibility.html 200!
 /styleguide /styleguide.html 200!

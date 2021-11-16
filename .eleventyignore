@@ -1,5 +1,8 @@
 # Files for eleventy to ignore
 src/**/README.md
 
+# Temporarily ignore these pages for now
+src/_content/pages/work.md
+
 # Other pages or assets not wanting to build (ie. Eleventy to ignore them) can be listed here eg.
 # src/page-blah-blah.njk
