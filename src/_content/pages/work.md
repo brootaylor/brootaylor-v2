@@ -5,7 +5,7 @@ summary: "User-centricity is important to me, which means I particularly enjoy b
 # Populates the opening / `lead` text on a page
 lead:
   - 'User-centricity is important to me, which means I particularly enjoy building web interfaces that are usable, accessible, performant, resilient and as future-friendly as possible.'
-  - 'Think this is something I could possibly help you with? <a href="/contact">Get in touch</a>.'
+  - 'Is this something I could possibly help you with? <a href="/contact">Get in touch</a>.'
 
 # Page-specific metadata content added to the `<head>`
 head: "
