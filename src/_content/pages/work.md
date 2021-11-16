@@ -11,6 +11,9 @@ bodyClass: "work"
 
 date: 2021-06-23T18:38:00
 updated: 2021-11-16T17:28:00
+
+hidden: true
+eleventyExcludeFromCollections: true
 ---
 
 <section aria-labelledby="portfolio" class="[ portfolio ]">
