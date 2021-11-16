@@ -43,7 +43,7 @@ My role often involves collaborating with designers to ensure that the design tr
 
 ## Interested in working with me?
 
-If you've read this far, good on you and thank you.
+Here's a bit more about some of the [work I've done](/work).
 
 Do you think there's a web project that I could possibly help you with? Then by all means [get in touch](/contact).
 

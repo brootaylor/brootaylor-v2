@@ -56,8 +56,8 @@ updated: 2021-11-16T17:28:00
 </li>
 <li>
 {% from "components/core/blockquotes/blockquotes.njk" import blockquote %}
-{%- call blockquote('Roger Matthews, Head of System Development and Administration, Macmillan Cancer Support') -%}
-  Bruce is great addition to any team, a great personality who requires minimal management and produces accurate and attractive output. He keeps up to date with the latest techniques and is happy to share those skills with others. I wouldn't hesitate in giving Bruce another opportunity when one arises.
+{%- call blockquote('Kat Thay, Studio Manager, Pegasus') -%}
+  Bruce was an excellent resource for us, taking on additional work when our internal resources were at capacity. He's easy to work with and always turned around work quickly and to a high standard. Bruce quickly became part of the family and overcoming challenges with ease due to his can-do attitude and tireless commitment to projects.
 {%- endcall %}
 </li>
 </ul>
