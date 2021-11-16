@@ -45,7 +45,7 @@ Since the [announcement of Astro](https://astro.build/blog/introducing-astro), I
 
 ## About this website
 
-*Sorry. Not so much about me I know but loosely related nonetheless*.
+*Sorry. Not so much about me I know but loosely related nonetheless*. 🙄
 
 This website has been the home of my personal blog for a fair few years. Everything written here represents my opinions and perspectives on various things. It *doesn't* reflect or represent the views of anyone I work for or with.
 
