@@ -38,7 +38,7 @@ updated: 2021-11-16T17:28:00
   </li>
   <li>
     <img src="https://source.unsplash.com/1600x900/?nature,tree">
-    <h2>Project C</h2>
+    <h2>Analog Dental Laboratory</h2>
     <p>Fugiat eiusmod ut laborum do laborum velit magna sint. Nostrud in laboris ea minim nostrud esse exercitation commodo sunt laboris nisi ea reprehenderit.</p>
   </li>
 </ul>
