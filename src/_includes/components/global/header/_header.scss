@@ -16,9 +16,11 @@
   position: sticky;
   top: 0;
   padding: 1rem 0;
-  margin-top: 0;
+  margin: 0;
   /* offset-x | offset-y | blur-radius | spread-radius | color */
   box-shadow: 0 2px 0 1px rgba($grey-dark, 0.2);
+  transition: margin 0.25s,
+              padding 0.25s;
 
     // Creates an offset type look using these negative margins...
     @include min-width($breakpoint-medium) {
@@ -35,13 +37,10 @@
       margin-right: -0.75rem;
     }
 
-  // Navigation list override
-  .navigation__list {
-    @include font-size(16px);
-    margin-top: 0.5em;
-
-      @include min-width($breakpoint-medium) {
-        margin-top: revert;
-      }
+  // `.wrapper` element
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 }
