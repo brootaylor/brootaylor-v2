@@ -8,8 +8,6 @@
 
 html {
   background-color: var(--background-colour);
-  padding: 0;
-  transition: padding 0.25s;
 
     @include min-width($breakpoint-medium) {
       padding: 1rem;

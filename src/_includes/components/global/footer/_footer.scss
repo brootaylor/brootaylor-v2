@@ -48,9 +48,6 @@
       }
 
       &:nth-last-child(2) {
-        margin-left: 0;
-        transition: margin-left 0.25s;
-
         @include min-width($breakpoint-small) {
           margin-left: 3em;
         }
