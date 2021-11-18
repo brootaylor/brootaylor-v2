@@ -3,25 +3,25 @@
 	=======================
 	Usually has an image / video, title, text and CTA
 #}
-<article class="[ card {{ component.data.modifier }} ]">
+<article class="card {{ component.data.modifier }}">
 
 	{# Only render this visual element if there's either an image or video #}
 	{% if component.data.hasImage %}
-		<div class="[ card__visual ]">
+		<div class="card__visual">
 			{% include "components/images/images.njk" %}
 		</div>
 	{% elif component.data.hasVideo %}
-		<div class="[ card__visual ]">
+		<div class="card__visual">
 			{% include "components/videos/videos.njk" %}
 		</div>
 	{% endif %}
 
 	{# Using the `.flow` utility class to handle child element spacing #}
-	<div class="[ card__content ] [ flow ]">
-		<header class="[ card__header ]">
-				<h3 class="[ card__title ]">{{ component.data.title }}</h3>
+	<div class="card__content | flow">
+		<header class="card__header">
+				<h3 class="card__title">{{ component.data.title }}</h3>
 		</header>
-		<div class="[ card__body ]">
+		<div class="card__body">
 			<p>{{ component.data.body }}</p>
 		</div>
 

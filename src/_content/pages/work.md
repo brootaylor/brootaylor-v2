@@ -13,36 +13,36 @@ date: 2021-06-23T18:38:00
 updated: 2021-11-16T17:28:00
 ---
 
-<section aria-labelledby="portfolio" class="[ portfolio ]">
+<section aria-labelledby="portfolio" class="portfolio">
 
   <h2 id="portfolio">Recent projects</h2>
 
-  <ul role="list" class="[ auto-grid ] [ no-list ]">
+  <ul role="list" class="auto-grid | no-list">
     <li>
-      <article class="[ card card--stacked ] [ flow ]">
-        <div class="[ card__visual ]">
+      <article class="card card--stacked | flow">
+        <div class="card__visual">
           <img src="https://source.unsplash.com/1600x900/?nature,water" alt="">
         </div>
-        <div class="[ card__content ] [ flow ]">
-          <header class="[ card__header ]">
-            <h3 class="[ card__title ]">IAG Loyalty</h3>
+        <div class="card__content | flow">
+          <header class="card__header">
+            <h3 class="card__title">IAG Loyalty</h3>
           </header>
-          <div class="[ card__body ]">
+          <div class="card__body">
             <p>Fugiat eiusmod ut laborum do laborum velit magna sint. Nostrud in laboris ea minim nostrud esse exercitation commodo sunt laboris nisi ea reprehenderit.</p>
           </div>
         </div>
       </article>
     </li>
     <li>
-      <article class="[ card card--stacked ] [ flow ]">
-        <div class="[ card__visual ]">
+      <article class="card card--stacked | flow">
+        <div class="card__visual">
           <img src="https://source.unsplash.com/1600x900/?nature,mountain" alt="">
         </div>
-        <div class="[ card__content ] [ flow ]">
-          <header class="[ card__header ]">
-            <h3 class="[ card__title ]">Euromoney</h3>
+        <div class="card__content | flow">
+          <header class="card__header">
+            <h3 class="card__title">Euromoney</h3>
           </header>
-          <div class="[ card__body ]">
+          <div class="card__body">
             <p>Fugiat eiusmod ut laborum do laborum velit magna sint. Nostrud in laboris ea minim nostrud esse exercitation commodo sunt laboris nisi ea reprehenderit.</p>
           </div>
         </div>
@@ -53,11 +53,11 @@ updated: 2021-11-16T17:28:00
 
 ---
 
-<section aria-labelledby="testimonials" class="[ testimonial ]">
+<section aria-labelledby="testimonials" class="testimonial">
 
   <h2 id="testimonials">Nice things people have said</h2>
 
-  <ul role="list" class="[ auto-grid ] [ no-list ]">
+  <ul role="list" class="auto-grid | no-list">
     <li>
     {% from "components/core/blockquotes/blockquotes.njk" import blockquote %}
     {%- call blockquote('Stephen Scott, Chief Digital Officer, IAG Loyalty') -%}

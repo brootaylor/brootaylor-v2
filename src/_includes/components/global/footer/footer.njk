@@ -1,22 +1,22 @@
-<footer role="contentinfo" id="footer" aria-labelledby="site-footer--label" class="[ site-footer ]">
-	<div class="[ wrapper ] [ flow ]">
+<footer role="contentinfo" id="footer" aria-labelledby="site-footer--label" class="site-footer">
+	<div class="wrapper | flow">
 
 		{# To help assistive technologies #}
-		<h2 id="site-footer--label" class="[ visually-hidden ]">Other tertiary content and external links. eg. accessibility statement, twitter and github.</h2>
+		<h2 id="site-footer--label" class="visually-hidden">Other tertiary content and external links. eg. accessibility statement, twitter and github.</h2>
 		<small>Copyright &copy; <time datetime="{% year %}">{% year %}</time> {{ site.name }}. All rights reserved.</small>
 
 		{# Pulls content from navigation.json data file #}
 		<nav aria-labelledby="nav-footer--label">
 
 			{# To help assistive technologies #}
-			<h2 id="nav-footer--label" class="[ visually-hidden ]">Footer navigation</h2>
+			<h2 id="nav-footer--label" class="visually-hidden">Footer navigation</h2>
 
 			{% for navitem in navigation.footernav %}
-				{% if loop.first %}<ul role="list" aria-label="List of tertiary content pages and external links" class="[ no-list ]">{% endif %}
+				{% if loop.first %}<ul role="list" aria-label="List of tertiary content pages and external links" class="no-list">{% endif %}
 					<li>
 						<a href="{{ navitem.url }}"
 							{% if navitem.external %} rel="external"{% endif %}
-							{% if (page.url | pretty) == navitem.url %} aria-describedby="current-page" class="[ current ]"{% endif %}>
+							{% if (page.url | pretty) == navitem.url %} aria-describedby="current-page" class="current"{% endif %}>
 							{% if navitem.icon %}
 								<span class="visually-hidden">{{ navitem.label }}</span>
 								{% else %}
@@ -48,6 +48,6 @@
 	</div>
 
 	{# "Skip-to" link. Helps assistive technologies #}
-	<a href="#main" class="[ visually-hidden ]">Skip to the main content.</a>
+	<a href="#main" class="visually-hidden">Skip to the main content.</a>
 
 </footer>
