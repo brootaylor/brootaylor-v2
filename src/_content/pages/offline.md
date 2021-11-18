@@ -18,7 +18,7 @@ Why not visit one of these other posts. They're available to read while you're o
 
 ---
 
-<ul class="[ wrapper flow ]">
+<ul class="wrapper | flow">
   {%- set allPosts = collections.post | reverse -%}
   {# Shows the latest 5 `post` entries... #}
   {%- for item in allPosts.slice(0, 5) -%}

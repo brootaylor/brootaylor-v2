@@ -12,7 +12,7 @@
 
 {# This block `content` relates to the same block on the `base.njk` layout file #}
 {% block content %}
-	<article class="[ wrapper ] [ flow ]">
+	<article class="wrapper | flow">
 
 		{# This `title` comes from the front matter in the relevant `.md` file - within the `pages` directory #}
 		{% if title %}
@@ -24,7 +24,7 @@
 
 		{% if lead %}
 			{# This content comes from the `front matter` in the relevant `.md` file - within the `pages` directory #}
-			<div class="[ lead ] [ crop--mid ] [ flow ]">
+			<div class="lead | crop--mid | flow">
 				{# Loops through each `text` entry belonging to `lead` #}
 				{% for paragraph in lead %}
 					<p>{{ paragraph | safe }}</p>

@@ -2,18 +2,39 @@
  * Site logo styles
  **********************************************************/
 
+@use '../../../../styles/abstracts' as *;
+
 .site-logo {
   font-family: var(--font-family-title);
   font-size: 1.2rem;
   font-weight: 700;
-  color: var(--font-colour-base);
-  text-decoration-color: transparent;
+  margin-right: 0;
 
-  &:active,
-  &:focus,
-  &:hover {
-    color: var(--green-custom);
-    text-decoration-color: var(--green-custom-light);
-    border: 0;
+    @include min-width($breakpoint-x-small) {
+      margin-right: 2rem;
+    }
+
+  &::before {
+    content: '\005B';
+    opacity: 0.4;
+  }
+
+  &::after {
+    content: '\005D';
+    opacity: 0.4;
+  }
+
+  a {
+    color: var(--font-colour-base);
+    text-decoration-color: transparent;
+    padding: 0 0.2rem;
+
+    &:active,
+    &:focus,
+    &:hover {
+      color: var(--green-custom);
+      text-decoration-color: var(--green-custom-light);
+      border: 0;
+    }
   }
 }

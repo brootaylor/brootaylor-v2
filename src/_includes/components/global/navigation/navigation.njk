@@ -1,19 +1,19 @@
-<nav aria-labelledby="nav-primary--label" class="[ navigation ]">
+<nav aria-labelledby="nav-primary--label" class="navigation">
 
 	{# To help assistive technologies #}
-	<h2 id="nav-primary--label" class="[ visually-hidden ]">Primary navigation</h2>
+	<h2 id="nav-primary--label" class="visually-hidden">Primary navigation</h2>
 
 	{# Pulls content from navigation.json data file #}
 	{% for navitem in navigation.mainnav %}
-		{% if loop.first %}<ul role="list" aria-label="List of pages you can visit." class="[ navigation__list ] [ no-list ]">{% endif %}
-			<li class="[ navigation__item ]">
-				<a href="{{ navitem.url }}"{% if navitem.url in (page.url | pretty) %} aria-describedby="current-page" class="[ current ]"{% endif %}>{{ navitem.label }}</a>
+		{% if loop.first %}<ul role="list" aria-label="List of pages you can visit." class="navigation__list | no-list">{% endif %}
+			<li class="navigation__item">
+				<a href="{{ navitem.url }}"{% if navitem.url in (page.url | pretty) %} aria-describedby="current-page" class="current"{% endif %}>{{ navitem.label }}</a>
 			</li>
 		{% if loop.last %}</ul>{% endif %}
 	{% endfor %}
 
 	<!-- Current page referenced by `aria-describedby` -->
-	<div class="[ visually-hidden ]">
+	<div class="visually-hidden">
 			<span id="current-page">Current page</span>
 	</div>
 

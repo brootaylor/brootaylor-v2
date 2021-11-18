@@ -26,7 +26,7 @@ updated: 2020-05-21T11:11:00
 
 ### Lead text
 
-<p class="[ lead ]">Urna nunc id cursus metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget duis at tellus at urna condimentum mattis pellentesque id.</p>
+<p class="lead">Urna nunc id cursus metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget duis at tellus at urna condimentum mattis pellentesque id.</p>
 
 ### Normal text
 

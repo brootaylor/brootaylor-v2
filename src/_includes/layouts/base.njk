@@ -39,10 +39,10 @@
 -->
 
 	</head>
-	<body {% if bodyClass %}class="[ {{ bodyClass }} ]"{% endif %}>
+	<body {% if bodyClass %}class="{{ bodyClass }}"{% endif %}>
 
 		{# "Skip-to" link. Helps assistive technologies #}
-		<a class="[ visually-hidden ]" href="#main">Skip to the main content.</a>
+		<a class="visually-hidden" href="#main">Skip to the main content.</a>
 
 		{# Main header & navigation #}
 		{% include "components/global/header/header.njk" %}
