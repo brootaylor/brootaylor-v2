@@ -11,14 +11,11 @@ bodyClass: "work"
 
 date: 2021-06-23T18:38:00
 updated: 2021-11-16T17:28:00
-
-hidden: true
-eleventyExcludeFromCollections: true
 ---
 
 <section aria-labelledby="portfolio" class="[ portfolio ]">
 
-  <h2 id="portfolio">A few projects</h2>
+  <h2 id="portfolio">Recent projects</h2>
 
   <ul role="list" class="[ auto-grid ] [ no-list ]">
     <li>
@@ -44,21 +41,6 @@ eleventyExcludeFromCollections: true
         <div class="[ card__content ] [ flow ]">
           <header class="[ card__header ]">
             <h3 class="[ card__title ]">Euromoney</h3>
-          </header>
-          <div class="[ card__body ]">
-            <p>Fugiat eiusmod ut laborum do laborum velit magna sint. Nostrud in laboris ea minim nostrud esse exercitation commodo sunt laboris nisi ea reprehenderit.</p>
-          </div>
-        </div>
-      </article>
-    </li>
-    <li>
-      <article class="[ card card--stacked ] [ flow ]">
-        <div class="[ card__visual ]">
-          <img src="https://source.unsplash.com/1600x900/?nature,tree" alt="">
-        </div>
-        <div class="[ card__content ] [ flow ]">
-          <header class="[ card__header ]">
-            <h3 class="[ card__title ]">Analog Implant Laboratory</h3>
           </header>
           <div class="[ card__body ]">
             <p>Fugiat eiusmod ut laborum do laborum velit magna sint. Nostrud in laboris ea minim nostrud esse exercitation commodo sunt laboris nisi ea reprehenderit.</p>
