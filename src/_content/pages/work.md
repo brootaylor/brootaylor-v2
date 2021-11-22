@@ -9,8 +9,8 @@ lead:
 
 bodyClass: "work"
 
-date: 2021-11-22T17:01:00
-updated: 2021-11-22T17:01:00
+date: 2021-11-22T23:34:00
+updated: 2021-11-22T23:34:00
 ---
 
 <section aria-labelledby="companies" class="companies">
@@ -23,10 +23,10 @@ updated: 2021-11-22T17:01:00
             <h3 class="card__title">
               <a href="https://iagloyalty.com">IAG Loyalty</a>
             </h3>
-            <span class="date-time">October 2018 &mdash; October 2021</span>
+            <span class="date-time">Year: 2018 - 2021</span>
           </header>
           <div class="card__body">
-            <p>Created and developed the IAG Loyalty B2B 'corporate' and 'careers' websites.</p>
+            <p>B2B <em>corporate</em> and <em>careers</em> websites rebuild. As well as frontend configuration & building of custom reusable & themeable / whitelabel components library.</p>
           </div>
         </div>
       </article>
@@ -38,10 +38,10 @@ updated: 2021-11-22T17:01:00
             <h3 class="card__title">
               <a href="https://www.euromoneyplc.com">Euromoney</a>
             </h3>
-            <span class="date-time">May 2018 &mdash; October 2018</span>
+            <span class="date-time">Year: 2018</span>
           </header>
           <div class="card__body">
-            <p>Developed a reusable & extensible front-end starter kit that builds modular web components / patterns. <a href="https://www.fastmarkets.com">Fastmarkets</a> was the first website to be built using this solution.</p>
+            <p>Developed reusable & extensible front-end starter kit that builds modular web components / patterns. <a href="https://www.fastmarkets.com">Fastmarkets</a> was the first website to be built using this solution.</p>
           </div>
         </div>
       </article>
@@ -53,6 +53,7 @@ updated: 2021-11-22T17:01:00
             <h3 class="card__title">
               <a href="https://www.merchantcantos.com">MerchantCantos</a>
             </h3>
+            <span class="date-time">Year: 2017 & 2018</span>
           </header>
           <div class="card__body">
             <p>Developed & enhanced corporate communication websites (eg. Puma, Mondi, Greenbrier).</p>
@@ -65,11 +66,27 @@ updated: 2021-11-22T17:01:00
         <div class="card__content">
           <header class="card__header">
             <h3 class="card__title">
-              <a href="https://www.timeincuk.com">Time Inc. UK</a>
+              <a href="http://analog-lab.co.uk">Analog Implant Laboratory</a>
             </h3>
+            <span class="date-time">Year: 2017</span>
           </header>
           <div class="card__body">
-            <p>Fun & collaborative team envirionment developing a responsive and customisable web solution on their WordPress Multisite application.</p>
+            <p>Redesigned & built Analog Implant Laboratory's new website from the ground up.</p>
+          </div>
+        </div>
+      </article>
+    </li>
+    <li>
+      <article class="card card--stacked">
+        <div class="card__content">
+          <header class="card__header">
+            <h3 class="card__title">
+              <a href="https://www.timeincuk.com">Time Inc. UK</a>
+            </h3>
+            <span class="date-time">Year: 2016</span>
+          </header>
+          <div class="card__body">
+            <p>Fun & collaborative team environment developing a responsive and customisable web solution on their WordPress Multisite application.</p>
           </div>
         </div>
       </article>
@@ -81,6 +98,7 @@ updated: 2021-11-22T17:01:00
             <h3 class="card__title">
               <a href="http://www.thisispegasus.co.uk">Pegasus</a>
             </h3>
+            <span class="date-time">Year: 2016</span>
           </header>
           <div class="card__body">
             <p>Developed & enhanced brochure websites for Pegasus’ healthcare clients.</p>
@@ -93,8 +111,24 @@ updated: 2021-11-22T17:01:00
         <div class="card__content">
           <header class="card__header">
             <h3 class="card__title">
+              <a href="https://charanga.com">Charanga Music</a>
+            </h3>
+            <span class="date-time">Year: 2016</span>
+          </header>
+          <div class="card__body">
+            <p>Developed a reusable, extensible, responsive and accessible front-end library / boilerplate. Enabled Charanga to deploy future web offerings quickly, efficiently without compromising on quality front end standards.</p>
+          </div>
+        </div>
+      </article>
+    </li>
+    <li>
+      <article class="card card--stacked">
+        <div class="card__content">
+          <header class="card__header">
+            <h3 class="card__title">
               <a href="https://www.macmillan.org.uk">Macmillan Cancer Support</a>
             </h3>
+            <span class="date-time">Year: 2015</span>
           </header>
           <div class="card__body">
             <p>Worked with Macmillan's core website application team on frontend solutions for their brand identity and business proposition.</p>
@@ -107,39 +141,12 @@ updated: 2021-11-22T17:01:00
         <div class="card__content">
           <header class="card__header">
             <h3 class="card__title">
-              <a href="https://charanga.com">Charanga Music</a>
-            </h3>
-          </header>
-          <div class="card__body">
-            <p>Developed a reusable, extensible, responsive and accessible front-end library / boilerplate. To help Charanga deploy future web offerings quickly, efficiently without compromising on quality front end standards.</p>
-          </div>
-        </div>
-      </article>
-    </li>
-    <li>
-      <article class="card card--stacked">
-        <div class="card__content">
-          <header class="card__header">
-            <h3 class="card__title">
-              <a href="http://analog-lab.co.uk">Analog Implant Laboratory</a>
-            </h3>
-          </header>
-          <div class="card__body">
-            <p>Redesigned & built Analog Implant Laboratory's website from the ground up. Appreciated Analog Implant Laboratory's open-handed and open-hearted involvement in the whole design and development process.</p>
-          </div>
-        </div>
-      </article>
-    </li>
-    <li>
-      <article class="card card--stacked">
-        <div class="card__content">
-          <header class="card__header">
-            <h3 class="card__title">
               <a href="https://bostontparty.co.za">Boston T Party</a>
             </h3>
+            <span class="date-time">Year: 2021 (ongoing)</span>
           </header>
           <div class="card__body">
-            <p>Built a new, modern and fast website for Boston T Party. Huge focus on usablility, accessibility, performance & resilience.</p>
+            <p>Built a new, modern and fast PWA website for Boston T Party. Big focus on usablility, accessibility, performance & resilience.</p>
           </div>
         </div>
       </article>
