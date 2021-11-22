@@ -2,11 +2,53 @@
  * Work page-specific rules
  *********************************************/
 
+@use '../abstracts' as *;
+
 .work {
   article {
     ul,
     blockquote {
       max-width: 100%;
+    }
+  }
+
+  .companies {
+    @supports (display: grid) {
+      .auto-grid {
+        grid-gap: 1em;
+
+        @include min-width($breakpoint-small) {
+          --auto-grid-min-size: 17rem;
+        }
+
+        @include min-width($breakpoint-medium) {
+          --auto-grid-min-size: 20rem;
+        }
+      }
+    }
+  }
+
+  .testimonials {
+    margin-top: 3em;
+  }
+
+  .card {
+    background: var(--grey-light);
+    padding: 1em;
+    border: 1px solid var(--grey-mid);
+    min-height: 100%;
+    box-shadow: -4px 4px 0px 1px rgba($grey-dark, 0.2);
+
+    &__title {
+      font-size: convert-to-rem(24px);
+    }
+
+    &__body {
+      margin-top: 0.5em;
+
+      p {
+        @include font-size(18px);
+      }
     }
   }
 }

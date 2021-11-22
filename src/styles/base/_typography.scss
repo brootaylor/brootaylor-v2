@@ -282,6 +282,13 @@ article {
       padding-bottom: 0;
     }
   }
+
+  // Use this class on something like a `span` when the `datetime` element not necessary
+  .date-time {
+    font-size: 0.90rem;
+    font-style: italic;
+    display: block;
+  }
 }
 
 // `Lead` / intro text...

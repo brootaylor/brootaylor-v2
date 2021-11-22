@@ -4,10 +4,10 @@ module.exports = {
       label: 'About',
       url: '/about'
     },
-    // {
-    //   label: 'Work',
-    //   url: '/work'
-    // },
+    {
+      label: 'Work',
+      url: '/work'
+    },
     {
       label: 'Writing',
       url: '/writing'

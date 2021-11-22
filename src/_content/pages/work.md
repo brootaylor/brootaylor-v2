@@ -1,49 +1,152 @@
 ---
 title: "Work"
 # Populates the `meta description` for a page
-summary: "User-centricity is important to me, which means I particularly enjoy building web interfaces that are usable, accessible, performant, resilient and as future-friendly as possible."
+summary: "User-centricity is important to me. Which means I particularly enjoy building web interfaces that are usable, accessible, performant, resilient and as future-friendly as possible."
 # Populates the opening / `lead` text on a page
 lead:
-  - 'User-centricity is important to me, which means I particularly enjoy building web interfaces that are usable, accessible, performant, resilient and as future-friendly as possible.'
-  - 'Is this something I could possibly help you with? <a href="/contact">Get in touch</a>.'
+  - 'User-centricity is important to me. Which means I particularly enjoy building web interfaces that are usable, accessible, performant, resilient and as future-friendly as possible.'
+  - 'Is there something I could possibly help you with? <a href="/contact">Get in touch</a>.'
 
 bodyClass: "work"
 
-date: 2021-06-23T18:38:00
-updated: 2021-11-16T17:28:00
+date: 2021-11-22T23:34:00
+updated: 2021-11-22T23:34:00
 ---
 
-<section aria-labelledby="portfolio" class="portfolio">
-
-  <h2 id="portfolio">Recent projects</h2>
-
+<section aria-labelledby="companies" class="companies">
+  <h2 id="companies">Some people I've worked with</h2>
   <ul role="list" class="auto-grid | no-list">
     <li>
-      <article class="card card--stacked | flow">
-        <div class="card__visual">
-          <img src="https://source.unsplash.com/1600x900/?nature,water" alt="">
-        </div>
-        <div class="card__content | flow">
+      <article class="card card--stacked">
+        <div class="card__content">
           <header class="card__header">
-            <h3 class="card__title">IAG Loyalty</h3>
+            <h3 class="card__title">
+              <a href="https://iagloyalty.com">IAG Loyalty</a>
+            </h3>
+            <span class="date-time">Year: 2018 - 2021</span>
           </header>
           <div class="card__body">
-            <p>Fugiat eiusmod ut laborum do laborum velit magna sint. Nostrud in laboris ea minim nostrud esse exercitation commodo sunt laboris nisi ea reprehenderit.</p>
+            <p>B2B <em>corporate</em> and <em>careers</em> websites rebuild. As well as frontend configuration & building of custom reusable & themeable / whitelabel components library.</p>
           </div>
         </div>
       </article>
     </li>
     <li>
-      <article class="card card--stacked | flow">
-        <div class="card__visual">
-          <img src="https://source.unsplash.com/1600x900/?nature,mountain" alt="">
-        </div>
-        <div class="card__content | flow">
+      <article class="card card--stacked">
+        <div class="card__content">
           <header class="card__header">
-            <h3 class="card__title">Euromoney</h3>
+            <h3 class="card__title">
+              <a href="https://www.euromoneyplc.com">Euromoney</a>
+            </h3>
+            <span class="date-time">Year: 2018</span>
           </header>
           <div class="card__body">
-            <p>Fugiat eiusmod ut laborum do laborum velit magna sint. Nostrud in laboris ea minim nostrud esse exercitation commodo sunt laboris nisi ea reprehenderit.</p>
+            <p>Developed reusable & extensible front-end starter kit that builds modular web components / patterns. <a href="https://www.fastmarkets.com">Fastmarkets</a> was the first website to be built using this solution.</p>
+          </div>
+        </div>
+      </article>
+    </li>
+    <li>
+      <article class="card card--stacked">
+        <div class="card__content">
+          <header class="card__header">
+            <h3 class="card__title">
+              <a href="https://www.merchantcantos.com">MerchantCantos</a>
+            </h3>
+            <span class="date-time">Year: 2017 & 2018</span>
+          </header>
+          <div class="card__body">
+            <p>Developed & enhanced corporate communication websites (eg. Puma, Mondi, Greenbrier).</p>
+          </div>
+        </div>
+      </article>
+    </li>
+    <li>
+      <article class="card card--stacked">
+        <div class="card__content">
+          <header class="card__header">
+            <h3 class="card__title">
+              <a href="http://analog-lab.co.uk">Analog Implant Laboratory</a>
+            </h3>
+            <span class="date-time">Year: 2017</span>
+          </header>
+          <div class="card__body">
+            <p>Redesigned & built Analog Implant Laboratory's new website from the ground up.</p>
+          </div>
+        </div>
+      </article>
+    </li>
+    <li>
+      <article class="card card--stacked">
+        <div class="card__content">
+          <header class="card__header">
+            <h3 class="card__title">
+              <a href="https://www.timeincuk.com">Time Inc. UK</a>
+            </h3>
+            <span class="date-time">Year: 2016</span>
+          </header>
+          <div class="card__body">
+            <p>Fun & collaborative team environment developing a responsive and customisable web solution on their WordPress Multisite application.</p>
+          </div>
+        </div>
+      </article>
+    </li>
+    <li>
+      <article class="card card--stacked">
+        <div class="card__content">
+          <header class="card__header">
+            <h3 class="card__title">
+              <a href="http://www.thisispegasus.co.uk">Pegasus</a>
+            </h3>
+            <span class="date-time">Year: 2016</span>
+          </header>
+          <div class="card__body">
+            <p>Developed & enhanced brochure websites for Pegasus’ healthcare clients.</p>
+          </div>
+        </div>
+      </article>
+    </li>
+    <li>
+      <article class="card card--stacked">
+        <div class="card__content">
+          <header class="card__header">
+            <h3 class="card__title">
+              <a href="https://charanga.com">Charanga Music</a>
+            </h3>
+            <span class="date-time">Year: 2016</span>
+          </header>
+          <div class="card__body">
+            <p>Developed a reusable, extensible, responsive and accessible front-end library / boilerplate. Enabled Charanga to deploy future web offerings quickly, efficiently without compromising on quality front end standards.</p>
+          </div>
+        </div>
+      </article>
+    </li>
+    <li>
+      <article class="card card--stacked">
+        <div class="card__content">
+          <header class="card__header">
+            <h3 class="card__title">
+              <a href="https://www.macmillan.org.uk">Macmillan Cancer Support</a>
+            </h3>
+            <span class="date-time">Year: 2015</span>
+          </header>
+          <div class="card__body">
+            <p>Worked with Macmillan's core website application team on frontend solutions for their brand identity and business proposition.</p>
+          </div>
+        </div>
+      </article>
+    </li>
+    <li>
+      <article class="card card--stacked">
+        <div class="card__content">
+          <header class="card__header">
+            <h3 class="card__title">
+              <a href="https://bostontparty.co.za">Boston T Party</a>
+            </h3>
+            <span class="date-time">Year: 2021 (ongoing)</span>
+          </header>
+          <div class="card__body">
+            <p>Built a new, modern and fast PWA website for Boston T Party. Big focus on usablility, accessibility, performance & resilience.</p>
           </div>
         </div>
       </article>
@@ -51,12 +154,8 @@ updated: 2021-11-16T17:28:00
   </ul>
 </section>
 
----
-
-<section aria-labelledby="testimonials" class="testimonial">
-
+<section aria-labelledby="testimonials" class="testimonials">
   <h2 id="testimonials">Nice things people have said</h2>
-
   <ul role="list" class="auto-grid | no-list">
     <li>
     {% from "components/core/blockquotes/blockquotes.njk" import blockquote %}
