@@ -139,7 +139,7 @@ updated: 2021-11-22T17:01:00
             </h3>
           </header>
           <div class="card__body">
-            <p>Redesigned & built Boston T Party's website from scratch. Huge focus on usablility, accessibility, performance & resilience.</p>
+            <p>Built a new, modern and fast website for Boston T Party. Huge focus on usablility, accessibility, performance & resilience.</p>
           </div>
         </div>
       </article>
