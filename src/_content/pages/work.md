@@ -5,45 +5,141 @@ summary: "User-centricity is important to me, which means I particularly enjoy b
 # Populates the opening / `lead` text on a page
 lead:
   - 'User-centricity is important to me, which means I particularly enjoy building web interfaces that are usable, accessible, performant, resilient and as future-friendly as possible.'
-  - 'Is this something I could possibly help you with? <a href="/contact">Get in touch</a>.'
+  - 'Is there something I could possibly help you with? <a href="/contact">Get in touch</a>.'
 
 bodyClass: "work"
 
-date: 2021-06-23T18:38:00
-updated: 2021-11-16T17:28:00
+date: 2021-11-22T17:01:00
+updated: 2021-11-22T17:01:00
 ---
 
-<section aria-labelledby="portfolio" class="portfolio">
-
-  <h2 id="portfolio">Recent projects</h2>
-
+<section aria-labelledby="companies" class="companies">
+  <h2 id="companies">People I've worked with</h2>
   <ul role="list" class="auto-grid | no-list">
     <li>
-      <article class="card card--stacked | flow">
-        <div class="card__visual">
-          <img src="https://source.unsplash.com/1600x900/?nature,water" alt="">
-        </div>
-        <div class="card__content | flow">
+      <article class="card card--stacked">
+        <div class="card__content">
           <header class="card__header">
-            <h3 class="card__title">IAG Loyalty</h3>
+            <h3 class="card__title">
+              <a href="https://iagloyalty.com">IAG Loyalty</a>
+            </h3>
+            <span class="date-time">October 2018 &mdash; October 2021</span>
           </header>
           <div class="card__body">
-            <p>Fugiat eiusmod ut laborum do laborum velit magna sint. Nostrud in laboris ea minim nostrud esse exercitation commodo sunt laboris nisi ea reprehenderit.</p>
+            <p>Created and developed the IAG Loyalty B2B 'corporate' and 'careers' websites.</p>
           </div>
         </div>
       </article>
     </li>
     <li>
-      <article class="card card--stacked | flow">
-        <div class="card__visual">
-          <img src="https://source.unsplash.com/1600x900/?nature,mountain" alt="">
-        </div>
-        <div class="card__content | flow">
+      <article class="card card--stacked">
+        <div class="card__content">
           <header class="card__header">
-            <h3 class="card__title">Euromoney</h3>
+            <h3 class="card__title">
+              <a href="https://www.euromoneyplc.com">Euromoney</a>
+            </h3>
+            <span class="date-time">May 2018 &mdash; October 2018</span>
           </header>
           <div class="card__body">
-            <p>Fugiat eiusmod ut laborum do laborum velit magna sint. Nostrud in laboris ea minim nostrud esse exercitation commodo sunt laboris nisi ea reprehenderit.</p>
+            <p>Developed a reusable & extensible front-end starter kit that builds modular web components / patterns. <a href="https://www.fastmarkets.com">Fastmarkets</a> was the first website to be built using this solution.</p>
+          </div>
+        </div>
+      </article>
+    </li>
+    <li>
+      <article class="card card--stacked">
+        <div class="card__content">
+          <header class="card__header">
+            <h3 class="card__title">
+              <a href="https://www.merchantcantos.com">MerchantCantos</a>
+            </h3>
+          </header>
+          <div class="card__body">
+            <p>Developed & enhanced corporate communication websites (eg. Puma, Mondi, Greenbrier).</p>
+          </div>
+        </div>
+      </article>
+    </li>
+    <li>
+      <article class="card card--stacked">
+        <div class="card__content">
+          <header class="card__header">
+            <h3 class="card__title">
+              <a href="https://www.timeincuk.com">Time Inc. UK</a>
+            </h3>
+          </header>
+          <div class="card__body">
+            <p>Collaborative team setup developing a responsive and customisable web solution on their WordPress Multisite application.</p>
+          </div>
+        </div>
+      </article>
+    </li>
+    <li>
+      <article class="card card--stacked">
+        <div class="card__content">
+          <header class="card__header">
+            <h3 class="card__title">
+              <a href="http://www.thisispegasus.co.uk">Pegasus</a>
+            </h3>
+          </header>
+          <div class="card__body">
+            <p>Developed & enhanced brochure websites for Pegasus’ healthcare clients.</p>
+          </div>
+        </div>
+      </article>
+    </li>
+    <li>
+      <article class="card card--stacked">
+        <div class="card__content">
+          <header class="card__header">
+            <h3 class="card__title">
+              <a href="https://www.macmillan.org.uk">Macmillan Cancer Support</a>
+            </h3>
+          </header>
+          <div class="card__body">
+            <p>Worked with Macmillan's core website application team. Focussed on frontend solutions for their brand identity and business proposition.</p>
+          </div>
+        </div>
+      </article>
+    </li>
+    <li>
+      <article class="card card--stacked">
+        <div class="card__content">
+          <header class="card__header">
+            <h3 class="card__title">
+              <a href="https://charanga.com">Charanga Music</a>
+            </h3>
+          </header>
+          <div class="card__body">
+            <p>Developed a reusable, extensible, responsive and accessible front-end library / boilerplate. To help Charanga deploy future web offerings quickly, efficiently without compromising on quality front end standards.</p>
+          </div>
+        </div>
+      </article>
+    </li>
+    <li>
+      <article class="card card--stacked">
+        <div class="card__content">
+          <header class="card__header">
+            <h3 class="card__title">
+              <a href="http://analog-lab.co.uk">Analog Implant Laboratory</a>
+            </h3>
+          </header>
+          <div class="card__body">
+            <p>Redesigned & built Analog Implant Laboratory's website from the ground up. Appreciated Analog Implant Laboratory's open-handed and open-hearted involvement in the whole design and development process.</p>
+          </div>
+        </div>
+      </article>
+    </li>
+    <li>
+      <article class="card card--stacked">
+        <div class="card__content">
+          <header class="card__header">
+            <h3 class="card__title">
+              <a href="https://bostontparty.co.za">Boston T Party</a>
+            </h3>
+          </header>
+          <div class="card__body">
+            <p>Redesigned & built Boston T Party's website from scratch. Huge focus on usablility, accessibility, performance & resilience.</p>
           </div>
         </div>
       </article>
@@ -51,12 +147,8 @@ updated: 2021-11-16T17:28:00
   </ul>
 </section>
 
----
-
-<section aria-labelledby="testimonials" class="testimonial">
-
+<section aria-labelledby="testimonials" class="testimonials">
   <h2 id="testimonials">Nice things people have said</h2>
-
   <ul role="list" class="auto-grid | no-list">
     <li>
     {% from "components/core/blockquotes/blockquotes.njk" import blockquote %}
