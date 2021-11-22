@@ -1,10 +1,10 @@
 ---
 title: "Work"
 # Populates the `meta description` for a page
-summary: "User-centricity is important to me, which means I particularly enjoy building web interfaces that are usable, accessible, performant, resilient and as future-friendly as possible."
+summary: "User-centricity is important to me. Which means I particularly enjoy building web interfaces that are usable, accessible, performant, resilient and as future-friendly as possible."
 # Populates the opening / `lead` text on a page
 lead:
-  - 'User-centricity is important to me, which means I particularly enjoy building web interfaces that are usable, accessible, performant, resilient and as future-friendly as possible.'
+  - 'User-centricity is important to me. Which means I particularly enjoy building web interfaces that are usable, accessible, performant, resilient and as future-friendly as possible.'
   - 'Is there something I could possibly help you with? <a href="/contact">Get in touch</a>.'
 
 bodyClass: "work"
@@ -14,7 +14,7 @@ updated: 2021-11-22T23:34:00
 ---
 
 <section aria-labelledby="companies" class="companies">
-  <h2 id="companies">People I've worked with</h2>
+  <h2 id="companies">Some people I've worked with</h2>
   <ul role="list" class="auto-grid | no-list">
     <li>
       <article class="card card--stacked">
