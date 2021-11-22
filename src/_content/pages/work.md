@@ -69,7 +69,7 @@ updated: 2021-11-22T17:01:00
             </h3>
           </header>
           <div class="card__body">
-            <p>Collaborative team setup developing a responsive and customisable web solution on their WordPress Multisite application.</p>
+            <p>Fun & collaborative team envirionment developing a responsive and customisable web solution on their WordPress Multisite application.</p>
           </div>
         </div>
       </article>
@@ -97,7 +97,7 @@ updated: 2021-11-22T17:01:00
             </h3>
           </header>
           <div class="card__body">
-            <p>Worked with Macmillan's core website application team. Focussed on frontend solutions for their brand identity and business proposition.</p>
+            <p>Worked with Macmillan's core website application team on frontend solutions for their brand identity and business proposition.</p>
           </div>
         </div>
       </article>
