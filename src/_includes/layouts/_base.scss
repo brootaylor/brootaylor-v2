@@ -5,19 +5,6 @@
 @use '../../styles/abstracts' as *;
 @use '../../styles/utilities/flow' as *;
 
-
-html {
-  background-color: var(--background-colour);
-
-    @include min-width($breakpoint-medium) {
-      padding: 1rem;
-    }
-
-    @include min-width($breakpoint-large) {
-      padding: 1.5rem;
-    }
-}
-
 body,
 #main,
 #footer {
@@ -26,7 +13,7 @@ body,
 
 body {
   background-color: var(--background-colour-overlay);
-  min-height: calc(100vh - 3rem);
+  min-height: 100vh;
 }
 
 #main {

@@ -5,23 +5,32 @@
 @use '../../../../styles/abstracts' as *;
 
 .site-logo {
+  display: block;
   font-family: var(--font-family-title);
   font-size: 1.2rem;
   font-weight: 700;
-  margin-right: 0;
+  padding: 1rem;
+  background-color: var(--grey-dark);
+  white-space: nowrap;
 
-    @include min-width($breakpoint-x-small) {
-      margin-right: 2rem;
+    @include min-width($breakpoint-small) {
+      // flex: 0;
+    }
+
+    @include min-width($breakpoint-x-large) {
+      padding-left: 2rem;
+      padding-right: 2rem;
     }
 
   a {
-    color: var(--font-colour-base);
+    display: block;
+    color: var(--white);
     text-decoration-color: transparent;
 
     &:active,
     &:focus,
     &:hover {
-      color: var(--green-custom);
+      color: var(--white);
       text-decoration-color: var(--green-custom-light);
       border: 0;
     }
