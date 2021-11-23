@@ -6,8 +6,20 @@
 @use '../../../../styles/utilities' as *;
 
 .navigation {
+  padding: 1rem;
+
+    @include min-width($breakpoint-medium) {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    @include min-width($breakpoint-x-large) {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+
   a {
-    color: var(--font-colour-base);
+    color: var(--black);
     text-decoration-color: transparent;
     display: inline-block;
     padding: 0.2em 0;
@@ -15,12 +27,12 @@
     &:active,
     &:focus,
     &:hover {
-      color: var(--green-custom);
+      color: var(--black);
       text-decoration-color: var(--green-custom-light);
     }
 
     &.current {
-      color: var(--green-custom);
+      color: var(--black);
       text-decoration-color: var(--green-custom-light);
       text-decoration-thickness: 2px;
     }

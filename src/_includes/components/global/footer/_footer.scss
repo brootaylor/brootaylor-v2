@@ -8,9 +8,8 @@
 
 #footer {
   background-color: var(--grey-light);
-  padding: 1rem 0 2rem;
-  /* offset-x | offset-y | blur-radius | spread-radius | color */
-  box-shadow: 0 -2px 0 1px rgba($grey-dark, 0.2);
+  padding: 1rem 0;
+  border-top: 1px solid var(--grey-mid);
 
   .wrapper {
     display: flex;
@@ -21,6 +20,7 @@
 
   small {
     font-size: 0.90rem;
+    padding: 0.5rem 0;
 
       @include min-width($breakpoint-small) {
         flex: 1 1 55%;
@@ -40,7 +40,8 @@
     }
 
     li {
-      padding: 0.2em 1rem 0.2em 0;
+      line-height: 0;
+      padding: 0.5em 1rem 0.5em 0;
 
       // Last 2 list items in this list
       &:nth-last-child(-n+2) {
