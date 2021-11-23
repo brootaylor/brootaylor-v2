@@ -12,10 +12,10 @@ bodyClass: "about-me"
 permalink: "/about/me.html"
 
 date: 2021-11-16T16:51:00
-updated: 2021-11-16T17:28:00
+updated: 2021-11-23T11:10:00
 ---
 
-My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 children. 2 teenage sons and a daughter.
+My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 teenage children. 2 sons and a daughter.
 
 I try and write whenever I get the chance and have [written a few posts](/writing) on various things. Here's hoping you'll like some of them or be able to relate to one or two of them in some way.
 
@@ -33,13 +33,13 @@ I absolutely [adore aircraft](https://www.flickr.com/photos/60226997@N06/4753044
 
 I'm a sucker for fantasy. The feeling of been transported to another world is intoxicating. Currently I'm making my way through the "[The Echoes Saga](https://www.philipcquaintrell.com/books)" by Philip C. Quaintrell. What a treat it's been.
 
+Jeremy Wagner's "[Responsible JavaScript](https://abookapart.com/products/responsible-javascript)" is also on the go and I think it's a much needed read at this time in the web building industry.
+
 ---
 
 ## Webby stuff I'm enjoying
 
-[Eleventy](https://www.11ty.io/), [Netlify](https://www.netlify.com/), [Fractal](https://fractal.build/) and [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) animation using [GreenSock](https://greensock.com/) are proving really enjoyable to work with and have restored some of the magic of building websites again.
-
-Since the [announcement of Astro](https://astro.build/blog/introducing-astro), I've been really keen to get my teeth into it. The [CSS Tricks newsletter](https://css-tricks.com/newsletter/255-thoughts-on-astro/) and [Zell Liew](https://zellwk.com/blog/astro-thoughts/) have been singing its praises as well which has only further sparked my interest.
+[Eleventy](https://www.11ty.io/), [Astro](), [Svelte](), [Netlify](https://www.netlify.com/), [Fractal](https://fractal.build/) and [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) animation using [GreenSock](https://greensock.com/) are proving really enjoyable to work with and have restored some of the magic of building websites again.
 
 ---
 
