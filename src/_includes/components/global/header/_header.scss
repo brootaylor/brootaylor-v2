@@ -19,9 +19,9 @@
   top: 0;
   margin: 0;
 
-  @include min-width($breakpoint-medium) {
-    flex-direction: row;
-    align-items: center;
-  }
+    @include min-width($breakpoint-medium) {
+      flex-direction: row;
+      align-items: center;
+    }
 }
 

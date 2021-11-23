@@ -13,10 +13,6 @@
   background-color: var(--grey-dark);
   white-space: nowrap;
 
-    @include min-width($breakpoint-small) {
-      // flex: 0;
-    }
-
     @include min-width($breakpoint-x-large) {
       padding-left: 2rem;
       padding-right: 2rem;
