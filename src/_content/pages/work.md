@@ -10,7 +10,7 @@ lead:
 bodyClass: "work"
 
 date: 2021-11-22T23:34:00
-updated: 2021-11-22T23:34:00
+updated: 2021-11-24T20:22:00
 ---
 
 <section aria-labelledby="companies" class="companies">
@@ -26,7 +26,7 @@ updated: 2021-11-22T23:34:00
             <span class="date-time">Year: 2018 - 2021</span>
           </header>
           <div class="card__body">
-            <p>B2B <em>corporate</em> and <em>careers</em> websites rebuild. As well as frontend configuration & building of custom reusable & themeable / whitelabel components library.</p>
+            <p>Built new, modern, and fast PWA B2B websites for IAG Loyalty. Big focus on usability, accessibility, progressive enhancement, performance & resilience.</p>
           </div>
         </div>
       </article>
@@ -40,8 +40,9 @@ updated: 2021-11-22T23:34:00
             </h3>
             <span class="date-time">Year: 2018</span>
           </header>
-          <div class="card__body">
-            <p>Developed reusable & extensible front-end starter kit that builds modular web components / patterns. <a href="https://www.fastmarkets.com">Fastmarkets</a> was the first website to be built using this solution.</p>
+          <div class="card__body | flow">
+            <p>Developed reusable & extensible front-end starter kit that builds modular web components / pattern libraries.</p>
+            <p><a href="https://www.fastmarkets.com">Fastmarkets</a> was the first website to benefit from using this solution.</p>
           </div>
         </div>
       </article>
@@ -146,7 +147,7 @@ updated: 2021-11-22T23:34:00
             <span class="date-time">Year: 2021 (ongoing)</span>
           </header>
           <div class="card__body">
-            <p>Built a new, modern and fast PWA website for Boston T Party. Big focus on usablility, accessibility, performance & resilience.</p>
+            <p>Built a new, modern and fast PWA website for Boston T Party. Data and bandwidth is a premium in South Africa so focussed particularly on performance & resilience using progressive enhancement methods.</p>
           </div>
         </div>
       </article>
