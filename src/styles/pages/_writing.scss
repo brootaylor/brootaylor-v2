@@ -1,0 +1,11 @@
+/*********************************************
+ * Writing page-specific rules
+ *********************************************/
+
+@use '../abstracts' as *;
+
+.writing {
+  h1 {
+    margin-top: calc(var(--flow-space) / 2);
+  }
+}

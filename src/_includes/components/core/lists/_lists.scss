@@ -4,10 +4,11 @@
 
 @use '../../../../styles/abstracts' as *;
 
-// Notes, Bookmarks & Writing landing pages list item rules...
+// Notes, Bookmarks, Writing & Offline landing pages list item rules...
 .notes,
 .bookmarks,
-.writing {
+.writing,
+.offline {
   &__list-item {
     border-bottom: 2px solid var(--grey-light);
     padding-bottom: 1em;
