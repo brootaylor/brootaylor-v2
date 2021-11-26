@@ -1,0 +1,19 @@
+/*********************************************
+ * Bookmarks landing page-specific rules
+ *********************************************/
+
+@use '../abstracts' as *;
+
+.bookmarks {
+  &__summary {
+    h2 {
+      // Fallback for older browsers
+      font-size: convert-to-rem(28px);
+
+      // Browsers supporting `clamp()`
+      @supports (font-size: clamp(26px, 5vw, 34px)) {
+        font-size: clamp(#{convert-to-rem(20px)}, 5vw, #{convert-to-rem(28px)});
+      }
+    }
+  }
+}
