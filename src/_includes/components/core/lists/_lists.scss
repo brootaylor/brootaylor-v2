@@ -4,9 +4,9 @@
 
 @use '../../../../styles/abstracts' as *;
 
-// Notes, Links & Writing landing pages list item rules...
+// Notes, Bookmarks & Writing landing pages list item rules...
 .notes,
-.links,
+.bookmarks,
 .writing {
   &__list-item {
     border-bottom: 2px solid var(--grey-light);
