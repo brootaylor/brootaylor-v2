@@ -17,7 +17,7 @@ updated: 2021-10-26T17:31:00
     <article class="bookmarks__summary | flow">
       <h2><a href="{{ bookmark.url }}">{{ bookmark.data.title | safe }}</a></h2>
       <time datetime="{{ bookmark.date | dateTime }}">{{ bookmark.date | dateTimeReadable("d LLLL y, ") }}{{ bookmark.date | dateTimeReadable("t") | lower }}</time>
-      <div><span class="visually-hidden">Original post can be viewed at</span> &rarr; <a href="{{ bookmark.data.bookmarkExternal }}" rel="external">{{ bookmark.data.bookmarkLabel }}</a></div>
+      <div><span class="visually-hidden">Original post can be viewed at</span> &rarr; <a href="{{ bookmark.data.bookmarkExternal }}" rel="external" title="Link to the original post.">{{ bookmark.data.bookmarkLabel }}</a></div>
     </article>
   </li>
 {%- endfor -%}
