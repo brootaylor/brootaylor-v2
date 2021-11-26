@@ -13,7 +13,7 @@ date: 2021-11-22T23:34:00
 updated: 2021-11-24T20:22:00
 ---
 
-<section aria-labelledby="companies" class="companies">
+<section aria-labelledby="companies" class="companies | flow">
   <h2 id="companies">Some people I've worked with</h2>
   <ul role="list" class="auto-grid | no-list">
     <li>
@@ -155,7 +155,7 @@ updated: 2021-11-24T20:22:00
   </ul>
 </section>
 
-<section aria-labelledby="testimonials" class="testimonials">
+<section aria-labelledby="testimonials" class="testimonials | flow">
   <h2 id="testimonials">Nice things people have said</h2>
   <ul role="list" class="auto-grid | no-list">
     <li>
