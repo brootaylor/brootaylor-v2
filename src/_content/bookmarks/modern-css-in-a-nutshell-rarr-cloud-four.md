@@ -1,5 +1,5 @@
 ---
-title: Modern CSS in a Nutshell &rarr; Cloud Four
+title: Modern CSS in a Nutshell
 summary: A description of sorts
 bookmarkExternal: https://cloudfour.com/thinks/modern-css-in-a-nutshell/
 bookmarkLabel: cloudfour.com
