@@ -35,8 +35,8 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Meta Description", name: "summary", widget: "string"}
       - {label: "Lead", name: "lead", widget: "string", required: false}
-      - {label: "Publish Date", name: "date", widget: "datetime", picker_utc: false}
-      - {label: "Updated Date", name: "updated", widget: "datetime", picker_utc: false}
+      - {label: "Publish Date", name: "date", widget: "datetime", picker_utc: true}
+      - {label: "Updated Date", name: "updated", widget: "datetime", picker_utc: true}
       - label: "Location"
         name: "location"
         widget: "object"
@@ -59,8 +59,8 @@ collections:
     fields:
       - {label: "File Name", name: "file-name", widget: "string"}
       - {label: "Meta Description", name: "summary", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime", picker_utc: false}
-      - {label: "Updated Date", name: "updated", widget: "datetime", picker_utc: false}
+      - {label: "Publish Date", name: "date", widget: "datetime", picker_utc: true}
+      - {label: "Updated Date", name: "updated", widget: "datetime", picker_utc: true}
       - label: "Location"
         name: "location"
         widget: "object"
@@ -85,8 +85,8 @@ collections:
       - {label: "Lead", name: "lead", widget: "string", required: false}
       - {label: "Bookmark URL", name: "bookmarkExternal", widget: "string"}
       - {label: "Bookmark Label", name: "bookmarkLabel", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime", picker_utc: false}
-      - {label: "Updated Date", name: "updated", widget: "datetime", picker_utc: false}
+      - {label: "Publish Date", name: "date", widget: "datetime", picker_utc: true}
+      - {label: "Updated Date", name: "updated", widget: "datetime", picker_utc: true}
       - label: "Location"
         name: "location"
         widget: "object"
