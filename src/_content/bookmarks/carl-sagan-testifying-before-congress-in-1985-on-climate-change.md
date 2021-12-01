@@ -21,7 +21,7 @@ category:
 eleventyExcludeFromCollections: false
 ---
 
-**35 years on** and these 15 or so minutes of what Carl Sagan had to say are more relevant than ever.
+**35 years on** and these 15 minutes or so of what Carl Sagan had to say are more relevant than ever.
 
 And his closing statement, worringly, feels more out of reach than ever:
 
