@@ -96,6 +96,7 @@
     "jest": "^27.4.5",
     "markdownlint-cli": "^0.30.0",
     "minami": "^1.2.3",
+    "netlify-cli": "^8.1.8",
     "onchange": "^7.1.0",
     "prettier": "^2.5.1"
   }
