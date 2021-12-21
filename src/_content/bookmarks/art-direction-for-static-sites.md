@@ -4,9 +4,10 @@ title: "Art Direction for Static Sites"
 summary: "Your personal site is your playground."
 bookmarkExternal: "https://daverupert.com/2021/01/art-direction-for-static-sites/"
 bookmarkLabel: "daverupert.com"
+bookmarkAuthor: "Dave Rupert"
 
 date: 2021-01-14T15:33:00
-updated: 2021-01-14T15:33:00
+updated: 2021-12-21T19:02:00
 
 location:
   locality: "Crawley"

@@ -4,9 +4,10 @@ title: "The Handwavy Technobabble Nothingburger"
 summary: "The crypto asset bubble is perhaps the most divisive topic in tech of our era and possibly ever to exist in our field."
 bookmarkExternal: "https://www.stephendiehl.com/blog/nothing-burger.html"
 bookmarkLabel: "www.stephendiehl.com"
+bookmarkAuthor: "Stephen Diehl"
 
 date: 2021-11-26T12:09:00
-updated: 2021-11-26T12:09:00
+updated: 2021-12-21T19:02:00
 
 location:
   locality: "Crawley"

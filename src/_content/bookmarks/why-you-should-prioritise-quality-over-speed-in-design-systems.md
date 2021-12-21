@@ -4,9 +4,10 @@ title: "Why you should prioritise quality over speed in design systems"
 summary: "Why you should prioritise quality over speed in design systems."
 bookmarkExternal: "https://amyhupe.co.uk/articles/design-systems-quality-over-speed/"
 bookmarkLabel: "amyhupe.co.uk"
+bookmarkAuthor: "Amy Hupe"
 
 date: 2021-11-09T17:47:00
-updated: 2021-11-09T17:47:00
+updated: 2021-12-21T19:02:00
 
 location:
   locality: "Crawley"

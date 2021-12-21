@@ -7,9 +7,10 @@ lead:
   - "How good an observation is this! Never thought about it this way."
 bookmarkExternal: "https://daverupert.com/2019/08/sticks-and-ropes/"
 bookmarkLabel: "daverupert.com"
+bookmarkAuthor: "Dave Rupert"
 
 date: 2019-10-01T12:42:00
-updated: 2020-05-28T14:29:00
+updated: 2021-12-21T19:02:00
 
 location:
   locality: "Crawley"

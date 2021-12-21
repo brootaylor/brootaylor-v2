@@ -1,12 +1,13 @@
 ---
-title: "I completely ignored the front end development scene for 6 months. It was fine &rarr; Rachel Smith"
+title: "I completely ignored the front end development scene for 6 months. It was fine"
 # Populates the `meta description` for a page
 summary: "I completely ignored the front end development scene for 6 months. It was fine."
 bookmarkExternal: "https://rachsmith.com/i-completely-ignored-the-front-end-development-scene-for-6-months-it-was-fine/"
 bookmarkLabel: "rachsmith.com"
+bookmarkAuthor: "Rachel Smith"
 
 date: 2021-10-29T16:19:00
-updated: 2021-10-29T16:45:00
+updated: 2021-12-21T19:02:00
 
 location:
   locality: "Crawley"

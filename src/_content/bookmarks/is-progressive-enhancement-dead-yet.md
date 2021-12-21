@@ -4,9 +4,10 @@ title: "Is Progressive Enhancement Dead Yet?"
 summary: "Heydon Pickering has started doing some fab videos again."
 bookmarkExternal: "https://briefs.video/videos/is-progressive-enhancement-dead-yet/"
 bookmarkLabel: "briefs.video"
+bookmarkAuthor: "Heydon Pickering"
 
 date: 2021-01-06T11:54:00
-updated: 2021-01-06T11:54:00
+updated: 2021-12-21T19:02:00
 
 location:
   locality: "Crawley"

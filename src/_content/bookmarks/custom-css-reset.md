@@ -1,12 +1,13 @@
 ---
-title: "My Custom CSS Reset &rarr; Josh Comeau"
+title: "My Custom CSS Reset"
 # Populates the `meta description` for a page
 summary: "Custom CSS reset from Josh Comeau."
 bookmarkExternal: "https://www.joshwcomeau.com/css/custom-css-reset/"
 bookmarkLabel: "www.joshwcomeau.com"
+bookmarkAuthor: "Josh Comeau"
 
 date: 2021-12-03T16:34:00
-updated: 2021-12-03T16:34:00
+updated: 2021-12-21T19:02:00
 
 location:
   locality: "Crawley"
