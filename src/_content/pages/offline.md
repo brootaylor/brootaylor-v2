@@ -9,7 +9,7 @@ lead:
 bodyClass: "offline"
 
 date: 2020-05-01T14:43:00
-updated: 2021-11-26T18:09:00
+updated: 2021-12-21T19:34:00
 
 hidden: true
 eleventyExcludeFromCollections: true
@@ -21,7 +21,13 @@ eleventyExcludeFromCollections: true
   {%- for item in allPosts.slice(0, 5) -%}
   <li class="offline__list-item">
     <article class="offline__summary | flow">
-      <h2><a href="{{ item.url | pretty }}">{{ item.data.title | safe }}</a></h2>
+      <h2>
+        <a href="{{ item.url | pretty }}">
+        {{ item.data.title | safe }}
+        {#- Checks whether a `bookmarkAuthor` value has been entered. If so, then the `h2` heading is updated... -#}
+        {% if item.data.bookmarkAuthor %} &rarr; {{ item.data.bookmarkAuthor | safe }}{% endif %}
+        </a>
+      </h2>
       <time datetime="{{ item.date | dateTime }}">{{ item.date | dateTimeReadable("d LLLL y, ") }}{{ item.date | dateTimeReadable("t") | lower }}</time>
       <p>{{ item.data.summary | safe }}</p>
     </article>
