@@ -5,6 +5,11 @@
 {# Uses `base.njk` as base document (ie. extends on it) #}
 {% extends "layouts/base.njk" %}
 
+{# If the `bookmarkAuthor` field contains and value - (aka Authro name) - then adjust the `title` value #}
+{% if bookmarkAuthor %}
+	{% set title = title + ' &rarr; ' + bookmarkAuthor %}
+{% endif %}
+
 {#
 	*** A `titleMissingText` variable to make sure an `h1` title is supplied ***
 #}

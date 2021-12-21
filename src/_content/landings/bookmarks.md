@@ -15,7 +15,12 @@ updated: 2021-11-26T18:10:00
 {%- for bookmark in collections.postBookmarks -%}
   <li class="bookmarks__list-item">
     <article class="bookmarks__summary | flow">
-      <h2><a href="{{ bookmark.url }}">{{ bookmark.data.title | safe }}</a></h2>
+      <h2>
+        <a href="{{ bookmark.url }}">
+        {{ bookmark.data.title | safe }}
+        {#- Checks whether a `bookmarkAuthor` value has been entered. If so, then the `h2` heading is updated... -#}
+        {% if bookmark.data.bookmarkAuthor %} &rarr; {{ bookmark.data.bookmarkAuthor | safe }}{% endif %}</a>
+      </h2>
       <time datetime="{{ bookmark.date | dateTime }}">{{ bookmark.date | dateTimeReadable("d LLLL y, ") }}{{ bookmark.date | dateTimeReadable("t") | lower }}</time>
       <div><span class="visually-hidden">Original post can be viewed at</span> &rarr; <a href="{{ bookmark.data.bookmarkExternal }}" rel="external" title="Link to the original post.">{{ bookmark.data.bookmarkLabel }}</a></div>
     </article>
