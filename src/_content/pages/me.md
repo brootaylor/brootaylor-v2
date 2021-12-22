@@ -9,6 +9,8 @@ lead:
 
 bodyClass: "about-me"
 
+tags: "page"
+
 permalink: "/about/me.html"
 
 date: 2021-11-16T16:51:00

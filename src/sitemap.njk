@@ -9,7 +9,7 @@ eleventyExcludeFromCollections: true
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
 {# Loop over everything that hasn't been excluded from `collections` #}
-{%- for page in collections.all -%}
+{%- for page in collections.all | reverse -%}
 {# And only if they're not `hidden: true` #}
 {%- if page.data.hidden !== true -%}
 <url>

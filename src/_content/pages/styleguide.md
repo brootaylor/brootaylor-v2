@@ -9,6 +9,9 @@ bodyClass: "styleguide"
 
 date: 2020-05-21T11:11:00
 updated: 2020-05-21T11:11:00
+
+hidden: true
+eleventyExcludeFromCollections: true
 ---
 
 {% import "components/core/images/images.njk" as images %}

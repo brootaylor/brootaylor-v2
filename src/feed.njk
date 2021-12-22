@@ -18,7 +18,7 @@ eleventyExcludeFromCollections: true
 		<email>{{ site.author.email }}</email>
 		<uri>{{ site.author.url }}</uri>
 	</author>
-	{% for post in collections.post %}
+	{% for post in collections.post | reverse %}
 		{% set absolutePostUrl %}{{ site.rootUrl }}{{ post.url | pretty }}{% endset %}
 		{% set lastUpdated %}{{ post.data.updated | rssDate }}{% endset %}
 		<entry>

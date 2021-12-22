@@ -4,6 +4,8 @@ title: "Accessibility statement."
 summary: "This website is committed to providing a usable experience for anyone visiting it, regardless of technology or ability."
 bodyClass: "accessibility"
 
+tags: "page"
+
 date: 2020-05-01T16:41:00
 updated: 2021-10-28T17:41:00
 ---

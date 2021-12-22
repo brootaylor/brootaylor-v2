@@ -61,8 +61,12 @@ const offlinePages = [
 	'{{ item.url }}',
 	{%- endif -%}
 {%- endfor %}
-	{# Accessibility page added in manually for now... #}
-	'/accessibility',
+{#- Loops through all `page` tagged pages -#}
+{%- set allPages = collections.page -%}
+{#- Returns `page` tagged pages. -#}
+{% for item in allPages | reverse %}
+	'{{ item.url | pretty }}',
+{%- endfor %}
   '{{ site.start_url }}'
 ];
 
