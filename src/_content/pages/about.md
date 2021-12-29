@@ -6,12 +6,12 @@ summary: "Frontend Web Developer & UI Engineer living in West Sussex, England. H
 lead:
   - I'm an independent Frontend Web Developer & UI Engineer living in West Sussex, England and have been helping small businesses, companies and organisations build their websites since 2004.
   # - I'm an independent Frontend Web Developer & UI Engineer living in West Sussex, England and have been helping small businesses, companies and organisations <a href="/work">build their websites</a> since 2004.
-  - If you're interested, you can find out more <a href="/about/me">about me</a>.
+  - Here's a bit more <a href="/about/me">about me</a>, if you're interested.
 
 bodyClass: "about"
 
 date: 2020-04-24T19:33:00
-updated: 2021-11-16T17:28:00
+updated: 2021-12-29T01:58:00
 ---
 
 ## What I do

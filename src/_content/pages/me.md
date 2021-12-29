@@ -5,7 +5,7 @@ summary: "I'm originally from South Africa and grew up on a dairy farm in a very
 # Populates the opening / `lead` text on a page
 lead:
   - I'm originally from South Africa and grew up on a dairy farm in a very <a href="https://youtu.be/bGQbM3QfA5w">beautiful part of the country</a>.
-  - Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking and camping in the mountains, canoeing, fishing and sport. Funny how things turn out sometimes.
+  - Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking and camping in the mountains, staring at the stars, canoeing, fishing and sport. Funny how things turn out sometimes.
 
 bodyClass: "about-me"
 
@@ -14,12 +14,12 @@ tags: "page"
 permalink: "/about/me.html"
 
 date: 2021-11-16T16:51:00
-updated: 2021-11-23T11:10:00
+updated: 2021-12-29T01:58:00
 ---
 
 My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 teenage children. 2 sons and a daughter.
 
-I try and write whenever I get the chance and have [written a few posts](/writing) on various things. Here's hoping you'll like some of them or be able to relate to one or two of them in some way.
+I write now and then and have [written a few posts](/writing) on various things. Hopefully some of them will resonate.
 
 ---
 

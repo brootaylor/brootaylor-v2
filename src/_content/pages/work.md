@@ -1,16 +1,16 @@
 ---
 title: "Work"
 # Populates the `meta description` for a page
-summary: "User-centricity is important to me. Which means I particularly enjoy building web interfaces that are usable, accessible, performant, resilient and as future-friendly as possible."
+summary: "User-centricity is important to me. Which means my skills & strengths are particularly suited to building web interfaces that are usable, accessible, responsive, performant, progressively enhanced, resilient, and as future-friendly as possible."
 # Populates the opening / `lead` text on a page
 lead:
-  - 'User-centricity is important to me. Which means I particularly enjoy building web interfaces that are usable, accessible, performant, resilient and as future-friendly as possible.'
+  - 'User-centricity is important to me. Which means my skills & strengths are particularly suited to building web interfaces that are usable, accessible, responsive, performant, progressively enhanced, resilient, and as future-friendly as possible.'
   - 'Is there something I could possibly help you with? <a href="/contact">Get in touch</a>.'
 
 bodyClass: "work"
 
 date: 2021-11-22T23:34:00
-updated: 2021-11-24T20:22:00
+updated: 2021-12-29T01:58:00
 ---
 
 <section aria-labelledby="companies" class="companies | flow">

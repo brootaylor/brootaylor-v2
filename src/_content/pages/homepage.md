@@ -31,7 +31,7 @@ bodyClass: "homepage"
 permalink: "/index.html"
 
 date: 2020-04-24T12:54:00
-updated: 2021-11-16T17:28:00
+updated: 2021-12-29T01:58:00
 
 changefreq: "weekly"
 priority: 1
@@ -41,6 +41,6 @@ Most recently I worked with [IAG Loyalty](https://iagloyalty.com/) but have also
 
 ***
 
-User-centricity is important to me, which means I particularly enjoy building web interfaces that are usable, accessible, performant, resilient and as future-friendly as possible.
+User-centricity is important to me. Which means my skills & strengths are particularly suited to building web interfaces that are usable, accessible, responsive, performant, progressively enhanced, resilient, and as future-friendly as possible.
 
 If this sounds like something you're after and think I could possibly help you with it, [I'd love to hear from you](/contact).
