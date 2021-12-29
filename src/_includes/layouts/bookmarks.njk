@@ -5,11 +5,6 @@
 {# Uses `base.njk` as base document (ie. extends on it) #}
 {% extends "layouts/base.njk" %}
 
-{# If the `bookmarkAuthor` field contains and value - (aka Authro name) - then adjust the `title` value #}
-{% if bookmarkAuthor %}
-	{% set title = title + ' &rarr; ' + bookmarkAuthor %}
-{% endif %}
-
 {#
 	*** A `titleMissingText` variable to make sure an `h1` title is supplied ***
 #}
@@ -24,7 +19,11 @@
 			<div><span class="visually-hidden">Original post can be viewed at</span> &rarr; <a href="{{ bookmarkExternal }}" rel="external" title="Link to the original post.">{{ bookmarkLabel }}</a></div>
 			{# This `title` comes from the front matter in the relevant `.md` file - within the `pages` directory #}
 			{% if title %}
-				<h1>{{ title | safe }}</h1>
+				<h1>
+					{{- title | safe }}
+					{#- Checks whether a `bookmarkAuthor` value has been entered. If so, then the `h1` heading is updated... -#}
+					{% if bookmarkAuthor %} &rarr; {{ bookmarkAuthor | safe }}{% endif -%}
+				</h1>
 			{% else %}
 				{# Pages need a `title` hence the reason for this fallback #}
 				<h1>{{ titleMissingText }}</h1>
@@ -49,7 +48,7 @@
 		<hr>
 
 		{# Takes back to bookmarks landing page #}
-		<a href="/bookmarks">Other bookmarks</a>
+		<a href="/bookmarks">&larr; Other bookmarks</a>
 
 	</article>
 {% endblock %}
