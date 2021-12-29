@@ -8,7 +8,7 @@ lead:
 bodyClass: "bookmarks-home"
 
 date: 2020-02-22T22:10:00
-updated: 2021-12-21T19:02:00
+updated: 2021-12-29T00:58:00
 ---
 
 <ul role="list" class="bookmarks__list | no-list | flow">
@@ -17,9 +17,9 @@ updated: 2021-12-21T19:02:00
     <article class="bookmarks__summary | flow">
       <h2>
         <a href="{{ bookmark.url }}">
-        {{ bookmark.data.title | safe }}
+        {{- bookmark.data.title | safe }}
         {#- Checks whether a `bookmarkAuthor` value has been entered. If so, then the `h2` heading is updated... -#}
-        {% if bookmark.data.bookmarkAuthor %} &rarr; {{ bookmark.data.bookmarkAuthor | safe }}{% endif %}
+        {% if bookmark.data.bookmarkAuthor %} &rarr; {{ bookmark.data.bookmarkAuthor | safe }}{% endif -%}
         </a>
       </h2>
       <time datetime="{{ bookmark.date | dateTime }}">{{ bookmark.date | dateTimeReadable("d LLLL y, ") }}{{ bookmark.date | dateTimeReadable("t") | lower }}</time>
