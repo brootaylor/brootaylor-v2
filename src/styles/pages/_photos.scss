@@ -1,0 +1,19 @@
+/*********************************************
+ * Work page-specific rules
+ *********************************************/
+
+@use '../abstracts' as *;
+
+.photos-home {
+  article {
+    ul {
+      max-width: 100%;
+    }
+  }
+
+  @supports (display: grid) {
+    .photos__list {
+      grid-gap: 1em;
+    }
+  }
+}
