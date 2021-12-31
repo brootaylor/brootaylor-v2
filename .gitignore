@@ -1,7 +1,7 @@
 # Directories to ignore
 node_modules
 .vscode
-audits
+audits/**/*.*
 dist
 docs
 
