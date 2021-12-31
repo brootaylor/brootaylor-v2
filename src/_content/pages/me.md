@@ -41,7 +41,7 @@ Jeremy Wagner's "[Responsible JavaScript](https://abookapart.com/products/respon
 
 ## Webby stuff I'm enjoying
 
-[Eleventy](https://www.11ty.io/), [Astro](), [Svelte](), [Netlify](https://www.netlify.com/), [Fractal](https://fractal.build/) and [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) animation using [GreenSock](https://greensock.com/) are proving really enjoyable to work with and have restored some of the magic of building websites again.
+[Eleventy](https://www.11ty.io/), [Astro](https://astro.build/), [Svelte](https://svelte.dev/), [Netlify](https://www.netlify.com/), [Fractal](https://fractal.build/) and [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) animation using [GreenSock](https://greensock.com/) are proving really enjoyable to work with and have restored some of the magic of building websites again.
 
 ---
 
