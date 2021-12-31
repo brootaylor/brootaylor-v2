@@ -1,3 +1,5 @@
 # Performance results
 
-Performance results report is generated in this directory.
+Performance (Lighthouse) results report is generated in this directory.
+
+To generate the report, run `npm run audit:performance`
