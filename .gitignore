@@ -1,7 +1,6 @@
 # Directories to ignore
 node_modules
 .vscode
-audits/**/*brootaylor*.*
 dist
 docs
 
@@ -9,6 +8,7 @@ docs
 .DS_Store
 .env
 _tokens.scss
+audits/**/*brootaylor*.*
 *.zip
 
 # Local Netlify folder
