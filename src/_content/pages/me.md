@@ -14,7 +14,7 @@ tags: "page"
 permalink: "/about/me.html"
 
 date: 2021-11-16T16:51:00
-updated: 2021-12-29T01:58:00
+updated: 2021-12-31T17:09:00
 ---
 
 My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 teenage children. 2 sons and a daughter.
