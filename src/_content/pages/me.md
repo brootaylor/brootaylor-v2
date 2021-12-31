@@ -14,7 +14,7 @@ tags: "page"
 permalink: "/about/me.html"
 
 date: 2021-11-16T16:51:00
-updated: 2021-12-29T01:58:00
+updated: 2021-12-31T17:09:00
 ---
 
 My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 teenage children. 2 sons and a daughter.
@@ -41,7 +41,7 @@ Jeremy Wagner's "[Responsible JavaScript](https://abookapart.com/products/respon
 
 ## Webby stuff I'm enjoying
 
-[Eleventy](https://www.11ty.io/), [Astro](), [Svelte](), [Netlify](https://www.netlify.com/), [Fractal](https://fractal.build/) and [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) animation using [GreenSock](https://greensock.com/) are proving really enjoyable to work with and have restored some of the magic of building websites again.
+[Eleventy](https://www.11ty.io/), [Astro](https://astro.build/), [Svelte](https://svelte.dev/), [Netlify](https://www.netlify.com/), [Fractal](https://fractal.build/) and [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) animation using [GreenSock](https://greensock.com/) are proving really enjoyable to work with and have restored some of the magic of building websites again.
 
 ---
 
