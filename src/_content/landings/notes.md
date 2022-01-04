@@ -7,7 +7,8 @@ lead:
   - "Quick notes, thoughts and ramblings."
 bodyClass: "notes-home"
 
-permalink: "/notes/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/index.html{% else %}/{% endif %}"
+permalink: "{% if pagination.pageNumber > 0 %}/notes/{{ pagination.pageNumber + 1 }}/index.html{% else %}/notes.html{% endif %}"
+# permalink: "/notes/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/index.html{% else %}/notes.html{% endif %}"
 
 pagination:
   data: collections.notes
