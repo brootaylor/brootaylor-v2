@@ -5,7 +5,7 @@ summary: "I'm originally from South Africa and grew up on a dairy farm in a very
 # Populates the opening / `lead` text on a page
 lead:
   - I'm originally from South Africa and grew up on a dairy farm in a very <a href="https://youtu.be/bGQbM3QfA5w">beautiful part of the country</a>.
-  - Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking and camping in the mountains, staring at the stars, canoeing, fishing and sport. Funny how things turn out sometimes.
+  - Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking and wild camping in the mountains, staring up at the stars, canoeing, fishing and sport.
 
 bodyClass: "about-me"
 
@@ -14,7 +14,7 @@ tags: "page"
 permalink: "/about/me.html"
 
 date: 2021-11-16T16:51:00
-updated: 2021-12-31T17:09:00
+updated: 2022-01-06T19:07:00
 ---
 
 My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 teenage children. 2 sons and a daughter.
@@ -25,7 +25,9 @@ I write now and then and have [written a few posts](/writing) on various things.
 
 ## Some hobby stuff
 
-I enjoy landscape photography and am a [fairly decent drummer](https://www.flickr.com/photos/60226997@N06/40548596663/). Fly fishing for trout is something I grew up doing and continue to do. I head to the beautiful [Lakedown Trout Fishery](https://www.lakedowntroutfishery.com/) as often as I can. A gorgeous and tranquil spot away from all the noise.
+<!-- Need to eventually point photos URL to my photo page (when it's built!) -->
+
+I enjoy [taking photos](https://www.flickr.com/photos/60226997@N06/) whenever I can and am a [fairly decent drummer](https://www.flickr.com/photos/60226997@N06/40548596663/). Fly fishing for trout is something I grew up doing and continue to do. I head to the beautiful [Lakedown Trout Fishery](https://www.lakedowntroutfishery.com/) as often as I can. A gorgeous and tranquil spot away from all the noise.
 
 I absolutely [adore aircraft](https://www.flickr.com/photos/60226997@N06/47530443441/) and still plan to pull my finger out and get my <abbr title="Private Pilots Licence">PPL</abbr> one day.
 
@@ -36,6 +38,8 @@ I absolutely [adore aircraft](https://www.flickr.com/photos/60226997@N06/4753044
 I'm a sucker for fantasy. The feeling of been transported to another world is intoxicating. Currently I'm making my way through the "[The Echoes Saga](https://www.philipcquaintrell.com/books)" by Philip C. Quaintrell. What a treat it's been.
 
 Jeremy Wagner's "[Responsible JavaScript](https://abookapart.com/products/responsible-javascript)" is also on the go and I think it's a much needed read at this time in the web building industry.
+
+Wlliam R. Catton's "[Overshoot: The Ecological Basis of Revolutionary Change](https://www.goodreads.com/en/book/show/319810.Overshoot)" is blowing my mind quite a bit. I'd say I'm enjoying it but that wouldn't be truthful. I think it's more honest to say that it's probably turning out to be one of the most important reads of my life &ndash; but in a disturbingly and unnervingly profound sort of way.
 
 ---
 

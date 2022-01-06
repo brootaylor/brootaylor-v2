@@ -1,17 +1,17 @@
 ---
 title: "About"
 # Populates the `meta description` for a page
-summary: "Frontend Web Developer & UI Engineer living in West Sussex, England. Helping small businesses, companies and organisations build their websites since 2004."
+summary: "I'm an independent Frontend Web Developer & UI Engineer situated in West Sussex, England. I've been assisting small businesses, companies, and organisations in bringing excellent website projects to life for more than 17 years."
 # Populates the opening / `lead` text on a page
 lead:
-  - I'm an independent Frontend Web Developer & UI Engineer living in West Sussex, England and have been helping small businesses, companies and organisations build their websites since 2004.
+  - I'm an independent Frontend Web Developer & UI Engineer situated in West Sussex, England. I've been assisting small businesses, companies, and organisations in bringing excellent website projects to life for more than 17 years.
   # - I'm an independent Frontend Web Developer & UI Engineer living in West Sussex, England and have been helping small businesses, companies and organisations <a href="/work">build their websites</a> since 2004.
   - Here's a bit more <a href="/about/me">about me</a>, if you're interested.
 
 bodyClass: "about"
 
 date: 2020-04-24T19:33:00
-updated: 2021-12-29T01:58:00
+updated: 2022-01-06T19:07:00
 ---
 
 ## What I do
@@ -44,7 +44,7 @@ My role often involves collaborating with designers to ensure that the design tr
 
 ## Interested in working with me?
 
-<!-- Here's a bit more about some of the [work I've done](/work). -->
+Here's a bit more about some of the [work I've done](/work).
 
 Do you think there's a web project that I could possibly help you with? Then by all means [get in touch](/contact).
 

@@ -1,16 +1,16 @@
 ---
 title: "Work"
 # Populates the `meta description` for a page
-summary: "User-centricity is important to me. Which means my skills & strengths are particularly suited to building web interfaces that are usable, accessible, responsive, performant, progressively enhanced, resilient, and as future-friendly as possible."
+summary: "I strive to develop web experiences that look and work well on any device that can access the internet while also considering user demands and business objectives. While simultaneously establishing a foundation for long-term success that is useable, accessible, responsive, performant, and resilient."
 # Populates the opening / `lead` text on a page
 lead:
-  - 'User-centricity is important to me. Which means my skills & strengths are particularly suited to building web interfaces that are usable, accessible, responsive, performant, progressively enhanced, resilient, and as future-friendly as possible.'
-  - 'Is there something I could possibly help you with? <a href="/contact">Get in touch</a>.'
+  - I place a high value on user-centricity. That is, I strive to develop web experiences that look and work well on any device that can access the internet while also considering user demands and business objectives. While simultaneously establishing a foundation for long-term success that is useable, accessible, responsive, performant, and resilient.
+  - If this seems like something you're looking for and you think I might be able to help, please <a href="/contact">get in touch</a>.
 
 bodyClass: "work"
 
 date: 2021-11-22T23:34:00
-updated: 2021-12-29T01:58:00
+updated: 2022-01-06T19:07:00
 ---
 
 <section aria-labelledby="companies" class="companies | flow">
@@ -157,7 +157,7 @@ updated: 2021-12-29T01:58:00
 
 <section aria-labelledby="testimonials" class="testimonials | flow">
   <h2 id="testimonials">Nice things people have said</h2>
-  <ul role="list" class="auto-grid | no-list">
+  <ul role="list" class="no-list | flow">
     <li>
     {% from "components/core/blockquotes/blockquotes.njk" import blockquote %}
     {%- call blockquote('Stephen Scott, Chief Digital Officer, IAG Loyalty') -%}
@@ -168,6 +168,12 @@ updated: 2021-12-29T01:58:00
     {% from "components/core/blockquotes/blockquotes.njk" import blockquote %}
     {%- call blockquote('Kat Thay, Studio Manager, Pegasus') -%}
       Bruce was an excellent resource for us, taking on additional work when our internal resources were at capacity. He's easy to work with and always turned around work quickly and to a high standard. Bruce quickly became part of the family and overcoming challenges with ease due to his can-do attitude and tireless commitment to projects.
+    {%- endcall %}
+    </li>
+    <li>
+    {% from "components/core/blockquotes/blockquotes.njk" import blockquote %}
+    {%- call blockquote('Paul Davison, Head Of Design, Charanga Music') -%}
+      We got Bruce in to to help us develop a front-end boilerplate / component library as we were inundated with projects and needed a safe pair of hands that could help us achieve quality results with minimal supervision. Bruce delivered a high-quality framework that ticks all of the boxes for us. And to top it all he’s a great guy to work with, highly professional, he gets on well with everyone and really cares about his work. I would not hesitate to hire Bruce again.
     {%- endcall %}
     </li>
   </ul>
