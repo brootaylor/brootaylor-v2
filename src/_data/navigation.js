@@ -21,10 +21,6 @@ module.exports = {
       url: '/bookmarks'
     },
     {
-      label: 'Photos',
-      url: '/photos'
-    },
-    {
       label: 'Contact',
       url: '/contact'
     }
