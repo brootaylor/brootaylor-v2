@@ -19,9 +19,9 @@ const dateTimeReadable = require('./lib/utils/filters/dateTimeReadable.js')
 const htmlMinify = require('./lib/utils/transforms/minify-html.js')
 
 // Import (collections)
+const postWriting = require('./lib/collections/postWriting.js')
 const postNotes = require('./lib/collections/postNotes.js')
 const postBookmarks = require('./lib/collections/postBookmarks.js')
-const postWriting = require('./lib/collections/postWriting.js')
 
 module.exports = function (eleventy) {
   // BrowserSync
@@ -45,9 +45,9 @@ module.exports = function (eleventy) {
   eleventy.addTransform('minify-html', htmlMinify)
 
   // Collections
+  eleventy.addCollection('postWriting', postWriting)
   eleventy.addCollection('postNotes', postNotes)
   eleventy.addCollection('postBookmarks', postBookmarks)
-  eleventy.addCollection('postWriting', postWriting)
 
   // Passthrough
   eleventy.addPassthroughCopy('./src/assets/fonts')
