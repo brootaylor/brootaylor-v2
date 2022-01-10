@@ -2,11 +2,11 @@
 layout: "layouts/homepage.njk"
 title: Hi, <a href="/about">I'm Bruce</a>.
 # Populates the `meta description` for a page
-summary: "I'm an independent Frontend Web Developer & UI Engineer situated in West Sussex, England. I've been assisting small businesses, companies, and organisations in bringing excellent website projects to life for more than 17 years."
+summary: "I'm an independent Frontend Web Developer & UI Engineer situated in West Sussex, England. I've been assisting small businesses, companies, and organisations bring excellent website projects to life for more than 17 years."
 
 # Populates the opening / `lead` text on a page
 lead:
-  - I'm an independent Frontend Web Developer & UI Engineer situated in West Sussex, England. I've been assisting small businesses, companies, and organisations in bringing excellent website projects to life for more than 17 years.
+  - I'm an independent Frontend Web Developer & UI Engineer situated in West Sussex, England. I've been assisting small businesses, companies, and organisations bring excellent website projects to life for more than 17 years.
 
 # Page-specific metadata content added to the `<head>`
 # head: "
@@ -31,7 +31,7 @@ bodyClass: "homepage"
 permalink: "/index.html"
 
 date: 2020-04-24T12:54:00
-updated: 2022-01-06T19:07:00
+updated: 2022-01-10T17:50:00
 
 changefreq: "weekly"
 priority: 1
