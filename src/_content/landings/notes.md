@@ -8,20 +8,20 @@ lead:
 bodyClass: "notes-home"
 
 permalink: "{% if pagination.pageNumber > 0 %}/notes/{{ pagination.pageNumber + 1 }}/index.html{% else %}/notes.html{% endif %}"
-# permalink: "/notes/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/index.html{% else %}/notes.html{% endif %}"
 
 pagination:
   data: collections.notes
-  size: 10
+  size: 15
   reverse: true
   alias: noteslist
 
 date: 2020-02-22T22:10:00
-updated: 2021-07-16T18:44:07
+updated: 2022-01-17T18:43:00
 ---
 
+{# List of note posts #}
 <ul role="list" class="notes__list | no-list | flow">
-{%- for note in noteslist -%}
+{% for note in noteslist -%}
   <li class="notes__list-item">
     <article class="note__summary | flow">
       <a href="{{ note.url }}">
@@ -30,24 +30,25 @@ updated: 2021-07-16T18:44:07
       {{ note.templateContent | safe | trim }}
     </article>
   </li>
-{%- endfor -%}
+{% endfor -%}
 </ul>
 
-<!-- Pagination links -->
-<div class="page-selector">
-  {%- if pagination.nextPageHref -%}
-    <a href="{{ pagination.nextPageHref }}" class="page-numbers">
-      Older
-    </a>
-  {% else %}
-    <!-- <span class="page-numbers">Older</span> -->
-  {% endif %}
-  <span class="page-numbers ">
-    <span class="visually-hidden">Page: {{ pagination.pageNumber + 1 }} of {{ pagination.links | length  }}</span>
-  </span>
-  {%- if pagination.previousPageHref -%}
-    <a href="{{ pagination.previousPageHref }}" class="page-numbers">Newer</a>
-  {% else %}
-    <!-- <span class="page-numbers">Newer</span> -->
-  {% endif %}
-</div>
+{# Pagination links #}
+<nav class="pagination">
+  <h3 class="visually-hidden">Pagination for note posts</h3>
+  <span class="visually-hidden">Page: {{ pagination.pageNumber + 1 }} of {{ pagination.links | length  }}</span>
+  <ul role="list" class="pagination__list | no-list">
+    {%- if pagination.nextPageHref -%}
+      <li class="pagination__list-item">
+        <i aria-hidden="true">&larr;</i>
+        <a href="{{ pagination.nextPageHref }}">Older <span class="visually-hidden">posts</span></a>
+      </li>
+    {%- endif -%}
+    {%- if pagination.previousPageHref -%}
+      <li class="pagination__list-item">
+        <a href="{{ pagination.previousPageHref }}">Newer <span class="visually-hidden">posts</span></a>
+        <i aria-hidden="true">&rarr;</i>
+      </li>
+    {%- endif -%}
+  </ul>
+</nav>
