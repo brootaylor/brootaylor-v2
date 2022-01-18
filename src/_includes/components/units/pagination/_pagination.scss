@@ -1,0 +1,25 @@
+/**********************************************************
+ * Pagination component
+ **********************************************************/
+
+@use '../../../../styles/abstracts' as *;
+
+
+/// Pagination component.
+///
+/// This component is typically used on post 'list' pages where pagination is needed.
+
+.pagination {
+  margin-top: 2em;
+
+  &__list {
+    font-size: 1rem;
+    display: flex;
+
+    &-item {
+      &:first-child {
+        margin-right: 2em;
+      }
+    }
+  }
+}
