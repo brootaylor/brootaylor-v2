@@ -11,7 +11,7 @@ permalink: "{% if pagination.pageNumber > 0 %}/writing/{{ pagination.pageNumber 
 
 pagination:
   data: collections.postWriting # This data is called using the `postWriting.js` collection script
-  size: 10
+  size: 15
   alias: writings
 
 date: 2020-02-22T22:10:00
@@ -40,17 +40,17 @@ updated: 2022-01-18T17:23:00
   <h3 class="visually-hidden">Pagination for writing posts</h3>
   <span class="visually-hidden">Page: {{ pagination.pageNumber + 1 }} of {{ pagination.links | length  }}</span>
   <ul role="list" class="pagination__list | no-list">
-    {%- if pagination.nextPageHref -%}
+    {% if pagination.nextPageHref -%}
       <li class="pagination__list-item">
         <i aria-hidden="true">&larr;</i>
         <a href="{{ pagination.nextPageHref }}">Older <span class="visually-hidden">posts</span></a>
       </li>
-    {%- endif -%}
-    {%- if pagination.previousPageHref -%}
+    {%- endif %}
+    {% if pagination.previousPageHref -%}
       <li class="pagination__list-item">
         <a href="{{ pagination.previousPageHref }}">Newer <span class="visually-hidden">posts</span></a>
         <i aria-hidden="true">&rarr;</i>
       </li>
-    {%- endif -%}
+    {%- endif %}
   </ul>
 </nav>

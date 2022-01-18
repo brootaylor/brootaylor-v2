@@ -37,17 +37,17 @@ updated: 2022-01-18T17:23:00
   <h3 class="visually-hidden">Pagination for note posts</h3>
   <span class="visually-hidden">Page: {{ pagination.pageNumber + 1 }} of {{ pagination.links | length  }}</span>
   <ul role="list" class="pagination__list | no-list">
-    {%- if pagination.nextPageHref -%}
+    {% if pagination.nextPageHref -%}
       <li class="pagination__list-item">
         <i aria-hidden="true">&larr;</i>
         <a href="{{ pagination.nextPageHref }}">Older <span class="visually-hidden">posts</span></a>
       </li>
-    {%- endif -%}
-    {%- if pagination.previousPageHref -%}
+    {%- endif %}
+    {% if pagination.previousPageHref -%}
       <li class="pagination__list-item">
         <a href="{{ pagination.previousPageHref }}">Newer <span class="visually-hidden">posts</span></a>
         <i aria-hidden="true">&rarr;</i>
       </li>
-    {%- endif -%}
+    {%- endif %}
   </ul>
 </nav>
