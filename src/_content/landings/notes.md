@@ -10,18 +10,17 @@ bodyClass: "notes-home"
 permalink: "{% if pagination.pageNumber > 0 %}/notes/{{ pagination.pageNumber + 1 }}/index.html{% else %}/notes.html{% endif %}"
 
 pagination:
-  data: collections.notes
+  data: collections.postNotes # This data is called using the `postNotes.js` collection script
   size: 15
-  reverse: true
-  alias: noteslist
+  alias: notes
 
 date: 2020-02-22T22:10:00
-updated: 2022-01-17T18:43:00
+updated: 2022-01-18T17:23:00
 ---
 
 {# List of note posts #}
 <ul role="list" class="notes__list | no-list | flow">
-{% for note in noteslist -%}
+{% for note in notes -%}
   <li class="notes__list-item">
     <article class="note__summary | flow">
       <a href="{{ note.url }}">
@@ -33,7 +32,7 @@ updated: 2022-01-17T18:43:00
 {% endfor -%}
 </ul>
 
-{# Pagination links #}
+{# Pagination component --> (Maybe export this to its own component at some stage) #}
 <nav class="pagination">
   <h3 class="visually-hidden">Pagination for note posts</h3>
   <span class="visually-hidden">Page: {{ pagination.pageNumber + 1 }} of {{ pagination.links | length  }}</span>
