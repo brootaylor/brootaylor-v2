@@ -43,7 +43,7 @@ updated: 2022-01-18T17:23:00
         <a href="{{ pagination.nextPageHref }}">Older <span class="visually-hidden">posts</span></a>
       </li>
     {%- endif %}
-    {% if pagination.previousPageHref -%}
+    {%- if pagination.previousPageHref -%}
       <li class="pagination__list-item">
         <a href="{{ pagination.previousPageHref }}">Newer <span class="visually-hidden">posts</span></a>
         <i aria-hidden="true">&rarr;</i>
