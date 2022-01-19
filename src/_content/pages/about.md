@@ -1,17 +1,16 @@
 ---
 title: "About"
 # Populates the `meta description` for a page
-summary: "I'm an independent Frontend Web Developer & UI Engineer based in West Sussex, England. I've been assisting small businesses, companies, and organisations bring excellent website projects to life for more than 17 years."
+summary: "I'm an independent Frontend Web Developer & UI Engineer based in West Sussex, England, and have been assisting small businesses, companies, and organisations bring their website projects to life since 2004."
 # Populates the opening / `lead` text on a page
 lead:
-  - I'm an independent Frontend Web Developer & UI Engineer based in West Sussex, England. I've been assisting small businesses, companies, and organisations bring excellent website projects to life for more than 17 years.
-  # - I'm an independent Frontend Web Developer & UI Engineer living in West Sussex, England and have been helping small businesses, companies and organisations <a href="/work">build their websites</a> since 2004.
+  - I'm an independent Frontend Web Developer & UI Engineer based in West Sussex, England, and have been assisting small businesses, companies, and organisations bring their website projects to life since 2004.
   - Here's a bit more <a href="/about/me">about me</a>, if you're interested.
 
 bodyClass: "about"
 
 date: 2020-04-24T19:33:00
-updated: 2022-01-10T17:50:00
+updated: 2022-01-19T15:37:00
 ---
 
 ## What I do
@@ -23,14 +22,6 @@ I spend a lot of my time writing / creating the HTML, CSS, and presentational Ja
 My aim is to build web solutions that are [resilient](https://resilientwebdesign.com/), [usable](https://trentwalton.com/2014/03/10/device-agnostic/) and as future-friendly as possible. For this reason I *prefer* a vanilla approach and tend to steer clear of using JavaScript frameworks if I can help it. Not that I have anything against JavaScript frameworks. I think they can be wonderfully powerful tools if we first keep the user in mind rather than prioritising the developer experience. At the moment I don't think we're getting that balance quite right.
 
 Saying that, I think frameworks like [Svelte](https://svelte.dev/), [Astro](https://astro.build/), (and possibly [Vue.js](https://vuejs.org/)), are helping redress this imbalance.
-
----
-
-## Am I a *Fullstack* Developer?
-
-Nope, I wouldn't call myself a *Fullstack* Developer.
-
-Personally it doesn't interest me much either. I love working on the frontend (HTML, CSS & JS) and that's where I've spent the most time honing my skills.
 
 ---
 
