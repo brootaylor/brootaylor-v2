@@ -5,7 +5,6 @@ summary: "I'm an independent Frontend Web Developer & UI Engineer based in West 
 # Populates the opening / `lead` text on a page
 lead:
   - I'm an independent Frontend Web Developer & UI Engineer based in West Sussex, England, and have been assisting small businesses, companies, and organisations bring their website projects to life since 2004.
-  # - I'm an independent Frontend Web Developer & UI Engineer living in West Sussex, England and have been helping small businesses, companies and organisations <a href="/work">build their websites</a> since 2004.
   - Here's a bit more <a href="/about/me">about me</a>, if you're interested.
 
 bodyClass: "about"
