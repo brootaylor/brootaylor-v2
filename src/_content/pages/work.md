@@ -1,16 +1,20 @@
 ---
 title: "Work"
 # Populates the `meta description` for a page
-summary: "I strive to develop web experiences that look and work well on any device that can access the internet while also considering user demands and business objectives. While simultaneously establishing a foundation for long-term success that is useable, accessible, responsive, performant, and resilient."
+summary: "I strive to create web experiences that look and function well on any device that can connect to the internet, while also taking user needs and business goals into account. Simultaneously laying the groundwork for long-term success by making it usable, accessible, responsive, performant, and resilient."
 # Populates the opening / `lead` text on a page
 lead:
-  - I place a high value on user-centricity. That is, I strive to develop web experiences that look and work well on any device that can access the internet while also considering user demands and business objectives. While simultaneously establishing a foundation for long-term success that is useable, accessible, responsive, performant, and resilient.
-  - If this seems like something you're looking for and you think I might be able to help, please <a href="/contact">get in touch</a>.
+  - I place a high value on user-centricity. That is, I strive to create web experiences that look and function well on any device that can connect to the internet, while also taking user needs and business goals into account.
+  - Simultaneously laying the groundwork for long-term success by making it usable, accessible, responsive, performant, and resilient.
 
 bodyClass: "work"
 
 date: 2021-11-22T23:34:00
-updated: 2022-01-06T19:07:00
+updated: 2022-01-19T15:37:00
+---
+
+If this seems like something you're looking for and you think I might be able to help, please [get in touch](/contact).
+
 ---
 
 <section aria-labelledby="companies" class="companies | flow">
