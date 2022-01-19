@@ -58,7 +58,7 @@ Possible features / enhancements for the future:
 4.  Make better use of utility classes
 5.  Post read time
 6.  Tags / categories
-7.  Pagination
+7.  ~~Pagination~~ ✔️
 8.  Styleguide (list of the components)
 
 ---
