@@ -10,10 +10,10 @@ lead:
 bodyClass: "work"
 
 date: 2021-11-22T23:34:00
-updated: 2022-01-19T15:37:00
+updated: 2022-02-02T17:55:00
 ---
 
-If this seems like something you're looking for and you think I might be able to help, please [get in touch](/contact).
+If this sounds like something you're looking for and think I may be able to help, please [get in touch](/contact).
 
 ---
 
