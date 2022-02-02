@@ -10,7 +10,7 @@ lead:
 bodyClass: "work"
 
 date: 2021-11-22T23:34:00
-updated: 2022-02-02T17:55:00
+updated: 2022-02-02T18:13:00
 ---
 
 If this sounds like something you're looking for and think I may be able to help, please [get in touch](/contact).
@@ -45,8 +45,7 @@ If this sounds like something you're looking for and think I may be able to help
             <span class="date-time">Year: 2018</span>
           </header>
           <div class="card__body | flow">
-            <p>Developed reusable & extensible front-end starter kit that builds modular web components / pattern libraries.</p>
-            <p><a href="https://www.fastmarkets.com">Fastmarkets</a> was the first website to benefit from using this solution.</p>
+            <p>Developed a reusable & extensible front-end starter kit that builds modular web components / pattern libraries. Enabling Euromoney to build and deploy their 'Fastmarkets' B2B web offerings efficiently and effectively.</p>
           </div>
         </div>
       </article>
