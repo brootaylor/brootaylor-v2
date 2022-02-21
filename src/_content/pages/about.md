@@ -10,7 +10,7 @@ lead:
 bodyClass: "about"
 
 date: 2020-04-24T19:33:00
-updated: 2022-01-19T15:37:00
+updated: 2022-02-22T16:50:00
 ---
 
 ## What I do
@@ -19,7 +19,7 @@ I primarily work on the "[front-of-the-front-end](https://bradfrost.com/blog/pos
 
 I spend a lot of my time writing / creating the HTML, CSS, and presentational JavaScript code that makes up a user interface. User-centricity is very important to me when developing a web solution. Which means I have a keen focus on [responsive design](https://alistapart.com/article/responsive-web-design) & [intrinsic design](https://talks.jensimmons.com/15TjNW), [progressive enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement), [semantic markup](https://www.w3.org/TR/WCAG20-TECHS/G115.html), [accessibility](https://www.w3.org/TR/WCAG20/), [web standards](https://www.w3.org/standards/) and [performance](https://developer.mozilla.org/en-US/docs/Learn/Performance).
 
-My aim is to build web solutions that are [resilient](https://resilientwebdesign.com/), [usable](https://trentwalton.com/2014/03/10/device-agnostic/) and as future-friendly as possible. For this reason I *prefer* a vanilla approach and tend to steer clear of using JavaScript frameworks if I can help it. Not that I have anything against JavaScript frameworks. I think they can be wonderfully powerful tools if we first keep the user in mind rather than prioritising the developer experience. At the moment I don't think we're getting that balance quite right.
+My aim is to build web solutions that are [resilient](https://resilientwebdesign.com/), [usable](https://trentwalton.com/2014/03/10/device-agnostic/) and as future-friendly as possible. For this reason I *prefer* a vanilla approach and tend to steer clear of using JavaScript frameworks if I can help it. Not that I have anything against JavaScript frameworks. I think they can be wonderfully powerful tools if we first keep the end user in mind &mdash; rather than *only* prioritising the developer experience. At the moment I don't think we're getting that balance quite right.
 
 Saying that, I think frameworks like [Svelte](https://svelte.dev/), [Astro](https://astro.build/), (and possibly [Vue.js](https://vuejs.org/)), are helping redress this imbalance.
 
@@ -27,9 +27,9 @@ Saying that, I think frameworks like [Svelte](https://svelte.dev/), [Astro](http
 
 ## Am I a designer?
 
-I'm not a designer per se, but I love the design side of things.
+While I can design and do love the design side of things, I'm not a designer per se.
 
-My role often involves collaborating with designers to ensure that the design translates as well as it can into the browser &mdash; regardless of the user's context and how they choose to navigate the web interface (eg. screen reader, mobile phone, browser of choice, etc.).
+These days, my role often involves collaborating with designers to ensure that the design translates as well as it can into the browser &mdash; regardless of the end user's context and how they *choose* to navigate the web interface (eg. screen reader, mobile phone, browser of choice, etc.).
 
 ---
 
