@@ -31,13 +31,13 @@ bodyClass: "homepage"
 permalink: "/index.html"
 
 date: 2020-04-24T12:54:00
-updated: 2022-02-02T17:55:00
+updated: 2022-02-21T16:27:00
 
 changefreq: "weekly"
 priority: 1
 ---
 
-Most recently I worked with [IAG Loyalty](https://iagloyalty.com/) but have also worked with companies like **Airmiles UK**, **Avios**, **Macmillan Cancer Support**, **Pegasus**, **Charanga Music**, **Time Inc.**, **Analog Implant Laboratory**, **Boston T Party**, **MerchantCantos** and **Euromoney**.
+At the moment I'm working with [UX Brighton](https://uxbri.org) but have also worked with companies like **Airmiles UK**, **Avios**, **Macmillan Cancer Support**, **Pegasus**, **Charanga Music**, **Time Inc.**, **Analog Implant Laboratory**, **Boston T Party**, **MerchantCantos**, **Euromoney** and **IAG Loyalty**.
 
 ***
 
