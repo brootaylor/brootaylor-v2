@@ -3,7 +3,7 @@ const fs = require('fs')
 module.exports = {
   notify: true,
   watch: true,
-  browser: ['firefox'],
+  browser: ['chrome'],
   open: 'local',
   startPath: '/',
   logPrefix: "Bruce Taylor's website",
