@@ -10,7 +10,7 @@ lead:
 bodyClass: "work"
 
 date: 2021-11-22T23:34:00
-updated: 2022-02-02T18:13:00
+updated: 2022-02-23T11:58:00
 ---
 
 If this sounds like something you're looking for and think I may be able to help, please [get in touch](/contact).
@@ -20,6 +20,21 @@ If this sounds like something you're looking for and think I may be able to help
 <section aria-labelledby="companies" class="companies | flow">
   <h2 id="companies">Some people I've worked with</h2>
   <ul role="list" class="auto-grid | no-list">
+    <li>
+      <article class="card card--stacked">
+        <div class="card__content">
+          <header class="card__header">
+            <h3 class="card__title">
+              <a href="https://uxbri.org">UX Brighton</a>
+            </h3>
+            <span class="date-time">Year: 2022 (ongoing)</span>
+          </header>
+          <div class="card__body">
+            <p>Working with the UX Brighton team to enhance and optimise their user interface and overall website experience.</p>
+          </div>
+        </div>
+      </article>
+    </li>
     <li>
       <article class="card card--stacked">
         <div class="card__content">
@@ -46,6 +61,21 @@ If this sounds like something you're looking for and think I may be able to help
           </header>
           <div class="card__body | flow">
             <p>Developed a reusable & extensible front-end starter kit that builds modular web components / pattern libraries. Enabling Euromoney to build and deploy their 'Fastmarkets' B2B web offerings efficiently and effectively.</p>
+          </div>
+        </div>
+      </article>
+    </li>
+    <li>
+      <article class="card card--stacked">
+        <div class="card__content">
+          <header class="card__header">
+            <h3 class="card__title">
+              <a href="https://bostontparty.co.za">Boston T Party</a>
+            </h3>
+            <span class="date-time">Year: 2021 (ongoing)</span>
+          </header>
+          <div class="card__body">
+            <p>Built a new, modern and fast PWA website for Boston T Party. Data and bandwidth is a premium in South Africa so focussed particularly on performance & resilience using progressive enhancement methods.</p>
           </div>
         </div>
       </article>
@@ -136,21 +166,6 @@ If this sounds like something you're looking for and think I may be able to help
           </header>
           <div class="card__body">
             <p>Worked with Macmillan's core website application team on frontend solutions for their brand identity and business proposition.</p>
-          </div>
-        </div>
-      </article>
-    </li>
-    <li>
-      <article class="card card--stacked">
-        <div class="card__content">
-          <header class="card__header">
-            <h3 class="card__title">
-              <a href="https://bostontparty.co.za">Boston T Party</a>
-            </h3>
-            <span class="date-time">Year: 2021 (ongoing)</span>
-          </header>
-          <div class="card__body">
-            <p>Built a new, modern and fast PWA website for Boston T Party. Data and bandwidth is a premium in South Africa so focussed particularly on performance & resilience using progressive enhancement methods.</p>
           </div>
         </div>
       </article>
