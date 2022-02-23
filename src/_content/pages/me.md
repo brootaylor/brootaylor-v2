@@ -14,7 +14,7 @@ tags: "page"
 permalink: "/about/me.html"
 
 date: 2021-11-16T16:51:00
-updated: 2022-01-06T19:07:00
+updated: 2022-02-23T12:57:00
 ---
 
 My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 teenage children. 2 sons and a daughter.
@@ -35,7 +35,7 @@ I absolutely [adore aircraft](https://www.flickr.com/photos/60226997@N06/4753044
 
 ## What I'm reading
 
-I'm a sucker for fantasy. The feeling of been transported to another world is intoxicating. Currently I'm making my way through the "[The Echoes Saga](https://www.philipcquaintrell.com/books)" by Philip C. Quaintrell. What a treat it's been.
+I'm a sucker for fantasy. The feeling of been transported to another world is intoxicating. Currently I'm making my way through "[Dune](https://www.goodreads.com/book/show/44767458-dune)" by Frank Herbert.
 
 Jeremy Wagner's "[Responsible JavaScript](https://abookapart.com/products/responsible-javascript)" is also on the go and I think it's a much needed read at this time in the web building industry.
 
