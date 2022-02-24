@@ -29,7 +29,7 @@ The title implies *as fast* as SPAs. I’d say **faster** than SPAs actually.
 
 But that's me just being pedantic.
 
-> Here’s a quick high-level summary of what I do &hellip;
+> Here’s a quick high-level summary of what I do&hellip;
 >
 > 1. [Serve pre-rendered, mostly static HTML](https://gomakethings.com/how-to-make-mpas-that-are-as-fast-as-spas/#serve-pre-rendered-mostly-static-html).
 > 2. [Inline everything, including CSS and JavaScript](https://gomakethings.com/how-to-make-mpas-that-are-as-fast-as-spas/#inline-everything-including-css-and-javascript).
