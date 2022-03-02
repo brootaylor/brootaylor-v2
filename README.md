@@ -56,10 +56,8 @@ Possible features / enhancements for the future:
 2.  Implement [Cloudinary](https://cloudinary.com/) for images
 3.  [IndieWeb](https://indieweb.org/) & [Webmention](https://indieweb.org/Webmention)
 4.  Make better use of utility classes
-5.  Post read time
-6.  Tags / categories
-7.  ~~Pagination~~ ✔️
-8.  Styleguide (list of the components)
+5.  Tags / categories
+6.  ~~Pagination~~ ✔️
 
 ---
 
