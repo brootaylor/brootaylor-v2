@@ -14,7 +14,7 @@ tags: "page" # This `page` tag is here so that the service worker picks them up.
 permalink: "/about/me.html"
 
 date: 2021-11-16T16:51:00
-updated: 2022-03-03T15:32:00
+updated: 2022-03-03T22:45:00
 ---
 
 My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 teenage children. 2 sons and a daughter.
@@ -41,7 +41,7 @@ Jeremy Wagner's "[Responsible JavaScript](https://abookapart.com/products/respon
 
 William R. Catton's "[Overshoot: The Ecological Basis of Revolutionary Change](https://www.goodreads.com/en/book/show/319810.Overshoot)" is blowing my mind quite a bit. I'd say I'm enjoying it but that wouldn't be truthful. I think it's more honest to say that it's probably turning out to be one of the most important reads of my life &ndash; but in a disturbingly and unnervingly profound sort of way.
 
-I've also posted a [list of the books I've read](/reading) over the years.
+Here's a selection of [books I've read](/reading) over the past few years.
 
 ---
 

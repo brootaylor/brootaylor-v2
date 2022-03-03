@@ -1,22 +1,20 @@
 ---
 title: "Reading"
 # Populates the `meta description` for a page
-summary: "A non-exhaustive list of books I've read over the years, as well as some books I've currently got on the go."
+summary: "A selection of books I've read over the past few years, as well as some books I've currently got on the go."
 # Populates the opening / `lead` text on a page
 lead:
-  - A non-exhaustive list of books I've read over the years, as well as some books I've currently got on the go.
+  - A selection of books I've read over the past few years, as well as some books I've currently got on the go.
 
 bodyClass: "reading"
 
-tags: "page" # This `page` tag is here so that the service worker picks them up. These pages are picked up in the `mainnav` or `footernav` loops
-
 date: 2022-03-03T15:32:00
-updated: 2022-03-03T15:32:00
+updated: 2022-03-03T22:45:00
 ---
 
-Because I've never kept a list of my reads &mdash; *(naughty I know!)* &mdash; I've ended up creating a bit of a challenge for myself that's for sure. Trying to recall all the books I've read and enjoyed feels like a bit of a daunting task but I'm keen to at least make a stab at it.
+Because I've never kept a list of my reads &mdash; *(naughty I know!)* &mdash; I've ended up creating a bit of a challenge for myself that's for sure. Trying to recall all the books I've read and enjoyed feels like a bit of a daunting task but I'm keen to at least make a decent stab at it.
 
-I'll be adding to the *"Have Read"* section as and when I remember.
+I'll be adding to the *"Have Read"* section as and when I remember any books I've read.
 
 ---
 
