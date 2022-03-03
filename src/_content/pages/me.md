@@ -14,7 +14,7 @@ tags: "page" # This `page` tag is here so that the service worker picks them up.
 permalink: "/about/me.html"
 
 date: 2021-11-16T16:51:00
-updated: 2022-02-23T12:57:00
+updated: 2022-03-03T15:32:00
 ---
 
 My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 teenage children. 2 sons and a daughter.
