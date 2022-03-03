@@ -1,19 +1,54 @@
 ---
 title: "Reading"
 # Populates the `meta description` for a page
-summary: "Books I've read over the years that I've enjoyed."
+summary: "A non-exhaustive list of books I've read over the years, as well as some books I've currently got on the go."
 # Populates the opening / `lead` text on a page
 lead:
-  - Books I've read over the years that I've enjoyed.
+  - A non-exhaustive list of books I've read over the years, as well as some books I've currently got on the go.
 
 bodyClass: "reading"
 
-tags: "page"
+tags: "page" # This `page` tag is here so that the service worker picks them up. These pages are picked up in the `mainnav` or `footernav` loops
 
-date: 2022-02-23T12:39:00
-updated: 2022-02-23T12:39:00
+date: 2022-03-03T15:32:00
+updated: 2022-03-03T15:32:00
 ---
 
-## Fantasy
+Because I've never kept a list of my reads &mdash; *(naughty I know!)* &mdash; I've ended up creating a bit of a challenge for myself that's for sure. Trying to recall all the books I've read and enjoyed feels like a bit of a daunting task but I'm keen to at least make a stab at it.
 
-* "[The Echoes Saga](https://www.philipcquaintrell.com/books)" by Philip C. Quaintrell
+I'll be adding to the *"Have Read"* section as and when I remember.
+
+---
+
+## Reading
+
+Books on the go at the moment.
+
+* [Dune](https://www.goodreads.com/book/show/44767458-dune), *Frank Herbert*
+* [Responsible JavaScript](https://abookapart.com/products/responsible-javascript), *Jeremy Wagner*
+* [Overshoot: The Ecological Basis of Revolutionary Change](https://www.goodreads.com/en/book/show/319810.Overshoot), *William R. Catton*
+
+***Possible*** next reads&hellip;
+
+* [Green Lights](https://greenlights.com/), *Matthew McConaughey*
+* [Accessibility For Everyone](https://abookapart.com/products/accessibility-for-everyone), *Laura Kalbag*
+* [The Ranger Archives](https://www.philipcquaintrell.com/books), *Philip C. Quaintrell*
+
+---
+
+## Have read
+
+Books I've read. But more importantly, enjoyed and would therefore recommend.
+
+* [The Echoes Saga](https://www.philipcquaintrell.com/books), *Philip C. Quaintrell*
+* [Bitten By a Camel: Leaving Church, Finding God](https://www.goodreads.com/en/book/show/34763102-bitten-by-a-camel), *Kent Dobson*
+* [The Universal Christ](https://universalchrist.cac.org/), *Richard Rohr*
+* [Falling Upward: A Spirituality for the Two Halves of Life ](https://www.goodreads.com/en/book/show/9963483-falling-upward), *Richard Rohr*
+* [Future Ethics](https://nownext.studio/future-ethics), *Cennydd Bowles*
+* [Going Offline](https://abookapart.com/products/going-offline), *Jeremy Keith*
+* [Progressive Web Apps](https://abookapart.com/products/progressive-web-apps), *Jason Grigsby*
+* [Love Wins](https://robbell.com/book/love-wins/), *Rob Bell*
+* [Everything Is Spiritual: Who We Are and What We're Doing Here](https://robbell.com/book/everything-is-spiritual/), *Rob Bell*
+* [The Song of Albion](https://www.stephenlawhead.com/the-song-of-albion), *Stephen Lawhead*
+* [Into Thin Air](https://www.jonkrakauer.com/books/into-thin-air-tr), *Jon Krakauer*
+* [Confessions of a Funeral Director](https://www.calebwilde.com/book/), *Caleb Wilde*
