@@ -14,20 +14,20 @@ console.info(versionPrintOut)
  */
 
 // Methods called from ./modules/bar.mjs
-// import('./modules/bar.mjs').then(({ default: bar }) => {
-//   bar();
-// });
+import('./modules/bar.mjs').then(({ default: bar }) => {
+  bar();
+});
 
 // Methods called from ./modules/foo.mjs
-// import('./modules/foo.mjs').then(({ helloFooA, helloFooB }) => {
-//   helloFooA();
-//   helloFooB();
-// });
+import('./modules/foo.mjs').then(({ helloFooA, helloFooB }) => {
+  helloFooA();
+  helloFooB();
+});
 
 // Methods called from ./modules/observers.mjs
-// import('./modules/observers.mjs').then(({ default: observers }) => {
-//   observers();
-// });
+import('./modules/observers.mjs').then(({ default: observers }) => {
+  observers();
+});
 
 // Methods called from ./modules/objectFit.mjs
 import('./modules/objectFitPolyfill.mjs').then(
@@ -37,6 +37,6 @@ import('./modules/objectFitPolyfill.mjs').then(
 )
 
 // Methods called from _includes/components/unitscarousel/carousel.mjs
-// import('../__includes/components/units/carousel/carousel.mjs').then(({ carousel }) => {
-//   carousel();
-// });
+import('../_includes/components/units/carousel/carousel.mjs').then(({ carousel }) => {
+  carousel();
+});
