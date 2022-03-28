@@ -27,11 +27,11 @@ updated: 2022-01-18T17:23:00
         <a href="{{ bookmark.url }}">
         {{- bookmark.data.title | safe }}
         {#- Checks whether a `bookmarkAuthor` value has been entered. If so, then the `h2` heading is updated... -#}
-        {% if bookmark.data.bookmarkAuthor %} &rarr; {{ bookmark.data.bookmarkAuthor | safe }}{% endif -%}
+        {% if bookmark.data.bookmarkAuthor %} <i aria-hidden="true">&rarr;</i> {{ bookmark.data.bookmarkAuthor | safe }}{% endif -%}
         </a>
       </h2>
       <time datetime="{{ bookmark.date | dateTime }}">{{ bookmark.date | dateTimeReadable("d LLLL y, ") }}{{ bookmark.date | dateTimeReadable("t") | lower }}</time>
-      <div><span class="visually-hidden">Original post can be viewed at</span> &rarr; <a href="{{ bookmark.data.bookmarkExternal }}" rel="external" title="Link to the original post.">{{ bookmark.data.bookmarkLabel }}</a></div>
+      <div><span class="visually-hidden">Original post can be viewed at</span> <i aria-hidden="true">&rarr;</i> <a href="{{ bookmark.data.bookmarkExternal }}" rel="external" title="Link to the original post.">{{ bookmark.data.bookmarkLabel }}</a></div>
     </article>
   </li>
 {% endfor -%}
