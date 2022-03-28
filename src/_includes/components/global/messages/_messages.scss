@@ -12,7 +12,7 @@
   padding: 1rem;
   margin-bottom: 2rem;
   /* offset-x | offset-y | blur-radius | spread-radius | color */
-  box-shadow: 0 2px 0 1px rgba($grey-dark, 0.2);
+  box-shadow: 0 2px 0 1px rgb($grey-dark, 0.2);
 
     // Creates an offset type look using these negative margins...
     @include min-width($breakpoint-medium) {

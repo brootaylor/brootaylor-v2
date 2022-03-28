@@ -69,7 +69,7 @@
         width: 0;
         position: absolute;
         pointer-events: none;
-        border-color: rgba(0, 0, 0, 0);
+        border-color: rgb($black, 0);
         border-top-color: var(--black);
         border-width: convert-to-rem(5px);
         margin-right: -(#{(convert-to-rem(5px))});
