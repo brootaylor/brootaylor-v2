@@ -19,15 +19,18 @@ updated: 2022-03-28T18:24:00
 ---
 
 {# List of photo posts #}
-<ul role="list" class="photos__list | no-list | flow">
+<ul role="list" class="photos__list | auto-grid | no-list">
 {% for photo in photos -%}
   <li class="photos__list-item">
-    <article class="photo__summary | flow">
-      <a href="{{ photo.url }}">
-        <time datetime="{{ photo.date | dateTime }}">{{ photo.date | dateTimeReadable("d LLLL y, ") }}{{ photo.date | dateTimeReadable("t") | lower }}</time>
-      </a>
-      {{ photo.templateContent | safe | trim }}
-    </article>
+    <a href="{{ photo.url }}">
+      <img src="{{ photo.data.image.src }}"
+        alt="{{ photo.data.image.alt }}."
+        width="{{ photo.data.image.width }}"
+        height="{{ photo.data.image.height }}"
+        class="obj-fit | shadow"
+        loading="lazy"
+        decoding="async">
+    </a>
   </li>
 {% endfor -%}
 </ul>

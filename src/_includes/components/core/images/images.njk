@@ -1,69 +1,183 @@
-{# {% if component.data.hasMultiFormat %}
+{################################################################################################}
+{# Dynamic multi purpose image implementation
+{################################################################################################}
+{% if content.data.image.multiFormat %}
 <picture>
-  <source srcset="{{ component.data.imageWebP }}" type="image/webp">
-	{% if component.data.hasMultiSize %}
-		<img src="{{ component.data.imageJpg }}"
-		srcset="{{ component.data.imageJpg }} 256w,
-			{{ component.data.imageJpg }} 512w,
-			{{ component.data.imageJpg }} 1024w"
-		sizes="(min-width: 30em) 30em, 100vw"
-		loading="lazy"
-		alt="{{ component.data.imageAlt }}.">
+	{# If multiple formats, a `webp` version is included with another format - eg. `jpg` #}
+  <source srcset="{{ content.data.image.multiSrc.webP }}" type="image/webp">
+	{% if content.data.image.multiSize %}
+		{# Multiple image size sources generated... #}
+		{# @Resource: Helps explain what's going on here --> https://css-tricks.com/responsive-images-css/ #}
+		<img src="{{ content.data.image.multiSrc.medium }}"
+			srcset="{{ content.data.image.multiSrc.x_small }} 320w,
+							{{ content.data.image.multiSrc.small }} 600w,
+							{{ content.data.image.multiSrc.medium }} 768w,
+							{{ content.data.image.multiSrc.large }} 1024w,
+							{{ content.data.image.multiSrc.x_large }} 1200w,
+							{{ content.data.image.multiSrc.xx_large }} 2000w"
+			sizes="(min-width: 20em) 100vw"
+			alt="{{ content.data.image.alt }}."
+			width="{{ content.data.image.width }}"
+			height="{{ content.data.image.height }}"
+			{%- if content.data.image.objectFit %}
+				class="obj-fit"
+			{% endif %}
+			{%- if content.data.image.lazyLoad %}
+				loading="lazy"
+				decoding="async"
+			{% endif %}>
 	{% else %}
-	<img src="{{ component.data.imageJpg }}" alt="{{ component.data.imageAlt }}.">
+	{# Single image generated... #}
+	<img src="{{ content.data.image.src }}"
+		alt="{{ content.data.image.alt }}."
+		width="{{ content.data.image.width }}"
+		height="{{ content.data.image.height }}"
+		{%- if content.data.image.objectFit %}
+			class="obj-fit"
+		{% endif %}
+		{%- if content.data.image.lazyLoad %}
+			loading="lazy"
+			decoding="async"
+		{% endif %}>
 	{% endif %}
 </picture>
 {% else %}
-	{% if component.data.hasMultiSize %}
-		<img src="{{ component.data.imageJpg }}"
-		srcset="{{ component.data.imageJpg }} 256w,
-			{{ component.data.imageJpg }} 512w,
-			{{ component.data.imageJpg }} 1024w"
-		sizes="(min-width: 30em) 30em, 100vw"
-		loading="lazy"
-		alt="{{ component.data.imageAlt }}.">
+	{# A single format - eg. `jpg` is used #}
+	{% if content.data.image.multiSize %}
+		{# Multiple image size sources generated... #}
+		{# @Resource: Helps explain what's going on here --> https://css-tricks.com/responsive-images-css/ #}
+		<img src="{{ content.data.image.multiSrc.medium }}"
+			srcset="{{ content.data.image.multiSrc.x_small }} 320w,
+							{{ content.data.image.multiSrc.small }} 600w,
+							{{ content.data.image.multiSrc.medium }} 768w,
+							{{ content.data.image.multiSrc.large }} 1024w,
+							{{ content.data.image.multiSrc.x_large }} 1200w,
+							{{ content.data.image.multiSrc.xx_large }} 2000w"
+			sizes="(min-width: 20em) 100vw"
+			alt="{{ content.data.image.alt }}."
+			width="{{ content.data.image.width }}"
+			height="{{ content.data.image.height }}"
+			{%- if content.data.image.objectFit %}
+				class="obj-fit"
+			{% endif %}
+			{%- if content.data.image.lazyLoad %}
+				loading="lazy"
+				decoding="async"
+			{% endif %}>
 	{% else %}
-	<img src="{{ component.data.imageJpg }}" alt="{{ component.data.imageAlt }}.">
+	{# Single image generated... #}
+	<img src="{{ content.data.image.src }}"
+		alt="{{ content.data.image.alt }}."
+		width="{{ content.data.image.width }}"
+		height="{{ content.data.image.height }}"
+		{%- if content.data.image.objectFit %}
+			class="obj-fit"
+		{% endif %}
+		{%- if content.data.image.lazyLoad %}
+			loading="lazy"
+			decoding="async"
+		{% endif %}>
 	{% endif %}
 {% endif %}
- #}
 
+
+
+{################################################################################################}
+{# These 'macros' are useful when adding to a content page - eg. within the markdow (.md) files #}
+{################################################################################################}
 
 {# `imageNormal`: Normal inline image #}
-{% macro imageNormal(src, alt, position) %}
-<img src="{{ src }}" loading="lazy" alt="{{ alt }}." class="img-normal{% if position %} | {{ position }}{% endif %}">
+{% macro imageNormal(src, alt, width, height, position, shadow, lazyLoad) %}
+<img src="{{ src }}"
+	alt="{{ alt }}."
+	width="{{ width }}"
+	height="{{ height }}"
+	class="img-normal{% if position %} | {{ position }}{% endif %}{% if shadow %} | shadow{% endif %}"
+	{%- if lazyLoad == 'lazy' %}
+		loading="lazy"
+		decoding="async"
+	{% endif %}>
 {% endmacro %}
 
 {# `imageMulti`: for multi responsive images #}
-{% macro imageMulti(src, alt, position) %}
+{% macro imageMulti(src, alt, width, height, position, shadow, lazyLoad) %}
 <img src="{{ src }}"
-			srcset="{{ src }} 256w,
-							{{ src }} 512w,
-							{{ src }} 1024w"
-			sizes="(min-width: 30em) 30em, 100vw"
+	srcset="{{ src }} 256w,
+					{{ src }} 512w,
+					{{ src }} 1024w"
+	sizes="(min-width: 30em) 30em, 100vw"
+	alt="{{ alt }}."
+	width="{{ width }}"
+	height="{{ height }}"
+	class="img-normal{% if position %} | {{ position }}{% endif %}{% if shadow %} | shadow{% endif %}"
+	{%- if lazyLoad == 'lazy' %}
+		loading="lazy"
+		decoding="async"
+	{% endif %}>
+{% endmacro %}
+
+{# `imageMultiResolution`: for multi resolution images #}
+{% macro imageMultiResolution(src, src2, src3, alt, width, height, position, shadow, lazyLoad) %}
+<img src="{{ src }}"
+	srcset="{{ src }},
+					{{ src2 }} 1.5x,
+					{{ src3 }} 2x"
+	alt="{{ alt }}."
+	width="{{ width }}"
+	height="{{ height }}"
+	class="img-normal{% if position %} | {{ position }}{% endif %}{% if shadow %} | shadow{% endif %}"
+	{%- if lazyLoad == 'lazy' %}
+		loading="lazy"
+		decoding="async"
+	{% endif %}>
+{% endmacro %}
+
+{# `imageDirection`: Picture element for 'art direction' #}
+{% macro imageDirection(src1, src2, screenSizeSwitch, alt, position, shadow, lazyLoad) %}
+<picture>
+  <source srcset="{{ src2 }}" media="(min-width: {{ screenSizeSwitch }})">
+  <img src="{{ src1 }}"
+		alt="{{ alt }}."
+		class="img-normal{% if position %} | {{ position }}{% endif %}{% if shadow %} | shadow{% endif %}"
+		{%- if lazyLoad == 'lazy' %}
 			loading="lazy"
-			alt="{{ alt }}."
-			class="img-normal{% if position %} | {{ position }}{% endif %}">
+			decoding="async"
+		{% endif %}>
+</picture>
 {% endmacro %}
 
 {# `imageFigure`: Normal inline images wrapped in a `figure` element #}
-{% macro imageFigure(src, alt, caption, position) %}
+{% macro imageFigure(src, alt, width, height, caption, position, shadow, lazyLoad) %}
 <figure{% if position %} class="{{ position }}"{% endif %}>
-	<img src="{{ src }}" loading="lazy" alt="{{ alt }}.">
+	<img src="{{ src }}"
+		alt="{{ alt }}."
+		width="{{ width }}"
+		height="{{ height }}"
+		class="{% if shadow %}shadow{% endif %}"
+		{%- if lazyLoad == 'lazy' %}
+			loading="lazy"
+			decoding="async"
+		{% endif %}>
 	<figcaption>{{ caption }}.</figcaption>
 </figure>
 {% endmacro %}
 
 {# `imageMultiFigure`: for multi responsive images wrapped in a `figure` element #}
-{% macro imageMultiFigure(src, alt, caption, position) %}
+{% macro imageMultiFigure(src, alt, width, height, caption, position, shadow, lazyLoad) %}
 <figure{% if position %} class="{{ position }}"{% endif %}>
 	<img src="{{ src }}"
 			srcset="{{ src }} 256w,
 							{{ src }} 512w,
 							{{ src }} 1024w"
 			sizes="(min-width: 30em) 30em, 100vw"
-			loading="lazy"
-			alt="{{ alt }}.">
+			alt="{{ alt }}."
+			width="{{ width }}"
+			height="{{ height }}"
+			class="{% if shadow %}shadow{% endif %}"
+			{%- if lazyLoad == 'lazy' %}
+				loading="lazy"
+				decoding="async"
+			{% endif %}>
 	<figcaption>{{ caption }}.</figcaption>
 </figure>
 {% endmacro %}
