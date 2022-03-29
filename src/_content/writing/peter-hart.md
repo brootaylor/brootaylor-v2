@@ -26,8 +26,11 @@ category:
 {{ imageFigure(
   "/assets/images/posts/writing/peter-hart.jpg",
   "Peter Hart",
+  "303",
+  "410",
   "Peter Hart. My dear friend",
-  "fig-right")
+  "fig-right",
+  "shadow")
 }}
 
 A hero to me. An unsung hero to many. A selfless frontline NHS Emergency Practitioner who's kind and caring fingerprints can be seen everywhere. Hart by name, H(e)art by nature as many others have so wonderfully described this gem of a man.

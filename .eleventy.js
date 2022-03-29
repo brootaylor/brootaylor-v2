@@ -22,6 +22,7 @@ const htmlMinify = require('./lib/utils/transforms/minify-html.js')
 const postWriting = require('./lib/collections/postWriting.js')
 const postNotes = require('./lib/collections/postNotes.js')
 const postBookmarks = require('./lib/collections/postBookmarks.js')
+const postPhotos = require('./lib/collections/postPhotos.js')
 
 module.exports = function (eleventy) {
   // BrowserSync
@@ -48,6 +49,7 @@ module.exports = function (eleventy) {
   eleventy.addCollection('postWriting', postWriting)
   eleventy.addCollection('postNotes', postNotes)
   eleventy.addCollection('postBookmarks', postBookmarks)
+  eleventy.addCollection('postPhotos', postPhotos)
 
   // Passthrough
   eleventy.addPassthroughCopy('./src/assets/fonts')

@@ -1,0 +1,23 @@
+/*********************************************
+ * Photos page-specific rules
+ *********************************************/
+
+@use '../abstracts' as *;
+
+.photos-home {
+  article {
+    ul {
+      max-width: 100%;
+    }
+  }
+
+  .photos__list {
+    @supports (display: grid) {
+      grid-gap: 1em;
+    }
+
+    img {
+      aspect-ratio: 1 / 1;
+    }
+  }
+}
