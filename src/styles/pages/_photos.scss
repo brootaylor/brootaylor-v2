@@ -11,9 +11,13 @@
     }
   }
 
-  @supports (display: grid) {
-    .photos__list {
+  .photos__list {
+    @supports (display: grid) {
       grid-gap: 1em;
+    }
+
+    img {
+      aspect-ratio: 1 / 1;
     }
   }
 }
