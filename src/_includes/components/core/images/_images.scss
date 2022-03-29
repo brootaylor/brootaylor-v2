@@ -4,6 +4,14 @@
 
 @use '../../../../styles/abstracts' as *;
 
+img {
+  display: block;
+}
+
+picture {
+  margin: inherit;
+}
+
 
 // Normal inline images
 .img-normal {
@@ -26,6 +34,7 @@ figure {
   }
 
   figcaption {
+    text-align: left;
     margin-top: 0.5em;
   }
 }
@@ -68,4 +77,10 @@ figure {
       margin-left: auto;
     }
   }
+}
+
+// To add a dropshadow
+.shadow {
+  border: 0.8rem solid var(--white);
+  box-shadow: 1px 1px 4px -1px rgb($black, 0.3);
 }

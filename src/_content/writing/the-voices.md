@@ -20,6 +20,8 @@ eleventyExcludeFromCollections: false
 {{ imageNormal(
   "/assets/images/posts/writing/soundwaves.png",
   "Sound waves illustration",
+  "300",
+  "570",
   "img-right")
 }}
 

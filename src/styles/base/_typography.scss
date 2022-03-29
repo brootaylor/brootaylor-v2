@@ -183,7 +183,7 @@ h3 {
 }
 
 p,
-ul,
+ul:not(.navigation__list), // Not the primary navigation list element
 ol,
 pre {
   @include font-size(18px);

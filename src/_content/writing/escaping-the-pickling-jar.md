@@ -19,7 +19,9 @@ eleventyExcludeFromCollections: false
 {% from "components/core/images/images.njk" import imageNormal %}
 {{ imageNormal(
   "/assets/images/posts/writing/pickling-jar.png",
-  "Jar with a pickle in it",
+  "Illustration of a jar with a pickle in it",
+  "300",
+  "308",
   "img-right")
 }}
 

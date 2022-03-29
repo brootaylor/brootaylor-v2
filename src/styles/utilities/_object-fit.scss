@@ -1,0 +1,20 @@
+/// Object Fit utility class placeholder.
+///
+/// Use the `.obj-fit` class on any image element
+///
+/// @group Utility Classes
+///
+/// @example scss - Sass Usage
+///   .obj-fit {
+///     @extend %obj-fit;
+///   }
+%obj-fit {
+  object-fit: cover;
+  object-position: center;
+}
+
+// Object Fit utility class
+// Using the `%obj-fit` placeholder
+.obj-fit {
+  @extend %obj-fit;
+}
