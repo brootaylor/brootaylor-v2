@@ -6,19 +6,16 @@ summary: "I strive to create web experiences that look and function well on any 
 lead:
   - I place a high value on user-centricity. That is, I strive to create web experiences that look and function well on any device that can connect to the internet, while also taking user needs and business goals into account.
   - Simultaneously laying the groundwork for long-term success by making it usable, accessible, responsive, performant, and resilient.
+  - Does this sounds like something you're looking for? If you think I may be able to help, please <a href="/contact">get in touch</a>.
 
 bodyClass: "work"
 
 date: 2021-11-22T23:34:00
-updated: 2022-02-23T11:58:00
----
-
-If this sounds like something you're looking for and think I may be able to help, please [get in touch](/contact).
-
+updated: 2022-03-29T16:49:00
 ---
 
 <section aria-labelledby="companies" class="companies | flow">
-  <h2 id="companies">Some people I've worked with</h2>
+  <h2 id="companies">Currently working with</h2>
   <ul role="list" class="auto-grid | no-list">
     <li>
       <article class="card card--stacked">
@@ -30,11 +27,32 @@ If this sounds like something you're looking for and think I may be able to help
             <span class="date-time">Year: 2022 (ongoing)</span>
           </header>
           <div class="card__body">
-            <p>Working with the UX Brighton team to enhance and optimise their user interface and overall website experience.</p>
+            <p>Working with <a href="http://dannyhope.co.uk/">Danny Hope</a> and the UX Brighton content team to enhance and optimise their user interface and overall website experience. Also implementing a CMS solution to allow content to be more easily managed.</p>
           </div>
         </div>
       </article>
     </li>
+    <li>
+      <article class="card card--stacked">
+        <div class="card__content">
+          <header class="card__header">
+            <h3 class="card__title">PAC Handyman Services</h3>
+            <span class="date-time">Year: 2022 (ongoing)</span>
+          </header>
+          <div class="card__body">
+            <p>PAC Handyman Services is a local solution to everyday building, maintenance and installation projects within the home and garden. We're doing a complete redesign and redevelopment of their website.</p>
+          </div>
+        </div>
+      </article>
+    </li>
+  </ul>
+</section>
+
+---
+
+<section aria-labelledby="companies" class="companies | flow">
+  <h2 id="companies">Some other people I've worked with</h2>
+  <ul role="list" class="auto-grid | no-list">
     <li>
       <article class="card card--stacked">
         <div class="card__content">
