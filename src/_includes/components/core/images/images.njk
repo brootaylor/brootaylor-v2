@@ -105,7 +105,7 @@
 	srcset="{{ src }} 256w,
 					{{ src }} 512w,
 					{{ src }} 1024w"
-	sizes="(min-width: 30em) 30em, 100vw"
+	sizes="(min-width: 20em) 100vw"
 	alt="{{ alt }}."
 	width="{{ width }}"
 	height="{{ height }}"
@@ -163,13 +163,16 @@
 {% endmacro %}
 
 {# `imageMultiFigure`: for multi responsive images wrapped in a `figure` element #}
-{% macro imageMultiFigure(src, alt, width, height, caption, position, shadow, lazyLoad) %}
+{% macro imageMultiFigure(src_Xsmall, src_Small, src_Medium, src_Large, src_Xlarge, src_XXlarge, alt, width, height, caption, position, shadow, lazyLoad) %}
 <figure{% if position %} class="{{ position }}"{% endif %}>
-	<img src="{{ src }}"
-			srcset="{{ src }} 256w,
-							{{ src }} 512w,
-							{{ src }} 1024w"
-			sizes="(min-width: 30em) 30em, 100vw"
+	<img src="{{ src_Medium }}"
+			srcset="{{ src_Xsmall }} 320w,
+							{{ src_Small }} 600w,
+							{{ src_Medium }} 768w,
+							{{ src_Large }} 1024w,
+							{{ src_Xlarge }} 1200w,
+							{{ src_XXlarge }} 2000w"
+			sizes="(min-width: 20em) 100vw"
 			alt="{{ alt }}."
 			width="{{ width }}"
 			height="{{ height }}"
