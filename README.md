@@ -23,7 +23,7 @@ It's deployed by and hosted with [Netlify](https://www.netlify.com/).
 ## Features
 
 * 🌶 [Progressively enhanced](https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement), semantic and accessible
-* 🚀 [Performance budgeting](https://github.com/brootaylor/brootaylor-v2/blob/main/config/budget.json)
+* 🚀 [Performance budgeting](https://github.com/brootaylor/brootaylor-v2/blob/main/config/performance-budget.json)
 * 🌐 [Browser support config](https://github.com/brootaylor/brootaylor-v2/blob/main/.browserslistrc)
 * ✅ [Accessibility test runner](https://github.com/pa11y/pa11y-ci)
 * 🌈 [Sass](https://sass-lang.com/) powered CSS system using the [Dart Sass implementation](https://sass-lang.com/dart-sass) - (utilising modern [custom CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*) and methods)
