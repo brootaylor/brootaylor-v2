@@ -12,8 +12,28 @@
   }
 
   .photos__list {
+
+    &-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 6px;
+      transition-property: margin, padding;
+      transition-duration: 0.25s;
+
+      &:hover {
+        padding: 0.75em;
+        margin: -0.75em;
+      }
+
+      a {
+        display: block;
+        border-radius: 6px;
+        margin: -0.75em;
+      }
+    }
+
     @supports (display: grid) {
-      grid-gap: 1em;
+      grid-gap: 1.5em;
     }
 
     img {

@@ -27,7 +27,7 @@ updated: 2022-03-28T18:24:00
         alt="{{ photo.data.image.alt }}."
         width="{{ photo.data.image.width }}"
         height="{{ photo.data.image.height }}"
-        class="obj-fit | shadow"
+        class="obj-fit"
         loading="lazy"
         decoding="async">
     </a>
