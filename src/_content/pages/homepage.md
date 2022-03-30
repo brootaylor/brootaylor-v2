@@ -31,15 +31,11 @@ bodyClass: "homepage"
 permalink: "/index.html"
 
 date: 2020-04-24T12:54:00
-updated: 2022-03-29T17:31:00
+updated: 2022-03-30T14:03:00
 
 changefreq: "weekly"
 priority: 1
 ---
-
-At the moment I'm working on a freelance basis with [UX Brighton](https://uxbri.org) and **PAC Handyman Services** but have also worked with companies like **Airmiles UK**, **Avios**, **Macmillan Cancer Support**, **Pegasus**, **Charanga Music**, **Time Inc.**, **Analog Implant Laboratory**, **Boston T Party**, **MerchantCantos**, **Euromoney** and **IAG Loyalty**.
-
-***
 
 I place a high value on user-centricity. That is, I strive to create web experiences that look and function well on any device that can connect to the internet, while also taking user needs and business goals into account. Simultaneously laying the groundwork for long-term success by making it usable, accessible, responsive, performant, and resilient.
 
