@@ -6,12 +6,11 @@ summary: "I strive to create web experiences that look and function well on any 
 lead:
   - I place a high value on user-centricity. That is, I strive to create web experiences that look and function well on any device that can connect to the internet, while also taking user needs and business goals into account.
   - Simultaneously laying the groundwork for long-term success by making it usable, accessible, responsive, performant, and resilient.
-  - Does this sounds like something you're looking for? If you think I may be able to help, please <a href="/contact">get in touch</a>.
 
 bodyClass: "work"
 
 date: 2021-11-22T23:34:00
-updated: 2022-03-29T16:49:00
+updated: 2022-03-30T14:16:00
 ---
 
 <section aria-labelledby="companies" class="companies | flow">
