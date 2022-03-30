@@ -8,7 +8,7 @@
 .navigation {
   padding: 1rem;
 
-    @include min-width($breakpoint-medium) {
+    @include min-width($breakpoint-large) {
       padding-top: 0;
       padding-bottom: 0;
     }

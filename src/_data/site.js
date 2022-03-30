@@ -33,7 +33,7 @@ module.exports = {
   scriptsServiceworker: true, // If using a service worker
   dateTimeNow: DateTime.local().toFormat('dd LLLL yyyy @ t'),
   timeCurrent: DateTime.local().diff(DateTime.local(1982, 5, 25)).milliseconds,
-  siteMessage: false, // A message 'bar' appears on the pages
+  siteMessage: true, // A message 'bar' appears on the pages
   siteTheme: 'theme-ukraine', // Eg. if wanting to theme site to support Ukraine
   author: {
     name: 'Bruce Taylor',

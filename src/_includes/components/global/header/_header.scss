@@ -20,7 +20,7 @@
   margin: 0;
   z-index: 100; // Making sure this element always stacks higher than anything else.
 
-    @include min-width($breakpoint-medium) {
+    @include min-width($breakpoint-large) {
       flex-direction: row;
       align-items: center;
     }
