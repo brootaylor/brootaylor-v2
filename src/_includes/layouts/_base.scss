@@ -8,10 +8,6 @@
 html {
   background-color: var(--background-colour);
 
-    @include min-width($breakpoint-medium) {
-      padding: 1rem;
-    }
-
     @include min-width($breakpoint-large) {
       padding: 1.5rem;
     }
@@ -20,10 +16,6 @@ html {
 body {
   min-height: calc(100vh - 0.5rem);
   background-color: var(--background-colour-overlay);
-
-    @include min-width($breakpoint-medium) {
-      min-height: calc(100vh - 2rem);
-    }
 
     @include min-width($breakpoint-large) {
       min-height: calc(100vh - 3rem);
@@ -34,14 +26,9 @@ body {
   padding-bottom: 2rem;
   margin-top: 1em;
 
-    @include min-width($breakpoint-medium) {
+    @include min-width($breakpoint-large) {
       padding-bottom: 3rem;
       margin-top: 2em;
-    }
-
-    @include min-width($breakpoint-large) {
-      padding-bottom: 4rem;
-      margin-top: 3em;
     }
 
   // Making sure the `.flow` margin rules still apply..
