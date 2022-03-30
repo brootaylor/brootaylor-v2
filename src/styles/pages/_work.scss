@@ -30,6 +30,12 @@
 
   .testimonials {
     margin-top: 3em;
+
+    @supports (display: grid) {
+      .auto-grid {
+        grid-gap: 2em;
+      }
+    }
   }
 
   .card {

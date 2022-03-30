@@ -23,7 +23,7 @@ updated: 2022-03-30T14:16:00
             <h3 class="card__title">
               <a href="https://uxbri.org">UX Brighton</a>
             </h3>
-            <span class="date-time">Year: 2022 (ongoing)</span>
+            <span class="date-time">Year: 2022 <small>(freelance, ongoing)</small></span>
           </header>
           <div class="card__body">
             <p>Working with <a href="http://dannyhope.co.uk/">Danny Hope</a> and the UX Brighton content team to enhance and optimise their user interface and overall website experience. Also implementing a CMS solution to allow content to be more easily managed.</p>
@@ -36,7 +36,7 @@ updated: 2022-03-30T14:16:00
         <div class="card__content">
           <header class="card__header">
             <h3 class="card__title">PAC Handyman Services</h3>
-            <span class="date-time">Year: 2022 (ongoing)</span>
+            <span class="date-time">Year: 2022 <small>(freelance, current)</small></span>
           </header>
           <div class="card__body">
             <p>PAC Handyman Services is a local solution to everyday building, maintenance and installation projects within the home and garden. We're doing a complete redesign and redevelopment of their website.</p>
@@ -59,7 +59,7 @@ updated: 2022-03-30T14:16:00
             <h3 class="card__title">
               <a href="https://iagloyalty.com">IAG Loyalty</a>
             </h3>
-            <span class="date-time">Year: 2018 - 2021</span>
+            <span class="date-time">Year: 2018 - 2021 <small>(contract)</small></span>
           </header>
           <div class="card__body">
             <p>Built new, modern, and fast PWA B2B websites for IAG Loyalty. Big focus on usability, accessibility, progressive enhancement, performance & resilience.</p>
@@ -74,7 +74,7 @@ updated: 2022-03-30T14:16:00
             <h3 class="card__title">
               <a href="https://www.euromoneyplc.com">Euromoney</a>
             </h3>
-            <span class="date-time">Year: 2018</span>
+            <span class="date-time">Year: 2018 <small>(contract)</small></span>
           </header>
           <div class="card__body | flow">
             <p>Developed a reusable & extensible front-end starter kit that builds modular web components / pattern libraries. Enabling Euromoney to build and deploy their 'Fastmarkets' B2B web offerings efficiently and effectively.</p>
@@ -89,7 +89,7 @@ updated: 2022-03-30T14:16:00
             <h3 class="card__title">
               <a href="https://bostontparty.co.za">Boston T Party</a>
             </h3>
-            <span class="date-time">Year: 2021 (ongoing)</span>
+            <span class="date-time">Year: 2021 <small>(freelance, ongoing)</small></span>
           </header>
           <div class="card__body">
             <p>Built a new, modern and fast PWA website for Boston T Party. Data and bandwidth is a premium in South Africa so focussed particularly on performance & resilience using progressive enhancement methods.</p>
@@ -104,7 +104,7 @@ updated: 2022-03-30T14:16:00
             <h3 class="card__title">
               <a href="https://www.merchantcantos.com">MerchantCantos</a>
             </h3>
-            <span class="date-time">Year: 2017 & 2018</span>
+            <span class="date-time">Year: 2017 & 2018 <small>(contract)</small></span>
           </header>
           <div class="card__body">
             <p>Developed & enhanced corporate communication websites (eg. Puma, Mondi, Greenbrier).</p>
@@ -119,7 +119,7 @@ updated: 2022-03-30T14:16:00
             <h3 class="card__title">
               <a href="http://analog-lab.co.uk">Analog Implant Laboratory</a>
             </h3>
-            <span class="date-time">Year: 2017</span>
+            <span class="date-time">Year: 2017 <small>(freelance)</small></span>
           </header>
           <div class="card__body">
             <p>Redesigned & built Analog Implant Laboratory's new website from the ground up.</p>
@@ -131,13 +131,12 @@ updated: 2022-03-30T14:16:00
       <article class="card card--stacked">
         <div class="card__content">
           <header class="card__header">
-            <h3 class="card__title">
-              <a href="https://www.timeincuk.com">Time Inc. UK</a>
-            </h3>
-            <span class="date-time">Year: 2016</span>
+            <h3 class="card__title">Time Inc. UK</h3>
+            <span class="date-time">Year: 2016 <small>(contract)</small></span>
           </header>
-          <div class="card__body">
-            <p>Fun & collaborative team environment developing a responsive and customisable web solution on their WordPress Multisite application.</p>
+          <div class="card__body | flow">
+            <p>Since I last worked with them, they've now been taken over by <a href="https://www.futureplc.com/">Future plc</a>.</p>
+            <p>It was a fun & collaborative team environment at Time Inc. UK. I was one of the Frontend Developers, developing a responsive and customisable web solution on their WordPress Multisite application.</p>
           </div>
         </div>
       </article>
@@ -146,12 +145,11 @@ updated: 2022-03-30T14:16:00
       <article class="card card--stacked">
         <div class="card__content">
           <header class="card__header">
-            <h3 class="card__title">
-              <a href="http://www.thisispegasus.co.uk">Pegasus</a>
-            </h3>
-            <span class="date-time">Year: 2016</span>
+            <h3 class="card__title">Pegasus</h3>
+            <span class="date-time">Year: 2016 <small>(contract)</small></span>
           </header>
-          <div class="card__body">
+          <div class="card__body | flow">
+            <p>Since I last worked with them, they've become <a href="https://mindplusmatter.com/">Mind+Matter</a>.</p>
             <p>Developed & enhanced brochure websites for Pegasus’ healthcare clients.</p>
           </div>
         </div>
@@ -164,7 +162,7 @@ updated: 2022-03-30T14:16:00
             <h3 class="card__title">
               <a href="https://charanga.com">Charanga Music</a>
             </h3>
-            <span class="date-time">Year: 2016</span>
+            <span class="date-time">Year: 2016 <small>(freelance)</small></span>
           </header>
           <div class="card__body">
             <p>Developed a reusable, extensible, responsive and accessible front-end library / boilerplate. Enabled Charanga to deploy future web offerings quickly, efficiently without compromising on quality front end standards.</p>
@@ -179,7 +177,7 @@ updated: 2022-03-30T14:16:00
             <h3 class="card__title">
               <a href="https://www.macmillan.org.uk">Macmillan Cancer Support</a>
             </h3>
-            <span class="date-time">Year: 2015</span>
+            <span class="date-time">Year: 2015 <small>(contract)</small></span>
           </header>
           <div class="card__body">
             <p>Worked with Macmillan's core website application team on frontend solutions for their brand identity and business proposition.</p>
@@ -192,7 +190,7 @@ updated: 2022-03-30T14:16:00
 
 <section aria-labelledby="testimonials" class="testimonials | flow">
   <h2 id="testimonials">Nice things people have said</h2>
-  <ul role="list" class="no-list | flow">
+  <ul role="list" class="auto-grid | no-list">
     <li>
     {% from "components/core/blockquotes/blockquotes.njk" import blockquote %}
     {%- call blockquote('Stephen Scott, Chief Digital Officer, IAG Loyalty') -%}
