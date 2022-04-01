@@ -1,8 +1,12 @@
-# Bruce Taylor's website (v2)
-
 [![Netlify Status](https://api.netlify.com/api/v1/badges/712367e5-7510-4813-9a24-5805f092cfa1/deploy-status)](https://app.netlify.com/sites/brootaylorv2/deploys)
 
-This is *version 2* of my personal website. it's live at [brootaylor.com](https://brootaylor.com/)
+# Bruce Taylor's website (v2)
+
+This is *version 2* of my personal website.
+
+---
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/brootaylor/brootaylor-v2)
 
 I've decided to take the scary route (for me anyway) of redesigning and developing my website in the open. I've been inspired by others that have done this and thought it may be an interesting process. Not least because I'm a bit of a perfectionist and doing this may be a good way of weaning me off the need to have things completely polished before showing them. 😱
 
