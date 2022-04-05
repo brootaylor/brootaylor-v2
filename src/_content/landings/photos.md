@@ -15,13 +15,14 @@ pagination:
   alias: photos
 
 date: 2022-03-28T18:24:00
-updated: 2022-03-28T18:24:00
+updated: 2022-04-05T18:12:00
 ---
 
 {# List of photo posts #}
 <ul role="list" class="photos__list | auto-grid | no-list">
 {% for photo in photos -%}
   <li class="photos__list-item">
+    <h2 class="visually-hidden">{{ photo.data.title }}</h2>
     <a href="{{ photo.url }}">
       <img src="{{ photo.data.image.src }}"
         alt="{{ photo.data.image.alt }}."

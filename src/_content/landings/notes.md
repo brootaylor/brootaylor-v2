@@ -15,14 +15,15 @@ pagination:
   alias: notes
 
 date: 2020-02-22T22:10:00
-updated: 2022-01-18T17:23:00
+updated: 2022-04-05T18:43:00
 ---
 
 {# List of note posts #}
 <ul role="list" class="notes__list | no-list | flow">
 {% for note in notes -%}
   <li class="notes__list-item">
-    <article class="note__summary | flow">
+    <article class="note__summary">
+      <h2 class="visually-hidden">{{ note.data.title }}</h2>
       <a href="{{ note.url }}">
         <time datetime="{{ note.date | dateTime }}">{{ note.date | dateTimeReadable("d LLLL y, ") }}{{ note.date | dateTimeReadable("t") | lower }}</time>
       </a>
