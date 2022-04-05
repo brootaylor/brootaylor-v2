@@ -1,0 +1,15 @@
+/*********************************************
+ * Notes page-specific rules
+ *********************************************/
+
+@use '../abstracts' as *;
+
+.notes-home {
+  .note__summary {
+    --flow-space: 1em; // `em` value used cause wanting this value to be relative to it's context.
+
+    > * + * + * {
+      margin-top: var(--flow-space);
+    }
+  }
+}
