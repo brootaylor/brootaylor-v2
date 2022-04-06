@@ -1,43 +1,11 @@
 /*********************************************
- * Photos page-specific rules
+ * Photos post page-specific rules
  *********************************************/
 
 @use '../abstracts' as *;
 
-.photos-home {
-  article {
-    ul {
-      max-width: 100%;
-    }
-  }
-
-  .photos__list {
-
-    &-item {
-      position: relative;
-      overflow: hidden;
-      border-radius: 6px;
-      transition-property: margin, padding;
-      transition-duration: 0.25s;
-
-      &:hover {
-        padding: 0.75em;
-        margin: -0.75em;
-      }
-
-      a {
-        display: block;
-        border-radius: 6px;
-        margin: -0.75em;
-      }
-    }
-
-    @supports (display: grid) {
-      grid-gap: 1.5em;
-    }
-
-    img {
-      aspect-ratio: 1 / 1;
-    }
+.photos {
+  figure {
+    max-width: 90ch;
   }
 }

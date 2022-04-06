@@ -23,7 +23,7 @@ I write now and then and have [written a few posts](/writing), [jotted down some
 
 I enjoy [taking photos](/photos) whenever I can and am a [fairly decent drummer](/photos/2022-03-29/photo_202203292358). Fly fishing for trout is something I grew up doing and continue to do. I head to the beautiful [Lakedown Trout Fishery](https://www.lakedowntroutfishery.com/) as often as I can. A gorgeous and tranquil spot away from all the noise.
 
-I absolutely [adore aircraft](https://www.flickr.com/photos/60226997@N06/47530443441/) and still plan to pull my finger out and get my <abbr title="Private Pilots Licence">PPL</abbr> one day.
+I absolutely [adore aircraft](/photos/2022-03-30/photo_202203301354) and still plan to pull my finger out and get my <abbr title="Private Pilots Licence">PPL</abbr> one day.
 
 ---
 
