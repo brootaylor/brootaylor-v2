@@ -28,11 +28,12 @@ updated: 2022-04-05T18:12:00
         alt="{{ photo.data.image.alt }}."
         width="{{ photo.data.image.width }}"
         height="{{ photo.data.image.height }}"
-        class="obj-fit{% if photo.data.image.multiple %} icon--stacked{% endif %}"
+        class="obj-fit"
         {%- if photo.data.image.lazyLoad %}
           loading="lazy"
           decoding="async"
         {% endif %}>
+        {%- if photo.data.image.multiple %}{% include "components/core/icons/svg_inline/icon--photos.njk" %}{% endif -%}
     </a>
   </li>
 {% endfor -%}
