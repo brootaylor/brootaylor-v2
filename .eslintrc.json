@@ -5,7 +5,8 @@
     "prettier/prettier": "error",
     "no-unused-vars": "warn",
     "no-console": "off",
-    "func-names":"off",
-    "no-undef":"warn"
+    "func-names": "off",
+    "no-undef": "warn",
+    "prefer-const": "off"
   }
 }

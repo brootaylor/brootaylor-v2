@@ -1,10 +1,10 @@
 ---
 title: "Photos"
 # Populates the `meta description` for a page
-summary: "Photos I've taken along the way."
+summary: "Some photos I've taken along the way."
 # Populates the opening / `lead` text on a page
 lead:
-  - "Photos I've taken along the way."
+  - "Some photos I've taken along the way."
 bodyClass: "photos-home"
 
 permalink: "{% if pagination.pageNumber > 0 %}/photos/{{ pagination.pageNumber + 1 }}/index.html{% else %}/photos.html{% endif %}"
@@ -29,8 +29,11 @@ updated: 2022-04-05T18:12:00
         width="{{ photo.data.image.width }}"
         height="{{ photo.data.image.height }}"
         class="obj-fit"
-        loading="lazy"
-        decoding="async">
+        {%- if photo.data.image.lazyLoad %}
+          loading="lazy"
+          decoding="async"
+        {% endif %}>
+        {%- if photo.data.image.multiple %}{% include "components/core/icons/svg_inline/icon--photos.njk" %}{% endif -%}
     </a>
   </li>
 {% endfor -%}

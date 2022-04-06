@@ -1,11 +1,11 @@
 /*********************************************
- * Bookmarks landing page-specific rules
+ * Bookmarks landing / list page-specific rules
  *********************************************/
 
 @use '../abstracts' as *;
 
-.bookmarks {
-  &__summary {
+.bookmarks-home {
+  .bookmarks__summary {
     h2 {
       // Fallback for older browsers
       font-size: convert-to-rem(28px);

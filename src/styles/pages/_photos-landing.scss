@@ -1,0 +1,80 @@
+/*********************************************
+ * Photos landing / list page-specific rules
+ *********************************************/
+
+@use '../abstracts' as *;
+
+// Photos
+.photos-home {
+  article {
+    ul {
+      max-width: 100%;
+    }
+  }
+
+  .photos__list {
+
+    &-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 6px;
+      transition-property: margin, padding;
+      transition-duration: 0.25s;
+
+      &:hover {
+        padding: 0.25em;
+        margin: -0.25em;
+
+          @include min-width($breakpoint-medium) {
+            padding: 0.50em;
+            margin: -0.50em;
+          }
+
+          @include min-width($breakpoint-large) {
+            padding: 0.75em;
+            margin: -0.75em;
+          }
+      }
+
+      a {
+        display: block;
+        border-radius: 6px;
+        margin: -0.25em;
+
+          @include min-width($breakpoint-medium) {
+            margin: -0.50em;
+          }
+
+          @include min-width($breakpoint-large) {
+            margin: -0.75em;
+          }
+      }
+
+      .icon--photos {
+        position: absolute;
+        right: 0.5em;
+        bottom: 0.5em;
+        fill: var(--white);
+      }
+    }
+
+    @supports (display: grid) {
+      --auto-grid-min-size: 12rem;
+      gap: 0.50em;
+      transition-property: gap;
+      transition-duration: 0.25s;
+
+        @include min-width($breakpoint-medium) {
+          gap: 1em;
+        }
+
+        @include min-width($breakpoint-large) {
+          gap: 1.25em;
+        }
+    }
+
+    img {
+      aspect-ratio: 1 / 1;
+    }
+  }
+}

@@ -18,6 +18,9 @@ const dateTimeReadable = require('./lib/utils/filters/dateTimeReadable.js')
 // Import (transforms)
 const htmlMinify = require('./lib/utils/transforms/minify-html.js')
 
+// Import (shortcodes)
+const imageShortcode = require('./lib/shortcodes/photos.js')
+
 // Import (collections)
 const postWriting = require('./lib/collections/postWriting.js')
 const postNotes = require('./lib/collections/postNotes.js')
@@ -39,11 +42,12 @@ module.exports = function (eleventy) {
   eleventy.addFilter('dateTime', dateTime) // Generates numerical date and time (eg. 2020-02-22T09:50:00.000Z)
   eleventy.addFilter('dateTimeReadable', dateTimeReadable) // Generates readable date and time (eg. 22 February 2020, 9:50 am)
 
-  // Shortcodes
-  eleventy.addShortcode('year', () => `${new Date().getFullYear()}`)
-
   // Transforms
   eleventy.addTransform('minify-html', htmlMinify)
+
+  // Shortcodes
+  eleventy.addShortcode('year', () => `${new Date().getFullYear()}`)
+  eleventy.addNunjucksAsyncShortcode('photo', imageShortcode);
 
   // Collections
   eleventy.addCollection('postWriting', postWriting)
