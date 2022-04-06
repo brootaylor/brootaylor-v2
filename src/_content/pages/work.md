@@ -1,16 +1,15 @@
 ---
 title: "Work"
 # Populates the `meta description` for a page
-summary: "I strive to create web experiences that look and function well on any device that can connect to the internet, while also taking user needs and business goals into account. Simultaneously laying the groundwork for long-term success by making it usable, accessible, responsive, performant, and resilient."
+summary: "When developing a web solution, I place a high value on user-centricity. That is, I am interested in and pay close attention to responsive and intrinsic design, progressive enhancement, semantic markup, accessibility, web standards, and performance."
 # Populates the opening / `lead` text on a page
 lead:
-  - I place a high value on user-centricity. That is, I strive to create web experiences that look and function well on any device that can connect to the internet, while also taking user needs and business goals into account.
-  - Simultaneously laying the groundwork for long-term success by making it usable, accessible, responsive, performant, and resilient.
+  - When developing a web solution, I place a high value on user-centricity. That is, I am interested in and pay close attention to responsive and intrinsic design, progressive enhancement, semantic markup, accessibility, web standards, and performance.
 
 bodyClass: "work"
 
 date: 2021-11-22T23:34:00
-updated: 2022-03-30T14:16:00
+updated: 2022-04-06T12:53:00
 ---
 
 <section aria-labelledby="companies" class="companies | flow">

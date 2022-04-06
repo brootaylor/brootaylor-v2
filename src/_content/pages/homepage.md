@@ -31,12 +31,12 @@ bodyClass: "homepage"
 permalink: "/index.html"
 
 date: 2020-04-24T12:54:00
-updated: 2022-03-30T14:03:00
+updated: 2022-04-06T12:36:00
 
 changefreq: "weekly"
 priority: 1
 ---
 
-I place a high value on user-centricity. That is, I strive to create web experiences that look and function well on any device that can connect to the internet, while also taking user needs and business goals into account. Simultaneously laying the groundwork for long-term success by making it usable, accessible, responsive, performant, and resilient.
+User-centricity is important to me. In other words, I strive to create web experiences that look and function well on any device that can connect to the internet, while also considering user needs and business goals. At the same time, laying the groundwork for long-term success by making it usable, accessible, responsive, performant, and resilient.
 
 If this sounds like something you're looking for and think I may be able to help, please [get in touch](/contact).
