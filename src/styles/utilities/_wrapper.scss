@@ -9,6 +9,11 @@
   margin-left: auto;
   margin-right: auto;
   padding: 0 1rem;
+
+  @include min-width($breakpoint-large) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 // Wrapper utility class
