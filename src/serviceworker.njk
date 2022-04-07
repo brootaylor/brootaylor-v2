@@ -259,7 +259,7 @@ addEventListener('fetch', event => {
             .then( responseFromFetch => {
                 // NETWORK
                 // If the request is for an image, stash a copy of this image in the images cache
-                if (request.url.match(/\.(jpe?g|png|gif|svg|mapbox)/)) {
+                if (request.url.match(/\.(jpe?g|webp|png|gif|svg|mapbox)/)) {
                     const copy = responseFromFetch.clone();
                     try {
                         event.waitUntil(
@@ -278,7 +278,7 @@ addEventListener('fetch', event => {
                 console.error(fetchError);
                 // FALLBACK
                 // show an offline placeholder
-                if (request.url.match(/\.(jpe?g|png|gif|svg|mapbox)/)) {
+                if (request.url.match(/\.(jpe?g|webp|png|gif|svg|mapbox)/)) {
                     return new Response('<svg role="img" aria-labelledby="offline-title" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg"><title id="offline-title">Offline</title><g fill="none" fill-rule="evenodd"><path fill="#3e5156" d="M0 0h400v300H0z"/><text fill="#d5dee0" font-family="Helvetica Neue,Arial,Helvetica,sans-serif" font-size="72" font-weight="bold"><tspan x="93" y="172">Offline</tspan></text></g></svg>', {headers: {'Content-Type': 'image/svg+xml', 'Cache-Control': 'no-store'}});
                 }
             });
