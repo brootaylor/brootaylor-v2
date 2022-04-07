@@ -47,12 +47,6 @@ module.exports = {
       external: true
     },
     {
-      label: 'Flickr',
-      url: 'https://www.flickr.com/photos/60226997@N06/',
-      icon: 'flickr',
-      external: true
-    },
-    {
       label: 'RSS',
       url: '/feed.xml',
       icon: 'rss',
