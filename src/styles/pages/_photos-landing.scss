@@ -52,9 +52,10 @@
 
       .icon--photos {
         position: absolute;
-        right: 0.5em;
-        bottom: 0.5em;
+        right: 0.75rem;
+        bottom: 0.75rem;
         fill: var(--white);
+        stroke: var(--black);
       }
     }
 
