@@ -4,15 +4,10 @@
 
 @use '../../../../styles/abstracts' as *;
 
-img {
-  display: block;
-}
-
+img,
 picture {
   display: block;
-  margin: inherit;
 }
-
 
 // Normal inline images
 .img-normal {

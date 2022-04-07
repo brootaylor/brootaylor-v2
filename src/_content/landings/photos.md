@@ -15,7 +15,7 @@ pagination:
   alias: photos
 
 date: 2022-03-28T18:24:00
-updated: 2022-04-05T18:12:00
+updated: 2022-04-07T16:45:00
 ---
 
 {# List of photo posts #}
@@ -24,16 +24,20 @@ updated: 2022-04-05T18:12:00
   <li class="photos__list-item">
     <h2 class="visually-hidden">{{ photo.data.title }}</h2>
     <a href="{{ photo.url }}">
-      <img src="{{ photo.data.image.src }}"
-        alt="{{ photo.data.image.alt }}."
-        width="{{ photo.data.image.width }}"
-        height="{{ photo.data.image.height }}"
-        class="obj-fit"
-        {%- if photo.data.image.lazyLoad %}
-          loading="lazy"
-          decoding="async"
-        {% endif %}>
-        {%- if photo.data.image.multiple %}{% include "components/core/icons/svg_inline/icon--photos.njk" %}{% endif -%}
+      <picture>
+        <source type="image/webp" srcset="{{ photo.data.image.srcWebp }}">
+        <source type="image/jpeg" srcset="{{ photo.data.image.srcJpg }}">
+        <img src="{{ photo.data.image.srcJpg }}"
+          alt="{{ photo.data.image.alt }}."
+          width="{{ photo.data.image.width }}"
+          height="{{ photo.data.image.height }}"
+          class="obj-fit"
+          {%- if photo.data.image.lazyLoad %}
+            loading="lazy"
+            decoding="async"
+          {% endif %}>
+          {%- if photo.data.image.multiple %}{% include "components/core/icons/svg_inline/icon--photos.njk" %}{% endif -%}
+      </picture>
     </a>
   </li>
 {% endfor -%}
