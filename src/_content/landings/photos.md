@@ -2,20 +2,17 @@
 title: "Photos"
 # Populates the `meta description` for a page
 summary: "Some photos I've taken along the way."
-# Populates the opening / `lead` text on a page
-lead:
-  - "Some photos I've taken along the way."
 bodyClass: "photos-home"
 
 permalink: "{% if pagination.pageNumber > 0 %}/photos/{{ pagination.pageNumber + 1 }}/index.html{% else %}/photos.html{% endif %}"
 
 pagination:
   data: collections.postPhotos # This data is called using the `postPhotos.js` collection script
-  size: 15
+  size: 25
   alias: photos
 
 date: 2022-03-28T18:24:00
-updated: 2022-04-07T16:45:00
+updated: 2022-04-07T17:23:00
 ---
 
 {# List of photo posts #}
