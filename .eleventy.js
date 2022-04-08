@@ -19,7 +19,7 @@ const dateTimeReadable = require('./lib/utils/filters/dateTimeReadable.js')
 const htmlMinify = require('./lib/utils/transforms/minify-html.js')
 
 // Import (shortcodes)
-const imageShortcode = require('./lib/shortcodes/photos.js')
+const photoGallery = require('./lib/shortcodes/photoGallery.js')
 
 // Import (collections)
 const postWriting = require('./lib/collections/postWriting.js')
@@ -47,7 +47,7 @@ module.exports = function (eleventy) {
 
   // Shortcodes
   eleventy.addShortcode('year', () => `${new Date().getFullYear()}`)
-  eleventy.addNunjucksAsyncShortcode('photo', imageShortcode);
+  eleventy.addNunjucksAsyncShortcode('photo', photoGallery);
 
   // Collections
   eleventy.addCollection('postWriting', postWriting)
