@@ -12,8 +12,8 @@ date: 2021-11-22T23:34:00
 updated: 2022-04-06T12:53:00
 ---
 
-<section aria-labelledby="companies" class="companies | flow">
-  <h2 id="companies">Currently working with</h2>
+<section aria-labelledby="work-current" class="companies | flow">
+  <h2 id="work-current">Currently working with</h2>
   <ul role="list" class="auto-grid | no-list">
     <li>
       <article class="card card--stacked">
@@ -48,8 +48,8 @@ updated: 2022-04-06T12:53:00
 
 ---
 
-<section aria-labelledby="companies" class="companies | flow">
-  <h2 id="companies">Some other people I've worked with</h2>
+<section aria-labelledby="work-past" class="companies | flow">
+  <h2 id="work-past">Some other people I've worked with</h2>
   <ul role="list" class="auto-grid | no-list">
     <li>
       <article class="card card--stacked">
