@@ -47,50 +47,6 @@
 
 
 ##############################
-# Plugins
-##############################
-
-# 1. Optimize images as part of the Netlify build process. Optimizes PNG, JPEG, GIF and SVG file formats.
-[[plugins]]
-  package = "netlify-plugin-image-optim"
-
-# 2. Generate a lighthouse report for every deploy
-[[plugins]]
-  package = "@netlify/plugin-lighthouse"
-
-  [plugins.inputs.audits]
-    # to audit a specific absolute url
-    url = 'https://brootaylor.com'
-
-  # optional, fails build when a category is below a threshold
-  [plugins.inputs.thresholds]
-    performance = 0.9
-    accessibility = 0.9
-    best-practices = 0.9
-    seo = 0.9
-    pwa = 0.9
-
-# 3. Submit sitemap (automatically)
-[[plugins]]
-    package = "netlify-plugin-submit-sitemap"
-
-    [plugins.inputs]
-
-    # The base url of your site (optional, default = main URL set in Netlify)
-    # baseUrl = "https://example.com"
-
-    # Path to the sitemap URL (optional, default = /sitemap.xml)
-    sitemapPath = "/sitemap.xml"
-
-    # Enabled providers to submit sitemap to (optional, default = 'google', 'bing', 'yandex'). Possible providers are currently only 'google', 'bing', 'yandex'.
-    providers = [
-      "google",
-      "bing",
-      "yandex"
-    ]
-
-
-##############################
 # Headers
 ##############################
 
