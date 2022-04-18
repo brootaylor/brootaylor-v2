@@ -4,16 +4,11 @@
 
 @use '../abstracts' as *;
 
+// Trying to use less media queries which is why I'm trying out `clamp()` and logical CSS properlties like `padding-inline`
 %wrapper {
-  max-width: convert-to-rem($site-width);
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 1rem;
-
-  @include min-width($breakpoint-large) {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
+  width: clamp(20rem, 95vw, var(--site-width));
+  margin-inline: auto;
+  padding-inline: clamp(1rem, 5vw , 2rem);
 }
 
 // Wrapper utility class

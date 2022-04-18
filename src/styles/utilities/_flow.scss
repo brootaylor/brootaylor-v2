@@ -7,7 +7,12 @@
 %flow {
   --flow-space: 1em; // `em` value used cause wanting this value to be relative to it's context.
 
-  > * + * {
+  // > * + * {
+  //   margin-top: var(--flow-space);
+  // }
+
+  //  A newer implementation...
+  > :where(:not(:first-child)) {
     margin-top: var(--flow-space);
   }
 }
