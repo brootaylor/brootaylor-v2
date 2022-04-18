@@ -73,7 +73,7 @@
     "html-minifier": "^4.0.0",
     "json-to-scss": "^1.6.2",
     "lodash": "^4.17.21",
-    "luxon": "^2.3.1",
+    "luxon": "^2.3.2",
     "npm-run-all": "^4.1.5",
     "object-fit-images": "^3.2.4",
     "postcss": "^8.4.12",
@@ -96,7 +96,7 @@
     "jest": "^27.5.1",
     "markdownlint-cli": "^0.31.1",
     "minami": "^1.2.3",
-    "netlify-cli": "^9.16.6",
+    "netlify-cli": "^9.16.7",
     "onchange": "^7.1.0",
     "prettier": "^2.6.2"
   }
