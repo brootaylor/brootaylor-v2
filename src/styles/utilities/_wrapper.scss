@@ -6,7 +6,7 @@
 
 // Trying to use less media queries which is why I'm trying out `clamp()` and logical CSS properlties like `padding-inline`
 %wrapper {
-  width: clamp(20rem, 95vw, var(--site-width));
+  width: clamp(20rem, 100vw, var(--site-width));
   margin-inline: auto;
   padding-inline: clamp(1rem, 5vw , 2rem);
 }
