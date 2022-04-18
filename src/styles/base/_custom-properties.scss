@@ -39,12 +39,7 @@
   --link-initial: var(--green-custom);
   --link-text-hover: var(--green-custom-dark);
   --link-border-hover: var(--green-custom-light);
-}
 
-// Dark mode rules will go here
-// @media (prefers-color-scheme: dark) {
-//   :root {
-//     --background-colour-overlay: #{rgb-format($grey-dark)}; // `body` element
-//     --font-colour-base: #{rgb-format($white)};
-//   }
-// }
+  /* Sizes */
+  --site-width: #{convert-to-rem($site-width)};
+}
