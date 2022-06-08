@@ -9,7 +9,7 @@ lead:
 bodyClass: "work"
 
 date: 2021-11-22T23:34:00
-updated: 2022-04-06T12:53:00
+updated: 2022-06-08T16:30:00
 ---
 
 <section aria-labelledby="work-current" class="companies | flow">
@@ -22,10 +22,11 @@ updated: 2022-04-06T12:53:00
             <h3 class="card__title">
               <a href="https://uxbri.org">UX Brighton</a>
             </h3>
-            <span class="date-time">Year: 2022 <small>(freelance, ongoing)</small></span>
+            <span class="date-time">Year: 2022 <small>(freelance, current)</small></span>
           </header>
-          <div class="card__body">
-            <p>Working with <a href="http://dannyhope.co.uk/">Danny Hope</a> and the UX Brighton content team to enhance and optimise their user interface and overall website experience. Also implementing a CMS solution to allow content to be more easily managed.</p>
+          <div class="card__body | flow">
+            <p>Working with <a href="http://dannyhope.co.uk/">Danny Hope</a> and the UX Brighton content team to enhance and optimise their user interface and overall website experience.</p>
+            <p>Also implementing a CMS solution to allow content to be more easily managed.</p>
           </div>
         </div>
       </article>
@@ -37,8 +38,9 @@ updated: 2022-04-06T12:53:00
             <h3 class="card__title">PAC Handyman Services</h3>
             <span class="date-time">Year: 2022 <small>(freelance, current)</small></span>
           </header>
-          <div class="card__body">
-            <p>PAC Handyman Services is a local solution to everyday building, maintenance and installation projects within the home and garden. We're doing a complete redesign and redevelopment of their website.</p>
+          <div class="card__body | flow">
+            <p>PAC Handyman Services is a local solution to everyday building, maintenance and installation projects within the home and garden.</p>
+            <p>We're doing a complete redesign and redevelopment of their website.</p>
           </div>
         </div>
       </article>
@@ -56,12 +58,29 @@ updated: 2022-04-06T12:53:00
         <div class="card__content">
           <header class="card__header">
             <h3 class="card__title">
+              <a href="https://www.brunswickgroup.com">Brunswick Group</a>
+            </h3>
+            <span class="date-time">Year: 2022 <small>(contract)</small></span>
+          </header>
+          <div class="card__body | flow">
+            <p>Worked with Brunswick Group to build <abbr title="Single Page Application">SPA</abbr> microsites for <a href="https://www.naspers.com/">Naspers</a>.</p>
+            <p><em>Vue.js</em> and <em>GSAP</em> ended up being the primary tools of choice in this instance.</p>
+          </div>
+        </div>
+      </article>
+    </li>
+    <li>
+      <article class="card card--stacked">
+        <div class="card__content">
+          <header class="card__header">
+            <h3 class="card__title">
               <a href="https://iagloyalty.com">IAG Loyalty</a>
             </h3>
             <span class="date-time">Year: 2018 - 2021 <small>(contract)</small></span>
           </header>
-          <div class="card__body">
-            <p>Built new, modern, and fast PWA B2B websites for IAG Loyalty. Big focus on usability, accessibility, progressive enhancement, performance & resilience.</p>
+          <div class="card__body | flow">
+            <p>Built new, modern, and fast PWA B2B websites for IAG Loyalty.</p>
+            <p>Big focus on usability, accessibility, progressive enhancement, performance & resilience.</p>
           </div>
         </div>
       </article>
@@ -76,7 +95,8 @@ updated: 2022-04-06T12:53:00
             <span class="date-time">Year: 2018 <small>(contract)</small></span>
           </header>
           <div class="card__body | flow">
-            <p>Developed a reusable & extensible front-end starter kit that builds modular web components / pattern libraries. Enabling Euromoney to build and deploy their 'Fastmarkets' B2B web offerings efficiently and effectively.</p>
+            <p>Developed a reusable & extensible front-end starter kit that builds modular web components / pattern libraries.</p>
+            <p>Enabling Euromoney to build and deploy their 'Fastmarkets' B2B web offerings efficiently and effectively.</p>
           </div>
         </div>
       </article>
@@ -90,8 +110,9 @@ updated: 2022-04-06T12:53:00
             </h3>
             <span class="date-time">Year: 2021 <small>(freelance, ongoing)</small></span>
           </header>
-          <div class="card__body">
-            <p>Built a new, modern and fast PWA website for Boston T Party. Data and bandwidth is a premium in South Africa so focussed particularly on performance & resilience using progressive enhancement methods.</p>
+          <div class="card__body | flow">
+            <p>Built a new, modern and fast PWA website for Boston T Party.</p>
+            <p>Data and bandwidth is a premium in South Africa so focussed particularly on performance & resilience using progressive enhancement methods.</p>
           </div>
         </div>
       </article>
@@ -163,8 +184,9 @@ updated: 2022-04-06T12:53:00
             </h3>
             <span class="date-time">Year: 2016 <small>(freelance)</small></span>
           </header>
-          <div class="card__body">
-            <p>Developed a reusable, extensible, responsive and accessible front-end library / boilerplate. Enabled Charanga to deploy future web offerings quickly, efficiently without compromising on quality front end standards.</p>
+          <div class="card__body | flow">
+            <p>Developed a reusable, extensible, responsive and accessible front-end library / boilerplate.</p>
+            <p>Enabled Charanga to deploy future web offerings quickly, efficiently without compromising on quality front end standards.</p>
           </div>
         </div>
       </article>
