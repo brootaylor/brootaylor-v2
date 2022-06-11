@@ -82,7 +82,7 @@
     "rimraf": "^3.0.2",
     "rollup": "^2.75.6",
     "rollup-plugin-terser": "^7.0.2",
-    "sass": "^1.52.2",
+    "sass": "^1.52.3",
     "slugify": "^1.6.5"
   },
   "devDependencies": {
@@ -96,7 +96,7 @@
     "jest": "^28.1.1",
     "markdownlint-cli": "^0.31.1",
     "minami": "^1.2.3",
-    "netlify-cli": "^10.4.0",
+    "netlify-cli": "^10.5.1",
     "onchange": "^7.1.0",
     "prettier": "^2.6.2"
   }
