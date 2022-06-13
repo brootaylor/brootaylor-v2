@@ -9,7 +9,7 @@ lead:
 bodyClass: "work"
 
 date: 2021-11-22T23:34:00
-updated: 2022-06-08T16:30:00
+updated: 2022-06-13T17:40:00
 ---
 
 <section aria-labelledby="work-current" class="companies | flow">
@@ -27,6 +27,22 @@ updated: 2022-06-08T16:30:00
           <div class="card__body | flow">
             <p>Working with <a href="http://dannyhope.co.uk/">Danny Hope</a> and the UX Brighton content team to enhance and optimise their user interface and overall website experience.</p>
             <p>Also implementing a CMS solution to allow content to be more easily managed.</p>
+          </div>
+        </div>
+      </article>
+    </li>
+    <li>
+      <article class="card card--stacked">
+        <div class="card__content">
+          <header class="card__header">
+            <h3 class="card__title">
+              <a href="https://bostontparty.co.za">Boston T Party</a>
+            </h3>
+            <span class="date-time">Year: 2022 <small>(freelance, current)</small></span>
+          </header>
+          <div class="card__body | flow">
+            <p>Built a new, modern and fast PWA website for Boston T Party.</p>
+            <p>Data and bandwidth is a premium in South Africa so focussed particularly on performance & resilience using progressive enhancement and offline caching methods.</p>
           </div>
         </div>
       </article>
@@ -97,22 +113,6 @@ updated: 2022-06-08T16:30:00
           <div class="card__body | flow">
             <p>Developed a reusable & extensible front-end starter kit that builds modular web components / pattern libraries.</p>
             <p>Enabling Euromoney to build and deploy their 'Fastmarkets' B2B web offerings efficiently and effectively.</p>
-          </div>
-        </div>
-      </article>
-    </li>
-    <li>
-      <article class="card card--stacked">
-        <div class="card__content">
-          <header class="card__header">
-            <h3 class="card__title">
-              <a href="https://bostontparty.co.za">Boston T Party</a>
-            </h3>
-            <span class="date-time">Year: 2021 <small>(freelance, ongoing)</small></span>
-          </header>
-          <div class="card__body | flow">
-            <p>Built a new, modern and fast PWA website for Boston T Party.</p>
-            <p>Data and bandwidth is a premium in South Africa so focussed particularly on performance & resilience using progressive enhancement methods.</p>
           </div>
         </div>
       </article>
