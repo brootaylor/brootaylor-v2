@@ -98,6 +98,6 @@
     "minami": "^1.2.3",
     "netlify-cli": "^10.5.1",
     "onchange": "^7.1.0",
-    "prettier": "^2.6.2"
+    "prettier": "^2.7.0"
   }
 }
