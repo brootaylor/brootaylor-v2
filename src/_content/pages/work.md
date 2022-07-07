@@ -12,11 +12,21 @@ date: 2021-11-22T23:34:00
 updated: 2022-06-13T17:40:00
 ---
 
+{% from "components/core/images/images.njk" import imageNormal %}
+
 <section aria-labelledby="work-current" class="companies | flow">
   <h2 id="work-current">Currently working with</h2>
   <ul role="list" class="auto-grid | no-list">
     <li>
       <article class="card card--stacked">
+        <div class="card__visual">
+          {{- imageNormal(
+            "/assets/images/pages/work/work-card-image-uxbrighton.png",
+            "Outside view of accommodation building",
+            "600",
+            "400")
+          -}}
+        </div>
         <div class="card__content">
           <header class="card__header">
             <h3 class="card__title">
@@ -33,6 +43,14 @@ updated: 2022-06-13T17:40:00
     </li>
     <li>
       <article class="card card--stacked">
+        <div class="card__visual">
+          {{- imageNormal(
+            "/assets/images/pages/work/work-card-image-btp.png",
+            "Outside view of accommodation building",
+            "600",
+            "400")
+          -}}
+        </div>
         <div class="card__content">
           <header class="card__header">
             <h3 class="card__title">
@@ -49,6 +67,14 @@ updated: 2022-06-13T17:40:00
     </li>
     <li>
       <article class="card card--stacked">
+        <div class="card__visual">
+          {{- imageNormal(
+            "/assets/images/pages/work/bench--thumbnail.jpg",
+            "Outside view of accommodation building",
+            "600",
+            "400")
+          -}}
+        </div>
         <div class="card__content">
           <header class="card__header">
             <h3 class="card__title">PAC Handyman Services</h3>
@@ -71,6 +97,17 @@ updated: 2022-06-13T17:40:00
   <ul role="list" class="auto-grid | no-list">
     <li>
       <article class="card card--stacked">
+        <div class="card__visual">
+          {{- imageNormal(
+            "/assets/images/pages/work/bench--thumbnail.jpg",
+            "Outside view of accommodation building",
+            "600",
+            "400",
+            false,
+            false,
+            "lazy")
+          -}}
+        </div>
         <div class="card__content">
           <header class="card__header">
             <h3 class="card__title">
@@ -87,6 +124,17 @@ updated: 2022-06-13T17:40:00
     </li>
     <li>
       <article class="card card--stacked">
+        <div class="card__visual">
+          {{- imageNormal(
+            "/assets/images/pages/work/bench--thumbnail.jpg",
+            "Outside view of accommodation building",
+            "600",
+            "400",
+            false,
+            false,
+            "lazy")
+          -}}
+        </div>
         <div class="card__content">
           <header class="card__header">
             <h3 class="card__title">
@@ -103,6 +151,17 @@ updated: 2022-06-13T17:40:00
     </li>
     <li>
       <article class="card card--stacked">
+        <div class="card__visual">
+          {{- imageNormal(
+            "/assets/images/pages/work/bench--thumbnail.jpg",
+            "Outside view of accommodation building",
+            "600",
+            "400",
+            false,
+            false,
+            "lazy")
+          -}}
+        </div>
         <div class="card__content">
           <header class="card__header">
             <h3 class="card__title">
@@ -119,6 +178,17 @@ updated: 2022-06-13T17:40:00
     </li>
     <li>
       <article class="card card--stacked">
+        <div class="card__visual">
+          {{- imageNormal(
+            "/assets/images/pages/work/bench--thumbnail.jpg",
+            "Outside view of accommodation building",
+            "600",
+            "400",
+            false,
+            false,
+            "lazy")
+          -}}
+        </div>
         <div class="card__content">
           <header class="card__header">
             <h3 class="card__title">
@@ -134,6 +204,17 @@ updated: 2022-06-13T17:40:00
     </li>
     <li>
       <article class="card card--stacked">
+        <div class="card__visual">
+          {{- imageNormal(
+            "/assets/images/pages/work/bench--thumbnail.jpg",
+            "Outside view of accommodation building",
+            "600",
+            "400",
+            false,
+            false,
+            "lazy")
+          -}}
+        </div>
         <div class="card__content">
           <header class="card__header">
             <h3 class="card__title">
@@ -149,6 +230,17 @@ updated: 2022-06-13T17:40:00
     </li>
     <li>
       <article class="card card--stacked">
+        <div class="card__visual">
+          {{- imageNormal(
+            "/assets/images/pages/work/bench--thumbnail.jpg",
+            "Outside view of accommodation building",
+            "600",
+            "400",
+            false,
+            false,
+            "lazy")
+          -}}
+        </div>
         <div class="card__content">
           <header class="card__header">
             <h3 class="card__title">Time Inc. UK</h3>
@@ -163,6 +255,17 @@ updated: 2022-06-13T17:40:00
     </li>
     <li>
       <article class="card card--stacked">
+        <div class="card__visual">
+          {{- imageNormal(
+            "/assets/images/pages/work/bench--thumbnail.jpg",
+            "Outside view of accommodation building",
+            "600",
+            "400",
+            false,
+            false,
+            "lazy")
+          -}}
+        </div>
         <div class="card__content">
           <header class="card__header">
             <h3 class="card__title">Pegasus</h3>
@@ -177,6 +280,17 @@ updated: 2022-06-13T17:40:00
     </li>
     <li>
       <article class="card card--stacked">
+        <div class="card__visual">
+          {{- imageNormal(
+            "/assets/images/pages/work/bench--thumbnail.jpg",
+            "Outside view of accommodation building",
+            "600",
+            "400",
+            false,
+            false,
+            "lazy")
+          -}}
+        </div>
         <div class="card__content">
           <header class="card__header">
             <h3 class="card__title">
@@ -193,6 +307,17 @@ updated: 2022-06-13T17:40:00
     </li>
     <li>
       <article class="card card--stacked">
+        <div class="card__visual">
+          {{- imageNormal(
+            "/assets/images/pages/work/bench--thumbnail.jpg",
+            "Outside view of accommodation building",
+            "600",
+            "400",
+            false,
+            false,
+            "lazy")
+          -}}
+        </div>
         <div class="card__content">
           <header class="card__header">
             <h3 class="card__title">

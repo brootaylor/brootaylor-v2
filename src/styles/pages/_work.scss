@@ -40,10 +40,15 @@
 
   .card {
     background: var(--grey-light);
-    padding: 1em;
-    border: 1px solid var(--grey-mid);
+    // border: 1px solid var(--grey-mid);
     min-height: 100%;
     box-shadow: -4px 4px 0px 1px rgb($grey-dark, 0.2);
+
+    &__content {
+      padding: 1em;
+      border: 1px solid var(--grey-mid);
+      border-width: 0 1px 1px;
+    }
 
     &__title {
       font-size: convert-to-rem(24px);
