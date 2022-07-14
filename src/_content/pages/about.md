@@ -10,7 +10,7 @@ lead:
 bodyClass: "about"
 
 date: 2020-04-24T19:33:00
-updated: 2022-02-22T16:50:00
+updated: 2022-07-14T22:26:00
 ---
 
 My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 teenage children. 2 sons and a daughter.
@@ -29,7 +29,7 @@ I absolutely [adore aircraft](/photos/2022-03-30/photo_202203301354) and still p
 
 ## What I'm reading
 
-I'm a sucker for fantasy. The feeling of been transported to another world is intoxicating. Currently I'm making my way through "[Dune](https://www.goodreads.com/book/show/44767458-dune)" by Frank Herbert.
+I'm a sucker for fantasy. The feeling of been transported to another world is intoxicating. Currently I'm making my way through Philip C. Quaintrell's new fantasy series, "[The Ranger Archives](https://www.philipcquaintrell.com/books)".
 
 Jeremy Wagner's "[Responsible JavaScript](https://abookapart.com/products/responsible-javascript)" is also on the go and I think it's a much needed read at this time in the web building industry.
 

@@ -9,7 +9,7 @@ lead:
 bodyClass: "reading"
 
 date: 2022-03-03T15:32:00
-updated: 2022-03-03T22:45:00
+updated: 2022-07-14T22:26:00
 ---
 
 Because I've never kept a list of my reads &mdash; *(naughty I know!)* &mdash; I've ended up creating a bit of a challenge for myself that's for sure. Trying to recall all the books I've read and enjoyed feels like a bit of a daunting task but I'm keen to at least make a decent stab at it.
@@ -22,7 +22,7 @@ I'll be adding to the *"Have Read"* section as and when I remember any books I'v
 
 Books on the go at the moment.
 
-* [Dune](https://www.goodreads.com/book/show/44767458-dune), *Frank Herbert*
+* [The Ranger Archives](https://www.philipcquaintrell.com/books), *Philip C. Quaintrell*
 * [Responsible JavaScript](https://abookapart.com/products/responsible-javascript), *Jeremy Wagner*
 * [Overshoot: The Ecological Basis of Revolutionary Change](https://www.goodreads.com/en/book/show/319810.Overshoot), *William R. Catton*
 
@@ -30,7 +30,7 @@ Books on the go at the moment.
 
 * [Green Lights](https://greenlights.com/), *Matthew McConaughey*
 * [Accessibility For Everyone](https://abookapart.com/products/accessibility-for-everyone), *Laura Kalbag*
-* [The Ranger Archives](https://www.philipcquaintrell.com/books), *Philip C. Quaintrell*
+* [Dune](https://www.goodreads.com/book/show/44767458-dune), *Frank Herbert*
 
 ---
 
@@ -38,6 +38,7 @@ Books on the go at the moment.
 
 Books I've read. But more importantly, enjoyed and would therefore recommend.
 
+* [Opening Men's Eyes](https://www.goodreads.com/book/show/10105541-opening-men-s-eyes), *Michael Cardo*
 * [The Echoes Saga](https://www.philipcquaintrell.com/books), *Philip C. Quaintrell*
 * [Bitten By a Camel: Leaving Church, Finding God](https://www.goodreads.com/en/book/show/34763102-bitten-by-a-camel), *Kent Dobson*
 * [The Universal Christ](https://universalchrist.cac.org/), *Richard Rohr*
