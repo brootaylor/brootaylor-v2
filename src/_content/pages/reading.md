@@ -28,6 +28,7 @@ Books on the go at the moment.
 
 ***Possible*** next reads&hellip;
 
+* [Do I Stay Christian?](https://read.macmillan.com/lp/do-i-stay-christian/), *Brian McLaren*
 * [Green Lights](https://greenlights.com/), *Matthew McConaughey*
 * [Accessibility For Everyone](https://abookapart.com/products/accessibility-for-everyone), *Laura Kalbag*
 * [Dune](https://www.goodreads.com/book/show/44767458-dune), *Frank Herbert*
