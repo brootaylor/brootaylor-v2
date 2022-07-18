@@ -10,7 +10,7 @@ lead:
 bodyClass: "about"
 
 date: 2020-04-24T19:33:00
-updated: 2022-02-22T16:50:00
+updated: 2022-07-15T23:00:00
 ---
 
 My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 teenage children. 2 sons and a daughter.
@@ -29,7 +29,7 @@ I absolutely [adore aircraft](/photos/2022-03-30/photo_202203301354) and still p
 
 ## What I'm reading
 
-I'm a sucker for fantasy. The feeling of been transported to another world is intoxicating. Currently I'm making my way through "[Dune](https://www.goodreads.com/book/show/44767458-dune)" by Frank Herbert.
+I'm a sucker for fantasy. The feeling of been transported to another world is intoxicating. Currently I'm making my way through Philip C. Quaintrell's new fantasy series, "[The Ranger Archives](https://www.philipcquaintrell.com/books)".
 
 Jeremy Wagner's "[Responsible JavaScript](https://abookapart.com/products/responsible-javascript)" is also on the go and I think it's a much needed read at this time in the web building industry.
 
@@ -43,13 +43,13 @@ Here's a selection of [books I've read](/reading) over the past few years.
 
 I build websites.
 
-I spend a lot of my time writing / creating the HTML, CSS, and presentational JavaScript code that makes up a user interface. User-centricity is very important to me when developing a web solution. Which means I have a keen focus on [responsive design](https://alistapart.com/article/responsive-web-design) & [intrinsic design](https://talks.jensimmons.com/15TjNW), [progressive enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement), [semantic markup](https://www.w3.org/TR/WCAG20-TECHS/G115.html), [accessibility](https://www.w3.org/TR/WCAG20/), [web standards](https://www.w3.org/standards/) and [performance](https://developer.mozilla.org/en-US/docs/Learn/Performance).
+My core skills are semantic HTML & CSS, responsive design, progressively enhanced JS, <abbr title="Progressive Web Apps">PWAs</abbr>, web performance, web accessibility, static site generation, Svelte & Vue.js; as well as striving to put the user first.
 
-Primarily I work on the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)". This is my preference and certainly plays to my strengths. However, I'm often found with my hands in the "*back-of-the-front-end*" and DevOps stuff as well - (eg. JavaScript bundlers, deployment tooling, <abbr title="Continuous Integration">CI</abbr>/<abbr title="Continuous Deployment">CD</abbr> etc.).
+Primarily I work on the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)". This is my preference and certainly plays to my strengths. However, I'm often found with my hands in the "*back-of-the-front-end*" and some DevOps stuff as well - (eg. JavaScript bundlers, deployment tooling, <abbr title="Continuous Integration">CI</abbr>/<abbr title="Continuous Deployment">CD</abbr> etc.).
 
 My aim is to build web solutions that are [resilient](https://resilientwebdesign.com/), [usable](https://trentwalton.com/2014/03/10/device-agnostic/) and as future-friendly as possible. For this reason I *prefer* a vanilla approach and tend to steer clear of using JavaScript frameworks if I can help it. Not that I have anything against JavaScript frameworks. I think they can be wonderfully powerful tools if we first keep the end user in mind &mdash; rather than *only* prioritising the developer experience. At the moment I don't think we're getting that balance quite right.
 
-Saying that, I think frameworks like [Svelte](https://svelte.dev/), [Astro](https://astro.build/), (and possibly [Vue.js](https://vuejs.org/)), are helping redress this imbalance.
+Saying that, if a JavaScript framework seems to be a needed / necessary tool on a web project, I think frameworks like [Svelte](https://svelte.dev/) and possibly [Vue.js](https://vuejs.org/) are helping redress this imbalance. Especially when used with their meta framework counterparts [SvelteKit](https://kit.svelte.dev/) and [Nuxt](https://nuxtjs.org/).
 
 Here's a bit more about some of the [work I've done](/work).
 
@@ -65,7 +65,7 @@ These days, my role often involves collaborating with designers to ensure that t
 
 ## Webby stuff I'm enjoying
 
-[Eleventy](https://www.11ty.io/), [Astro](https://astro.build/), [Svelte](https://svelte.dev/), [Netlify](https://www.netlify.com/), [Fractal](https://fractal.build/) and [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) animation using [GreenSock](https://greensock.com/) are proving really enjoyable to work with and have restored some of the magic of building websites again.
+[Eleventy](https://www.11ty.io/), [Astro](https://astro.build/), [Svelte](https://svelte.dev/), [Netlify](https://www.netlify.com/), [Netlify CMS](https://www.netlifycms.org/), [Fractal](https://fractal.build/), [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) animation using [GreenSock](https://greensock.com/), and [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components) are proving really enjoyable to work with and have restored some of the magic of building websites again.
 
 ---
 
@@ -79,9 +79,11 @@ I also use it as a platform for experimenting with newer frontend web technologi
 
 If you have any issues, questions or spot any spelling mistakes(!), I'd appreciate it if you could let me know by submitting a [GitHub issue](https://github.com/brootaylor/brootaylor-v2/issues), or by [emailing me directly](/contact).
 
-I've also written about my decision to [redesign & develop my website in the open](/writing/2020-02-22/redesigning-in-the-open) which has both been fun and scary. Not least because I'm a bit of a perfectionist and doing it this way has helped wean me off the need to have things completely polished before showing them.
+I've also written about my decision to [redesign & develop my website in the open](/writing/2022-02-22/redesigning-in-the-open) which has both been fun and scary. Not least because I'm a bit of a perfectionist and doing it this way has helped wean me off the need to have things completely polished before showing them.
 
 More information about the technology used to make this website is available in this [<code>humans.txt</code> file](https://brootaylor.com/humans.txt).
+
+<abbr title="By the way.">*BTW*</abbr>, there's no tracking happening on this site. 👀
 
 ---
 
