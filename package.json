@@ -30,6 +30,8 @@
     "eleventy:ntl-dev": "npm run netlify-dev --w=sites/eleventy",
     "eleventy:ntl-dev-live": "npm run netlify-dev:live --w=sites/eleventy",
     "eleventy:ntl-cms-local": "npm run netlify-cms:local --w=sites/eleventy",
+    "astro:build": "npm run build --w=sites/astro",
+    "astro:dev": "npm run dev --w=sites/astro",
     "dependency:updates": "ncu -i --deep"
   },
   "dependencies": {

@@ -1,19 +1,14 @@
 {
-  "name": "brootaylor-v2-astro",
-  "version": "1.0.0",
-  "description": "Version 2 of my personal website, brootaylor.com. Built in Astro.",
-  "main": "index.js",
+  "name": "@example/basics",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified for astro\" && exit 1"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/brootaylor/brootaylor-v2.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/brootaylor/brootaylor-v2/issues"
-  },
-  "homepage": "https://github.com/brootaylor/brootaylor-v2/sites/astro#readme"
+  "devDependencies": {
+    "astro": "^1.0.0-beta.73"
+  }
 }
