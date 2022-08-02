@@ -92,7 +92,7 @@
 	alt="{{ alt }}."
 	width="{{ width }}"
 	height="{{ height }}"
-	class="img-normal{% if position %} | {{ position }}{% endif %}{% if shadow %} | shadow{% endif %}"
+	class="img-normal{% if position %} | {{ position }}{% endif %}{% if objFit %} | obj-fit{% endif %}{% if shadow %} | shadow{% endif %}"
 	{%- if lazyLoad == 'lazy' %}
 		loading="lazy"
 		decoding="async"
