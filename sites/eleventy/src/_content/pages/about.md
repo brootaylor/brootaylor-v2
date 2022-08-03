@@ -10,7 +10,7 @@ lead:
 bodyClass: "about"
 
 date: 2020-04-24T19:33:00
-updated: 2022-07-15T23:00:00
+updated: 2022-08-03T21:33:00
 ---
 
 My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 teenage children. 2 sons and a daughter.
@@ -35,7 +35,7 @@ Jeremy Wagner's "[Responsible JavaScript](https://abookapart.com/products/respon
 
 William R. Catton's "[Overshoot: The Ecological Basis of Revolutionary Change](https://www.goodreads.com/en/book/show/319810.Overshoot)" is blowing my mind quite a bit. I'd say I'm enjoying it but that wouldn't be truthful. I think it's more honest to say that it's probably turning out to be one of the most important reads of my life &ndash; but in a disturbingly and unnervingly profound sort of way.
 
-Here's a selection of [books I've read](/reading) over the past few years.
+Here's a selection of some other [books I've read](/reading) over the past few years.
 
 ---
 
@@ -65,7 +65,7 @@ These days, my role often involves collaborating with designers to ensure that t
 
 ## Webby stuff I'm enjoying
 
-[Eleventy](https://www.11ty.io/), [Astro](https://astro.build/), [Svelte](https://svelte.dev/), [Netlify](https://www.netlify.com/), [Netlify CMS](https://www.netlifycms.org/), [Fractal](https://fractal.build/), [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) animation using [GreenSock](https://greensock.com/), and [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components) are proving really enjoyable to work with and have restored some of the magic of building websites again.
+[Eleventy](https://www.11ty.io/), [Astro](https://astro.build/), [Svelte](https://svelte.dev/), [Vite](https://vitejs.dev/), [Netlify](https://www.netlify.com/), [Netlify CMS](https://www.netlifycms.org/), [Fractal](https://fractal.build/), [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) animation using [GreenSock](https://greensock.com/), and [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components) are proving really enjoyable to work with and have restored some of the magic of building websites again.
 
 ---
 
