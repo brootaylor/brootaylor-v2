@@ -1,6 +1,7 @@
 {
-  "name": "@example/basics",
+  "name": "@brootaylor-v2/astro",
   "version": "0.0.1",
+  "description": "Version 2 of my personal website, brootaylor.com. Built in Astro.",
   "private": true,
   "scripts": {
     "dev": "astro dev",
