@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Monorepo of my personal website, brootaylor.com.",
   "workspaces": [
-    "sites/astro",
-    "sites/eleventy"
+    "sites/*"
   ],
   "repository": {
     "type": "git",
@@ -32,6 +31,10 @@
     "eleventy:ntl-cms-local": "npm run netlify-cms:local --w=sites/eleventy",
     "astro:build": "npm run build --w=sites/astro",
     "astro:dev": "npm run dev --w=sites/astro",
+    "all:build": "run-s eleventy:build astro:build",
+    "all:netlify-build": "run-s eleventy:ntl-build",
+    "all:netlify-deploy": "run-s eleventy:deploy-build",
+    "all:dev": "run-p eleventy:ntl-dev astro:dev",
     "dependency:updates": "ncu -i --deep"
   },
   "dependencies": {
