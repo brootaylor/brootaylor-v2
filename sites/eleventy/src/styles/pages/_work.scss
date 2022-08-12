@@ -60,5 +60,14 @@
         @include font-size(18px);
       }
     }
+
+    &__footer {
+      margin-top: 1em;
+
+      p {
+        @include font-size(14px);
+        font-style: italic;
+      }
+    }
   }
 }
