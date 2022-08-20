@@ -4,7 +4,7 @@ module.exports = {
   name: 'Bruce Taylor',
   short_name: 'BWT',
   metaTitle: 'Bruce Taylor',
-  metaDescription: 'Frontend Web Developer and UI Engineer.',
+  metaDescription: 'An independent Web Developer & UI Engineer.',
   metaImage: '/assets/images/common/logo.png',
   metaImageAlt: 'Site logo for Bruce Taylor.',
   logoAlt: 'Site logo for Bruce Taylor.',
@@ -34,7 +34,7 @@ module.exports = {
   dateTimeNow: DateTime.local().toFormat('dd LLLL yyyy @ t'),
   timeCurrent: DateTime.local().diff(DateTime.local(1982, 5, 25)).milliseconds,
   siteMessage: true, // A message 'bar' appears on the pages
-  siteTheme: 'theme-ukraine', // Eg. if wanting to theme site to support Ukraine
+  siteTheme: 'theme-default', // Eg. if wanting to theme site to support Ukraine `theme-ukraine`
   author: {
     name: 'Bruce Taylor',
     url: 'https://brootaylor.com',

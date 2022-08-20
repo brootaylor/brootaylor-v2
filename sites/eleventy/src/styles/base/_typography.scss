@@ -297,11 +297,11 @@ article {
     @include font-size(24px);
 
       @include min-width($breakpoint-medium) {
-        @include font-size(28px);
+        @include font-size(26px);
       }
 
       @include min-width($breakpoint-large) {
-        @include font-size(32px);
+        @include font-size(28px);
       }
 
     // An <hr> that's a sibling of the `lead` element

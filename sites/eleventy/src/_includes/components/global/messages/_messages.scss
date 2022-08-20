@@ -8,20 +8,21 @@
 
   text-align: center;
   position: sticky;
-  top: 4.3rem;
+  top: 3.8rem;
   padding: 1rem;
-  margin-top: -1.5rem;
+  margin-top: -2rem;
   margin-bottom: 2rem;
+  border-top: 1px solid var(--white);
   /* offset-x | offset-y | blur-radius | spread-radius | color */
   box-shadow: 0 2px 0 1px rgb($grey-dark, 0.2);
 
     // Creates an offset type look using these negative margins...
     @include min-width($breakpoint-medium) {
-      margin-top: -2.5rem;
+      margin-top: -3rem;
     }
 
     @include min-width($breakpoint-large) {
-      margin-top: -2rem;
+      margin-top: -2.5rem;
       margin-left: -0.75rem;
       margin-right: -0.75rem;
     }
@@ -40,5 +41,19 @@
   &--alert {
     --message-text: var(--black);
     --message-background: var(--orange-custom);
+  }
+
+  // Ukraine theme overrides...
+  .theme-ukraine & {
+    top: 4.3rem;
+    margin-top: -1.5rem;
+
+    @include min-width($breakpoint-medium) {
+      margin-top: -2.5rem;
+    }
+
+    @include min-width($breakpoint-large) {
+      margin-top: -2rem;
+    }
   }
 }

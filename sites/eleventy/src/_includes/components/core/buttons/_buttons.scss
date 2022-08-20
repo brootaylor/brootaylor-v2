@@ -16,8 +16,8 @@ input {
     text-decoration: unset;
     background-color: var(--green-custom);
     outline: none;
-    border: 0;
-    border-radius: 4px;
+    border: 1px solid rgba($white, 0.1);
+    box-shadow: 5px 5px var(--grey-dark);
     cursor: pointer;
     transition: background-color 0.1s ease;
 

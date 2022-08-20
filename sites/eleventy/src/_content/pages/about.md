@@ -10,10 +10,10 @@ lead:
 bodyClass: "about"
 
 date: 2020-04-24T19:33:00
-updated: 2022-08-03T21:33:00
+updated: 2022-08-20T23:36:00
 ---
 
-My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 teenage children. 2 sons and a daughter.
+My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 children. 2 sons and a daughter.
 
 I write now and then and have [written a few posts](/writing), [jotted down some notes](/notes), and [bookmarked links to articles](/bookmarks) I've enjoyed and found interesting. Hopefully some of them will resonate with you.
 
@@ -43,15 +43,16 @@ Here's a selection of some other [books I've read](/reading) over the past few y
 
 I build websites.
 
-My core skills are semantic HTML & CSS, responsive design, progressively enhanced JS, <abbr title="Progressive Web Apps">PWAs</abbr>, web performance, web accessibility, static site generation, Svelte & Vue.js; and generally trying my best to put the user first.
+My core skills are semantic HTML & CSS, responsive design, progressively enhanced JS, <abbr title="Progressive Web Apps">PWAs</abbr>, web performance, web accessibility, static site generation, Eleventy, Astro & Svelte &mdash; and generally trying my best to put the user first.
 
 Primarily I work on the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)". This is my preference and certainly plays to my strengths. However, I'm often found with my hands in the "*back-of-the-front-end*" and some DevOps stuff as well - (eg. JavaScript bundlers, deployment tooling, <abbr title="Continuous Integration">CI</abbr>/<abbr title="Continuous Deployment">CD</abbr> etc.).
 
 My aim is to build web solutions that are [resilient](https://resilientwebdesign.com/), [usable](https://trentwalton.com/2014/03/10/device-agnostic/) and as future-friendly as possible. For this reason I *prefer* a vanilla approach and tend to steer clear of using JavaScript frameworks if I can help it. Not that I have anything against JavaScript frameworks. I think they can be wonderfully powerful tools if we first keep the end user in mind &mdash; rather than *only* prioritising the developer experience. At the moment I don't think we're getting that balance quite right.
 
-Saying that, if a JavaScript framework seems to be a needed / necessary tool on a web project, I think frameworks like [Svelte](https://svelte.dev/) and possibly [Vue.js](https://vuejs.org/) are helping redress this imbalance. Especially when used with their meta framework counterparts [SvelteKit](https://kit.svelte.dev/) and [Nuxt](https://nuxtjs.org/).
-
 Here's a bit more about some of the [work I've done](/work).
+
+{% from "components/core/buttons/buttons.njk" import button %}
+{{ button(false, 'button--primary', '/BruceTaylorCV.pdf', 'Download my CV') }}
 
 ---
 
