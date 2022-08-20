@@ -37,6 +37,9 @@
 {# Displaying the build number / version #}
 <meta name="build" content="{{ pkg.version }}.{{ site.timeCurrent }}">
 
+{# Displaying the version of Eleventy used to generate this website #}
+<meta name="generator" content="{{ eleventy.generator }}">
+
 <!-- Preloading styles & fonts... -->
 {# Styles (pre-load)... #}
 <link rel="preload" as="style" href="/styles/main.css?version={{ pkg.version }}.{{ site.timeCurrent }}">
