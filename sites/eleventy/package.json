@@ -53,9 +53,9 @@
     "debug": "DEBUG=* npx eleventy"
   },
   "dependencies": {
-    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy": "^1.0.2",
     "@11ty/eleventy-img": "^2.0.1",
-    "@11ty/eleventy-navigation": "^0.3.4",
+    "@11ty/eleventy-navigation": "^0.3.5",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.1.0",
     "@babel/core": "^7.18.10",
@@ -68,17 +68,17 @@
     "@rollup/plugin-replace": "^4.0.0",
     "autoprefixer": "^10.4.8",
     "babel-plugin-transform-remove-console": "^6.9.4",
-    "date-fns": "^2.29.1",
+    "date-fns": "^2.29.2",
     "html-minifier": "^4.0.0",
     "json-to-scss": "^1.6.2",
     "lodash": "^4.17.21",
     "luxon": "^3.0.1",
     "postcss": "^8.4.16",
     "postcss-cli": "^10.0.0",
-    "postcss-preset-env": "^7.7.2",
-    "rollup": "^2.78.0",
+    "postcss-preset-env": "^7.8.0",
+    "rollup": "^2.78.1",
     "rollup-plugin-terser": "^7.0.2",
-    "sass": "^1.54.4",
+    "sass": "^1.54.5",
     "slugify": "^1.6.5"
   },
   "devDependencies": {

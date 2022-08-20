@@ -29,6 +29,8 @@
     "eleventy:ntl-dev": "npm run netlify-dev --w=sites/eleventy",
     "eleventy:ntl-dev-live": "npm run netlify-dev:live --w=sites/eleventy",
     "eleventy:ntl-cms-local": "npm run netlify-cms:local --w=sites/eleventy",
+    "eleventy:ntl-deploy-draft": "npm run netlify-deploy:draft --w=sites/eleventy",
+    "eleventy:ntl-deploy-production": "npm run netlify-deploy:production --w=sites/eleventy",
     "astro:build": "npm run build --w=sites/astro",
     "astro:dev": "npm run dev --w=sites/astro",
     "all:build": "run-s eleventy:build astro:build",
@@ -46,7 +48,7 @@
   },
   "devDependencies": {
     "jest": "^28.1.3",
-    "netlify-cli": "^10.17.4",
+    "netlify-cli": "^11.3.0",
     "onchange": "^7.1.0"
   }
 }
