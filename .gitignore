@@ -1,7 +1,6 @@
 # Directories to ignore
 node_modules
 .vscode
-docs
 
 # Files to ignore
 .DS_Store

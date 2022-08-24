@@ -2,7 +2,7 @@
 node_modules
 .vscode
 dist
-docs
+/docs
 
 # Files to ignore
 .DS_Store
