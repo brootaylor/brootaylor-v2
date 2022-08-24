@@ -18,6 +18,21 @@
   status = 301
   force = true
 
+# Alias URLs pointing at primary domain & redirected as well
+# ========================================================================
+# NOTE: These require the DNS records to be updated to point to Netlify.
+[[redirects]]
+  from = "https://brootaylor.co.uk/*"
+  to = "https://brootaylor.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.brootaylor.co.uk/*"
+  to = "https://brootaylor.com/:splat"
+  status = 301
+  force = true
+
 # ########################################################################
 # Page redirects
 # ========================================================================
@@ -26,9 +41,3 @@
   from = "/*"
   to = "/error/404"
   status = 404
-
-[[redirects]]
-  from = "/BruceTaylorCV.pdf"
-  to = "/assets/docs/cv/BruceTaylorCV.pdf"
-  status = 301
-  force = true
