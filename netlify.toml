@@ -8,6 +8,16 @@
   # If not set, defaults to the root directory.
   base = "/"
 
+## ########################################################################
+# Redirect rule to point temporary Netlify URL to preferred domain name
+# ========================================================================
+# NOTE: This requires the DNS records to be updated to point to Netlify.
+[[redirects]]
+  from = "https://brootaylorv2.netlify.app/*"
+  to = "https://brootaylor.com/:splat"
+  status = 301
+  force = true
+
 # ########################################################################
 # Page redirects
 # ========================================================================
@@ -18,7 +28,7 @@
   status = 404
 
 [[redirects]]
-  from = "/assets/docs/cv/BruceTaylorCV.pdf"
-  to = "/BruceTaylorCV.pdf"
+  from = "/BruceTaylorCV.pdf"
+  to = "/assets/docs/cv/BruceTaylorCV.pdf"
   status = 301
   force = true
