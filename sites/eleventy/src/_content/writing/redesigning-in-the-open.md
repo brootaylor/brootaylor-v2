@@ -11,7 +11,7 @@ updated: 2022-08-03T21:33:00
 
 location:
   locality: "Crawley"
-  country-name: "United Kingdom"
+  country_name: "UK"
 category:
 - "web_development"
 - "technology"

@@ -8,7 +8,7 @@ date: 2022-03-08T10:48:23.382Z
 updated: 2022-03-08T10:48:23.392Z
 location:
   locality: Crawley
-  country-name: United Kingdom
+  country_name: UK
 category:
   - html
   - programming

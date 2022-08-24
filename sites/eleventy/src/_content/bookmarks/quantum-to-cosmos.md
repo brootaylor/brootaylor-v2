@@ -10,7 +10,7 @@ updated: 2021-01-14T11:42:00
 
 location:
   locality: "Crawley"
-  country-name: "United Kingdom"
+  country_name: "UK"
 category:
 - "science"
 - "cosmos"

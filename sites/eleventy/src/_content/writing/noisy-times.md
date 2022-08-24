@@ -11,7 +11,7 @@ updated: 2020-06-10T14:41:00
 
 location:
   locality: "Crawley"
-  country-name: "United Kingdom"
+  country_name: "UK"
 category:
   - "personal"
   - "journal"

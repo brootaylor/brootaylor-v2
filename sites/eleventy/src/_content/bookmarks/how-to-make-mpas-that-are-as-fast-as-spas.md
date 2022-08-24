@@ -11,7 +11,7 @@ updated: 2022-02-24T14:01:00
 
 location:
   locality: "Crawley"
-  country-name: "United Kingdom"
+  country_name: "UK"
 category:
 - "spas"
 - "mpas"

@@ -11,7 +11,7 @@ updated: 2021-01-11T14:43:00
 
 location:
   locality: "Crawley"
-  country-name: "United Kingdom"
+  country_name: "UK"
 category:
   - "personal"
   - "poem"

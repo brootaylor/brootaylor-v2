@@ -11,7 +11,7 @@ updated: 2022-03-07T17:43:00
 
 location:
   locality: "Crawley"
-  country-name: "United Kingdom"
+  country_name: "UK"
 category:
 - "frontend"
 - "performance"

@@ -11,7 +11,7 @@ updated: 2021-01-09T00:44:00
 
 location:
   locality: "Horley"
-  country-name: "United Kingdom"
+  country_name: "UK"
 category:
   - "tech"
   - "web"

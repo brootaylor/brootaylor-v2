@@ -8,7 +8,7 @@ date: 2022-04-16T08:31:23.382Z
 updated: 2022-04-16T08:31:23.382Z
 location:
   locality: Crawley
-  country-name: United Kingdom
+  country_name: UK
 category:
   - ego
   - design

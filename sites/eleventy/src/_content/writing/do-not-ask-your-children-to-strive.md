@@ -8,7 +8,7 @@ updated: 2022-01-27T00:40:00
 
 location:
   locality: "Crawley"
-  country-name: "United Kingdom"
+  country_name: "UK"
 category:
   - "personal"
   - "poem"

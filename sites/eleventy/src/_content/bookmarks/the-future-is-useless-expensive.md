@@ -11,7 +11,7 @@ updated: 2021-12-28T21:34:00
 
 location:
   locality: "Crawley"
-  country-name: "United Kingdom"
+  country_name: "UK"
 category:
 - "future"
 - "existentialism"

@@ -8,7 +8,7 @@ updated: 2020-05-27T13:20:00
 
 location:
   locality: "Crawley"
-  country-name: "United Kingdom"
+  country_name: "UK"
 category:
 - "personal"
 - "reflection"

@@ -8,7 +8,7 @@ date: 2021-03-29T13:49:19.823Z
 updated: 2021-12-21T19:02:00
 location:
   locality: Crawley
-  country-name: United Kingdom
+  country_name: UK
 eleventyExcludeFromCollections: false
 category:
   - bitcoin

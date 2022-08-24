@@ -8,7 +8,7 @@ date: 2021-09-24T16:41:47.870Z
 updated: 2021-12-21T19:02:00
 location:
   locality: Crawley
-  country-name: United Kingdom
+  country_name: UK
 eleventyExcludeFromCollections: false
 category:
   - css

@@ -11,7 +11,7 @@ updated: 2021-01-08T15:07:00
 
 location:
   locality: "Horley"
-  country-name: "United Kingdom"
+  country_name: "UK"
 category:
   - "personal"
   - "church"

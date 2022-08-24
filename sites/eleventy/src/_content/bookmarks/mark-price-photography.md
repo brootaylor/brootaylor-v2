@@ -10,7 +10,7 @@ updated: 2020-05-28T15:05:00
 
 location:
   locality: "Crawley"
-  country-name: "United Kingdom"
+  country_name: "UK"
 category:
 - "photography"
 - "inspiration"

@@ -11,7 +11,7 @@ updated: 2021-01-07T15:48:00
 
 location:
   locality: "Crawley"
-  country-name: "United Kingdom"
+  country_name: "UK"
 category:
   - "web-development"
   - "frontend"

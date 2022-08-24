@@ -9,7 +9,7 @@ date: 2021-04-06T18:09:19.823Z
 updated: 2021-12-21T19:02:00
 location:
   locality: Crawley
-  country-name: United Kingdom
+  country_name: UK
 eleventyExcludeFromCollections: false
 category:
   - HTML
