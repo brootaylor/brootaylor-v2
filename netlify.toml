@@ -1,3 +1,13 @@
+##############################
+# Build settings
+##############################
+
+[build]
+  # Directory to change to before starting a build.
+  # This is where we will look for package.json/.nvmrc/etc.
+  # If not set, defaults to the root directory.
+  base = "/"
+
 # ########################################################################
 # Page redirects
 # ========================================================================
@@ -6,3 +16,9 @@
   from = "/*"
   to = "/error/404"
   status = 404
+
+[[redirects]]
+  from = "/assets/docs/cv/BruceTaylorCV.pdf"
+  to = "/BruceTaylorCV.pdf"
+  status = 301
+  force = true
