@@ -34,10 +34,10 @@
     "astro:build": "npm run build --w=sites/astro",
     "astro:dev": "npm run dev --w=sites/astro",
     "all:build": "run-s eleventy:build astro:build",
-    "all:netlify-build": "run-s eleventy:ntl-build",
-    "all:netlify-deploy": "run-s eleventy:deploy-build",
+    "all:ntl-build": "run-s eleventy:ntl-build",
+    "all:ntl-deploy": "run-s eleventy:deploy-build",
     "all:dev": "run-p eleventy:ntl-dev astro:dev",
-    "packages:update": "ncu -i --deep --format group"
+    "packages:update": "ncu --deep"
   },
   "dependencies": {
     "cross-env": "^7.0.3",
@@ -47,7 +47,7 @@
     "rimraf": "^3.0.2"
   },
   "devDependencies": {
-    "jest": "^29.0.1",
+    "jest": "^29.0.2",
     "netlify-cli": "^11.5.1",
     "onchange": "^7.1.0"
   }
