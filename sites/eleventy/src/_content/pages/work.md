@@ -26,7 +26,7 @@ updated: 2022-08-20T23:45:00
             <span class="date-time">Year: 2022 <small>(contract, current)</small></span>
           </header>
           <div class="card__body | flow">
-            <p>Migrating one of Currys' subsidiary brand websites to a newer platform.</p>
+            <p>Migrating one of Currys' subsidiary brand websites &mdash; <a href="https://www.carphonewarehouse.com/">Carphone Warehouse</a> &mdash; to a newer platform.</p>
           </div>
         </div>
       </article>
@@ -43,20 +43,6 @@ updated: 2022-08-20T23:45:00
           <div class="card__body | flow">
             <p>Working with <a href="http://dannyhope.co.uk/">Danny Hope</a> and the UX Brighton content team to enhance and optimise their user interface and overall website experience.</p>
             <p>Also implementing a CMS solution to allow content to be more easily managed.</p>
-          </div>
-        </div>
-      </article>
-    </li>
-    <li>
-      <article class="card card--stacked">
-        <div class="card__content">
-          <header class="card__header">
-            <h3 class="card__title">PAC Handyman Services</h3>
-            <span class="date-time">Year: 2022 <small>(freelance, current)</small></span>
-          </header>
-          <div class="card__body | flow">
-            <p>PAC Handyman Services is a local solution to everyday building, maintenance and installation projects within the home and garden.</p>
-            <p>We're doing a complete redesign and redevelopment of their website.</p>
           </div>
         </div>
       </article>
@@ -113,7 +99,6 @@ updated: 2022-08-20T23:45:00
           <div class="card__body | flow">
             <p>Built new, modern, and fast PWA B2B websites for IAG Loyalty.</p>
             <p>Big focus on usability, accessibility, progressive enhancement, performance & resilience.</p>
-            <!-- <p><small><strong>NOTE</strong>: The current corporate B2B website isn't the one I originally built for them.</small></p> -->
           </div>
           <footer class="card__footer">
             <p><strong>NOTE:</strong> The current corporate B2B website isn't the one I originally built for them.</p>
@@ -175,9 +160,11 @@ updated: 2022-08-20T23:45:00
             <span class="date-time">Year: 2016 <small>(contract)</small></span>
           </header>
           <div class="card__body | flow">
-            <p>Since I last worked with them, they've now been taken over by <a href="https://www.futureplc.com/">Future plc</a>.</p>
             <p>It was a fun & collaborative team environment at Time Inc. UK. I was one of the Frontend Developers, developing a responsive and customisable web solution on their WordPress Multisite application.</p>
           </div>
+          <footer class="card__footer">
+            <p><strong>NOTE:</strong> Since I last worked with them, they've now been taken over by <a href="https://www.futureplc.com/">Future plc</a>.</p>
+          </footer>
         </div>
       </article>
     </li>
@@ -189,9 +176,11 @@ updated: 2022-08-20T23:45:00
             <span class="date-time">Year: 2016 <small>(contract)</small></span>
           </header>
           <div class="card__body | flow">
-            <p>Since I last worked with them, they've become <a href="https://mindplusmatter.com/">Mind+Matter</a>.</p>
             <p>Developed & enhanced brochure websites for Pegasus’ healthcare clients.</p>
           </div>
+          <footer class="card__footer">
+            <p><strong>NOTE:</strong> Since I last worked with them, they've become <a href="https://mindplusmatter.com/">Mind+Matter</a>.</p>
+          </footer>
         </div>
       </article>
     </li>
