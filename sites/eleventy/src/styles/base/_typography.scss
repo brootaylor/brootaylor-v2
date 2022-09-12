@@ -132,7 +132,7 @@ h3 {
 
 h1 {
   // Fallback for older browsers
-  font-size: convert-to-rem(40px);
+  font-size: convert-to-rem(36px);
 
   // Browsers supporting `clamp()`
   @supports (font-size: clamp(36px, 5vw, 50px)) {
@@ -167,8 +167,8 @@ h2 {
   font-size: convert-to-rem(28px);
 
   // Browsers supporting `clamp()`
-  @supports (font-size: clamp(28px, 5vw, 34px)) {
-    font-size: clamp(#{convert-to-rem(28px)}, 5vw, #{convert-to-rem(34px)});
+  @supports (font-size: clamp(28px, 3vw, 34px)) {
+    font-size: clamp(#{convert-to-rem(28px)}, 3vw, #{convert-to-rem(34px)});
   }
 }
 
@@ -177,8 +177,8 @@ h3 {
   font-size: convert-to-rem(24px);
 
   // Browsers supporting `clamp()`
-  @supports (font-size: clamp(24px, 5vw, 28px)) {
-    font-size: clamp(#{convert-to-rem(24px)}, 5vw, #{convert-to-rem(28px)});
+  @supports (font-size: clamp(24px, 3vw, 28px)) {
+    font-size: clamp(#{convert-to-rem(24px)}, 3vw, #{convert-to-rem(28px)});
   }
 }
 
@@ -186,16 +186,14 @@ p,
 ul:not(.navigation__list), // Not the primary navigation list element
 ol,
 pre {
-  @include font-size(18px);
+  // Fallback for older browsers
+  font-size: convert-to-rem(18px);
   max-width: 65ch;
 
-    @include min-width($breakpoint-medium) {
-      @include font-size(20px);
-    }
-
-    @include min-width($breakpoint-large) {
-      @include font-size(22px);
-    }
+  // Browsers supporting `clamp()`
+  @supports (font-size: clamp(18px, 1.9vw, 22px)) {
+    font-size: clamp(#{convert-to-rem(18px)}, 1.9vw, #{convert-to-rem(20px)});
+  }
 }
 
 // Often use this HTML element for icons...
@@ -299,15 +297,13 @@ article {
 .lead {
   // For the <p> element in a `lead` element
   p {
-    @include font-size(24px);
+    // Fallback for older browsers
+    font-size: convert-to-rem(20px);
 
-      @include min-width($breakpoint-medium) {
-        @include font-size(26px);
-      }
-
-      @include min-width($breakpoint-large) {
-        @include font-size(28px);
-      }
+    // Browsers supporting `clamp()`
+    @supports (font-size: clamp(20px, 2.5vw, 26px)) {
+      font-size: clamp(#{convert-to-rem(20px)}, 2.5vw, #{convert-to-rem(26px)});
+    }
 
     // An <hr> that's a sibling of the `lead` element
     + hr {
