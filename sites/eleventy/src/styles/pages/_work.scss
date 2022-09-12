@@ -54,6 +54,11 @@
       }
     }
 
+    &__content {
+      display: flex;
+      flex-direction: column;
+    }
+
     &__title {
       font-size: convert-to-rem(24px);
     }
@@ -67,11 +72,14 @@
     }
 
     &__footer {
-      margin-top: 1em;
+      padding-top: 1em;
+      margin-top: auto;
 
       p {
         @include font-size(14px);
         font-style: italic;
+        padding-top: 1em;
+        box-shadow: inset 0 1px var(--grey-mid);
       }
     }
   }

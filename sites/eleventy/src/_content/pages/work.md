@@ -10,7 +10,7 @@ lead:
 bodyClass: "work"
 
 date: 2021-11-22T23:34:00
-updated: 2022-09-12T16:33:00
+updated: 2022-09-12T18:45:00
 ---
 
 <section aria-labelledby="work-current" class="companies | flow">
@@ -127,13 +127,16 @@ updated: 2022-09-12T16:33:00
         <div class="card__content">
           <header class="card__header">
             <h3 class="card__title">
-              <a href="https://www.merchantcantos.com">MerchantCantos</a>
+              <a href="https://www.brunswickgroup.com">Brunswick Group</a>
             </h3>
             <span class="date-time">Year: 2017 & 2018 <small>(contract)</small></span>
           </header>
           <div class="card__body">
             <p>Developed & enhanced corporate communication websites (eg. Puma, Mondi, Greenbrier).</p>
           </div>
+          <footer class="card__footer">
+            <p><strong>NOTE:</strong> The company used to be called MerchantCantos at this time.</p>
+          </footer>
         </div>
       </article>
     </li>
