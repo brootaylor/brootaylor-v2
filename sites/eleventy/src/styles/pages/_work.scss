@@ -39,14 +39,19 @@
   }
 
   .card {
-    background: var(--grey-light);
-    border: 1px solid var(--grey-mid);
     min-height: 100%;
-    box-shadow: -4px 4px 0px 1px rgb($grey-dark, 0.2);
+    margin-bottom: 0;
 
-    &__content {
-      padding: 1em;
-      border-width: 0 1px 1px;
+    // Not cards that use the `call-out` class...
+    &:not(.call-out) {
+      background: var(--grey-light);
+      border: 1px solid var(--grey-mid);
+      box-shadow: -4px 4px 0px 1px rgb($grey-dark, 0.2);
+
+      .card__content {
+        padding: 1em;
+        border-width: 0 1px 1px;
+      }
     }
 
     &__title {

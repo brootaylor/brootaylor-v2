@@ -10,14 +10,14 @@ lead:
 bodyClass: "work"
 
 date: 2021-11-22T23:34:00
-updated: 2022-08-20T23:45:00
+updated: 2022-09-12T16:33:00
 ---
 
 <section aria-labelledby="work-current" class="companies | flow">
   <h2 id="work-current">Currently working with</h2>
   <ul role="list" class="auto-grid | no-list">
     <li>
-      <article class="card card--stacked">
+      <article class="card card--stacked call-out">
         <div class="card__content">
           <header class="card__header">
             <h3 class="card__title">
@@ -26,13 +26,13 @@ updated: 2022-08-20T23:45:00
             <span class="date-time">Year: 2022 <small>(contract, current)</small></span>
           </header>
           <div class="card__body | flow">
-            <p>Migrating one of Currys' subsidiary brand websites &mdash; <a href="https://www.carphonewarehouse.com/">Carphone Warehouse</a> &mdash; to a newer platform.</p>
+            <p>Migrating one of Currys' subsidiary brand websites &mdash; <a href="https://www.carphonewarehouse.com/">Carphone Warehouse</a> &mdash; to a newer content tech platform.</p>
           </div>
         </div>
       </article>
     </li>
     <li>
-      <article class="card card--stacked">
+      <article class="card card--stacked call-out">
         <div class="card__content">
           <header class="card__header">
             <h3 class="card__title">
