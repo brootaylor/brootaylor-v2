@@ -10,13 +10,20 @@
   position: sticky;
   top: 3.8rem;
   padding: 1rem;
-  margin-top: -2rem;
-  margin-bottom: 2rem;
   border-top: 1px solid var(--white);
   /* offset-x | offset-y | blur-radius | spread-radius | color */
   border: 2px solid var(--grey-dark);
   border-width: 1px 0 2px 0;
   box-shadow: 0 10px 0 -5px var(--green-custom), 0 20px 0 -10px var(--orange-custom);
+  margin-top: -2rem;
+
+  // Fallback for older browsers
+  margin-bottom: 3rem;
+
+  // Browsers supporting `clamp()`
+  @supports (margin-bottom: clamp(2.5rem, 5vw, 4rem)) {
+    margin-bottom: clamp(2.5rem, 5vw, 4rem);
+  }
 
     // Creates an offset type look using these negative margins...
     @include min-width($breakpoint-medium) {
