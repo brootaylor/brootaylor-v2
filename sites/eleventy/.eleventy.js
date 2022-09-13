@@ -9,6 +9,9 @@ const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const pluginNavigation = require('@11ty/eleventy-navigation')
 
+// Import (libraries)
+const markdown = require('./lib/libraries/markdown.js')
+
 // Import (filters)
 const prettyUrl = require('./lib/utils/filters/pretty-url.js')
 const dateOnly = require('./lib/utils/filters/dateOnly.js')
@@ -35,6 +38,9 @@ module.exports = function (eleventy) {
   eleventy.addPlugin(pluginSyntaxHighlight)
   eleventy.addPlugin(pluginRss)
   eleventy.addPlugin(pluginNavigation)
+
+  // Libraries
+  eleventy.setLibrary('md', markdown)
 
   // Add some utility filters
   eleventy.addFilter('pretty', prettyUrl)

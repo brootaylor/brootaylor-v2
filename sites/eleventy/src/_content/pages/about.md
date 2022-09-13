@@ -43,9 +43,9 @@ Here's a selection of some other [books I've read](/reading) over the past few y
 
 I build websites.
 
-<p class="call-out">My core skills are semantic HTML & CSS, responsive design, progressively enhanced JS, <abbr title="Progressive Web Apps">PWAs</abbr>, web performance, web accessibility, static site generation, Eleventy, Astro & Svelte &mdash; and generally trying my best to put the user first.</p>
+My core skills are semantic HTML & CSS, responsive design, progressively enhanced JS, <abbr title="Progressive Web Apps">PWAs</abbr>, web performance, web accessibility, static site generation, Eleventy, Astro & Svelte &mdash; and generally trying my best to put the user first. {.call-out}
 
-Primarily I work on the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)". This is my preference and certainly plays to my strengths. However, I'm often found with my hands in the "*back-of-the-front-end*" and some DevOps stuff as well - (eg. JavaScript bundlers, deployment tooling, <abbr title="Continuous Integration">CI</abbr>/<abbr title="Continuous Deployment">CD</abbr> etc.).
+Primarily I work on the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)". This is my preference and certainly plays to my strengths. However, I'm often found with my hands in the "*back-of-the-front-end*" and some DevOps stuff as well - (eg. JavaScript bundlers, deployment tooling, CI/CD etc.).
 
 My aim is to build web solutions that are [resilient](https://resilientwebdesign.com/), [usable](https://trentwalton.com/2014/03/10/device-agnostic/) and as future-friendly as possible. For this reason I *prefer* a vanilla approach and tend to steer clear of using JavaScript frameworks if I can help it. Not that I have anything against JavaScript frameworks. I think they can be wonderfully powerful tools if we first keep the end user in mind &mdash; rather than *only* prioritising the developer experience. At the moment I don't think we're getting that balance quite right.
 
@@ -76,7 +76,7 @@ This website has been the home of my personal blog for a fair few years. Everyth
 
 I also use it as a platform for experimenting with newer frontend web technologies & techniques &mdash; so there's every chance it may look a little 'wonky' now and then. Please forgive me if something doesn't look quite right or work properly on your screen at the moment.
 
-I resonate with Ethan when he says, [let a website be a worry stone](https://ethanmarcotte.com/wrote/let-a-website-be-a-worry-stone/).
+I resonate with Ethan when he says, [let a website be a worry stone](https://ethanmarcotte.com/wrote/let-a-website-be-a-worry-stone/). {.call-out}
 
 If you have any issues, questions or spot any spelling mistakes(!), I'd appreciate it if you could let me know by submitting a [GitHub issue](https://github.com/brootaylor/brootaylor-v2/issues), or by [emailing me directly](/contact).
 
@@ -84,7 +84,7 @@ I've also written about my decision to [redesign & develop my website in the ope
 
 More information about the technology used to make this website is available in this [<code>humans.txt</code> file](https://brootaylor.com/humans.txt).
 
-<abbr title="By the way.">*BTW*</abbr>, there's no tracking happening on this site. 👀
+*BTW*, there's no tracking happening on this site. 👀
 
 ---
 
@@ -95,3 +95,7 @@ Good on you for making it this far!
 Do you think there's a web project that I could possibly help you with? Then by all means [get in touch](/contact).
 
 I'd love to hear from you.
+
+*[CI]: Continuous Integration.
+*[CD]: Continuous Deployment.
+*[BTW]: By the way.
