@@ -8,11 +8,10 @@
 
   text-align: center;
   position: sticky;
-  top: 3.8rem;
-  padding: 1rem;
-  border-top: 1px solid var(--white);
+  top: 0;
+  padding: 1em;
   /* offset-x | offset-y | blur-radius | spread-radius | color */
-  border: 2px solid var(--grey-dark);
+  border: 1px solid var(--grey-dark);
   border-width: 1px 0 2px 0;
   box-shadow: 0 10px 0 -5px var(--green-custom), 0 20px 0 -10px var(--orange-custom);
   margin-top: -2rem;
@@ -31,6 +30,7 @@
     }
 
     @include min-width($breakpoint-large) {
+      top: 3.8rem;
       margin-top: -4rem;
       margin-left: -0.75rem;
       margin-right: -0.75rem;

@@ -10,7 +10,7 @@ lead:
 bodyClass: "work"
 
 date: 2021-11-22T23:34:00
-updated: 2022-09-12T18:45:00
+updated: 2022-09-13T16:45:00
 ---
 
 <section aria-labelledby="work-current" class="companies | flow">
@@ -41,8 +41,8 @@ updated: 2022-09-12T18:45:00
             <span class="date-time">Year: 2022 <small>(freelance, current)</small></span>
           </header>
           <div class="card__body | flow">
-            <p>Working with <a href="http://dannyhope.co.uk/">Danny Hope</a> and the UX Brighton content team to enhance and optimise their user interface and overall website experience.</p>
-            <p>Also implementing a CMS solution to allow content to be more easily managed.</p>
+            <p>Working with <a href="http://dannyhope.co.uk/">Danny Hope</a> and the UX Brighton team to enhance and optimise their user interface and overall website experience.</p>
+            <p>Also implementing a <a href="https://www.netlifycms.org/">Netlify CMS</a> solution so content can be easily managed.</p>
           </div>
         </div>
       </article>
