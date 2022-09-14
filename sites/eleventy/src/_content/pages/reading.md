@@ -9,7 +9,7 @@ lead:
 bodyClass: "reading"
 
 date: 2022-03-03T15:32:00
-updated: 2022-07-15T22:13:00
+updated: 2022-09-14T23:17:00
 ---
 
 Because I've never kept a list of my reads &mdash; *(naughty I know!)* &mdash; I've ended up creating a bit of a challenge for myself that's for sure. Trying to recall all the books I've read and enjoyed feels like a bit of a daunting task but I'm keen to at least make a decent stab at it.
@@ -22,9 +22,9 @@ I'll be adding to the *"Have Read"* section as and when I remember any books I'v
 
 Books on the go at the moment.
 
-* [The Ranger Archives](https://www.philipcquaintrell.com/books), *Philip C. Quaintrell*
-* [Responsible JavaScript](https://abookapart.com/products/responsible-javascript), *Jeremy Wagner*
+* [The Ranger Archives](https://www.philipcquaintrell.com/books) &mdash; *(3 books)*, *Philip C. Quaintrell*
 * [Overshoot: The Ecological Basis of Revolutionary Change](https://www.goodreads.com/en/book/show/319810.Overshoot), *William R. Catton*
+* [Responsible JavaScript](https://abookapart.com/products/responsible-javascript), *Jeremy Wagner*
 
 ***Possible*** next reads&hellip;
 
@@ -37,10 +37,10 @@ Books on the go at the moment.
 
 ## Have read
 
-Books I've read. But more importantly, enjoyed and would therefore recommend.
+Selection of books I've read. But more importantly, enjoyed and would therefore recommend.
 
 * [Opening Men's Eyes](https://www.goodreads.com/book/show/10105541-opening-men-s-eyes), *Michael Cardo*
-* [The Echoes Saga](https://www.philipcquaintrell.com/books), *Philip C. Quaintrell*
+* [The Echoes Saga](https://www.philipcquaintrell.com/books) &mdash; *(9 books)*, *Philip C. Quaintrell*
 * [Bitten By a Camel: Leaving Church, Finding God](https://www.goodreads.com/en/book/show/34763102-bitten-by-a-camel), *Kent Dobson*
 * [The Universal Christ](https://universalchrist.cac.org/), *Richard Rohr*
 * [Falling Upward: A Spirituality for the Two Halves of Life ](https://www.goodreads.com/en/book/show/9963483-falling-upward), *Richard Rohr*

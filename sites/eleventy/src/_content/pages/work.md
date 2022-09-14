@@ -10,7 +10,7 @@ lead:
 bodyClass: "work"
 
 date: 2021-11-22T23:34:00
-updated: 2022-09-13T16:45:00
+updated: 2022-09-14T22:56:00
 ---
 
 <section aria-labelledby="work-current" class="companies | flow">
@@ -41,8 +41,7 @@ updated: 2022-09-13T16:45:00
             <span class="date-time">Year: 2022 <small>(freelance, current)</small></span>
           </header>
           <div class="card__body | flow">
-            <p>Working with <a href="http://dannyhope.co.uk/">Danny Hope</a> and the UX Brighton team to enhance and optimise their user interface and overall website experience.</p>
-            <p>Also implementing a <a href="https://www.netlifycms.org/">Netlify CMS</a> solution so content can be easily managed.</p>
+            <p>Working with <a href="http://dannyhope.co.uk/">Danny Hope</a> and the UX Brighton team to enhance and optimise their user interface, overall website experience and content management workflow.</p>
           </div>
         </div>
       </article>
@@ -92,7 +91,7 @@ updated: 2022-09-13T16:45:00
         <div class="card__content">
           <header class="card__header">
             <h3 class="card__title">
-              <a href="https://iagloyalty.com">IAG Loyalty</a>
+              <a href="https://iagloyalty.com">IAG Loyalty</a> <a href="#fn:iag-loyalty" class="footnote" rel="footnote"><sup>*</sup></a>
             </h3>
             <span class="date-time">Year: 2018 - 2021 <small>(contract)</small></span>
           </header>
@@ -100,8 +99,8 @@ updated: 2022-09-13T16:45:00
             <p>Built new, modern, and fast PWA B2B websites for IAG Loyalty.</p>
             <p>Big focus on usability, accessibility, progressive enhancement, performance & resilience.</p>
           </div>
-          <footer class="card__footer">
-            <p><strong>NOTE:</strong> The current corporate B2B website isn't the one I originally built for them.</p>
+          <footer id="fn:iag-loyalty" class="card__footer">
+            <p><sup>*</sup> The current corporate B2B website isn't the one I originally built for them.</p>
           </footer>
         </div>
       </article>
@@ -127,15 +126,15 @@ updated: 2022-09-13T16:45:00
         <div class="card__content">
           <header class="card__header">
             <h3 class="card__title">
-              <a href="https://www.brunswickgroup.com">Brunswick Group</a>
+              <a href="https://www.brunswickgroup.com">Brunswick Group</a> <a href="#fn:brunswick-group" class="footnote" rel="footnote"><sup>*</sup></a>
             </h3>
             <span class="date-time">Year: 2017 & 2018 <small>(contract)</small></span>
           </header>
           <div class="card__body">
             <p>Developed & enhanced corporate communication websites (eg. Puma, Mondi, Greenbrier).</p>
           </div>
-          <footer class="card__footer">
-            <p><strong>NOTE:</strong> The company used to be called MerchantCantos at this time.</p>
+          <footer id="fn:brunswick-group" class="card__footer">
+            <p><sup>*</sup> The company used to be called MerchantCantos at this time.</p>
           </footer>
         </div>
       </article>
@@ -159,14 +158,14 @@ updated: 2022-09-13T16:45:00
       <article class="card card--stacked">
         <div class="card__content">
           <header class="card__header">
-            <h3 class="card__title">Time Inc. UK</h3>
+            <h3 class="card__title">Time Inc. UK <a href="#fn:time-inc" class="footnote" rel="footnote"><sup>*</sup></a></h3>
             <span class="date-time">Year: 2016 <small>(contract)</small></span>
           </header>
           <div class="card__body | flow">
             <p>It was a fun & collaborative team environment at Time Inc. UK. I was one of the Frontend Developers, developing a responsive and customisable web solution on their WordPress Multisite application.</p>
           </div>
-          <footer class="card__footer">
-            <p><strong>NOTE:</strong> Since I last worked with them, they've now been taken over by <a href="https://www.futureplc.com/">Future plc</a>.</p>
+          <footer id="fn:time-inc" class="card__footer">
+            <p><sup>*</sup> Since I last worked with them, they've now been taken over by <a href="https://www.futureplc.com/">Future plc</a>.</p>
           </footer>
         </div>
       </article>
@@ -175,14 +174,14 @@ updated: 2022-09-13T16:45:00
       <article class="card card--stacked">
         <div class="card__content">
           <header class="card__header">
-            <h3 class="card__title">Pegasus</h3>
+            <h3 class="card__title">Pegasus <a href="#fn:pegasus" class="footnote" rel="footnote"><sup>*</sup></a></h3>
             <span class="date-time">Year: 2016 <small>(contract)</small></span>
           </header>
           <div class="card__body | flow">
             <p>Developed & enhanced brochure websites for Pegasus’ healthcare clients.</p>
           </div>
-          <footer class="card__footer">
-            <p><strong>NOTE:</strong> Since I last worked with them, they've become <a href="https://mindplusmatter.com/">Mind+Matter</a>.</p>
+          <footer id="fn:pegasus" class="card__footer">
+            <p><sup>*</sup> Since I last worked with them, they've become <a href="https://mindplusmatter.com/">Mind+Matter</a>.</p>
           </footer>
         </div>
       </article>

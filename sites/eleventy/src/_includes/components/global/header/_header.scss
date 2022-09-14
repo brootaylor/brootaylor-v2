@@ -15,8 +15,8 @@
   background: var(--header-background);
   color: var(--header-text);
 
-  position: sticky;
-  top: 0;
+  // position: sticky;
+  // top: 0;
   margin: 0;
   z-index: 100; // Making sure this element always stacks higher than anything else.
 

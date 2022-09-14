@@ -82,5 +82,12 @@
         box-shadow: inset 0 1px var(--grey-mid);
       }
     }
+
+    // Anchor tag to foot note reference
+    // @NOTE: May need to move this to a separate component
+    .footnote {
+      font-size: 80%;
+      text-decoration: none;
+    }
   }
 }

@@ -10,7 +10,7 @@ lead:
 bodyClass: "about"
 
 date: 2020-04-24T19:33:00
-updated: 2022-09-12T16:33:00
+updated: 2022-09-14T23:17:00
 ---
 
 My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 children. 2 sons and a daughter.
@@ -35,7 +35,7 @@ Jeremy Wagner's "[Responsible JavaScript](https://abookapart.com/products/respon
 
 William R. Catton's "[Overshoot: The Ecological Basis of Revolutionary Change](https://www.goodreads.com/en/book/show/319810.Overshoot)" is blowing my mind quite a bit. I'd say I'm enjoying it but that wouldn't be truthful. I think it's more honest to say that it's probably turning out to be one of the most important reads of my life &ndash; but in a disturbingly and unnervingly profound sort of way.
 
-Here's a selection of some other [books I've read](/reading) over the past few years.
+Here's a selection of some other [books I've read](/reading#have-read) over the past few years.
 
 ---
 
