@@ -65,7 +65,7 @@ updated: 2022-09-13T16:45:00
             <span class="date-time">Year: 2022 <small>(contract)</small></span>
           </header>
           <div class="card__body | flow">
-            <p>Worked with Brunswick Group to build <abbr title="Single Page Application">SPA</abbr> microsites for <a href="https://www.naspers.com/">Naspers</a>.</p>
+            <p>Worked with Brunswick Group to build <abbr title="Single Page Application.">SPA</abbr> microsites for <a href="https://www.naspers.com/">Naspers</a>.</p>
             <p><em>Vue.js</em> and <em>GSAP</em> ended up being the primary tools of choice in this instance.</p>
           </div>
         </div>

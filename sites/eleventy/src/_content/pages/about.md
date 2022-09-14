@@ -43,7 +43,7 @@ Here's a selection of some other [books I've read](/reading) over the past few y
 
 I build websites.
 
-My core skills are semantic HTML & CSS, responsive design, progressively enhanced JS, <abbr title="Progressive Web Apps">PWAs</abbr>, web performance, web accessibility, static site generation, Eleventy, Astro & Svelte &mdash; and generally trying my best to put the user first. {.call-out}
+My core skills are semantic HTML & CSS, responsive design, progressively enhanced JS, PWAs, web performance, web accessibility, static site generation, Eleventy, Astro & Svelte &mdash; and generally trying my best to put the user first. {.call-out}
 
 Primarily I work on the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)". This is my preference and certainly plays to my strengths. However, I'm often found with my hands in the "*back-of-the-front-end*" and some DevOps stuff as well - (eg. JavaScript bundlers, deployment tooling, CI/CD etc.).
 
@@ -96,6 +96,7 @@ Do you think there's a web project that I could possibly help you with? Then by 
 
 I'd love to hear from you.
 
+*[PWAs]: Progressive Web Apps.
 *[PPL]: Private Pilots Licence.
 *[CI]: Continuous Integration.
 *[CD]: Continuous Deployment.
