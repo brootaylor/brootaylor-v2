@@ -29,7 +29,7 @@ I absolutely [adore aircraft](/photos/2022-03-30/photo_202203301354) and still p
 
 ## What I'm reading
 
-I'm a sucker for fantasy. The feeling of been transported to another world is intoxicating. Currently I'm making my way through Philip C. Quaintrell's new fantasy series, "[The Ranger Archives](https://www.philipcquaintrell.com/books)".
+I'm a sucker for fantasy. The feeling of been transported to another world is intoxicating. Currently I'm making my way through one of Philip C. Quaintrell's fantasy series, "[The Terran Cycle](https://www.philipcquaintrell.com/books)".
 
 Jeremy Wagner's "[Responsible JavaScript](https://abookapart.com/products/responsible-javascript)" is also on the go and I think it's a much needed read at this time in the web building industry.
 
