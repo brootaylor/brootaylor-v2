@@ -10,7 +10,7 @@ lead:
 bodyClass: "work"
 
 date: 2021-11-22T23:34:00
-updated: 2022-09-14T22:56:00
+updated: 2022-09-16T18:12:00
 ---
 
 <section aria-labelledby="work-current" class="companies | flow">
@@ -26,7 +26,7 @@ updated: 2022-09-14T22:56:00
             <span class="date-time">Year: 2022 <small>(contract, current)</small></span>
           </header>
           <div class="card__body | flow">
-            <p>Migrating one of Currys' subsidiary brand websites &mdash; <a href="https://www.carphonewarehouse.com/">Carphone Warehouse</a> &mdash; to a newer content tech platform.</p>
+            <p>Migrating one of Currys' subsidiary brand websites &mdash; <a href="https://www.carphonewarehouse.com/">Carphone Warehouse</a> &mdash; to a newer content platform.</p>
           </div>
         </div>
       </article>
@@ -64,8 +64,8 @@ updated: 2022-09-14T22:56:00
             <span class="date-time">Year: 2022 <small>(contract)</small></span>
           </header>
           <div class="card__body | flow">
-            <p>Worked with Brunswick Group to build <abbr title="Single Page Application.">SPA</abbr> microsites for <a href="https://www.naspers.com/">Naspers</a>.</p>
-            <p><em>Vue.js</em> and <em>GSAP</em> ended up being the primary tools of choice in this instance.</p>
+            <p>Worked with Brunswick Group to develop corporate communication <abbr title="Single Page Application.">SPA</abbr> microsites for <a href="https://www.naspers.com/">Naspers</a>.</p>
+            <p><em>Vue.js</em> and <em>GSAP</em> ended up being the primary tools of choice for this project.</p>
           </div>
         </div>
       </article>
@@ -115,8 +115,8 @@ updated: 2022-09-14T22:56:00
             <span class="date-time">Year: 2018 <small>(contract)</small></span>
           </header>
           <div class="card__body | flow">
-            <p>Developed a reusable & extensible front-end starter kit that builds modular web components / pattern libraries.</p>
-            <p>Enabling Euromoney to build and deploy their 'Fastmarkets' B2B web offerings efficiently and effectively.</p>
+            <p>Developed a reusable & extensible front-end starter kit that builds modular web components / pattern libraries quickly.</p>
+            <p>This enabled Euromoney to build and deploy their 'Fastmarkets' B2B web offerings efficiently and effectively.</p>
           </div>
         </div>
       </article>
