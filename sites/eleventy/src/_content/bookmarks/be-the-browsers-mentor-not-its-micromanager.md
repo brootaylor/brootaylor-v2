@@ -11,7 +11,7 @@ date: 2022-09-05T17:18:11.964Z
 updated: 2022-09-21T16:24:39.051Z
 location:
   locality: Crawley
-  country-name: United Kingdom
+  country_name: United Kingdom
 category:
   - frontend
   - browser
