@@ -5,9 +5,17 @@ eleventyExcludeFromCollections: true
 ---
 
 {#- This `_redirects` file is being used in the production environment cause I can't seem to get the netlify.toml redirects to work as expected -#}
+/about/me																			/about																					301!
+/experience																		/work																						301!
+/links																				/bookmarks																			301!
 
-# Redirects for older `notes` URLs
-/notes/2019-06-06/note_1	/notes/2019-06-06/note_201906061556 301!
+# This will redirect all paths under /links
+/links/*																			/bookmarks/:splat																301!
+
+# Some specific URL redirects
+/personal/where-is-the-love										/writing/2014-10-02/where-is-the-love						301!
+/notes/2019-06-06/note_1											/notes/2019-06-06/note_201906061556							301!
+/writing/2020-02-22/redesigning-in-the-open		/writing/2022-02-22/redesigning-in-the-open			301!
 
 # Files eg. CV
-/BruceTaylorCV.pdf /assets/docs/cv/BruceTaylorCV.pdf 200!
+/BruceTaylorCV.pdf														/assets/docs/cv/BruceTaylorCV.pdf								200!
