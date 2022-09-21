@@ -1,10 +1,10 @@
 ---
 title: "Writing"
 # Populates the `meta description` for a page
-summary: "Here you'll find a few of my thoughts on a variety of things. Some web tech related, some philosophical, some of a religious nature and some just me trying to process something as honestly as I can."
+summary: "My thoughts and musings on a variety of things. Some web-tech related, some philosophical, some of a religious nature and some just me trying to process something as honestly as I can."
 # Populates the opening / `lead` text on a page
 lead:
-  - "Here you'll find a few of my thoughts on a variety of things. Some web tech related, some philosophical, some of a religious nature and some just me trying to process something as honestly as I can."
+  - "My thoughts and musings on a variety of things. Some web-tech related, some philosophical, some of a religious nature and some just me trying to process something as honestly as I can."
 bodyClass: "writing-home"
 
 permalink: "{% if pagination.pageNumber > 0 %}/writing/{{ pagination.pageNumber + 1 }}/index.html{% else %}/writing.html{% endif %}"
@@ -15,7 +15,7 @@ pagination:
   alias: writings
 
 date: 2020-02-22T22:10:00
-updated: 2022-01-18T17:23:00
+updated: 2022-09-21T22:34:00
 ---
 
 {# List of writing posts #}
