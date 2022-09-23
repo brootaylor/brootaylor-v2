@@ -1,16 +1,16 @@
 ---
 title: "Work"
 # Populates the `meta description` for a page
-summary: "I place a high value on user-centricity. Meaning, I strive to create web experiences that look and function well on any device that can connect to the internet, while also considering user needs and business goals."
+summary: "User-centricity is very important to me. In other words, I strive to create web experiences that look and work well on any device that can connect to the internet, while also taking user needs and business goals into account."
 # Populates the opening / `lead` text on a page
 lead:
-  - I place a high value on user-centricity. Meaning, I strive to create web experiences that look and function well on any device that can connect to the internet, while also considering user needs and business goals.
+  - User-centricity is very important to me. In other words, I strive to create web experiences that look and work well on any device that can connect to the internet, while also taking user needs and business goals into account.
   - Think I may be able to help with your next project? <a href="/contact">Get in touch</a>.
 
 bodyClass: "work"
 
 date: 2021-11-22T23:34:00
-updated: 2022-09-16T18:12:00
+updated: 2022-09-23T17:31:00
 ---
 
 <section aria-labelledby="work-current" class="companies | flow">

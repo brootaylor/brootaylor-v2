@@ -31,12 +31,12 @@ bodyClass: "homepage"
 permalink: "/index.html"
 
 date: 2020-04-24T12:54:00
-updated: 2022-09-12T16:33:00
+updated: 2022-09-23T17:33:00
 
 changefreq: "weekly"
 priority: 1
 ---
 
-User-centricity is important to me. In other words, I try my best to create web experiences that look and function well on any device that can connect to the internet, while also considering user needs and business goals.
+User-centricity is very important to me. In other words, I strive to create web experiences that look and work well on any device that can connect to the internet, while also taking user needs and business goals into account.
 
 Even though I've done this web building thing for a while now, I'm still learning. I'm sure you are too. So, if you think I may be able to help out with your next project, please [get in touch](/contact).
