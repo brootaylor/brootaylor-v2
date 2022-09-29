@@ -36,7 +36,7 @@ module.exports = {
   footernav: [
     {
       label: 'GitHub',
-      url: 'https://github.com/brootaylor',
+      url: 'https://github.com/brootaylor/brootaylor-v2',
       icon: 'github',
       external: true
     },
