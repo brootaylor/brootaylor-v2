@@ -10,7 +10,7 @@ lead:
 bodyClass: "work"
 
 date: 2021-11-22T23:34:00
-updated: 2022-09-23T17:31:00
+updated: 2022-10-04T00:14:00
 ---
 
 <section aria-labelledby="work-current" class="companies | flow">
@@ -26,7 +26,7 @@ updated: 2022-09-23T17:31:00
             <span class="date-time">Year: 2022 <small>(contract, current)</small></span>
           </header>
           <div class="card__body | flow">
-            <p>Migrating one of Currys' subsidiary brand websites &mdash; <a href="https://www.carphonewarehouse.com/">Carphone Warehouse</a> &mdash; to a newer content platform.</p>
+            <p>Enhancing &amp; optimising Currys' subsidiary websites - <a href="https://www.carphonewarehouse.com/">Carphone Warehouse</a>, <a href="https://www.mobiles.co.uk/">Mobiles.co.uk</a> and <a href="https://www.e2save.com/">e2save</a>.</p>
           </div>
         </div>
       </article>
