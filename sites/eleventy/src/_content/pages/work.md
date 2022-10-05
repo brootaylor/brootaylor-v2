@@ -6,11 +6,12 @@ summary: "User-centricity is very important to me. In other words, I strive to c
 lead:
   - User-centricity is very important to me. In other words, I strive to create web experiences that look and work well on any device that can connect to the internet, while also taking user needs and business goals into account.
   - Think I may be able to help with your next project? <a href="/contact">Get in touch</a>.
+  - <a href="/BruceTaylorCV.pdf" class="button button--primary">Download my CV</a>
 
 bodyClass: "work"
 
 date: 2021-11-22T23:34:00
-updated: 2022-10-04T00:14:00
+updated: 2022-10-05T22:52:00
 ---
 
 <section aria-labelledby="work-current" class="companies | flow">
