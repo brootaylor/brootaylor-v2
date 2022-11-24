@@ -39,11 +39,13 @@
 
 # Dev settings: (Used when running local Netlify dev server)
 [dev]
+  framework = "#static" # or "#static" to force a static server
+  command = "npm run watch"
   # Declaring port for netlify dev server to use when running the `npm run watch` command
   port = 8888
-  command = "npm run watch"
   # Points to directory where `_redirects` file lives
-  publish = "src"
+  publish = "dist"
+  autoLaunch = true # a Boolean value that determines if Netlify Dev launches the local server address in your browser
 
 
 ##############################
