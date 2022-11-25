@@ -15,4 +15,6 @@ category:
   - directory
   - content
 ---
-Thanks for this [Phil Gyford](https://www.gyford.com/). Very nice organised collection of good blogs.
+Thanks for this [Phil Gyford](https://www.gyford.com/).
+
+> ooh.directory is a place to find good blogs that interest you.
