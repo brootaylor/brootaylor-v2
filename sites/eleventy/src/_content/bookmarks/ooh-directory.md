@@ -14,6 +14,7 @@ category:
   - blogs
   - directory
   - content
+  - sharing
 ---
 Thanks for this [Phil Gyford](https://www.gyford.com/).
 
