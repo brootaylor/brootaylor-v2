@@ -27,23 +27,23 @@ It's deployed by and hosted with [Netlify](https://www.netlify.com/).
 ## Features
 
 * 🌶 [Progressively enhanced](https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement), semantic and accessible
-* 🚀 [Performance budgeting](https://github.com/brootaylor/brootaylor-v2/blob/main/config/performance-budget.json)
-* 🌐 [Browser support config](https://github.com/brootaylor/brootaylor-v2/blob/main/.browserslistrc)
+* 🚀 [Performance budgeting](https://github.com/brootaylor/brootaylor-v2/blob/main/sites/eleventy/config/performance-budget.json)
+* 🌐 [Browser support config](https://github.com/brootaylor/brootaylor-v2/blob/main/sites/eleventy/.browserslistrc)
 * ✅ [Accessibility test runner](https://github.com/pa11y/pa11y-ci)
 * 🌈 [Sass](https://sass-lang.com/) powered CSS system using the [Dart Sass implementation](https://sass-lang.com/dart-sass) - (utilising modern [custom CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*) and methods)
-* 🧩 [Design Tokens](https://github.com/brootaylor/brootaylor-v2/tree/main/tokens)
-* 🎳 [JS config to handle code-splitting](https://github.com/brootaylor/brootaylor-v2/blob/main/config/rollup.config.js) (ie. splitting code into smaller chunks to be loaded on demand)
-* 🎛 [Site & build config](https://github.com/brootaylor/brootaylor-v2/blob/main/netlify.toml)
-* 🛄 [Selective build outputs](https://github.com/brootaylor/brootaylor-v2/blob/main/.eleventyignore) using `.eleventyignore`
-* ↩️ [Redirects](https://github.com/brootaylor/brootaylor-v2/blob/main/src/_redirects) for local `netlify dev`
-* 🌍 [Customisable global data](https://github.com/brootaylor/brootaylor-v2/blob/main/src/_data/site.js)
+* 🧩 [Design Tokens](https://github.com/brootaylor/brootaylor-v2/tree/main/sites/eleventy/tokens)
+* 🎳 [JS config to handle code-splitting](https://github.com/brootaylor/brootaylor-v2/blob/main/sites/eleventy/config/rollup.config.js) (ie. splitting code into smaller chunks to be loaded on demand)
+* 🎛 [Site & build config](https://github.com/brootaylor/brootaylor-v2/blob/main/sites/eleventy/netlify.toml)
+* 🛄 [Selective build outputs](https://github.com/brootaylor/brootaylor-v2/blob/main/sites/eleventy/.eleventyignore) using `.eleventyignore`
+* ↩️ [Redirects](https://github.com/brootaylor/brootaylor-v2/blob/main/sites/eleventy/src/_redirects) for local `netlify dev`
+* 🌍 [Customisable global data](https://github.com/brootaylor/brootaylor-v2/blob/main/sites/eleventy/src/_data/site.js)
 * 🎨 Page-specific art direction. `head` and `foot` metadata fields enable things like styles, fonts, SVGs & JS
 * Dynamically generated...
-  * [`serviceworker.js`](https://github.com/brootaylor/brootaylor-v2/blob/main/src/serviceworker.njk)
-  * [`manifest.json`](https://github.com/brootaylor/brootaylor-v2/blob/main/src/manifest.njk)
-  * [`sitemap.xml`](https://github.com/brootaylor/brootaylor-v2/blob/main/src/sitemap.njk)
-  * [`robots.txt`](https://github.com/brootaylor/brootaylor-v2/blob/main/src/robots.njk)
-  * [`feed.xml`](https://github.com/brootaylor/brootaylor-v2/blob/main/src/feed.njk)
+  * [`serviceworker.js`](https://github.com/brootaylor/brootaylor-v2/blob/main/sites/eleventy/src/serviceworker.njk)
+  * [`manifest.json`](https://github.com/brootaylor/brootaylor-v2/blob/main/sites/eleventy/src/manifest.njk)
+  * [`sitemap.xml`](https://github.com/brootaylor/brootaylor-v2/blob/main/sites/eleventy/src/sitemap.njk)
+  * [`robots.txt`](https://github.com/brootaylor/brootaylor-v2/blob/main/sites/eleventy/src/robots.njk)
+  * [`feed.xml`](https://github.com/brootaylor/brootaylor-v2/blob/main/sites/eleventy/src/feed.njk)
 * [JAMstack](https://jamstack.org/) methodology
 * [Eleventy](https://www.11ty.io/) (SSG)
 * [Netlify](https://www.netlify.com/)
