@@ -16,7 +16,7 @@ local_backend:
 
 # These lines should *not* be indented
 publish_mode: editorial_workflow # Ensures content goes through workflow first, ("Drafts" --> "In Review" --> "Ready"), before being published
-media_folder: "sites/eleventy/src/assets/images/uploads" # Media files will be stored in the repo under sites/eleventy/src/assets/images/uploads
+media_folder: "/src/assets/images/uploads" # Media files will be stored in the repo under /src/assets/images/uploads
 public_folder: "/assets/images/uploads" # The src attribute for uploaded media will begin with /assets/images/uploads
 site_url: https://brootaylor.com
 display_url: https://brootaylor.com
@@ -27,7 +27,7 @@ collections:
   - label: "Writing"
     name: "writing"
     description: "Here you'll find a few of my thoughts on a variety of things. Some web tech related, some philosophical, some of a religious nature and some just me trying to process something as honestly as I can."
-    folder: "sites/eleventy/src/_content/writing"
+    folder: "/src/_content/writing"
     slug: "{{slug}}"
     preview_path: "writing/{{year}}-{{month}}-{{day}}/{{slug}}" # A deployment preview URL. Allows a preview of the URL that's not on the production domain
     create: true
@@ -51,7 +51,7 @@ collections:
   - label: "Notes"
     name: "notes"
     description: "Quick notes, thoughts and ramblings."
-    folder: "sites/eleventy/src/_content/notes"
+    folder: "/src/_content/notes"
     identifier_field: "file-name" # Changing `identifier_field` to `file-name` so that default `title` isn't used in this instance
     slug: "{{file-name}}"
     preview_path: "notes/{{year}}-{{month}}-{{day}}/note_{{slug}}" # A deployment preview URL. Allows a preview of the URL that's not on the production domain
@@ -75,7 +75,7 @@ collections:
   - label: "Bookmarks"
     name: "bookmarks"
     description: "Links to articles and various things I've enjoyed and found interesting. Technical and non-technical. Quite a few of them offer perspectives / advice I appreciate."
-    folder: "sites/eleventy/src/_content/bookmarks"
+    folder: "/src/_content/bookmarks"
     slug: "{{slug}}"
     preview_path: "bookmarks/{{year}}-{{month}}-{{day}}/{{slug}}" # A deployment preview URL. Allows a preview of the URL that's not on the production domain
     create: true
