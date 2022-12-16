@@ -10,7 +10,7 @@ lead:
 bodyClass: "about"
 
 date: 2020-04-24T19:33:00
-updated: 2022-09-14T23:17:00
+updated: 2022-12-16T18:30:00
 ---
 
 My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 children. 2 sons and a daughter.
@@ -43,7 +43,7 @@ Here's a selection of some other [books I've read](/reading#have-read) over the 
 
 I build websites.
 
-My core skills are semantic HTML & CSS, responsive design, progressively enhanced JS, PWAs, web performance, web accessibility, static site generation, Eleventy, Astro & Svelte &mdash; and generally trying my best to put the user first. {.call-out}
+My core skills are semantic HTML, CSS, responsive design, progressively enhanced JS, PWAs, web performance, web accessibility, static site generation, Eleventy, Astro & Svelte &mdash; and generally trying my best to put the user first. {.call-out}
 
 Primarily I work on the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)". This is my preference and certainly plays to my strengths. However, I'm often found with my hands in the "*back-of-the-front-end*" and some DevOps stuff as well - (eg. JavaScript bundlers, deployment tooling, CI/CD etc.).
 
