@@ -10,7 +10,7 @@ lead:
 bodyClass: "about"
 
 date: 2020-04-24T19:33:00
-updated: 2022-12-16T18:30:00
+updated: 2022-12-21T14:18:00
 ---
 
 My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 children. 2 sons and a daughter.
@@ -29,11 +29,9 @@ I absolutely [adore aircraft](/photos/2022-03-30/photo_202203301354) and still p
 
 ## What I'm reading
 
-I'm a sucker for fantasy. The feeling of been transported to another world is intoxicating. Currently I'm making my way through one of Philip C. Quaintrell's fantasy series, "[The Terran Cycle](https://www.philipcquaintrell.com/books)".
+I'm a sucker for fantasy. The feeling of been transported to another world is intoxicating. Currently I'm making my way through one of Philip C. Quaintrell's fantasy series,  "[The Ranger Archives](https://www.philipcquaintrell.com/books)".
 
-Jeremy Wagner's "[Responsible JavaScript](https://abookapart.com/products/responsible-javascript)" is also on the go and I think it's a much needed read at this time in the web building industry.
-
-William R. Catton's "[Overshoot: The Ecological Basis of Revolutionary Change](https://www.goodreads.com/en/book/show/319810.Overshoot)" is blowing my mind quite a bit. I'd say I'm enjoying it but that wouldn't be truthful. I think it's more honest to say that it's probably turning out to be one of the most important reads of my life &ndash; but in a disturbingly and unnervingly profound sort of way.
+William R. Catton's "[Overshoot: The Ecological Basis of Revolutionary Change](https://www.goodreads.com/en/book/show/319810.Overshoot)" is also on the go. I think it's probably turning out to be one of the most important reads of my life &mdash; but in a disturbingly and unnervingly profound sort of way.
 
 Here's a selection of some other [books I've read](/reading#have-read) over the past few years.
 
