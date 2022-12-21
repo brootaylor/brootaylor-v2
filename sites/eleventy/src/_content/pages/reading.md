@@ -9,12 +9,12 @@ lead:
 bodyClass: "reading"
 
 date: 2022-03-03T15:32:00
-updated: 2022-09-14T23:17:00
+updated: 2022-12-21T14:13:00
 ---
 
-Because I've never kept a list of my reads &mdash; *(naughty I know!)* &mdash; I've ended up creating a bit of a challenge for myself that's for sure. Trying to recall all the books I've read and enjoyed feels like a bit of a daunting task but I'm keen to at least make a decent stab at it.
+Because I've never kept a list of my reads, I've ended up creating a bit of a challenge for myself that's for sure. Trying to recall all the books I've read and enjoyed feels like a bit of a daunting task but I'm keen to at least make a stab at it.
 
-I'll be adding to the *"Have Read"* section as and when I remember any books I've read.
+I'll be adding to the *"Have read"* section as and when I remember any books I've read cause it seems a little lean at the moment.
 
 ---
 
@@ -22,12 +22,12 @@ I'll be adding to the *"Have Read"* section as and when I remember any books I'v
 
 Books on the go at the moment.
 
-* [The Terran Cycle](https://www.philipcquaintrell.com/books) &mdash; *(1<sup>st</sup> of 4 books)*, *Philip C. Quaintrell*
+* [The Ranger Archives, "A Dance Of Fang And Claw"](https://www.philipcquaintrell.com/adanceoffangandclaw) &mdash; *(3<sup>rd</sup> of 3 books)*, *Philip C. Quaintrell*
 * [Overshoot: The Ecological Basis of Revolutionary Change](https://www.goodreads.com/en/book/show/319810.Overshoot), *William R. Catton*
-* [Responsible JavaScript](https://abookapart.com/products/responsible-javascript), *Jeremy Wagner*
 
 ***Possible*** next reads&hellip;
 
+* [The Terran Cycle](https://www.philipcquaintrell.com/books) &mdash; *(1<sup>st</sup> of 4 books)*, *Philip C. Quaintrell*
 * [Do I Stay Christian?](https://read.macmillan.com/lp/do-i-stay-christian/), *Brian McLaren*
 * [Green Lights](https://greenlights.com/), *Matthew McConaughey*
 * [Accessibility For Everyone](https://abookapart.com/products/accessibility-for-everyone), *Laura Kalbag*
@@ -39,9 +39,11 @@ Books on the go at the moment.
 
 Selection of books I've read. But more importantly, enjoyed and would therefore recommend.
 
-* [The Ranger Archives](https://www.philipcquaintrell.com/books) &mdash; *(2 read of 3 books)*, *Philip C. Quaintrell*
+* [The Ranger Archives, "Blood And Coin"](https://www.philipcquaintrell.com/copy-of-court-of-assassins) &mdash; *(2<sup>nd</sup> of 3 books)*, *Philip C. Quaintrell*
+* [The Ranger Archives, "Court Of Assassins"](https://www.philipcquaintrell.com/copy-of-a-clash-of-fates) &mdash; *(1<sup>st</sup> of 3 books)*, *Philip C. Quaintrell*
 * [Opening Men's Eyes](https://www.goodreads.com/book/show/10105541-opening-men-s-eyes), *Michael Cardo*
 * [The Echoes Saga](https://www.philipcquaintrell.com/books) &mdash; *(9 books)*, *Philip C. Quaintrell*
+* [Responsible JavaScript](https://abookapart.com/products/responsible-javascript), *Jeremy Wagner*
 * [Bitten By a Camel: Leaving Church, Finding God](https://www.goodreads.com/en/book/show/34763102-bitten-by-a-camel), *Kent Dobson*
 * [The Universal Christ](https://universalchrist.cac.org/), *Richard Rohr*
 * [Falling Upward: A Spirituality for the Two Halves of Life ](https://www.goodreads.com/en/book/show/9963483-falling-upward), *Richard Rohr*
