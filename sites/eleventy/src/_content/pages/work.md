@@ -22,12 +22,12 @@ updated: 2022-10-05T22:52:00
         <div class="card__content">
           <header class="card__header">
             <h3 class="card__title">
-              <a href="https://www.currysplc.com/">Currys plc</a>
+              <a href="https://www.brunswickgroup.com">Brunswick Group</a>
             </h3>
-            <span class="date-time">Year: 2022 <small>(contract, current)</small></span>
+            <span class="date-time">Year: 2023 <small>(contract)</small></span>
           </header>
           <div class="card__body | flow">
-            <p>Enhancing &amp; optimising Currys' subsidiary websites - <a href="https://www.carphonewarehouse.com/">Carphone Warehouse</a>, <a href="https://www.mobiles.co.uk/">Mobiles.co.uk</a> and <a href="https://www.e2save.com/">e2save</a>.</p>
+            <p>Currently working with Brunswick Group to develop engaging corporate communication websites.</p>
           </div>
         </div>
       </article>
@@ -39,7 +39,7 @@ updated: 2022-10-05T22:52:00
             <h3 class="card__title">
               <a href="https://uxbri.org">UX Brighton</a>
             </h3>
-            <span class="date-time">Year: 2022 <small>(freelance, current)</small></span>
+            <span class="date-time">Year: 2022 &ndash; 2023 <small>(freelance)</small></span>
           </header>
           <div class="card__body | flow">
             <p>Working with <a href="http://dannyhope.co.uk/">Danny Hope</a> and the UX Brighton team to enhance and optimise their user interface, overall website experience and content management workflow.</p>
@@ -60,14 +60,16 @@ updated: 2022-10-05T22:52:00
         <div class="card__content">
           <header class="card__header">
             <h3 class="card__title">
-              <a href="https://www.brunswickgroup.com">Brunswick Group</a>
+              <a href="https://www.brunswickgroup.com">Brunswick Group</a> <a href="#fn:brunswick-group" class="footnote" rel="footnote"><sup>*</sup></a>
             </h3>
-            <span class="date-time">Year: 2022 <small>(contract)</small></span>
+            <span class="date-time">Year: 2017, 2018 & 2022 <small>(contract)</small></span>
           </header>
-          <div class="card__body | flow">
-            <p>Worked with Brunswick Group to develop corporate communication <abbr title="Single Page Application.">SPA</abbr> microsites for <a href="https://www.naspers.com/">Naspers</a>.</p>
-            <p><em>Vue.js</em> and <em>GSAP</em> ended up being the primary tools of choice for this project.</p>
+          <div class="card__body">
+            <p>Developed & enhanced corporate communication <abbr title="Multiple Page Application.">MPA</abbr> and <abbr title="Single Page Application.">SPA</abbr> websites (eg. Puma, Mondi, Greenbrier & Napers).</p>
           </div>
+          <footer id="fn:brunswick-group" class="card__footer">
+            <p><sup>*</sup> The company used to be called MerchantCantos during the 2017 & 2018 contracts.</p>
+          </footer>
         </div>
       </article>
     </li>
@@ -94,7 +96,7 @@ updated: 2022-10-05T22:52:00
             <h3 class="card__title">
               <a href="https://iagloyalty.com">IAG Loyalty</a> <a href="#fn:iag-loyalty" class="footnote" rel="footnote"><sup>*</sup></a>
             </h3>
-            <span class="date-time">Year: 2018 - 2021 <small>(contract)</small></span>
+            <span class="date-time">Year: 2018 &ndash; 2021 <small>(contract)</small></span>
           </header>
           <div class="card__body | flow">
             <p>Built new, modern, and fast PWA B2B websites for IAG Loyalty.</p>
@@ -119,24 +121,6 @@ updated: 2022-10-05T22:52:00
             <p>Developed a reusable & extensible front-end starter kit that builds modular web components / pattern libraries quickly.</p>
             <p>This enabled Euromoney to build and deploy their 'Fastmarkets' B2B web offerings efficiently and effectively.</p>
           </div>
-        </div>
-      </article>
-    </li>
-    <li>
-      <article class="card card--stacked">
-        <div class="card__content">
-          <header class="card__header">
-            <h3 class="card__title">
-              <a href="https://www.brunswickgroup.com">Brunswick Group</a> <a href="#fn:brunswick-group" class="footnote" rel="footnote"><sup>*</sup></a>
-            </h3>
-            <span class="date-time">Year: 2017 & 2018 <small>(contract)</small></span>
-          </header>
-          <div class="card__body">
-            <p>Developed & enhanced corporate communication websites (eg. Puma, Mondi, Greenbrier).</p>
-          </div>
-          <footer id="fn:brunswick-group" class="card__footer">
-            <p><sup>*</sup> The company used to be called MerchantCantos at this time.</p>
-          </footer>
         </div>
       </article>
     </li>
