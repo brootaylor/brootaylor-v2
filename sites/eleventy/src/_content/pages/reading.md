@@ -9,7 +9,7 @@ lead:
 bodyClass: "reading"
 
 date: 2022-03-03T15:32:00
-updated: 2022-12-21T14:13:00
+updated: 2023-01-24T08:53:00
 ---
 
 Because I've never kept a list of my reads, I've ended up creating a bit of a challenge for myself that's for sure. Trying to recall all the books I've read and enjoyed feels like a bit of a daunting task but I'm keen to at least make a stab at it.
@@ -22,6 +22,7 @@ I'll be adding to the *"Have read"* section as and when I remember any books I'v
 
 Books on the go at the moment.
 
+* [An Inconvenient Apocalypse: Environmental Collapse, Climate Crisis, and the Fate of Humanity](https://robertwjensen.org/books/an-inconvenient-apocalypse/) &mdash; *Wes Jackson*, *Robert Jensen*
 * [The Ranger Archives, "A Dance Of Fang And Claw"](https://www.philipcquaintrell.com/adanceoffangandclaw) &mdash; *(3<sup>rd</sup> of 3 books)*, *Philip C. Quaintrell*
 * [Overshoot: The Ecological Basis of Revolutionary Change](https://www.goodreads.com/en/book/show/319810.Overshoot), *William R. Catton*
 

@@ -11,7 +11,7 @@ lead:
 bodyClass: "work"
 
 date: 2021-11-22T23:34:00
-updated: 2023-01-05T19:05:00
+updated: 2023-01-24T08:44:00
 ---
 
 <section aria-labelledby="work-current" class="companies | flow">
@@ -22,13 +22,17 @@ updated: 2023-01-05T19:05:00
         <div class="card__content">
           <header class="card__header">
             <h3 class="card__title">
-              <a href="https://www.brunswickgroup.com">Brunswick Group</a>
+              <a href="https://www.brunswickgroup.com">Brunswick Group</a> <a href="#fn:brunswick-group" class="footnote" rel="footnote"><sup>*</sup>
             </h3>
             <span class="date-time">Year: 2023 <small>(contract)</small></span>
           </header>
           <div class="card__body | flow">
             <p>Currently working with Brunswick Group to develop engaging corporate communication websites.</p>
+            <p><abbr title="Multiple Page Application.">MPA</abbr> and <abbr title="Single Page Application.">SPA</abbr> websites for clients like Puma, Mondi, Greenbrier, Naspers & VARO.</p>
           </div>
+          <footer id="fn:brunswick-group" class="card__footer">
+            <p><sup>*</sup> Previous contracts: 2017, 2018 & 2022.</p>
+          </footer>
         </div>
       </article>
     </li>
@@ -42,7 +46,7 @@ updated: 2023-01-05T19:05:00
             <span class="date-time">Year: 2022 &ndash; 2023 <small>(freelance)</small></span>
           </header>
           <div class="card__body | flow">
-            <p>Working with <a href="http://dannyhope.co.uk/">Danny Hope</a> and the UX Brighton team to enhance and optimise their user interface, overall website experience and content management workflow.</p>
+            <p>Working with <a href="http://dannyhope.co.uk/">Danny Hope</a> and the UX Brighton team to enhance and optimise their user interface, overall website experience, content management workflow and <abbr title="Search Engine Optimisation.">SEO</abbr>.</p>
           </div>
         </div>
       </article>
@@ -60,16 +64,14 @@ updated: 2023-01-05T19:05:00
         <div class="card__content">
           <header class="card__header">
             <h3 class="card__title">
-              <a href="https://www.brunswickgroup.com">Brunswick Group</a> <a href="#fn:brunswick-group" class="footnote" rel="footnote"><sup>*</sup></a>
+              <a href="https://www.currysplc.com/">Currys plc</a>
             </h3>
-            <span class="date-time">Year: 2017, 2018 & 2022 <small>(contract)</small></span>
+            <span class="date-time">Year: 2022 <small>(contract)</small></span>
           </header>
-          <div class="card__body">
-            <p>Developed & enhanced corporate communication <abbr title="Multiple Page Application.">MPA</abbr> and <abbr title="Single Page Application.">SPA</abbr> websites (eg. Puma, Mondi, Greenbrier & Napers).</p>
+          <div class="card__body | flow">
+            <p>Successfully migrated <a href="https://www.carphonewarehouse.com/">Carphone Warehouse</a> to a newer content platform within 3 weeks.</p>
+            <p>Enhanced &amp; optimised the <abbr title="User Interface.">UI</abbr> and usability of <a href="https://www.mobiles.co.uk/">Mobiles.co.uk</a> and <a href="https://www.e2save.com/">e2save</a>.</p>
           </div>
-          <footer id="fn:brunswick-group" class="card__footer">
-            <p><sup>*</sup> The company used to be called MerchantCantos during the 2017 & 2018 contracts.</p>
-          </footer>
         </div>
       </article>
     </li>
