@@ -11,31 +11,12 @@ lead:
 bodyClass: "work"
 
 date: 2021-11-22T23:34:00
-updated: 2023-01-24T08:44:00
+updated: 2023-02-06T15:13:00
 ---
 
 <section aria-labelledby="work-current" class="companies | flow">
   <h2 id="work-current">Currently working with</h2>
-  <ul role="list" class="auto-grid | no-list">
-    <li>
-      <article class="card card--stacked call-out">
-        <div class="card__content">
-          <header class="card__header">
-            <h3 class="card__title">
-              <a href="https://www.brunswickgroup.com">Brunswick Group</a> <a href="#fn:brunswick-group" class="footnote" rel="footnote"><sup>*</sup>
-            </h3>
-            <span class="date-time">Year: 2023 <small>(contract)</small></span>
-          </header>
-          <div class="card__body | flow">
-            <p>Currently working with Brunswick Group to develop engaging corporate communication websites.</p>
-            <p><abbr title="Multiple Page Application.">MPA</abbr> and <abbr title="Single Page Application.">SPA</abbr> websites for clients like Puma, Mondi, Greenbrier, Naspers & VARO.</p>
-          </div>
-          <footer id="fn:brunswick-group" class="card__footer">
-            <p><sup>*</sup> Previous contracts: 2017, 2018 & 2022.</p>
-          </footer>
-        </div>
-      </article>
-    </li>
+  <ul role="list" class="auto-grid | grid-half | no-list">
     <li>
       <article class="card card--stacked call-out">
         <div class="card__content">
@@ -43,10 +24,10 @@ updated: 2023-01-24T08:44:00
             <h3 class="card__title">
               <a href="https://uxbri.org">UX Brighton</a>
             </h3>
-            <span class="date-time">Year: 2022 &ndash; 2023 <small>(freelance)</small></span>
+            <span class="date-time">Year: 2022 &ndash; present <small>(freelance)</small></span>
           </header>
           <div class="card__body | flow">
-            <p>Working with <a href="http://dannyhope.co.uk/">Danny Hope</a> and the UX Brighton team to enhance and optimise their user interface, overall website experience, content management workflow and <abbr title="Search Engine Optimisation.">SEO</abbr>.</p>
+            <p>Working with <a href="http://dannyhope.co.uk/">Danny Hope</a> and the UX Brighton team to enhance and optimise their user interface, overall website experience, developer experience, content management workflow and <abbr title="Search Engine Optimisation.">SEO</abbr>.</p>
           </div>
         </div>
       </article>
@@ -57,8 +38,28 @@ updated: 2023-01-24T08:44:00
 ---
 
 <section aria-labelledby="work-past" class="companies | flow">
-  <h2 id="work-past">Some other people I've worked with</h2>
+  <h2 id="work-past">Other people I've worked with</h2>
   <ul role="list" class="auto-grid | no-list">
+    <li>
+      <article class="card card--stacked">
+        <div class="card__content">
+          <header class="card__header">
+            <h3 class="card__title">
+              <a href="https://www.brunswickgroup.com">Brunswick Group</a>
+              <a href="#fn:brunswick-group" class="footnote" rel="footnote"><sup>*</sup></a>
+            </h3>
+            <span class="date-time">Year: 2023 <small>(contract)</small></span>
+          </header>
+          <div class="card__body | flow">
+            <p>Worked with Brunswick Group to develop engaging corporate communication websites.</p>
+            <p><abbr title="Multiple Page Application.">MPA</abbr> and <abbr title="Single Page Application.">SPA</abbr> website offerings for clients like Puma, Mondi, Greenbrier, Naspers & VARO.</p>
+          </div>
+          <footer id="fn:brunswick-group" class="card__footer">
+            <p><sup>*</sup> Previous contracts: 2017, 2018 & 2022.</p>
+          </footer>
+        </div>
+      </article>
+    </li>
     <li>
       <article class="card card--stacked">
         <div class="card__content">
@@ -96,7 +97,8 @@ updated: 2023-01-24T08:44:00
         <div class="card__content">
           <header class="card__header">
             <h3 class="card__title">
-              <a href="https://iagloyalty.com">IAG Loyalty</a> <a href="#fn:iag-loyalty" class="footnote" rel="footnote"><sup>*</sup></a>
+              <a href="https://iagloyalty.com">IAG Loyalty</a>
+              <a href="#fn:iag-loyalty" class="footnote" rel="footnote"><sup>*</sup></a>
             </h3>
             <span class="date-time">Year: 2018 &ndash; 2021 <small>(contract)</small></span>
           </header>
@@ -114,15 +116,16 @@ updated: 2023-01-24T08:44:00
       <article class="card card--stacked">
         <div class="card__content">
           <header class="card__header">
-            <h3 class="card__title">
-              <a href="https://www.euromoneyplc.com">Euromoney</a>
-            </h3>
+            <h3 class="card__title">Euromoney <a href="#fn:euromoney" class="footnote" rel="footnote"><sup>*</sup></a></h3>
             <span class="date-time">Year: 2018 <small>(contract)</small></span>
           </header>
           <div class="card__body | flow">
             <p>Developed a reusable & extensible front-end starter kit that builds modular web components / pattern libraries quickly.</p>
             <p>This enabled Euromoney to build and deploy their 'Fastmarkets' B2B web offerings efficiently and effectively.</p>
           </div>
+          <footer id="fn:euromoney" class="card__footer">
+            <p><sup>*</sup> Since I last worked with them, they've become <a href="https://www.delinian.com/">Delinian</a>.</p>
+          </footer>
         </div>
       </article>
     </li>
@@ -168,7 +171,7 @@ updated: 2023-01-24T08:44:00
             <p>Developed & enhanced brochure websites for Pegasus’ healthcare clients.</p>
           </div>
           <footer id="fn:pegasus" class="card__footer">
-            <p><sup>*</sup> Since I last worked with them, they've become <a href="https://mindplusmatter.com/">Mind+Matter</a>.</p>
+            <p><sup>*</sup> Since I last worked with them, they've become <a href="https://www.evokegroup.com/">E</a>.</p>
           </footer>
         </div>
       </article>
@@ -201,6 +204,25 @@ updated: 2023-01-24T08:44:00
           <div class="card__body">
             <p>Worked with Macmillan's core website application team on frontend solutions for their brand identity and business proposition.</p>
           </div>
+        </div>
+      </article>
+    </li>
+    <li>
+      <article class="card card--stacked">
+        <div class="card__content">
+          <header class="card__header">
+            <h3 class="card__title">
+              <a href="https://www.avios.com/">Avios</a>
+              <a href="#fn:avios" class="footnote" rel="footnote"><sup>*</sup></a>
+            </h3>
+            <span class="date-time">Year: 2004 - 2015 <small>(permanent)</small></span>
+          </header>
+          <div class="card__body">
+            <p>Was the senior / lead developer designing and developing ecommerce front-end solutions for Airmiles &amp; Avios.</p>
+          </div>
+          <footer id="fn:avios" class="card__footer">
+            <p><sup>*</sup> Formerly a subsidiary of British Airways and also known as <a href="https://en.wikipedia.org/wiki/Air_Miles#Air_Miles_United_Kingdom">Airmiles</a>.</p>
+          </footer>
         </div>
       </article>
     </li>

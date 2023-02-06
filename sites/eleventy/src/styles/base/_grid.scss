@@ -121,5 +121,12 @@
       }
     }
 
+    // When wanting to limit grid wrapper width
+    &.grid-half {
+      @include min-width($breakpoint-medium) {
+        max-width: 50%;
+      }
+    }
+
   }
 }
