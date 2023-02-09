@@ -45,7 +45,7 @@ I mostly work on the "[front-of-the-front-end](https://bradfrost.com/blog/post/f
 
 My core skills are semantic HTML, CSS, responsive design, progressively enhanced JS, PWAs, web performance, web accessibility, static site generation, Eleventy, Astro & Svelte &mdash; and generally trying my best to put the user first. However, you'll also find me with my hands in the "*back-of-the-front-end*" and some DevOps stuff as well - (eg. JavaScript bundlers, deployment tooling, CI/CD etc.).
 
-I aim to build web solutions that are [resilient](https://resilientwebdesign.com/), [usable](https://trentwalton.com/2014/03/10/device-agnostic/) and as future-friendly as possible. For this reason I *prefer* a vanilla approach and tend to steer clear of using JavaScript frameworks if I can help it. Not that I have anything against JavaScript frameworks. They certainly have their place and I think they can be wonderfully powerful tools if we keep the end user in mind &mdash; rather than *only* prioritising the developer experience. At the moment I'm not sure we're getting that balance quite right.
+I aim to build web solutions that are [resilient](https://resilientwebdesign.com/), [usable](https://trentwalton.com/2014/03/10/device-agnostic/) and as future-friendly as possible. For this reason I *prefer* a vanilla approach and tend to steer clear of using JavaScript frameworks if I can help it. Don't get me wrong, JavaScript frameworks certainly have their place and I think they can be wonderfully powerful tools when we keep the end user in mind &mdash; rather than *only* prioritising the developer experience. At the moment I'm not sure we're getting that balance quite right.
 
 Here's a bit more about some of the [work I've done](/work).
 
