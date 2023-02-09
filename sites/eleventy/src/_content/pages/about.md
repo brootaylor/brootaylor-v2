@@ -10,7 +10,7 @@ lead:
 bodyClass: "about"
 
 date: 2020-04-24T19:33:00
-updated: 2023-01-24T09:39:00
+updated: 2023-02-09T11:34:00
 ---
 
 My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 children. 2 sons and a daughter.
@@ -41,11 +41,11 @@ Here's a selection of some other [books I've read](/reading#have-read) over the 
 
 I build websites.
 
-My core skills are semantic HTML, CSS, responsive design, progressively enhanced JS, PWAs, web performance, web accessibility, static site generation, Eleventy, Astro & Svelte &mdash; and generally trying my best to put the user first. {.call-out}
+I mostly work on the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)" and find I'm best suited to roles that balance the user and developer experiences. I enjoy roles that both empower the team to write great code in whatever way feels right to them as well as ensuring that this does not negatively impact the user experience. {.call-out}
 
-Primarily I work on the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)". This is my preference and certainly plays to my strengths. However, I'm often found with my hands in the "*back-of-the-front-end*" and some DevOps stuff as well - (eg. JavaScript bundlers, deployment tooling, CI/CD etc.).
+My core skills are semantic HTML, CSS, responsive design, progressively enhanced JS, PWAs, web performance, web accessibility, static site generation, Eleventy, Astro & Svelte &mdash; and generally trying my best to put the user first. However, you'll also find me with my hands in the "*back-of-the-front-end*" and some DevOps stuff as well - (eg. JavaScript bundlers, deployment tooling, CI/CD etc.).
 
-My aim is to build web solutions that are [resilient](https://resilientwebdesign.com/), [usable](https://trentwalton.com/2014/03/10/device-agnostic/) and as future-friendly as possible. For this reason I *prefer* a vanilla approach and tend to steer clear of using JavaScript frameworks if I can help it. Not that I have anything against JavaScript frameworks. I think they can be wonderfully powerful tools if we first keep the end user in mind &mdash; rather than *only* prioritising the developer experience. At the moment I don't think we're getting that balance quite right.
+I aim is to build web solutions that are [resilient](https://resilientwebdesign.com/), [usable](https://trentwalton.com/2014/03/10/device-agnostic/) and as future-friendly as possible. For this reason I *prefer* a vanilla approach and tend to steer clear of using JavaScript frameworks if I can help it. Not that I have anything against JavaScript frameworks. They certainly have their place and I think they can be wonderfully powerful tools if we keep the end user in mind &mdash; rather than *only* prioritising the developer experience. At the moment I'm not sure we're getting that balance quite right.
 
 Here's a bit more about some of the [work I've done](/work).
 
