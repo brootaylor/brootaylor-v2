@@ -70,47 +70,50 @@ Possible features / enhancements for the future:
 ```bash
 brootaylor.com
 ├── config
-│   ├── browser-sync.config.js   # BrowserSync configuration
-│   ├── budget.json              # Lighthouse performance budget
-│   ├── postcss.config.js        # PostCSS converts modern CSS into something most browsers can understand
-│   ├── rollup.config.js         # Rollup JS bundling configuration
+│   ├── eleventy-server.config.js  # Eleventy Dev Server configuration
+│   ├── pa11y.json                 # Accessibility config
+│   ├── performance-budget.json    # Lighthouse performance budget
+│   ├── postcss.config.js          # PostCSS converts modern CSS into something most browsers can understand
+│   ├── rollup.config.js           # Rollup JS bundling configuration
 │
 ├── lib
-│   ├── collections              # Eleventy collections
-│   ├── utils                    # Eleventy utility templates (ie. filters, transforms etc.)
+│   ├── collections                # Eleventy collections
+│   ├── libraries                  # Eleventy libraries
+│   ├── shortcodes                 # Eleventy shortcodes
+│   ├── utils                      # Eleventy utility templates (ie. filters, transforms etc.)
 │
 ├── src
-│   ├── _content                 # Content (Markdown)
-│   ├── _data                    # Global website data (eg. site, messages, navigation & contactform)
-│   ├── _includes                # Layout templates, partials & components (Nunjucks, JS & SCSS)
-│   ├── admin                    # Netlify CMS config files
-│   ├── assets                   # Assets (ie. Static files like Fonts, Images, Video, Favicons)
-│   ├── scripts                  # JavaScript (Global)
-│   ├── styles                   # SCSS (Global)
-│   ├── browserconfig.njk        # browserconfig.xml template (For Microsoft application usage)
-│   ├── feed.njk                 # feed.xml template
-│   ├── manifest.njk             # manifest.json template
-│   ├── robots.njk               # robots.txt template
-│   ├── serviceworker.njk        # serviceworker.js template
-│   └── sitemap.njk              # sitemap.xml template
+│   ├── _content                   # Content (Markdown)
+│   ├── _data                      # Global website data (eg. site, messages, navigation & contactform)
+│   ├── _includes                  # Layout templates, partials & components (Nunjucks, JS & SCSS)
+│   ├── admin                      # Netlify CMS config files
+│   ├── assets                     # Assets (ie. Static files like Fonts, Images, Video, Favicons)
+│   ├── scripts                    # JavaScript (Global)
+│   ├── styles                     # SCSS (Global)
+│   ├── browserconfig.njk          # browserconfig.xml template (For Microsoft application usage)
+│   ├── feed.njk                   # feed.xml template
+│   ├── manifest.njk               # manifest.json template
+│   ├── robots.njk                 # robots.txt template
+│   ├── serviceworker.njk          # serviceworker.js template
+│   └── sitemap.njk                # sitemap.xml template
 │
-├── tokens                       # Design tokens directory that holds individual design token JSON files (eg. colors.json)
+├── tokens                         # Design tokens directory that holds individual design token JSON files (eg. colors.json)
 │
-├── .browserlistrc               # Browser support config list
-├── .editorconfig                # Text editor configuration
-├── .eleventy.js                 # Eleventy configuration
-├── .eleventyignore              # Directories / files eleventy needs to ignore when building
-├── .eslintignore                # JS folders / files eslint needs to ignore
-├── .eslintrc                    # JS linting configuration
-├── .gitignore                   # Files not tracked by Git
-├── .markdownlint.json           # Markdownlint configuration
-├── .nvmrc                       # Sets (and installs if necessary) the version of Node needed for this project
-├── .sass-lint.yml               # SCSS linting configuration
-├── LICENCE                      # Repo licence (MIT)
-├── netlify.toml                 # Netlify configuration (server)
-├── package.json                 # Node.js package manifest
-├── package-lock.json            # Node.js package lock
-└── README.md                    # This file (Instructions and repo information)
+├── .browserlistrc                 # Browser support config list
+├── .editorconfig                  # Text editor configuration
+├── .eleventy.js                   # Eleventy configuration
+├── .eleventyignore                # Directories / files eleventy needs to ignore when building
+├── .eslintignore                  # JS folders / files eslint needs to ignore
+├── .eslintrc                      # JS linting configuration
+├── .gitignore                     # Files not tracked by Git
+├── .markdownlint.json             # Markdownlint configuration
+├── .nvmrc                         # Sets (and installs if necessary) the version of Node needed for this project
+├── .sass-lint.yml                 # SCSS linting configuration
+├── LICENCE                        # Repo licence (MIT)
+├── netlify.toml                   # Netlify configuration (server)
+├── package.json                   # Node.js package manifest
+├── package-lock.json              # Node.js package lock
+└── README.md                      # This file (Instructions and repo information)
 ```
 
 ---
@@ -128,12 +131,6 @@ cd brootaylor-v2
 
 # Install dependencies
 npm install
-
-# Start a local build
-npm run build
-
-# Start a local build server to view website in the browser
-npm run watch
 ```
 
 ## Netlify CI & CD setup
