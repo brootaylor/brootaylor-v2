@@ -50,7 +50,7 @@ module.exports = function (eleventy) {
 				placement: 'after',
 				class: 'header-anchor',
 				symbol: '#',
-				ariaHidden: true,
+				ariaHidden: false,
 			}),
 			level: [2,3,4],
 			slugify: eleventy.getFilter('slugify')
