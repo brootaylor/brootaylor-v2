@@ -11,11 +11,11 @@ lead:
 bodyClass: "work"
 
 date: 2021-11-22T23:34:00
-updated: 2023-02-06T15:13:00
+updated: 2023-02-10T16:16:00
 ---
 
 <section aria-labelledby="work-current" class="companies | flow">
-  <h2 id="work-current">Currently working with</h2>
+  <h2 id="work-current" tabindex="-1">Currently working with <a class="header-anchor" href="#work-current" aria-hidden="true">#</a></h2>
   <ul role="list" class="auto-grid | grid-half | no-list">
     <li>
       <article class="card card--stacked call-out">
@@ -38,7 +38,7 @@ updated: 2023-02-06T15:13:00
 ---
 
 <section aria-labelledby="work-past" class="companies | flow">
-  <h2 id="work-past">Other people I've worked with</h2>
+  <h2 id="work-past" tabindex="-1">Other people I've worked with <a class="header-anchor" href="#work-past" aria-hidden="true">#</a></h2>
   <ul role="list" class="auto-grid | no-list">
     <li>
       <article class="card card--stacked">
@@ -230,7 +230,7 @@ updated: 2023-02-06T15:13:00
 </section>
 
 <section aria-labelledby="testimonials" class="testimonials | flow">
-  <h2 id="testimonials">Nice things people have said</h2>
+  <h2 id="testimonials" tabindex="-1">Nice things people have said <a class="header-anchor" href="#testimonials" aria-hidden="true">#</a></h2>
   <ul role="list" class="auto-grid | no-list">
     <li>
     {% from "components/core/blockquotes/blockquotes.njk" import blockquote %}

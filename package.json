@@ -31,6 +31,7 @@
     "eleventy:ntl-cms-local": "npm run netlify-cms:local --w=sites/eleventy",
     "eleventy:ntl-deploy-draft": "npm run netlify-deploy:draft --w=sites/eleventy",
     "eleventy:ntl-deploy-production": "npm run netlify-deploy:production --w=sites/eleventy",
+    "eleventy:debug": "npm run debug --w=sites/eleventy",
     "astro:build": "npm run build --w=sites/astro",
     "astro:dev": "npm run dev --w=sites/astro",
     "all:build": "run-s eleventy:build astro:build",

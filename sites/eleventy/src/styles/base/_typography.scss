@@ -314,3 +314,14 @@ article {
     }
   }
 }
+
+// Header anchor link '#'...
+.header-anchor {
+  font-family: var(--font-family-secondary);
+  font-size: 80%;
+  text-decoration-line: none;
+
+  &:hover {
+    text-decoration-line: underline;
+  }
+}

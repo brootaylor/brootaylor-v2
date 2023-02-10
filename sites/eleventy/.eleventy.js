@@ -1,8 +1,8 @@
 // Environment config
 require('dotenv').config()
 
-// Local server
-const browserSync = require('./config/browser-sync.config.js')
+// Local server (Eleventy Dev Server)
+const eleventyServer = require('./config/eleventy-server.config.js')
 
 // Import (plugins)
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
@@ -11,6 +11,7 @@ const pluginNavigation = require('@11ty/eleventy-navigation')
 
 // Import (libraries)
 const markdown = require('./lib/libraries/markdown.js')
+const markdownItAnchor = require('markdown-it-anchor');
 
 // Import (filters)
 const prettyUrl = require('./lib/utils/filters/pretty-url.js')
@@ -31,8 +32,8 @@ const postBookmarks = require('./lib/collections/postBookmarks.js')
 const postPhotos = require('./lib/collections/postPhotos.js')
 
 module.exports = function (eleventy) {
-  // BrowserSync
-  eleventy.setBrowserSyncConfig(browserSync)
+  // Eleventy Dev Server
+  eleventy.setServerOptions(eleventyServer)
 
   // Plugins
   eleventy.addPlugin(pluginSyntaxHighlight)
@@ -41,6 +42,20 @@ module.exports = function (eleventy) {
 
   // Libraries
   eleventy.setLibrary('md', markdown)
+
+  // Customise Markdown library settings:
+	eleventy.amendLibrary('md', mdLib => {
+		mdLib.use(markdownItAnchor, {
+			permalink: markdownItAnchor.permalink.ariaHidden({
+				placement: 'after',
+				class: 'header-anchor',
+				symbol: '#',
+				ariaHidden: true,
+			}),
+			level: [2,3,4],
+			slugify: eleventy.getFilter('slugify')
+		});
+	});
 
   // Add some utility filters
   eleventy.addFilter('pretty', prettyUrl)
