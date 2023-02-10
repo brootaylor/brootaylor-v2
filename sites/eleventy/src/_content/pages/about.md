@@ -10,7 +10,7 @@ lead:
 bodyClass: "about"
 
 date: 2020-04-24T19:33:00
-updated: 2023-02-10T16:17:00
+updated: 2023-02-10T18:18:00
 ---
 
 My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 children. 2 sons and a daughter.
@@ -21,7 +21,7 @@ When I have the time I write now and then &ndash; and have [written a few posts]
 
 ## What I do
 
-I build websites and have been doing so for nearly two decades now.
+I build websites and have been doing so for around two decades now.
 
 I mostly work on the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)" and find I'm best suited to roles that balance the user and developer experiences. I enjoy roles that both empower the team to write great code in whatever way feels right to them as well as ensuring that this does not negatively impact the user experience. {.call-out}
 
