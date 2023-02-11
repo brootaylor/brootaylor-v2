@@ -32,22 +32,6 @@
     NODE_VERSION = "18"
     TZ = "Europe/London"
 
-
-##############################
-# Netlify dev server (local)
-##############################
-
-# Dev settings: (Used when running local Netlify dev server)
-[dev]
-  framework = "#static" # or "#static" to force a static server
-  command = "npm run watch"
-  # Declaring port for netlify dev server to use when running the `npm run watch` command
-  port = 8888
-  # Points to directory where `_redirects` file lives
-  publish = "dist"
-  autoLaunch = true # a Boolean value that determines if Netlify Dev launches the local server address in your browser
-
-
 ##############################
 # Headers
 ##############################
