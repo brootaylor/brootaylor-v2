@@ -7,7 +7,7 @@ lead:
   - The last time I shared a post on my <a href="/writing/2019-03-15/my-frontend-resources-2019">list of frontend resources</a> was back in 2019. I think it's about time I posted an update &mdash; seeing that's it's 2023 after all.
 
 date: 2023-02-12T17:36:00
-updated: 2023-02-12T18:11:00
+updated: 2023-02-12T18:33:00
 
 location:
   locality: "Crawley"
@@ -57,10 +57,14 @@ Here goes&hellip;
 * [Eleventy (11ty)](https://www.11ty.dev/)
 * [Astro](https://astro.build/)
 * [Svelte](https://svelte.dev/)
+* [Sass](http://sass-lang.com/)
+* [Rollup.js](https://rollupjs.org/)
+* [Vite](https://vitejs.dev/)
 * [Netlify](https://www.netlify.com/)
 * [Netlify CMS](https://www.netlifycms.org/)
 * [BrowserStack](https://www.browserstack.com/)
 * [WebPageTest](https://www.webpagetest.org/)
+* [Pa11y](https://pa11y.org/)
 * [Indiekit](https://getindiekit.com/) <i aria-hidden="true">&rarr;</i> *Paul Robert Lloyd [introducing Indiekit](https://paulrobertlloyd.com/articles/2022/12/indiekit/)*
 * [Fractal](https://fractal.build/) <i aria-hidden="true">&rarr;</i> *Design system tool*
 * [Remove Image Background](https://www.remove.bg/)
