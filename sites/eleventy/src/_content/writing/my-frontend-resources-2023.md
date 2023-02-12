@@ -7,7 +7,7 @@ lead:
   - The last time I shared a post on my <a href="/writing/2019-03-15/my-frontend-resources-2019">list of frontend resources</a> was back in 2019. I think it's about time I posted an update &mdash; seeing that's it's 2023 after all.
 
 date: 2023-02-12T17:36:00
-updated: 2023-02-12T17:36:00
+updated: 2023-02-12T18:11:00
 
 location:
   locality: "Crawley"
@@ -97,6 +97,7 @@ Here goes&hellip;
 * [Léonie Watson](https://tink.uk/)
 * [Jake Archibald](https://jakearchibald.com/)
 * [Stephen Diehl](https://www.stephendiehl.com/)
+* [Salma Alam-Naylor](https://whitep4nth3r.com/)
 * [Heydon Pickering](http://www.heydonworks.com/)
 * [Tim Kadlec](https://timkadlec.com/)
 * [Dave Rupert](https://daverupert.com/)
