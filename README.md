@@ -15,3 +15,18 @@ Now, I say this gingerly - but I'd be honoured if anyone wanted to contribute an
 ---
 
 ![A screenshot of the homepage on brootaylor.com](screenshot.png)
+
+## Getting setup
+
+Instructions for installing all the necessary dependencies and outputting the first build.
+
+```bash
+# Clone this repository
+git clone git@github.com:brootaylor/brootaylor-v2.git
+
+# Go to the working directory
+cd brootaylor-v2
+
+# Install dependencies
+npm install
+```
