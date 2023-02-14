@@ -16,6 +16,8 @@ Now, I say this gingerly - but I'd be honoured if anyone wanted to contribute an
 
 ![A screenshot of the homepage on brootaylor.com](screenshot.png)
 
+---
+
 ## Getting setup
 
 Instructions for installing all the necessary dependencies and outputting the first build.
@@ -30,3 +32,57 @@ cd brootaylor-v2
 # Install dependencies
 npm install
 ```
+
+## Netlify CI & CD setup
+
+Instructions for installing, creating a [*new Netlify instance*], or linking a local dev instance to an existing remote Netlify site instance.
+
+```bash
+# Install the Netlify CLI globally
+npm i -g netlify-cli
+
+# Set up the deployment rules => (follow the instructions in this process)
+netlify init
+
+# Deploy to Netlify
+netlify deploy
+```
+
+---
+
+## Useful Netlify commands
+
+Here are some other Netlify commands that can often be useful.
+
+```bash
+# Opens current site admin UI in Netlify
+netlify open:admin
+
+# Opens current site url in default browser
+netlify open:site
+
+# Handle various site operations
+netlify sites
+
+# Prints status info about the current Netlify user and site
+netlify status
+
+# Create a new deploy from the `www` folder (creates a draft URL)
+netlify deploy
+
+# Manage netlify functions
+# Ref: https://www.netlify.com/tags/functions/
+netlify functions
+
+# list installed plugins
+# Ref: https://www.netlify.com/tags/plugins/
+netlify plugins
+
+# Link local repo or project folder (ie. `www`) to an existing site on Netlify
+netlify link
+
+# Unlink local folder (ie. `www`) from a Netlify site
+netlify unlink
+```
+
+---

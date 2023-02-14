@@ -100,36 +100,6 @@ brootaylor.com
 
 ---
 
-## Getting setup
-
-Instructions for installing all the necessary dependencies and outputting the first build.
-
-```bash
-# Clone this repository
-git clone git@github.com:brootaylor/brootaylor-v2.git
-
-# Go to the working directory
-cd brootaylor-v2
-
-# Install dependencies
-npm install
-```
-
-## Netlify CI & CD setup
-
-Instructions for installing, creating a [*new Netlify instance*], or linking a local dev instance to an existing remote Netlify site instance.
-
-```bash
-# Install the Netlify CLI globally
-npm i -g netlify-cli
-
-# Set up the deployment rules => (follow the instructions in this process)
-netlify init
-
-# Deploy to Netlify
-netlify deploy
-```
-
 ## Manually building & deploying
 
 ```bash
@@ -147,43 +117,6 @@ The changes will deploy to the live Netlify instance.
 * My preferred method is to host on [Netlify](http://www.netlify.com)
 * This build process runs in a CI environment and then deploys the build automatically to a global CDN.
 * Such deployments are [triggered automatically](https://www.netlify.com/docs/continuous-deployment/) by every git push to the `main` branch of the origin repository.
-
----
-
-## Useful Netlify commands
-
-Here are some other useful Netlify commands that you can run.
-
-```bash
-# Opens current site admin UI in Netlify
-netlify open:admin
-
-# Opens current site url in default browser
-netlify open:site
-
-# Handle various site operations
-netlify sites
-
-# Prints status info about the current Netlify user and site
-netlify status
-
-# Create a new deploy from the `www` folder (creates a draft URL)
-netlify deploy
-
-# Manage netlify functions
-# Ref: https://www.netlify.com/tags/functions/
-netlify functions
-
-# list installed plugins
-# Ref: https://www.netlify.com/tags/plugins/
-netlify plugins
-
-# Link local repo or project folder (ie. `www`) to an existing site on Netlify
-netlify link
-
-# Unlink local folder (ie. `www`) from a Netlify site
-netlify unlink
-```
 
 ---
 
