@@ -61,7 +61,7 @@ netlify sites
 # Prints status info about the current Netlify user and site
 netlify status
 
-# Create a new deploy from the `www` folder (creates a draft URL)
+# Create a new deploy from the `dist` folder (creates a draft URL)
 netlify deploy
 
 # Manage netlify functions
@@ -72,9 +72,9 @@ netlify functions
 # Ref: https://www.netlify.com/tags/plugins/
 netlify plugins
 
-# Link local repo or project folder (ie. `www`) to an existing site on Netlify
+# Link local repo or project folder (ie. `dist`) to an existing site on Netlify
 netlify link
 
-# Unlink local folder (ie. `www`) from a Netlify site
+# Unlink local folder (ie. `dist`) from a Netlify site
 netlify unlink
 ```
