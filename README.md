@@ -4,10 +4,14 @@
 
 brootaylor.com is a monorepo using [Workspaces](https://docs.npmjs.com/cli/v8/using-npm/workspaces).
 
-That's kinda weird in some ways I guess but I've done it this way *(for now)* so I can have multiple sites / applications using common dependencies wherever possible.
+That's kinda weird in some ways I guess &mdash; but I've done it this way *(for now)* so I can have multiple sites / applications using common dependencies wherever possible.
 
 At the moment it allows me to build an [Eleventy version](https://github.com/brootaylor/brootaylor-v2/tree/main/sites/eleventy) as well as an [Astro version](https://github.com/brootaylor/brootaylor-v2/tree/main/sites/astro) of my website. Well, while I'm messing around with Astro anyhow.
 
+---
+
 Now, I say this gingerly - but I'd be honoured if anyone wanted to contribute any thoughts and pearls of wisdom. All I ask is you be kind. If there's anything you spot that seems dodgy or if you'd like to recommend an enhancement, (and you have the time), you're more than welcome to [summit a GitHub issue](https://github.com/brootaylor/brootaylor-v2/issues).
+
+---
 
 ![A screenshot of the homepage on brootaylor.com](screenshot.png)
