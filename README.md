@@ -16,7 +16,7 @@ Now, I say this gingerly - but I'd be honoured if anyone wanted to contribute an
 
 ## Getting setup
 
-Instructions for installing all the necessary dependencies and outputting the first build.
+Instructions for cloning and installing.
 
 ```bash
 # Clone this repository
