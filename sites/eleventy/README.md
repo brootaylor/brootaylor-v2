@@ -1,15 +1,5 @@
 # [Eleventy](https://www.11ty.dev/) version of brootaylor.com
 
-I've decided to take the scary route (for me anyway) of redesigning and developing my website in the open. I've been inspired by others that have done this and thought it may be an interesting process. Not least because I'm a bit of a perfectionist and doing this may be a good way of weaning me off the need to have things completely polished before showing them. 😱
-
-My hope is this'll be a evolutionary piece of work rather than the usual "WHALA!" moment... so I apologise in advance for things that may look a bit dodgy. Bit by bit I'll be moving all my original content across to this new config. No doubt that means you'll end up on a page that's not there right now. Sorry about that.
-
-I intend to bump my head (a lot!) and learn a fair few things along the way - and am going to try my best to enjoy the *whole* process rather than just looking forward to it being 'finished'.
-
-You're more than welcome to follow along if you're ok with witnessing the inevitable head-scratching and "WT...*" moments 🤪.
-
-Now, I say this gingerly - but I'd be honoured if anyone wanted to contribute any thoughts and pearls of wisdom. All I ask is you be kind. If there's anything you spot that seems dodgy or if you'd like to recommend an enhancement, (and you have the time), you're more than welcome to [summit a GitHub issue](https://github.com/brootaylor/brootaylor-v2/issues).
-
 The website is comprised of static files built using the fabulous [Eleventy](https://www.11ty.io/) (SSG), configurable [NPM](https://docs.npmjs.com/cli/npm) build scripts, global data configuration, [Sass](https://sass-lang.com/) powered CSS system and [rollup.js](https://rollupjs.org/) to bundle JavaScript modules. Much of the content is also available offline thanks to a [Service Worker](https://developers.google.com/web/fundamentals/primers/service-workers).
 
 It's deployed by and hosted with [Netlify](https://www.netlify.com/).
