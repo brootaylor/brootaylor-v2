@@ -44,8 +44,6 @@ netlify init
 netlify deploy
 ```
 
----
-
 ## Useful Netlify commands
 
 Here are some other Netlify commands that can often be useful.
@@ -80,5 +78,3 @@ netlify link
 # Unlink local folder (ie. `www`) from a Netlify site
 netlify unlink
 ```
-
----
