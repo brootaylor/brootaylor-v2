@@ -1,8 +1,4 @@
-# Bruce Taylor's website (v2)
-
-This is *version 2* of my personal website.
-
----
+# [Eleventy](https://www.11ty.dev/) version of brootaylor.com
 
 I've decided to take the scary route (for me anyway) of redesigning and developing my website in the open. I've been inspired by others that have done this and thought it may be an interesting process. Not least because I'm a bit of a perfectionist and doing this may be a good way of weaning me off the need to have things completely polished before showing them. 😱
 
