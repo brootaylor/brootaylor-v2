@@ -12,11 +12,7 @@ At the moment it allows me to build an [Eleventy version](https://github.com/bro
 
 Now, I say this gingerly - but I'd be honoured if anyone wanted to contribute any thoughts and pearls of wisdom. All I ask is you be kind. If there's anything you spot that seems dodgy or if you'd like to recommend an enhancement, (and you have the time), you're more than welcome to [summit a GitHub issue](https://github.com/brootaylor/brootaylor-v2/issues).
 
----
-
 ![A screenshot of the homepage on brootaylor.com](screenshot.png)
-
----
 
 ## Getting setup
 
