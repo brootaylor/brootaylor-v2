@@ -8,7 +8,7 @@ lead:
     resources</a> was back in 2019. I think it's about time I posted an update
     &mdash; seeing that's it's 2023 after all.
 date: 2023-02-12T17:36:00
-updated: 2023-02-15T16:47:30.689Z
+updated: 2023-02-15T18:19:29.772Z
 location:
   locality: Crawley
   country_name: UK
@@ -36,6 +36,7 @@ Here goes&hellip;
 * [CSS Flex Layout Cheatsheet](https://flexbox.malven.co/)
 * [SASS guidelines](https://sass-guidelin.es/)
 * [Learn Images](https://web.dev/learn/images/)
+* [Simplified JavaScript Jargon](https://jargon.js.org/)
 * [Go Make Things](https://gomakethings.com/)
 * [Git Hot Tips](https://wesbos.com/git-hot-tips/)
 * [Git - the simple guide](http://rogerdudler.github.io/git-guide/)
@@ -64,6 +65,7 @@ Here goes&hellip;
 * [Netlify](https://www.netlify.com/)
 * [Netlify CMS](https://www.netlifycms.org/)
 * [BrowserStack](https://www.browserstack.com/)
+* [Browserhacks](http://browserhacks.com/)
 * [WebPageTest](https://www.webpagetest.org/)
 * [Pa11y](https://pa11y.org/)
 * [Fractal](https://fractal.build/) <i aria-hidden="true">&rarr;</i> *Design system tool*
@@ -91,12 +93,14 @@ Here goes&hellip;
 * [Rachel Andrew](https://rachelandrew.co.uk/)
 * [Ethan Marcotte](https://ethanmarcotte.com/)
 * [Chris Ferdinandi](https://gomakethings.com/)
+* [Kitty Giraudel](https://kittygiraudel.com/)
 * [Kevin Powell](https://www.kevinpowell.co/)
 * [Una Kravets](http://unakravets.com/)
 * [Josh Comeau](https://www.joshwcomeau.com/)
 * [Andy Bell](https://andy-bell.co.uk/)
 * [Stephanie Eckles](https://thinkdobecreate.com/)
 * [Trys Mudford](https://www.trysmudford.com/)
+* [Sara Soueidan](https://www.sarasoueidan.com/)
 * [Mat Marquis](https://hire.wil.to/)
 * [Jen Kramer](https://jen4web.substack.com/)
 * [Zach Leatherman](https://www.zachleat.com/)
@@ -113,6 +117,7 @@ Here goes&hellip;
 * [Sarah Drasner](https://sarahdrasnerdesign.com/)
 * [Manuel Matuzovic](https://www.matuzo.at/)
 * [Remy Sharp](https://remysharp.com/)
+* [Miriam Eric Suzanne](https://www.miriamsuzanne.com/)
 * [Cennydd Bowles](https://www.cennydd.com/)
 * [Rachel Smith](https://rachsmith.com/)
 * [Jeffrey Zeldman](http://www.zeldman.com/)
