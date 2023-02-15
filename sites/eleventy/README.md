@@ -283,34 +283,3 @@ npm run audit:accessibility
 # Runs a "lighthouse" performance report
 npm run audit:performance
 ```
-
----
-
-## Helpful tools & references
-
-1. [PWA icon build tool](https://maskable.app/)
-2. [Google fonts](https://fonts.google.com/) and [google-webfonts-helper](https://google-webfonts-helper.herokuapp.com/fonts)
-3. [Design System Checklist](https://designsystemchecklist.com/)
-4. [Design Tokens Generator](https://quinalha.me/design-tokens-generator/)
-5. [Using design tokens](https://www.youtube.com/watch?v=wDBEc3dJJV8) (Jina Bolton)
-6. [Art direction for static sites](https://daverupert.com/2021/01/art-direction-for-static-sites/)
-7. [polyfill.io](https://polyfill.io/v3/)
-8. [Colour blindness emulator](http://colororacle.org/)
-9. [Fit on a Floppy](https://fitonafloppy.website/)
-10. [Devhints.io](https://devhints.io/rollup)
-11. [Eleventy Walk Through](https://rphunt.github.io/eleventy-walkthrough/)
-12. [SASS guidelines](https://sass-guidelin.es/)
-13. [Set up CSS scoping using custom CSS properties](https://css-tricks.com/the-power-and-fun-of-scope-with-css-custom-properties/)
-14. [Create a responsive grid layout with no media queries, using CSS Grid](https://andy-bell.design/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/)
-15. [Using the `article` element correctly](https://www.smashingmagazine.com/2020/01/html5-article-section/)
-16. [Selectors & Specificity Explained](https://hugogiraudel.github.io/selectors-explained/)
-17. [Generate SassDocs](http://sassdoc.com/)
-18. [Generate JSDocs](https://jsdoc.app/)
-19. [Request with Intent: Caching Strategies in the Age of PWAs](https://alistapart.com/article/request-with-intent-caching-strategies-in-the-age-of-pwas/) => (Use of service worker rules and modern HTML to render the right media at the right time - **Perfect for heavy media like Images & Video**)
-20. [JS config to handle code-splitting](https://philipwalton.com/articles/using-native-javascript-modules-in-production-today/) (ie. splitting code into smaller chunks to be loaded on demand)
-21. [Chrome DevTools synced with local file system & local overrides](https://www.youtube.com/watch?v=D_M7LvDvlSg)
-22. [Preload, Prefetch And Priorities in Chrome](https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf)
-
----
-
-© [Bruce Taylor](https://brootaylorv2.netlify.com/)

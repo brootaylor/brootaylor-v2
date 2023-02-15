@@ -78,3 +78,7 @@ netlify link
 # Unlink local folder (ie. `dist`) from a Netlify site
 netlify unlink
 ```
+
+---
+
+© [Bruce Taylor](https://brootaylor.com)
