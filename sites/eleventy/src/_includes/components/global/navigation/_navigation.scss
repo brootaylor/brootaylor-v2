@@ -26,7 +26,7 @@
       text-decoration-color: var(--green-custom-light);
     }
 
-    &.current {
+    &[aria-current="page"] {
       color: var(--black);
       text-decoration-color: var(--green-custom-light);
       text-decoration-thickness: 2px;
