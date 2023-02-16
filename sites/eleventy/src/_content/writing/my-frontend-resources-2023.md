@@ -8,7 +8,7 @@ lead:
     resources</a> was back in 2019. I think it's about time I posted an update
     &mdash; seeing that's it's 2023 after all.
 date: 2023-02-12T17:36:00
-updated: 2023-02-15T18:19:29.772Z
+updated: 2023-02-16T15:03:25.456Z
 location:
   locality: Crawley
   country_name: UK
@@ -97,6 +97,7 @@ Here goes&hellip;
 * [Kevin Powell](https://www.kevinpowell.co/)
 * [Una Kravets](http://unakravets.com/)
 * [Josh Comeau](https://www.joshwcomeau.com/)
+* [Cassie Evans](https://www.cassie.codes/)
 * [Andy Bell](https://andy-bell.co.uk/)
 * [Stephanie Eckles](https://thinkdobecreate.com/)
 * [Trys Mudford](https://www.trysmudford.com/)
