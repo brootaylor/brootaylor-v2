@@ -5,7 +5,7 @@
 @use '../../../../styles/abstracts' as *;
 
 
- a {
+a {
   &,
   &:active,
   &:visited {
@@ -48,4 +48,9 @@
       }
     }
   }
- }
+
+  // If a link's in a list within an article...
+  article li & {
+    line-height: 1.6;
+  }
+}
