@@ -28,7 +28,7 @@
     "sass:tokens": "rimraf src/styles/tokens/*.scss && json-to-scss 'tokens/*.json' 'src/styles/tokens/_tokens.scss'",
     "sass:dev": "npm run sass:tokens && npx sass --style=expanded --no-source-map --watch src:dist",
     "sass:prod": "npm run sass:tokens && npx sass --style=compressed src:dist",
-    "watch:files": "eleventy --serve",
+    "watch:files": "eleventy --serve --quiet",
     "watch:styles": "npm run sass:dev",
     "watch:scripts": "cross-env rollup -c config/rollup.config.js --watch",
     "watch": "run-p watch:*",

@@ -23,6 +23,7 @@
   },
   "license": "SEE LICENSE IN LICENSE",
   "scripts": {
+    "eleventy:start": "npm run watch --w=sites/eleventy",
     "eleventy:build": "npm run build --w=sites/eleventy",
     "eleventy:deploy-build": "npm run deploy:build --w=sites/eleventy",
     "eleventy:ntl-build": "npm run netlify-build --w=sites/eleventy",

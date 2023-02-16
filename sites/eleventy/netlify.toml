@@ -33,6 +33,16 @@
     TZ = "Europe/London"
 
 ##############################
+# Netlify dev server (local)
+##############################
+
+# Dev settings: (Used when running local Netlify dev server)
+[dev]
+  command = "npm run watch"
+  # Declaring port for netlify dev server to use when running the `npm run watch` command
+  port = 8888
+
+##############################
 # Headers
 ##############################
 
