@@ -4,7 +4,6 @@ title: "The Voices"
 summary: "A poem I wrote about the many voices in one's head."
 
 date: 2016-04-26T20:17:00
-updated: 2021-01-08T18:11:00
 
 location:
   locality: "Horley"

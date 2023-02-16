@@ -7,7 +7,6 @@ lead:
   - "I think real Hope and Faith will show themselves again when we least expect it. That's my hope although very very fragile."
 
 date: 2016-01-02T11:45:00
-updated: 2021-01-08T17:42:00
 
 location:
   locality: "Horley"

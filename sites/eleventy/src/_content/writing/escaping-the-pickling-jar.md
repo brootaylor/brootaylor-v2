@@ -4,7 +4,6 @@ title: "Escaping the pickling jar"
 summary: "A poem I wrote."
 
 date: 2014-10-16T10:12:00
-updated: 2021-01-08T15:56:00
 
 location:
   locality: "Horley"

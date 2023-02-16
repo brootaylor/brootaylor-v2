@@ -8,7 +8,7 @@ date: 2023-02-04T15:32:38.789Z
 updated: 2023-02-04T15:32:38.789Z
 location:
   locality: Crawley
-  country_name: United Kingdom
+  country_name: UK
 category:
   - interviews
   - sanity

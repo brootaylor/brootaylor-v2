@@ -14,8 +14,7 @@ pagination:
   size: 15
   alias: writings
 
-date: 2020-02-22T22:10:00
-updated: 2022-09-21T22:34:00
+date: 2022-09-21T22:34:00
 ---
 
 {# List of writing posts #}

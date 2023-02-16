@@ -7,7 +7,6 @@ lead:
   - "I attended a dear family friend's memorial recently. A person who really was the salt of the earth. One of his nephews read out the poem, \"<em>The Guy in the Glass</em>\". It moved me deeply so I thought I'd share it here."
 
 date: 2021-01-11T14:43:00
-updated: 2021-01-11T14:43:00
 
 location:
   locality: "Crawley"

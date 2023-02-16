@@ -36,14 +36,14 @@ collections:
       - {label: "Meta Description", name: "summary", widget: "string"}
       - {label: "Lead", name: "lead", widget: "string", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime", picker_utc: true}
-      - {label: "Updated Date", name: "updated", widget: "datetime", picker_utc: true}
+      - {label: "Updated Date", name: "updated", widget: "datetime", picker_utc: true, required: false}
       - label: "Location"
         name: "location"
         widget: "object"
         collapsed: true
         fields:
           - {label: "locality", name: "locality", widget: "string", default: "Crawley"}
-          - {label: "Country", name: "country_name", widget: "string", default: "United Kingdom"}
+          - {label: "Country", name: "country_name", widget: "string", default: "UK"}
       - {label: "Categories", name: "category", widget: "list", allow_add: true}
       - {label: "Body", name: "body", widget: "markdown"}
 
@@ -60,14 +60,13 @@ collections:
       - {label: "File Name", name: "file-name", widget: "string"}
       - {label: "Meta Description", name: "summary", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime", picker_utc: true}
-      - {label: "Updated Date", name: "updated", widget: "datetime", picker_utc: true}
       - label: "Location"
         name: "location"
         widget: "object"
         collapsed: true
         fields:
           - {label: "locality", name: "locality", widget: "string", default: "Crawley"}
-          - {label: "Country", name: "country_name", widget: "string", default: "United Kingdom"}
+          - {label: "Country", name: "country_name", widget: "string", default: "UK"}
       - {label: "Categories", name: "category", widget: "list", allow_add: true}
       - {label: "Body", name: "body", widget: "markdown"}
 
@@ -87,14 +86,13 @@ collections:
       - {label: "Bookmark Label", name: "bookmarkLabel", widget: "string"}
       - {label: "Bookmark Author", name: "bookmarkAuthor", widget: "string", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime", picker_utc: true}
-      - {label: "Updated Date", name: "updated", widget: "datetime", picker_utc: true}
       - label: "Location"
         name: "location"
         widget: "object"
         collapsed: true
         fields:
           - {label: "locality", name: "locality", widget: "string", default: "Crawley"}
-          - {label: "Country", name: "country_name", widget: "string", default: "United Kingdom"}
+          - {label: "Country", name: "country_name", widget: "string", default: "UK"}
       - {label: "Categories", name: "category", widget: "list", allow_add: true}
       - {label: "Body", name: "body", widget: "markdown"}
 

@@ -7,7 +7,6 @@ lead:
   - "It is interesting how a trauma or potentially bad news can snap one into focus. It has the liberating effect of pushing all the not so important things right to the back of the queue. It’s like life seems to gain this unexpected yet welcomed clarity."
 
 date: 2022-04-05T17:41:00
-updated: 2022-04-05T17:41:00
 
 location:
   locality: "Crawley"

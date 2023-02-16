@@ -4,7 +4,6 @@ title: "\"Do not ask your children to strive\""
 summary: "A poem by William Martin."
 
 date: 2022-01-26T17:46:00
-updated: 2022-01-27T00:40:00
 
 location:
   locality: "Crawley"

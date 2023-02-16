@@ -9,8 +9,7 @@ lead:
 
 bodyClass: "about"
 
-date: 2020-04-24T19:33:00
-updated: 2023-02-10T18:18:00
+date: 2023-02-10T18:18:00
 ---
 
 My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 children. 2 sons and a daughter.

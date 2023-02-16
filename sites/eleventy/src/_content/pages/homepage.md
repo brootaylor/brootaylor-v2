@@ -30,10 +30,8 @@ bodyClass: "homepage"
 
 permalink: "/index.html"
 
-date: 2020-04-24T12:54:00
-updated: 2023-01-24T09:39:00
+date: 2023-01-24T09:39:00
 
-changefreq: "weekly"
 priority: 1
 ---
 

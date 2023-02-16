@@ -6,8 +6,9 @@ bodyClass: "accessibility"
 
 tags: "page" # This `page` tag is here so that the service worker picks them up. These pages are picked up in the `mainnav` or `footernav` loops
 
-date: 2020-05-01T16:41:00
-updated: 2021-10-28T17:41:00
+date: 2021-10-28T17:41:00
+
+changefreq: "yearly"
 ---
 
 This website is committed to providing a usable experience for anyone visiting it, regardless of technology or ability. It strives to meet the level AA standards outlined in the [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/). This guide helps to explain how to make web content easier to use for disabled people.

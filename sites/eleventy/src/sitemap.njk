@@ -7,17 +7,16 @@ eleventyExcludeFromCollections: true
 <urlset
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-
 {# Loop over everything that hasn't been excluded from `collections` #}
 {%- for page in collections.all | reverse -%}
 {# And only if they're not `hidden: true` #}
 {%- if page.data.hidden !== true -%}
 <url>
   <loc>{{ site.rootUrl }}{{ page.url | pretty }}</loc>
-  <lastmod>{{ page.data.updated | dateTime }}</lastmod>
+	<lastmod>{% if page.data.updated %}{{ page.data.updated | dateTime }}{% else %}{{ page.date | dateTime }}{% endif %}</lastmod>
   <changefreq>{{ page.data.changefreq }}</changefreq>
   <priority>{{ page.data.priority }}</priority>
 </url>
-{%- endif -%}
+{% endif -%}
 {%- endfor -%}
 </urlset>

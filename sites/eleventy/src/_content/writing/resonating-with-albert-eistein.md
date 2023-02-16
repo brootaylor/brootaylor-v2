@@ -4,7 +4,6 @@ title: "Resonating with Albert Eistein"
 summary: "Some quotes by Albert Eistein that deeply resonate at the moment."
 
 date: 2023-02-14T10:08:00
-updated: 2023-02-14T10:08:00
 
 location:
   locality: "Crawley"

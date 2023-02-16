@@ -9,7 +9,7 @@ date: 2022-11-30T17:35:21.715Z
 updated: 2022-11-30T17:35:21.734Z
 location:
   locality: Crawley
-  country_name: United Kingdom
+  country_name: UK
 category:
   - frontend
   - web

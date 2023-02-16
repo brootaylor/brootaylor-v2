@@ -7,7 +7,6 @@ lead:
   - "It feels like a reset. A reboot on every level. Things I thought I knew for certain, I now question."
 
 date: 2016-10-15T08:34:00
-updated: 2021-01-08T18:23:00
 
 location:
   locality: "Horley"

@@ -7,7 +7,6 @@ lead:
   - "How did we get it so wrong to applaud attendance of church meetings and mans endeavours and then declare it to be a community that genuinely loves and lays down its life for its members and the world?"
 
 date: 2014-10-02T21:49:00
-updated: 2021-01-08T15:07:00
 
 location:
   locality: "Horley"

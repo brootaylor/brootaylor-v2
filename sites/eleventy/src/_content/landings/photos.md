@@ -11,8 +11,7 @@ pagination:
   size: 25
   alias: photos
 
-date: 2022-03-28T18:24:00
-updated: 2022-04-07T17:23:00
+date: 2022-04-07T17:23:00
 ---
 
 {# List of photo posts #}

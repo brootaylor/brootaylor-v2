@@ -8,7 +8,7 @@ lead:
     resources</a> was back in 2019. I think it's about time I posted an update
     &mdash; seeing that's it's 2023 after all.
 date: 2023-02-12T17:36:00
-updated: 2023-02-16T15:03:25.456Z
+updated: 2023-02-16T15:03:25
 location:
   locality: Crawley
   country_name: UK

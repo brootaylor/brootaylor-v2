@@ -4,7 +4,6 @@ title: "Dabbling with burnout"
 summary: "Dabbling with burnout."
 
 date: 2020-05-27T13:20:00
-updated: 2020-05-27T13:20:00
 
 location:
   locality: "Crawley"

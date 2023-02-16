@@ -76,7 +76,7 @@
 
 <!--
 	Current page: {{ page.url | pretty }}
-	Last updated: {{ updated | dateTimeReadable("dd LLLL yyyy @ t") }}
+	Last updated: {% if updated %}{{ updated | dateTimeReadable("dd LLLL yyyy @ t") }}{% else %}{{ date | dateTimeReadable("dd LLLL yyyy @ t") }}{% endif %}
 -->
 
 	</body>

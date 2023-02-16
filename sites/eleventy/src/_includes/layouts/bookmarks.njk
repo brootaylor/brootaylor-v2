@@ -15,8 +15,10 @@
 	<article class="wrapper | flow">
 
 		<header>
-			<time datetime="{{ date | dateTime }}">{{ date | dateTimeReadable("d LLLL y, ") }}{{ date | dateTimeReadable("t") | lower }}</time>
-			<small> <i aria-hidden="true">&#8275;</i> <span class="visually-hidden">Written in </span>{{ location.locality }}, {{ location.country_name }}</small>
+			<small>
+				<span class="visually-hidden">Published: </span><time datetime="{{ date | dateTime }}">{{ date | dateTimeReadable("d LLLL y, ") }}{{ date | dateTimeReadable("t") | lower }}</time>
+				<i aria-hidden="true">&nbsp;&#8275;&nbsp;</i> <span class="visually-hidden">Written in </span>{{ location.locality }}, {{ location.country_name }}
+			</small>
 			<div><span class="visually-hidden">Original post can be viewed at</span><a href="{{ bookmarkExternal }}" rel="external" title="Link to the original post.">{{ bookmarkLabel }}</a></div>
 			{# This `title` comes from the front matter in the relevant `.md` file - within the `pages` directory #}
 			{% if title %}

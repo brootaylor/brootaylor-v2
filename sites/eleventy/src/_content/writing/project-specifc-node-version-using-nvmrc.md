@@ -7,7 +7,6 @@ lead:
   - "Project-specifc Node version using .nvmrc"
 
 date: 2021-01-07T15:48:00
-updated: 2021-01-07T15:48:00
 
 location:
   locality: "Crawley"

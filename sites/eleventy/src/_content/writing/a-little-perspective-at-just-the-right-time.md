@@ -7,7 +7,6 @@ lead:
   - "I was beginning to think my days in the web designery & developery industry were numbered."
 
 date: 2014-01-29T22:34:00
-updated: 2021-01-08T14:51:00
 
 location:
   locality: "Horley"

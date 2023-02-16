@@ -3,10 +3,9 @@ title: World population growth
 summary: This is both disturbing and mesmerising. Watching in ‘real-time’ the
   global population grow.
 date: 2022-09-21T22:00:08.555Z
-updated: 2022-09-21T22:00:08.569Z
 location:
   locality: Crawley
-  country_name: United Kingdom
+  country_name: UK
 category:
   - overpopulation
   - overshoot

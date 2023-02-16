@@ -8,7 +8,7 @@ date: 2022-09-23T13:20:46.430Z
 updated: 2022-09-23T13:20:46.448Z
 location:
   locality: Crawley
-  country_name: United Kingdom
+  country_name: UK
 category:
   - patagonia
   - ownership

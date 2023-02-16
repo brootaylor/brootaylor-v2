@@ -4,13 +4,13 @@ hidden: true
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ site.rootUrl }}">
 	<title>{{ site.name }}</title>
 	<subtitle>{{ site.metaDescription }}</subtitle>
 	<link rel="self" href="{{ site.rootUrl }}{{ permalink }}" type="application/atom+xml"/>
 	<link rel="alternate" href="{{ site.rootUrl }}/" type="text/html"/>
 	{% if collections.post | length %}
-	<updated>{{ collections.post | rssLastUpdatedDate }}</updated>
+	<updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
 	{% endif %}
 	<id>{{ site.rootUrl }}</id>
 	<author>
@@ -20,11 +20,11 @@ eleventyExcludeFromCollections: true
 	</author>
 	{% for post in collections.post | reverse %}
 		{% set absolutePostUrl %}{{ site.rootUrl }}{{ post.url | pretty }}{% endset %}
-		{% set lastUpdated %}{{ post.data.updated | rssDate }}{% endset %}
+		{% set postDate %}{{ post.date | dateToRfc3339 }}{% endset %}
 		<entry>
 			<title>{{ post.data.title }}</title>
 			<link rel="alternate" href="{{ absolutePostUrl }}" type="text/html"/>
-			<updated>{{ lastUpdated }}</updated>
+			<updated>{{ postDate }}</updated>
 			<id>{{ absolutePostUrl }}</id>
 			<content type="html" xml:base="{{ absolutePostUrl }}"><![CDATA[
 				{%- if post.data.bookmarkExternal -%}

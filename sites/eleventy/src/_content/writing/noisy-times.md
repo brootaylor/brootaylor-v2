@@ -7,7 +7,6 @@ lead:
   - "These are strange times for sure and all too often I’m finding myself overly concerned with the future and primarily its potential outworking for my kids. Most of which I have no way of controlling anyway; and yet these thoughts can end up taking up a big chunk of space in my mind and sapping me of energy."
 
 date: 2020-06-10T14:41:00
-updated: 2020-06-10T14:41:00
 
 location:
   locality: "Crawley"

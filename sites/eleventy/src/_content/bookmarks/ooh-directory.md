@@ -8,7 +8,7 @@ date: 2022-11-25T11:34:38.789Z
 updated: 2022-11-25T11:34:38.793Z
 location:
   locality: Crawley
-  country_name: United Kingdom
+  country_name: UK
 category:
   - web
   - blogs

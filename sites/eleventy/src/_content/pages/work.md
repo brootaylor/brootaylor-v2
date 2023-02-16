@@ -10,8 +10,7 @@ lead:
 
 bodyClass: "work"
 
-date: 2021-11-22T23:34:00
-updated: 2023-02-10T16:16:00
+date: 2023-02-10T16:16:00
 ---
 
 <section aria-labelledby="work-current" class="companies | flow">

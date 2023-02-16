@@ -11,7 +11,7 @@ date: 2022-09-05T17:59:33.575Z
 updated: 2022-09-05T17:59:33.594Z
 location:
   locality: Crawley
-  country_name: United Kingdom
+  country_name: UK
 category:
   - work
   - life

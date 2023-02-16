@@ -11,8 +11,7 @@ pagination:
   size: 15
   alias: bookmarks
 
-date: 2020-02-22T22:10:00
-updated: 2022-04-07T17:23:00
+date: 2022-04-07T17:23:00
 ---
 
 {# List of bookmark posts #}
