@@ -13,10 +13,10 @@ module.exports = async function (src, cls, alt, sizes) {
       duration: '1y',
     },
     sharpWebpOptions: {
-      quality: 20,
+      quality: 60,
     },
     sharpJpegOptions: {
-      quality: 40,
+      quality: 60,
     },
   })
 
