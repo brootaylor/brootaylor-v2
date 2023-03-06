@@ -39,7 +39,7 @@ module.exports = {
     name: 'Bruce Taylor',
     job: 'Web Developer & UI Engineer',
     url: 'https://brootaylor.com',
-    thumbnail: 'https://brootaylor.com/assets/images/broo_2019.jpg',
+    thumbnail: 'https://brootaylor.com/assets/images/common/broo_2019.jpg',
     email: 'brootaylor@gmail.com',
   },
 }
