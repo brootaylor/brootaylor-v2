@@ -7,7 +7,6 @@ bookmarkLabel: "sailorhg.com"
 bookmarkAuthor: "Amy Wibowo"
 
 date: 2022-04-16T09:49:00
-updated: 2022-04-16T09:49:00
 
 location:
   locality: "Crawley"

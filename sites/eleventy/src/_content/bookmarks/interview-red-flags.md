@@ -5,7 +5,6 @@ bookmarkExternal: https://gomakethings.com/interview-red-flags/
 bookmarkLabel: gomakethings.com
 bookmarkAuthor: Chris Ferdinandi
 date: 2023-02-04T15:32:38.789Z
-updated: 2023-02-04T15:32:38.789Z
 location:
   locality: Crawley
   country_name: UK

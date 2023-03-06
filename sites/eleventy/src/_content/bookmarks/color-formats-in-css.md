@@ -6,7 +6,6 @@ bookmarkExternal: https://www.joshwcomeau.com/css/color-formats/
 bookmarkLabel: www.joshwcomeau.com
 bookmarkAuthor: Josh Comeau
 date: 2022-11-30T17:35:21.715Z
-updated: 2022-11-30T17:35:21.734Z
 location:
   locality: Crawley
   country_name: UK

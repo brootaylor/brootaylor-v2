@@ -7,7 +7,6 @@ bookmarkLabel: "www.gawker.com"
 bookmarkAuthor: "Dan Brooks"
 
 date: 2021-12-28T21:34:00
-updated: 2021-12-28T21:34:00
 
 location:
   locality: "Crawley"

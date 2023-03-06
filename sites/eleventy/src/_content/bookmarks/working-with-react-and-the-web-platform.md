@@ -7,7 +7,6 @@ bookmarkLabel: "www.jackfranklin.co.uk"
 bookmarkAuthor: "Jack Franklin"
 
 date: 2022-06-13T12:41:00
-updated: 2022-06-13T12:41:00
 
 location:
   locality: "Crawley"

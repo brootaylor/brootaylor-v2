@@ -2,7 +2,7 @@
 title: "Notes"
 # Populates the `meta description` for a page
 summary: "Quick notes, thoughts and ramblings."
-bodyClass: "notes-home"
+bodyClass: "blog-list notes-home"
 
 permalink: "{% if pagination.pageNumber > 0 %}/notes/{{ pagination.pageNumber + 1 }}/index.html{% else %}/notes.html{% endif %}"
 

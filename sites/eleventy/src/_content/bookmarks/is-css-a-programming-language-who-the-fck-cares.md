@@ -7,7 +7,6 @@ bookmarkLabel: "gomakethings.com"
 bookmarkAuthor: "Chris Ferdinandi"
 
 date: 2022-08-24T16:25:00
-updated: 2022-08-24T16:25:00
 
 location:
   locality: "Crawley"

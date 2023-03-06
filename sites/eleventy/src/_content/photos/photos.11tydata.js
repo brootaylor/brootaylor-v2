@@ -3,7 +3,7 @@ module.exports = {
   eleventyComputed: {
     title: "Photo: {{ date | dateTimeReadable('dd LLLL yyyy @ t') }}",
   },
-  bodyClass: "photos",
+  bodyClass: "blog photos",
   tags: [
     "post",
     "photos"

@@ -5,7 +5,6 @@ bookmarkExternal: https://getindiekit.com/
 bookmarkLabel: getindiekit.com
 bookmarkAuthor: Paul Robert Lloyd
 date: 2022-12-20T13:34:38.789Z
-updated: 2022-12-20T13:34:38.789Z
 location:
   locality: Crawley
   country_name: UK

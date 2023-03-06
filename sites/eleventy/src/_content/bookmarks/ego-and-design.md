@@ -5,7 +5,6 @@ bookmarkExternal: https://www.robinrendle.com/notes/ego-and-design/
 bookmarkLabel: www.robinrendle.com
 bookmarkAuthor: Robin Rendle
 date: 2022-04-16T08:31:23.382Z
-updated: 2022-04-16T08:31:23.382Z
 location:
   locality: Crawley
   country_name: UK

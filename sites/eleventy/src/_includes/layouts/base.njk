@@ -71,6 +71,18 @@
 		{# Main footer content #}
 		{% include "components/global/footer/footer.njk" %}
 
+		{# Schema Structured Data content #}
+		{% if 'homepage' in bodyClass %}
+			<!-- Schema Structured Data for the homepage... -->
+			{% include "components/chrome/schema/schema_home.njk" %}
+		{% elif 'about' in bodyClass %}
+			<!-- Schema Structured Data for the about page... -->
+			{% include "components/chrome/schema/schema_about.njk" %}
+		{% elif 'blog' in bodyClass %}
+			<!-- Schema Structured Data for a blog post... -->
+			{% include "components/chrome/schema/schema_blogpost.njk" %}
+		{% endif %}
+
 		{# Script calls #}
 		{% include "components/chrome/scripts/scripts.njk" %}
 

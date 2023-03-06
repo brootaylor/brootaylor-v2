@@ -1,6 +1,6 @@
 module.exports = {
   layout: "layouts/bookmarks.njk",
-  bodyClass: "bookmarks",
+  bodyClass: "blog bookmarks",
   tags: [
     "post",
     "bookmarks"

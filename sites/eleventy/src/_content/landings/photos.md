@@ -2,7 +2,7 @@
 title: "Photos"
 # Populates the `meta description` for a page
 summary: "Some photos I've taken along the way."
-bodyClass: "photos-home"
+bodyClass: "blog-list photos-home"
 
 permalink: "{% if pagination.pageNumber > 0 %}/photos/{{ pagination.pageNumber + 1 }}/index.html{% else %}/photos.html{% endif %}"
 

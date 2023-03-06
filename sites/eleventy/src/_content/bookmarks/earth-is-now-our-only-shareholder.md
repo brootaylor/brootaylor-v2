@@ -5,7 +5,6 @@ bookmarkExternal: https://eu.patagonia.com/gb/en/ownership/
 bookmarkLabel: patagonia.com
 bookmarkAuthor: Yvon Chouinard
 date: 2022-09-23T13:20:46.430Z
-updated: 2022-09-23T13:20:46.448Z
 location:
   locality: Crawley
   country_name: UK

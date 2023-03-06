@@ -2,7 +2,7 @@
 title: "Bookmarks"
 # Populates the `meta description` for a page
 summary: "Links to articles and various things I've enjoyed and found interesting. Technical and non-technical. Quite a few of them offer perspectives / advice I appreciate."
-bodyClass: "bookmarks-home"
+bodyClass: "blog-list bookmarks-home"
 
 permalink: "{% if pagination.pageNumber > 0 %}/bookmarks/{{ pagination.pageNumber + 1 }}/index.html{% else %}/bookmarks.html{% endif %}"
 

@@ -37,7 +37,9 @@ module.exports = {
   siteTheme: 'theme-default', // Eg. if wanting to theme site to support Ukraine `theme-ukraine`
   author: {
     name: 'Bruce Taylor',
+    job: 'Web Developer & UI Engineer',
     url: 'https://brootaylor.com',
+    thumbnail: 'https://brootaylor.com/assets/images/broo_2019.jpg',
     email: 'brootaylor@gmail.com',
   },
 }

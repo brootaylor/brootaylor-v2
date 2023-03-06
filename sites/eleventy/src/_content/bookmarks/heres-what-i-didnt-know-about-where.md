@@ -7,7 +7,6 @@ bookmarkLabel: "www.matuzo.at"
 bookmarkAuthor: "Manuel Matuzović"
 
 date: 2022-01-27T14:23:00
-updated: 2022-01-27T14:23:00
 
 location:
   locality: "Crawley"

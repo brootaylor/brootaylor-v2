@@ -8,7 +8,6 @@ bookmarkExternal: https://adactio.com/journal/19392
 bookmarkLabel: adactio.com
 bookmarkAuthor: Jeremy Keith
 date: 2022-09-05T17:59:33.575Z
-updated: 2022-09-05T17:59:33.594Z
 location:
   locality: Crawley
   country_name: UK

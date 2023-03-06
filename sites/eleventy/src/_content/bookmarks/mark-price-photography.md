@@ -6,7 +6,6 @@ bookmarkExternal: "https://www.mark-price.photography/"
 bookmarkLabel: "mark-price.photography"
 
 date: 2020-05-28T15:05:00
-updated: 2020-05-28T15:05:00
 
 location:
   locality: "Crawley"

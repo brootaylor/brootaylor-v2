@@ -7,7 +7,6 @@ bookmarkLabel: "thinkdobecreate.com"
 bookmarkAuthor: "Stephanie Eckles"
 
 date: 2022-04-16T09:01:00
-updated: 2022-04-16T09:01:00
 
 location:
   locality: "Crawley"

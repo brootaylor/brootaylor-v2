@@ -1,6 +1,6 @@
 module.exports = {
   layout: "layouts/writing.njk",
-  bodyClass: "writing",
+  bodyClass: "blog writing",
   tags: [
     "post",
     "writing"

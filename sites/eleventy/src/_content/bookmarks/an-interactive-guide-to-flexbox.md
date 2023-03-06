@@ -7,7 +7,6 @@ bookmarkExternal: https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
 bookmarkLabel: www.joshwcomeau.com
 bookmarkAuthor: Josh Comeau
 date: 2022-11-25T11:23:05.042Z
-updated: 2022-11-25T11:23:05.047Z
 location:
   locality: Crawley
   country_name: UK

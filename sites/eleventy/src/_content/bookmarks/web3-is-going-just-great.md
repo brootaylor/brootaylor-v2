@@ -7,7 +7,6 @@ bookmarkLabel: "web3isgoinggreat.com"
 bookmarkAuthor: "Molly White"
 
 date: 2022-05-12T13:51:00
-updated: 2022-05-12T13:51:00
 
 location:
   locality: "Crawley"

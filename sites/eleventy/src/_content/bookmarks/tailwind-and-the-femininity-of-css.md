@@ -7,7 +7,6 @@ bookmarkLabel: "thoughtbot.com"
 bookmarkAuthor: "Elaina Natario"
 
 date: 2021-12-21T19:11:00
-updated: 2021-12-21T19:11:00
 
 location:
   locality: "Crawley"
