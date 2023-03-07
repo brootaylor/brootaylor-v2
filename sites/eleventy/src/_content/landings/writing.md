@@ -5,7 +5,7 @@ summary: "My thoughts and musings on a variety of things. Some web-tech related,
 # Populates the opening / `lead` text on a page
 lead:
   - "My thoughts and musings on a variety of things. Some web-tech related, some philosophical, some of a religious nature and some just me trying to process something as honestly as I can."
-bodyClass: "blog-list writing-home"
+bodyClass: "writing-home"
 
 permalink: "{% if pagination.pageNumber > 0 %}/writing/{{ pagination.pageNumber + 1 }}/index.html{% else %}/writing.html{% endif %}"
 
