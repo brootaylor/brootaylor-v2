@@ -27,6 +27,9 @@
 			<small>
 				<span class="visually-hidden">Published: </span><time datetime="{{ date | dateTime }}">{{ date | dateTimeReadable("d LLLL y, ") }}{{ date | dateTimeReadable("t") | lower }}</time>
 				<i aria-hidden="true">&nbsp;&#8275;&nbsp;</i> <span class="visually-hidden">Written in </span>{{ location.locality }}, {{ location.country_name }}
+				{% if updated %}
+					<i aria-hidden="true">&nbsp;&#183;&nbsp;</i><em> <b>Updated: </b></em><time datetime="{{ updated | dateTime }}">{{ updated | dateTimeReadable("d LLLL y, ") }}{{ updated | dateTimeReadable("t") | lower }}</time>
+				{% endif %}
 			</small>
 		</footer>
 
