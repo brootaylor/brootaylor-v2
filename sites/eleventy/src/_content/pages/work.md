@@ -10,12 +10,12 @@ lead:
 
 bodyClass: "work"
 
-date: 2023-02-10T16:16:00
+date: 2023-03-13T18:22:00
 ---
 
 <section aria-labelledby="work-current" class="companies | flow">
-  <h2 id="work-current" tabindex="-1">Currently working with <a class="header-anchor" href="#work-current" aria-hidden="true">#</a></h2>
-  <ul role="list" class="auto-grid | grid-half | no-list">
+  <h2 id="work-current" tabindex="-1">Currently working with & on  <a class="header-anchor" href="#work-current" aria-hidden="true">#</a></h2>
+  <ul role="list" class="auto-grid | no-list">
     <li>
       <article class="card card--stacked call-out">
         <div class="card__content">
@@ -27,6 +27,21 @@ date: 2023-02-10T16:16:00
           </header>
           <div class="card__body | flow">
             <p>Working with <a href="http://dannyhope.co.uk/">Danny Hope</a> and the UX Brighton team to enhance and optimise their user interface, overall website experience, developer experience, content management workflow and <abbr title="Search Engine Optimisation.">SEO</abbr>.</p>
+          </div>
+        </div>
+      </article>
+    </li>
+    <li>
+      <article class="card card--stacked call-out">
+        <div class="card__content">
+          <header class="card__header">
+            <h3 class="card__title">
+              <a href="https://github.com/brootaylor">Personal projects</a>
+            </h3>
+          </header>
+          <div class="card__body | flow">
+            <p>I'm often <em>playing</em> around with something webby. Whether it's enhancements to my personal website or familiarising myself with a new bit of tech.</p>
+            <p><a href="https://github.com/brootaylor">Visit my GitHub</a> to see what I'm working on.</p>
           </div>
         </div>
       </article>
@@ -45,17 +60,13 @@ date: 2023-02-10T16:16:00
           <header class="card__header">
             <h3 class="card__title">
               <a href="https://www.brunswickgroup.com">Brunswick Group</a>
-              <a href="#fn:brunswick-group" class="footnote" rel="footnote"><sup>*</sup></a>
             </h3>
-            <span class="date-time">Year: 2023 <small>(contract)</small></span>
+            <span class="date-time">Year: 2017, 2018, 2022 & 2023 <small>(contracts)</small></span>
           </header>
           <div class="card__body | flow">
             <p>Worked with Brunswick Group to develop engaging corporate communication websites.</p>
             <p><abbr title="Multiple Page Application.">MPA</abbr> and <abbr title="Single Page Application.">SPA</abbr> website offerings for clients like Puma, Mondi, Greenbrier, Naspers & VARO.</p>
           </div>
-          <footer id="fn:brunswick-group" class="card__footer">
-            <p><sup>*</sup> Previous contracts: 2017, 2018 & 2022.</p>
-          </footer>
         </div>
       </article>
     </li>
