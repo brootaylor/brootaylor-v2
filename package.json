@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "jest": "^29.5.0",
-    "netlify-cli": "^13.1.5",
+    "netlify-cli": "^13.1.6",
     "onchange": "^7.1.0"
   }
 }
