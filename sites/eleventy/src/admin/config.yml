@@ -97,6 +97,3 @@ collections:
           - {label: "Country", name: "country_name", widget: "string", default: "UK"}
       - {label: "Categories", name: "category", widget: "list", allow_add: true}
       - {label: "Body", name: "body", widget: "markdown"}
-
-
-
