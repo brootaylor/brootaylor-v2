@@ -4,7 +4,7 @@
  */
 
 // These are the imports...
-import faker from '@faker-js/faker' // Pulls in loads of fake data (node module)
+import { faker } from '@faker-js/faker' // Pulls in loads of fake data (node module)
 
 /**
  * Person details object

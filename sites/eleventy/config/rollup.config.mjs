@@ -3,37 +3,38 @@
  */
 
 // Node modules...
+import { readFileSync } from 'fs'
 import json from '@rollup/plugin-json'
 import replace from '@rollup/plugin-replace'
 import resolve from '@rollup/plugin-node-resolve'
 import commonjs from '@rollup/plugin-commonjs'
 import babel from '@rollup/plugin-babel'
-import { terser } from 'rollup-plugin-terser'
+import terser from '@rollup/plugin-terser'
 
 // Package.json values...
-import { name, version, homepage, author, license } from '../package.json'
+const pkg = JSON.parse(readFileSync(new URL('../package.json', import.meta.url), 'utf8'))
 
 // Setting some directory path variables...
 // Also some 'preamble' values for fun :-)
 const src = './src/'
 const dist = './dist/'
 const preamble = `/*
-* ${name}
-* v${version}
-* ${homepage}
+* ${pkg.name}
+* v${pkg.version}
+* ${pkg.homepage}
 * Copyright (c) ${new Date().getFullYear()} ${
-  author.name
-}. Licensed ${license} */`
+  pkg.author.name
+}. Licensed ${pkg.license} */`
 
 // Data...
-const site = require('../src/_data/site.js') // Using CommonJS 'require' cause site.js using 'module.exports'
+import site from '../src/_data/site.js' // Using CommonJS 'require' cause site.js using 'module.exports'
 
 /**
  * Main script plugin function (rules / logic)
  * @param {object} nomodule
  * @returns {{ nomodule = false } or {}}
  */
-function basePlugins ({ nomodule = false } = {}) {
+function basePlugins({ nomodule = false } = {}) {
   // Setting browser values for module and nomodule support
   const browsers = nomodule
     ? ['ie 11']
@@ -53,10 +54,10 @@ function basePlugins ({ nomodule = false } = {}) {
     replace({
       preventAssignment: true,
       delimiters: ['{{', '}}'],
-      name,
-      version
     }),
+    commonjs(),
     babel({
+      babelHelpers: 'bundled',
       exclude: 'node_modules/**', // only transpile our source code
       presets: [
         [
@@ -68,8 +69,7 @@ function basePlugins ({ nomodule = false } = {}) {
         ]
       ]
     }),
-    resolve(),
-    commonjs()
+    resolve()
   ]
 
   /**
@@ -96,7 +96,7 @@ function basePlugins ({ nomodule = false } = {}) {
 /**
  * Vendor script plugin function (rules / logic)
  */
-function vendorPlugins () {
+function vendorPlugins() {
   // Setting the plugins...
   const plugins = [json(), resolve()]
   return plugins
