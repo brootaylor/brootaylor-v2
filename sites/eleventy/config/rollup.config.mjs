@@ -5,6 +5,7 @@
 // Node modules...
 import json from '@rollup/plugin-json'
 import { nodeResolve } from '@rollup/plugin-node-resolve'
+import commonjs from '@rollup/plugin-commonjs'
 import terser from '@rollup/plugin-terser'
 
 // Setting some directory path variables...
@@ -21,7 +22,8 @@ function primaryPlugins() {
   // Setting the plugins...
   const plugins = [
     json(),
-    nodeResolve()
+    nodeResolve(),
+    commonjs()
   ]
 
   /**
@@ -41,7 +43,7 @@ function primaryPlugins() {
 /**
  * Vendor script plugin function (rules / logic)
  */
-function vendorPlugins () {
+function vendorPlugins() {
   // Setting the plugins...
   const plugins = [json(), nodeResolve()]
   return plugins
