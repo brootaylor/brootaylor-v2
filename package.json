@@ -1,6 +1,6 @@
 {
   "name": "brootaylor-v2",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Monorepo of my personal website, brootaylor.com.",
   "workspaces": [
     "sites/*"
@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "jest": "^29.5.0",
-    "netlify-cli": "^13.1.6",
+    "netlify-cli": "^13.2.0",
     "onchange": "^7.1.0"
   }
 }
