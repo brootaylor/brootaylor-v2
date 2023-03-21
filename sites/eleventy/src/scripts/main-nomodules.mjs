@@ -1,6 +1,7 @@
 import { version, name } from '../../package.json';
 
 const versionPrintOut = `${name}.${version}`
+
 console.info(versionPrintOut)
 
 // These are the imports...
