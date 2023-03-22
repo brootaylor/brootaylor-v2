@@ -2,7 +2,6 @@
  * 'Bar' module
  */
 
-// These are the imports...
 import { format } from 'date-fns' // Named imports
 
 const helloBarA = () => {
