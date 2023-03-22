@@ -1,15 +1,15 @@
 ---
 title: "About me"
 # Populates the `meta description` for a page
-summary: "I'm originally from South Africa and grew up on a dairy farm in a very beautiful part of the country."
+summary: "I'm originally from South Africa and grew up on a dairy farm in a very beautiful part of the country. I now live in West Sussex, England with my family."
 # Populates the opening / `lead` text on a page
 lead:
-  - I'm originally from South Africa and grew up on a dairy farm in a very <a href="https://youtu.be/bGQbM3QfA5w">beautiful part of the country</a>.
-  - Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking and wild camping in the mountains, staring up at the stars, canoeing, fishing and sport.
+  - I'm originally from South Africa and grew up on a dairy farm in a very <a href="https://youtu.be/bGQbM3QfA5w">beautiful part of the country</a>. I now live in West Sussex, England with my family.
+  - Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking and wild camping in the mountains, staring up at the stars, canoeing, fishing and sport. That certainly feels like quite some time ago now&hellip; 🤔
 
 bodyClass: "about"
 
-date: 2023-03-02T14:46:00
+date: 2023-03-22T19:20:00
 ---
 
 My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 children. 2 sons and a daughter.
