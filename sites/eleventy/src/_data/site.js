@@ -29,7 +29,7 @@ module.exports = {
   robotsCrawl: true, // Allow search engine robots to crawl site
   analyticsUrchin: '', // Analytics urchin uses this value
   scriptsVendor: false, // If using vendor (ie. 3rd party) scripts
-  scriptsMain: false, // If using any `main` scripts on the site (eg. carousel, objectfit polyfill etc.)
+  scriptsMain: true, // If using any `main` scripts on the site (eg. carousel, objectfit polyfill etc.)
   scriptsServiceworker: true, // If using a service worker
   dateTimeNow: DateTime.local().toFormat('dd LLLL yyyy @ t'),
   timeCurrent: DateTime.local().diff(DateTime.local(1982, 5, 25)).milliseconds,

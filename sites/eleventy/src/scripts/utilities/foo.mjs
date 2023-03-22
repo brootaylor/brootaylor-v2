@@ -2,7 +2,7 @@
  * 'Foo' module
  */
 
-export default function () {
+export default function() {
   // Grouping the console logging
   console.group('Foo Group')
 

@@ -1,20 +1,16 @@
 import { version, name } from '../../package.json';
 
 const versionPrintOut = `${name}.${version}`
-
-console.info(versionPrintOut)
+console.info('Version: ', versionPrintOut)
 
 // These are the imports...
-import { helloBarA, helloBarB } from './utilities/bar' // Named imports
-import foo from './utilities/foo' // Default import
+import { annualSalary, dayRateOutside, dayRateInside } from './utilities/salary' // Named imports
 import navigation from '../_includes/components/global/navigation/navigation' // Default import
 
-// Methods called from ./utilities/foo.mjs
-foo()
+// Method/s called from ./utilities/salary.mjs
+// annualSalary()
+// dayRateOutside()
+// dayRateInside()
 
-// Methods called from ./utilities/bar.mjs
-helloBarA()
-helloBarB()
-
-// Main navigation component
-navigation()
+// Method/s called from ./_includes/components/global/navigation/navigation.mjs
+// navigation()
