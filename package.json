@@ -25,6 +25,8 @@
   "scripts": {
     "eleventy:dev": "npm run watch --w=sites/eleventy",
     "eleventy:build": "npm run build --w=sites/eleventy",
+    "eleventy:build-styles": "npm run build:styles --w=sites/eleventy",
+    "eleventy:build-scripts": "npm run build:scripts --w=sites/eleventy",
     "eleventy:deploy-build": "npm run deploy:build --w=sites/eleventy",
     "eleventy:ntl-build": "npm run netlify-build --w=sites/eleventy",
     "eleventy:ntl-dev": "npm run netlify-dev --w=sites/eleventy",
