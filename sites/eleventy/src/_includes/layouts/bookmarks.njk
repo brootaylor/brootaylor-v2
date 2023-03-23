@@ -28,7 +28,7 @@
 				<h1>
 					{{- title | safe }}
 					{#- Checks whether a `bookmarkAuthor` value has been entered. If so, then the `h1` heading is updated... -#}
-					{% if bookmarkAuthor %} <i aria-hidden="true">&rarr;</i> {{ bookmarkAuthor | safe }}{% endif -%}
+					{% if bookmarkAuthor %}<span class="visually-hidden"> &mdash; written by</span><i aria-hidden="true"> &rarr;</i> {{ bookmarkAuthor | safe }}{% endif -%}
 				</h1>
 			{% else %}
 				{# Pages need a `title` hence the reason for this fallback #}
