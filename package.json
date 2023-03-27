@@ -37,10 +37,11 @@
     "eleventy:debug": "npm run debug --w=sites/eleventy",
     "astro:build": "npm run build --w=sites/astro",
     "astro:dev": "npm run dev --w=sites/astro",
+    "all:dev": "run-p eleventy:dev astro:dev",
     "all:build": "run-s eleventy:build astro:build",
-    "all:ntl-build": "run-s eleventy:ntl-build",
+    "all:ntl-dev": "run-p eleventy:ntl-dev astro:dev",
+    "all:ntl-build": "run-s eleventy:ntl-build astro:build",
     "all:ntl-deploy": "run-s eleventy:deploy-build",
-    "all:dev": "run-p eleventy:ntl-dev astro:dev",
     "packages:update": "ncu --deep"
   },
   "dependencies": {
