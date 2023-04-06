@@ -2,11 +2,12 @@
 layout: "layouts/homepage.njk"
 title: Hi, <a href="/about">I'm Bruce</a>.
 # Populates the `meta description` for a page
-summary: "I'm a Web Developer & UI Engineer with nearly 20 years of experience, trying my best to help people build websites that stand the test of time."
+summary: "I build websites and have been doing so for around two decades. I mostly work on the front-of-the-front-end. The somewhat fuzzy intersection between design and back-end engineering."
 
 # Populates the opening / `lead` text on a page
 lead:
-  - I'm a Web Developer & UI Engineer with nearly 20 years of experience, trying my best to help people build websites that <a href="https://resilientwebdesign.com/">stand the test of time</a>.
+  - I build websites and have been doing so for around two decades. People who do what I do are often referred to as <a href="https://bradfrost.com/blog/post/frontend-design/">Frontend Designers</a>, UI Developers, UI Engineers or <a href="https://snook.ca/archives/opinion/design-engineering">Design Engineers</a>.
+  - I mostly work on the "<a href="https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/">front-of-the-front-end</a>". The somewhat <strong><em>fuzzy</em></strong> intersection between design and back-end engineering.
 
 # Page-specific metadata content added to the `<head>`
 # head: "
@@ -30,12 +31,12 @@ bodyClass: "homepage"
 
 permalink: "/index.html"
 
-date: 2023-03-22T19:20:00
+date: 2023-04-06T18:39:00
 
 priority: 1
 ---
 
-I mostly work on the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)" and find I'm well suited to roles that balance the user and developer experiences. I enjoy roles that both empower the team to write great code in whatever way feels right to them as well as ensuring that this does not negatively impact the user experience. {.call-out}
+I find I’m well suited to and enjoy roles that balance the user & developer experiences and empower the team to write great code in whatever way feels right to them, while ensuring that the user experience is not negatively impacted. {.call-out}
 
 Even though I've done this web building thing for a while now, I certainly haven't got it all figured out. I'm still learning and I'm guessing you are as well.
 
