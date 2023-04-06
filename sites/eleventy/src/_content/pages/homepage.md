@@ -1,8 +1,8 @@
 ---
 layout: "layouts/homepage.njk"
-title: Hi, <a href="/about">I'm Bruce</a>.
+title: Hi, <a href="/about">I'm Bruce</a>.<span class="visually-hidden"> A Frontend Developer / UI Engineer living in West Sussex, England.</span>
 # Populates the `meta description` for a page
-summary: "I build websites and have been doing so for around two decades. I mostly work on the front-of-the-front-end. The somewhat fuzzy intersection between design and back-end engineering."
+summary: "Bruce lives in West Sussex, England with his family. He's a Frontend Developer / UI Engineer with nearly 2 decades of experience trying his best to help people build websites that stand the test of time."
 
 # Populates the opening / `lead` text on a page
 lead:
