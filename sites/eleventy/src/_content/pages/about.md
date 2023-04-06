@@ -9,7 +9,7 @@ lead:
 
 bodyClass: "about"
 
-date: 2023-03-22T19:20:00
+date: 2023-04-06T12:37:00
 ---
 
 My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 children. 2 sons and a daughter.
@@ -24,7 +24,7 @@ I build websites and have been doing so for around two decades now.
 
 I mostly work on the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)" and find I'm well suited to roles that balance the user and developer experiences. I enjoy roles that both empower the team to write great code in whatever way feels right to them as well as ensuring that this does not negatively impact the user experience. {.call-out}
 
-My core skills are semantic HTML, CSS, responsive design, progressively enhanced JS, PWAs, web performance, web accessibility, static site generation, Eleventy, Astro & Svelte. You'll also find me with my hands in the "*back-of-the-front-end*" and some DevOps stuff from time to time as well - (eg. JavaScript bundlers, build & deployment tooling, CI/CD etc.).
+My core skills are semantic HTML, CSS, responsive design, progressively enhanced JS, PWAs, web performance, web accessibility, static site generation, Eleventy, Jekyll & Astro. From time to time, you’ll also find me with my hands in the “*back-of-the-front-end*” using Node.js, configuring an API or fiddling with JavaScript bundlers, build & deployment tooling and CI/CD workflows.
 
 I try my best to build web solutions that are [resilient](https://resilientwebdesign.com/), [usable](https://trentwalton.com/2014/03/10/device-agnostic/) and as future-friendly as possible. For this reason I *prefer* a vanilla approach and tend to steer clear of using JavaScript frameworks if I can help it.
 
