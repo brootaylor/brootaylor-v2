@@ -31,15 +31,13 @@ bodyClass: "homepage"
 
 permalink: "/index.html"
 
-date: 2023-04-06T18:39:00
+date: 2023-04-06T22:52:00
 
 priority: 1
 ---
 
 I find I’m well suited to and enjoy roles that balance the user & developer experiences and empower the team to write great code in whatever way feels right to them, while ensuring that the user experience is not negatively impacted. {.call-out}
 
-Even though I've done this web building thing for a while now, I certainly haven't got it all figured out. I'm still learning and I'm guessing you are as well.
-
----
+Even though I've done this web building thing for a while now, I certainly haven't got it all figured out. I'm still learning and I imagine you are as well.
 
 I'd love to [hear from you](/contact) if you think I may be able to help out with your next project &mdash; or if you'd just like to say hi. 👋
