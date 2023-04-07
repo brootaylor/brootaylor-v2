@@ -5,12 +5,13 @@ summary: "I'm originally from South Africa and grew up on a dairy farm in a very
 # Populates the opening / `lead` text on a page
 lead:
   - I'm originally from South Africa and grew up on a dairy farm in a very <a href="https://youtu.be/bGQbM3QfA5w">beautiful part of the country</a>. I'm now a Frontend Developer / UI Engineer living in West Sussex, England with my family.
-  - Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking and wild camping in the mountains, staring up at the stars, canoeing, fishing and sport. That certainly feels like quite some time ago now&hellip; 🤔
 
 bodyClass: "about"
 
-date: 2023-04-08T00:37:00
+date: 2023-04-08T00:46:00
 ---
+
+Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking and wild camping in the mountains, staring up at the stars, canoeing, fishing and sport. That certainly feels like quite some time ago now&hellip; 🤔
 
 My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 children. 2 sons and a daughter.
 
@@ -22,7 +23,7 @@ When I have the time I write now and then &ndash; and have [written a few posts]
 
 I build websites and have been doing so for around two decades.
 
-I mostly work on the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)". The somewhat ***fuzzy*** intersection between design and back-end engineering. I find I’m well suited to and enjoy roles that balance the user & developer experiences and empower the team to write great code in whatever way feels right to them, while ensuring that the user experience is not negatively impacted. {.call-out}
+I mostly work on the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)". The somewhat *fuzzy* intersection between design and back-end engineering. I find I’m well suited to and enjoy roles that balance the user & developer experiences and empower the team to write great code in whatever way feels right to them, while ensuring that the user experience is not negatively impacted. {.call-out}
 
 I'm quite good at picking up new skills and programming languages, as well as problem solving. My core technical skills include HTML, CSS, responsive design, progressively enhanced JS, PWAs, web performance, web accessibility, static site generation, Eleventy, Jekyll & Astro. From time to time, you’ll also find me with my hands in the “*back-of-the-front-end*” utilising  Node.js, configuring an API or fiddling with JavaScript bundlers, build & deployment tooling, and CI/CD workflows.
 
