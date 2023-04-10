@@ -1,19 +1,19 @@
 ---
 title: "Reading"
 # Populates the `meta description` for a page
-summary: "A selection of books I've read over the past few years, as well as some books I've currently got on the go."
+summary: "A selection of books I've read and enjoyed over the past few years, as well as some books I've currently got on the go."
 # Populates the opening / `lead` text on a page
 lead:
-  - A selection of books I've read over the past few years, as well as some books I've currently got on the go.
+  - A selection of books I've read and enjoyed over the past few years, as well as some books I've currently got on the go.
 
 bodyClass: "reading"
 
-date: 2023-01-24T08:53:00
+date: 2023-04-10T23:51:00
 ---
 
-Because I've never kept a list of my reads, I've ended up creating a bit of a challenge for myself that's for sure. Trying to recall all the books I've read and enjoyed feels like a bit of a daunting task but I'm keen to at least make a stab at it.
+Because I've never kept a list of my reads, I've ended up creating a bit of a challenge for myself that's for sure. Trying to recall books I've read and enjoyed feels like a bit of a daunting task but I'm keen to at least make a stab at it.
 
-I'll be adding to the *"Have read"* section as and when I remember any books I've read cause it seems a little lean at the moment.
+I'll be adding to the *"Have read"* section as and when I remember any books I've read cause it certainly is a little lean at the moment.
 
 ---
 
@@ -27,6 +27,8 @@ Books on the go at the moment.
 
 ***Possible*** next reads&hellip;
 
+* [The Mountain in the Sea](https://www.goodreads.com/en/book/show/59808603), *Ray Nayler*
+* [Breaking Together &mdash; a freedom-loving response to collapse](https://jembendell.com/2023/04/08/breaking-together-a-freedom-loving-response-to-collapse/), *Jem Bendell*
 * [The Terran Cycle](https://www.philipcquaintrell.com/books) &mdash; *(1<sup>st</sup> of 4 books)*, *Philip C. Quaintrell*
 * [Do I Stay Christian?](https://read.macmillan.com/lp/do-i-stay-christian/), *Brian McLaren*
 * [Green Lights](https://greenlights.com/), *Matthew McConaughey*
