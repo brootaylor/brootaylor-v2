@@ -1,10 +1,16 @@
 ## ########################################################################
-# Redirect rule to point temporary Netlify URL to preferred domain name
+# Redirect rules to point temporary Netlify URLs to preferred domain names
 # ========================================================================
-# NOTE: This requires the DNS records to be updated to point to Netlify.
+# NOTE: These requires the DNS records to be updated to point to Netlify.
 [[redirects]]
   from = "https://brootaylorv2.netlify.app/*"
   to = "https://brootaylor.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://brootaylor-astro.netlify.app/*"
+  to = "https://astro.brootaylor.com/:splat"
   status = 301
   force = true
 
