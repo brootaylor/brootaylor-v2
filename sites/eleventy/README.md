@@ -1,4 +1,4 @@
-# [Eleventy](https://www.11ty.dev/) version of brootaylor.com
+# [Eleventy](https://www.11ty.dev/) version of brootaylor.com &#8674; [![Netlify Status](https://api.netlify.com/api/v1/badges/712367e5-7510-4813-9a24-5805f092cfa1/deploy-status)](https://app.netlify.com/sites/brootaylorv2/deploys)
 
 This version of the website is comprised of static files built using the fabulous [Eleventy](https://www.11ty.io/) (SSG), configurable [NPM](https://docs.npmjs.com/cli/npm) build scripts, global data configuration, [Sass](https://sass-lang.com/) powered CSS system and [rollup.js](https://rollupjs.org/) to bundle JavaScript modules. Much of the content is also available offline thanks to a [Service Worker](https://developers.google.com/web/fundamentals/primers/service-workers).
 
