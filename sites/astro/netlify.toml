@@ -14,7 +14,7 @@
   # NOTE: This requires the DNS records to be updated to point to Netlify.
   [[redirects]]
     from = "https://brootaylor-astro.netlify.app/*"
-    to = "https://brootaylor.com/:splat"
+    to = "https://astro.brootaylor.com/:splat"
     status = 301
     force = true
 
