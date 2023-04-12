@@ -6,12 +6,15 @@ export interface Props {
 const { title } = Astro.props as Props;
 ---
 
-<html lang="en">
+<!doctype html>
+<html lang="en-gb" dir="ltr">
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
-		<title>{title}</title>
+		<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{title}</title>
+    <meta name="description" content="This will more than likely be another part to my personal website, brootaylor.com. I'll probably experiment with other content on this version.">
+    <meta name="robots" content="noindex, nosnippet, follow">
+		<link rel="icon" type="image/x-icon" href="/favicon.ico">
 	</head>
 	<body>
 		<slot />
