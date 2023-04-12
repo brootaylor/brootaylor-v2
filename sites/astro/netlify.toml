@@ -4,6 +4,20 @@
   functions = "netlify/functions"
   publish = "dist"
 
+  ##############################
+  # Redirects
+  ##############################
+
+  ## ########################################################################
+  # Redirect rule to point temporary Netlify URL to preferred domain name
+  # ========================================================================
+  # NOTE: This requires the DNS records to be updated to point to Netlify.
+  [[redirects]]
+    from = "https://brootaylor-astro.netlify.app/*"
+    to = "https://brootaylor.com/:splat"
+    status = 301
+    force = true
+
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
   #[[redirects]]
