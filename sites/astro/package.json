@@ -1,7 +1,7 @@
 {
   "name": "@brootaylor-v2/astro",
   "version": "0.0.1",
-  "description": "Version 2 of my personal website, brootaylor.com. Built in Astro.",
+  "description": "Another part to my personal website, brootaylor.com. I'll probably experiment with other content on this website.",
   "private": true,
   "scripts": {
     "dev": "astro dev",
