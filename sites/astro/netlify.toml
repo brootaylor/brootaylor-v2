@@ -1,35 +1,35 @@
-# example netlify.toml
+##############################
+# Build settings
+##############################
+
 [build]
-  command = "astro build"
-  functions = "netlify/functions"
+  command = "npm run build"
   publish = "dist"
 
-  ##############################
-  # Redirects
-  ##############################
 
-  ## ########################################################################
-  # Redirect rule to point temporary Netlify URL to preferred domain name
-  # ========================================================================
-  # NOTE: This requires the DNS records to be updated to point to Netlify.
-  [[redirects]]
-    from = "https://brootaylor-astro.netlify.app/*"
-    to = "https://astro.brootaylor.com/:splat"
-    status = 301
-    force = true
+##############################
+# Netlify dev server (local)
+##############################
 
-  ## Uncomment to use this redirect for Single Page Applications like create-react-app.
-  ## Not needed for static site generators.
-  #[[redirects]]
-  #  from = "/*"
-  #  to = "/index.html"
-  #  status = 200
+# Dev settings: (Used when running local Netlify dev server)
+[dev]
+  command = "npm run dev"
+  # Declaring port for netlify dev server to use when running the `npm run dev` command
+  port = 8889
 
-  ## (optional) Settings for Netlify Dev
-  ## https://github.com/netlify/cli/blob/main/docs/netlify-dev.md#project-detection
-  #[dev]
-  #  command = "yarn start" # Command to start your dev server
-  #  port = 3000 # Port that the dev server will be listening on
-  #  publish = "dist" # Folder with the static content for _redirect file
 
-  ## more info on configuring this file: https://docs.netlify.com/configure-builds/file-based-configuration/
+##############################
+# Redirects
+##############################
+
+## ########################################################################
+# Redirect rule to point temporary Netlify URL to preferred domain name
+# ========================================================================
+# NOTE: This requires the DNS records to be updated to point to Netlify.
+[[redirects]]
+  from = "https://brootaylor-astro.netlify.app/*"
+  to = "https://astro.brootaylor.com/:splat"
+  status = 301
+  force = true
+
+## more info on configuring this file: https://docs.netlify.com/configure-builds/file-based-configuration/

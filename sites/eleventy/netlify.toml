@@ -32,6 +32,7 @@
     NODE_VERSION = "18"
     TZ = "Europe/London"
 
+
 ##############################
 # Netlify dev server (local)
 ##############################
@@ -42,13 +43,16 @@
   # Declaring port for netlify dev server to use when running the `npm run watch` command
   port = 8888
 
+
 ##############################
 # Headers
 ##############################
 
 # Headers (Global)
 [[headers]]
+  # Define which paths this specific [[headers]] block will cover.
   for = "/*"
+
   [headers.values]
     Content-Security-Policy = "script-src 'self' 'unsafe-inline' 'unsafe-eval' *.netlify.com unpkg.com; style-src 'self' 'unsafe-inline'; object-src 'self' 'unsafe-inline'; img-src 'self' 'unsafe-inline' *.cloudfront.net"
     Referrer-Policy = "no-referrer, strict-origin-when-cross-origin"
