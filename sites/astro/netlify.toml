@@ -15,7 +15,7 @@
 [dev]
   command = "npm run dev"
   # Declaring port for netlify dev server to use when running the `npm run dev` command
-  port = 8889
+  port = 8887
 
 
 ##############################
