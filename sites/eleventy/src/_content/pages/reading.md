@@ -8,7 +8,7 @@ lead:
 
 bodyClass: "reading"
 
-date: 2023-04-10T23:51:00
+date: 2023-04-15T18:37:00
 ---
 
 Because I've never kept a list of my reads, I've ended up creating a bit of a challenge for myself that's for sure. Trying to recall books I've read and enjoyed feels like a bit of a daunting task but I'm keen to at least make a stab at it.
@@ -22,14 +22,17 @@ I'll be adding to the *"Have read"* section as and when I remember any books I'v
 Books on the go at the moment.
 
 * [An Inconvenient Apocalypse: Environmental Collapse, Climate Crisis, and the Fate of Humanity](https://robertwjensen.org/books/an-inconvenient-apocalypse/) &mdash; *Wes Jackson*, *Robert Jensen*
-* [The Ranger Archives, "A Dance Of Fang And Claw"](https://www.philipcquaintrell.com/adanceoffangandclaw) &mdash; *(3<sup>rd</sup> of 3 books)*, *Philip C. Quaintrell*
 * [Overshoot: The Ecological Basis of Revolutionary Change](https://www.goodreads.com/en/book/show/319810.Overshoot), *William R. Catton*
 
 ***Possible*** next reads&hellip;
 
+* [Songs of Chaos Series](https://www.goodreads.com/series/300106-songs-of-chaos) &mdash; *(3 books)*, *Michael R. Miller*
+* [The Bound and the Broken Series](https://www.goodreads.com/series/309359-the-bound-and-the-broken) &mdash; *(5 books)*, *Ryan Cahill*
+* [Rivenworld Series](https://www.goodreads.com/series/308162-rivenworld) &mdash; *(3 books)*, *M.L. Spencer*
+* [The Sun Eater Series](https://www.goodreads.com/series/231285-the-sun-eater) &mdash; *(5 primary books)*, *Christopher Ruocchio*
 * [The Mountain in the Sea](https://www.goodreads.com/en/book/show/59808603), *Ray Nayler*
 * [Breaking Together &mdash; a freedom-loving response to collapse](https://jembendell.com/2023/04/08/breaking-together-a-freedom-loving-response-to-collapse/), *Jem Bendell*
-* [The Terran Cycle](https://www.philipcquaintrell.com/books) &mdash; *(1<sup>st</sup> of 4 books)*, *Philip C. Quaintrell*
+* [The Terran Cycle](https://www.philipcquaintrell.com/books) &mdash; *(4 books)*, *Philip C. Quaintrell*
 * [Do I Stay Christian?](https://read.macmillan.com/lp/do-i-stay-christian/), *Brian McLaren*
 * [Green Lights](https://greenlights.com/), *Matthew McConaughey*
 * [Accessibility For Everyone](https://abookapart.com/products/accessibility-for-everyone), *Laura Kalbag*
@@ -41,13 +44,13 @@ Books on the go at the moment.
 
 Selection of books I've read. But more importantly, enjoyed and would therefore recommend.
 
-* [The Ranger Archives, "Blood And Coin"](https://www.philipcquaintrell.com/copy-of-court-of-assassins) &mdash; *(2<sup>nd</sup> of 3 books)*, *Philip C. Quaintrell*
-* [The Ranger Archives, "Court Of Assassins"](https://www.philipcquaintrell.com/copy-of-a-clash-of-fates) &mdash; *(1<sup>st</sup> of 3 books)*, *Philip C. Quaintrell*
+* [The Ranger Archives](https://www.philipcquaintrell.com/the-ranger-archives) &mdash; *(3 books)*, *Philip C. Quaintrell*
 * [Opening Men's Eyes](https://www.goodreads.com/book/show/10105541-opening-men-s-eyes), *Michael Cardo*
-* [The Echoes Saga](https://www.philipcquaintrell.com/books) &mdash; *(9 books)*, *Philip C. Quaintrell*
+* [The Echoes Saga](https://www.philipcquaintrell.com/theechoessaga) &mdash; *(9 books)*, *Philip C. Quaintrell*
 * [Responsible JavaScript](https://abookapart.com/products/responsible-javascript), *Jeremy Wagner*
 * [Bitten By a Camel: Leaving Church, Finding God](https://www.goodreads.com/en/book/show/34763102-bitten-by-a-camel), *Kent Dobson*
 * [The Universal Christ](https://universalchrist.cac.org/), *Richard Rohr*
+* [King’s Dark Tidings Series](https://kelkade.com/books/) &mdash; *(5 books)*, *Kel Kade*
 * [Falling Upward: A Spirituality for the Two Halves of Life ](https://www.goodreads.com/en/book/show/9963483-falling-upward), *Richard Rohr*
 * [Future Ethics](https://nownext.studio/future-ethics), *Cennydd Bowles*
 * [Going Offline](https://abookapart.com/products/going-offline), *Jeremy Keith*
