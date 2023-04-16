@@ -8,7 +8,7 @@ lead:
 
 bodyClass: "reading"
 
-date: 2023-04-15T18:37:00
+date: 2023-04-16T02:26:00
 ---
 
 Because I've never kept a list of my reads, I've ended up creating a bit of a challenge for myself that's for sure. Trying to recall books I've read and enjoyed feels like a bit of a daunting task but I'm keen to at least make a stab at it.
@@ -23,20 +23,18 @@ Books on the go at the moment.
 
 * [An Inconvenient Apocalypse: Environmental Collapse, Climate Crisis, and the Fate of Humanity](https://robertwjensen.org/books/an-inconvenient-apocalypse/) &mdash; *Wes Jackson*, *Robert Jensen*
 * [Overshoot: The Ecological Basis of Revolutionary Change](https://www.goodreads.com/en/book/show/319810.Overshoot), *William R. Catton*
+* [Songs of Chaos Series](https://www.goodreads.com/series/300106-songs-of-chaos) &mdash; *(3 books)*, *Michael R. Miller*
 
 ***Possible*** next reads&hellip;
 
-* [Songs of Chaos Series](https://www.goodreads.com/series/300106-songs-of-chaos) &mdash; *(3 books)*, *Michael R. Miller*
+* [Breaking Together &mdash; a freedom-loving response to collapse](https://jembendell.com/2023/04/08/breaking-together-a-freedom-loving-response-to-collapse/), *Jem Bendell*
+* [The Mountain in the Sea](https://www.goodreads.com/en/book/show/59808603), *Ray Nayler*
 * [The Bound and the Broken Series](https://www.goodreads.com/series/309359-the-bound-and-the-broken) &mdash; *(5 books)*, *Ryan Cahill*
+* [Do I Stay Christian?](https://read.macmillan.com/lp/do-i-stay-christian/), *Brian McLaren*
 * [Rivenworld Series](https://www.goodreads.com/series/308162-rivenworld) &mdash; *(3 books)*, *M.L. Spencer*
 * [The Sun Eater Series](https://www.goodreads.com/series/231285-the-sun-eater) &mdash; *(5 primary books)*, *Christopher Ruocchio*
-* [The Mountain in the Sea](https://www.goodreads.com/en/book/show/59808603), *Ray Nayler*
-* [Breaking Together &mdash; a freedom-loving response to collapse](https://jembendell.com/2023/04/08/breaking-together-a-freedom-loving-response-to-collapse/), *Jem Bendell*
 * [The Terran Cycle](https://www.philipcquaintrell.com/books) &mdash; *(4 books)*, *Philip C. Quaintrell*
-* [Do I Stay Christian?](https://read.macmillan.com/lp/do-i-stay-christian/), *Brian McLaren*
 * [Green Lights](https://greenlights.com/), *Matthew McConaughey*
-* [Accessibility For Everyone](https://abookapart.com/products/accessibility-for-everyone), *Laura Kalbag*
-* [Dune](https://www.goodreads.com/book/show/44767458-dune), *Frank Herbert*
 
 ---
 
