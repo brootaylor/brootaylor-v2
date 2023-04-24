@@ -4,7 +4,7 @@
 
 brootaylor.com is a monorepo using [Workspaces](https://docs.npmjs.com/cli/v8/using-npm/workspaces).
 
-That's kinda weird in some ways I guess &mdash; but I've done it this way *(for now)* so I can have multiple sites / applications using common dependencies wherever possible.
+That's kinda weird in some ways I guess &mdash; but I've done it this way *(for now)* so I can have multiple sites / applications off a single repo. In this instance, it's because I'm experimenting with different static site generators.
 
 At the moment it allows me to build an [Eleventy version](https://github.com/brootaylor/brootaylor-v2/tree/main/sites/eleventy) as well as an [Astro version](https://github.com/brootaylor/brootaylor-v2/tree/main/sites/astro) of my website.
 
