@@ -8,6 +8,9 @@ That's kinda weird in some ways I guess &mdash; but I've done it this way *(for 
 
 At the moment it allows me to build an [Eleventy version](https://github.com/brootaylor/brootaylor-v2/tree/main/sites/eleventy) as well as an [Astro version](https://github.com/brootaylor/brootaylor-v2/tree/main/sites/astro) of my website. Well, while I'm messing around with Astro anyhow.
 
+* Eleventy build status &#8674; [![Netlify Status](https://api.netlify.com/api/v1/badges/712367e5-7510-4813-9a24-5805f092cfa1/deploy-status)](https://app.netlify.com/sites/brootaylorv2/deploys)
+* Astro build status &#8674; [![Netlify Status](https://api.netlify.com/api/v1/badges/dd54e3ec-112c-4c12-aed8-49203f4ec38c/deploy-status)](https://app.netlify.com/sites/brootaylor-astro/deploys)
+
 ---
 
 Now, I say this gingerly - but I'd be honoured if anyone wanted to contribute any thoughts and pearls of wisdom. All I ask is you be kind. If there's anything you spot that seems dodgy or if you'd like to recommend an enhancement, (and you have the time), you're more than welcome to [summit a GitHub issue](https://github.com/brootaylor/brootaylor-v2/issues).
