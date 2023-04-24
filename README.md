@@ -6,7 +6,7 @@ brootaylor.com is a monorepo using [Workspaces](https://docs.npmjs.com/cli/v8/us
 
 That's kinda weird in some ways I guess &mdash; but I've done it this way *(for now)* so I can have multiple sites / applications using common dependencies wherever possible.
 
-At the moment it allows me to build an [Eleventy version](https://github.com/brootaylor/brootaylor-v2/tree/main/sites/eleventy) as well as an [Astro version](https://github.com/brootaylor/brootaylor-v2/tree/main/sites/astro) of my website. Well, while I'm messing around with Astro anyhow.
+At the moment it allows me to build an [Eleventy version](https://github.com/brootaylor/brootaylor-v2/tree/main/sites/eleventy)[[![Netlify Status](https://api.netlify.com/api/v1/badges/712367e5-7510-4813-9a24-5805f092cfa1/deploy-status)](https://app.netlify.com/sites/brootaylorv2/deploys)] as well as an [Astro version](https://github.com/brootaylor/brootaylor-v2/tree/main/sites/astro)[[![Netlify Status](https://api.netlify.com/api/v1/badges/dd54e3ec-112c-4c12-aed8-49203f4ec38c/deploy-status)](https://app.netlify.com/sites/brootaylor-astro/deploys)] of my website. Well, while I'm messing around with Astro anyhow.
 
 ---
 
