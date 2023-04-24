@@ -1,6 +1,7 @@
 {
   "name": "brootaylor-v2",
-  "version": "2.0.0",
+  "version": "2.1.0",
+  "private": true,
   "description": "Monorepo of my personal website, brootaylor.com.",
   "workspaces": [
     "sites/*"
@@ -50,13 +51,9 @@
   "dependencies": {
     "cross-env": "^7.0.3",
     "dotenv": "^16.0.3",
-    "npm-run-all": "^4.1.5",
-    "object-fit-images": "^3.2.4",
-    "rimraf": "^5.0.0"
+    "npm-run-all": "^4.1.5"
   },
   "devDependencies": {
-    "jest": "^29.5.0",
-    "netlify-cli": "^14.2.1",
-    "onchange": "^7.1.0"
+    "netlify-cli": "^14.2.1"
   }
 }
