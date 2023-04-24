@@ -1,6 +1,6 @@
 {
   "name": "@brootaylor-v2/eleventy",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "description": "Version 2 of my personal website, brootaylor.com. Built in Eleventy.",
   "repository": {
     "type": "git",
