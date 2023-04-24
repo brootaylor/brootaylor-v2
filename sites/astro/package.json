@@ -1,6 +1,6 @@
 {
   "name": "@brootaylor-v2/astro",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Another part to my personal website, brootaylor.com. I'll probably experiment with other content on this website.",
   "private": true,
   "scripts": {
