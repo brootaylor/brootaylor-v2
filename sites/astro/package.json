@@ -22,7 +22,7 @@
   "devDependencies": {
     "astro": "^2.3.0",
     "jest": "^29.5.0",
-    "netlify-cli": "^14.2.1",
+    "netlify-cli": "^14.3.0",
     "onchange": "^7.1.0"
   }
 }
