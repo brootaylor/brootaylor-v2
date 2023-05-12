@@ -5,6 +5,9 @@
 {% set metaImageAlt = site.metaImageAlt %}
 {% set rootUrl = site.rootUrl %}
 
+{# This 'hidden' variable is used to exclude pages from an Eleventy collection as well as being indexed by search engines #}
+{% set hidden = (hidden == true or eleventyExcludeFromCollections == true) %}
+
 {#
 	-> Setting page level content variables
 #}
@@ -32,7 +35,7 @@
 <meta name="description" content="{{ metaDescription }}">
 
 {# Checking whether page is to be indexed or not --> ie. whether `hidden` variable equals `true` or `false` #}
-<meta name="robots" content="{% if hidden == true %}noindex, nosnippet{% else %}index{% endif %}, follow">
+<meta name="robots" content="{% if hidden %}noindex, nosnippet{% else %}index{% endif %}, follow">
 
 {# Displaying the build number / version #}
 <meta name="build" content="{{ pkg.version }}.{{ site.timeCurrent }}">
