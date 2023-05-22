@@ -8,7 +8,7 @@ lead:
 
 bodyClass: "about"
 
-date: 2023-04-16T02:26:00
+date: 2023-05-22T22:11:00
 ---
 
 Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking and wild camping in the mountains, staring up at the stars, canoeing, fishing and sport. That certainly feels like quite some time ago now&hellip; 🤔
@@ -23,9 +23,9 @@ When I have the time I write now and then &ndash; and have [written a few posts]
 
 I build websites and have been doing so for around two decades.
 
-I mostly work on the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)". The somewhat *fuzzy* intersection between design and back-end engineering. I find I’m well suited to and enjoy roles that balance the user & developer experiences and empower the team to write great code in whatever way feels right to them, while ensuring that the user experience is not negatively impacted. {.call-out}
+I specialise in the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)". The somewhat *fuzzy* intersection between design and back-end engineering. I find I’m well suited to and enjoy roles that balance the user & developer experiences, empowering teams to write great code in a way that feels right to them while ensuring a positive user experience. {.call-out}
 
-I'm quite good at picking up new skills and programming languages, as well as problem solving. My core technical skills include HTML, CSS, responsive design, progressively enhanced JS, PWAs, web performance, web accessibility, static site generation, Eleventy, Jekyll & Astro. From time to time, you’ll also find me with my hands in the “*back-of-the-front-end*” utilising  Node.js, configuring an API or fiddling with JavaScript bundlers, build & deployment tooling, and CI/CD workflows.
+I'm quite good at picking up new skills and programming languages, as well as problem solving. My core technical skills include HTML, CSS, progressively enhanced JS, responsive design, PWAs, web performance, web accessibility, static site generation, Eleventy, Jekyll & Astro. From time to time, you’ll also find me with my hands in the “*back-of-the-front-end*” utilising  Node.js, configuring an API, fiddling with JavaScript bundlers, as well as streamlining build and deployment processes, and CI/CD workflows to help improve frontend development efficiency.
 
 I try my best to build web solutions that are [resilient](https://resilientwebdesign.com/), [usable](https://trentwalton.com/2014/03/10/device-agnostic/) and as future-friendly as possible. For this reason I *prefer* a vanilla approach and tend to steer clear of using JavaScript frameworks if I can help it.
 

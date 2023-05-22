@@ -30,14 +30,14 @@ bodyClass: "homepage"
 
 permalink: "/index.html"
 
-date: 2023-04-08T00:46:00
+date: 2023-05-22T22:11:00
 
 priority: 1
 ---
 
-I mostly work on the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)". The somewhat *fuzzy* intersection between design and back-end engineering.
+I specialise in the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)". The somewhat *fuzzy* intersection between design and back-end engineering.
 
-I find I’m well suited to and enjoy roles that balance the user & developer experiences and empower the team to write great code in whatever way feels right to them, while ensuring that the user experience is not negatively impacted. {.call-out}
+I find I’m well suited to and enjoy roles that balance the user & developer experiences, empowering teams to write great code in a way that feels right to them while ensuring a positive user experience. {.call-out}
 
 Even though I've done this web building thing for a while now, I certainly haven't got it all figured out. I'm still learning and I imagine you are as well.
 
