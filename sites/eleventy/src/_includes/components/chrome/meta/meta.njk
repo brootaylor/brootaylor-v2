@@ -15,9 +15,9 @@
 {% if title %}
 	{# And then whether it's the `homepage`... #}
 	{% if bodyClass === 'homepage' %}
-		{% set pageTitle = metaTitle + ' - ' + metaDescription %}
+		{% set pageTitle = metaTitle + ' • ' + metaDescription %}
 	{% else %}
-		{% set pageTitle = title + ' - ' + metaTitle %}
+		{% set pageTitle = title + ' • ' + metaTitle %}
 	{% endif %}
 {% else %}
 	{% set pageTitle = metaTitle %}
