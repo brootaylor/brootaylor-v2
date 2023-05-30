@@ -34,11 +34,7 @@
 		{% if lead %}
 			{# This content comes from the `front matter` in the relevant `.md` file - within the `pages` directory #}
 			<div class="lead | crop--loose | flow">
-				{# Loops through each `text` entry belonging to `lead` #}
-				{% for paragraph in lead %}
-					<p>{{ paragraph | safe }}</p>
-				{% endfor %}
-
+				<p>{{ lead | safe }}</p>
 				<hr>
 			</div>
 		{% endif %}
