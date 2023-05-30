@@ -45,7 +45,7 @@ collections:
           - {label: "locality", name: "locality", widget: "string", default: "Crawley"}
           - {label: "Country", name: "country_name", widget: "string", default: "UK"}
       - {label: "Categories", name: "category", widget: "list", allow_add: true}
-      - {label: "Hide this post?", name: "eleventyExcludeFromCollections", hint: "Excludes page from an Eleventy collection as well as being indexed by search engines.", widget: "boolean", default: false}
+      - {label: "Hide this post?", name: "eleventyExcludeFromCollections", hint: "Excludes page from an Eleventy collection as well as being indexed by search engines.", widget: "boolean", default: false, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
   # 'Notes'
@@ -70,7 +70,7 @@ collections:
           - {label: "locality", name: "locality", widget: "string", default: "Crawley"}
           - {label: "Country", name: "country_name", widget: "string", default: "UK"}
       - {label: "Categories", name: "category", widget: "list", allow_add: true}
-      - {label: "Hide this post?", name: "eleventyExcludeFromCollections", hint: "Excludes page from an Eleventy collection as well as being indexed by search engines.", widget: "boolean", default: false}
+      - {label: "Hide this post?", name: "eleventyExcludeFromCollections", hint: "Excludes page from an Eleventy collection as well as being indexed by search engines.", widget: "boolean", default: false, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
   # 'Bookmarks'
@@ -98,5 +98,5 @@ collections:
           - {label: "locality", name: "locality", widget: "string", default: "Crawley"}
           - {label: "Country", name: "country_name", widget: "string", default: "UK"}
       - {label: "Categories", name: "category", widget: "list", allow_add: true}
-      - {label: "Hide this post?", name: "eleventyExcludeFromCollections", hint: "Excludes page from an Eleventy collection as well as being indexed by search engines.", widget: "boolean", default: false}
+      - {label: "Hide this post?", name: "eleventyExcludeFromCollections", hint: "Excludes page from an Eleventy collection as well as being indexed by search engines.", widget: "boolean", default: false, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
