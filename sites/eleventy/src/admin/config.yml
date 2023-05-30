@@ -27,7 +27,7 @@ collections:
   - label: "Writing"
     name: "writing"
     description: "Here you'll find a few of my thoughts on a variety of things. Some web tech related, some philosophical, some of a religious nature and some just me trying to process something as honestly as I can."
-    folder: "src/_content/writing"
+    folder: "sites/eleventy/src/_content/writing"
     slug: "{{slug}}"
     preview_path: "writing/{{year}}-{{month}}-{{day}}/{{slug}}" # A deployment preview URL. Allows a preview of the URL that's not on the production domain
     create: true
