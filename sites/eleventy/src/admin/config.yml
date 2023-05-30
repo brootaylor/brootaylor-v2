@@ -52,7 +52,7 @@ collections:
   - label: "Notes"
     name: "notes"
     description: "Quick notes, thoughts and ramblings."
-    folder: "/src/_content/notes"
+    folder: "sites/eleventy/src/_content/notes"
     identifier_field: "file-name" # Changing `identifier_field` to `file-name` so that default `title` isn't used in this instance
     slug: "{{file-name}}"
     preview_path: "notes/{{year}}-{{month}}-{{day}}/note_{{slug}}" # A deployment preview URL. Allows a preview of the URL that's not on the production domain
@@ -77,7 +77,7 @@ collections:
   - label: "Bookmarks"
     name: "bookmarks"
     description: "Links to articles and various things I've enjoyed and found interesting. Technical and non-technical. Quite a few of them offer perspectives / advice I appreciate."
-    folder: "/src/_content/bookmarks"
+    folder: "sites/eleventy/src/_content/bookmarks"
     slug: "{{slug}}"
     preview_path: "bookmarks/{{year}}-{{month}}-{{day}}/{{slug}}" # A deployment preview URL. Allows a preview of the URL that's not on the production domain
     create: true
