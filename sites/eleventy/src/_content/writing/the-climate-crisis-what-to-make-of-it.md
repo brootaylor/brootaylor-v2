@@ -43,9 +43,9 @@ Furthermore, it is a *lonely journey* because discussing this topic with family 
 
 As a result, we tend to keep our thoughts and concerns to ourselves, traversing a solitary path. This has been my personal experience, and it hasn't been entirely healthy.
 
--﻿--
+## Some of what I'm reading at the moment
 
-Here's some of what I'm reading at the moment to help me process some of what's going on.
+I﻿t's not an exhaustive list but I've found these reads to be particularly compelling, enlightening and genuinely helpful.
 
 * [An Inconvenient Apocalypse: Environmental Collapse, Climate Crisis, and the Fate of Humanity](https://robertwjensen.org/books/an-inconvenient-apocalypse/) &mdash; *Wes Jackson*, *Robert Jensen*
 * [Overshoot: The Ecological Basis of Revolutionary Change](https://www.goodreads.com/en/book/show/319810.Overshoot), *William R. Catton*
