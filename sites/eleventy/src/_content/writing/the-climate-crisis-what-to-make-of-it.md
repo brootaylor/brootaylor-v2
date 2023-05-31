@@ -39,6 +39,6 @@ I have been attempting to do just that for a few years now. However, it is chall
 
 > Finding individuals willing to engage in a genuine dialogue, to discuss and debate climate issues and their potential impact on us, is nearly impossible.
 
-Furthermore, it is a *lonely journey* because discussing this topic with family and friends isn't the most popular of topics. Finding individuals willing to engage in a genuine dialogue, to discuss and debate climate issues and their potential impact on us, is nearly impossible. Such conversations too often become *triggers that end up straining relationships*.
+Furthermore, it is a *lonely journey* because discussing this topic with family and friends isn't the most popular of subjects. Finding individuals willing to engage in a genuine dialogue, to discuss and debate climate issues and their potential impact on us, is nearly impossible. Such conversations too often become *triggers that end up straining relationships*.
 
 As a result, we tend to keep our thoughts and concerns to ourselves, traversing a solitary path. This has been my personal experience, and it hasn't been entirely healthy.
