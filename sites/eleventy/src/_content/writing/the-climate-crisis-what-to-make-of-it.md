@@ -1,5 +1,5 @@
 ---
-title: The “Climate crisis” - what to make of it?
+title: 'The "Climate Crisis": What to Make of It?'
 summary: In these times of being constantly overwhelmed by the deluge of
   information, I find it trickier than ever to discern the true motivations and
   intentions behind what is presented as fact. One such topic is the "climate
