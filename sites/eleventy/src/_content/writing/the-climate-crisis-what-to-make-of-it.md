@@ -8,7 +8,7 @@ lead: In these times of being constantly overwhelmed by the deluge of
   information, I'm finding it trickier than ever to discern the true motivations
   and intentions behind what is presented as fact, with one such topic being the
   "climate crisis."
-date: 2023-05-31T11:07:43.420Z
+date: 2023-05-31T12:01:37.455Z
 updated: ""
 location:
   locality: Crawley
@@ -16,6 +16,15 @@ location:
 category:
   - climate
   - crisis
+  - information
+  - communication
+  - truth
+  - anxiety
+  - perspective
+  - relationships
+  - family
+  - friends
+  - future
 eleventyExcludeFromCollections: false
 ---
 Like many others, I am concerned about what I read and experience. The information, coupled with my own daily observations, seems to confirm the existence of our current climate crisis.
