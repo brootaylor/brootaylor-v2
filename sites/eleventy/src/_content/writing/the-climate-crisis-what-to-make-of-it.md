@@ -45,7 +45,7 @@ As a result, we tend to keep our thoughts and concerns to ourselves, traversing 
 
 ## Some of what I'm reading at the moment
 
-I﻿t's not an exhaustive list but I've found these reads to be particularly compelling, enlightening and genuinely helpful.
+These reads aren't exhaustive, but I've found them particularly compelling, enlightening, and genuinely helpful for processing some of what's going on.
 
 * [An Inconvenient Apocalypse: Environmental Collapse, Climate Crisis, and the Fate of Humanity](https://robertwjensen.org/books/an-inconvenient-apocalypse/) &mdash; *Wes Jackson*, *Robert Jensen*
 * [Overshoot: The Ecological Basis of Revolutionary Change](https://www.goodreads.com/en/book/show/319810.Overshoot), *William R. Catton*
