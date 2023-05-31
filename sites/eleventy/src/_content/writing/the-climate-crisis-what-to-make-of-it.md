@@ -2,12 +2,12 @@
 title: 'The "Climate Crisis": What to Make of It?'
 summary: In these times of being constantly overwhelmed by the deluge of
   information, I find it trickier than ever to discern the true motivations and
-  intentions behind what is presented as fact. One such topic is the "climate
-  crisis."
+  intentions behind what is presented as fact, with one such topic being the
+  "climate crisis."
 lead: In these times of being constantly overwhelmed by the deluge of
   information, I find it trickier than ever to discern the true motivations and
-  intentions behind what is presented as fact. One such topic is the "climate
-  crisis."
+  intentions behind what is presented as fact, with one such topic being the
+  "climate crisis."
 date: 2023-05-31T11:07:43.420Z
 updated: ""
 location:
