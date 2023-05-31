@@ -42,3 +42,11 @@ I have been attempting to do just that for a few years now. However, it is chall
 Furthermore, it is a *lonely journey* because discussing this topic with family and friends isn't the most popular of subjects. Finding individuals willing to engage in a genuine dialogue, to discuss and debate climate issues and their potential impact on us, is nearly impossible. Such conversations too often become *triggers that end up straining relationships*.
 
 As a result, we tend to keep our thoughts and concerns to ourselves, traversing a solitary path. This has been my personal experience, and it hasn't been entirely healthy.
+
+-﻿--
+
+Here's some of what I'm reading at the moment to help me process some of what's going on.
+
+* [An Inconvenient Apocalypse: Environmental Collapse, Climate Crisis, and the Fate of Humanity](https://robertwjensen.org/books/an-inconvenient-apocalypse/) &mdash; *Wes Jackson*, *Robert Jensen*
+* [Overshoot: The Ecological Basis of Revolutionary Change](https://www.goodreads.com/en/book/show/319810.Overshoot), *William R. Catton*
+* [Breaking Together &mdash; a freedom-loving response to collapse](https://jembendell.com/2023/04/08/breaking-together-a-freedom-loving-response-to-collapse/), *Jem Bendell*
