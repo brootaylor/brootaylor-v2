@@ -8,7 +8,7 @@ lead: In these times of being constantly overwhelmed by the deluge of
   information, I'm finding it trickier than ever to discern the true motivations
   and intentions behind what is presented as fact, with one such topic being the
   "<strong>climate crisis</strong>."
-date: 2023-05-31T12:01:37.455Z
+date: 2023-05-31T12:28:37.952Z
 updated: ""
 location:
   locality: Crawley
