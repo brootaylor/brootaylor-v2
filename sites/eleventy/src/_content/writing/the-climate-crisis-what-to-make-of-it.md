@@ -43,7 +43,7 @@ Furthermore, it is a *lonely journey* because discussing this topic with family 
 
 As a result, we tend to keep our thoughts and concerns to ourselves, traversing a solitary path. This has been my personal experience, and it hasn't been entirely healthy.
 
-## Some of what I'm reading at the moment
+## Some of what I'm reading
 
 These reads aren't exhaustive, but I've found them particularly compelling, enlightening, and genuinely helpful for processing some of what's going on.
 
