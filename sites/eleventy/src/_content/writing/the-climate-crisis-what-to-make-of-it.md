@@ -1,12 +1,12 @@
 ---
 title: The “Climate crisis” - what to make of it?
-summary: In these times of being constantly overwhelmed by the firehose
-  of   information, I find it trickier than ever to discern the real motivations
-  /   intentions about what’s been bandied as fact. For instance the "climate
+summary: In these times of being constantly overwhelmed by the firehose of
+  information, I find it trickier than ever to discern the real motivations &
+  intentions about what’s been bandied as fact. For instance the "climate
   crisis".
-lead: In these times of being constantly overwhelmed by the firehose
-  of   information, I find it trickier than ever to discern the real motivations
-  /   intentions about what’s been bandied as fact. For instance the "climate
+lead: In these times of being constantly overwhelmed by the firehose of
+  information, I find it trickier than ever to discern the real motivations &
+  intentions about what’s been bandied as fact. For instance the "climate
   crisis".
 date: 2023-05-31T11:07:43.420Z
 updated: ""
