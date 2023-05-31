@@ -29,15 +29,15 @@ eleventyExcludeFromCollections: false
 ---
 Like many others, I am concerned about what I read and experience. The information, coupled with my own daily observations, seems to confirm the existence of our current [climate crisis](https://climate.nasa.gov/).
 
-> In these times of being constantly overwhelmed by the deluge of information, I'm finding it trickier than ever to discern the true motivations and intentions behind what is presented as fact.
-
 However, there are others who argue that there is no crisis at all. They claim that the mainstream information is incorrect, and that the data is not being presented truthfully or responsibly. According to them, human impact on our climate is insignificant and inconsequential. These individuals believe that organisations like the [IPCC](https://www.ipcc.ch/) primarily serve as a platform for the political agendas of countries and other powerful interests.
+
+> In these times of being constantly overwhelmed by the deluge of information, I'm finding it trickier than ever to discern the true motivations and intentions behind what is presented as fact.
 
 For someone like me who simply seeks straightforward facts, this can be extremely bewildering. If there are no concrete answers, then we should be told that as well. It seems that those in positions of authority — (aka the **self-proclaimed experts** who demand to be heard) — have contributed to a culture of intellectual complacency. This leaves people like me questioning whether it is still possible to form our own opinions. Whether we're capable of researching, analysing, and critiquing the available information to draw our own conclusions.
 
-> Finding individuals willing to engage in a genuine dialogue, to discuss and debate climate issues and their potential impact on us, is nearly impossible.
-
 I have been attempting to do just that for a few years now. However, it is challenging to rise above my own fears and anxieties regarding the climate crisis, especially when considering the potential implications for my children and future grandchildren. It becomes difficult to see things clearly when our perspectives are clouded by these fears and concerns.
+
+> Finding individuals willing to engage in a genuine dialogue, to discuss and debate climate issues and their potential impact on us, is nearly impossible.
 
 Furthermore, it is a *lonely journey* because discussing this topic with family and friends isn't the most popular of topics. Finding individuals willing to engage in a genuine dialogue, to discuss and debate climate issues and their potential impact on us, is nearly impossible. Such conversations too often become *triggers that end up straining relationships*.
 
