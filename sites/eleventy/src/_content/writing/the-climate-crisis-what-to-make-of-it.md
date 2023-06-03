@@ -9,17 +9,19 @@ lead: In these times of being constantly overwhelmed by the deluge of
   and intentions behind what is presented as fact, with one such topic being the
   "<strong>climate crisis</strong>."
 date: 2023-05-31T12:28:37.952Z
-updated: 2023-06-03T14:42:37.952Z
+updated: 2023-06-03T16:32:37.952Z
 location:
   locality: Crawley
   country_name: UK
 category:
   - climate
   - crisis
+  - collapse
   - information
   - communication
   - truth
   - anxiety
+  - worry
   - perspective
   - relationships
   - family
@@ -42,6 +44,8 @@ I have been attempting to do just that for a few years now. However, it is chall
 Furthermore, it is a *lonely journey* because discussing this topic with family and friends isn't the most popular of subjects. Finding individuals willing to engage in a genuine dialogue, to discuss and debate climate issues and their potential impact on us, is nearly impossible. Such conversations too often become triggers that end up straining relationships.
 
 As a result, many of us tend to keep our thoughts and concerns to ourselves, traversing a solitary path. This has been my personal experience, and it hasn't been entirely healthy.
+
+This post is not about me coming up with any answers per se. It’s more about journaling where I’m at, at this point in time. I resonate with Ethan Marcotte when he says, [let a website be a worry stone](https://ethanmarcotte.com/wrote/let-a-website-be-a-worry-stone/). {.call-out}
 
 ***
 
