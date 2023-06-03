@@ -27,9 +27,9 @@ category:
   - future
 eleventyExcludeFromCollections: false
 ---
-Like many others, I am concerned about what I read and experience. The information, coupled with my own daily observations, seems to confirm the existence of our current [climate crisis](https://climate.nasa.gov/).
+Like many others, I am concerned about what I read and experience. The information, coupled with my own daily observations, seems to confirm the existence of our [current climate crisis](https://climate.nasa.gov/).
 
-However, there are others who argue that there is no crisis at all. They claim that the mainstream information is incorrect; and that the data is not being presented truthfully or responsibly. According to them, human impact on our climate is insignificant and inconsequential. These individuals believe that organisations like the [IPCC](https://www.ipcc.ch/) primarily serve as a platform for the political agendas of countries and other powerful interests.
+However, [there are others who argue that there is no crisis at all](https://www.aei.org/carpe-diem/there-is-no-climate-emergency-say-500-experts-in-letter-to-the-united-nations/). They claim that the mainstream information is incorrect; and that the data is not being presented truthfully or responsibly. According to them, human impact on our climate is insignificant and inconsequential. These individuals believe that organisations like the <abbr title="The Intergovernmental Panel on Climate Change.">[IPCC](https://www.ipcc.ch/)</abbr> primarily serve as a platform for the political agendas of countries and other powerful interests.
 
 > In these times of being constantly overwhelmed by the deluge of information, I'm finding it trickier than ever to discern the true motivations and intentions behind what is presented as fact.
 
@@ -41,7 +41,7 @@ I have been attempting to do just that for a few years now. However, it is chall
 
 Furthermore, it is a *lonely journey* because discussing this topic with family and friends isn't the most popular of subjects. Finding individuals willing to engage in a genuine dialogue, to discuss and debate climate issues and their potential impact on us, is nearly impossible. Such conversations too often become triggers that end up straining relationships.
 
-As a result, we tend to keep our thoughts and concerns to ourselves, traversing a solitary path. This has been my personal experience, and it hasn't been entirely healthy.
+As a result, many of us tend to keep our thoughts and concerns to ourselves, traversing a solitary path. This has been my personal experience, and it hasn't been entirely healthy.
 
 ***
 
@@ -54,6 +54,7 @@ I certainly don't claim to have any answers, but I've learnt a lot from these bo
 * [The Earth Is Telling Us We Must Rethink Our Growth Society](https://thetyee.ca/Analysis/2020/04/06/The-Earth-Is-Telling-Us-We-Must-Rethink-Our-Growth-Society/) &mdash; *William E. Rees*
 * [Scholars' Oath to the Future](http://iflas.blogspot.com/2022/11/scholars-oath-to-future.html) &mdash; *University of Cumbria*
 * [Al Bartlett discusses population growth, climate change, energy, and consumption](https://youtu.be/F8ZJCtL6bPs) &mdash; *Al Bartlett video interview*
+* [Abrupt Climate Change from Arctic to Antarctic: Facts, Opinions, and Analysis](https://paulbeckwith.net/) &mdash; *Paul Beckwith*
 * [Faster than Forecast: the story ice tells about abrupt climate change](https://www.sila.cool/book-faster-than-forecast/) — *Jason Box*
 * [What’s going on with the Greenland ice sheet? It’s losing ice faster than forecast and now irreversibly committed to at least 10 inches of sea level rise](https://theconversation.com/whats-going-on-with-the-greenland-ice-sheet-its-losing-ice-faster-than-forecast-and-now-irreversibly-committed-to-at-least-10-inches-of-sea-level-rise-185590) &mdash; *Alun Hubbard*
 * [An Inconvenient Apocalypse: Environmental Collapse, Climate Crisis, and the Fate of Humanity](https://robertwjensen.org/books/an-inconvenient-apocalypse/) &mdash; *Wes Jackson & Robert Jensen*
