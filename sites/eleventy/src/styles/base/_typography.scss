@@ -201,6 +201,27 @@ i {
   font-style: normal;
 }
 
+// Abbreviation "abbr" styling
+abbr {
+  &[title] {
+    text-decoration: none;
+
+    @include min-width($breakpoint-x-large) {
+      cursor: help;
+      text-decoration: underline dotted;
+    }
+
+    &:after {
+      font-size: 0.875rem;
+      font-style: italic;
+      content: " (" attr(title) ")";
+
+        @include min-width($breakpoint-x-large) {
+          content: "";
+        }
+    }
+  }
+}
 
 // Code formatting
 // @TODO: Move this code into its own SCSS partail & component
