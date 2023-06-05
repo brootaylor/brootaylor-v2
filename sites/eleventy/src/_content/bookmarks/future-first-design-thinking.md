@@ -4,7 +4,7 @@ summary: Future-first design thinking.
 bookmarkExternal: https://www.wholegraindigital.com/blog/future-first-design-thinking/
 bookmarkLabel: wholegraindigital.com
 bookmarkAuthor: Marketa Benisek
-date: 2023-06-05T15:08:18.341Z
+date: 2023-06-05T15:21:08.380Z
 updated: ""
 location:
   locality: Crawley
