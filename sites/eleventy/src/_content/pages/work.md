@@ -6,11 +6,10 @@ summary: "User-centricity is very important to me. In other words, I strive to c
 lead:
   - User-centricity is very important to me. In other words, I strive to create web experiences that look and work well on any device that can connect to the internet, while also taking user needs and business goals into account.
   - Think I may be able to help with your next project? <a href="/contact">Get in touch</a>.
-  - <a href="/BruceTaylorCV.pdf" class="button button--primary">Download my CV</a>
 
 bodyClass: "work"
 
-date: 2023-03-13T18:22:00
+date: 2023-06-05T13:18:00
 ---
 
 <section aria-labelledby="work-current" class="companies | flow">
@@ -27,6 +26,7 @@ date: 2023-03-13T18:22:00
           </header>
           <div class="card__body | flow">
             <p>Working with <a href="http://dannyhope.co.uk/">Danny Hope</a> and the UX Brighton team to enhance and optimise their user interface, overall website experience, developer experience, content management workflow and <abbr title="Search Engine Optimisation.">SEO</abbr>.</p>
+            <p>We've recently rebuilt & deployed a <a href="https://uxbri.org/jobs">job board</a> &mdash; which is an enhancement on the original job board that was built as an <abbr title="Single Page Application.">SPA</abbr>.</p>
           </div>
         </div>
       </article>
@@ -64,8 +64,10 @@ date: 2023-03-13T18:22:00
             <span class="date-time">Year: 2017, 2018, 2022 & 2023 <small>(contracts)</small></span>
           </header>
           <div class="card__body | flow">
-            <p>Worked with Brunswick Group to develop engaging corporate communication websites.</p>
-            <p><abbr title="Multiple Page Application.">MPA</abbr> and <abbr title="Single Page Application.">SPA</abbr> website offerings for clients like Puma, Mondi, Greenbrier, Naspers & VARO.</p>
+            <ul class="flow">
+              <li>Developed engaging corporate communication websites with Bsunswick Group.</li>
+              <li><abbr title="Multiple Page Application.">MPA</abbr> and <abbr title="Single Page Application.">SPA</abbr> website offerings for clients like Puma, Mondi, Greenbrier, Naspers & VARO.</li>
+            </ul>
           </div>
         </div>
       </article>
@@ -80,8 +82,10 @@ date: 2023-03-13T18:22:00
             <span class="date-time">Year: 2022 <small>(contract)</small></span>
           </header>
           <div class="card__body | flow">
-            <p>Successfully migrated <a href="https://www.carphonewarehouse.com/">Carphone Warehouse</a> to a newer content platform within 3 weeks.</p>
-            <p>Enhanced &amp; optimised the <abbr title="User Interface.">UI</abbr> and usability of <a href="https://www.mobiles.co.uk/">Mobiles.co.uk</a> and <a href="https://www.e2save.com/">e2save</a>.</p>
+            <ul class="flow">
+              <li>Successfully migrated <a href="https://www.carphonewarehouse.com/">Carphone Warehouse</a> to a newer content platform within 3 weeks.</li>
+              <li>Enhanced &amp; optimised the <abbr title="User Interface.">UI</abbr> and usability of <a href="https://www.mobiles.co.uk/">Mobiles.co.uk</a> and <a href="https://www.e2save.com/">e2save</a>.</li>
+            </ul>
           </div>
         </div>
       </article>
@@ -96,8 +100,10 @@ date: 2023-03-13T18:22:00
             <span class="date-time">Year: 2022 <small>(freelance)</small></span>
           </header>
           <div class="card__body | flow">
-            <p>Built a new, modern and fast PWA website for Boston T Party.</p>
-            <p>Data and bandwidth is a premium in South Africa so focussed particularly on performance & resilience using progressive enhancement and offline caching methods.</p>
+            <ul class="flow">
+              <li>Built a new, modern and fast <abbr title="Progressive Web App.">PWA</abbr> business informational website for Boston T Party.</li>
+              <li>Data and bandwidth is a premium in South Africa so focussed particularly on performance & resilience using progressive enhancement and offline caching methods.</li>
+            </ul>
           </div>
         </div>
       </article>
@@ -108,17 +114,16 @@ date: 2023-03-13T18:22:00
           <header class="card__header">
             <h3 class="card__title">
               <a href="https://iagloyalty.com">IAG Loyalty</a>
-              <a href="#fn:iag-loyalty" class="footnote" rel="footnote"><sup>*</sup></a>
             </h3>
             <span class="date-time">Year: 2018 &ndash; 2021 <small>(contract)</small></span>
           </header>
           <div class="card__body | flow">
-            <p>Built new, modern, and fast PWA B2B websites for IAG Loyalty.</p>
-            <p>Big focus on usability, accessibility, progressive enhancement, performance & resilience.</p>
+            <ul class="flow">
+              <li>Built new, modern, and fast <abbr title="Progressive Web App.">PWA</abbr> <abbr title="business-to-business.">B2B</abbr> websites for IAG Loyalty.</li>
+              <li>Big focus on usability, accessibility, progressive enhancement, performance & resilience.</li>
+              <li>Very involved in researching, planning & configuring a scalable <abbr title="Software as a service.">SaaS</abbr> micro-frontend configuration that focussed on reusability & themeable / whitelabel components. </li>
+            </ul>
           </div>
-          <footer id="fn:iag-loyalty" class="card__footer">
-            <p><sup>*</sup> The current corporate B2B website isn't the one I originally built for them.</p>
-          </footer>
         </div>
       </article>
     </li>
@@ -130,8 +135,11 @@ date: 2023-03-13T18:22:00
             <span class="date-time">Year: 2018 <small>(contract)</small></span>
           </header>
           <div class="card__body | flow">
-            <p>Developed a reusable & extensible front-end starter kit that builds modular web components / pattern libraries quickly.</p>
-            <p>This enabled Euromoney to build and deploy their 'Fastmarkets' B2B web offerings efficiently and effectively.</p>
+            <ul class="flow">
+              <li>Developed a reusable & extensible front-end starter kit that builds modular web components / pattern libraries quickly.</li>
+              <li>This enabled Euromoney to build and deploy their various 'Fastmarkets' <abbr title="business-to-business.">B2B</abbr> web offerings efficiently and effectively.</li>
+              <li>Participated in and presented at internal Hackathon days.</li>
+            </ul>
           </div>
           <footer id="fn:euromoney" class="card__footer">
             <p><sup>*</sup> Since I last worked with them, they've become <a href="https://www.delinian.com/">Delinian</a>.</p>
@@ -149,7 +157,11 @@ date: 2023-03-13T18:22:00
             <span class="date-time">Year: 2017 <small>(freelance)</small></span>
           </header>
           <div class="card__body">
-            <p>Redesigned & built Analog Implant Laboratory's new website from the ground up.</p>
+            <ul class="flow">
+              <li>Redesigned & built Analog Implant Laboratory's new <abbr title="business-to-business.">B2B</abbr> informational website from the ground up.</li>
+              <li>Approached the design and development with 'Mobile First' in mind and built it responsively to work on as many screens and devices as possible.</li>
+              <li>It's progressively enhanced and makes substantial use of <abbr title="Web Content Accessibility Guidelines.">WCAG</abbr>.</li>
+            </ul>
           </div>
         </div>
       </article>
@@ -162,7 +174,11 @@ date: 2023-03-13T18:22:00
             <span class="date-time">Year: 2016 <small>(contract)</small></span>
           </header>
           <div class="card__body | flow">
-            <p>It was a fun & collaborative team environment at Time Inc. UK. I was one of the Frontend Developers, developing a responsive and customisable web solution on their WordPress Multisite application.</p>
+            <ul class="flow">
+              <li>Fun & collaborative team environment.</li>
+              <li>We developed a responsive, customisable & themeable web solution on their WordPress Multisite application.</li>
+              <li>Enabled the creation, build & deployment of websites like Marie Claire, Home & Gardens, Country Life and Decanter.</li>
+            </ul>
           </div>
           <footer id="fn:time-inc" class="card__footer">
             <p><sup>*</sup> Since I last worked with them, they've now been taken over by <a href="https://www.futureplc.com/">Future plc</a>.</p>
@@ -178,10 +194,13 @@ date: 2023-03-13T18:22:00
             <span class="date-time">Year: 2016 <small>(contract)</small></span>
           </header>
           <div class="card__body | flow">
-            <p>Developed & enhanced brochure websites for Pegasus’ healthcare clients.</p>
+            <ul class="flow">
+              <li>Developed & enhanced brochure <abbr title="business-to-business.">B2B</abbr> websites for Pegasus’ healthcare clients.</li>
+              <li>Some examples being; Rapid White, Cetraben, TalkingEczematool and Movelat.</li>
+            </ul>
           </div>
           <footer id="fn:pegasus" class="card__footer">
-            <p><sup>*</sup> Since I last worked with them, they've become <a href="https://www.evokegroup.com/">E</a>.</p>
+            <p><sup>*</sup> Since I last worked with them, they've become <a href="https://www.evokegroup.com/">Evoke</a>.</p>
           </footer>
         </div>
       </article>
@@ -196,8 +215,10 @@ date: 2023-03-13T18:22:00
             <span class="date-time">Year: 2016 <small>(freelance)</small></span>
           </header>
           <div class="card__body | flow">
-            <p>Developed a reusable, extensible, responsive and accessible front-end library / boilerplate.</p>
-            <p>Enabled Charanga to deploy future web offerings quickly, efficiently without compromising on quality front end standards.</p>
+            <ul class="flow">
+              <li>Developed a reusable, extensible, responsive and accessible front-end library / boilerplate.</li>
+              <li>Enabled Charanga to build & deploy future web offerings quickly, efficiently without compromising on quality front end standards.</li>
+            </ul>
           </div>
         </div>
       </article>
@@ -212,7 +233,10 @@ date: 2023-03-13T18:22:00
             <span class="date-time">Year: 2015 <small>(contract)</small></span>
           </header>
           <div class="card__body">
-            <p>Worked with Macmillan's core website application team on frontend solutions for their brand identity and business proposition.</p>
+            <ul class="flow">
+              <li>Worked with Macmillan's core website application team on frontend solutions for their brand identity and business proposition.</li>
+              <li>Participated in and presented at internal Hackathon days.</li>
+            </ul>
           </div>
         </div>
       </article>
@@ -228,10 +252,15 @@ date: 2023-03-13T18:22:00
             <span class="date-time">Year: 2004 - 2015 <small>(permanent)</small></span>
           </header>
           <div class="card__body">
-            <p>Was the senior / lead developer designing and developing ecommerce front-end solutions for Airmiles &amp; Avios.</p>
+            <ul class="flow">
+              <li>Was the senior / lead developer designing and developing ecommerce front-end solutions for Airmiles &amp; Avios.</li>
+              <li>Coached other front end developers in our coding best practices, development cycles and methods of delivery.</li>
+              <li>Led, influenced and drove web standards and web accessibility implementation across our digital channels to ensure website quality and stability.</li>
+              <li>Drove consideration of user experience and user centred design within the business, and implementation of it within the digital development programme.</li>
+            </ul>
           </div>
           <footer id="fn:avios" class="card__footer">
-            <p><sup>*</sup> Formerly a subsidiary of British Airways and also known as <a href="https://en.wikipedia.org/wiki/Air_Miles#Air_Miles_United_Kingdom">Airmiles</a>.</p>
+            <p><sup>*</sup> Formerly a subsidiary of British Airways and also known as <a href="https://en.wikipedia.org/wiki/Air_Miles#Air_Miles_United_Kingdom">Airmiles</a>. Avios is now the loyalty currency run by <a href="https://iagloyalty.com">IAG Loyalty</a>.</p>
           </footer>
         </div>
       </article>
@@ -262,3 +291,9 @@ date: 2023-03-13T18:22:00
     </li>
   </ul>
 </section>
+
+---
+
+## Need a copy of my CV?
+
+<a href="/BruceTaylorCV" class="button button--primary">Download my CV</a>

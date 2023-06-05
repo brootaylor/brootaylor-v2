@@ -1,9 +1,9 @@
 module.exports = {
   info: {
     modifier: 'message--info',
-    message: "I'm redesigning & redeveloping my website in the open.",
-    ctaUrl: '/writing/2022-02-22/redesigning-in-the-open',
-    ctaLabel: 'More about this.',
+    message: 'I posted something on my blog recently called,',
+    // ctaUrl: '/writing/2023-05-31/the-climate-crisis-what-to-make-of-it',
+    // ctaLabel: 'The "Climate Crisis": What to Make of It?',
   },
   alert: {
     modifier: 'message--alert',

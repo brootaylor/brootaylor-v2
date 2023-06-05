@@ -8,7 +8,7 @@ lead:
 
 bodyClass: "about"
 
-date: 2023-05-22T22:11:00
+date: 2023-06-05T13:18:00
 ---
 
 Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking and wild camping in the mountains, staring up at the stars, canoeing, fishing and sport. That certainly feels like quite some time ago now&hellip; 🤔
@@ -31,10 +31,10 @@ I try my best to build web solutions that are [resilient](https://resilientwebde
 
 Don't get me wrong, JavaScript frameworks certainly have their place and I think they can be wonderfully powerful tools when we keep the end user in mind &mdash; rather than *only* prioritising the developer experience. At the moment I'm not sure we're getting that balance quite right.
 
-Here's a bit more about some of the [work I've done](/work).
+Here's a bit more about some of the [people I've worked with](/work) and what we've built together.
 
 {% from "components/core/buttons/buttons.njk" import button %}
-{{ button(false, 'button--primary', '/BruceTaylorCV.pdf', 'Download my CV') }}
+{{ button(false, 'button--primary', '/BruceTaylorCV', 'Download my CV') }}
 
 ---
 

@@ -24,4 +24,4 @@
 /error/404 /error/404.html 200!
 
 # Files eg. CV
-/BruceTaylorCV.pdf /assets/docs/cv/BruceTaylorCV.pdf 200!
+/BruceTaylorCV /assets/docs/cv/BruceTaylorCV.pdf 200!

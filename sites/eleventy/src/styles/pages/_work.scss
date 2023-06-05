@@ -66,8 +66,13 @@
     &__body {
       margin-top: 0.5em;
 
-      p {
+      p,
+      ul {
         @include font-size(18px);
+      }
+
+      ul {
+        padding-inline-start: 1em;
       }
     }
 

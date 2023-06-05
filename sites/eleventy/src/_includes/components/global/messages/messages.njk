@@ -8,4 +8,12 @@
 	{% if messageType.ctaUrl %}
 		<a href="{{ messageType.ctaUrl }}">{{ messageType.ctaLabel }}</a>
 	{% endif %}
+
+	{%- set allPosts = collections.post | reverse -%}
+  {# Shows the latest 5 `post` entries... #}
+  {%- for item in allPosts.slice(0, 1) -%}
+  <a href="{{ item.url | pretty }}">
+		{{ item.data.title | safe }}
+	</a>
+  {%- endfor -%}
 </aside>
