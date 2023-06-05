@@ -15,7 +15,7 @@ category:
   - sustainability
 eleventyExcludeFromCollections: false
 ---
-T﻿his...
+T﻿his&hellip;
 
 > In the context of sustainability, design of physical products is often perceived as the most important because it can have such far-reaching impacts. Indeed, physical products have immense potential for driving sustainability. The choices we make when we design physical products, from material selection and energy efficiency to resource usage and recyclability, have the potential to shape a more sustainable future. Every decision counts. 
 >
