@@ -13,6 +13,7 @@ category:
   - web
   - design
   - sustainability
+  - future
 eleventyExcludeFromCollections: false
 ---
 T﻿his&hellip;
