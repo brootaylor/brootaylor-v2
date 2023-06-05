@@ -10,10 +10,8 @@
 	{% endif %}
 
 	{%- set allPosts = collections.post | reverse -%}
-  {# Shows the latest 5 `post` entries... #}
+  {# Shows the latest `post` entry... #}
   {%- for item in allPosts.slice(0, 1) -%}
-  <a href="{{ item.url | pretty }}">
-		{{ item.data.title | safe }}
-	</a>
-  {%- endfor -%}
+  	<a href="{{ item.url | pretty }}">{{ item.data.title | safe }}</a>
+  {% endfor %}
 </aside>
