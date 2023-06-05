@@ -50,10 +50,10 @@
   },
   "dependencies": {
     "cross-env": "^7.0.3",
-    "dotenv": "^16.0.3",
+    "dotenv": "^16.1.4",
     "npm-run-all": "^4.1.5"
   },
   "devDependencies": {
-    "netlify-cli": "^15.2.0"
+    "netlify-cli": "^15.3.1"
   }
 }
