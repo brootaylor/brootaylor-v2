@@ -1,6 +1,6 @@
 ---
 title: Why ChatGPT Won’t Replace Coders Just Yet
-summary: Why ChatGPT won’t replace coders just yet.
+summary: You can download the GPT model and interrogate local files using Python without having to send any data to the cloud.
 bookmarkExternal: https://scribe.rip/why-chatgpt-wont-replace-coders-just-yet-87487a9dda4e
 bookmarkLabel: scribe.rip
 bookmarkAuthor: Clive Thompson
