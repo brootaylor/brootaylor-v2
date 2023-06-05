@@ -13,7 +13,7 @@ date: 2023-06-05T13:18:00
 ---
 
 <section aria-labelledby="work-current" class="companies | flow">
-  <h2 id="work-current" tabindex="-1">Currently working with & on  <a class="header-anchor" href="#work-current" aria-hidden="true">#</a></h2>
+  <h2 id="work-current" tabindex="-1">Currently on the go <a class="header-anchor" href="#work-current" aria-hidden="true">#</a></h2>
   <ul role="list" class="auto-grid | no-list">
     <li>
       <article class="card card--stacked call-out">
