@@ -9,7 +9,7 @@ lead:
 
 bodyClass: "work"
 
-date: 2023-06-05T13:18:00
+date: 2023-06-06T13:03:00
 ---
 
 <section aria-labelledby="work-current" class="companies | flow">
@@ -25,8 +25,11 @@ date: 2023-06-05T13:18:00
             <span class="date-time">Year: 2022 &ndash; present <small>(freelance)</small></span>
           </header>
           <div class="card__body | flow">
-            <p>Working with <a href="http://dannyhope.co.uk/">Danny Hope</a> and the UX Brighton team to enhance and optimise their user interface, overall website experience, developer experience, content management workflow and <abbr title="Search Engine Optimisation.">SEO</abbr>.</p>
-            <p>We've recently rebuilt & deployed a <a href="https://uxbri.org/jobs">job board</a> &mdash; which is an enhancement on the original job board that was built as an <abbr title="Single Page Application.">SPA</abbr>.</p>
+            <ul class="flow">
+              <li>Enhancing and optimising their user interface, overall website experience, developer experience, content management workflow and <abbr title="Search Engine Optimisation.">SEO</abbr>.</li>
+              <li>Rebuilt the <a href="https://uxbri.org/jobs">UX Brighton job board</a> so it renders as a <abbr title="Multiple Page Application.">MPA</abbr> rather than a <abbr title="Single Page Application.">SPA</abbr> &mdash; which it originally was.</li>
+              <li>Dynamically includes valid <code>JobPosting</code> structured data for each job post and notifies Google of these changes.</li>
+            </ul>
           </div>
         </div>
       </article>
