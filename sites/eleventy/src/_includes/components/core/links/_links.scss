@@ -49,8 +49,8 @@ a {
     }
   }
 
-  // If a link's in a list within an article...
-  article li & {
+  // If a link's in a list within an article, but the list item doesn't have a class...
+  article li:not([class]) & {
     line-height: 1.8;
   }
 }
