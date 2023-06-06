@@ -5,7 +5,7 @@
   // Create `--message-background` and `--message-text` variables scoped to this class
   background: var(--message-background);
   color: var(--message-text);
-
+  text-wrap: balance;
   text-align: center;
   // position: sticky;
   // top: 0;

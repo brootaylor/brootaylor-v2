@@ -2,7 +2,7 @@
 <aside aria-labelledby="message--label" class="message {{ messageType.modifier }}">
 	{# To help assistive technologies #}
 	<h2 id="message--label" class="visually-hidden">Site-wide message / announcement</h2>
-	{{ messageType.message }}
+	{{ messageType.message }}<i aria-hidden="true"> &#x21e2;</i>
 
 	{# Check if `ctaUrl` value has been set for the particular `messageType` data object #}
 	{% if messageType.ctaUrl %}
