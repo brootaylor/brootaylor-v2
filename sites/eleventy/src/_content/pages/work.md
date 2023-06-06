@@ -9,7 +9,7 @@ lead:
 
 bodyClass: "work"
 
-date: 2023-06-06T13:03:00
+date: 2023-06-06T19:06:00
 ---
 
 <section aria-labelledby="work-current" class="companies | flow">
@@ -28,7 +28,7 @@ date: 2023-06-06T13:03:00
             <ul class="flow">
               <li>Enhancing and optimising their user interface, overall website experience, developer experience, content management workflow and <abbr title="Search Engine Optimisation.">SEO</abbr>.</li>
               <li>Rebuilt the <a href="https://uxbri.org/jobs">UX Brighton job board</a> so it renders as a <abbr title="Multiple Page Application.">MPA</abbr> rather than a <abbr title="Single Page Application.">SPA</abbr> &mdash; which it originally was.</li>
-              <li>Dynamically includes valid <code>JobPosting</code> structured data for each job post and notifies Google of these changes.</li>
+              <li>Dynamically includes valid <code>JobPosting</code> and <code>Event</code> <a href="https://developers.google.com/search/docs/appearance/structured-data ">structured data</a> for each job & event page respectively &mdash; and automatically notifies Google of these changes.</li>
             </ul>
           </div>
         </div>
