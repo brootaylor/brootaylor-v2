@@ -122,7 +122,7 @@ date: 2023-06-06T19:06:00
           </header>
           <div class="card__body | flow">
             <ul class="flow">
-              <li>Built new, modern, and fast <abbr title="Progressive Web App.">PWA</abbr> <abbr title="business-to-business.">B2B</abbr> websites for IAG Loyalty.</li>
+              <li>Built new, modern, and fast <abbr title="Progressive Web App.">PWA</abbr> <abbr title="business-to-business.">B2B</abbr> websites from scratch for IAG Loyalty.</li>
               <li>Big focus on usability, accessibility, progressive enhancement, performance & resilience.</li>
               <li>Instrumental in researching, planning & configuring the beginnings of a scalable <abbr title="Software as a service.">SaaS</abbr> micro-frontend configuration that focussed on reusability & themeable / whitelabel components. </li>
             </ul>
