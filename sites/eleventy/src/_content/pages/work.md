@@ -28,7 +28,7 @@ date: 2023-06-06T19:06:00
             <ul class="flow">
               <li>Enhancing and optimising their user interface, overall website experience, developer experience, content management workflow and <abbr title="Search Engine Optimisation.">SEO</abbr>.</li>
               <li>Rebuilt the <a href="https://uxbri.org/jobs">UX Brighton job board</a> so it renders as a <abbr title="Multiple Page Application.">MPA</abbr> rather than a <abbr title="Single Page Application.">SPA</abbr> &mdash; which it originally was.</li>
-              <li>Dynamically includes valid <code>JobPosting</code> and <code>Event</code> <a href="https://developers.google.com/search/docs/appearance/structured-data ">structured data</a> for each job & event page respectively &mdash; and automatically notifies Google of these changes.</li>
+              <li>Built logic to dynamically include valid <code>JobPosting</code> and <code>Event</code> <a href="https://developers.google.com/search/docs/appearance/structured-data ">structured schema data</a> for each job & event page respectively &mdash; and automatically notify Google of these changes.</li>
             </ul>
           </div>
         </div>
@@ -68,7 +68,7 @@ date: 2023-06-06T19:06:00
           </header>
           <div class="card__body | flow">
             <ul class="flow">
-              <li>Developed engaging corporate communication websites with Bsunswick Group.</li>
+              <li>Developed engaging corporate communication websites with Brunswick Group.</li>
               <li><abbr title="Multiple Page Application.">MPA</abbr> and <abbr title="Single Page Application.">SPA</abbr> website offerings for clients like Puma, Mondi, Greenbrier, Naspers & VARO.</li>
             </ul>
           </div>
@@ -124,7 +124,7 @@ date: 2023-06-06T19:06:00
             <ul class="flow">
               <li>Built new, modern, and fast <abbr title="Progressive Web App.">PWA</abbr> <abbr title="business-to-business.">B2B</abbr> websites for IAG Loyalty.</li>
               <li>Big focus on usability, accessibility, progressive enhancement, performance & resilience.</li>
-              <li>Very involved in researching, planning & configuring a scalable <abbr title="Software as a service.">SaaS</abbr> micro-frontend configuration that focussed on reusability & themeable / whitelabel components. </li>
+              <li>Instrumental in researching, planning & configuring the beginnings of a scalable <abbr title="Software as a service.">SaaS</abbr> micro-frontend configuration that focussed on reusability & themeable / whitelabel components. </li>
             </ul>
           </div>
         </div>
