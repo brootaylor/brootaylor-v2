@@ -8,7 +8,7 @@ lead:
 
 bodyClass: "reading"
 
-date: 2023-04-16T02:26:00
+date: 2023-06-08T17:37:00
 ---
 
 Because I've never kept a list of my reads, I've ended up creating a bit of a challenge for myself that's for sure. Trying to recall books I've read and enjoyed feels like a bit of a daunting task but I'm keen to at least make a stab at it.

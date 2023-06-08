@@ -11,7 +11,7 @@ pagination:
   size: 15
   alias: notes
 
-date: 2022-04-07T17:23:00
+date: 2023-06-08T17:37:00
 ---
 
 {# List of note posts #}
