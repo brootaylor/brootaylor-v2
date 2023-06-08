@@ -4,7 +4,7 @@
 	"@type": "WebPage",
 	"name": "{{ site.metaTitle }} • {{ site.metaDescription }}",
 	"url": "{{ site.rootUrl }}{{ page.url | pretty }}",
-	"description": "{{ summary | safe }}",
+	"description": "{{ summary }}",
 	"inLanguage": "{{ site.lang }}",
 	"breadcrumb": {
 		"@type": "BreadcrumbList",
@@ -20,7 +20,7 @@
 	"mainEntity": {
 		"@type": "WebPage",
 		"name": "{{ site.metaTitle }} • {{ site.metaDescription }}",
-		"description": "{{ summary | safe }}",
+		"description": "{{ summary }}",
 		"url": "{{ site.rootUrl }}{{ page.url | pretty }}"
 	},
 	"primaryImageOfPage": {
