@@ -1,0 +1,31 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "{{ site.metaTitle }} • {{ site.metaDescription }}",
+  "url": "{{ site.rootUrl }}{{ page.url | pretty }}",
+  "description": "{{ summary | safe }}",
+	"inLanguage": "{{ site.lang }}",
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "{{ site.rootUrl }}{{ page.url | pretty }}"
+      }
+    ]
+  },
+  "mainEntity": {
+    "@type": "WebPage",
+    "name": "{{ site.metaTitle }} • {{ site.metaDescription }}",
+    "description": "{{ summary | safe }}",
+    "url": "{{ site.rootUrl }}{{ page.url | pretty }}"
+  },
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "{{ site.author.thumbnail }}"
+  }
+}
+</script>
