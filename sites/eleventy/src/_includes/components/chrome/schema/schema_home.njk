@@ -1,22 +1,30 @@
 <script type="application/ld+json">
 {
-	"@context": "http://schema.org",
-	"@type": "Person",
-	"name": "{{ site.author.name }}",
-	"url": "{{ site.rootUrl }}{{ page.url | pretty }}",
-	"jobTitle": "Frontend Developer / UI Engineer",
-	"description": "Bruce lives in West Sussex, England with his family. He's a Frontend Developer / UI Engineer with nearly 2 decades of experience trying his best to help people build websites that stand the test of time.",
-	"image": "{{ site.author.thumbnail }}",
-	"address": {
-		"@type": "PostalAddress",
-		"addressLocality": "Crawley",
-		"addressRegion": "West Sussex",
-		"addressCountry": "UK"
-	},
-	"sameAs": [
-			"https://www.linkedin.com/in/brootaylor",
-			"https://github.com/brootaylor",
-			"https://twitter.com/brootaylor"
-	]
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "{{ site.metaTitle }} • {{ site.metaDescription }}",
+  "url": "{{ site.rootUrl }}{{ page.url | pretty }}",
+  "description": "{{ summary | safe }}",
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "{{ site.rootUrl }}{{ page.url | pretty }}"
+      }
+    ]
+  },
+  "mainEntity": {
+    "@type": "WebPage",
+    "name": "{{ site.metaTitle }} • {{ site.metaDescription }}",
+    "description": "{{ summary | safe }}",
+    "url": "{{ site.rootUrl }}{{ page.url | pretty }}"
+  },
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "{{ site.author.thumbnail }}"
+  }
 }
 </script>
