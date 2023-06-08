@@ -27,11 +27,15 @@
 		"@type": "ImageObject",
 		"url": "{{ site.author.thumbnail }}"
 	},
-	"address": {
-		"@type": "PostalAddress",
-		"addressLocality": "Crawley",
-		"addressRegion": "West Sussex",
-		"addressCountry": "GB"
+	"author": {
+		"@type": "Person",
+		"name": "{{ site.author.name }}",
+		"address": {
+			"@type": "PostalAddress",
+			"addressLocality": "Crawley",
+			"addressRegion": "West Sussex",
+			"addressCountry": "GB"
+		},
 	},
 	"sameAs": [
 		"https://www.linkedin.com/in/brootaylor",
