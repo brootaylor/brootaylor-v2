@@ -81,6 +81,12 @@
 		{% elif 'work' in bodyClass %}
 			<!-- Schema Structured Data for the work page... -->
 			{% include "components/chrome/schemas/schema_work.njk" %}
+		{% elif 'reading' in bodyClass %}
+			<!-- Schema Structured Data for the reading page... -->
+			{% include "components/chrome/schemas/schema_reading.njk" %}
+		{% elif 'writing-home' in bodyClass %}
+			<!-- Schema Structured Data for the writing landing page... -->
+			{% include "components/chrome/schemas/schema_writing.njk" %}
 		{% elif 'blog' in bodyClass %}
 			<!-- Schema Structured Data for a blog post... -->
 			{% include "components/chrome/schemas/schema_blogpost.njk" %}
