@@ -1,25 +1,25 @@
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "{{ site.rootUrl }}{{ page.url | pretty }}"
-  },
-  "headline": "{{ title }}",
-  "description": "{{ summary }}",
+	"@context": "https://schema.org",
+	"@type": "BlogPosting",
+	"mainEntityOfPage": {
+		"@type": "WebPage",
+		"@id": "{{ site.rootUrl }}{{ page.url | pretty }}"
+	},
+	"headline": "{{ title }}",
+	"description": "{{ summary | safe }}",
 	"inLanguage": "{{ site.lang }}",
-  "author": {
-    "@type": "Person",
-    "name": "{{ site.author.name }}",
+	"author": {
+		"@type": "Person",
+		"name": "{{ site.author.name }}",
 		"url": "{{ site.rootUrl }}/about"
-  },
+	},
 	"contentLocation": {
 		"@type": "Place",
 		"name": "{{ location.locality }}, {{ location.country_name }}"
 	},
 	"dateCreated": "{{ date | dateTime('yyyy-ll-ddt') }}",
-  "datePublished": "{{ date | dateTime('yyyy-ll-ddt') }}",
-  {% if updated %}"dateModified": "{{ updated | dateTime('yyyy-ll-ddt') }}"{% endif %}
+	"datePublished": "{{ date | dateTime('yyyy-ll-ddt') }}",
+	{% if updated %}"dateModified": "{{ updated | dateTime('yyyy-ll-ddt') }}"{% endif %}
 }
 </script>

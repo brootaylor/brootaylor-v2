@@ -87,6 +87,18 @@
 		{% elif 'writing-home' in bodyClass %}
 			<!-- Schema Structured Data for the writing landing page... -->
 			{% include "components/chrome/schemas/schema_writing.njk" %}
+		{% elif 'notes-home' in bodyClass %}
+			<!-- Schema Structured Data for the notes landing page... -->
+			{% include "components/chrome/schemas/schema_notes.njk" %}
+		{% elif 'bookmarks-home' in bodyClass %}
+			<!-- Schema Structured Data for the bookmarks landing page... -->
+			{% include "components/chrome/schemas/schema_bookmarks.njk" %}
+		{% elif 'photos-home' in bodyClass %}
+			<!-- Schema Structured Data for the photos landing page... -->
+			{% include "components/chrome/schemas/schema_photos.njk" %}
+		{% elif 'contact' in bodyClass %}
+			<!-- Schema Structured Data for the contact page... -->
+			{% include "components/chrome/schemas/schema_contact.njk" %}
 		{% elif 'blog' in bodyClass %}
 			<!-- Schema Structured Data for a blog post... -->
 			{% include "components/chrome/schemas/schema_blogpost.njk" %}
