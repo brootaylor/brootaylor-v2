@@ -1,27 +1,27 @@
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "{{ site.metaTitle }}'s Work",
-  "url": "{{ site.rootUrl }}{{ page.url | pretty }}",
-  "description": "{{ summary | safe }}",
+	"@context": "https://schema.org",
+	"@type": "WebPage",
+	"name": "{{ site.metaTitle }}'s Work",
+	"url": "{{ site.rootUrl }}{{ page.url | pretty }}",
+	"description": "{{ summary | safe }}",
 	"inLanguage": "{{ site.lang }}",
-  "breadcrumb": {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Work",
-        "item": "{{ site.rootUrl }}{{ page.url | pretty }}"
-      }
-    ]
-  },
-  "mainEntity": {
-    "@type": "WebPage",
-    "name": "{{ site.metaTitle }}'s Work",
-    "description": "{{ summary | safe }}",
-    "url": "{{ site.rootUrl }}{{ page.url | pretty }}"
-  }
+	"breadcrumb": {
+		"@type": "BreadcrumbList",
+		"itemListElement": [
+			{
+				"@type": "ListItem",
+				"position": 3,
+				"name": "Work",
+				"item": "{{ site.rootUrl }}{{ page.url | pretty }}"
+			}
+		]
+	},
+	"mainEntity": {
+		"@type": "WebPage",
+		"name": "{{ site.metaTitle }}'s Work",
+		"description": "{{ summary | safe }}",
+		"url": "{{ site.rootUrl }}{{ page.url | pretty }}"
+	}
 }
 </script>
