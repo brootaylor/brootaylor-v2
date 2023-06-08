@@ -19,7 +19,7 @@
 		"name": "{{ location.locality }}, {{ location.country_name }}"
 	},
 	"dateCreated": "{{ date | dateTime('yyyy-ll-ddt') }}",
-	"datePublished": "{{ date | dateTime('yyyy-ll-ddt') }}",
-	{% if updated %}"dateModified": "{{ updated | dateTime('yyyy-ll-ddt') }}"{% endif %}
+	"datePublished": "{{ date | dateTime('yyyy-ll-ddt') }}"{% if updated %},
+	"dateModified": "{{ updated | dateTime('yyyy-ll-ddt') }}"{% endif %}
 }
 </script>
