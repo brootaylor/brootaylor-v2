@@ -71,38 +71,38 @@
 		{# Main footer content #}
 		{% include "components/global/footer/footer.njk" %}
 
-		{# Schema Structured Data content #}
-		{% if 'homepage' in bodyClass %}
-			<!-- Schema Structured Data for the homepage... -->
-			{% include "components/chrome/schemas/schema_home.njk" %}
-		{% elif 'about' in bodyClass %}
-			<!-- Schema Structured Data for the about page... -->
-			{% include "components/chrome/schemas/schema_about.njk" %}
-		{% elif 'work' in bodyClass %}
-			<!-- Schema Structured Data for the work page... -->
-			{% include "components/chrome/schemas/schema_work.njk" %}
-		{% elif 'reading' in bodyClass %}
-			<!-- Schema Structured Data for the reading page... -->
-			{% include "components/chrome/schemas/schema_reading.njk" %}
-		{% elif 'writing-home' in bodyClass %}
-			<!-- Schema Structured Data for the writing landing page... -->
-			{% include "components/chrome/schemas/schema_writing.njk" %}
-		{% elif 'notes-home' in bodyClass %}
-			<!-- Schema Structured Data for the notes landing page... -->
-			{% include "components/chrome/schemas/schema_notes.njk" %}
-		{% elif 'bookmarks-home' in bodyClass %}
-			<!-- Schema Structured Data for the bookmarks landing page... -->
-			{% include "components/chrome/schemas/schema_bookmarks.njk" %}
-		{% elif 'photos-home' in bodyClass %}
-			<!-- Schema Structured Data for the photos landing page... -->
-			{% include "components/chrome/schemas/schema_photos.njk" %}
-		{% elif 'contact' in bodyClass %}
-			<!-- Schema Structured Data for the contact page... -->
-			{% include "components/chrome/schemas/schema_contact.njk" %}
-		{% elif 'blog' in bodyClass %}
-			<!-- Schema Structured Data for a blog post... -->
-			{% include "components/chrome/schemas/schema_blogpost.njk" %}
-		{% endif %}
+		{#
+			Schema Structured Data...
+			Defines a mapping between bodyClass values and their corresponding schema files to include. This is used to include the correct schema file for the current page.
+		#}
+		{% set schemaMap = [
+			{ bodyClass: 'homepage', schemaFile: 'schema_home.njk' },
+			{ bodyClass: 'about', schemaFile: 'schema_about.njk' },
+			{ bodyClass: 'work', schemaFile: 'schema_work.njk' },
+			{ bodyClass: 'reading', schemaFile: 'schema_reading.njk' },
+			{ bodyClass: 'writing-home', schemaFile: 'schema_writing.njk' },
+			{ bodyClass: 'notes-home', schemaFile: 'schema_notes.njk' },
+			{ bodyClass: 'bookmarks-home', schemaFile: 'schema_bookmarks.njk' },
+			{ bodyClass: 'photos-home', schemaFile: 'schema_photos.njk' },
+			{ bodyClass: 'contact', schemaFile: 'schema_contact.njk' },
+			{ bodyClass: 'blog', schemaFile: 'schema_blogpost.njk' }
+		] %}
+
+		{# Initializes a flag to track whether a matching schema file has been found #}
+		{% set foundSchema = false %}
+
+		{# Iterates over the schemaMap and includes the first matching schema file #}
+		{% for mapping in schemaMap %}
+			{% if mapping.bodyClass in bodyClass and not foundSchema %}
+				{# Checks if the bodyClass value is present in the bodyClass variable and ensures a matching schema file has not been found yet #}
+
+				<!-- Schema Structured Data for the "{{ mapping.bodyClass }}" page... -->
+				{% include "components/chrome/schemas/" + mapping.schemaFile %}
+
+				{# Sets the flag to indicate that a matching schema file has been found #}
+				{% set foundSchema = true %}
+			{% endif %}
+		{% endfor %}
 
 		{# Script calls #}
 		{% include "components/chrome/scripts/scripts.njk" %}
