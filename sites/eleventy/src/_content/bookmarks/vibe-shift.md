@@ -17,4 +17,6 @@ category:
   - tech
 eleventyExcludeFromCollections: false
 ---
-T﻿his made me laugh out loud.
+T﻿his is hilarious and brilliantly written! It *really* does tap into the actual feeling of using one of the LLM rattling around at the moment.
+
+H﻿onestly, do try reading the entire article in one sitting.
