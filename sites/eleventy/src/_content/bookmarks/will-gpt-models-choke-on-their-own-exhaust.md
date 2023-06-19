@@ -6,7 +6,7 @@ summary: Really good points made by Ross in his article. In an already noisy web
 bookmarkExternal: https://www.lightbluetouchpaper.org/2023/06/06/will-gpt-models-choke-on-their-own-exhaust/
 bookmarkLabel: www.lightbluetouchpaper.org
 bookmarkAuthor: Ross Anderson
-date: 2023-06-19T16:00:13.412Z
+date: 2023-06-19T16:20:53.339Z
 updated: ""
 location:
   locality: Crawley
