@@ -1,6 +1,8 @@
 ---
 title: Will GPT models choke on their own exhaust?
-summary: Will GPT models choke on their own exhaust?
+summary: Really good points made by Ross in his article. In an already noisy web
+  littered with false information, this could end up making it even harder to
+  find what’s true and what’s not.
 bookmarkExternal: https://www.lightbluetouchpaper.org/2023/06/06/will-gpt-models-choke-on-their-own-exhaust/
 bookmarkLabel: www.lightbluetouchpaper.org
 bookmarkAuthor: Ross Anderson
