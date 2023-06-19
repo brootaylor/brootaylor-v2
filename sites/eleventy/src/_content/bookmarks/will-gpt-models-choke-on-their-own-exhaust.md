@@ -18,4 +18,6 @@ category:
   - tech
 eleventyExcludeFromCollections: false
 ---
-a﻿dsada
+> In our latest paper, we show that using model-generated content in training causes irreversible defects. The tails of the original content distribution disappear. Within a few generations, text becomes garbage, as Gaussian distributions converge and may even become delta functions. We call this effect model collapse.
+> 
+> Just as we’ve strewn the oceans with plastic trash and filled the atmosphere with carbon dioxide, so we’re about to fill the Internet with blah. This will make it harder to train newer models by scraping the web, giving an advantage to firms which already did that, or which control access to human interfaces at scale. Indeed, we already see AI startups hammering the Internet Archive for training data.
