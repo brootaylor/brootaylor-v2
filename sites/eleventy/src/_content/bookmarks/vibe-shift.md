@@ -17,6 +17,6 @@ category:
   - tech
 eleventyExcludeFromCollections: false
 ---
-T﻿his is hilarious and brilliantly written! It *really* does tap into the actual feeling of using one of the LLM rattling around at the moment.
+This is hilarious and brilliantly written! It *really* does give you a good idea of how it actually feels using one of the <abbr title="Large Language Model.">LLM</abbr>'s rattling around at the moment.
 
-H﻿onestly, do try reading the entire article in one sitting.
+Try reading the entire article in one sitting.
