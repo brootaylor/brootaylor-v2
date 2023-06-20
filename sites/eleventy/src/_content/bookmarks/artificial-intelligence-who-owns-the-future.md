@@ -1,10 +1,13 @@
 ---
 title: "Artificial intelligence: who owns the future?"
-summary: Beyond the contemporary issues lurk deeper long-term questions. What should and shouldn’t we automate? Should we create lethal autonomous weapons, or should a human always take charge of life-and-death decisions? How will we earn a living and even find meaning if AIs eliminate jobs?
+summary: Beyond the contemporary issues lurk deeper long-term questions. What
+  should and shouldn’t we automate? Should we create lethal autonomous weapons,
+  or should a human always take charge of life-and-death decisions? How will we
+  earn a living and even find meaning if AIs eliminate jobs?
 bookmarkExternal: https://ethical.net/ethical/artificial-intelligence-who-owns-the-future/
 bookmarkLabel: ethical.net
 bookmarkAuthor: Cennydd Bowles
-date: 2023-06-20T12:13:35.078Z
+date: 2023-06-20T12:44:43.485Z
 updated: ""
 location:
   locality: Crawley
@@ -12,7 +15,9 @@ location:
 category:
   - ethics
   - tech
-eleventyExcludeFromCollections: true
+  - ai
+  - future
+eleventyExcludeFromCollections: false
 ---
 
 Cennydd always makes compelling points when it comes to ethics in tech. Here's another fab article from him.
