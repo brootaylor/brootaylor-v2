@@ -11,6 +11,10 @@ location:
 category:
   - survey
   - css
-eleventyExcludeFromCollections: true
+  - 2023
+eleventyExcludeFromCollections: false
 ---
-O﻿of!
+
+I'm not a survey person by any means but do like doing the State of CSS survey each year. It's a great way to see what's happening in the CSS world and what people are using. It's also a great way to see what's coming up in the future.
+
+Why not take the [State of CSS 2023 survey](https://survey.devographics.com/en-US/survey/state-of-css/2023) yourself.
