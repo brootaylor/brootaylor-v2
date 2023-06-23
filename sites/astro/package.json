@@ -20,7 +20,7 @@
     "rimraf": "^5.0.1"
   },
   "devDependencies": {
-    "astro": "^2.6.6",
+    "astro": "^2.7.0",
     "jest": "^29.5.0",
     "netlify-cli": "^15.6.0",
     "onchange": "^7.1.0"
