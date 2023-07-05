@@ -10,12 +10,16 @@ location:
   locality: Crawley
   country_name: UK
 category:
-  - html
+  - web
   - programming
   - funny
+  - sanity
   - video
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 ---
-No doubt the web will circle round to this question again and again but who cares when Heydon’s made a video about it.
 
-Heydon Pickering you genius. You’ve made my day.
+What can I say about Web 3.0?
+
+Nothing really.
+
+Heydon Pickering, on the other hand, can. And he says it in a way that only Heydon can in [this brilliant video](https://briefs.video/videos/what-is-web-3.0/).
