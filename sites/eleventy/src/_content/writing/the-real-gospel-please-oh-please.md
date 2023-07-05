@@ -16,7 +16,7 @@ category:
 eleventyExcludeFromCollections: false
 ---
 
-I can remember countless times singing alongside others, caught up in the emotion, tears streaming down my face, declaring my undying love to a god for saving me. Looking back, this, to a great measure would have been filtered through a backdrop of material middle-class privilege. A hidden ‘*security*’ that I could easily fall back on if this god didn’t fit with my idol-infested life. After all, I have an earthly family that loves me deeply (this is true), friends who declare their love and commitment to me no matter what. They would come to my rescue if the going got tough. Surely that’s the way God works. Don’t you know, he knows the desires of MY heart.
+I can remember countless times singing alongside others, caught up in the emotion, tears streaming down my face, declaring my undying love to a god for saving me. Looking back, this, to a great measure would have been filtered through a backdrop of material middle-class privilege. A hidden ‘*security*’ that I could easily fall back on if this god didn’t fit with my idol-infested life. After all, I have an earthly family that loves me deeply (this is true), friends who declare their love and commitment to me no matter what. They would come to my rescue if the going got tough. Surely that’s the way God works. Don’t you know&hellip; he knows the desires of MY heart.
 
 It seems we must *descend*. We must get to the *bottom*. The *end of ourselves*.
 
