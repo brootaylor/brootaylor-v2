@@ -4,7 +4,7 @@ summary: Become an expert detector of AI bullshit.
 bookmarkExternal: https://needtoknow.fyi/
 bookmarkLabel: needtoknow.fyi
 bookmarkAuthor: Baldur Bjarnason
-date: 2023-07-05T22:09:33.192Z
+date: 2023-07-05T22:34:33.192Z
 updated: ""
 location:
   locality: Crawley
@@ -13,22 +13,23 @@ category:
   - tech
   - ai
   - machinelearning
+  - help
   - bullshit
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 ---
 
 {% from "components/core/images/images.njk" import imageNormal %}
 {{ imageNormal(
-  "/assets/images/posts/bookmarks/bootstrap-icons-screenshot.png",
-  "A screenshot of the Bootstrap Icons website",
+  "/assets/images/posts/bookmarks/generative-ai-bullshit-website-screenshot.png",
+  "A screenshot of the 'Generative AI: What You Need To Know' website",
   "1200",
-  "812",
+  "712",
   false,
   "shadow")
 }}
 
-I've been a fan of [Icomoon](https://icomoon.io/) for years &mdash; *(and still am)* &mdash; but have recently discovered [Bootstrap Icons](https://icons.getbootstrap.com/).
+Baldur Bjarnason is a god-send in these times of tech hype and bullshit. He's written a book, "[The Intelligence Illusion](https://illusion.baldurbjarnason.com/)", which I'm yet to read.
 
-I usually steer clear of Bootstrap in general but this looks like a great resource for SVG icons. Looks like they're already optimised and you can download them as is.
+But, if like me, you don’t have time to read the whole book just yet, he's also created an online guide of sorts. To help cut through all the *AI bullshit*.
 
-Very nice.
+The website's called [needtoknow.fyi](https://needtoknow.fyi/).
