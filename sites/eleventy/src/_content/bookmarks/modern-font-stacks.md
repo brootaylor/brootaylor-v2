@@ -22,7 +22,9 @@ eleventyExcludeFromCollections: false
   "/assets/images/posts/bookmarks/modern-font-stack-screenshot.png",
   "A screenshot of the Modern Font Stacks website",
   "1200",
-  "693")
+  "693",
+  false,
+  "shadow")
 }}
 
 What a fab resource this is!

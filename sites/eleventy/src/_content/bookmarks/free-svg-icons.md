@@ -10,17 +10,26 @@ location:
   country_name: UK
 category:
   - frontend
-eleventyExcludeFromCollections: true
+  - tech
+  - tools
+  - icons
+  - svg
+  - css
+eleventyExcludeFromCollections: false
 ---
 
 {% from "components/core/images/images.njk" import imageNormal %}
 {{ imageNormal(
-  "/assets/images/posts/bookmarks/modern-font-stack-screenshot.png",
-  "A screenshot of the Modern Font Stacks website",
+  "/assets/images/posts/bookmarks/bootstrap-icons-screenshot.png",
+  "A screenshot of the Bootstrap Icons website",
   "1200",
-  "693")
+  "812",
+  false,
+  "shadow")
 }}
 
-What a fab resource this is!
+I've been a fan of [Icomoon](https://icomoon.io/) for years &mdash; *(and still am)* &mdash; but have recently discovered [Bootstrap Icons](https://icons.getbootstrap.com/).
 
-[Modern Font Stacks](https://modernfontstacks.com/) features collections of system font stacks organised by the style of typeface you’re looking for.
+I usually steer clear of Bootstrap in general but this looks like a great resource for SVG icons. Looks like they're already optimised and you can download them as is.
+
+Very nice.
