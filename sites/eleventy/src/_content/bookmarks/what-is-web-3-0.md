@@ -18,7 +18,7 @@ category:
 eleventyExcludeFromCollections: false
 ---
 
-What can I say about Web 3.0?
+What can I say about Web 3.0 that hasn't already been said?
 
 Nothing really.
 
