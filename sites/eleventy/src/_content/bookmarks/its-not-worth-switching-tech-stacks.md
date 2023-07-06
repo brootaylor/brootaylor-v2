@@ -16,7 +16,7 @@ category:
 eleventyExcludeFromCollections: false
 ---
 
-Read the entire article if you can as Jason makes some great points. Stuff of sanity in my opinion.
+Read the entire article if you can as Jason makes some great points. Sanity inducing stuff in my opinion.
 
 Leaving this as a taster for now&hellip;
 
