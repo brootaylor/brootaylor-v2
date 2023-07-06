@@ -30,6 +30,6 @@ eleventyExcludeFromCollections: false
 
 Baldur Bjarnason is a god-send in these times of tech hype and bullshit. He's written a book, "[The Intelligence Illusion](https://illusion.baldurbjarnason.com/)", which I'm yet to read.
 
-But, if like me, you don’t have time to read the whole book just yet, he's also created an online guide of sorts. To help cut through all the *AI bullshit*.
+But, if like me, you don’t have time to read the whole book just yet, he's also created an online guide of sorts. To help cut through some of the *AI bullshit*.
 
 The website's called [needtoknow.fyi](https://needtoknow.fyi/).
