@@ -1,5 +1,5 @@
 # Directories to ignore
-node_modules
+**/node_modules/**
 .vscode
 
 # Files to ignore
