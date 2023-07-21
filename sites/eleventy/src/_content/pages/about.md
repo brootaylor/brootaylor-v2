@@ -8,7 +8,7 @@ lead:
 
 bodyClass: "about"
 
-date: 2023-06-08T17:37:00
+date: 2023-07-21T23:13:00
 ---
 
 Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking and wild camping in the mountains, staring up at the stars, canoeing, fishing and sport. That certainly feels like quite some time ago now&hellip; 🤔
@@ -57,16 +57,6 @@ These days, my role often involves collaborating with designers to ensure that t
 I enjoy [taking photos](/photos) whenever I can and am a [fairly decent drummer](/photos/2022-03-29/photo_202203292358). Fly fishing for trout is something I grew up doing and continue to do. I head to the beautiful [Lakedown Trout Fishery](https://www.lakedowntroutfishery.com/) as often as I can. A gorgeous and tranquil spot away from all the noise.
 
 I absolutely [adore aircraft](/photos/2022-03-30/photo_202203301354) and flying and hope that one day I'll be able to get my PPL.
-
----
-
-## What I'm reading
-
-"[An Inconvenient Apocalypse: Environmental Collapse, Climate Crisis, and the Fate of Humanity](https://robertwjensen.org/books/an-inconvenient-apocalypse/)" by Wes Jackson & Robert Jensen, as well as William R. Catton's "[Overshoot: The Ecological Basis of Revolutionary Change](https://www.goodreads.com/en/book/show/319810.Overshoot)" are on the go. At this point in time, these books are possibly turning out to be some of the most important reads of my life.
-
-I'm also a sucker for fantasy. The feeling of been transported to another world is intoxicating and a welcome escape. Currently I'm making my way through one of Michael R. Miller's fantasy series, "[Songs of Chaos](https://www.goodreads.com/series/300106-songs-of-chaos)".
-
-Here's a selection of [some other books I've read](/reading#have-read) over the past few years.
 
 ---
 
