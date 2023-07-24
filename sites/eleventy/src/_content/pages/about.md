@@ -8,7 +8,7 @@ lead:
 
 bodyClass: "about"
 
-date: 2023-07-21T23:13:00
+date: 2023-07-24T17:40:00
 ---
 
 Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking and wild camping in the mountains, staring up at the stars, canoeing, fishing and sport. That certainly feels like quite some time ago now&hellip; 🤔
@@ -25,9 +25,11 @@ I build websites and have been doing so for around two decades.
 
 I specialise in the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)". The somewhat *fuzzy* intersection between design and back-end engineering. I find I’m well suited to and enjoy roles that balance the user & developer experiences, empowering teams to write great code in a way that feels right to them while ensuring a positive user experience. {.call-out}
 
-I'm quite good at picking up new skills and programming languages, as well as problem solving. My core technical skills include HTML, CSS, progressively enhanced JS, responsive design, PWAs, web performance, web accessibility, static site generation, Eleventy, Jekyll & Astro. From time to time, you’ll also find me with my hands in the “*back-of-the-front-end*” utilising  Node.js, configuring an API, fiddling with JavaScript bundlers, as well as streamlining build and deployment processes, and CI/CD workflows to help improve frontend development efficiency.
+I'm quite good at picking up new skills and programming languages, as well as problem solving. My skill set is diverse, encompassing HTML, CSS, progressively enhanced JS, responsive design, Progressive Web Apps (**PWA**), Static Site Generation (**SSG**), web performance optimisation, and web accessibility.
 
-I try my best to build web solutions that are [resilient](https://resilientwebdesign.com/), [usable](https://trentwalton.com/2014/03/10/device-agnostic/) and as future-friendly as possible. For this reason I *prefer* a vanilla approach and tend to steer clear of using JavaScript frameworks if I can help it.
+From time to time, you’ll also find me with my hands in the “*back-of-the-front-end*” utilising  Node.js, configuring an API, optimising a JavaScript bundler, as well as streamlining build and deployment processes to help improve frontend development efficiency.
+
+I try my best to build web solutions that are [resilient](https://resilientwebdesign.com/), [usable](https://trentwalton.com/2014/03/10/device-agnostic/) and as future-friendly as possible. For this reason I *prefer* a vanilla approach and tend to be fairly tech-agnostic. Choosing the *right* tool for the job seems to be a better approach than using a framework for the sake of it. {.call-out}
 
 Don't get me wrong, JavaScript frameworks certainly have their place and I think they can be wonderfully powerful tools when we keep the end user in mind &mdash; rather than *only* prioritising the developer experience. At the moment I'm not sure we're getting that balance quite right.
 
