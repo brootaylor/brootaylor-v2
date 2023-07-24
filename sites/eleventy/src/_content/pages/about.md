@@ -33,6 +33,11 @@ I try my best to build web solutions that are [resilient](https://resilientwebde
 
 Don't get me wrong, JavaScript frameworks certainly have their place and I think they can be wonderfully powerful tools when we keep the end user in mind &mdash; rather than *only* prioritising the developer experience. At the moment I'm not sure we're getting that balance quite right.
 
+{% from "components/core/blockquotes/blockquotes.njk" import blockquote %}
+{%- call blockquote('Kelsey Hightower') -%}
+  Stick to boring architecture for as long as possible, and spend the majority of your time, and resources, building something your customers are willing to pay for.
+{%- endcall %}
+
 Here's a bit more about some of the [people I've worked with](/work) and what we've built together.
 
 {% from "components/core/buttons/buttons.njk" import button %}
