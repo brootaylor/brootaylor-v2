@@ -12,9 +12,13 @@ location:
 category:
   - tech
   - trends
-eleventyExcludeFromCollections: true
+  - architecture
+  - software
+eleventyExcludeFromCollections: false
 ---
 
-Baldur Bjarnason has [quite a bit to say on this subject](https://softwarecrisis.dev/letters/llmentalist/):
+Some much needed sanity from Addy Osmani on why it's worth [sticking to boring architecture for as long as possible](https://addyosmani.com/blog/boring-architecture/):
 
-> Our current environment of relentless hype sets the stage and builds up an expectation for at least glimmers of genuine intelligence. For all the warnings vendors make about these systems not being general intelligences, those statements are always followed by either an implied or an actual “yet”. The hype strongly implies that these are “almost” intelligences and that you should be able to perceive “sparks” of intelligence in them.
+> In the tech world, FOMO can be a driving force behind our choices (we've often been there). However, it is not necessarily productive. While being aware of emerging technologies is important, chasing them without a clear value proposition can lead to needless complexity, technical debt, and resource drain.
+>
+> Before adopting a new technology, ask yourself: "Does it solve a specific problem or significantly enhance my product? Is it worth the learning curve and potential instability? Is this going to help us further down the line?"
