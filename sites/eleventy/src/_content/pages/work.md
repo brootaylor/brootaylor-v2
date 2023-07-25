@@ -9,7 +9,7 @@ lead:
 
 bodyClass: "work"
 
-date: 2023-07-25T19:06:00
+date: 2023-07-25T19:59:00
 ---
 
 <section aria-labelledby="work-current" class="companies | flow">
@@ -282,6 +282,14 @@ date: 2023-07-25T19:06:00
     </li>
     <li>
     {% from "components/core/blockquotes/blockquotes.njk" import blockquote %}
+    {%- call blockquote('Nicola Crome, Senior Media and Content Marketing Manager, Avios') -%}
+      I worked with Bruce for many years at Avios, both within the same team and across projects.<br>
+      Bruce was incredibly knowledgeable in website design and development, always came up with great solutions, delivered to a high standard with great attention to detail, and was very easy to work with. He was also able to communicate his technical knowledge in a straightforward way to someone who was not from a technical background.<br>
+      I would highly recommend Bruce to any organisation.
+    {%- endcall %}
+    </li>
+    <li>
+    {% from "components/core/blockquotes/blockquotes.njk" import blockquote %}
     {%- call blockquote('Kat Thay, Studio Manager, Pegasus') -%}
       Bruce was an excellent resource for us, taking on additional work when our internal resources were at capacity. He's easy to work with and always turned around work quickly and to a high standard. Bruce quickly became part of the family and overcoming challenges with ease due to his can-do attitude and tireless commitment to projects.
     {%- endcall %}
@@ -290,6 +298,12 @@ date: 2023-07-25T19:06:00
     {% from "components/core/blockquotes/blockquotes.njk" import blockquote %}
     {%- call blockquote('Paul Davison, Head Of Design, Charanga Music') -%}
       We got Bruce in to to help us develop a front-end boilerplate / component library as we were inundated with projects and needed a safe pair of hands that could help us achieve quality results with minimal supervision. Bruce delivered a high-quality framework that ticks all of the boxes for us. And to top it all he’s a great guy to work with, highly professional, he gets on well with everyone and really cares about his work. I would not hesitate to hire Bruce again.
+    {%- endcall %}
+    </li>
+    <li>
+    {% from "components/core/blockquotes/blockquotes.njk" import blockquote %}
+    {%- call blockquote('Roger Matthews, Head of System Development and Administration, Macmillan Cancer Support') -%}
+      Bruce is great addition to any team, a great personality who requires minimal management and produces accurate and attractive output. He keeps up to date with the latest techniques and is happy to share those skills with others. I wouldn't hesitate in giving Bruce another opportunity when one arises.
     {%- endcall %}
     </li>
   </ul>
