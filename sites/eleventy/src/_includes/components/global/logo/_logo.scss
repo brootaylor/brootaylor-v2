@@ -22,12 +22,12 @@
     display: block;
     color: var(--white);
     text-decoration-color: transparent;
+    box-shadow: none;
 
     &:active,
     &:focus,
     &:hover {
-      color: var(--white);
-      text-decoration-color: var(--green-custom-light);
+      color: var(--orange-custom);
       border: 0;
     }
   }

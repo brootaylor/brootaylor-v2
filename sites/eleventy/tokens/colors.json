@@ -9,7 +9,9 @@
   "dark": "#333333",
   "slate": "#404040",
   "orange-custom": "#f3bb69",
+  "orange-custom-light": "#f2d6ad",
   "green-custom": "#335601",
   "green-custom-dark": "#2e4c01",
-  "green-custom-light": "#6ab201"
+  "green-custom-light": "#6ab201",
+  "green-custom-lighter": "#c8e995"
 }

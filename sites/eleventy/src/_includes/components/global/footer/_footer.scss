@@ -43,9 +43,16 @@
       line-height: 0;
       padding: 0.5em 1rem 0.5em 0;
 
-      // Last 2 list items in this list
+      // Only the last 2 list items in this list
       &:nth-last-child(-n+2) {
         font-size: 0.9rem;
+      }
+
+      // All list items except the last 2
+      &:not(:nth-last-child(-n+2)) {
+        a {
+          box-shadow: none;
+        }
       }
 
       &:nth-last-child(2) {
@@ -60,8 +67,6 @@
     }
 
     a {
-      display: inline-flex;
-
       &:hover {
         color: var(--black);
       }

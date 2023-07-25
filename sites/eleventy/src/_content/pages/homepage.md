@@ -1,6 +1,6 @@
 ---
 layout: "layouts/homepage.njk"
-title: Hi, <a href="/about">I'm Bruce</a>.<span class="visually-hidden"> A Frontend Developer / UI Engineer living in West Sussex, England.</span>
+title: Hi, I'm Bruce.
 # Populates the `meta description` for a page
 summary: "Bruce lives in West Sussex, England with his family. He's a Frontend Developer / UI Engineer with nearly 2 decades of experience trying his best to help people build websites that stand the test of time."
 
@@ -30,7 +30,7 @@ bodyClass: "homepage"
 
 permalink: "/index.html"
 
-date: 2023-06-08T17:37:00
+date: 2023-07-25T19:06:00
 
 priority: 1
 ---

@@ -9,7 +9,7 @@ bodyClass: "contact-thanks"
 
 permalink: "/contact/thanks.html"
 
-date: 2020-05-07T13:36:00
+date: 2023-07-25T19:06:00
 
 hidden: true
 eleventyExcludeFromCollections: true

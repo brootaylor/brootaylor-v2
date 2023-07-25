@@ -65,11 +65,17 @@ $black: #000000 !default;
 /// Orange custom
 $orange-custom: map-get($colors, orange-custom) !default;
 
+/// Orange custom light
+$orange-custom-light: map-get($colors, orange-custom-light) !default;
+
 /// Green custom
 $green-custom: map-get($colors, green-custom) !default;
 
 /// Green custom light
 $green-custom-light: map-get($colors, green-custom-light) !default;
+
+/// Green custom lighter
+$green-custom-lighter: map-get($colors, green-custom-lighter) !default;
 
 /// Green custom dark
 $green-custom-dark: map-get($colors, green-custom-dark) !default;

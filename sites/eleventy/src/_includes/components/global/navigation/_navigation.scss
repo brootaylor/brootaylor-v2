@@ -14,8 +14,11 @@
 
   a {
     color: var(--black);
+    text-decoration: underline;
     text-decoration-color: transparent;
     text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+    box-shadow: none;
     line-height: 2;
     display: inline-block;
     padding: 0.2em 0;
@@ -25,7 +28,12 @@
     &:hover,
     &[aria-current="page"] {
       color: var(--black);
-      text-decoration-color: var(--green-custom-light);
+      text-decoration-color: var(--green-custom);
+    }
+
+    &[aria-current="page"] {
+      font-style: italic;
+      font-weight: 700;
     }
   }
 

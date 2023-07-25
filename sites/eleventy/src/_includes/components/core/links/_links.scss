@@ -9,10 +9,10 @@ a {
   &,
   &:active,
   &:visited {
-      color: var(--green-custom); // Custom property
-      text-decoration-color: var(--green-custom);
-      text-decoration-thickness: from-font;
-      text-underline-offset: 3px;
+      color: inherit;
+      text-decoration: none;
+      transition: 0.3s;
+      box-shadow: inset 0 -0.45em 0 var(--orange-custom-light);
   }
 
   &:hover,
@@ -21,9 +21,7 @@ a {
   }
 
   &:hover {
-      color: var(--green-custom-dark); // Custom property
-      text-decoration-color: var(--green-custom-light);
-      text-decoration-thickness: 2px;
+      box-shadow: inset 0 -1em 0 var(--orange-custom-light);
   }
 
   // In the context of an article...

@@ -5,14 +5,32 @@
 @use '../abstracts' as *;
 
 .bookmarks-home {
-  .bookmarks__summary {
-    h2 {
-      // Fallback for older browsers
-      font-size: convert-to-rem(28px);
+  .bookmarks {
+    // Bookmarks summary container
+    &__summary {
+      h2 {
+        // Fallback for older browsers
+        font-size: convert-to-rem(28px);
 
-      // Browsers supporting `clamp()`
-      @supports (font-size: clamp(26px, 5vw, 34px)) {
-        font-size: clamp(#{convert-to-rem(20px)}, 5vw, #{convert-to-rem(28px)});
+        // Browsers supporting `clamp()`
+        @supports (font-size: clamp(26px, 5vw, 34px)) {
+          font-size: clamp(#{convert-to-rem(20px)}, 5vw, #{convert-to-rem(28px)});
+        }
+      }
+    }
+
+    // Bookmarks original post URL
+    &__original {
+      a {
+        text-decoration: underline;
+        text-decoration-color: transparent;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 3px;
+        box-shadow: none;
+
+        &:hover {
+          text-decoration-color: var(--green-custom);
+        }
       }
     }
   }
