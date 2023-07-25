@@ -41,18 +41,17 @@
 
     li {
       line-height: 0;
+      padding: 0.5em 1rem 0.5em 0;
 
       // Only the last 2 list items in this list
       &:nth-last-child(-n+2) {
         font-size: 0.9rem;
-        margin: 0.5em 1rem 0.5em 0;
       }
 
       // All list items except the last 2
       &:not(:nth-last-child(-n+2)) {
         a {
           display: inline-flex;
-          padding: 0.5em 1rem 0.5em 0;
           box-shadow: none;
         }
       }
@@ -64,7 +63,7 @@
       }
 
       &:last-child {
-        margin-right: 0;
+        padding-right: 0;
       }
     }
 
