@@ -51,6 +51,7 @@
       // All list items except the last 2
       &:not(:nth-last-child(-n+2)) {
         a {
+          display: inline-flex;
           box-shadow: none;
         }
       }
