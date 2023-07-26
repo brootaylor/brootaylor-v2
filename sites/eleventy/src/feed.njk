@@ -6,7 +6,7 @@ eleventyExcludeFromCollections: true
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ site.rootUrl }}">
 	<title>{{ site.name }}</title>
-	<subtitle>{{ site.metaDescription }}</subtitle>
+	<subtitle>{{ site.metaTitle }}</subtitle>
 	<link rel="self" href="{{ site.rootUrl }}{{ permalink }}" type="application/atom+xml"/>
 	<link rel="alternate" href="{{ site.rootUrl }}/" type="text/html"/>
 	{% if collections.post | length %}
