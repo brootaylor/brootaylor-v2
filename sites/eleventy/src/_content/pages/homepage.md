@@ -2,7 +2,7 @@
 layout: "layouts/homepage.njk"
 title: Hi, I'm Bruce.
 # Populates the `meta description` for a page
-summary: "Bruce lives in West Sussex, England with his family. He's a Frontend Developer / UI Engineer with nearly 2 decades of experience trying his best to help people build websites that stand the test of time."
+summary: "Bruce lives in Crawley, West Sussex, England with his family. He's a Frontend Web Developer / UI Engineer with nearly two decades of expertise in creating user-friendly websites."
 
 # Populates the opening / `lead` text on a page
 lead:

@@ -1,7 +1,7 @@
 ---
 title: "About me"
 # Populates the `meta description` for a page
-summary: "I'm originally from South Africa and grew up on a dairy farm in a very beautiful part of the country. I'm now a Frontend Developer / UI Engineer living in West Sussex, England with my family."
+summary: "I'm originally from South Africa and grew up on a dairy farm in a very beautiful part of the country. I'm now a Frontend Developer / UI Engineer living in Crawley, West Sussex, England with my family."
 # Populates the opening / `lead` text on a page
 lead:
   - I'm originally from South Africa and grew up on a dairy farm in a very <a href="https://youtu.be/bGQbM3QfA5w">beautiful part of the country</a>. I'm now a Frontend Developer / UI Engineer living in West Sussex, England with my family.

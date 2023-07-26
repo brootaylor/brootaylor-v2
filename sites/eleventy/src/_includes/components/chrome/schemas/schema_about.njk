@@ -2,7 +2,7 @@
 {
 	"@context": "https://schema.org",
 	"@type": "WebPage",
-	"name": "{{ title }} • {{ site.metaTitle }}",
+	"name": "{{ title }} • {{ site.metaDescription }}",
 	"url": "{{ site.rootUrl }}{{ page.url | pretty }}",
 	"description": "{{ summary }}",
 	"inLanguage": "{{ site.lang }}",
@@ -19,7 +19,7 @@
 	},
 	"mainEntity": {
 		"@type": "WebPage",
-		"name": "{{ title }} • {{ site.metaTitle }}",
+		"name": "{{ title }} • {{ site.metaDescription }}",
 		"description": "{{ summary }}",
 		"url": "{{ site.rootUrl }}{{ page.url | pretty }}"
 	},
