@@ -1,0 +1,58 @@
+/// Spacing utility class placeholders.
+///
+/// @group Utility Classes
+///
+/// @example scss - Sass Usage
+///   .mt-sml {
+///     @extend %margin_top--small;
+///   }
+%margin_top--small {
+  margin-block-start: 1em;
+}
+
+%margin_top--medium {
+  margin-block-start: 1.5em;
+}
+
+%margin_top--large {
+  margin-block-start: 2em;
+}
+
+%margin_bottom--small {
+  margin-block-end: 1em;
+}
+
+%margin_bottom--medium {
+  margin-block-end: 1.5em;
+}
+
+%margin_bottom--large {
+  margin-block-end: 2em;
+}
+
+
+// `Margin top` utility classes
+.mt-sml {
+  @extend %margin_top--small;
+}
+
+.mt-med {
+  @extend %margin_top--medium;
+}
+
+.mt-lg {
+  @extend %margin_top--large;
+}
+
+// `Margin bottom` utility classes
+.mb-sml {
+  @extend %margin_bottom--small;
+}
+
+.mb-med {
+  @extend %margin_bottom--medium;
+}
+
+.mb-lg {
+  @extend %margin_bottom--large;
+}
