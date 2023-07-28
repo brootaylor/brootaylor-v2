@@ -4,7 +4,7 @@ title: "About me"
 summary: "I'm originally from South Africa and grew up on a dairy farm in a very beautiful part of the country. I'm now a Frontend Developer / UI Engineer living in Crawley, West Sussex, England with my family."
 # Populates the opening / `lead` text on a page
 lead:
-  - <img src="/assets/images/pages/about/broo_profile_about.jpg" alt="Profile headshot of myself, Bruce Taylor." width="600" height="750" class="img-left | shadow"> I'm originally from South Africa and grew up on a dairy farm in a very <a href="https://youtu.be/bGQbM3QfA5w">beautiful part of the country</a>. I'm now a Frontend Developer / UI Engineer living in West Sussex, England with my family.
+  - <img src="/assets/images/pages/about/broo_profile_about.webp" alt="Profile headshot of myself, Bruce Taylor." width="1000" height="1250" class="img-left | shadow"> I'm originally from South Africa and grew up on a dairy farm in a very <a href="https://youtu.be/bGQbM3QfA5w">beautiful part of the country</a>. I'm now a Frontend Developer / UI Engineer living in West Sussex, England with my family.
 
 bodyClass: "about"
 
