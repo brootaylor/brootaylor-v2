@@ -81,7 +81,7 @@
     "postcss-preset-env": "^9.1.0",
     "rimraf": "^5.0.1",
     "rollup": "^3.27.0",
-    "sass": "^1.64.1",
+    "sass": "^1.64.2",
     "slugify": "^1.6.6"
   },
   "devDependencies": {
