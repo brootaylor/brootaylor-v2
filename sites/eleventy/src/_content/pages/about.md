@@ -8,14 +8,14 @@ lead:
 
 bodyClass: "about"
 
-date: 2023-07-29T11:36:00
+date: 2023-08-02T14:26:00
 ---
 
 Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking and wild camping in the mountains, staring up at the stars, canoeing, fishing and sport. That certainly feels like quite some time ago now&hellip; 🤔
 
 My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 children. 2 sons and a daughter.
 
-When I have the time I write now and then &ndash; and have [written a few posts](/writing), [jotted down some notes](/notes), and [bookmarked links to articles](/bookmarks) I've enjoyed and found interesting. Hopefully some of them will resonate with you.
+I write now and then &ndash; and have [written a few posts](/writing), [jotted down some notes](/notes), and [bookmarked links to articles](/bookmarks) I've enjoyed and found interesting. Hopefully some of them will resonate with you.
 
 ---
 
