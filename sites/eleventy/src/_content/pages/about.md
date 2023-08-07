@@ -8,7 +8,7 @@ lead:
 
 bodyClass: "about"
 
-date: 2023-08-02T14:26:00
+date: 2023-08-07T15:59:00
 ---
 
 Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking and wild camping in the mountains, staring up at the stars, canoeing, fishing and sport. That certainly feels like quite some time ago now&hellip; 🤔
@@ -59,11 +59,13 @@ These days, my role often involves collaborating with designers to ensure that t
 
 ---
 
-## Some hobby stuff
+## Hobbies & other interests
 
-I enjoy [taking photos](/photos) whenever I can and am a [fairly decent drummer](/photos/2022-03-29/photo_202203292358). Fly fishing for trout is something I grew up doing and continue to do. I head to the beautiful [Lakedown Trout Fishery](https://www.lakedowntroutfishery.com/) as often as I can. A gorgeous and tranquil spot away from all the noise.
+I enjoy [taking photos](/photos) whenever I can and am a [fairly decent drummer](/photos/2022-03-29/photo_202203292358). However, now that I've [sold my drumkit](/photos/2022-04-06/photo_202204062304), I am considering picking up the bass guitar.
 
-I absolutely [adore aircraft](/photos/2022-03-30/photo_202203301354) and flying and hope that one day I'll be able to get my PPL.
+Fly fishing for trout is something I grew up doing and continue to do. I head to the beautiful [Lakedown Trout Fishery](https://www.lakedowntroutfishery.com/) as often as I can. A gorgeous and tranquil spot away from all the noise.
+
+I absolutely adore flying and hope that one day I'll be able to either get my PPL or GPL.
 
 ---
 
@@ -84,7 +86,8 @@ More information about the technology used to make this website is available in 
 <small><em>The last production build was on: {{ site.dateTimeNow }} GMT</em></small>
 
 *[PWAs]: Progressive Web Apps.
-*[PPL]: Private Pilots Licence.
+*[PPL]: Private Pilot Licence.
+*[GPL]: Glider Pilot Licence.
 *[CI]: Continuous Integration.
 *[CD]: Continuous Deployment.
 *[BTW]: By the way.
