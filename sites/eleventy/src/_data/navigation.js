@@ -53,12 +53,12 @@ module.exports = {
       document: true
     },
     {
-      label: 'Twitter',
+      label: 'Twit...“X”',
       url: 'https://twitter.com/brootaylor',
       // icon: 'twitter',
       external: true,
       delete: {
-        label: 'On the fence about staying with Twitter / "X".'
+        label: 'On the fence about staying with Twitter / “X”.'
       }
     }
   ]
