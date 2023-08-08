@@ -56,6 +56,16 @@
         }
       }
 
+      // Targeting the list element that's 3rd last
+      &:nth-last-child(3) {
+        a {
+          font-size: 0.9rem;
+          text-decoration-line: line-through;
+          text-decoration-style: double;
+          opacity: 0.6;
+        }
+      }
+
       &:nth-last-child(2) {
         @include min-width($breakpoint-small) {
           margin-left: 3em;

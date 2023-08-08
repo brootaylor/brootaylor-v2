@@ -15,6 +15,7 @@
 				{% if loop.first %}<ul role="list" aria-label="List of tertiary content pages and external links" class="no-list">{% endif %}
 					<li>
 						<a href="{{ navitem.url }}"
+							{% if navitem.delete %} title="{{ navitem.delete.label }}"{% endif %}
 							{% if navitem.external %} rel="external"{% endif %}
 							{% if (page.url | pretty) == navitem.url %} aria-describedby="current-page" class="current"{% endif %}>
 							{% if navitem.icon %}
@@ -24,9 +25,9 @@
 							{% endif %}
 							{# This (below) could be optimised at some stage... #}
 							{% if navitem.icon == "github" %}{% include "components/core/icons/svg_inline/icon--github.njk" %}{% endif %}
-							{% if navitem.icon == "twitter" %}{% include "components/core/icons/svg_inline/icon--twitter.njk" %}{% endif %}
-							{% if navitem.icon == "rss" %}{% include "components/core/icons/svg_inline/icon--rss.njk" %}{% endif %}
 							{% if navitem.icon == "linkedin" %}{% include "components/core/icons/svg_inline/icon--linkedin.njk" %}{% endif %}
+							{% if navitem.icon == "rss" %}{% include "components/core/icons/svg_inline/icon--rss.njk" %}{% endif %}
+							{% if navitem.icon == "twitter" %}{% include "components/core/icons/svg_inline/icon--twitter.njk" %}{% endif %}
 						</a>
 					</li>
 				{# Looping through list items ends here #}

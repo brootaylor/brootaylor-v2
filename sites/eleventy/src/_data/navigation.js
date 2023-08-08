@@ -41,9 +41,9 @@ module.exports = {
       external: true
     },
     {
-      label: 'Twitter',
-      url: 'https://twitter.com/brootaylor',
-      icon: 'twitter',
+      label: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/brootaylor',
+      icon: 'linkedin',
       external: true
     },
     {
@@ -53,10 +53,13 @@ module.exports = {
       document: true
     },
     {
-      label: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/brootaylor',
-      icon: 'linkedin',
-      external: true
+      label: 'Twitter',
+      url: 'https://twitter.com/brootaylor',
+      // icon: 'twitter',
+      external: true,
+      delete: {
+        label: 'On the fence about staying with Twitter / "X".'
+      }
     }
   ]
 }
