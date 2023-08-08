@@ -7,7 +7,11 @@ eleventyExcludeFromCollections: true
 # Ref: https://yoast.com/ultimate-guide-robots-txt/
 
 {% if site.robotsCrawl %}
-# Allow crawling of all content except for certain directories / pages etc. and their contents eg. `/foo`
+# Allow crawling of all content except for certain user-agents, directories / pages etc. and their contents eg. `/foo`
+# == Disallow GPTBot access to this website ==
+User-agent: GPTBot
+Disallow: /
+
 # == Open the doors in Production ==
 User-agent: *
 Disallow:
