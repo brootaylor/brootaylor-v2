@@ -8,7 +8,7 @@ lead:
 
 bodyClass: "about"
 
-date: 2023-08-11T15:58:00
+date: 2023-08-11T16:53:00
 ---
 
 Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking and wild camping in the mountains, staring up at the stars, canoeing, fishing and sport. That certainly feels like quite some time ago now&hellip; 🤔
@@ -55,7 +55,7 @@ These days, my role often involves collaborating with designers to ensure that t
 
 ## Webby stuff I'm enjoying
 
-[Eleventy](https://www.11ty.io/), [Astro](https://astro.build/), [Svelte](https://svelte.dev/), [Vite](https://vitejs.dev/), [Netlify](https://www.netlify.com/), [Netlify CMS](https://www.netlifycms.org/), [Fractal](https://fractal.build/), [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) animation using [GreenSock](https://greensock.com/), and [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components) are proving really enjoyable to work with and have restored some of the magic of building websites again.
+[Eleventy](https://www.11ty.io/), [Astro](https://astro.build/), [Svelte](https://svelte.dev/), [Preact](https://preactjs.com/), [Vite](https://vitejs.dev/), [Netlify](https://www.netlify.com/), [Netlify CMS](https://www.netlifycms.org/), [Fractal](https://fractal.build/), [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) animation using [GreenSock](https://greensock.com/), and [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components) are proving really enjoyable to work with and have restored some of the magic of building websites again.
 
 ---
 
