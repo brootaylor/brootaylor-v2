@@ -1,19 +1,19 @@
 ---
 title: "About me"
 # Populates the `meta description` for a page
-summary: "I'm originally from South Africa and grew up on a dairy farm in a very beautiful part of the country. I'm now a Frontend Web Developer / UI Engineer living in Crawley, West Sussex, England with my family."
+summary: "I'm originally from South Africa and grew up on a dairy farm in a very beautiful part of the country. I now live in West Sussex, England with my family and build websites for a living."
 # Populates the opening / `lead` text on a page
 lead:
-  - <img src="/assets/images/pages/about/broo_profile_about.jpg" alt="Profile headshot of myself, Bruce Taylor." width="800" height="1000" class="img-left | shadow"> I'm originally from South Africa and grew up on a dairy farm in a very <a href="https://youtu.be/bGQbM3QfA5w">beautiful part of the country</a>. I'm now a Frontend Web Developer / UI Engineer living in West Sussex, England with my family.
+  - <img src="/assets/images/pages/about/broo_profile_about.jpg" alt="Profile headshot of myself, Bruce Taylor." width="800" height="1000" class="img-left | shadow"> I'm originally from South Africa and grew up on a dairy farm in a very <a href="https://youtu.be/bGQbM3QfA5w">beautiful part of the country</a>. I now live in West Sussex, England with my family and build websites for a living.
 
 bodyClass: "about"
 
-date: 2023-08-07T15:59:00
+date: 2023-08-11T15:58:00
 ---
 
 Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking and wild camping in the mountains, staring up at the stars, canoeing, fishing and sport. That certainly feels like quite some time ago now&hellip; 🤔
 
-My wife and I moved to the UK at the tail end of 1995 &mdash; initially for one year &mdash; but as you've probably gathered&hellip; we never left. We have 3 children. 2 sons and a daughter.
+My wife and I moved to the UK at the tail end of 1995 &mdash; *initially for one year* &mdash; but as you've probably gathered&hellip; we never left. We have 3 children. 2 sons and a daughter.
 
 I write now and then &ndash; and have [written a few posts](/writing), [jotted down some notes](/notes), and [bookmarked links to articles](/bookmarks) I've enjoyed and found interesting. Hopefully some of them will resonate with you.
 
@@ -23,9 +23,9 @@ I write now and then &ndash; and have [written a few posts](/writing), [jotted d
 
 I build websites and have been doing so for around two decades.
 
-I specialise in the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)". The somewhat *fuzzy* intersection between design and back-end engineering. I find I’m well suited to and enjoy roles that balance the user & developer experiences, empowering teams to write great code in a way that feels right to them while ensuring a positive user experience. {.call-out}
+I specialise in the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)". The somewhat broad and *fuzzy* intersection between design and back-end engineering. I find I’m well suited to and enjoy roles that balance the user & developer experiences, empowering teams to write great code in a way that feels right to them while ensuring a positive user experience. {.call-out}
 
-I'm quite good at picking up new skills and programming languages, as well as problem solving. My skill set is diverse, encompassing HTML, CSS, progressively enhanced JS, responsive design, Progressive Web Apps (**PWA**), Static Site Generation (**SSG**), web performance optimisation, and web accessibility.
+I'm quite good at picking up new skills and programming languages, as well as problem solving. My skill set is diverse, encompassing HTML, CSS, JS *(progressively enhanced)*, responsive design, themeable design system configuration, Progressive Web Apps (**PWA**), Static Site Generation (**SSG**), web performance optimisation, and web accessibility.
 
 From time to time, you’ll also find me with my hands in the “*back-of-the-front-end*” utilising  Node.js, configuring an API, optimising a JavaScript bundler, as well as streamlining build and deployment processes to help improve frontend development efficiency.
 
@@ -61,7 +61,7 @@ These days, my role often involves collaborating with designers to ensure that t
 
 ## Hobbies & other interests
 
-I enjoy [taking photos](/photos) whenever I can and am a [fairly decent drummer](/photos/2022-03-29/photo_202203292358). However, now that I've [sold my drumkit](/photos/2022-04-06/photo_202204062304), I am considering picking up the bass guitar.
+I enjoy [taking photos](/photos) and [reading](/reading) whenever I can and am a [fairly decent drummer](/photos/2022-03-29/photo_202203292358). However, now that I've [sold my drumkit](/photos/2022-04-06/photo_202204062304), I am considering picking up the bass guitar.
 
 Fly fishing for trout is something I grew up doing and continue to do. I head to the beautiful [Lakedown Trout Fishery](https://www.lakedowntroutfishery.com/) as often as I can. A gorgeous and tranquil spot away from all the noise.
 

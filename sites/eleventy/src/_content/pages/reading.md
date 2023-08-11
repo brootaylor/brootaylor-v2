@@ -8,7 +8,7 @@ lead:
 
 bodyClass: "reading"
 
-date: 2023-07-25T19:06:00
+date: 2023-08-11T15:58:00
 ---
 
 Because I've never kept a list of my reads, I've ended up creating a bit of a challenge for myself that's for sure. Trying to recall books I've read and enjoyed feels like a bit of a daunting task but I'm keen to at least make a stab at it.
@@ -20,6 +20,8 @@ I'll be adding to the *"Have read"* section as and when I remember any books I'v
 ## Reading
 
 Books on the go at the moment.
+
+*I could probably do with a dose of fiction or fantasy in my current read list.* 😬 {.call-out}
 
 * [Breaking Together &mdash; a freedom-loving response to collapse](https://jembendell.com/2023/04/08/breaking-together-a-freedom-loving-response-to-collapse/), *Jem Bendell*
 * [An Inconvenient Apocalypse: Environmental Collapse, Climate Crisis, and the Fate of Humanity](https://robertwjensen.org/books/an-inconvenient-apocalypse/) &mdash; *Wes Jackson*, *Robert Jensen*
@@ -35,6 +37,7 @@ Books on the go at the moment.
 * [The Sun Eater Series](https://www.goodreads.com/series/231285-the-sun-eater) &mdash; *(5 primary books)*, *Christopher Ruocchio*
 * [The Terran Cycle](https://www.philipcquaintrell.com/books) &mdash; *(4 books)*, *Philip C. Quaintrell*
 * [Green Lights](https://greenlights.com/), *Matthew McConaughey*
+* [You Deserve a Tech Union](https://abookapart.com/blogs/press/meet-the-book-you-deserve-a-tech-union-by-ethan-marcotte), *Ethan Marcotte*
 
 ---
 
