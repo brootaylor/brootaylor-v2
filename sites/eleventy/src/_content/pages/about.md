@@ -8,7 +8,7 @@ lead:
 
 bodyClass: "about"
 
-date: 2023-08-11T16:53:00
+date: 2023-08-16T17:12:00
 ---
 
 Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking and wild camping in the mountains, staring up at the stars, canoeing, fishing and sport. That certainly feels like quite some time ago now&hellip; 🤔
@@ -23,7 +23,9 @@ I write now and then &ndash; and have [written a few posts](/writing), [jotted d
 
 I build websites and have been doing so for around two decades.
 
-I specialise in the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)". The somewhat broad and *fuzzy* intersection between design and back-end engineering. I find I’m well suited to and enjoy roles that balance the user & developer experiences, empowering teams to write great code in a way that feels right to them while ensuring a positive user experience. {.call-out}
+I specialise in the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)". The somewhat broad and *fuzzy* intersection between design and back-end engineering. I find I’m well suited to and enjoy roles that balance the user & developer experiences, empowering teams to write great code in a way that feels right to them while ensuring a positive user experience. <br><br>
+{%- from "components/core/buttons/buttons.njk" import button -%}
+{{ button(false, 'button--primary', '/BruceTaylorCV', 'Download my CV') }} {.call-out}
 
 I'm quite good at picking up new skills and programming languages, as well as problem solving. My skill set is diverse, encompassing HTML, CSS, JS *(progressively enhanced)*, responsive design, themeable design system configuration, Progressive Web Apps (**PWA**), Static Site Generation (**SSG**), web performance optimisation, and web accessibility.
 
@@ -39,9 +41,6 @@ Don't get me wrong, JavaScript frameworks certainly have their place and I think
 {%- endcall %}
 
 Here's a bit more about some of the [people I've worked with](/work) and what we've built together.
-
-{% from "components/core/buttons/buttons.njk" import button %}
-{{ button(false, 'button--primary', '/BruceTaylorCV', 'Download my CV') }}
 
 ---
 
