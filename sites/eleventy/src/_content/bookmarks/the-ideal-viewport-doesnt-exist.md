@@ -13,9 +13,16 @@ category:
   - web
   - frontend
   - user
+  - ux
+  - design
+  - creativity
   - viewport
   - browser
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 ---
 
-The main point we’re trying to get across is that you simply do not know how users are going to visit your website or web app. Instead of making design decisions on strict, limited breakpoints, keep in mind the sheer amount of fragmentation there is in viewports.
+This is a very nifty microsite put together by the folk at [Set Studio](https://set.studio/) &mdash; to make an important point.
+
+> The main point we’re trying to get across is that you simply do not know how users are going to visit your website or web app. Instead of making design decisions on strict, limited breakpoints, keep in mind the sheer amount of fragmentation there is in viewports.
+>
+> &hellip;always remember that you **do not know what conditions your website will be visited on** and you have little to no control over that. Accept that lack of control and use the limitations to breed creativity and also, laser focus your UX work.
