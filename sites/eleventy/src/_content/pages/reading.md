@@ -8,12 +8,10 @@ lead:
 
 bodyClass: "reading"
 
-date: 2023-09-04T12:13:00
+date: 2023-09-04T12:53:00
 ---
 
 Because I've never kept a list of my reads, I've ended up creating a bit of a challenge for myself that's for sure. Trying to recall books I've read and enjoyed feels like a bit of a daunting task but I'm keen to at least make a stab at it.
-
-I'll be adding to the *"Have read"* section as and when I remember any books I've read cause it certainly is a little lean at the moment.
 
 ---
 
@@ -48,6 +46,8 @@ Books on the go at the moment.
 ## Have read
 
 Selection of books I've read. But more importantly, enjoyed and would therefore like to recommend.
+
+*I'll be adding to this section as and when I remember any books I've read &mdash; cause it certainly is a little lean at the moment.* {.call-out}
 
 * [The Ranger Archives](https://www.philipcquaintrell.com/the-ranger-archives) &mdash; *(3 books)*, *Philip C. Quaintrell*
 * [Opening Men's Eyes](https://www.goodreads.com/book/show/10105541-opening-men-s-eyes), *Michael Cardo*
