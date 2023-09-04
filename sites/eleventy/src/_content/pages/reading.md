@@ -8,7 +8,7 @@ lead:
 
 bodyClass: "reading"
 
-date: 2023-08-11T15:58:00
+date: 2023-09-04T12:13:00
 ---
 
 Because I've never kept a list of my reads, I've ended up creating a bit of a challenge for myself that's for sure. Trying to recall books I've read and enjoyed feels like a bit of a daunting task but I'm keen to at least make a stab at it.
@@ -21,14 +21,18 @@ I'll be adding to the *"Have read"* section as and when I remember any books I'v
 
 Books on the go at the moment.
 
-*I could probably do with a dose of fiction or fantasy in my current read list.* 😬 {.call-out}
+*Made sure there's a dose of fantasy in my current read list. Mostly to help 'balance' and process the other reads I've got on the go.* 😬 {.call-out}
 
+* [A Time of Dragons](https://www.philipcquaintrell.com/atimeofdragons) &mdash; *(book 1)*, *Philip C. Quaintrell*
 * [Breaking Together &mdash; a freedom-loving response to collapse](https://jembendell.com/2023/04/08/breaking-together-a-freedom-loving-response-to-collapse/), *Jem Bendell*
 * [An Inconvenient Apocalypse: Environmental Collapse, Climate Crisis, and the Fate of Humanity](https://robertwjensen.org/books/an-inconvenient-apocalypse/) &mdash; *Wes Jackson*, *Robert Jensen*
 * [Overshoot: The Ecological Basis of Revolutionary Change](https://www.goodreads.com/en/book/show/319810.Overshoot), *William R. Catton*
 
-***Possible*** next reads&hellip;
+---
 
+## Next reads&hellip; *maybe*
+
+* [A Time of Dragons](https://www.philipcquaintrell.com/atimeofdragons) &mdash; *(book 2&hellip; when it's released)*, *Philip C. Quaintrell*
 * [Songs of Chaos Series](https://www.goodreads.com/series/300106-songs-of-chaos) &mdash; *(3 books)*, *Michael R. Miller*
 * [The Mountain in the Sea](https://www.goodreads.com/en/book/show/59808603), *Ray Nayler*
 * [The Bound and the Broken Series](https://www.goodreads.com/series/309359-the-bound-and-the-broken) &mdash; *(5 books)*, *Ryan Cahill*
@@ -43,7 +47,7 @@ Books on the go at the moment.
 
 ## Have read
 
-Selection of books I've read. But more importantly, enjoyed and would therefore recommend.
+Selection of books I've read. But more importantly, enjoyed and would therefore like to recommend.
 
 * [The Ranger Archives](https://www.philipcquaintrell.com/the-ranger-archives) &mdash; *(3 books)*, *Philip C. Quaintrell*
 * [Opening Men's Eyes](https://www.goodreads.com/book/show/10105541-opening-men-s-eyes), *Michael Cardo*

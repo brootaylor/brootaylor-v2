@@ -8,7 +8,7 @@ lead:
 
 bodyClass: "about"
 
-date: 2023-08-16T17:12:00
+date: 2023-09-04T12:13:00
 ---
 
 Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking and wild camping in the mountains, staring up at the stars, canoeing, fishing and sport. That certainly feels like quite some time ago now&hellip; 🤔
@@ -23,9 +23,7 @@ I write now and then &ndash; and have [written a few posts](/writing), [jotted d
 
 I build websites and have been doing so for around two decades.
 
-I specialise in the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)". The somewhat broad and *fuzzy* intersection between design and back-end engineering. I find I’m well suited to and enjoy roles that balance the user & developer experiences, empowering teams to write great code in a way that feels right to them while ensuring a positive user experience. <br><br>
-{%- from "components/core/buttons/buttons.njk" import button -%}
-{{ button(false, 'button--primary', '/BruceTaylorCV', 'Download my CV') }} {.call-out}
+I specialise in the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)". The somewhat broad and *fuzzy* intersection between design and back-end engineering. I find I’m well suited to and enjoy roles that balance the user & developer experiences, empowering teams to write great code in a way that feels right to them while ensuring a positive user experience. {.call-out}
 
 I'm quite good at picking up new skills and programming languages, as well as problem solving. My skill set is diverse, encompassing HTML, CSS, JS *(progressively enhanced)*, responsive design, themeable design system configuration, Progressive Web Apps (**PWA**), Static Site Generation (**SSG**), web performance optimisation, and web accessibility.
 
@@ -34,13 +32,6 @@ From time to time, you’ll also find me with my hands in the “*back-of-the-fr
 I try my best to build web solutions that are [resilient](https://resilientwebdesign.com/), [usable](https://trentwalton.com/2014/03/10/device-agnostic/) and as future-friendly as possible. For this reason I *prefer* a vanilla approach and tend to be fairly tech-agnostic. Choosing the *right* tool for the job seems to be a better approach than using a framework for the sake of it. {.call-out}
 
 Don't get me wrong, JavaScript frameworks certainly have their place and I think they can be wonderfully powerful tools when we keep the end user in mind &mdash; rather than *only* prioritising the developer experience. At the moment I'm not sure we're getting that balance quite right.
-
-{% from "components/core/blockquotes/blockquotes.njk" import blockquote %}
-{%- call blockquote('Kelsey Hightower') -%}
-  Stick to boring architecture for as long as possible, and spend the majority of your time, and resources, building something your customers are willing to pay for.
-{%- endcall %}
-
-Here's a bit more about some of the [people I've worked with](/work) and what we've built together.
 
 ---
 
