@@ -2,34 +2,41 @@
 <aside aria-labelledby="message--label" class="message {{ messageType.modifier }}">
 	{# To help assistive technologies #}
 	<h2 id="message--label" class="visually-hidden">Site-wide message / announcement</h2>
-	{# First check whether the message needs to come from the `messages` global data file #}
+
+	{# Defining a dictionary to store the message types and their corresponding messages #}
+	{% set messages = {
+			bookmarks: 'I posted a bookmark on my blog recently',
+			writing: 'I posted something on my blog recently',
+			notes: 'I posted a note on my blog recently',
+			photos: 'I posted a photo on my blog recently'
+	} %}
+
+	{# Checking if a custom message is provided #}
 	{% if messageType.message %}
-		{{ messageType.message }}
-		{# Check if `ctaUrl` value has been set for the particular `messageType` data object #}
-		{% if messageType.ctaUrl %}
-			<a href="{{ messageType.ctaUrl }}">{{ messageType.ctaLabel }}</a>
-		{% endif %}
+			{{ messageType.message }}
+			{% if messageType.ctaUrl %}
+					<a href="{{ messageType.ctaUrl }}">{{ messageType.ctaLabel }}</a>
+			{% endif %}
 	{# Otherwise... #}
 	{% else %}
-		{#  Return all posts in reverse order - (ie. the latest entry first) #}
-		{%- set allPosts = collections.post | reverse -%}
-		{# Shows the latest `item` entry and then generates the relevant message 'pre' text... #}
-		{%- for item in allPosts.slice(0, 1) -%}
-			{% if item.data.tags.includes('bookmarks') %}
-				I posted a bookmark on my blog recently
-			{% elseif item.data.tags.includes('writing') %}
-				I posted something on my blog recently
-			{% elseif item.data.tags.includes('notes') %}
-				I posted a note on my blog recently
-			{% elseif item.data.tags.includes('photos') %}
-				I posted a photo on my blog recently
+			{# Get the latest post from the 'post' collection #}
+			{% set latestPost = collections.post | reverse | first %}
+			{# Check if the latest post contains a value in data.tags called one of the following... #}
+			{% if "bookmarks" in latestPost.data.tags %}
+					{% set message = messages["bookmarks"] %}
+			{% elif "writing" in latestPost.data.tags %}
+					{% set message = messages["writing"] %}
+			{% elif "notes" in latestPost.data.tags %}
+					{% set message = messages["notes"] %}
+			{% elif "photos" in latestPost.data.tags %}
+					{% set message = messages["photos"] %}
 			{% else %}
-				I posted something on my blog recently
+					{# Get the message for the first tag of the latest post, or use a default message #}
+					{% set message = messages[latestPost.data.tags[0]] | default('I posted something on my blog recently') %}
 			{% endif %}
-			{# Then append some helpful text characters and the relevant post url and title #}
-			<span class="visually-hidden">: </span>
+			{{ message }}<span class="visually-hidden">: </span>
 			<i aria-hidden="true"> &#x21e2;</i>
-			<a href="{{ item.url | pretty }}">{{ item.data.title | safe }}</a>
-		{% endfor %}
+			{# Format the post URL and display the post title #}
+			<a href="{{ latestPost.url | pretty }}">{{ latestPost.data.title | safe }}</a>
 	{% endif %}
 </aside>
