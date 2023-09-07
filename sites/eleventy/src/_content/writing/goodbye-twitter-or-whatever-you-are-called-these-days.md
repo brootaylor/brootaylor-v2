@@ -1,6 +1,6 @@
 ---
 title: Goodbye Twitter&hellip; or Whatever You're Called These Days
-summary: Goodbye Twitter&hellip; or whatever you're called these days. We've certainly had an on and off relationship over the years haven't we!
+summary: Goodbye Twitter&hellip; or whatever you're called these days. We've certainly had an on-and-off relationship over the years haven't we!
 date: 2023-09-07T14:19:36.671Z
 updated: ""
 location:
