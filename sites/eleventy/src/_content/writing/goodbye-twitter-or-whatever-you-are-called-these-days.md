@@ -1,7 +1,7 @@
 ---
 title: Goodbye Twitter&hellip; or Whatever You're Called These Days
 summary: Goodbye Twitter&hellip; or whatever you're called these days. We've certainly had an on-and-off relationship over the years haven't we!
-date: 2023-09-07T14:19:36.671Z
+date: 2023-09-07T14:43:36.671Z
 updated: ""
 location:
   locality: Crawley
@@ -18,7 +18,7 @@ eleventyExcludeFromCollections: false
 
 Twitter, we've certainly had an on-and-off relationship over the years haven't we!
 
-Numerous times, I've allowed you to creep back into my life &mdash; *(who the heck knows why!)* &mdash;only to discover that you often do more harm than good. You have a knack for making me feel awful about myself and my place in this world.
+Numerous times, I've allowed you to creep back into my life &mdash; *(who the heck knows why!)* &mdash;only to discover that you often do me more harm than good. You have a knack for making me feel awful about myself and my place in this world.
 
 **Every single time**.
 
@@ -38,6 +38,8 @@ Alas, it seems it too has just become [another place on the web that taps into t
 I've decided not to delete my Twit&hellip; "X" account and all its data just yet. Mainly because I think some of my posts serve as markers in my life over the past few years. In due course, I may well change my mind on this.
 
 So, for the foreseeable future, here's a [link to my Twitter / "X" / whatever-it's-called-right-now](https://twitter.com/brootaylor).
+
+And, because my *intention* is to never return, here's a link to [my last tweet&hellip; or whatever it's called these days](https://twitter.com/brootaylor/status/1699779963644531026).
 
 Going forward, I think I'll be giving more of my time and attention to my personal website and blog. I have no idea how many people even come across it or even bother to read anything I've written here. But hey, I don't want that to matter.
 
