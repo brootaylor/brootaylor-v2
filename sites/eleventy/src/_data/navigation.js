@@ -54,11 +54,10 @@ module.exports = {
     },
     {
       label: 'Twit...“X”',
-      url: 'https://twitter.com/brootaylor',
-      // icon: 'twitter',
+      url: '/writing/2023-09-07/goodbye-twitter-or-whatever-you-are-called-these-days',
       external: true,
       delete: {
-        label: 'On the fence about staying with Twitter / “X”.'
+        label: 'I think this is my final goodbye to Twitter.'
       }
     }
   ]
