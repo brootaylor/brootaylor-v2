@@ -43,7 +43,7 @@ And, because my *intention* is to never return, here's a link to [my last tweet&
 
 Going forward, I think I'll be giving more of my time and attention to my personal website and blog. I have no idea how many people even come across it or even bother to read anything I've written here. But hey, I don't want that to matter.
 
-To put it differently; *I don't want to need that to matter*.
+To put it differently; *I don't want to **need** that to matter*.
 
 This blog is mine. All mine. If someone&hellip; if <abbr title="Meaning an actual 'you' this time. 😊">you</abbr> happen to come across it and end up reading some of my rambles &mdash; then I'm grateful and sincerely hope you found it did you good.
 
