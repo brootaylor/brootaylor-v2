@@ -3,8 +3,8 @@ const { DateTime } = require('luxon')
 module.exports = {
   name: 'Bruce Taylor',
   short_name: 'BWT',
-  metaTitle: 'Personal website of Bruce Taylor • Frontend Web Developer / UI Engineer based in Crawley, West Sussex, UK.',
-  metaDescription: 'Bruce Taylor • Frontend Web Developer / UI Engineer based in Crawley, West Sussex, UK.',
+  metaTitle: 'Personal website of Bruce Taylor • Frontend Web Developer & UI Engineer based in Crawley, West Sussex, UK.',
+  metaDescription: 'Bruce Taylor • Frontend Web Developer & UI Engineer based in Crawley, West Sussex, UK.',
   metaImage: '/assets/images/common/logo.png',
   metaImageAlt: 'Site logo for Bruce Taylor.',
   logoAlt: 'Site logo for Bruce Taylor.',
@@ -37,7 +37,7 @@ module.exports = {
   siteTheme: 'theme-default', // Eg. if wanting to theme site to support Ukraine `theme-ukraine`
   author: {
     name: 'Bruce Taylor',
-    job: 'Web Developer & UI Engineer',
+    job: 'Frontend Web Developer & UI Engineer',
     url: 'https://brootaylor.com',
     thumbnail: 'https://brootaylor.com/assets/images/common/broo_2019.jpg',
     email: 'brootaylor@gmail.com',
