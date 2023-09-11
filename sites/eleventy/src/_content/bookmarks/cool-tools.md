@@ -15,11 +15,14 @@ category:
   - dev
   - frontend
   - tools
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 ---
 
-This is a very [nifty microsite](https://viewports.fyi/) put together by the folk at [Set Studio](https://set.studio/) &mdash; to make an important point.
+A very nice [list of web development tools](https://css-irl.info/cool-tools/), thanks to Michelle Barker.
 
-> The main point we’re trying to get across is that you simply do not know how users are going to visit your website or web app. Instead of making design decisions on strict, limited breakpoints, keep in mind the sheer amount of fragmentation there is in viewports.
->
-> &hellip;always remember that you **do not know what conditions your website will be visited on** and you have little to no control over that. Accept that lack of control and use the limitations to breed creativity and also, laser focus your UX work.
+The ones that I don't currently use &mdash; *(and now plan too)* &mdash; cause they look particularly helpful and *cool*, are...
+
+* [Lite YouTube Embed](https://github.com/paulirish/lite-youtube-embed)
+* [ENV Switcher for VS Code](https://marketplace.visualstudio.com/items?itemName=EcksDy.env-switcher)
+* [Are my third parties green?](https://aremythirdpartiesgreen.com/)
+* [Import Cost for VS Code](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)

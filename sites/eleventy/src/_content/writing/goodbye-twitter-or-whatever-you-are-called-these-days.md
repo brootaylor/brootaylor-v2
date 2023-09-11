@@ -1,8 +1,8 @@
 ---
-title: Goodbye Twitter&hellip; or Whatever You're Called These Days
-summary: Goodbye Twitter&hellip; or whatever you're called these days. We've certainly had an on-and-off relationship over the years haven't we!
+title: Goodbye Twitter... or Whatever You're Called These Days
+summary: Goodbye Twitter... or whatever you're called these days. We've certainly had an on-and-off relationship over the years haven't we!
 date: 2023-09-07T14:43:36.671Z
-updated: ""
+updated: 2023-09-11T13:27:36.671Z
 location:
   locality: Crawley
   country_name: UK
@@ -35,7 +35,7 @@ Alas, it seems it too has just become [another place on the web that taps into t
 
 ---
 
-I've decided not to delete my Twit&hellip; "X" account and all its data just yet. Mainly because I think some of my posts serve as markers in my life over the past few years. In due course, I may well change my mind on this.
+I've decided not to delete my Twit... "X" account and all its data just yet. Mainly because I think some of my posts serve as markers in my life over the past few years. In due course, I may well change my mind on this.
 
 So, for the foreseeable future, here's a [link to my Twitter / "X" / whatever-it's-called-right-now](https://twitter.com/brootaylor).
 
@@ -45,7 +45,7 @@ Going forward, I think I'll be giving more of my time and attention to my person
 
 To put it differently; *I don't want to **need** that to matter*.
 
-This blog is mine. All mine. If someone&hellip; if <abbr title="Meaning an actual 'you' this time. 😊">you</abbr> happen to come across it and end up reading some of my rambles &mdash; then I'm grateful and sincerely hope you found it did you good.
+This blog is mine. All mine. If someone... if <abbr title="Meaning an actual 'you' this time. 😊">you</abbr> happen to come across it and end up reading some of my rambles &mdash; then I'm grateful and sincerely hope you found it did you good.
 
 In addition to being somewhat cathartic, I hope this post serves as a reminder to my future self to exercise caution when considering letting <abbr title="I'm referring to Twitter here.">**you**</abbr> back into my life. {.call-out}
 
