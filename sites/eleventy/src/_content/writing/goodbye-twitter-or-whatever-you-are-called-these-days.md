@@ -1,8 +1,8 @@
 ---
-title: Goodbye Twitter... or Whatever You're Called These Days
+title: Goodbye Twitter... or whatever you're called these days
 summary: Goodbye Twitter... or whatever you're called these days. We've certainly had an on-and-off relationship over the years haven't we!
 date: 2023-09-07T14:43:36.671Z
-updated: 2023-09-11T13:27:36.671Z
+updated: 2023-09-13T18:04:36.671Z
 location:
   locality: Crawley
   country_name: UK
@@ -18,7 +18,7 @@ eleventyExcludeFromCollections: false
 
 Twitter, we've certainly had an on-and-off relationship over the years haven't we!
 
-Numerous times, I've allowed you to creep back into my life &mdash; *(who the heck knows why!)* &mdash;only to discover that you often do me more harm than good. You have a knack for making me feel awful about myself and my place in this world.
+Numerous times, I've allowed you to creep back into my life &mdash; *(who the heck knows why!)* &mdash; only to discover that you often do me more harm than good. You have a knack for making me feel awful about myself and my place in this world.
 
 **Every single time**.
 
