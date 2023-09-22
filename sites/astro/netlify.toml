@@ -14,8 +14,10 @@
 # Dev settings: (Used when running local Netlify dev server)
 [dev]
   command = "npm run dev"
-  # Declaring port for netlify dev server to use when running the `npm run dev` command
-  port = 8887
+  targetPort = 8080 # The port for your application server, framework or site generator
+  port = 8887 # The port that the netlify dev will be accessible on
+  publish = "dist" # The path to your static content folder
+  autoLaunch = true # a Boolean value that determines if Netlify Dev launches the local server address in your browser
 
 
 ##############################
