@@ -12,25 +12,23 @@ location:
 category:
   - music
   - radio
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 ---
 
-And there was [Luro](https://luroapp.com/).
+Oh, this is very nice! Have you ever come across [radio.garden](https://radio.garden/)?
 
-Made by the legends at [Paravel](https://paravelinc.com/about/) &mdash; Reagan Ray, Dave Rupert and Trent Walton.
+However, for some [licensing restriction reason in the UK](https://radio.garden/settings/uk-statement), I'm unable to listen to radio stations outside of the UK. Bah! Very frustrating indeed. {.call-out}
+
+Anyhow... For those of you that don't have these restrictions, you can instantly listen to thousands of radio stations around the world. Just give the world a spin and see what's available to listen too.
+
+*Fingers-crossed these restrictions will be lifted here in the UK some time soon*.
 
 {% from "components/core/images/images.njk" import imageNormal %}
 {{ imageNormal(
-  "/assets/images/posts/bookmarks/luro-design-system-tracker-screenshot.jpg",
-  "A screenshot of the Luro app website homepage",
+  "/assets/images/posts/bookmarks/radio-garden-screenshot.png",
+  "A screenshot of the Radio Garden web app",
   "1200",
-  "1129",
+  "1097",
   false,
   "shadow")
 }}
-
-Chris Coyier provides a really nice [breakdown & description of what Luro is](https://chriscoyier.net/2023/09/14/luro/), which is a worthwhile read.
-
-Here's a *'scratching-the-surface'* quote from Chris of what Luro can do:
-
-> “Track your components” is just one of many things Luro can do, but it’s a pretty cool one. Imagine you’re on the design systems team on a product. You’re actually rolling out a design system, which is something that tends to happen over time. You can define the components in Luro (which can be sucked in via Figma if you want, which is que fancy), then tell Luro what CSS selector represents those components and Luro will watch the pages of your site to see if they are used. And even watch the old selector if you’re trying to compare old vs. new coverage.
