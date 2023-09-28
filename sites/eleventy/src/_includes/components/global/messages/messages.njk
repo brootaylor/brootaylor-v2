@@ -34,9 +34,11 @@
 					{# Get the message for the first tag of the latest post, or use a default message #}
 					{% set message = messages[latestPost.data.tags[0]] | default('I posted something on my blog recently') %}
 			{% endif %}
-			{{ message }}<span class="visually-hidden">: </span>
+			{{ message }}<span class="visually-hidden">, titled: </span>
 			<i aria-hidden="true"> &#x21e2;</i>
 			{# Format the post URL and display the post title #}
 			<a href="{{ latestPost.url | pretty }}">{{ latestPost.data.title | safe }}</a>
+			{# If a `bookmarkAuthor` data field has been filled, then use this value #}
+			{%- if latestPost.data.bookmarkAuthor %} <i aria-hidden="true">&#8275;</i> <em><span class="visually-hidden">. It's written by </span>{{ latestPost.data.bookmarkAuthor }}</em>{% endif %}
 	{% endif %}
 </aside>
