@@ -73,7 +73,7 @@ I've also written about my decision to [redesign & develop my website in the ope
 
 ### A bunch of `.txt` files
 
-Even though it's [more than likely too late](https://blog.jim-nielsen.com/2023/robots-txt/), I've attempted to opt `brootaylor.com` out of its content being used to train AI models. Known web crawlers used for training AI models are disallowed in my [<code>robots.txt</code> file](https://brootaylor.com/robots.txt).
+Even though it's more than likely [too late & doesn't work anyway](https://blog.jim-nielsen.com/2023/robots-txt/), I've attempted to opt `brootaylor.com` out of its content being used to train AI models. Known web crawlers used for training AI models are disallowed in my [<code>robots.txt</code> file](https://brootaylor.com/robots.txt).
 
 Also, I've set up a machine-readable [<code>ai.txt</code> file](https://brootaylor.com/ai.txt), using [Spawning.ai's proposed format](https://site.spawning.ai/spawning-ai-txt). There's no real evidence that it has any traction in the land-of-the-web *yet* &mdash; but I thought why not.
 
