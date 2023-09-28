@@ -6,21 +6,28 @@ eleventyExcludeFromCollections: true
 # www.robotstxt.org
 # Ref: https://yoast.com/ultimate-guide-robots-txt/
 
-{% if site.robotsCrawl %}
-# Allow crawling of all content except for certain user-agents, directories / pages etc. and their contents eg. `/foo`
-# == Disallow GPTBot access to this website ==
-User-agent: GPTBot
-Disallow: /
-
+{% if site.robotsCrawl -%}
+# ALLOW crawling of all content except for certain user-agents, directories / pages etc. and their contents eg. `/foo`
 # == Open the doors to all other user-agents in Production ==
 User-agent: *
 Disallow:
 
-# Sitemap location
-Sitemap: {{ site.rootUrl }}/sitemap.xml
-{% else %}
-# Disallow crawling of all content
+{% else -%}
+# DISALLOW crawling of all content
 # == Handy during beta testing ==
 User-agent: *
 Disallow: /
-{% endif -%}
+{%- endif -%}
+
+{%- if site.aiCrawl == false -%}
+# == DISALLOW GPTBot access to this website ==
+User-agent: GPTBot
+Disallow: /
+
+# == DISALLOW ChatGPT-User access to this website ==
+User-agent: ChatGPT-User
+Disallow: /
+{%- endif %}
+
+# Sitemap location
+Sitemap: {{ site.rootUrl }}/sitemap.xml

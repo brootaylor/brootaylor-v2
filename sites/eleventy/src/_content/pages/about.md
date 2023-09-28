@@ -8,7 +8,7 @@ lead:
 
 bodyClass: "about"
 
-date: 2023-09-18T13:44:00
+date: 2023-09-28T15:18:00
 ---
 
 Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking and wild camping in the mountains, staring up at the stars, canoeing, fishing and sport. That certainly feels like quite some time ago now!
@@ -70,6 +70,12 @@ I resonate with Ethan when he says, [let a website be a worry stone](https://eth
 If you have any issues, questions or spot any spelling mistakes(!), I'd appreciate it if you could let me know by submitting a [GitHub issue](https://github.com/brootaylor/brootaylor-v2/issues), or by [emailing me directly](/contact).
 
 I've also written about my decision to [redesign & develop my website in the open](/writing/2022-02-22/redesigning-in-the-open) which has both been fun and scary. Not least because I'm a bit of a perfectionist and doing it this way has helped wean me off the need to have things completely polished before showing them.
+
+### A bunch of `.txt` files
+
+Even though it's [more than likely too late](https://blog.jim-nielsen.com/2023/robots-txt/), I've attempted to opt `brootaylor.com` out of its content being used to train AI models. Known web crawlers used for training AI models are disallowed in my [<code>robots.txt</code> file](https://brootaylor.com/robots.txt).
+
+Also, I've set up a machine-readable [<code>ai.txt</code> file](https://brootaylor.com/ai.txt), using [Spawning.ai's proposed format](https://site.spawning.ai/spawning-ai-txt). There's no real evidence that it has any traction in the land-of-the-web *yet* &mdash; but I thought why not.
 
 More information about the technology used to make this website is available in this [<code>humans.txt</code> file](https://brootaylor.com/humans.txt).
 

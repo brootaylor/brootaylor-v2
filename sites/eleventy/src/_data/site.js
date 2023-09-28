@@ -27,6 +27,7 @@ module.exports = {
   icon_mstile: '/assets/ico/mstile-150x150.png',
   twitter: '@brootaylor', // Twitter handle
   robotsCrawl: true, // Allow search engine robots to crawl site
+  aiCrawl: false, // Allow AI robots to crawl site and train AI models
   analyticsUrchin: '', // Analytics urchin uses this value
   scriptsVendor: false, // If using vendor (ie. 3rd party) scripts
   scriptsMain: true, // If using any `main` scripts on the site (eg. carousel, objectfit polyfill etc.)
