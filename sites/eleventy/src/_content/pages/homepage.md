@@ -6,7 +6,7 @@ summary: "Bruce lives in Crawley, West Sussex, England with his family. He's a F
 
 # Populates the opening / `lead` text on a page
 lead:
-  - I build websites and have been doing so for around two decades. People who do what I do are often referred to as <a href="https://bradfrost.com/blog/post/frontend-design/">Frontend Designers</a>, UI Developers, UI Engineers or <a href="https://snook.ca/archives/opinion/design-engineering">Design Engineers</a>.
+  - I build websites and have been doing so for around two decades. I specialise in the “<a href="https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/">front-of-the-front-end</a>”, the somewhat broad and fuzzy intersection between design and back-end engineering.
 
 # Page-specific metadata content added to the `<head>`
 # head: "
@@ -30,12 +30,12 @@ bodyClass: "homepage"
 
 permalink: "/index.html"
 
-date: 2023-09-12T13:27:00
+date: 2023-10-03T13:43:00
 
 priority: 1
 ---
 
-I specialise in the "[front-of-the-front-end](https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/)", the somewhat broad and *fuzzy* intersection between design and back-end engineering.
+From time to time, you’ll also find me with my hands in the “*back-of-the-front-end*”, using Node.js, configuring an API, fiddling with JavaScript bundlers, <abbr title="Static site generators.">SSG's</abbr> and web frameworks ([11ty](https://www.11ty.dev/), [Astro](https://astro.build/) & [Svelte](https://svelte.dev/)),  and trying my best to streamline build and deployment processes to help boost frontend development efficiency.
 
 I find I’m well suited to and ***enjoy roles that balance the user & developer experiences***, empowering teams to write great code in a way that feels right to them while ensuring a positive user experience. {.call-out}
 
