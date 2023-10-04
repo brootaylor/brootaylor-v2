@@ -76,11 +76,11 @@
     "markdown-it-attrs": "^4.1.6",
     "npm-run-all": "^4.1.5",
     "object-fit-images": "^3.2.4",
-    "postcss": "^8.4.30",
+    "postcss": "^8.4.31",
     "postcss-cli": "^10.1.0",
     "postcss-preset-env": "^9.1.4",
     "rimraf": "^5.0.5",
-    "rollup": "^3.29.3",
+    "rollup": "^3.29.4",
     "sass": "^1.68.0",
     "slugify": "^1.6.6"
   },
