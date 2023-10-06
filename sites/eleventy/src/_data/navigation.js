@@ -5,8 +5,8 @@ module.exports = {
       url: '/about'
     },
     {
-      label: 'Work',
-      url: '/work'
+      label: 'Projects',
+      url: '/projects'
     },
     {
       label: 'Reading',

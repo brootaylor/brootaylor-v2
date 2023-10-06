@@ -29,6 +29,7 @@ const photoGallery = require('./lib/shortcodes/photoGallery.js')
 const postWriting = require('./lib/collections/postWriting.js')
 const postNotes = require('./lib/collections/postNotes.js')
 const postBookmarks = require('./lib/collections/postBookmarks.js')
+const postProjects = require('./lib/collections/postProjects.js')
 const postPhotos = require('./lib/collections/postPhotos.js')
 
 module.exports = function (eleventy) {
@@ -74,6 +75,7 @@ module.exports = function (eleventy) {
   eleventy.addCollection('postWriting', postWriting)
   eleventy.addCollection('postNotes', postNotes)
   eleventy.addCollection('postBookmarks', postBookmarks)
+  eleventy.addCollection('postProjects', postProjects)
   eleventy.addCollection('postPhotos', postPhotos)
 
   // Passthrough

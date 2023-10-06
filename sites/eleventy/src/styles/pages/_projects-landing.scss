@@ -1,10 +1,10 @@
 /*********************************************
- * Work page-specific rules
+ * Projects page-specific rules
  *********************************************/
 
 @use '../abstracts' as *;
 
-.work {
+.projects-home {
   article {
     ul,
     blockquote {
@@ -12,7 +12,7 @@
     }
   }
 
-  .companies {
+  .projects {
     @supports (display: grid) {
       .auto-grid {
         grid-gap: 1em;
