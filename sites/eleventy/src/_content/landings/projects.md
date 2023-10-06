@@ -94,11 +94,37 @@ date: 2023-10-06T11:43:00
       We got Bruce in to to help us develop a front-end boilerplate / component library as we were inundated with projects and needed a safe pair of hands that could help us achieve quality results with minimal supervision. Bruce delivered a high-quality framework that ticks all of the boxes for us. And to top it all he’s a great guy to work with, highly professional, he gets on well with everyone and really cares about his work. I would not hesitate to hire Bruce again.
     {%- endcall %}
     </li>
+  </ul>
+</section>
+
+---
+
+<section aria-labelledby="expertise" class="expertise | flow">
+  <h2 id="expertise" tabindex="-1">The type of work I do <a class="header-anchor" href="#expertise">#</a></h2>
+  <ul role="list" class="auto-grid | no-list">
     <li>
-    {% from "components/core/blockquotes/blockquotes.njk" import blockquote %}
-    {%- call blockquote('Roger Matthews, Head of System Development and Administration, Macmillan Cancer Support') -%}
-      Bruce is great addition to any team, a great personality who requires minimal management and produces accurate and attractive output. He keeps up to date with the latest techniques and is happy to share those skills with others. I wouldn't hesitate in giving Bruce another opportunity when one arises.
-    {%- endcall %}
+      <article>
+        <header>
+          <h3>Brand identity</h3>
+          <p>Always with one eye on creating a holistic experience, I relish the opportunity to help new companies develop their identity, be that by creating a recognisable mark or by developing a broader branding system.</p>
+        </header>
+      </article>
+    </li>
+    <li>
+      <article>
+        <header>
+          <h3>Front-end development</h3>
+          <p>An advocate of developing services that are fast and accessible to all, I employ pragmatic front-end architectures that progressively enhance semantic HTML with maintainable CSS and unobtrusive JavaScript.</p>
+        </header>
+      </article>
+    </li>
+    <li>
+      <article>
+        <header>
+          <h3>Interaction design</h3>
+          <p>In looking to create engaging, cohesive and usable experiences, I can take the development of a product from initial conception through to prototyping, usability testing and design implementation.</p>
+        </header>
+      </article>
     </li>
   </ul>
 </section>

@@ -12,7 +12,8 @@
     }
   }
 
-  .projects {
+  .projects,
+  .expertise {
     @supports (display: grid) {
       .auto-grid {
         grid-gap: 1em;
