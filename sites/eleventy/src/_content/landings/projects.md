@@ -4,8 +4,8 @@ title: "Projects"
 summary: "Some projects I've done along the way."
 # Populates the opening / `lead` text on a page
 lead:
-  - User-centricity is very important to me. In other words, I strive to create web experiences that look and work well on any device that can connect to the internet, while also taking user needs and business goals into account.
-  - Think I may be able to help with your next project? <a href="/contact">Get in touch</a>.
+  - I help businesses build web solutions that are user-friendly, responsive, accessible, resilient, and as future-friendly as possible.
+  - Need some help with your next project? <a href="/contact">Get in touch</a>.
 
 bodyClass: "projects-home"
 
@@ -128,9 +128,3 @@ date: 2023-10-06T11:43:00
     </li>
   </ul>
 </section>
-
----
-
-## Need a copy of my CV?
-
-<a href="/BruceTaylorCV" class="button button--primary">Download my CV</a>
