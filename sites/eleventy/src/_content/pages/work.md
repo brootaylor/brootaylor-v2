@@ -1,15 +1,15 @@
 ---
 title: "Work"
 # Populates the `meta description` for a page
-summary: "User-centricity is very important to me. In other words, I strive to create web experiences that look and work well on any device that can connect to the internet, while also taking user needs and business goals into account."
+summary: "I help businesses build web solutions that are user-friendly, responsive, accessible, resilient, and as future-friendly as possible."
 # Populates the opening / `lead` text on a page
 lead:
-  - User-centricity is very important to me. In other words, I strive to create web experiences that look and work well on any device that can connect to the internet, while also taking user needs and business goals into account.
-  - Think I may be able to help with your next project? <a href="/contact">Get in touch</a>.
+  - I help businesses build web solutions that are user-friendly, responsive, accessible, resilient, and as future-friendly as possible.
+  - Need some help with your next project? <a href="/contact">Get in touch</a>.
 
 bodyClass: "work"
 
-date: 2023-08-11T15:58:00
+date: 2023-10-13T12:15:00
 ---
 
 <section aria-labelledby="work-current" class="companies | flow">
@@ -300,17 +300,5 @@ date: 2023-08-11T15:58:00
       We got Bruce in to to help us develop a front-end boilerplate / component library as we were inundated with projects and needed a safe pair of hands that could help us achieve quality results with minimal supervision. Bruce delivered a high-quality framework that ticks all of the boxes for us. And to top it all he’s a great guy to work with, highly professional, he gets on well with everyone and really cares about his work. I would not hesitate to hire Bruce again.
     {%- endcall %}
     </li>
-    <li>
-    {% from "components/core/blockquotes/blockquotes.njk" import blockquote %}
-    {%- call blockquote('Roger Matthews, Head of System Development and Administration, Macmillan Cancer Support') -%}
-      Bruce is great addition to any team, a great personality who requires minimal management and produces accurate and attractive output. He keeps up to date with the latest techniques and is happy to share those skills with others. I wouldn't hesitate in giving Bruce another opportunity when one arises.
-    {%- endcall %}
-    </li>
   </ul>
 </section>
-
----
-
-## Need a copy of my CV?
-
-<a href="/BruceTaylorCV" class="button button--primary">Download my CV</a>

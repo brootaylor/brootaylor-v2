@@ -34,6 +34,10 @@
     @supports (display: grid) {
       .auto-grid {
         grid-gap: 2em;
+
+        @include min-width($breakpoint-small) {
+          --auto-grid-min-size: 23rem;
+        }
       }
     }
   }
