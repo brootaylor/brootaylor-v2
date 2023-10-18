@@ -1,15 +1,9 @@
 ---
 title: 'The "Climate Crisis": What to Make of It?'
-summary: In these times of being constantly overwhelmed by the deluge of
-  information, I'm finding it trickier than ever to discern the true motivations
-  and intentions behind what is presented as fact, with one such topic being the
-  "climate crisis."
-lead: In these times of being constantly overwhelmed by the deluge of
-  information, I'm finding it trickier than ever to discern the true motivations
-  and intentions behind what is presented as fact, with one such topic being the
-  "<strong>climate crisis</strong>."
+summary: In these times of being constantly overwhelmed by the deluge of information, I'm finding it trickier than ever to discern the true motivations and intentions behind what is presented as fact, with one such topic being the "climate crisis."
+lead: In these times of being constantly overwhelmed by the deluge of information, I'm finding it trickier than ever to discern the true motivations and intentions behind what is presented as fact, with one such topic being the "<strong>climate crisis</strong>."
 date: 2023-05-31T12:28:37.952Z
-updated: 2023-06-03T16:32:37.952Z
+updated: 2023-10-18T11:45:37.952Z
 location:
   locality: Crawley
   country_name: UK
@@ -29,6 +23,7 @@ category:
   - future
 eleventyExcludeFromCollections: false
 ---
+
 Like many others, I am concerned about what I read and experience. The information, coupled with my own daily observations, seems to confirm the existence of our [current climate crisis](https://climate.nasa.gov/).
 
 However, [there are others who argue that there is no crisis at all](https://www.aei.org/carpe-diem/there-is-no-climate-emergency-say-500-experts-in-letter-to-the-united-nations/). They claim that the mainstream information is incorrect; and that the data is not being presented truthfully or responsibly. According to them, human impact on our climate is insignificant and inconsequential. These individuals believe that organisations like the <abbr title="The Intergovernmental Panel on Climate Change.">[IPCC](https://www.ipcc.ch/)</abbr> primarily serve as a platform for the political agendas of countries and other powerful interests.
@@ -61,5 +56,8 @@ I certainly don't claim to have any answers, but I've learnt a lot from these bo
 * [Abrupt Climate Change from Arctic to Antarctic: Facts, Opinions, and Analysis](https://paulbeckwith.net/) &mdash; *Paul Beckwith*
 * [Faster than Forecast: the story ice tells about abrupt climate change](https://www.sila.cool/book-faster-than-forecast/) — *Jason Box*
 * [What’s going on with the Greenland ice sheet? It’s losing ice faster than forecast and now irreversibly committed to at least 10 inches of sea level rise](https://theconversation.com/whats-going-on-with-the-greenland-ice-sheet-its-losing-ice-faster-than-forecast-and-now-irreversibly-committed-to-at-least-10-inches-of-sea-level-rise-185590) &mdash; *Alun Hubbard*
+* [Why action on the climate crisis is all hot air](https://jonathancook.substack.com/p/why-action-on-the-climate-crisis) &mdash; *Jonathan Cook*
+* [We’re rearranging the deck chairs on the Titanic. Don’t ask me to help out](https://www.jonathan-cook.net/blog/2023-09-10/rearranging-deck-chairs-titanic/) &mdash; *Jonathan Cook*
+* [Treading Thin Air](https://www.lrb.co.uk/the-paper/v45/n17/geoff-mann/treading-thin-air) &mdash; *Geoff Mann*
 * [An Inconvenient Apocalypse: Environmental Collapse, Climate Crisis, and the Fate of Humanity](https://robertwjensen.org/books/an-inconvenient-apocalypse/) &mdash; *Wes Jackson & Robert Jensen*
 * [Breaking Together — a freedom-loving response to collapse](https://jembendell.com/2023/04/08/breaking-together-a-freedom-loving-response-to-collapse/) &mdash; *Jem Bendell*
