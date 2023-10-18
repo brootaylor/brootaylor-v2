@@ -8,7 +8,8 @@
 .notes,
 .bookmarks,
 .writing,
-.offline {
+.offline,
+.not-found {
   &__list-item {
     border-bottom: 2px solid var(--grey-light);
     padding-bottom: 1em;
