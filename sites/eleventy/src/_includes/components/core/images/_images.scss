@@ -38,6 +38,7 @@ figure {
 // Alignment rules for figure and image elements...
 .img-left,
 .fig-left {
+  margin-inline: auto;
   margin-block-end: 1em;
 
   @include min-width($breakpoint-medium) {
@@ -49,6 +50,7 @@ figure {
 
 .img-right,
 .fig-right {
+  margin-inline: auto;
   margin-block-end: 1em;
 
   @include min-width($breakpoint-medium) {
@@ -77,8 +79,7 @@ figure {
   }
 }
 
-// To add a dropshadow
-.shadow {
-  border: 0.8rem solid var(--white);
-  box-shadow: 1px 1px 4px -1px rgb($black, 0.3);
+// To make image into a circle
+.img-circle {
+  border-radius: 50%;
 }

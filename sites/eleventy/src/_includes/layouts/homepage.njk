@@ -14,6 +14,9 @@
 {% block content %}
 	<article class="wrapper | flow">
 
+		{# Profile pic #}
+		<img src="/assets/images/pages/home/broo_profile_home.jpg" alt="Profile headshot of myself, Bruce Taylor." width="767" height="767" class="profile | img-right | img-circle">
+
 		{# This `title` comes from the front matter in the relevant `.md` file - within the `pages` directory #}
 		{% if title %}
 			<h1>{{ title | safe }}</h1>
