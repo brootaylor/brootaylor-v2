@@ -11,9 +11,14 @@ lead:
 # Page-specific metadata content added to the `<head>`
 head: "
   <style>
-    @media screen and (max-width: 48rem) {
+    .profile {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    @media screen and (min-width: 48rem) {
       .profile {
-        width: 300px;
+        max-width: 250px;
       }
     }
   </style>
