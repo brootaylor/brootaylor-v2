@@ -12,7 +12,6 @@ lead:
 head: "
   <style>
     .profile {
-        width: 100%;
         max-width: 300px;
     }
 
