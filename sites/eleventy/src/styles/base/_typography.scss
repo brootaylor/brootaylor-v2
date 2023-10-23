@@ -327,6 +327,8 @@ article {
       font-size: clamp(#{convert-to-rem(20px)}, 2.5vw, #{convert-to-rem(26px)});
     }
 
+    text-wrap: balance;
+
     // An <hr> that's a sibling of the `lead` element
     + hr {
       max-width: 90%;

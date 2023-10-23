@@ -1,0 +1,21 @@
+/// Drop shadow utility class placeholder.
+///
+/// Use the `.shadow` class on any element
+///
+/// @group Utility Classes
+///
+/// @example scss - Sass Usage
+///   .shadow {
+///     @extend %shadow;
+///   }
+
+%shadow {
+  border: 0.8rem solid var(--white);
+  box-shadow: 1px 1px 4px -1px rgb(0, 0, 0, 0.3);
+}
+
+// Drop shadow utility class
+// Using the `%shadow` placeholder
+.shadow {
+  @extend %shadow;
+}

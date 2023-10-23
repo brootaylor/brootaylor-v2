@@ -9,13 +9,19 @@ lead:
   - I build websites and have been doing so for around two decades. I specialise in the “<a href="https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/"><em>front-of-the-front-end</em></a>”, the somewhat broad and fuzzy intersection between design and back-end engineering.
 
 # Page-specific metadata content added to the `<head>`
-# head: "
-#   <style>
-#     body {
-#       font-size: 1rem;
-#     }
-#   </style>
-# "
+head: "
+  <style>
+    .profile {
+        max-width: 300px;
+    }
+
+    @media screen and (min-width: 48rem) {
+      .profile {
+        max-width: 250px;
+      }
+    }
+  </style>
+"
 
 # Page-specific JS added just before the closing `</body>`
 # foot: "
@@ -30,7 +36,7 @@ bodyClass: "homepage"
 
 permalink: "/index.html"
 
-date: 2023-10-04T15:43:00
+date: 2023-10-20T14:19:00
 
 priority: 1
 ---
