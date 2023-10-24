@@ -1,7 +1,6 @@
 ---
 title: JavaScript Is Enabled by Default in Web Browsers
-summary: Browsers don’t turn off Javascript by default. And you don’t have to
-  either. What’s important to note is that web experiences can work without it.
+summary: Browsers don’t turn off Javascript by default. And you don’t have to either. What’s important to note is that web experiences can work without it.
 bookmarkExternal: https://blog.jim-nielsen.com/2023/javascript-is-enabled-by-default/
 bookmarkLabel: blog.jim-nielsen.com
 bookmarkAuthor: Jim Nielsen
@@ -15,19 +14,15 @@ category:
   - tech
   - browser
   - javascript
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 ---
 
-I like what [Michelle Barker has written here](https://developer.mozilla.org/en-US/blog/introduction-to-web-sustainability/):
+If you haven't come across [Jim Nielsen's blog](https://blog.jim-nielsen.com/) yet, then there's no better time to start.
 
-> You might think that any individual effort to reduce the web’s environmental impact is a drop in the ocean. But as tech workers, we are in a position of relative power compared to other industries. We build products that might be used by thousands, even millions of users. Any improvements we make have the potential for a vast impact when scaled up to that level.
+I love what he says in [this article](https://blog.jim-nielsen.com/2023/javascript-is-enabled-by-default/):
 
-{% from "components/core/images/images.njk" import imageNormal %}
-{{ imageNormal(
-  "/assets/images/posts/bookmarks/web-sustainability-screenshot.png",
-  "A screenshot of the MDN's Blog page on web sustainability",
-  "1200",
-  "630",
-  false,
-  "shadow")
-}}
+> Browsers don’t turn off Javascript by default. And you don’t have to either. What’s important to note is that web experiences can work without it (or before it).
+>
+> Building in layers of technology (HTML, CSS, JS — [in that order](https://blog.jim-nielsen.com/2023/meaning-in-web-tech-stack-ordering/)) is how the web is designed to work. It breeds resiliency.
+>
+> URLs lead to HTML which leads to CSS and JS. Start at the bottom layer and build up, ensuring new layers enhance on the layers beneath them and core functionality remains working if the technology breaks at any layer.
