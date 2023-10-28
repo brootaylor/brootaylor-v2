@@ -35,14 +35,6 @@ Don't get me wrong, JavaScript frameworks certainly have their place and I think
 
 ---
 
-## Am I a designer?
-
-While I can design and do love the design side of things, I'm not a designer per se.
-
-These days, my role often involves collaborating with designers to ensure that the design translates as well as it can into the browser &mdash; regardless of the end user's context and how they *choose* to navigate the web interface (eg. screen reader, mobile phone, browser of choice, etc.).
-
----
-
 ## Webby stuff I'm enjoying
 
 [Eleventy](https://www.11ty.io/), [Astro](https://astro.build/), [Svelte](https://svelte.dev/), [Preact](https://preactjs.com/), [Vite](https://vitejs.dev/), [Netlify](https://www.netlify.com/), [Netlify CMS](https://www.netlifycms.org/), [Fractal](https://fractal.build/), [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) animation using [GreenSock](https://greensock.com/), and [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components) are proving really enjoyable to work with and have restored some of the magic of building websites again.
