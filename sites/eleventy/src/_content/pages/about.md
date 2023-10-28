@@ -8,7 +8,7 @@ lead:
 
 bodyClass: "about"
 
-date: 2023-10-20T15:09:00
+date: 2023-10-28T11:20:00
 ---
 
 Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking and wild camping in the mountains, staring up at the stars, canoeing, fishing and sport. That certainly feels like quite some time ago now!
