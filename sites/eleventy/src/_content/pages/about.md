@@ -8,7 +8,7 @@ lead:
 
 bodyClass: "about"
 
-date: 2023-10-20T15:09:00
+date: 2023-10-28T11:20:00
 ---
 
 Before I ever touched a computer, my life revolved around teasing cows, off-road motorbiking, hiking and wild camping in the mountains, staring up at the stars, canoeing, fishing and sport. That certainly feels like quite some time ago now!
@@ -32,14 +32,6 @@ From time to time, you’ll also find me with my hands in the “*back-of-the-fr
 I try my best to build web solutions that are [resilient](https://resilientwebdesign.com/), [usable](https://trentwalton.com/2014/03/10/device-agnostic/) and as future-friendly as possible. For this reason I *prefer* a vanilla approach and tend to be fairly tech-agnostic. Choosing the *right* tool for the job seems to be a better approach than using a framework for the sake of it. {.call-out}
 
 Don't get me wrong, JavaScript frameworks certainly have their place and I think they can be wonderfully powerful tools when we keep the end user in mind &mdash; rather than *only* prioritising the developer experience. At the moment I'm not sure we're getting that balance quite right.
-
----
-
-## Am I a designer?
-
-While I can design and do love the design side of things, I'm not a designer per se.
-
-These days, my role often involves collaborating with designers to ensure that the design translates as well as it can into the browser &mdash; regardless of the end user's context and how they *choose* to navigate the web interface (eg. screen reader, mobile phone, browser of choice, etc.).
 
 ---
 
