@@ -39,7 +39,7 @@
     "deploy:build": "cross-env NODE_ENV=production npm run build",
     "postbuild": "npm run postcss",
     "netlify-build": "ntl build",
-    "netlify-dev": "ntl dev",
+    "netlify-dev": "ntl dev --debug",
     "netlify-dev:live": "ntl dev --live",
     "netlify-cms:local": "npx netlify-cms-proxy-server",
     "netlify-deploy:draft": "ntl deploy",
@@ -69,7 +69,7 @@
     "html-minifier": "^4.0.0",
     "json-to-scss": "^1.6.2",
     "lodash": "^4.17.21",
-    "luxon": "^3.4.3",
+    "luxon": "^3.4.4",
     "markdown-it": "^13.0.2",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-anchor": "^8.6.7",
@@ -95,6 +95,6 @@
     "minami": "^1.2.3",
     "netlify-cli": "^15.10.0",
     "onchange": "^7.1.0",
-    "prettier": "^3.0.3"
+    "prettier": "^3.1.0"
   }
 }
