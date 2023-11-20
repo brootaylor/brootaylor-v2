@@ -40,11 +40,11 @@
 # Dev settings: (Used when running local Netlify dev server)
 [dev]
   command = "npm run watch"
-  targetPort = 8080 # The port for my application server, framework or site generator
   port = 8888 # Declaring port for netlify dev server to use when running the `npm run watch` command
+  targetPort = 8080 # The port for my application server, framework or site generator
   publish = "dist" # The path to my static content folder
   autoLaunch = true # A boolean value that determines if Netlify Dev launches the local server address in the browser
-  envFiles = [".env"] # The env files to use, ordered by priority (left - highest, right - lowest)
+  # envFiles = [".env"] # The env files to use, ordered by priority (left - highest, right - lowest)
 
 
 ##############################
