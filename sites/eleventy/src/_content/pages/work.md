@@ -9,7 +9,7 @@ lead:
 
 bodyClass: "work"
 
-date: 2023-10-13T12:15:00
+date: 2023-11-23T11:55:00
 ---
 
 <section aria-labelledby="work-current" class="companies | flow">
@@ -20,15 +20,15 @@ date: 2023-10-13T12:15:00
         <div class="card__content">
           <header class="card__header">
             <h3 class="card__title">
-              <a href="https://uxbri.org">UX Brighton</a>
+              <a href="https://www.hugoandcat.com">Hugo & Cat</a>
             </h3>
-            <span class="date-time">Year: 2022 &ndash; present <small>(freelance)</small></span>
+            <span class="date-time">October 2023 &ndash; present <small>(contract)</small></span>
           </header>
           <div class="card__body | flow">
             <ul class="flow">
-              <li>Enhancing and optimising their user interface, overall website experience, developer experience, content management workflow, search and <abbr title="Search Engine Optimisation.">SEO</abbr>.</li>
-              <li>Rebuilt the <a href="https://uxbri.org/jobs">UX Brighton job board</a> so it renders as a <abbr title="Multiple Page Application.">MPA</abbr> rather than a <abbr title="Single Page Application.">SPA</abbr>.</li>
-              <li>Built logic to dynamically include valid <code>JobPosting</code> and <code>Event</code> <a href="https://developers.google.com/search/docs/appearance/structured-data ">structured schema data</a> in every job & event page at build time &mdash; and automatically notify Google of these changes.</li>
+              <li>Working with Hugo & Cat to build a web offering for one of their clients, ECARX, that requires a large amount of animation and interactivity.</li>
+              <li>It’s an Umbraco based website with a Storybook component library that feeds into the site build.</li>
+              <li>Mostly focussing on the frontend build of the site, using HTML, SCSS / CSS, JavaScript, GSAP, Handlebars and Storybook.</li>
             </ul>
           </div>
         </div>
@@ -39,12 +39,16 @@ date: 2023-10-13T12:15:00
         <div class="card__content">
           <header class="card__header">
             <h3 class="card__title">
-              <a href="https://github.com/brootaylor">Personal projects</a>
+              <a href="https://uxbri.org">UX Brighton</a>
             </h3>
+            <span class="date-time">February 2022 &ndash; present <small>(freelance)</small></span>
           </header>
           <div class="card__body | flow">
-            <p>I'm often <em>playing</em> around with something webby. Whether it's enhancements to my personal website or familiarising myself with a new bit of tech.</p>
-            <p><a href="https://github.com/brootaylor">Visit my GitHub</a> to see what I'm working on.</p>
+            <ul class="flow">
+              <li>Enhancing and optimising their user interface, overall website experience, developer experience, content management workflow, search and <abbr title="Search Engine Optimisation.">SEO</abbr>.</li>
+              <li>Rebuilt the <a href="https://uxbri.org/jobs">UX Brighton job board</a> so it renders as a <abbr title="Multiple Page Application.">MPA</abbr> rather than a <abbr title="Single Page Application.">SPA</abbr>.</li>
+              <li>Built logic to dynamically include valid <code>JobPosting</code> and <code>Event</code> <a href="https://developers.google.com/search/docs/appearance/structured-data ">structured schema data</a> in every job & event page at build time &mdash; and automatically notify Google of these changes.</li>
+            </ul>
           </div>
         </div>
       </article>
