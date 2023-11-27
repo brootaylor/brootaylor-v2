@@ -9,7 +9,7 @@ lead:
 
 bodyClass: "work"
 
-date: 2023-11-24T10:53:00
+date: 2023-11-27T09:56:00
 ---
 
 <section aria-labelledby="work-current" class="companies | flow">
@@ -26,9 +26,9 @@ date: 2023-11-24T10:53:00
           </header>
           <div class="card__body | flow">
             <ul class="flow">
-              <li>Working with Hugo & Cat to build a web offering for one of their clients, ECARX, that requires a large amount of animation and interactivity.</li>
-              <li>An Umbraco based website with a Storybook component library that feeds into the site build.</li>
-              <li>Mostly focussed on the frontend build of the site, using HTML, SCSS / CSS, JavaScript, GSAP, Handlebars and Storybook.</li>
+              <li>Building a website for one of Hugo & Cat’s clients, ECARX, that requires a large amount of animation and interactivity.</li>
+              <li>Umbraco based website with a Storybook component library that feeds into the site build.</li>
+              <li>Frontend build of the site, using HTML, SCSS / CSS, JavaScript, GSAP, Handlebars and Storybook.</li>
             </ul>
           </div>
         </div>
