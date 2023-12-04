@@ -8,7 +8,7 @@ lead:
 
 bodyClass: "reading"
 
-date: 2023-11-20T11:30:00
+date: 2023-12-04T10:23:00
 ---
 
 Because I've never kept a list of my reads, I've ended up creating a bit of a challenge for myself that's for sure. Trying to recall books I've read and enjoyed feels like a bit of a daunting task but I'm keen to at least make a stab at it.
@@ -21,7 +21,7 @@ Books on the go at the moment.
 
 *Made sure there's a dose of fantasy in my current read list. Mostly to help 'balance' and process the other reads I've got on the go.* 😬 {.call-out}
 
-* [Ascendant, Songs of Chaos Series](https://www.michaelrmiller.co.uk/ascendent) &mdash; *(book 1 of 3)*, *Michael R. Miller*
+* [Last Stand of the Stone Fist](https://www.goodreads.com/book/show/57303684-last-stand-of-the-stone-fist) &mdash; *Michael R. Miller*
 * [Breaking Together &mdash; a freedom-loving response to collapse](https://jembendell.com/2023/04/08/breaking-together-a-freedom-loving-response-to-collapse/), *Jem Bendell*
 * [An Inconvenient Apocalypse: Environmental Collapse, Climate Crisis, and the Fate of Humanity](https://robertwjensen.org/books/an-inconvenient-apocalypse/) &mdash; *Wes Jackson*, *Robert Jensen*
 * [Overshoot: The Ecological Basis of Revolutionary Change](https://www.goodreads.com/en/book/show/319810.Overshoot), *William R. Catton*
@@ -30,10 +30,9 @@ Books on the go at the moment.
 
 ## Next reads&hellip; *maybe*
 
-* [Last Stand of the Stone Fist](https://www.goodreads.com/book/show/57303684-last-stand-of-the-stone-fist) &mdash; *Michael R. Miller*
 * [Unbound, Songs of Chaos Series](https://www.michaelrmiller.co.uk/unbound) &mdash; *(book 2 of 3)*, *Michael R. Miller*
 * [Defiant, Songs of Chaos Series](https://www.michaelrmiller.co.uk/defiant) &mdash; *(book 3 of 3)*, *Michael R. Miller*
-* [The Huntress: A Dragon's Blad Story](https://www.goodreads.com/book/show/202118340-the-huntress) &mdash; *Michael R. Miller*
+* [The Huntress: A Dragon's Blade Story](https://www.goodreads.com/book/show/202118340-the-huntress) &mdash; *Michael R. Miller*
 * [A Time of Dragons](https://www.philipcquaintrell.com/atimeofdragons) &mdash; *(book 2&hellip; when it's released)*, *Philip C. Quaintrell*
 * [The Mountain in the Sea](https://www.goodreads.com/en/book/show/59808603), *Ray Nayler*
 * [The Bound and the Broken Series](https://www.goodreads.com/series/309359-the-bound-and-the-broken) &mdash; *(5 books)*, *Ryan Cahill*
@@ -51,6 +50,7 @@ Selection of books I've read. But more importantly, enjoyed and would therefore 
 
 *I'll be adding to this section as and when I remember any books I've read &mdash; cause it certainly is a little lean at the moment.* {.call-out}
 
+* [Ascendant, Songs of Chaos Series](https://www.michaelrmiller.co.uk/ascendent) &mdash; *(book 1 of 3)*, *Michael R. Miller*
 * [A Time of Dragons](https://www.philipcquaintrell.com/atimeofdragons) &mdash; *(book 1)*, *Philip C. Quaintrell*
 * [The Ranger Archives](https://www.philipcquaintrell.com/the-ranger-archives) &mdash; *(3 books)*, *Philip C. Quaintrell*
 * [Opening Men's Eyes](https://www.goodreads.com/book/show/10105541-opening-men-s-eyes), *Michael Cardo*
