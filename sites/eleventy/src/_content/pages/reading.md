@@ -8,7 +8,7 @@ lead:
 
 bodyClass: "reading"
 
-date: 2023-12-04T11:18:00
+date: 2023-12-13T16:50:00
 ---
 
 Because I've never kept a list of my reads, I've ended up creating a bit of a challenge for myself that's for sure. Trying to recall books I've read and enjoyed feels like a bit of a daunting task but I'm keen to at least make a stab at it.
@@ -21,7 +21,7 @@ Books on the go at the moment.
 
 *I always try to include a dose of fantasy in my current read list. Mostly to help 'balance' and process the other reads I've got on the go.* 😬 {.call-out}
 
-* [Last Stand of the Stone Fist](https://www.goodreads.com/book/show/57303684-last-stand-of-the-stone-fist) &mdash; *Michael R. Miller*
+* [Unbound, Songs of Chaos Series](https://www.michaelrmiller.co.uk/unbound) &mdash; *(book 2 of 3)*, *Michael R. Miller*
 * [Breaking Together &mdash; a freedom-loving response to collapse](https://jembendell.com/2023/04/08/breaking-together-a-freedom-loving-response-to-collapse/), *Jem Bendell*
 * [An Inconvenient Apocalypse: Environmental Collapse, Climate Crisis, and the Fate of Humanity](https://robertwjensen.org/books/an-inconvenient-apocalypse/) &mdash; *Wes Jackson*, *Robert Jensen*
 * [Overshoot: The Ecological Basis of Revolutionary Change](https://www.goodreads.com/en/book/show/319810.Overshoot), *William R. Catton*
@@ -30,7 +30,6 @@ Books on the go at the moment.
 
 ## Next reads&hellip; *maybe*
 
-* [Unbound, Songs of Chaos Series](https://www.michaelrmiller.co.uk/unbound) &mdash; *(book 2 of 3)*, *Michael R. Miller*
 * [Defiant, Songs of Chaos Series](https://www.michaelrmiller.co.uk/defiant) &mdash; *(book 3 of 3)*, *Michael R. Miller*
 * [The Huntress: A Dragon's Blade Story](https://www.goodreads.com/book/show/202118340-the-huntress) &mdash; *Michael R. Miller*
 * [A Time of Dragons](https://www.philipcquaintrell.com/atimeofdragons) &mdash; *(book 2&hellip; when it's released)*, *Philip C. Quaintrell*
@@ -50,6 +49,7 @@ Selection of books I've read. But more importantly, enjoyed and would therefore 
 
 *I'll be adding to this section as and when I remember any books I've read &mdash; cause it certainly is a little lean at the moment.* {.call-out}
 
+* [Last Stand of the Stone Fist](https://www.goodreads.com/book/show/57303684-last-stand-of-the-stone-fist) &mdash; *Michael R. Miller*
 * [Ascendant, Songs of Chaos Series](https://www.michaelrmiller.co.uk/ascendent) &mdash; *(book 1 of 3)*, *Michael R. Miller*
 * [A Time of Dragons](https://www.philipcquaintrell.com/atimeofdragons) &mdash; *(book 1)*, *Philip C. Quaintrell*
 * [The Ranger Archives](https://www.philipcquaintrell.com/the-ranger-archives) &mdash; *(3 books)*, *Philip C. Quaintrell*
