@@ -1,7 +1,6 @@
 <span class="site-logo">
 	<a href="/"
 		{% if (page.url | pretty) == "/" %} aria-describedby="current-page" class="current"{% endif %}
-		{% if (page.url | pretty) !== "/" %} aria-label="Return to the homepage."{% endif %}
 		>
 		<span class="site-logo__name">{{ site.name }}{% if (page.url | pretty) == "/" %}<span class="visually-hidden">'s homepage</span>{% endif %}</span>
 	</a>
