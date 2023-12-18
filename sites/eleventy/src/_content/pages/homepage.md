@@ -37,12 +37,12 @@ bodyClass: "homepage"
 
 permalink: "/index.html"
 
-date: 2023-11-24T10:56:00
+date: 2023-12-18T17:52:00
 
 priority: 1
 ---
 
-From time to time, you’ll also find me with my hands in the “*back-of-the-front-end*” &mdash; playing with Node.js, configuring an API, fiddling with JavaScript bundlers, <abbr title="Static site generators.">SSG's</abbr> and web frameworks ([11ty](https://www.11ty.dev/), [Astro](https://astro.build/) & [Svelte](https://svelte.dev/)), and trying my best to streamline build and deployment processes to help boost frontend development efficiency.
+I'm quite good at picking up new skills and programming languages, as well as problem solving. My skill set is fairly diverse, encompassing HTML, CSS, JavaScript, responsive & device-agnostic web design, themeable design system configuration, Progressive Web Apps (**PWA**), Static Site Generation (**SSG**), web performance optimisation, and web accessibility.
 
 I find I’m well suited to and ***enjoy roles that balance the user & developer experiences***, empowering teams to write great code in a way that feels right to them while ensuring a positive user experience. {.call-out}
 
