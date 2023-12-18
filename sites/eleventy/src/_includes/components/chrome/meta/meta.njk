@@ -43,19 +43,8 @@
 {# Displaying the version of Eleventy used to generate this website #}
 <meta name="generator" content="{{ eleventy.generator }}">
 
-<!-- Preloading styles & fonts... -->
 {# Styles (pre-load)... #}
 <link rel="preload" as="style" href="/styles/main.css?version={{ pkg.version }}.{{ site.timeCurrent }}">
-
-{# Fonts (pre-load)... #}
-<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/open-sans/open-sans-v18-latin-300.woff2" crossorigin>
-<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/open-sans/open-sans-v18-latin-300italic.woff2" crossorigin>
-<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/open-sans/open-sans-v18-latin-regular.woff2" crossorigin>
-<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/open-sans/open-sans-v18-latin-italic.woff2" crossorigin>
-<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/open-sans/open-sans-v18-latin-700.woff2" crossorigin>
-<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/open-sans/open-sans-v18-latin-700italic.woff2" crossorigin>
-<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/merriweather/merriweather-v22-latin-700.woff2" crossorigin>
-<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/merriweather/merriweather-v22-latin-700italic.woff2" crossorigin>
 
 {# Styles (load) #}
 <link rel="stylesheet" href="/styles/main.css?version={{ pkg.version }}.{{ site.timeCurrent }}">

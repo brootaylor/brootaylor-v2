@@ -1,6 +1,5 @@
 {
-  "base": "\"'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif\"",
-  "title": "\"'Merriweather', serif\"",
-  "secondary": "\"'Georgia', serif\"",
-  "code": "\"'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace\""
+  "base": "\"ui-sans-serif, system-ui\"",
+  "secondary": "\"ui-serif, Georgia\"",
+  "code": "\"ui-monospace, 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace\""
 }
