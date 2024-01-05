@@ -124,7 +124,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   line-height: 1.3;
   text-wrap: balance;
 }
@@ -191,6 +192,7 @@ pre {
   // Fallback for older browsers
   font-size: convert-to-rem(18px);
   max-width: 65ch;
+  text-wrap: pretty; // Prevents orphans & widows (eg. a single word on a line by itself)
 
   // Browsers supporting `clamp()`
   @supports (font-size: clamp(18px, 1.9vw, 22px)) {

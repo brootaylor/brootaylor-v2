@@ -25,6 +25,11 @@ ol[role="list"] {
   list-style: none;
 }
 
+html {
+  hanging-punctuation: first last; // https://developer.mozilla.org/en-US/docs/Web/CSS/hanging-punctuation
+  color-scheme: dark light; // dark mode support for user agents that support it (https://developer.mozilla.org/en-US/docs/Web/CSS/color-scheme)
+}
+
 /* Set core root defaults */
 html:focus-within {
   scroll-behavior: smooth;
@@ -69,5 +74,13 @@ select {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+}
+
+/* If no preference for reduced motion, enable smooth scrolling */
+@media (prefers-reduced-motion: no-preference) {
+  :has(:target) {
+    scroll-behavior: smooth;
+    scroll-padding-top: 3rem;
   }
 }
