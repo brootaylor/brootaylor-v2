@@ -37,14 +37,12 @@ bodyClass: "homepage"
 
 permalink: "/index.html"
 
-date: 2023-12-18T17:52:00
+date: 2024-01-08T12:21:00
 
 priority: 1
 ---
 
-I'm quite good at picking up new skills and programming languages, as well as problem solving. My skill set is fairly diverse, encompassing HTML, CSS, JavaScript, responsive & device-agnostic web design, themeable design system configuration, Progressive Web Apps (**PWA**), Static Site Generation (**SSG**), web performance optimisation, and web accessibility.
-
-I find I’m well suited to and ***enjoy roles that balance the user & developer experiences***, empowering teams to write great code in a way that feels right to them while ensuring a positive user experience. {.call-out}
+I thrive in roles that ***strike a balance between user and developer experiences***, empowering teams to write great code that aligns with their needs and preferences while ensuring a positive user experience. {.call-out}
 
 Even though I've done this web building thing for a while now, I certainly haven't got it all figured out. I'm still learning and I imagine you are as well.
 
