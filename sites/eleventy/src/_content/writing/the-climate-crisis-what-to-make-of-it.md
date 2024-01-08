@@ -3,7 +3,7 @@ title: 'The "Climate Crisis": What to Make of It?'
 summary: In these times of being constantly overwhelmed by the deluge of information, I'm finding it trickier than ever to discern the true motivations and intentions behind what is presented as fact, with one such topic being the "climate crisis."
 lead: In these times of being constantly overwhelmed by the deluge of information, I'm finding it trickier than ever to discern the true motivations and intentions behind what is presented as fact, with one such topic being the "<strong>climate crisis</strong>."
 date: 2023-05-31T12:28:37.952Z
-updated: 2023-10-18T11:45:37.952Z
+updated: 2024-01-08T20:23:37.952Z
 location:
   locality: Crawley
   country_name: UK
@@ -21,6 +21,8 @@ category:
   - family
   - friends
   - future
+  - love
+  - acceptance
 eleventyExcludeFromCollections: false
 ---
 
@@ -46,18 +48,21 @@ This post is not about me coming up with any answers per se. It’s more about j
 
 ## What I've been reading & watching on this topic
 
-I certainly don't claim to have any answers, but I've learnt a lot from these books, articles, and videos. They've challenged me, moved me, and helped me make some sense of the current events.
+I certainly don't claim to have any answers, but I've learnt a lot from these books, articles, videos and podcasts. They've challenged me, moved me, and helped me make some sense of the current events.
 
 * [Overshoot: The Ecological Basis of Revolutionary Change](https://www.goodreads.com/en/book/show/319810.Overshoot) &mdash; *William R. Catton*
 * [Overshoot: Where We Stand Now](https://howtosavetheworld.ca/2021/09/21/overshoot-where-we-stand-now-guest-post-by-michael-dowd/) &mdash; *Michael Dowd*
 * [The Earth Is Telling Us We Must Rethink Our Growth Society](https://thetyee.ca/Analysis/2020/04/06/The-Earth-Is-Telling-Us-We-Must-Rethink-Our-Growth-Society/) &mdash; *William E. Rees*
 * [Scholars' Oath to the Future](http://iflas.blogspot.com/2022/11/scholars-oath-to-future.html) &mdash; *University of Cumbria*
 * [Al Bartlett discusses population growth, climate change, energy, and consumption](https://youtu.be/F8ZJCtL6bPs) &mdash; *Al Bartlett video interview*
+* [Planet Critical](https://www.planetcritical.com/) &mdash; *Rachel Donald*
 * [Abrupt Climate Change from Arctic to Antarctic: Facts, Opinions, and Analysis](https://paulbeckwith.net/) &mdash; *Paul Beckwith*
 * [Faster than Forecast: the story ice tells about abrupt climate change](https://www.sila.cool/book-faster-than-forecast/) — *Jason Box*
 * [What’s going on with the Greenland ice sheet? It’s losing ice faster than forecast and now irreversibly committed to at least 10 inches of sea level rise](https://theconversation.com/whats-going-on-with-the-greenland-ice-sheet-its-losing-ice-faster-than-forecast-and-now-irreversibly-committed-to-at-least-10-inches-of-sea-level-rise-185590) &mdash; *Alun Hubbard*
 * [Why action on the climate crisis is all hot air](https://jonathancook.substack.com/p/why-action-on-the-climate-crisis) &mdash; *Jonathan Cook*
 * [We’re rearranging the deck chairs on the Titanic. Don’t ask me to help out](https://www.jonathan-cook.net/blog/2023-09-10/rearranging-deck-chairs-titanic/) &mdash; *Jonathan Cook*
+* [Living with GRAC/E (Getting Real About Collapse/Extinction)](https://chickenfoot.substack.com/) &mdash; *Karen Perry*
 * [Treading Thin Air](https://www.lrb.co.uk/the-paper/v45/n17/geoff-mann/treading-thin-air) &mdash; *Geoff Mann*
+* [Climate Uncensored](https://climateuncensored.com/) &mdash; *Kevin Anderson & Dan Calverley*
 * [An Inconvenient Apocalypse: Environmental Collapse, Climate Crisis, and the Fate of Humanity](https://robertwjensen.org/books/an-inconvenient-apocalypse/) &mdash; *Wes Jackson & Robert Jensen*
 * [Breaking Together — a freedom-loving response to collapse](https://jembendell.com/2023/04/08/breaking-together-a-freedom-loving-response-to-collapse/) &mdash; *Jem Bendell*

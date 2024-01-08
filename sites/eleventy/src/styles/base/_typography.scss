@@ -191,7 +191,7 @@ ol,
 pre {
   // Fallback for older browsers
   font-size: convert-to-rem(18px);
-  max-width: 65ch;
+  max-width: 60ch;
   text-wrap: pretty; // Prevents orphans & widows (eg. a single word on a line by itself)
 
   // Browsers supporting `clamp()`
@@ -324,13 +324,12 @@ article {
   p {
     // Fallback for older browsers
     font-size: convert-to-rem(20px);
+    max-width: 55ch;
 
     // Browsers supporting `clamp()`
     @supports (font-size: clamp(20px, 2.5vw, 26px)) {
       font-size: clamp(#{convert-to-rem(20px)}, 2.5vw, #{convert-to-rem(26px)});
     }
-
-    text-wrap: balance;
 
     // An <hr> that's a sibling of the `lead` element
     + hr {
