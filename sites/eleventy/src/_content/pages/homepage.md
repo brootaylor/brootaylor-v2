@@ -6,7 +6,7 @@ summary: "Bruce lives in Crawley, West Sussex, England with his family. He's a F
 
 # Populates the opening / `lead` text on a page
 lead:
-  - I build websites and have been doing so for around two decades. At the moment I'm working with <a href="https://www.hugoandcat.com/">Hugo & Cat</a>.
+  - I build websites and have been doing so for around two decades. I recently worked with <a href="https://www.hugoandcat.com/">Hugo & Cat</a> to deliver a website for one of their clients, ECARX.
   - I specialise in the “<a href="https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/"><em>front-of-the-front-end</em></a>”, the somewhat broad and fuzzy intersection between design and back-end engineering.
 
 # Page-specific metadata content added to the `<head>`
@@ -37,7 +37,7 @@ bodyClass: "homepage"
 
 permalink: "/index.html"
 
-date: 2024-01-08T12:21:00
+date: 2024-01-08T13:26:00
 
 priority: 1
 ---

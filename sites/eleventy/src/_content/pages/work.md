@@ -9,31 +9,12 @@ lead:
 
 bodyClass: "work"
 
-date: 2023-12-28T16:12:00
+date: 2024-01-08T13:12:00
 ---
 
 <section aria-labelledby="work-current" class="companies | flow">
   <h2 id="work-current" tabindex="-1">Currently on the go <a class="header-anchor" href="#work-current">#</a></h2>
   <ul role="list" class="auto-grid | no-list">
-    <li>
-      <article class="card card--stacked call-out">
-        <div class="card__content">
-          <header class="card__header">
-            <h3 class="card__title">
-              <a href="https://www.hugoandcat.com">Hugo & Cat</a>
-            </h3>
-            <span class="date-time">October 2023 &ndash; present <small>(contract)</small></span>
-          </header>
-          <div class="card__body | flow">
-            <ul class="flow">
-              <li>Worked on a website for one of Hugo & Cat’s clients, <a href="https://www.ecarxgroup.com/">ECARX</a>, that required a large amount of animation and interactivity.</li>
-              <li>Umbraco based website with a Storybook component library that feeds into the site build.</li>
-              <li>Frontend build of the site, using HTML, SCSS / CSS, JavaScript, GSAP, Handlebars, Cypress and Storybook.</li>
-            </ul>
-          </div>
-        </div>
-      </article>
-    </li>
     <li>
       <article class="card card--stacked call-out">
         <div class="card__content">
@@ -61,6 +42,25 @@ date: 2023-12-28T16:12:00
 <section aria-labelledby="work-past" class="companies | flow">
   <h2 id="work-past" tabindex="-1">Other people I've worked with <a class="header-anchor" href="#work-past">#</a></h2>
   <ul role="list" class="auto-grid | no-list">
+    <li>
+      <article class="card card--stacked">
+        <div class="card__content">
+          <header class="card__header">
+            <h3 class="card__title">
+              <a href="https://www.hugoandcat.com">Hugo & Cat</a>
+            </h3>
+            <span class="date-time">October 2023 &ndash; December 2023 <small>(contract)</small></span>
+          </header>
+          <div class="card__body | flow">
+            <ul class="flow">
+              <li>Worked on a website for one of Hugo & Cat’s clients, <a href="https://www.ecarxgroup.com/">ECARX</a>, that required a large amount of animation and interactivity.</li>
+              <li>Umbraco based website with a Storybook component library that feeds into the site build.</li>
+              <li>Frontend build of the site, using HTML, SCSS / CSS, JavaScript, GSAP, Handlebars, Cypress and Storybook.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </li>
     <li>
       <article class="card card--stacked">
         <div class="card__content">
